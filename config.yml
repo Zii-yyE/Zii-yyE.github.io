@@ -3,6 +3,30 @@ languageCode: 'en-us'
 title: '王子烨 Ziye Wang '
 theme: 'papermod'
 
+params:
+  defaultTheme: auto 
+  profileMode:
+    enabled: true
+    title: "Hi, I'm Ziye Wang"
+    subtitle: "Undergraduate in Bioinformatics & Mathematics at Peking University"
+    imageUrl: "/me.jpeg"      
+    imageWidth: 180             
+    imageHeight: 180             
+    imageTitle: "My Avatar"
+    buttons:
+      - name: CV
+        url: "/cv.pdf"
+
+  socialIcons:
+    - name: email
+      url: "mailto:zzi_yye@stu.pku.edu.cn"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=your-google-scholar-id"
+    - name: bluesky
+      url: "https://bsky.app/profile/ziiyye.bsky.social"
+
+
+
 markup:
   goldmark:
      renderer:
@@ -17,8 +41,5 @@ menu:
       name: Publications
       url: /publications/
       weight: 2 
-    - identifier: cv
-      name: CV
-      url: /cv/
-      weight: 3 
+
 
