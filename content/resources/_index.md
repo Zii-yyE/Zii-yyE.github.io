@@ -26,7 +26,7 @@ layout: "single"
 
 **[Phyloseminar](https://www.phyloseminar.org/)**: online seminar about phylogenetics and sometimes population genetics
 
-**[SMTPB](https://smtpb.org/)**: Society for Mathematical Theory and Population Biology
+**[SMTPB](https://smtpb.org/)**: Society for Modeling and Theory in Population Biology
 <br>
 
 
