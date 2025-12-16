@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://Zii-yyE.github.io/resources/phylo/</loc>
-  </url><url>
-    <loc>https://Zii-yyE.github.io/resources/popgen/</loc>
-  </url><url>
-    <loc>https://Zii-yyE.github.io/categories/</loc>
-  </url><url>
-    <loc>https://Zii-yyE.github.io/resources/</loc>
-  </url><url>
-    <loc>https://Zii-yyE.github.io/tags/</loc>
-  </url><url>
-    <loc>https://Zii-yyE.github.io/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://Zii-yyE.github.io/english/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://Zii-yyE.github.io/%E4%B8%AD%E6%96%87/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
