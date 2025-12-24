@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Ziye Wang</title>
+    <title>Population Genetics Notes on Ziye Wang</title>
     <link>https://Zii-yyE.github.io/resources/popgen/</link>
-    <description>Recent content on Ziye Wang</description>
+    <description>Recent content in Population Genetics Notes on Ziye Wang</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>english</language>
+    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://Zii-yyE.github.io/resources/popgen/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://Zii-yyE.github.io/resources/popgen/arg/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://Zii-yyE.github.io/resources/popgen/arg/</guid>
-      <description></description>
+      <title>Mutation</title>
+      <link>https://Zii-yyE.github.io/resources/popgen/mutation/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://Zii-yyE.github.io/resources/popgen/mutation/</guid>
+      <description>The capacity to blunder slightly is the real marvel of DNA.</description>
     </item>
   </channel>
 </rss>

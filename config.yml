@@ -84,6 +84,6 @@ languages:
         imageTitle: "我的头像"
         buttons:
           - name: 自我介绍
-            url: "/about/"
+            url: "/中文/about/"
           - name: 简历
             url: "/cv.pdf"

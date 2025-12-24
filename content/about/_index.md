@@ -6,7 +6,7 @@ layout: "single"
 
 # Welcome!
 
-I am Ziye Wang (can be or has been pronounced as "Z yeah wan"), a fourth-year undergraduate at Peking University majoring in Bioinformatics and Mathematics.
+I am Ziye Wang (pronounced as "Z yeah wan"), a fourth-year undergraduate at Peking University majoring in Bioinformatics and Mathematics.
 
 <figure style="text-align: center;">
     <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
@@ -24,9 +24,9 @@ Still far from educated.
 
 ## Research Interest
 
-I am broadly interested in the intersecion of biology and mathematics. The two [seemingly distant fields](https://liorpachter.wordpress.com/2014/12/30/the-two-cultures-of-mathematics-and-biology/) get along pretty well in [population genetics](https://en.wikipedia.org/wiki/Population_genetics) and [phylogenetics](https://en.wikipedia.org/wiki/Phylogenetics), which are my main focus.
+I am broadly interested in the intersecion of biology and mathematics. But my main focus is on **[population genetics](https://en.wikipedia.org/wiki/Population_genetics)** and **[phylogenetics](https://en.wikipedia.org/wiki/Phylogenetics)**, where the two [seemingly distant fields of biology and mathematics](https://liorpachter.wordpress.com/2014/12/30/the-two-cultures-of-mathematics-and-biology/) get along pretty well.
 
-I am particularly excited about developing computational methods that can infer the evolutionary history. The philosophy behind this aligns with William Faulkner's quote, "**The past is never dead. It's not even past**". The way everything looks like now are all shaped by what came before. And therefore we should be able to learn something about the past from the present.
+I am particularly excited about developing computational tools that can infer the evolutionary history. The philosophy behind this aligns with William Faulkner's quote, "**The past is never dead. It's not even past**". The way everything looks like now are all shaped by what came before. And therefore we should be able to learn something about the past from the present.
 
 
 
