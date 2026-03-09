@@ -87,6 +87,9 @@ languages:
           weight: 3
 
     params:
+      author:
+        name: Ziye Wang
+        email: ziyewang0324@gmail.com
       profileMode:
         enabled: true
         title: "王子烨"
