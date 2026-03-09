@@ -1,0 +1,37 @@
+<div style="margin-bottom: 2rem;">
+  <h4 style="margin: 0 0 0.35rem 0; font-size: 1.08em; font-weight: 600; line-height: 1.35; color: var(--primary);">
+    {{ .Get "title" | markdownify }}
+  </h4>
+  
+  {{ with .Get "authors" }}
+  <p style="margin: 0; line-height: 1.55; color: var(--content); font-size: 0.98em;">
+    {{ . | markdownify }}
+  </p>
+  {{ end }}
+  
+  {{ with .Get "journal" }}
+  <p style="margin: 0.2rem 0 0.75rem 0; font-size: 0.93em; color: var(--secondary);">
+    <em>{{ . }}</em>
+  </p>
+  {{ end }}
+  
+  <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; font-size: 0.85em;">
+    {{ with .Get "pdf" }}
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; padding: 0.22rem 0.65rem; border: 1px solid var(--border); border-radius: 999px; color: var(--primary); background-color: var(--code-bg); line-height: 1.4;">
+      PDF
+    </a>
+    {{ end }}
+
+    {{ with .Get "doi" }}
+    <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; padding: 0.22rem 0.65rem; border: 1px solid var(--border); border-radius: 999px; color: var(--primary); background-color: var(--code-bg); line-height: 1.4;">
+      DOI
+    </a>
+    {{ end }}
+    
+    {{ with .Get "code" }}
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; padding: 0.22rem 0.65rem; border: 1px solid var(--border); border-radius: 999px; color: var(--primary); background-color: var(--code-bg); line-height: 1.4;">
+      Code
+    </a>
+    {{ end }}
+  </div>
+</div>

@@ -1,0 +1,103 @@
+baseURL: 'https://Zii-yyE.github.io/'
+defaultContentLanguage: English
+theme: 'papermod'
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - '\['
+            - '\]'
+          - - $$
+            - $$
+          inline:
+          - - '\('
+            - '\)'
+        enable: true
+
+params:
+  defaultTheme: auto 
+  socialIcons:
+    - name: email
+      url: "mailto:ziyewang0324@gmail.com"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=your-google-scholar-id"
+    - name: bluesky
+      url: "https://bsky.app/profile/ziiyye.bsky.social"
+  math: true
+
+languages:
+  English:
+    languageName: "English"
+    weight: 1
+    title: "Ziye Wang"
+    
+    menu:
+      main:
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 1
+        - identifier: resources
+          name: Resources
+          url: /resources/
+          weight: 2  
+        - identifier: publications
+          name: Publications
+          url: /publications/
+          weight: 3
+
+    params:
+      profileMode:
+        enabled: true
+        title: "Ziye Wang"
+        subtitle: "<span style='font-size: 0.9rem; color: grey;'>Evolutionary Genetics, Statistical Genetics</span>"
+        imageUrl: "/me.jpeg"      
+        imageWidth: 180             
+        imageHeight: 180             
+        imageTitle: "My Avatar"
+        buttons:
+          - name: About
+            url: "/about/"
+          - name: CV
+            url: "/cv.pdf"
+
+  中文:
+    languageName: "中文"
+    weight: 2
+    title: "王子烨"
+    
+    menu:
+      main:
+        - identifier: about
+          name: 自我介绍
+          url: /about/
+          weight: 1
+        - identifier: resources
+          name: 资源分享
+          url: /resources/
+          weight: 2  
+        - identifier: publications
+          name: 发表论文
+          url: /publications/
+          weight: 3
+
+    params:
+      profileMode:
+        enabled: true
+        title: "王子烨"
+        subtitle: "北京大学 · 生物信息与数学双学位 · 本科生<br><span style='font-size: 0.9rem; color: grey;'>计算与理论演化，群体遗传，系统发育</span>"
+        imageUrl: "/me.jpeg"      
+        imageWidth: 180             
+        imageHeight: 180             
+        imageTitle: "我的头像"
+        buttons:
+          - name: 自我介绍
+            url: "/中文/about/"
+          - name: 简历
+            url: "/cv.pdf"
+            
