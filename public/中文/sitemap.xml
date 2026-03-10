@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Zii-yyE.github.io/%E4%B8%AD%E6%96%87/about/</loc>
+    <loc>http://localhost:1313/%E4%B8%AD%E6%96%87/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="english"
-                href="https://Zii-yyE.github.io/about/"
+                href="http://localhost:1313/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="中文"
-                href="https://Zii-yyE.github.io/%E4%B8%AD%E6%96%87/about/"
+                href="http://localhost:1313/%E4%B8%AD%E6%96%87/about/"
                 />
   </url><url>
-    <loc>https://Zii-yyE.github.io/%E4%B8%AD%E6%96%87/categories/</loc>
+    <loc>http://localhost:1313/%E4%B8%AD%E6%96%87/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="english"
-                href="https://Zii-yyE.github.io/categories/"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="中文"
-                href="https://Zii-yyE.github.io/%E4%B8%AD%E6%96%87/categories/"
+                href="http://localhost:1313/%E4%B8%AD%E6%96%87/categories/"
                 />
   </url><url>
-    <loc>https://Zii-yyE.github.io/%E4%B8%AD%E6%96%87/tags/</loc>
+    <loc>http://localhost:1313/%E4%B8%AD%E6%96%87/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="english"
-                href="https://Zii-yyE.github.io/tags/"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="中文"
-                href="https://Zii-yyE.github.io/%E4%B8%AD%E6%96%87/tags/"
+                href="http://localhost:1313/%E4%B8%AD%E6%96%87/tags/"
                 />
   </url><url>
-    <loc>https://Zii-yyE.github.io/%E4%B8%AD%E6%96%87/</loc>
+    <loc>http://localhost:1313/%E4%B8%AD%E6%96%87/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="english"
-                href="https://Zii-yyE.github.io/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="中文"
-                href="https://Zii-yyE.github.io/%E4%B8%AD%E6%96%87/"
+                href="http://localhost:1313/%E4%B8%AD%E6%96%87/"
                 />
   </url>
 </urlset>
