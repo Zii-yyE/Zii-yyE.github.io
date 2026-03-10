@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="english" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Variant Toolkit | Ziye Wang</title>
+<meta name="keywords" content="">
+<meta name="description" content="A practical guide to bcftools, vcftools, plink2, samtools, and bedtools for daily population-genetic workflows.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/resources/bioinformatics/variant-toolkit/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.592d500e328a30b566ab8597261475f5b27c79677762916a32d33fde6ef7240b.css" integrity="sha256-WS1QDjKKMLVmq4WXJhR19bJ8eWd3YpFqMtM/3m73JAs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="english" href="http://localhost:1313/resources/bioinformatics/variant-toolkit/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+    
+      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+    
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Ziye Wang (Alt + H)">Ziye Wang</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                    <ul class="lang-switch"><li>|</li>
+                        <li>
+                            <a href="http://localhost:1313/%E4%B8%AD%E6%96%87/" title="中文"
+                                aria-label="中文">中文</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/resources/" title="Resources">
+                    <span>Resources</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Variant Toolkit
+    </h1>
+    <div class="post-meta"><span title='2026-03-10 00:00:00 +0000 UTC'>March 10, 2026</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#mental-model" aria-label="Mental model">Mental model</a></li>
+                <li>
+                    <a href="#which-tool-when" aria-label="Which tool when">Which tool when</a></li>
+                <li>
+                    <a href="#bcftools" aria-label="bcftools">bcftools</a><ul>
+                        
+                <li>
+                    <a href="#inspect-headers-and-samples" aria-label="Inspect headers and samples">Inspect headers and samples</a></li>
+                <li>
+                    <a href="#subset-sites-and-samples" aria-label="Subset sites and samples">Subset sites and samples</a></li>
+                <li>
+                    <a href="#filter-by-missingness-depth-quality" aria-label="Filter by missingness, depth, quality">Filter by missingness, depth, quality</a></li>
+                <li>
+                    <a href="#query-fields" aria-label="Query fields">Query fields</a></li>
+                <li>
+                    <a href="#normalize-and-index" aria-label="Normalize and index">Normalize and index</a></li></ul>
+                </li>
+                <li>
+                    <a href="#vcftools" aria-label="vcftools">vcftools</a><ul>
+                        
+                <li>
+                    <a href="#missingness" aria-label="Missingness">Missingness</a></li>
+                <li>
+                    <a href="#depth" aria-label="Depth">Depth</a></li>
+                <li>
+                    <a href="#maf-and-allele-frequencies" aria-label="MAF and allele frequencies">MAF and allele frequencies</a></li>
+                <li>
+                    <a href="#diversity-and-differentiation" aria-label="Diversity and differentiation">Diversity and differentiation</a></li></ul>
+                </li>
+                <li>
+                    <a href="#plink2" aria-label="plink2">plink2</a><ul>
+                        
+                <li>
+                    <a href="#convert--load" aria-label="Convert / load">Convert / load</a></li>
+                <li>
+                    <a href="#qc" aria-label="QC">QC</a></li>
+                <li>
+                    <a href="#pca" aria-label="PCA">PCA</a></li>
+                <li>
+                    <a href="#ld-pruning" aria-label="LD pruning">LD pruning</a></li></ul>
+                </li>
+                <li>
+                    <a href="#samtools" aria-label="samtools">samtools</a><ul>
+                        
+                <li>
+                    <a href="#quick-bam-inspection" aria-label="Quick BAM inspection">Quick BAM inspection</a></li>
+                <li>
+                    <a href="#flagstat" aria-label="flagstat">flagstat</a></li>
+                <li>
+                    <a href="#indexing" aria-label="Indexing">Indexing</a></li>
+                <li>
+                    <a href="#region-extraction" aria-label="Region extraction">Region extraction</a></li></ul>
+                </li>
+                <li>
+                    <a href="#bedtools" aria-label="bedtools">bedtools</a><ul>
+                        
+                <li>
+                    <a href="#intersect" aria-label="intersect">intersect</a></li>
+                <li>
+                    <a href="#merge" aria-label="merge">merge</a></li>
+                <li>
+                    <a href="#coverage" aria-label="coverage">coverage</a></li>
+                <li>
+                    <a href="#sort-intervals" aria-label="Sort intervals">Sort intervals</a></li></ul>
+                </li>
+                <li>
+                    <a href="#common-pipelines" aria-label="Common pipelines">Common pipelines</a><ul>
+                        
+                <li>
+                    <a href="#vcf-qc-workflow" aria-label="VCF QC workflow">VCF QC workflow</a></li>
+                <li>
+                    <a href="#bam-to-quick-sanity-check" aria-label="BAM to quick sanity check">BAM to quick sanity check</a></li>
+                <li>
+                    <a href="#interval-overlap-workflow" aria-label="Interval overlap workflow">Interval overlap workflow</a></li></ul>
+                </li>
+                <li>
+                    <a href="#practical-habits" aria-label="Practical habits">Practical habits</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><div style="margin: 0 0 1.4rem; padding: 1.1rem 1.1rem 1rem; border: 1px solid var(--border); border-radius: 18px; background: linear-gradient(180deg, var(--entry) 0%, color-mix(in srgb, var(--entry) 80%, var(--theme)) 100%);">
+  <div style="display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; margin-bottom: 0.7rem;">
+    <strong style="font-size: 1.05rem;">Quick references</strong>
+  </div>
+  <div style="display: flex; flex-wrap: wrap; gap: 0.65rem;">
+    <a href="#which-tool-when" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">Which tool when</a>
+    <a href="#bcftools" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">bcftools</a>
+    <a href="#vcftools" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">vcftools</a>
+    <a href="#plink2" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">plink2</a>
+    <a href="#samtools" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">samtools</a>
+    <a href="#bedtools" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">bedtools</a>
+  </div>
+</div>
+<blockquote>
+<p>Most variant-analysis work becomes simpler once you separate three jobs: inspect data, clean data, and summarize data.</p>
+</blockquote>
+<h1 id="mental-model">Mental model<a hidden class="anchor" aria-hidden="true" href="#mental-model">#</a></h1>
+<p>These tools overlap, but they have different centers of gravity:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Tool</th>
+          <th>Best for</th>
+          <th>Typical input</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>bcftools</code></td>
+          <td>VCF/BCF inspection, filtering, querying, normalization</td>
+          <td><code>vcf.gz</code>, <code>bcf</code></td>
+      </tr>
+      <tr>
+          <td><code>vcftools</code></td>
+          <td>classical population-genetic summaries</td>
+          <td><code>vcf.gz</code></td>
+      </tr>
+      <tr>
+          <td><code>plink2</code></td>
+          <td>QC, PCA, LD pruning, fast matrix-style genotype analysis</td>
+          <td>VCF, PLINK binaries, pgen</td>
+      </tr>
+      <tr>
+          <td><code>samtools</code></td>
+          <td>BAM/CRAM inspection, indexing, region extraction</td>
+          <td><code>bam</code>, <code>cram</code></td>
+      </tr>
+      <tr>
+          <td><code>bedtools</code></td>
+          <td>interval logic: overlap, merge, coverage</td>
+          <td><code>bed</code>, <code>gff</code>, <code>bam</code>, interval-like files</td>
+      </tr>
+  </tbody>
+</table>
+<p>Short rule:</p>
+<ul>
+<li>Reach for <code>bcftools</code> when you need to <strong>reshape or filter</strong> variant files.</li>
+<li>Reach for <code>vcftools</code> when you need <strong>classic popgen summary statistics</strong>.</li>
+<li>Reach for <code>plink2</code> when you need <strong>fast genotype QC or PCA-like workflows</strong>.</li>
+<li>Reach for <code>samtools</code> before variant calling or when checking alignments.</li>
+<li>Reach for <code>bedtools</code> when the question is really about <strong>genomic intervals</strong>.</li>
+</ul>
+<h1 id="which-tool-when">Which tool when<a hidden class="anchor" aria-hidden="true" href="#which-tool-when">#</a></h1>
+<table>
+  <thead>
+      <tr>
+          <th>Task</th>
+          <th>Most natural tool</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Look at samples, contigs, headers, fields</td>
+          <td><code>bcftools</code></td>
+      </tr>
+      <tr>
+          <td>Filter by quality, depth, missingness</td>
+          <td><code>bcftools</code>, sometimes <code>vcftools</code></td>
+      </tr>
+      <tr>
+          <td>Compute missingness, MAF, windowed diversity, Fst</td>
+          <td><code>vcftools</code></td>
+      </tr>
+      <tr>
+          <td>PCA, LD pruning, genotype QC</td>
+          <td><code>plink2</code></td>
+      </tr>
+      <tr>
+          <td>Check BAM quality and mapped reads</td>
+          <td><code>samtools</code></td>
+      </tr>
+      <tr>
+          <td>Ask whether regions overlap genes, masks, windows</td>
+          <td><code>bedtools</code></td>
+      </tr>
+  </tbody>
+</table>
+<h1 id="bcftools">bcftools<a hidden class="anchor" aria-hidden="true" href="#bcftools">#</a></h1>
+<p><code>bcftools</code> is the workhorse for manipulating VCF/BCF cleanly and reproducibly.</p>
+<h2 id="inspect-headers-and-samples">Inspect headers and samples<a hidden class="anchor" aria-hidden="true" href="#inspect-headers-and-samples">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bcftools view -h cohort.vcf.gz | less
+</span></span><span style="display:flex;"><span>bcftools query -l cohort.vcf.gz
+</span></span><span style="display:flex;"><span>bcftools index -s cohort.vcf.gz
+</span></span></code></pre></div><p>Use this first when you inherit a file and do not fully trust its structure.</p>
+<h2 id="subset-sites-and-samples">Subset sites and samples<a hidden class="anchor" aria-hidden="true" href="#subset-sites-and-samples">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bcftools view -S samples.txt -Oz -o subset.vcf.gz cohort.vcf.gz
+</span></span><span style="display:flex;"><span>bcftools view -r chr1:1-5000000 -Oz -o chr1.vcf.gz cohort.vcf.gz
+</span></span><span style="display:flex;"><span>bcftools view -T targets.bed -Oz -o targets.vcf.gz cohort.vcf.gz
+</span></span></code></pre></div><p>Typical use:</p>
+<ul>
+<li>focus on one population</li>
+<li>restrict to one chromosome</li>
+<li>keep only callable / target regions</li>
+</ul>
+<h2 id="filter-by-missingness-depth-quality">Filter by missingness, depth, quality<a hidden class="anchor" aria-hidden="true" href="#filter-by-missingness-depth-quality">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bcftools filter -i <span style="color:#e6db74">&#39;QUAL&gt;30 &amp;&amp; INFO/DP&gt;200&#39;</span> -Oz -o highqual.vcf.gz cohort.vcf.gz
+</span></span><span style="display:flex;"><span>bcftools view -i <span style="color:#e6db74">&#39;F_MISSING&lt;0.1 &amp;&amp; MAF&gt;0.05&#39;</span> -Oz -o filtered.vcf.gz cohort.vcf.gz
+</span></span><span style="display:flex;"><span>bcftools view -g ^miss -Oz -o no-missing-genotypes.vcf.gz cohort.vcf.gz
+</span></span></code></pre></div><p>Notes:</p>
+<ul>
+<li>exact field names depend on what annotations exist in the file</li>
+<li><code>bcftools +fill-tags</code> is often useful before filtering on tags like <code>MAF</code></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bcftools +fill-tags cohort.vcf.gz -Oz -o tagged.vcf.gz -- -t AC,AN,AF,MAF,F_MISSING
+</span></span></code></pre></div><h2 id="query-fields">Query fields<a hidden class="anchor" aria-hidden="true" href="#query-fields">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bcftools query -f <span style="color:#e6db74">&#39;%CHROM\t%POS\t%REF\t%ALT\t%QUAL\n&#39;</span> cohort.vcf.gz | head
+</span></span><span style="display:flex;"><span>bcftools query -f <span style="color:#e6db74">&#39;%CHROM\t%POS[\t%GT]\n&#39;</span> cohort.vcf.gz | less -S
+</span></span></code></pre></div><p>This is the fastest way to understand what information is actually present.</p>
+<h2 id="normalize-and-index">Normalize and index<a hidden class="anchor" aria-hidden="true" href="#normalize-and-index">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bcftools norm -f reference.fa -m -both raw.vcf.gz -Oz -o norm.vcf.gz
+</span></span><span style="display:flex;"><span>bcftools sort norm.vcf.gz -Oz -o norm.sorted.vcf.gz
+</span></span><span style="display:flex;"><span>tabix -p vcf norm.sorted.vcf.gz
+</span></span></code></pre></div><p>Common reasons to normalize:</p>
+<ul>
+<li>split multiallelic sites</li>
+<li>left-align indels</li>
+<li>make files comparable before merge/intersection</li>
+</ul>
+<h1 id="vcftools">vcftools<a hidden class="anchor" aria-hidden="true" href="#vcftools">#</a></h1>
+<p><code>vcftools</code> is still convenient for standard statistics that appear all the time in popgen projects.</p>
+<h2 id="missingness">Missingness<a hidden class="anchor" aria-hidden="true" href="#missingness">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>vcftools --gzvcf cohort.vcf.gz --missing-site --out cohort
+</span></span><span style="display:flex;"><span>vcftools --gzvcf cohort.vcf.gz --missing-indv --out cohort
+</span></span></code></pre></div><h2 id="depth">Depth<a hidden class="anchor" aria-hidden="true" href="#depth">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>vcftools --gzvcf cohort.vcf.gz --site-mean-depth --out cohort
+</span></span><span style="display:flex;"><span>vcftools --gzvcf cohort.vcf.gz --depth --out cohort
+</span></span></code></pre></div><h2 id="maf-and-allele-frequencies">MAF and allele frequencies<a hidden class="anchor" aria-hidden="true" href="#maf-and-allele-frequencies">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>vcftools --gzvcf cohort.vcf.gz --freq --out cohort
+</span></span><span style="display:flex;"><span>vcftools --gzvcf cohort.vcf.gz --maf 0.05 --recode --stdout | bgzip &gt; maf05.vcf.gz
+</span></span></code></pre></div><h2 id="diversity-and-differentiation">Diversity and differentiation<a hidden class="anchor" aria-hidden="true" href="#diversity-and-differentiation">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>vcftools --gzvcf cohort.vcf.gz --window-pi <span style="color:#ae81ff">50000</span> --out cohort
+</span></span><span style="display:flex;"><span>vcftools --gzvcf cohort.vcf.gz --weir-fst-pop pop1.txt --weir-fst-pop pop2.txt --out pops
+</span></span></code></pre></div><p>These are especially useful for quick exploratory passes before a more polished pipeline.</p>
+<h1 id="plink2">plink2<a hidden class="anchor" aria-hidden="true" href="#plink2">#</a></h1>
+<p><code>plink2</code> is excellent when genotypes need to become a clean analysis matrix.</p>
+<h2 id="convert--load">Convert / load<a hidden class="anchor" aria-hidden="true" href="#convert--load">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>plink2 --vcf cohort.vcf.gz --make-pgen --out cohort
+</span></span><span style="display:flex;"><span>plink2 --vcf cohort.vcf.gz --make-bed --out cohort
+</span></span></code></pre></div><h2 id="qc">QC<a hidden class="anchor" aria-hidden="true" href="#qc">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>plink2 --pfile cohort --geno 0.1 --mind 0.1 --maf 0.05 --make-pgen --out cohort.qc
+</span></span><span style="display:flex;"><span>plink2 --pfile cohort.qc --freq --out cohort.qc
+</span></span></code></pre></div><h2 id="pca">PCA<a hidden class="anchor" aria-hidden="true" href="#pca">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>plink2 --pfile cohort.qc --pca <span style="color:#ae81ff">10</span> approx --out cohort.pca
+</span></span></code></pre></div><h2 id="ld-pruning">LD pruning<a hidden class="anchor" aria-hidden="true" href="#ld-pruning">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>plink2 --pfile cohort.qc --indep-pairwise <span style="color:#ae81ff">50</span> <span style="color:#ae81ff">10</span> 0.2 --out cohort.prune
+</span></span><span style="display:flex;"><span>plink2 --pfile cohort.qc --extract cohort.prune.prune.in --make-pgen --out cohort.ldpruned
+</span></span></code></pre></div><p>This is often the cleanest path toward PCA and structure-like analyses.</p>
+<h1 id="samtools">samtools<a hidden class="anchor" aria-hidden="true" href="#samtools">#</a></h1>
+<p>Use <code>samtools</code> when the data are still reads/alignments or when a VCF result seems suspicious and you want to check the underlying BAM.</p>
+<h2 id="quick-bam-inspection">Quick BAM inspection<a hidden class="anchor" aria-hidden="true" href="#quick-bam-inspection">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>samtools view -H sample.bam | less
+</span></span><span style="display:flex;"><span>samtools idxstats sample.bam
+</span></span><span style="display:flex;"><span>samtools view sample.bam chr1:100000-101000 | head
+</span></span></code></pre></div><h2 id="flagstat">flagstat<a hidden class="anchor" aria-hidden="true" href="#flagstat">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>samtools flagstat sample.bam
+</span></span></code></pre></div><p>This gives a fast sanity check on mapped reads, pairing, duplicates, and basic alignment quality.</p>
+<h2 id="indexing">Indexing<a hidden class="anchor" aria-hidden="true" href="#indexing">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>samtools sort -o sample.sorted.bam sample.bam
+</span></span><span style="display:flex;"><span>samtools index sample.sorted.bam
+</span></span></code></pre></div><h2 id="region-extraction">Region extraction<a hidden class="anchor" aria-hidden="true" href="#region-extraction">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>samtools view -b sample.sorted.bam chr1:100000-200000 &gt; region.bam
+</span></span><span style="display:flex;"><span>samtools view -L targets.bed -b sample.sorted.bam &gt; targets.bam
+</span></span></code></pre></div><h1 id="bedtools">bedtools<a hidden class="anchor" aria-hidden="true" href="#bedtools">#</a></h1>
+<p><code>bedtools</code> is what you use when genomic coordinates themselves are the problem.</p>
+<h2 id="intersect">intersect<a hidden class="anchor" aria-hidden="true" href="#intersect">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bedtools intersect -a variants.bed -b genes.bed -wa -wb &gt; overlaps.tsv
+</span></span><span style="display:flex;"><span>bedtools intersect -a peaks.bed -b mask.bed -v &gt; unmasked.bed
+</span></span></code></pre></div><h2 id="merge">merge<a hidden class="anchor" aria-hidden="true" href="#merge">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bedtools sort -i intervals.bed | bedtools merge -i - &gt; merged.bed
+</span></span></code></pre></div><h2 id="coverage">coverage<a hidden class="anchor" aria-hidden="true" href="#coverage">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bedtools coverage -a windows.bed -b reads.bam &gt; coverage.tsv
+</span></span></code></pre></div><h2 id="sort-intervals">Sort intervals<a hidden class="anchor" aria-hidden="true" href="#sort-intervals">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bedtools sort -i intervals.bed &gt; intervals.sorted.bed
+</span></span></code></pre></div><p>This matters because many interval tools behave best on sorted inputs.</p>
+<h1 id="common-pipelines">Common pipelines<a hidden class="anchor" aria-hidden="true" href="#common-pipelines">#</a></h1>
+<h2 id="vcf-qc-workflow">VCF QC workflow<a hidden class="anchor" aria-hidden="true" href="#vcf-qc-workflow">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bcftools +fill-tags raw.vcf.gz -Oz -o raw.tagged.vcf.gz -- -t AC,AN,AF,MAF,F_MISSING
+</span></span><span style="display:flex;"><span>bcftools view -i <span style="color:#e6db74">&#39;QUAL&gt;30 &amp;&amp; F_MISSING&lt;0.1 &amp;&amp; MAF&gt;0.05&#39;</span> -Oz -o cohort.filtered.vcf.gz raw.tagged.vcf.gz
+</span></span><span style="display:flex;"><span>tabix -p vcf cohort.filtered.vcf.gz
+</span></span><span style="display:flex;"><span>vcftools --gzvcf cohort.filtered.vcf.gz --missing-site --out cohort.filtered
+</span></span><span style="display:flex;"><span>plink2 --vcf cohort.filtered.vcf.gz --make-pgen --out cohort.filtered
+</span></span></code></pre></div><h2 id="bam-to-quick-sanity-check">BAM to quick sanity check<a hidden class="anchor" aria-hidden="true" href="#bam-to-quick-sanity-check">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>samtools flagstat sample.bam
+</span></span><span style="display:flex;"><span>samtools idxstats sample.bam
+</span></span><span style="display:flex;"><span>samtools view sample.bam chr1:100000-101000 | head
+</span></span></code></pre></div><h2 id="interval-overlap-workflow">Interval overlap workflow<a hidden class="anchor" aria-hidden="true" href="#interval-overlap-workflow">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bedtools sort -i windows.bed &gt; windows.sorted.bed
+</span></span><span style="display:flex;"><span>bedtools sort -i genes.bed &gt; genes.sorted.bed
+</span></span><span style="display:flex;"><span>bedtools intersect -a windows.sorted.bed -b genes.sorted.bed -wa -wb &gt; windows.genes.tsv
+</span></span></code></pre></div><h1 id="practical-habits">Practical habits<a hidden class="anchor" aria-hidden="true" href="#practical-habits">#</a></h1>
+<ul>
+<li>Index files early: <code>tabix</code>, <code>samtools index</code>, and sorted BED files save time later.</li>
+<li>Keep raw, filtered, and derived files clearly named.</li>
+<li>Record the exact filter thresholds you use.</li>
+<li>Trust headers and sample lists only after checking them explicitly.</li>
+<li>For popgen work, inspect missingness and MAF before doing downstream interpretation.</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Ziye Wang</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
