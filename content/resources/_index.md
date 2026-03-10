@@ -4,27 +4,38 @@ layout: "single"
 ---
 <style>
 .post-header { display: none; }
-.resource-note-link,
-.resource-note-link:visited {
-  color: var(--primary);
+.resource-note-card {
+  display: block;
+  border: 1.5px solid var(--border);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.04);
+  background: var(--entry);
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
 }
-html[data-theme="dark"] .resource-note-link,
-html[data-theme="dark"] .resource-note-link:visited {
-  color: rgb(245, 245, 245);
+.resource-note-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--secondary);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.06);
+}
+html[data-theme="dark"] .resource-note-card {
+  border-color: var(--tertiary);
+  box-shadow: none;
+}
+html[data-theme="dark"] .resource-note-card:hover {
+  border-color: var(--secondary);
 }
 </style>
 
 ## Notes
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-<div style="flex: 1; min-width: 300px; padding: 24px; border: 1px solid var(--border); border-radius: 25px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start;">
-<h3 style="margin: 0; line-height: 1.2; font-size: 1.8rem;">Evolutionary Genetics</h3>
-<a href="/resources/popgen/" class="resource-note-link" style="font-size: 0.9rem; font-weight: 700; text-decoration: none;">Browse Notes →</a>
-</div>
-<div style="flex: 1; min-width: 300px; padding: 24px; border: 1px solid var(--border); border-radius: 25px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start;">
-<h3 style="margin: 0; line-height: 1.2; font-size: 1.8rem;">Mathematics</h3>
-<a href="/resources/maths/" class="resource-note-link" style="font-size: 0.9rem; font-weight: 700; text-decoration: none;">Browse Notes →</a>
-</div>
+<a href="/resources/popgen/" class="resource-note-card" style="flex: 1; min-width: 300px; padding: 24px; border-radius: 20px;">
+<h3 style="margin: 0; line-height: 1.2; font-size: 1.65rem;">Evolutionary Genetics</h3>
+</a>
+<a href="/resources/maths/" class="resource-note-card" style="flex: 1; min-width: 300px; padding: 24px; border-radius: 20px;">
+<h3 style="margin: 0; line-height: 1.2; font-size: 1.65rem;">Mathematics</h3>
+</a>
 </div>
 
 
