@@ -12,12 +12,11 @@ weight: 2
     <strong style="font-size: 1.05rem;">Quick references</strong>
   </div>
   <div style="display: flex; flex-wrap: wrap; gap: 0.65rem;">
-    <a href="#which-tool-when" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">Which tool when</a>
-    <a href="#bcftools" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">bcftools</a>
-    <a href="#vcftools" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">vcftools</a>
-    <a href="#plink2" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">plink2</a>
-    <a href="#samtools" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">samtools</a>
-    <a href="#bedtools" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">bedtools</a>
+    <a href="https://samtools.github.io/bcftools/bcftools.html" target="_blank" rel="noopener noreferrer" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">bcftools docs</a>
+    <a href="https://vcftools.github.io/man_latest.html" target="_blank" rel="noopener noreferrer" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">vcftools docs</a>
+    <a href="https://www.cog-genomics.org/plink/2.0/" target="_blank" rel="noopener noreferrer" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">PLINK 2 docs</a>
+    <a href="https://www.htslib.org/doc/samtools.html" target="_blank" rel="noopener noreferrer" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">samtools docs</a>
+    <a href="https://bedtools.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">bedtools docs</a>
   </div>
 </div>
 

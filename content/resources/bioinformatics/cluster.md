@@ -12,10 +12,10 @@ weight: 3
     <strong style="font-size: 1.05rem;">Quick references</strong>
   </div>
   <div style="display: flex; flex-wrap: wrap; gap: 0.65rem;">
-    <a href="#core-commands" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">Core commands</a>
-    <a href="#sbatch-template" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">sbatch template</a>
-    <a href="#checking-jobs" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">Checking jobs</a>
-    <a href="#failure-checklist" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">Failure checklist</a>
+    <a href="https://slurm.schedmd.com/documentation.html" target="_blank" rel="noopener noreferrer" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">SLURM docs</a>
+    <a href="https://slurm.schedmd.com/quickstart.html" target="_blank" rel="noopener noreferrer" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">Quick start</a>
+    <a href="https://slurm.schedmd.com/sbatch.html" target="_blank" rel="noopener noreferrer" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">sbatch docs</a>
+    <a href="https://slurm.schedmd.com/squeue.html" target="_blank" rel="noopener noreferrer" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">squeue docs</a>
   </div>
 </div>
 
