@@ -1,3 +1,0 @@
----
-title: "Evolutionary Genetics Notes"
----
