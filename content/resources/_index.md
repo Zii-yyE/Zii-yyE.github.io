@@ -53,7 +53,7 @@ html[data-theme="dark"] .resource-note-card:hover {
 
 <div class="resource-note-layout">
 <a href="/resources/evogen/" class="resource-note-card resource-note-card--tall" style="padding: 24px; border-radius: 20px;">
-<h3 style="margin: 0; line-height: 1.05; font-size: 2.7rem;">Evolutionary Genetics</h3>
+<h3 style="margin: 0; line-height: 1.05; font-size: 2.5rem;">Evolutionary Genomics</h3>
 </a>
 <a href="/resources/maths/" class="resource-note-card resource-note-card--math" style="padding: 24px; border-radius: 20px;">
 <h3 style="margin: 0; line-height: 1.08; font-size: 2.2rem;">Mathematics</h3>

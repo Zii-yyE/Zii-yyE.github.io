@@ -1,0 +1,100 @@
+Metadata-Version: 2.4
+Name: research-radar
+Version: 0.1.0
+Summary: Static-site-friendly research paper radar for Hugo
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML>=6.0
+
+# Research Radar
+
+Research Radar is a small Python pipeline that fetches papers from bioRxiv, arXiv, and PubMed, normalizes them into one schema, deduplicates them, classifies them into topic buckets, and exports static JSON files for a Hugo site.
+
+## What v1 does
+
+- Fetches recent papers or backfill date ranges from `bioRxiv`, `arXiv`, and `PubMed`
+- Normalizes records into one canonical schema
+- Deduplicates by DOI, source identifiers, and normalized title plus first-author/year checks
+- Classifies papers with rule-based keyword buckets
+- Computes recent papers, topic counts over time, keyword frequency over time, and rising keywords
+- Stores canonical history in SQLite and exports static JSON into Hugo `data/`
+
+## Repository layout
+
+```text
+research-radar/
+  pyproject.toml
+  README.md
+  topics.yaml
+  src/research_radar/
+  tests/
+  state/
+
+data/research_radar/
+content/research-radar/
+layouts/research-radar/
+```
+
+## Setup
+
+```bash
+cd /Users/ziye/@Workspace/Homepage/ziye-homepage
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e ./research-radar
+```
+
+## Usage
+
+Run a recent update with the default config window:
+
+```bash
+research-radar update
+```
+
+Backfill a specific range:
+
+```bash
+research-radar backfill --start-date 2025-01-01 --end-date 2025-03-31
+```
+
+Rebuild JSON outputs from the current SQLite store only:
+
+```bash
+research-radar export
+```
+
+You can override locations when needed:
+
+```bash
+research-radar update \
+  --config ./research-radar/topics.yaml \
+  --state-path ./research-radar/state/papers.sqlite3 \
+  --data-dir ./data/research_radar
+```
+
+## Configuration
+
+The sample configuration lives at `research-radar/topics.yaml`.
+
+It defines:
+
+- source fetch settings
+- watch queries and local filters
+- topic buckets and priorities
+- tracked keywords for trends
+- export limits and rising-keyword windows
+
+## Testing
+
+The test suite uses the standard library `unittest` runner:
+
+```bash
+PYTHONPATH=./research-radar/src python3 -m unittest discover -s research-radar/tests
+```
+
+## Notes
+
+- `research-radar/state/papers.sqlite3` is created on the first successful run.
+- `data/research_radar/*.json` is safe to commit; Hugo reads those files directly.
+- The GitHub Actions workflow at `.github/workflows/research-radar.yaml` runs the same CLI on a schedule and commits refreshed data.

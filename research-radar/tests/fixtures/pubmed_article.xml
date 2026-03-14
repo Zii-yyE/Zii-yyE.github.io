@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation>
+      <PMID>12345678</PMID>
+      <Article>
+        <ArticleTitle>Phylogenomics and phylodynamics in rapidly evolving pathogens</ArticleTitle>
+        <Abstract>
+          <AbstractText>We combine phylogenomics and phylodynamics to study pathogen evolution and outbreak dynamics.</AbstractText>
+        </Abstract>
+        <AuthorList>
+          <Author>
+            <ForeName>Eve</ForeName>
+            <LastName>Example</LastName>
+          </Author>
+          <Author>
+            <ForeName>Frank</ForeName>
+            <LastName>Example</LastName>
+          </Author>
+        </AuthorList>
+        <Journal>
+          <Title>Molecular Biology and Evolution</Title>
+          <ISOAbbreviation>Mol Biol Evol</ISOAbbreviation>
+          <JournalIssue>
+            <PubDate>
+              <Year>2026</Year>
+              <Month>Dec</Month>
+              <Day>01</Day>
+            </PubDate>
+          </JournalIssue>
+        </Journal>
+        <ArticleDate DateType="Electronic">
+          <Year>2026</Year>
+          <Month>Mar</Month>
+          <Day>12</Day>
+        </ArticleDate>
+      </Article>
+      <ArticleIdList>
+        <ArticleId IdType="doi">10.1093/example/12345678</ArticleId>
+        <ArticleId IdType="pmc">PMC1234567</ArticleId>
+      </ArticleIdList>
+    </MedlineCitation>
+  </PubmedArticle>
+</PubmedArticleSet>

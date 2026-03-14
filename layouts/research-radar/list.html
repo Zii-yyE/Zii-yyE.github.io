@@ -1,0 +1,52 @@
+{{- define "main" }}
+{{- $summary := site.Data.research_radar.summary }}
+{{- $recent := site.Data.research_radar.recent_papers }}
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
+<section class="rr-toolbar">
+  <p class="rr-updated">
+    Last updated
+    {{- if $summary.generated_at }}
+    <strong>{{ $summary.generated_at }}</strong>
+    {{- else }}
+    <strong>not yet generated</strong>
+    {{- end }}
+  </p>
+
+  {{- if gt (len $summary.focus_topics) 0 }}
+  <div class="rr-legend">
+    {{- range $summary.focus_topics }}
+    <span class="rr-legend-item" style="--rr-accent: {{ .accent_color }};">{{ .label }}</span>
+    {{- end }}
+  </div>
+  {{- end }}
+</section>
+
+{{- if gt (len $recent.latest) 0 }}
+<div class="rr-paper-list">
+  {{- range $recent.latest }}
+  <article class="rr-paper-card" style="--rr-accent: {{ .accent_color }};">
+    <div class="rr-paper-topline">
+      <span class="rr-tag rr-tag--topic">{{ .primary_topic_label }}</span>
+      <span class="rr-venue">{{ .venue_display }}</span>
+      <span class="rr-date">{{ .published_date }}</span>
+    </div>
+    <h3><a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a></h3>
+    <p class="rr-authors">{{ .authors_display }}</p>
+    <p class="rr-abstract">{{ .short_abstract }}</p>
+  </article>
+  {{- end }}
+</div>
+{{- else }}
+<p class="rr-empty">No tracked papers exported yet.</p>
+{{- end }}
+{{- end }}

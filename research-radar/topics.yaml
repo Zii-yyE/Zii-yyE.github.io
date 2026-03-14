@@ -1,0 +1,115 @@
+defaults:
+  update_window_days: 7
+  backfill_chunk_days: 30
+
+paper_watch:
+  topic_ids:
+    - mutation_rate
+    - arg
+    - pangenome_sv
+
+exports:
+  recent_limit: 18
+
+sources:
+  biorxiv:
+    enabled: true
+    max_results: 300
+    local_filters:
+      - mutation rate
+      - mutation rates
+      - germline mutation rate
+      - de novo mutation rate
+      - mutation accumulation
+      - ancestral recombination graph
+      - ancestral recombination graphs
+      - sequentially markov coalescent
+      - local genealogies
+      - pangenome
+      - pan-genome
+      - graph genome
+      - variation graph
+      - structural variation
+      - structural variations
+      - structural variant
+      - structural variants
+  arxiv:
+    enabled: false
+    max_results_per_query: 20
+    request_interval_seconds: 5.0
+    queries:
+      - all:"ancestral recombination graph"
+      - all:"mutation rate"
+      - all:"pangenome"
+  pubmed:
+    enabled: true
+    retmax: 60
+    queries:
+      - "\"ancestral recombination graph\"[Title/Abstract] OR \"sequentially markov coalescent\"[Title/Abstract] OR \"local genealogies\"[Title/Abstract]"
+      - "(\"mutation rate\"[Title/Abstract] OR \"germline mutation rate\"[Title/Abstract] OR \"de novo mutation rate\"[Title/Abstract] OR \"mutation accumulation\"[Title/Abstract]) AND (genome[Title/Abstract] OR genomic[Title/Abstract] OR evolution[Title/Abstract] OR evolutionary[Title/Abstract] OR pedigree[Title/Abstract] OR population[Title/Abstract])"
+      - "\"pangenome\"[Title/Abstract] OR \"pan-genome\"[Title/Abstract] OR \"variation graph\"[Title/Abstract] OR \"structural variation\"[Title/Abstract] OR \"structural variant\"[Title/Abstract] OR \"structural variants\"[Title/Abstract]"
+
+topics:
+  mutation_rate:
+    label: Mutation Rate
+    priority: 10
+    include_phrases:
+      - mutation rate
+      - mutation rates
+      - de novo mutation rate
+      - germline mutation rate
+      - mutation accumulation
+      - somatic mutation rate
+    include_aliases: []
+    require_any_phrases:
+      - germline
+      - de novo
+      - pedigree
+      - pedigrees
+      - population
+      - evolutionary
+      - evolution
+      - genome
+      - genomic
+      - whole genome
+      - whole-genome
+      - mutation accumulation
+    exclude_phrases: []
+  arg:
+    label: ARG
+    priority: 20
+    include_phrases:
+      - ancestral recombination graph
+      - ancestral recombination graphs
+      - sequentially markov coalescent
+      - local genealogies
+      - local genealogy
+      - recombination graph
+    include_aliases:
+      - argweaver
+    require_any_phrases: []
+    exclude_phrases: []
+  pangenome_sv:
+    label: Pangenome / Structural Variation
+    priority: 30
+    include_phrases:
+      - pangenome
+      - pan-genome
+      - variation graph
+      - graph genome
+      - genome graph
+      - structural variation
+      - structural variations
+      - structural variant
+      - structural variants
+    include_aliases:
+      - pangenomic
+    require_any_phrases: []
+    exclude_phrases: []
+  other:
+    label: Other
+    priority: 999
+    include_phrases: []
+    include_aliases: []
+    require_any_phrases: []
+    exclude_phrases: []

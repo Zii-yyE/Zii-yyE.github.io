@@ -1,0 +1,2 @@
+[console_scripts]
+research-radar = research_radar.cli:main

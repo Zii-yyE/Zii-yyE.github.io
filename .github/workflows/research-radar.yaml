@@ -1,0 +1,51 @@
+name: Research Radar Update
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: research-radar
+  cancel-in-progress: false
+
+jobs:
+  update-radar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ./research-radar
+
+      - name: Run tests
+        run: |
+          PYTHONPATH=./research-radar/src python -m unittest discover -s research-radar/tests
+
+      - name: Refresh Research Radar data
+        run: |
+          research-radar update
+
+      - name: Commit updated state and data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- research-radar/state/papers.sqlite3 data/research_radar; then
+            git add research-radar/state/papers.sqlite3 data/research_radar
+            git commit -m "Update research radar data"
+            git push origin master
+          fi

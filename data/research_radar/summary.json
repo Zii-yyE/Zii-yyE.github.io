@@ -1,0 +1,24 @@
+{
+  "focus_topics": [
+    {
+      "accent_color": "#f25f4c",
+      "count": 3,
+      "id": "mutation_rate",
+      "label": "Mutation Rate"
+    },
+    {
+      "accent_color": "#2d6cdf",
+      "count": 0,
+      "id": "arg",
+      "label": "ARG"
+    },
+    {
+      "accent_color": "#2f8f6b",
+      "count": 28,
+      "id": "pangenome_sv",
+      "label": "Pangenome / Structural Variation"
+    }
+  ],
+  "generated_at": "2026-03-14T09:38:53Z",
+  "source_errors": {}
+}

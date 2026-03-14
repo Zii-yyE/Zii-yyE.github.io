@@ -1,0 +1,165 @@
+% Document class and font size
+\documentclass[a4paper,10pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{letterpaper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{needspace}
+
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{0.5\baselineskip}
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead{}
+\fancyhead[L]{\textit{Ziye Wang}}
+\thispagestyle{empty} % Remove header from the first page
+
+% --- HEADER ---
+\begin{center}
+    \textbf{\LARGE Ziye Wang}
+    \vspace{3pt} 
+
+    Undergraduate, Peking University, Beijing, China \\ 
+    \href{mailto:ziyewang0324@gmail.com}{ziyewang0324@gmail.com} 
+\end{center}
+
+% --- EDUCATION ---
+\section*{EDUCATION}
+\noindent
+\textbf{Peking University}, Beijing, China \hfill Sept 2022 -- Expected Jun 2026\\
+\textit{B.S. in Bioinformatics, School of Life Sciences} \\
+\textit{B.S. in Mathematics and Applied Mathematics, School of Mathematical Sciences} 
+\\
+\mbox{} \hfill \textit{Cumulative GPA: 3.78/4.00}
+
+% --- RESEARCH INTEREST ---
+\section*{RESEARCH INTEREST}
+Evolutionary Genomics, Statistical Genomics
+
+% --- PUBLICATIONS AND PREPRINTS ---
+\section*{PUBLICATIONS AND PREPRINTS}
+\begin{enumerate}
+\item \textbf{Wang, Z.}, \& Zhang, C. (2025). An implementation of the Brownian motion model for Bayesian phylogenetic inference using continuous traits with missing states. \textit{Paleobiology}. DOI: \href{https://doi.org/10.1017/pab.2025.10088}{10.1017/pab.2025.10088}    
+\vspace{5pt} 
+
+\item \textbf{Wang, Z.}, \& Champer, J. (2026). Optimal spatial release strategies for confined gene drives and \textit{Wolbachia}. \textit{bioRxiv}. DOI: \href{https://doi.org/10.64898/2026.03.04.709515}{10.64898/2026.03.04.709515}
+\vspace{5pt}
+
+\item Chen, W., \textbf{Wang, Z.}, \& Champer, J. (2025). Stronger population suppression by gene drive targeting doublesex from dominant female-sterile resistance alleles. \textit{bioRxiv}. DOI: \href{https://doi.org/10.1101/2025.04.16.649134}{10.1101/2025.04.16.649134}
+\end{enumerate}
+
+% --- RESEARCH EXPERIENCE ---
+\section*{RESEARCH EXPERIENCE}
+\noindent
+\textbf{Inferring mutation spectrum evolution with ancestral recombination graph}\hfill Jul 2025 -- Current \\
+\textit{Supervisor: \textbf{Prof. Rasmus Nielsen}, UC Berkeley} \\
+\textit{Collaborated with Dr. Yun Deng}
+\begin{itemize}
+    \item Developed a faster and less biased method for estimating mutation rate history by modeling mutations as a non-homogeneous Poisson process on the edges of an ancestral recombination graph (ARG), bypassing the need for precise mutation age imputation    
+    \item Demonstrated the superior accuracy and statistical power of this ARG-based framework over traditional SFS-based methods through \texttt{msprime} simulations
+    \item Quantified the impact of hard-filtered singletons in the 1000 Genomes Project phased data, confirming the robustness of ARG inference against this data integrity issue
+    \item Resolving the artifact of unexplained TpG-to-CpG mutation rate divergence between African and non-African populations predating the Out-of-Africa migration by applying a novel ARG-based polarization method for biallelic SNPs and performing joint inference of ARG across all populations to force a deep-time coalescence
+    \item Investigating the temporal association between effective population size ($N_e$) and the ratio of non-synonymous to synonymous mutation rate ($dN/dS$) to verify the theoretical prediction that natural selection is more efficient in larger populations
+\end{itemize}
+
+\vspace{0.5\baselineskip}
+
+\noindent
+\textbf{Bayesian phylogenetic inference using continuous traits with missing states} \hfill Feb 2025 -- Jun 2025 \\
+\textit{Supervisor: \textbf{Prof. Chi Zhang}, Chinese Academy of Sciences} \\
+\textit{Independent Researcher}
+\begin{itemize}
+\item Implemented a Brownian motion model for continuous traits into widely-used Bayesian phylogenetics software \texttt{MrBayes}
+\item Adapted Felsenstein's pruning algorithm to support: (i) missing character states (ii) nonclock and relaxed clock models, (iii) evolutionary rate variation across tree branches, characters, and data partitions
+\item Performed simulations to quantify the advantage of using Brownian motion model with original data against using Mkv model with discretized data, measuring topological accuracy with the Mutual Clustering Information (MCI) metric
+\item Applied the model to mixed-character empirical datasets (pterosaur and ancient humans), performed tip dating analysis, and demonstrated that continuous traits can yield improved phylogenetic resolution
+\end{itemize}
+
+\needspace{1\baselineskip} 
+
+
+\noindent
+\textbf{Spatio-temporal optimization of gene drive release strategies} \hfill Jul 2024 -- Jan 2025 \\
+\textit{Supervisor: \textbf{Prof. Jackson Champer}, Peking University} \\
+\textit{Independent Researcher}
+\begin{itemize}
+    \item Formulated a mathematical framework to define and quantify the ``spread efficiency'' of a gene drive release
+    \item Developed and implemented a reaction-diffusion model in MATLAB to simulate the spatial population dynamics of four distinct gene drive systems (TARE, 2-locus TARE, TADE, and CifAB)
+    \item Solved for the optimal, radially-symmetric release patterns by a numerical finite difference solver and performed global optimization using a gradient-descent-based algorithm
+    \item Discovered that the optimal release strategy exhibits distinct patterns based on the operational timeframe: a ``blanket'' release for rapid control, a non-intuitive ``multiple-ring'' release for intermediate times, and a ``center'' release for long-term efficiency
+\end{itemize}
+
+\vspace{0.5\baselineskip}
+
+\noindent
+\textbf{Modeling a gene drive for population suppression} \hfill Jul 2023 -- Dec 2023 \\
+\textit{Supervisor: \textbf{Prof. Jackson Champer}, Peking University} \\
+\textit{Collaborated with Weizhe Chen}
+\begin{itemize}
+\item Developed a stochastic, individual-based model in SLiM to simulate the population dynamics of a CRISPR homing gene drive with dominant female-sterile resistance alleles
+\item Implemented and compared multiple gene drive systems in the model, including systems with recessive vs. dominant resistance alleles and with/without sterile homozygous drive males
+\item Designed and executed simulations to quantify the suppressive power of different drive strategies by measuring genetic load under a wide range of parameters, such as drive efficiency and fitness costs
+\item Demonstrated that generating dominant-sterile resistance alleles substantially improves population suppression compared to standard drives, even when the drive itself has imperfections like homozygous male sterility
+\end{itemize}
+
+% --- TEACHING EXPERIENCE ---
+\section*{TEACHING EXPERIENCE}
+\noindent
+\textbf{Peer Tutor} \hfill Sept 2023 -- Current \\
+\textit{School of Life Sciences, Peking University}
+\begin{itemize}
+    \item Tutored undergraduate students in core mathematical courses: Calculus (3 semesters), Probability and Statistics (1 semester), Linear Algebra (1 semester).
+    \item Recognized with the \textit{Tingfang Scholarship} for outstanding contribution to peer education.
+\end{itemize}
+
+% --- TECHNICAL SKILLS (改成了列表格式，既清晰又填充了版面) ---
+\section*{TECHNICAL SKILLS}
+\noindent
+\textbf{Programming Languages:} \\
+Python, R, C, MATLAB, Shell 
+
+\vspace{3pt} % 增加一点点间距
+
+\noindent
+\textbf{Population Genetics Software \& Packages:} \\
+SLiM, msprime, tskit, Relate, SINGER, POLEGON, tsinfer, tsdate, threads
+
+\vspace{3pt}
+
+\noindent
+\textbf{Phylogenetics Software \& Packages:} \\
+MrBayes, RevBayes, BEAST, TNT, ASTRAL, CASTER, ape, phytools, Tracer, FigTree
+
+\vspace{3pt}
+
+\noindent
+\textbf{Bioinformatics \& Developer Tools:} \\
+SAMtools, BCFtools, VEP, Snakemake, Git, GitHub, Conda, Unix/Linux Command Line, HPC Environments
+
+% --- SELECTED COURSES ---
+\section*{SELECTED COURSES}
+\begin{tabularx}{\textwidth}{@{}XX@{}}
+\textbf{Bioinformatics} & \textbf{Mathematics \& Statistics} \\
+Machine Learning Algorithms, Data Structure and Algorithm, Molecular Evolution and Phylogenetics, Statistical Analysis of Genomics Data, Mathematical Modeling in the Life Sciences
+&
+Inverse Problems and Data Assimilation, Advanced Stochastic Processes, Advanced Probability Theory, Probability Theory (Honor), Applied Stochastic Processes, Mathematical Statistics, Biostatistics, Real Analysis, Linear Algebra, Abstract Algebra \\
+\end{tabularx}
+
+% --- PERSONAL INTERESTS ---
+\section*{PERSONAL INTERESTS}
+\noindent
+Piano (15 years), Guitar (beginner),  ``Random Walks'' \& Cycling, Billiards
+\end{document}
