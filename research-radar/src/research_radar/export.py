@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -39,6 +40,18 @@ def _remove_stale_outputs(output_path: Path) -> None:
             path.unlink()
 
 
+def _china_time_display(value: str) -> str:
+    cleaned = value.strip()
+    if not cleaned:
+        return ""
+    try:
+        parsed = datetime.fromisoformat(cleaned.replace("Z", "+00:00"))
+    except ValueError:
+        return cleaned
+    china_time = parsed.astimezone(timezone(timedelta(hours=8)))
+    return china_time.strftime("%Y-%m-%d %H:%M UTC+8")
+
+
 def _build_summary(
     papers: List[NormalizedPaper],
     config: Dict[str, object],
@@ -65,6 +78,7 @@ def _build_summary(
 
     return {
         "generated_at": generated_at,
+        "generated_at_china": _china_time_display(generated_at),
         "focus_topics": focus_topics,
         "source_errors": metadata.get("source_errors", {}),
     }

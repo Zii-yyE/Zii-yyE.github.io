@@ -1,427 +1,88 @@
-<!DOCTYPE html>
-<html lang="english" dir="auto" data-theme="auto">
-
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Research Radar | Ziye Wang</title>
-<meta name="keywords" content="">
-<meta name="description" content="Research Radar - Ziye Wang">
-<meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/research-radar/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.271843c11e7c44f6c52e646dd85017006e0148a70f7d7249f3156e56b809f093.css" integrity="sha256-JxhDwR58RPbFLmRt2FAXAG4BSKcPfXJJ8xVuVrgJ8JM=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/research-radar/index.xml" title="rss">
-<link rel="alternate" hreflang="english" href="http://localhost:1313/research-radar/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
-        document.querySelector("html").dataset.theme = 'light';
-    }
-
-</script>
-    
-      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
-
-<script>
-  MathJax = {
-    tex: {
-      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
-      inlineMath: [['\\(', '\\)']]                  
-    },
-    loader:{
-      load: ['ui/safe']
-    },
-  };
-</script>
-    
-</head>
-<body class="list" id="top">
-    <header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Ziye Wang (Alt + H)">Ziye Wang</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-                    <ul class="lang-switch"><li>|</li>
-                        <li>
-                            <a href="http://localhost:1313/%E4%B8%AD%E6%96%87/" title="中文"
-                                aria-label="中文">中文</a>
-                        </li>
-                    </ul>
-            </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="http://localhost:1313/about/" title="About">
-                    <span>About</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/resources/" title="Resources">
-                    <span>Resources</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/publications/" title="Publications">
-                    <span>Publications</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/research-radar/" title="Research Radar">
-                    <span class="active">Research Radar</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main">
-
-<header class="page-header">
-  <h1>Research Radar</h1>
-</header>
-
-<section class="rr-toolbar">
-  <p class="rr-updated">
-    Last updated
-    <strong>2026-03-14T09:38:53Z</strong>
-  </p>
-  <div class="rr-legend">
-    <span class="rr-legend-item" style="--rr-accent: #f25f4c;">Mutation Rate</span>
-    <span class="rr-legend-item" style="--rr-accent: #2d6cdf;">ARG</span>
-    <span class="rr-legend-item" style="--rr-accent: #2f8f6b;">Pangenome / Structural Variation</span>
-  </div>
-</section>
-<div class="rr-paper-list">
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">Am J Surg Pathol</span>
-      <span class="rr-date">2026-03-13</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41821426/" target="_blank" rel="noopener noreferrer">NFATC2::NUTM2 Fusion Defines a Novel Primary Pulmonary Epithelial Tumor With a Distinctive Immunophenotype.</a></h3>
-    <p class="rr-authors">Lanlan Feng, Qiao Liu, Xiaoyan Liu, et al.</p>
-    <p class="rr-abstract">With the application of molecular techniques in pathologic diagnosis, several novel primary pulmonary epithelial tumors have been continuously discovered and classified under the WHO classification of thoracic tumors. Recently, a pulmonary tumor with NFATC2::NUTM2B fusion was first documented, but the spectrum of NFATC2::NUTM2 fusion...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">Cancer Cell</span>
-      <span class="rr-date">2026-03-12</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41825442/" target="_blank" rel="noopener noreferrer">The landscape of structural variation in pediatric cancer.</a></h3>
-    <p class="rr-authors">Robert Greenhalgh, Samuel W Brady, Wentao Yang, et al.</p>
-    <p class="rr-abstract">Structural variants (SVs) account for over 60% of pediatric cancer driver variants. Pan-cancer analyses on 1,616 pediatric and 2,203 adult whole genomes show that pediatric SV burden varies ∼100-fold across cancer types, is reduced 6- to 16-fold compared to adult brain and solid tumors, but is comparable in hematological malignancies....</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">Genome Biol</span>
-      <span class="rr-date">2026-03-12</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41821123/" target="_blank" rel="noopener noreferrer">The genomic history of Streptococcus mutans from the Mesolithic until modern times.</a></h3>
-    <p class="rr-authors">Vincent F D F Thygesen, Motahare Feizabadi Farahani, Sofie Holtsmark Nielsen, et al.</p>
-    <p class="rr-abstract">Streptococcus mutans is a member of the human oral microbiota and is considered one of the most important cariogenic organisms. Previous studies have suggested an expansion of S. mutans populations about 10,000 years ago with the onset of agriculture, yet direct molecular evidence of its presence from ancient DNA remains sparse. Here,...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">Science</span>
-      <span class="rr-date">2026-03-12</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41818342/" target="_blank" rel="noopener noreferrer">A deep-time landscape of plant cis-regulatory sequence evolution.</a></h3>
-    <p class="rr-authors">Kirk R Amundson, Anat Hendelman, Danielle Ciren, et al.</p>
-    <p class="rr-abstract">Developmental gene function is often conserved over deep time, but cis-regulatory sequence conservation is difficult to identify. Rapid sequence turnover, paleopolyploidy, structural variation, and limited phylogenomic sampling have impeded conserved non-coding sequence (CNS) discovery. Using Conservatory, an algorithm that leverages...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">Sci Adv</span>
-      <span class="rr-date">2026-03-11</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41811945/" target="_blank" rel="noopener noreferrer">Reduced MGE burden, virulence optimization, and acid stress tolerance shape the clonal succession of MRSA ST59.</a></h3>
-    <p class="rr-authors">Ye Jin, Wangxiao Zhou, Xu Dong, et al.</p>
-    <p class="rr-abstract">Methicillin-resistant Staphylococcus aureus (MRSA) ST59 clone has replaced the historically dominant ST239 in China. However, the mechanisms behind this shift remain elusive. Phylogenetic analysis revealed divergent evolutionary trajectories: ST239 emerged via interlineage recombination and accumulated extensive resistance and genome...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">Semin Reprod Med</span>
-      <span class="rr-date">2026-03-11</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41812684/" target="_blank" rel="noopener noreferrer">Clinical Testing for Genetic Conditions.</a></h3>
-    <p class="rr-authors">Hyung-Goo Kim, Sumia Brakta, Afif Ben-Mahmoud, et al.</p>
-    <p class="rr-abstract">Clinical genetics in reproductive medicine has moved from cytogenetic assessment to integrated, genome-wide diagnostics that resolve both sequence-level and structural variation. For patients facing infertility, recurrent pregnancy loss, fetal structural anomalies, or early onset pediatric disease, contemporary care follows a reflexive...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">Phys Chem Chem Phys</span>
-      <span class="rr-date">2026-03-11</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41697046/" target="_blank" rel="noopener noreferrer">Quantitative electronic structure determination of N-heterotriangulene derivatives adsorbed on Au(111).</a></h3>
-    <p class="rr-authors">Jakob Steidel, Ina Michalsky, Milan Kivala, et al.</p>
-    <p class="rr-abstract">N-heterotriangulenes (N-HTAs) are promising organic semiconductors for applications in field effect transistors and solar cells. Thereby the electronic structure of organic/metal interfaces and thin films is essential for the performance of organic-molecule-based devices. Here, we studied the electronic properties of two different...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">Sci Rep</span>
-      <span class="rr-date">2026-03-11</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41813799/" target="_blank" rel="noopener noreferrer">EffectorFisher: association of disease phenotype with pangenomic protein-isoform profiles for improved prediction of fungal pathogenicity effectors.</a></h3>
-    <p class="rr-authors">Mohitul Hossain, Naomi Gray, Pavel Misiun, et al.</p>
-    <p class="rr-abstract">Plant-pathogenic fungi cause crop disease via a range of secreted effector proteins that interact with specific receptors of host plant cells. Effector identification can enable the diagnosis of disease outcomes and enable selection or breeding of disease-resistant crop cultivars. Bioinformatic methods have been developed to predict...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">Nature</span>
-      <span class="rr-date">2026-03-11</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41813899/" target="_blank" rel="noopener noreferrer">A sorghum pangenome reference improves global crop trait discovery.</a></h3>
-    <p class="rr-authors">Geoffrey P Morris, Avril M Harder, Adam L Healey, et al.</p>
-    <p class="rr-abstract">Although the green revolution adapted a handful of crops to homogeneous and high-input industrialized agriculture, much of the global population still relies on the local production of variable crop cultivars by low-input smallholder farms. This diversity of unhomogenized crops1, like that of the grain and bioenergy crop sorghum2-5,...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">BMC Res Notes</span>
-      <span class="rr-date">2026-03-10</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41808208/" target="_blank" rel="noopener noreferrer">Targeted native long-read sequencing of DNA methylation alterations following CRISPR-Cas9-induced double-strand breaks in human cells.</a></h3>
-    <p class="rr-authors">Yingzi Zhang, Mengge Wang, Chongwei Bi, et al.</p>
-    <p class="rr-abstract">CRISPR-Cas9 nucleases are widely used to introduce targeted DNA double-strand breaks (DSBs) for genome engineering, but the long-term impact of these lesions on local epigenetic information remains poorly characterized. In a companion research article, we used Cas9-assisted targeted nanopore sequencing (CTS) to reveal that...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">Bioinformatics</span>
-      <span class="rr-date">2026-03-10</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41808444/" target="_blank" rel="noopener noreferrer">PULPO: Pipeline of understanding large-scale patterns of oncogenomic signatures.</a></h3>
-    <p class="rr-authors">Marta Portasany-Rodríguez, Gonzalo Soria-Alcaide, Elena G Sánchez, et al.</p>
-    <p class="rr-abstract">PULPO v1.0 is a novel, fully automated pipeline designed for the preprocess and extraction of mutational signatures from raw Optical Genome Mapping (OGM) data. Built using Snakemake and executed within an isolated, Conda-managed environment, PULPO transforms complex cytogenetic alterations, captured at ultra-high resolution, into...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">J Am Chem Soc</span>
-      <span class="rr-date">2026-03-10</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41805358/" target="_blank" rel="noopener noreferrer">Emergent Heavy-Fermion Physics in a Family of Topological Insulators RAsS (R = Y, La, and Sm).</a></h3>
-    <p class="rr-authors">Iñigo Robredo, Yuan Fang, Lei Chen, et al.</p>
-    <p class="rr-abstract">Realizing topological phases in strongly correlated materials has become a major impetus in condensed matter physics. Although many compounds are now classified as topological insulators, f-electron systems provide an especially fertile platform for emergent heavy-fermion phenomena driven by the interplay of topology and many-body...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">J Plant Physiol</span>
-      <span class="rr-date">2026-03-10</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41825396/" target="_blank" rel="noopener noreferrer">Pan-genomic analysis of Allorhizobium vitis uncovers diversification and biocontrol potential traits against crown gall disease.</a></h3>
-    <p class="rr-authors">Mark Owusu Adjei, Lu Jiang, Ameena Dilshad, et al.</p>
-    <p class="rr-abstract">Allorhizobium vitis (A. vitis), the causal agent of grapevine crown gall, also includes nonpathogenic strains with promising biocontrol ability. To elucidate the genomic features underlying this potential, we conducted a comprehensive comparative and pan-genomic analysis of 28 A. vitis strains. Genome size ranged from 5.33 to 6.41 Mb...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #f25f4c;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Mutation Rate</span>
-      <span class="rr-venue">PLoS Biol</span>
-      <span class="rr-date">2026-03-10</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41805845/" target="_blank" rel="noopener noreferrer">Transposable elements contribute substantially to naturally occurring genetic lethality in Drosophila melanogaster.</a></h3>
-    <p class="rr-authors">Sarah B Marion, Katrina Focht, Iman Hamid, et al.</p>
-    <p class="rr-abstract">Recessive lethal mutations are widespread across studied species, with estimates suggesting that each individual carries at least one. Numerous lethal alleles persist in wild populations at higher frequencies than expected given their extreme deleterious nature. Though these findings spurred historical debate whether classical balancing...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">Nat Commun</span>
-      <span class="rr-date">2026-03-10</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41807376/" target="_blank" rel="noopener noreferrer">Acinetobacter baumannii&#39;s lifestyle includes soil-dwelling colonization of decaying plant material and airborne spread.</a></h3>
-    <p class="rr-authors">Gottfried Wilharm, Evelyn Skiebe, Andżelina Michalska, et al.</p>
-    <p class="rr-abstract">Acinetobacter baumannii is a Gram-negative nosocomial pathogen that is notorious for its rapid development of antibiotic resistance. However, its ecology and evolution outside hospital settings remain poorly defined. Here, we demonstrate that the natural lifestyle of A. baumannii includes soil-dwelling and airborne dissemination, which...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">Annu Rev Genomics Hum Genet</span>
-      <span class="rr-date">2026-03-10</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41805559/" target="_blank" rel="noopener noreferrer">Pangenomic Initiatives in the Middle East.</a></h3>
-    <p class="rr-authors">Bassam Jamalalail, Mohammad Amiruddin Hashmi, Mohamed A Almarri, et al.</p>
-    <p class="rr-abstract">The pangenome initiative marks a major shift from reliance on a single human reference that undersamples global diversity. Building phased, diploid assemblies from specific regions reveals population haplotypes and structural variants. This review outlines core pangenome concepts and surveys initiatives across Middle Eastern countries,...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">PLoS One</span>
-      <span class="rr-date">2026-03-10</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41805947/" target="_blank" rel="noopener noreferrer">Genomic and phylogenomic exploration of Vibrio cholerae strain SU129B isolated from Penaeus vannamei: Resistance, virulence, and evolutionary dynamics in bangladeshi aquaculture.</a></h3>
-    <p class="rr-authors">Mohammad Sharif Uddin, Kazi Chamonara, Md Habib Ullah Masum, et al.</p>
-    <p class="rr-abstract">Vibrio cholerae, a globally significant pathogen, causes both endemic and epidemic cholera and has also been associated with sporadic gastroenteritis and foodborne infections. Shrimp exports are a key source of revenue and employment in Bangladesh. However, Vibrio outbreaks pose serious public health and socio-economic risks through...</p>
-  </article>
-  <article class="rr-paper-card" style="--rr-accent: #2f8f6b;">
-    <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">Pangenome / Structural Variation</span>
-      <span class="rr-venue">Nat Genet</span>
-      <span class="rr-date">2026-03-10</span>
-    </div>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41807798/" target="_blank" rel="noopener noreferrer">Population-level structural variant characterization using pangenome graphs.</a></h3>
-    <p class="rr-authors">Songbo Wang, Tun Xu, Pengyu Zhang, et al.</p>
-    <p class="rr-abstract">Population-level structural variant (SV) profiling is crucial in the era of pangenomes. However, identifying SVs from genome assemblies and pangenome graphs remains a substantial challenge. Here we present Swave, a sequence-to-image, deep learning-based method that accurately resolves both simple and complex SVs, along with their...</p>
-  </article>
-</div>
-    </main>
-    
-<footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">Ziye Wang</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu');
-    if (menu) {
-        
-        const scrollPosition = localStorage.getItem("menu-scroll-position");
-        if (scrollPosition) {
-            menu.scrollLeft = parseInt(scrollPosition, 10);
-        }
-        
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        const html = document.querySelector("html");
-        if (html.dataset.theme === "dark") {
-            html.dataset.theme = 'light';
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            html.dataset.theme = 'dark';
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
-
-</html>
+<!doctype html><html lang=english dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Research Radar | Ziye Wang</title><meta name=keywords content><meta name=description content="Research Radar - Ziye Wang"><meta name=author content><link rel=canonical href=https://Zii-yyE.github.io/research-radar/><link crossorigin=anonymous href=/assets/css/stylesheet.7208bd38734c7641300febb6a213329336a61c787f310da4aa23ecd2aa4f2b5c.css integrity="sha256-cgi9OHNMdkEwD+u2ohMykzamHHh/MQ2kqiPs0qpPK1w=" rel="preload stylesheet" as=style><link rel=icon href=https://Zii-yyE.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://Zii-yyE.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://Zii-yyE.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://Zii-yyE.github.io/apple-touch-icon.png><link rel=mask-icon href=https://Zii-yyE.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://Zii-yyE.github.io/research-radar/index.xml title=rss><link rel=alternate hreflang=english href=https://Zii-yyE.github.io/research-radar/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://Zii-yyE.github.io/research-radar/"><meta property="og:site_name" content="Ziye Wang"><meta property="og:title" content="Research Radar"><meta property="og:locale" content="english"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Research Radar"><meta name=twitter:description content><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Research Radar","item":"https://Zii-yyE.github.io/research-radar/"}]}</script><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js></script><script>MathJax={tex:{displayMath:[["\\[","\\]"],["$$","$$"]],inlineMath:[["\\(","\\)"]]},loader:{load:["ui/safe"]}}</script></head><body class=list id=top><header class=header><nav class=nav><div class=logo><a href=https://Zii-yyE.github.io/ accesskey=h title="Ziye Wang (Alt + H)">Ziye Wang</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
+<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li><li><a href=https://Zii-yyE.github.io/%E4%B8%AD%E6%96%87/ title=中文 aria-label=中文>中文</a></li></ul></div></div><ul id=menu><li><a href=https://Zii-yyE.github.io/about/ title=About><span>About</span></a></li><li><a href=https://Zii-yyE.github.io/publications/ title=Publications><span>Publications</span></a></li><li><a href=https://Zii-yyE.github.io/research-radar/ title="Research Radar"><span class=active>Research Radar</span></a></li></ul></nav></header><main class=main><header class=page-header><h1>Research Radar</h1></header><section class=rr-toolbar><p class=rr-updated>Last updated
+<strong>2026-03-15 22:19 UTC+8</strong></p><div class=rr-legend role=toolbar aria-label="Filter papers by topic"><button class="rr-filter-button is-active" type=button data-topic-filter=all aria-pressed=true>All</button>
+<button class=rr-filter-button type=button data-topic-filter=mutation_rate data-topic-label="Mutation Rate" aria-pressed=false style=--rr-accent:#f25f4c>
+Mutation Rate
+</button>
+<button class=rr-filter-button type=button data-topic-filter=arg data-topic-label=ARG aria-pressed=false style=--rr-accent:#2d6cdf>
+ARG
+</button>
+<button class=rr-filter-button type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false style=--rr-accent:#2f8f6b>
+Pangenome / Structural Variation</button></div></section><div class=rr-paper-list><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>Am J Surg Pathol</span>
+<span class=rr-date>2026-03-13</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41821426/ target=_blank rel="noopener noreferrer">NFATC2::NUTM2 Fusion Defines a Novel Primary Pulmonary Epithelial Tumor With a Distinctive Immunophenotype.</a></h3><p class=rr-authors>Lanlan Feng, Qiao Liu, Xiaoyan Liu, et al.</p><p class=rr-abstract>With the application of molecular techniques in pathologic diagnosis, several novel primary pulmonary epithelial tumors have been continuously discovered and classified under the WHO classification of thoracic tumors. Recently, a pulmonary tumor with NFATC2::NUTM2B fusion was first documented, but the spectrum of NFATC2::NUTM2 fusion...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>Cancer Cell</span>
+<span class=rr-date>2026-03-12</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41825442/ target=_blank rel="noopener noreferrer">The landscape of structural variation in pediatric cancer.</a></h3><p class=rr-authors>Robert Greenhalgh, Samuel W Brady, Wentao Yang, et al.</p><p class=rr-abstract>Structural variants (SVs) account for over 60% of pediatric cancer driver variants. Pan-cancer analyses on 1,616 pediatric and 2,203 adult whole genomes show that pediatric SV burden varies ∼100-fold across cancer types, is reduced 6- to 16-fold compared to adult brain and solid tumors, but is comparable in hematological malignancies....</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>Genome Biol</span>
+<span class=rr-date>2026-03-12</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41821123/ target=_blank rel="noopener noreferrer">The genomic history of Streptococcus mutans from the Mesolithic until modern times.</a></h3><p class=rr-authors>Vincent F D F Thygesen, Motahare Feizabadi Farahani, Sofie Holtsmark Nielsen, et al.</p><p class=rr-abstract>Streptococcus mutans is a member of the human oral microbiota and is considered one of the most important cariogenic organisms. Previous studies have suggested an expansion of S. mutans populations about 10,000 years ago with the onset of agriculture, yet direct molecular evidence of its presence from ancient DNA remains sparse. Here,...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>Science</span>
+<span class=rr-date>2026-03-12</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41818342/ target=_blank rel="noopener noreferrer">A deep-time landscape of plant cis-regulatory sequence evolution.</a></h3><p class=rr-authors>Kirk R Amundson, Anat Hendelman, Danielle Ciren, et al.</p><p class=rr-abstract>Developmental gene function is often conserved over deep time, but cis-regulatory sequence conservation is difficult to identify. Rapid sequence turnover, paleopolyploidy, structural variation, and limited phylogenomic sampling have impeded conserved non-coding sequence (CNS) discovery. Using Conservatory, an algorithm that leverages...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>Sci Adv</span>
+<span class=rr-date>2026-03-11</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41811945/ target=_blank rel="noopener noreferrer">Reduced MGE burden, virulence optimization, and acid stress tolerance shape the clonal succession of MRSA ST59.</a></h3><p class=rr-authors>Ye Jin, Wangxiao Zhou, Xu Dong, et al.</p><p class=rr-abstract>Methicillin-resistant Staphylococcus aureus (MRSA) ST59 clone has replaced the historically dominant ST239 in China. However, the mechanisms behind this shift remain elusive. Phylogenetic analysis revealed divergent evolutionary trajectories: ST239 emerged via interlineage recombination and accumulated extensive resistance and genome...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>Semin Reprod Med</span>
+<span class=rr-date>2026-03-11</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41812684/ target=_blank rel="noopener noreferrer">Clinical Testing for Genetic Conditions.</a></h3><p class=rr-authors>Hyung-Goo Kim, Sumia Brakta, Afif Ben-Mahmoud, et al.</p><p class=rr-abstract>Clinical genetics in reproductive medicine has moved from cytogenetic assessment to integrated, genome-wide diagnostics that resolve both sequence-level and structural variation. For patients facing infertility, recurrent pregnancy loss, fetal structural anomalies, or early onset pediatric disease, contemporary care follows a reflexive...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>Phys Chem Chem Phys</span>
+<span class=rr-date>2026-03-11</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41697046/ target=_blank rel="noopener noreferrer">Quantitative electronic structure determination of N-heterotriangulene derivatives adsorbed on Au(111).</a></h3><p class=rr-authors>Jakob Steidel, Ina Michalsky, Milan Kivala, et al.</p><p class=rr-abstract>N-heterotriangulenes (N-HTAs) are promising organic semiconductors for applications in field effect transistors and solar cells. Thereby the electronic structure of organic/metal interfaces and thin films is essential for the performance of organic-molecule-based devices. Here, we studied the electronic properties of two different...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>Sci Rep</span>
+<span class=rr-date>2026-03-11</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41813799/ target=_blank rel="noopener noreferrer">EffectorFisher: association of disease phenotype with pangenomic protein-isoform profiles for improved prediction of fungal pathogenicity effectors.</a></h3><p class=rr-authors>Mohitul Hossain, Naomi Gray, Pavel Misiun, et al.</p><p class=rr-abstract>Plant-pathogenic fungi cause crop disease via a range of secreted effector proteins that interact with specific receptors of host plant cells. Effector identification can enable the diagnosis of disease outcomes and enable selection or breeding of disease-resistant crop cultivars. Bioinformatic methods have been developed to predict...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>Nature</span>
+<span class=rr-date>2026-03-11</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41813899/ target=_blank rel="noopener noreferrer">A sorghum pangenome reference improves global crop trait discovery.</a></h3><p class=rr-authors>Geoffrey P Morris, Avril M Harder, Adam L Healey, et al.</p><p class=rr-abstract>Although the green revolution adapted a handful of crops to homogeneous and high-input industrialized agriculture, much of the global population still relies on the local production of variable crop cultivars by low-input smallholder farms. This diversity of unhomogenized crops1, like that of the grain and bioenergy crop sorghum2-5,...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>BMC Res Notes</span>
+<span class=rr-date>2026-03-10</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41808208/ target=_blank rel="noopener noreferrer">Targeted native long-read sequencing of DNA methylation alterations following CRISPR-Cas9-induced double-strand breaks in human cells.</a></h3><p class=rr-authors>Yingzi Zhang, Mengge Wang, Chongwei Bi, et al.</p><p class=rr-abstract>CRISPR-Cas9 nucleases are widely used to introduce targeted DNA double-strand breaks (DSBs) for genome engineering, but the long-term impact of these lesions on local epigenetic information remains poorly characterized. In a companion research article, we used Cas9-assisted targeted nanopore sequencing (CTS) to reveal that...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>Bioinformatics</span>
+<span class=rr-date>2026-03-10</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41808444/ target=_blank rel="noopener noreferrer">PULPO: Pipeline of understanding large-scale patterns of oncogenomic signatures.</a></h3><p class=rr-authors>Marta Portasany-Rodríguez, Gonzalo Soria-Alcaide, Elena G Sánchez, et al.</p><p class=rr-abstract>PULPO v1.0 is a novel, fully automated pipeline designed for the preprocess and extraction of mutational signatures from raw Optical Genome Mapping (OGM) data. Built using Snakemake and executed within an isolated, Conda-managed environment, PULPO transforms complex cytogenetic alterations, captured at ultra-high resolution, into...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>J Am Chem Soc</span>
+<span class=rr-date>2026-03-10</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41805358/ target=_blank rel="noopener noreferrer">Emergent Heavy-Fermion Physics in a Family of Topological Insulators RAsS (R = Y, La, and Sm).</a></h3><p class=rr-authors>Iñigo Robredo, Yuan Fang, Lei Chen, et al.</p><p class=rr-abstract>Realizing topological phases in strongly correlated materials has become a major impetus in condensed matter physics. Although many compounds are now classified as topological insulators, f-electron systems provide an especially fertile platform for emergent heavy-fermion phenomena driven by the interplay of topology and many-body...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>J Plant Physiol</span>
+<span class=rr-date>2026-03-10</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41825396/ target=_blank rel="noopener noreferrer">Pan-genomic analysis of Allorhizobium vitis uncovers diversification and biocontrol potential traits against crown gall disease.</a></h3><p class=rr-authors>Mark Owusu Adjei, Lu Jiang, Ameena Dilshad, et al.</p><p class=rr-abstract>Allorhizobium vitis (A. vitis), the causal agent of grapevine crown gall, also includes nonpathogenic strains with promising biocontrol ability. To elucidate the genomic features underlying this potential, we conducted a comprehensive comparative and pan-genomic analysis of 28 A. vitis strains. Genome size ranged from 5.33 to 6.41 Mb...</p></article><article class=rr-paper-card data-topic=mutation_rate style=--rr-accent:#f25f4c><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=mutation_rate data-topic-label="Mutation Rate" aria-pressed=false>
+Mutation Rate
+</button>
+<span class=rr-venue>PLoS Biol</span>
+<span class=rr-date>2026-03-10</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41805845/ target=_blank rel="noopener noreferrer">Transposable elements contribute substantially to naturally occurring genetic lethality in Drosophila melanogaster.</a></h3><p class=rr-authors>Sarah B Marion, Katrina Focht, Iman Hamid, et al.</p><p class=rr-abstract>Recessive lethal mutations are widespread across studied species, with estimates suggesting that each individual carries at least one. Numerous lethal alleles persist in wild populations at higher frequencies than expected given their extreme deleterious nature. Though these findings spurred historical debate whether classical balancing...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>Nat Commun</span>
+<span class=rr-date>2026-03-10</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41807376/ target=_blank rel="noopener noreferrer">Acinetobacter baumannii's lifestyle includes soil-dwelling colonization of decaying plant material and airborne spread.</a></h3><p class=rr-authors>Gottfried Wilharm, Evelyn Skiebe, Andżelina Michalska, et al.</p><p class=rr-abstract>Acinetobacter baumannii is a Gram-negative nosocomial pathogen that is notorious for its rapid development of antibiotic resistance. However, its ecology and evolution outside hospital settings remain poorly defined. Here, we demonstrate that the natural lifestyle of A. baumannii includes soil-dwelling and airborne dissemination, which...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>Annu Rev Genomics Hum Genet</span>
+<span class=rr-date>2026-03-10</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41805559/ target=_blank rel="noopener noreferrer">Pangenomic Initiatives in the Middle East.</a></h3><p class=rr-authors>Bassam Jamalalail, Mohammad Amiruddin Hashmi, Mohamed A Almarri, et al.</p><p class=rr-abstract>The pangenome initiative marks a major shift from reliance on a single human reference that undersamples global diversity. Building phased, diploid assemblies from specific regions reveals population haplotypes and structural variants. This review outlines core pangenome concepts and surveys initiatives across Middle Eastern countries,...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>PLoS One</span>
+<span class=rr-date>2026-03-10</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41805947/ target=_blank rel="noopener noreferrer">Genomic and phylogenomic exploration of Vibrio cholerae strain SU129B isolated from Penaeus vannamei: Resistance, virulence, and evolutionary dynamics in bangladeshi aquaculture.</a></h3><p class=rr-authors>Mohammad Sharif Uddin, Kazi Chamonara, Md Habib Ullah Masum, et al.</p><p class=rr-abstract>Vibrio cholerae, a globally significant pathogen, causes both endemic and epidemic cholera and has also been associated with sporadic gastroenteritis and foodborne infections. Shrimp exports are a key source of revenue and employment in Bangladesh. However, Vibrio outbreaks pose serious public health and socio-economic risks through...</p></article><article class=rr-paper-card data-topic=pangenome_sv style=--rr-accent:#2f8f6b><div class=rr-paper-topline><button class="rr-tag rr-tag--topic rr-card-filter" type=button data-topic-filter=pangenome_sv data-topic-label="Pangenome / Structural Variation" aria-pressed=false>
+Pangenome / Structural Variation
+</button>
+<span class=rr-venue>Nat Genet</span>
+<span class=rr-date>2026-03-10</span></div><h3><a href=https://pubmed.ncbi.nlm.nih.gov/41807798/ target=_blank rel="noopener noreferrer">Population-level structural variant characterization using pangenome graphs.</a></h3><p class=rr-authors>Songbo Wang, Tun Xu, Pengyu Zhang, et al.</p><p class=rr-abstract>Population-level structural variant (SV) profiling is crucial in the era of pangenomes. However, identifying SVs from genome assemblies and pangenome graphs remains a substantial challenge. Here we present Swave, a sequence-to-image, deep learning-based method that accurately resolves both simple and complex SVs, along with their...</p></article></div><p class="rr-empty rr-filter-empty is-hidden" data-filter-empty>No papers in this topic yet.</p><script>(()=>{const n=Array.from(document.querySelectorAll(".rr-paper-card[data-topic]")),e=Array.from(document.querySelectorAll("[data-topic-filter]")),t=document.querySelector("[data-filter-empty]");if(!n.length||!e.length)return;const s=s=>{for(const t of e){const n=t.dataset.topicFilter===s;t.classList.toggle("is-active",n),t.setAttribute("aria-pressed",n?"true":"false")}let o=0;for(const e of n){const t=s==="all"||e.dataset.topic===s;e.classList.toggle("is-hidden",!t),e.style.display=t?"":"none",t&&(o+=1)}if(t){const e=o===0;t.classList.toggle("is-hidden",!e),t.style.display=e?"":"none"}};for(const t of e)t.addEventListener("click",e=>{e.preventDefault(),s(t.dataset.topicFilter||"all")});s("all")})()</script></main><footer class=footer><span>&copy; 2026 <a href=https://Zii-yyE.github.io/>Ziye Wang</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>

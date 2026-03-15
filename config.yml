@@ -42,24 +42,20 @@ languages:
           name: About
           url: /about/
           weight: 1
-        - identifier: resources
-          name: Resources
-          url: /resources/
-          weight: 2  
         - identifier: publications
           name: Publications
           url: /publications/
-          weight: 3
+          weight: 2
         - identifier: research-radar
           name: Research Radar
           url: /research-radar/
-          weight: 4
+          weight: 3
 
     params:
       profileMode:
         enabled: true
         title: "Ziye Wang"
-        subtitle: "<span style='font-size: 0.9rem; color: grey;'>Evolutionary Genetics, Statistical Genetics</span>"
+        subtitle: "<span style='font-size: 0.9rem; color: grey;'>Evolutionary Genomics, Statistical Genomics</span>"
         imageUrl: "/me.jpeg"      
         imageWidth: 180             
         imageHeight: 180             
@@ -81,14 +77,10 @@ languages:
           name: 自我介绍
           url: /about/
           weight: 1
-        - identifier: resources
-          name: 资源分享
-          url: /resources/
-          weight: 2  
         - identifier: publications
           name: 发表论文
           url: /publications/
-          weight: 3
+          weight: 2
 
     params:
       author:

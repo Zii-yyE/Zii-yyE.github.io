@@ -26,18 +26,41 @@
   gap: 0.55rem;
 }
 
-.rr-legend-item,
+.rr-filter-button,
 .rr-tag {
   display: inline-flex;
   align-items: center;
   border-radius: 999px;
-  padding: 0.28rem 0.72rem;
-  font-size: 0.78rem;
+  padding: 0.3rem 0.74rem;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
   border: 1px solid color-mix(in srgb, var(--rr-accent, var(--border)) 32%, var(--border));
+  background: color-mix(in srgb, var(--entry) 84%, var(--rr-accent, white) 16%);
+  color: var(--primary);
+  cursor: pointer;
+  transition:
+    background-color 140ms ease,
+    border-color 140ms ease,
+    color 140ms ease,
+    box-shadow 140ms ease,
+    transform 140ms ease;
 }
 
-.rr-legend-item {
-  background: color-mix(in srgb, var(--entry) 84%, var(--rr-accent) 16%);
+.rr-filter-button:hover,
+.rr-tag:hover {
+  border-color: color-mix(in srgb, var(--rr-accent, var(--primary)) 52%, var(--border));
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.08);
+}
+
+.rr-filter-button.is-active {
+  background: color-mix(in srgb, var(--rr-accent, var(--primary)) 72%, white 28%);
+  border-color: color-mix(in srgb, var(--rr-accent, var(--primary)) 84%, black 16%);
+  color: #fff;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 6px 18px rgba(15, 23, 42, 0.16);
+  transform: translateY(-1px);
 }
 
 .rr-paper-list {
@@ -70,6 +93,11 @@
 
 .rr-tag--topic {
   color: color-mix(in srgb, var(--rr-accent) 70%, black 30%);
+  font: inherit;
+  padding: 0.18rem 0.54rem;
+  font-size: 0.69rem;
+  font-weight: 700;
+  letter-spacing: 0.015em;
 }
 
 .rr-venue,
@@ -92,6 +120,11 @@
   text-decoration: underline;
 }
 
+.rr-card-filter {
+  appearance: none;
+  box-shadow: none;
+}
+
 .rr-authors {
   margin-top: 0.42rem;
   color: var(--secondary);
@@ -107,4 +140,8 @@
 .rr-empty {
   color: var(--secondary);
   margin-top: 1rem;
+}
+
+.is-hidden {
+  display: none !important;
 }

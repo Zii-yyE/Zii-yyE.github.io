@@ -15,7 +15,9 @@
 <section class="rr-toolbar">
   <p class="rr-updated">
     Last updated
-    {{- if $summary.generated_at }}
+    {{- if $summary.generated_at_china }}
+    <strong>{{ $summary.generated_at_china }}</strong>
+    {{- else if $summary.generated_at }}
     <strong>{{ $summary.generated_at }}</strong>
     {{- else }}
     <strong>not yet generated</strong>
@@ -23,9 +25,19 @@
   </p>
 
   {{- if gt (len $summary.focus_topics) 0 }}
-  <div class="rr-legend">
+  <div class="rr-legend" role="toolbar" aria-label="Filter papers by topic">
+    <button class="rr-filter-button is-active" type="button" data-topic-filter="all" aria-pressed="true">All</button>
     {{- range $summary.focus_topics }}
-    <span class="rr-legend-item" style="--rr-accent: {{ .accent_color }};">{{ .label }}</span>
+    <button
+      class="rr-filter-button"
+      type="button"
+      data-topic-filter="{{ .id }}"
+      data-topic-label="{{ .label }}"
+      aria-pressed="false"
+      style="--rr-accent: {{ .accent_color }};"
+    >
+      {{ .label }}
+    </button>
     {{- end }}
   </div>
   {{- end }}
@@ -34,9 +46,17 @@
 {{- if gt (len $recent.latest) 0 }}
 <div class="rr-paper-list">
   {{- range $recent.latest }}
-  <article class="rr-paper-card" style="--rr-accent: {{ .accent_color }};">
+  <article class="rr-paper-card" data-topic="{{ .primary_topic }}" style="--rr-accent: {{ .accent_color }};">
     <div class="rr-paper-topline">
-      <span class="rr-tag rr-tag--topic">{{ .primary_topic_label }}</span>
+      <button
+        class="rr-tag rr-tag--topic rr-card-filter"
+        type="button"
+        data-topic-filter="{{ .primary_topic }}"
+        data-topic-label="{{ .primary_topic_label }}"
+        aria-pressed="false"
+      >
+        {{ .primary_topic_label }}
+      </button>
       <span class="rr-venue">{{ .venue_display }}</span>
       <span class="rr-date">{{ .published_date }}</span>
     </div>
@@ -49,4 +69,46 @@
 {{- else }}
 <p class="rr-empty">No tracked papers exported yet.</p>
 {{- end }}
+
+<p class="rr-empty rr-filter-empty is-hidden" data-filter-empty>No papers in this topic yet.</p>
+
+<script>
+  (() => {
+    const cards = Array.from(document.querySelectorAll(".rr-paper-card[data-topic]"));
+    const buttons = Array.from(document.querySelectorAll("[data-topic-filter]"));
+    const emptyState = document.querySelector("[data-filter-empty]");
+    if (!cards.length || !buttons.length) return;
+
+    const setActive = (topic) => {
+      for (const button of buttons) {
+        const isActive = button.dataset.topicFilter === topic;
+        button.classList.toggle("is-active", isActive);
+        button.setAttribute("aria-pressed", isActive ? "true" : "false");
+      }
+
+      let visibleCount = 0;
+      for (const card of cards) {
+        const visible = topic === "all" || card.dataset.topic === topic;
+        card.classList.toggle("is-hidden", !visible);
+        card.style.display = visible ? "" : "none";
+        if (visible) visibleCount += 1;
+      }
+
+      if (emptyState) {
+        const showEmpty = visibleCount === 0;
+        emptyState.classList.toggle("is-hidden", !showEmpty);
+        emptyState.style.display = showEmpty ? "" : "none";
+      }
+    };
+
+    for (const button of buttons) {
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        setActive(button.dataset.topicFilter || "all");
+      });
+    }
+
+    setActive("all");
+  })();
+</script>
 {{- end }}
