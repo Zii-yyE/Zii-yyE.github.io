@@ -4,8 +4,6 @@ layout: "single"
 ---
 <style>.post-header { display: none; }</style>
 
-# Welcome!
-
 ## Education
 <div style="display: flex; align-items: flex-start; margin-bottom: 1rem;">
   <img src="/ucb-logo.jpg" alt="UCB Logo" style="width: 85px; height: 85px; object-fit: contain; margin-right: 1.5rem; margin-top: 5px; box-shadow: none; border: none;">

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Dict, List, Set
+from typing import Dict, Iterable, List, Optional, Set
 from urllib.parse import urlencode
 
 from ..models import NormalizedPaper
@@ -44,6 +44,7 @@ def fetch_pubmed_papers(
     start_date: str,
     end_date: str,
     first_seen_at: str,
+    topic_ids: Optional[Iterable[str]] = None,
 ) -> List[NormalizedPaper]:
     if not source_config.get("enabled", True):
         return []
@@ -54,11 +55,24 @@ def fetch_pubmed_papers(
     efetch_endpoint = str(
         source_config.get("efetch_endpoint", "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi")
     )
-    retmax = int(source_config.get("retmax", 100))
+    retmax = int(source_config.get("retmax_per_topic", source_config.get("retmax", 100)))
     unique_ids: List[str] = []
     seen_ids: Set[str] = set()
 
-    for query in source_config.get("queries", []):
+    topic_query_map = source_config.get("topic_queries", {})
+    queries: List[str] = []
+    if isinstance(topic_query_map, dict) and topic_query_map:
+        if topic_ids is None:
+            queries = [str(query) for query in topic_query_map.values() if query]
+        else:
+            for topic_id in topic_ids:
+                query = topic_query_map.get(topic_id)
+                if query:
+                    queries.append(str(query))
+    else:
+        queries = [str(query) for query in source_config.get("queries", []) if query]
+
+    for query in queries:
         for identifier in _esearch_ids(esearch_endpoint, _pubmed_query(query, start_date, end_date), retmax):
             if identifier in seen_ids:
                 continue

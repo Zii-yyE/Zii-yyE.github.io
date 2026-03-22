@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="personal" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Fonts for Scientific Publication | Ziye Wang</title>
+<meta name="keywords" content="">
+<meta name="description" content="A practical note on serif vs sans-serif, the fonts that dominate scientific writing and figures, and a short history of how these conventions formed.">
+<meta name="author" content="Ziye Wang">
+<link rel="canonical" href="http://localhost:1313/personal/resources/bioinformatics/scientific-publication-fonts/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.3447f4613004424f7bb641b1a1fb4cb88757f336818e5dd0b7d539d5c976d1e9.css" integrity="sha256-NEf0YTAEQk97tkGxoftMuIdX8zaBjl3Qt9U51cl20ek=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="personal" href="http://localhost:1313/personal/resources/bioinformatics/scientific-publication-fonts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+    
+      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+    
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/personal/" accesskey="h" title="Ziye Wang (Alt + H)">Ziye Wang</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                    <ul class="lang-switch"><li>|</li>
+                        <li>
+                            <a href="http://localhost:1313/" title="Academic"
+                                aria-label="Academic">Academic</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/personal/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/personal/resources/" title="Resources">
+                    <span>Resources</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Fonts for Scientific Publication
+    </h1>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#the-short-version" aria-label="The short version">The short version</a></li>
+                <li>
+                    <a href="#basic-vocabulary" aria-label="Basic vocabulary">Basic vocabulary</a><ul>
+                        
+                <li>
+                    <a href="#serif" aria-label="Serif">Serif</a></li>
+                <li>
+                    <a href="#sans-serif" aria-label="Sans-serif">Sans-serif</a></li>
+                <li>
+                    <a href="#monospace" aria-label="Monospace">Monospace</a></li></ul>
+                </li>
+                <li>
+                    <a href="#why-science-ended-up-this-way" aria-label="Why science ended up this way">Why science ended up this way</a><ul>
+                        
+                <li>
+                    <a href="#older-print-culture-favored-serif-text" aria-label="Older print culture favored serif text">Older print culture favored serif text</a></li>
+                <li>
+                    <a href="#times-new-roman-became-the-practical-workhorse" aria-label="Times New Roman became the practical workhorse">Times New Roman became the practical workhorse</a></li>
+                <li>
+                    <a href="#helvetica-became-the-modern-scientific-label-font" aria-label="Helvetica became the modern scientific label font">Helvetica became the modern scientific label font</a></li>
+                <li>
+                    <a href="#tex-and-latex-made-computer-modern-iconic" aria-label="TeX and LaTeX made Computer Modern iconic">TeX and LaTeX made Computer Modern iconic</a></li>
+                <li>
+                    <a href="#digital-publishing-broadened-the-defaults" aria-label="Digital publishing broadened the defaults">Digital publishing broadened the defaults</a></li></ul>
+                </li>
+                <li>
+                    <a href="#the-fonts-you-will-see-most-often" aria-label="The fonts you will see most often">The fonts you will see most often</a><ul>
+                        
+                <li>
+                    <a href="#times-new-roman" aria-label="Times New Roman">Times New Roman</a></li>
+                <li>
+                    <a href="#computer-modern" aria-label="Computer Modern">Computer Modern</a></li>
+                <li>
+                    <a href="#latin-modern" aria-label="Latin Modern">Latin Modern</a></li>
+                <li>
+                    <a href="#helvetica" aria-label="Helvetica">Helvetica</a></li>
+                <li>
+                    <a href="#arial" aria-label="Arial">Arial</a></li>
+                <li>
+                    <a href="#cambria" aria-label="Cambria">Cambria</a></li>
+                <li>
+                    <a href="#palatino-and-related-faces" aria-label="Palatino and related faces">Palatino and related faces</a></li>
+                <li>
+                    <a href="#courier-and-other-monospace-fonts" aria-label="Courier and other monospace fonts">Courier and other monospace fonts</a></li></ul>
+                </li>
+                <li>
+                    <a href="#what-journals-and-publishers-usually-care-about" aria-label="What journals and publishers usually care about">What journals and publishers usually care about</a></li>
+                <li>
+                    <a href="#manuscript-text-vs-figure-text" aria-label="Manuscript text vs figure text">Manuscript text vs figure text</a><ul>
+                        
+                <li>
+                    <a href="#manuscript-text" aria-label="Manuscript text">Manuscript text</a></li>
+                <li>
+                    <a href="#figure-text" aria-label="Figure text">Figure text</a></li></ul>
+                </li>
+                <li>
+                    <a href="#a-practical-hierarchy-for-scientific-work" aria-label="A practical hierarchy for scientific work">A practical hierarchy for scientific work</a><ul>
+                        
+                <li>
+                    <a href="#if-the-journal-gives-a-template" aria-label="If the journal gives a template">If the journal gives a template</a></li>
+                <li>
+                    <a href="#if-you-are-writing-in-word" aria-label="If you are writing in Word">If you are writing in Word</a></li>
+                <li>
+                    <a href="#if-you-are-writing-in-latex" aria-label="If you are writing in LaTeX">If you are writing in LaTeX</a></li>
+                <li>
+                    <a href="#if-you-are-writing-a-thesis" aria-label="If you are writing a thesis">If you are writing a thesis</a></li></ul>
+                </li>
+                <li>
+                    <a href="#good-habits" aria-label="Good habits">Good habits</a></li>
+                <li>
+                    <a href="#what-i-would-actually-do-in-computational-biology" aria-label="What I would actually do in computational biology">What I would actually do in computational biology</a><ul>
+                        
+                <li>
+                    <a href="#papers-and-preprints" aria-label="Papers and preprints">Papers and preprints</a></li>
+                <li>
+                    <a href="#figures" aria-label="Figures">Figures</a></li>
+                <li>
+                    <a href="#code-and-sequences" aria-label="Code and sequences">Code and sequences</a></li>
+                <li>
+                    <a href="#posters-and-slides" aria-label="Posters and slides">Posters and slides</a></li></ul>
+                </li>
+                <li>
+                    <a href="#bottom-line" aria-label="Bottom line">Bottom line</a></li>
+                <li>
+                    <a href="#references" aria-label="References">References</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><div style="margin: 0 0 1.4rem; padding: 1.1rem 1.1rem 1rem; border: 1px solid var(--border); border-radius: 18px; background: linear-gradient(180deg, var(--entry) 0%, color-mix(in srgb, var(--entry) 80%, var(--theme)) 100%);">
+  <div style="display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; margin-bottom: 0.7rem;">
+    <strong style="font-size: 1.05rem;">Quick references</strong>
+  </div>
+  <div style="display: flex; flex-wrap: wrap; gap: 0.65rem;">
+    <a href="https://www.nature.com/nature/for-authors/final-submission" target="_blank" rel="noopener noreferrer" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">Nature submission guide</a>
+    <a href="https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/" target="_blank" rel="noopener noreferrer" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">Nature figure guide</a>
+    <a href="https://www.elsevier.com/en-gb/about/policies-and-standards/author/artwork-and-media-instructions/artwork-overview" target="_blank" rel="noopener noreferrer" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">Elsevier artwork fonts</a>
+    <a href="https://ctan.org/pkg/lm" target="_blank" rel="noopener noreferrer" style="padding: 0.36rem 0.78rem; border: 1px solid var(--border); border-radius: 999px; background: var(--theme); color: var(--primary); text-decoration: none;">Latin Modern</a>
+  </div>
+</div>
+<blockquote>
+<p>In science, font choice is usually less about personal taste than about tradition, software defaults, math support, and journal production constraints.</p>
+</blockquote>
+<h1 id="the-short-version">The short version<a hidden class="anchor" aria-hidden="true" href="#the-short-version">#</a></h1>
+<p>If I had to compress the whole topic into a few rules:</p>
+<ul>
+<li><strong>Body text</strong> in papers is usually serif.</li>
+<li><strong>Figure labels</strong> are very often sans-serif.</li>
+<li><strong>Math-heavy papers</strong> often inherit the look of LaTeX, which means <strong>Computer Modern</strong> or <strong>Latin Modern</strong>.</li>
+<li><strong>Word-based manuscripts</strong> often default to <strong>Times New Roman</strong>, <strong>Arial</strong>, <strong>Cambria</strong>, or whatever the journal template specifies.</li>
+<li>In practice, the most common scientific combination is something like <strong>Times/Computer Modern for text</strong> and <strong>Arial/Helvetica for figures</strong>.</li>
+</ul>
+<h1 id="basic-vocabulary">Basic vocabulary<a hidden class="anchor" aria-hidden="true" href="#basic-vocabulary">#</a></h1>
+<h2 id="serif">Serif<a hidden class="anchor" aria-hidden="true" href="#serif">#</a></h2>
+<p>A <strong>serif</strong> font has small finishing strokes at the ends of letters.<br>
+Examples: <strong>Times New Roman</strong>, <strong>Garamond</strong>, <strong>Palatino</strong>, <strong>Computer Modern</strong>.</p>
+<p>Why people use serif faces in body text:</p>
+<ul>
+<li>they have a long print tradition</li>
+<li>they tend to feel formal and book-like</li>
+<li>many readers find them comfortable for long blocks of text on paper</li>
+</ul>
+<h2 id="sans-serif">Sans-serif<a hidden class="anchor" aria-hidden="true" href="#sans-serif">#</a></h2>
+<p>A <strong>sans-serif</strong> font removes those finishing strokes.<br>
+Examples: <strong>Helvetica</strong>, <strong>Arial</strong>, <strong>Calibri</strong>, <strong>Univers</strong>.</p>
+<p>Why people use sans-serif faces:</p>
+<ul>
+<li>they look clean and modern</li>
+<li>they stay readable in labels, slides, and small figure annotations</li>
+<li>publishers often prefer them for artwork because they reproduce predictably</li>
+</ul>
+<h2 id="monospace">Monospace<a hidden class="anchor" aria-hidden="true" href="#monospace">#</a></h2>
+<p>In a <strong>monospace</strong> font, every character takes the same width.<br>
+Examples: <strong>Courier</strong>, <strong>Consolas</strong>, <strong>Menlo</strong>.</p>
+<p>This is useful for:</p>
+<ul>
+<li>code</li>
+<li>sequence snippets</li>
+<li>alignments</li>
+<li>tabular plain-text material</li>
+</ul>
+<h1 id="why-science-ended-up-this-way">Why science ended up this way<a hidden class="anchor" aria-hidden="true" href="#why-science-ended-up-this-way">#</a></h1>
+<p>Scientific publishing inherited a lot from book publishing and newspaper typography.</p>
+<h2 id="older-print-culture-favored-serif-text">Older print culture favored serif text<a hidden class="anchor" aria-hidden="true" href="#older-print-culture-favored-serif-text">#</a></h2>
+<p>For centuries, serious printed prose was usually set in serif type. That established the visual norm that &ldquo;scholarly text&rdquo; should look dense, quiet, and typographically conservative.</p>
+<p>That is part of why academic prose still often feels more natural in serif text than in an all-sans layout.</p>
+<h2 id="times-new-roman-became-the-practical-workhorse">Times New Roman became the practical workhorse<a hidden class="anchor" aria-hidden="true" href="#times-new-roman-became-the-practical-workhorse">#</a></h2>
+<p><strong>Times New Roman</strong> became hugely influential because it is compact, familiar, and widely available.<br>
+Even when journals do not explicitly require it, a lot of manuscripts pass through Word-based workflows, and Times-like fonts remain the default scholarly look.</p>
+<h2 id="helvetica-became-the-modern-scientific-label-font">Helvetica became the modern scientific label font<a hidden class="anchor" aria-hidden="true" href="#helvetica-became-the-modern-scientific-label-font">#</a></h2>
+<p><strong>Helvetica</strong>, a mid-20th-century Swiss sans-serif, became the emblem of modernist clarity.<br>
+It is not the default body font for most papers, but it became extremely common in:</p>
+<ul>
+<li>figure labels</li>
+<li>posters</li>
+<li>presentation slides</li>
+<li>journal artwork guidelines</li>
+</ul>
+<p>In other words: Helvetica is not &ldquo;the font of science&rdquo; in the manuscript body, but it is absolutely one of the fonts of scientific figures.</p>
+<h2 id="tex-and-latex-made-computer-modern-iconic">TeX and LaTeX made Computer Modern iconic<a hidden class="anchor" aria-hidden="true" href="#tex-and-latex-made-computer-modern-iconic">#</a></h2>
+<p>In math, physics, computer science, statistics, and quantitative biology, the look of <strong>Computer Modern</strong> became deeply associated with technical writing because of TeX and LaTeX.</p>
+<p>That matters because many scientific authors are not really choosing a font from scratch. They are choosing a workflow:</p>
+<ul>
+<li>Word tends to pull you toward Times-like fonts or Office defaults.</li>
+<li>LaTeX tends to pull you toward Computer Modern or its descendants.</li>
+</ul>
+<h2 id="digital-publishing-broadened-the-defaults">Digital publishing broadened the defaults<a hidden class="anchor" aria-hidden="true" href="#digital-publishing-broadened-the-defaults">#</a></h2>
+<p>Once desktop publishing and office suites became standard, fonts such as <strong>Arial</strong>, <strong>Calibri</strong>, <strong>Cambria</strong>, and <strong>Latin Modern</strong> spread simply because they shipped with common software and worked reliably in PDFs.</p>
+<p>So the modern scientific typography story is partly aesthetic, but very much also logistical.</p>
+<h1 id="the-fonts-you-will-see-most-often">The fonts you will see most often<a hidden class="anchor" aria-hidden="true" href="#the-fonts-you-will-see-most-often">#</a></h1>
+<h2 id="times-new-roman">Times New Roman<a hidden class="anchor" aria-hidden="true" href="#times-new-roman">#</a></h2>
+<p><strong>Class:</strong> serif</p>
+<p>Why it is common:</p>
+<ul>
+<li>default or near-default in many Word-based writing workflows</li>
+<li>compact, so it fits more words per page</li>
+<li>conservative and immediately acceptable to editors and committees</li>
+</ul>
+<p>Where it appears:</p>
+<ul>
+<li>manuscript drafts</li>
+<li>theses</li>
+<li>grant documents</li>
+<li>journals that do not force a custom template</li>
+</ul>
+<p>Good description:</p>
+<ul>
+<li>dependable</li>
+<li>conventional</li>
+<li>slightly compressed</li>
+<li>not exciting, but rarely a bad choice</li>
+</ul>
+<h2 id="computer-modern">Computer Modern<a hidden class="anchor" aria-hidden="true" href="#computer-modern">#</a></h2>
+<p><strong>Class:</strong> serif</p>
+<p>Why it is common:</p>
+<ul>
+<li>the classic TeX/LaTeX look</li>
+<li>tightly tied to mathematical typesetting</li>
+<li>familiar in quantitative disciplines</li>
+</ul>
+<p>Where it appears:</p>
+<ul>
+<li>preprints</li>
+<li>methods-heavy papers</li>
+<li>lecture notes</li>
+<li>quantitative biology, biostatistics, math, physics, computer science</li>
+</ul>
+<p>Good description:</p>
+<ul>
+<li>academic</li>
+<li>mathematical</li>
+<li>elegant but slightly thin in some digital contexts</li>
+</ul>
+<h2 id="latin-modern">Latin Modern<a hidden class="anchor" aria-hidden="true" href="#latin-modern">#</a></h2>
+<p><strong>Class:</strong> serif</p>
+<p>Why it is common:</p>
+<ul>
+<li>a modernized, outline-based descendant of Computer Modern</li>
+<li>better language coverage and more flexible digital use</li>
+<li>keeps the LaTeX aesthetic while behaving better in modern PDF workflows</li>
+</ul>
+<p>Where it appears:</p>
+<ul>
+<li>contemporary LaTeX documents</li>
+<li>theses and preprints</li>
+<li>multilingual or Unicode-heavy technical documents</li>
+</ul>
+<p>Good description:</p>
+<ul>
+<li>Computer Modern, but more practical</li>
+</ul>
+<h2 id="helvetica">Helvetica<a hidden class="anchor" aria-hidden="true" href="#helvetica">#</a></h2>
+<p><strong>Class:</strong> sans-serif</p>
+<p>Why it is common:</p>
+<ul>
+<li>very readable in figures</li>
+<li>familiar to publishers</li>
+<li>often explicitly recommended for artwork</li>
+</ul>
+<p>Where it appears:</p>
+<ul>
+<li>axes</li>
+<li>legends</li>
+<li>panel labels</li>
+<li>posters</li>
+<li>slide decks</li>
+</ul>
+<p>Good description:</p>
+<ul>
+<li>clean</li>
+<li>neutral</li>
+<li>modernist</li>
+<li>excellent for labels, not usually my first choice for long manuscript text</li>
+</ul>
+<h2 id="arial">Arial<a hidden class="anchor" aria-hidden="true" href="#arial">#</a></h2>
+<p><strong>Class:</strong> sans-serif</p>
+<p>Why it is common:</p>
+<ul>
+<li>available almost everywhere</li>
+<li>accepted by major publishers for figure text</li>
+<li>easy choice when Helvetica is unavailable</li>
+</ul>
+<p>Where it appears:</p>
+<ul>
+<li>figure labels</li>
+<li>Word manuscripts</li>
+<li>PowerPoint slides</li>
+</ul>
+<p>Good description:</p>
+<ul>
+<li>pragmatic</li>
+<li>ubiquitous</li>
+<li>visually close enough to Helvetica for most scientific uses</li>
+</ul>
+<h2 id="cambria">Cambria<a hidden class="anchor" aria-hidden="true" href="#cambria">#</a></h2>
+<p><strong>Class:</strong> serif</p>
+<p>Why it is common:</p>
+<ul>
+<li>part of Microsoft Office defaults in the modern era</li>
+<li>designed for screen readability</li>
+<li>pairs naturally with <strong>Cambria Math</strong></li>
+</ul>
+<p>Where it appears:</p>
+<ul>
+<li>Word-based technical reports</li>
+<li>dissertations</li>
+<li>lecture notes</li>
+</ul>
+<p>Good description:</p>
+<ul>
+<li>less &ldquo;newspaper&rdquo; than Times</li>
+<li>more contemporary, but still formal</li>
+</ul>
+<h2 id="palatino-and-related-faces">Palatino and related faces<a hidden class="anchor" aria-hidden="true" href="#palatino-and-related-faces">#</a></h2>
+<p><strong>Class:</strong> serif</p>
+<p>Examples:</p>
+<ul>
+<li><strong>Palatino</strong></li>
+<li><strong>Palatino Linotype</strong></li>
+<li><strong>TeX Gyre Pagella</strong></li>
+</ul>
+<p>Why they are used:</p>
+<ul>
+<li>more open and airy than Times</li>
+<li>often preferred in books, theses, and review-style writing</li>
+<li>can look more humane and less compressed</li>
+</ul>
+<p>Where they appear:</p>
+<ul>
+<li>dissertations</li>
+<li>books</li>
+<li>essays</li>
+<li>LaTeX documents where the author wants a warmer tone than Computer Modern</li>
+</ul>
+<h2 id="courier-and-other-monospace-fonts">Courier and other monospace fonts<a hidden class="anchor" aria-hidden="true" href="#courier-and-other-monospace-fonts">#</a></h2>
+<p><strong>Class:</strong> monospace</p>
+<p>Why they matter in science:</p>
+<ul>
+<li>sequence data and code need alignment</li>
+<li>some publisher guides specifically call for monospace in amino-acid sequences</li>
+</ul>
+<p>Where they appear:</p>
+<ul>
+<li>code blocks</li>
+<li>command lines</li>
+<li>FASTA-like snippets</li>
+<li>alignment displays</li>
+</ul>
+<h1 id="what-journals-and-publishers-usually-care-about">What journals and publishers usually care about<a hidden class="anchor" aria-hidden="true" href="#what-journals-and-publishers-usually-care-about">#</a></h1>
+<p>The reality is simple: journals often care more about <strong>consistency</strong>, <strong>legibility</strong>, and <strong>production safety</strong> than about your personal taste.</p>
+<p>Common publisher expectations:</p>
+<ul>
+<li>use one font consistently within a figure set</li>
+<li>avoid decorative or unusual fonts</li>
+<li>keep text editable in vector artwork when possible</li>
+<li>use standard fonts that embed reliably in PDF/EPS output</li>
+</ul>
+<p>Concrete examples:</p>
+<ul>
+<li>Nature&rsquo;s final-submission guidance prefers a standard text font and explicitly points authors toward <strong>12-point Times New Roman</strong> for manuscript text.</li>
+<li>Nature&rsquo;s figure guide asks for <strong>sans-serif lettering, preferably Helvetica or Arial</strong>.</li>
+<li>Elsevier&rsquo;s artwork guidance recommends standard artwork fonts such as <strong>Arial/Helvetica</strong>, <strong>Times/Times New Roman</strong>, <strong>Courier</strong>, and <strong>Symbol</strong>.</li>
+</ul>
+<h1 id="manuscript-text-vs-figure-text">Manuscript text vs figure text<a hidden class="anchor" aria-hidden="true" href="#manuscript-text-vs-figure-text">#</a></h1>
+<p>This distinction matters more than almost anything else.</p>
+<h2 id="manuscript-text">Manuscript text<a hidden class="anchor" aria-hidden="true" href="#manuscript-text">#</a></h2>
+<p>For body text, you usually want:</p>
+<ul>
+<li>a serif face</li>
+<li>comfortable reading in paragraphs</li>
+<li>good italics</li>
+<li>good numerals</li>
+<li>a font that works with citations, equations, and PDF export</li>
+</ul>
+<p>Common safe choices:</p>
+<ul>
+<li><strong>Times New Roman</strong></li>
+<li><strong>Computer Modern / Latin Modern</strong></li>
+<li><strong>Cambria</strong></li>
+<li><strong>Palatino</strong> or a Palatino-like LaTeX family</li>
+</ul>
+<h2 id="figure-text">Figure text<a hidden class="anchor" aria-hidden="true" href="#figure-text">#</a></h2>
+<p>For figures, you usually want:</p>
+<ul>
+<li>sans-serif</li>
+<li>slightly sturdier strokes</li>
+<li>high legibility at small sizes</li>
+<li>consistent lettering across all panels</li>
+</ul>
+<p>Common safe choices:</p>
+<ul>
+<li><strong>Arial</strong></li>
+<li><strong>Helvetica</strong></li>
+</ul>
+<p>This is especially important in computational biology, where a figure may contain:</p>
+<ul>
+<li>axes and tick labels</li>
+<li>gene names</li>
+<li>sample labels</li>
+<li>annotations on heatmaps or PCA plots</li>
+<li>small legends</li>
+</ul>
+<p>Sans-serif usually survives reduction better than a delicate body-text serif in that setting.</p>
+<h1 id="a-practical-hierarchy-for-scientific-work">A practical hierarchy for scientific work<a hidden class="anchor" aria-hidden="true" href="#a-practical-hierarchy-for-scientific-work">#</a></h1>
+<h2 id="if-the-journal-gives-a-template">If the journal gives a template<a hidden class="anchor" aria-hidden="true" href="#if-the-journal-gives-a-template">#</a></h2>
+<p>Follow the template.<br>
+This is the real rule.</p>
+<p>Do not try to express typographic individuality in a submission system that will reflow or restyle your work anyway.</p>
+<h2 id="if-you-are-writing-in-word">If you are writing in Word<a hidden class="anchor" aria-hidden="true" href="#if-you-are-writing-in-word">#</a></h2>
+<p>A sensible default is:</p>
+<ul>
+<li><strong>Times New Roman</strong> or <strong>Cambria</strong> for body text</li>
+<li><strong>Arial</strong> for figures</li>
+</ul>
+<p>That combination is boring in a good way: it is readable, familiar, and unlikely to cause production trouble.</p>
+<h2 id="if-you-are-writing-in-latex">If you are writing in LaTeX<a hidden class="anchor" aria-hidden="true" href="#if-you-are-writing-in-latex">#</a></h2>
+<p>A sensible default is:</p>
+<ul>
+<li><strong>Latin Modern</strong> or <strong>Computer Modern</strong> for body text and math</li>
+<li><strong>Helvetica</strong> or <strong>Arial-like sans</strong> for figures</li>
+</ul>
+<p>The main thing is to avoid mismatching text and math too aggressively.</p>
+<h2 id="if-you-are-writing-a-thesis">If you are writing a thesis<a hidden class="anchor" aria-hidden="true" href="#if-you-are-writing-a-thesis">#</a></h2>
+<p>You often have more freedom. Three safe thesis personalities:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Style</th>
+          <th>Body text</th>
+          <th>Figures</th>
+          <th>Overall feel</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Conservative</td>
+          <td>Times New Roman</td>
+          <td>Arial</td>
+          <td>familiar, institutional</td>
+      </tr>
+      <tr>
+          <td>LaTeX-classic</td>
+          <td>Latin Modern</td>
+          <td>Helvetica</td>
+          <td>technical, clean</td>
+      </tr>
+      <tr>
+          <td>Slightly warmer</td>
+          <td>Palatino / TeX Gyre Pagella</td>
+          <td>Helvetica or Arial</td>
+          <td>book-like, less cramped</td>
+      </tr>
+  </tbody>
+</table>
+<h1 id="good-habits">Good habits<a hidden class="anchor" aria-hidden="true" href="#good-habits">#</a></h1>
+<ul>
+<li>Use at most one main text family and one figure family.</li>
+<li>Keep figure fonts consistent across the whole paper.</li>
+<li>Check your PDF at the final printed size, not only zoomed in on screen.</li>
+<li>Make sure <code>I</code>, <code>l</code>, and <code>1</code> are easy to distinguish.</li>
+<li>Use a monospace font for code, sequence strings, and command-line snippets.</li>
+<li>Avoid novelty fonts, condensed display faces, and anything that looks like branding.</li>
+<li>If you change the text font in LaTeX, make sure the math still looks coherent.</li>
+</ul>
+<h1 id="what-i-would-actually-do-in-computational-biology">What I would actually do in computational biology<a hidden class="anchor" aria-hidden="true" href="#what-i-would-actually-do-in-computational-biology">#</a></h1>
+<p>For a future computational biology PhD workflow, I would keep it simple:</p>
+<h2 id="papers-and-preprints">Papers and preprints<a hidden class="anchor" aria-hidden="true" href="#papers-and-preprints">#</a></h2>
+<ul>
+<li>If using Word: <strong>Times New Roman</strong> or <strong>Cambria</strong></li>
+<li>If using LaTeX: <strong>Latin Modern</strong> or <strong>Computer Modern</strong></li>
+</ul>
+<h2 id="figures">Figures<a hidden class="anchor" aria-hidden="true" href="#figures">#</a></h2>
+<ul>
+<li><strong>Arial</strong> or <strong>Helvetica</strong></li>
+</ul>
+<h2 id="code-and-sequences">Code and sequences<a hidden class="anchor" aria-hidden="true" href="#code-and-sequences">#</a></h2>
+<ul>
+<li>a clean monospace font such as <strong>Courier</strong>, <strong>Consolas</strong>, or whatever your code environment already uses</li>
+</ul>
+<h2 id="posters-and-slides">Posters and slides<a hidden class="anchor" aria-hidden="true" href="#posters-and-slides">#</a></h2>
+<ul>
+<li>a sans-serif family for the whole deck or poster</li>
+<li>keep the typographic system simple and large</li>
+</ul>
+<p>The point is not to build a typography identity system. The point is to make the science easy to read.</p>
+<h1 id="bottom-line">Bottom line<a hidden class="anchor" aria-hidden="true" href="#bottom-line">#</a></h1>
+<p>The most widely used fonts in scientific publication are not necessarily the most beautiful ones. They are the ones that survived a mixture of:</p>
+<ul>
+<li>print tradition</li>
+<li>software defaults</li>
+<li>math support</li>
+<li>journal production rules</li>
+<li>universal availability</li>
+</ul>
+<p>If I had to name the core cast, it would be:</p>
+<ul>
+<li><strong>Times New Roman</strong></li>
+<li><strong>Computer Modern</strong></li>
+<li><strong>Latin Modern</strong></li>
+<li><strong>Helvetica</strong></li>
+<li><strong>Arial</strong></li>
+<li><strong>Cambria</strong></li>
+<li><strong>Palatino</strong></li>
+<li><strong>Courier</strong> for monospace needs</li>
+</ul>
+<p>That is enough to understand most of the typography you will see in papers, theses, posters, and figures.</p>
+<h1 id="references">References<a hidden class="anchor" aria-hidden="true" href="#references">#</a></h1>
+<ul>
+<li>Nature final submission guide: <a href="https://www.nature.com/nature/for-authors/final-submission">https://www.nature.com/nature/for-authors/final-submission</a></li>
+<li>Nature Research figure guide: <a href="https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/">https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/</a></li>
+<li>Elsevier artwork overview: <a href="https://www.elsevier.com/en-gb/about/policies-and-standards/author/artwork-and-media-instructions/artwork-overview">https://www.elsevier.com/en-gb/about/policies-and-standards/author/artwork-and-media-instructions/artwork-overview</a></li>
+<li>CTAN Latin Modern package: <a href="https://ctan.org/pkg/lm">https://ctan.org/pkg/lm</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/personal/">Ziye Wang</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

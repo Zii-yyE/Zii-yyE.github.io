@@ -1,5 +1,5 @@
 baseURL: 'https://Zii-yyE.github.io/'
-defaultContentLanguage: English
+defaultContentLanguage: academic
 theme: 'papermod'
 
 markup:
@@ -31,8 +31,8 @@ params:
   math: true
 
 languages:
-  English:
-    languageName: "English"
+  academic:
+    languageName: "Academic"
     weight: 1
     title: "Ziye Wang"
     
@@ -66,37 +66,35 @@ languages:
           - name: CV
             url: "/cv.pdf"
 
-  中文:
-    languageName: "中文"
+  personal:
+    languageName: "Personal"
     weight: 2
-    title: "王子烨"
+    title: "Ziye Wang"
     
     menu:
       main:
         - identifier: about
-          name: 自我介绍
+          name: About
           url: /about/
           weight: 1
-        - identifier: publications
-          name: 发表论文
-          url: /publications/
+        - identifier: resources
+          name: Resources
+          url: /resources/
           weight: 2
 
     params:
-      author:
-        name: Ziye Wang
-        email: ziyewang0324@gmail.com
+      author: "Ziye Wang"
       profileMode:
         enabled: true
-        title: "王子烨"
-        subtitle: "北京大学 · 生物信息与数学双学位 · 本科生<br><span style='font-size: 0.9rem; color: grey;'>计算与理论演化，群体遗传，系统发育</span>"
+        title: "Ziye Wang"
+        subtitle: "Notes, references, and other interesting things.<br><span style='font-size: 0.9rem; color: grey;'>The less formal side of the homepage.</span>"
         imageUrl: "/me.jpeg"      
         imageWidth: 180             
         imageHeight: 180             
-        imageTitle: "我的头像"
+        imageTitle: "Portrait"
         buttons:
-          - name: 自我介绍
-            url: "/中文/about/"
-          - name: 简历
-            url: "/cv.pdf"
+          - name: About
+            url: "/personal/about/"
+          - name: Resources
+            url: "/personal/resources/"
             

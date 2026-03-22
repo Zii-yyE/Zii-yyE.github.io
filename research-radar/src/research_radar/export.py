@@ -11,6 +11,7 @@ from .models import NormalizedPaper
 TOPIC_ACCENT_COLORS = {
     "mutation_rate": "#f25f4c",
     "arg": "#2d6cdf",
+    "recombination": "#8b5e34",
     "pangenome_sv": "#2f8f6b",
     "other": "#6b7280",
 }
@@ -129,6 +130,44 @@ def _focus_papers(papers: List[NormalizedPaper], config: Dict[str, object]) -> L
     return [paper for paper in papers if paper.primary_topic in focus_topic_ids]
 
 
+def _sort_papers(papers: List[NormalizedPaper]) -> List[NormalizedPaper]:
+    return sorted(
+        papers,
+        key=lambda paper: (paper.published_date, paper.first_seen_at, paper.paper_key),
+        reverse=True,
+    )
+
+
+def _selected_recent_papers(papers: List[NormalizedPaper], config: Dict[str, object]) -> List[NormalizedPaper]:
+    focus_topic_ids = _focus_topic_ids(config)
+    minimum_per_topic = int(config.get("paper_watch", {}).get("minimum_per_topic", 0) or 0)
+    requested_limit = int(config["exports"]["recent_limit"])
+    effective_limit = max(requested_limit, minimum_per_topic * len(focus_topic_ids))
+    sorted_papers = _sort_papers(_focus_papers(papers, config))
+
+    selected: List[NormalizedPaper] = []
+    selected_keys = set()
+
+    if minimum_per_topic > 0:
+        for topic_id in focus_topic_ids:
+            topic_papers = [paper for paper in sorted_papers if paper.primary_topic == topic_id]
+            for paper in topic_papers[:minimum_per_topic]:
+                if paper.paper_key in selected_keys:
+                    continue
+                selected.append(paper)
+                selected_keys.add(paper.paper_key)
+
+    for paper in sorted_papers:
+        if len(selected) >= effective_limit:
+            break
+        if paper.paper_key in selected_keys:
+            continue
+        selected.append(paper)
+        selected_keys.add(paper.paper_key)
+
+    return _sort_papers(selected)
+
+
 def export_outputs(
     papers: List[NormalizedPaper],
     config: Dict[str, object],
@@ -141,16 +180,12 @@ def export_outputs(
     metadata = metadata or {}
 
     classify_papers(papers, config["topics"])
-    recent_limit = int(config["exports"]["recent_limit"])
-    focus_sorted_papers = sorted(
-        _focus_papers(papers, config),
-        key=lambda paper: (paper.published_date, paper.first_seen_at, paper.paper_key),
-        reverse=True,
-    )
+    focus_sorted_papers = _sort_papers(_focus_papers(papers, config))
+    recent_papers = _selected_recent_papers(papers, config)
 
     recent_payload = {
         "generated_at": generated_at,
-        "latest": [_paper_display_dict(paper, config) for paper in focus_sorted_papers[:recent_limit]],
+        "latest": [_paper_display_dict(paper, config) for paper in recent_papers],
     }
     summary_payload = _build_summary(focus_sorted_papers, config, generated_at, metadata)
 

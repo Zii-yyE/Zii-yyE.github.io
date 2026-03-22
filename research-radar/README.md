@@ -2,11 +2,7 @@
 
 Research Radar is a small paper-watching pipeline for your Hugo site.
 
-It does one thing:
-
-- fetch papers matching the keywords you care about
-- classify them into a few topic buckets
-- write static JSON that Hugo renders at `/research-radar/`
+It does one thing: automatically refresh a small reading wall at `/research-radar/`.
 
 ## The files you will actually edit
 
@@ -37,19 +33,41 @@ Current buckets:
 
 - `mutation_rate`
 - `arg`
+- `recombination`
 - `pangenome_sv`
 
-#### `sources.pubmed.queries`
+#### `paper_watch.minimum_per_topic`
 
-These are the PubMed queries used during fetching.
+This is the minimum number of exported papers per topic.
 
-If you want the system to fetch a new kind of paper, this is one of the first places to edit.
+Right now it is `5`, so the page tries to keep at least 5 papers under each visible tag.
 
-#### `sources.biorxiv.local_filters`
+#### `sources.pubmed.topic_queries`
 
-bioRxiv is fetched by date range first, then filtered locally by these phrases.
+These are the PubMed fetch queries, organized by topic.
 
-If you add a new topic, you should usually add the relevant phrases here too.
+If you want to change what gets pulled in, this is the main fetch control.
+
+#### `sources.biorxiv.topic_filters`
+
+bioRxiv does not have a strong keyword search API like PubMed here, so the pipeline fetches recent date/category windows and then filters locally by these phrases.
+
+Important:
+
+- bioRxiv is used for recent opportunistic preprints
+- topic top-up is currently **not** driven by deep bioRxiv paging, because that API path is slow and unreliable for sparse topics like ARG
+- the guaranteed `minimum_per_topic` top-up currently comes from PubMed
+
+#### `paper_watch.top_up_windows_days`
+
+When a topic has too few papers, the pipeline expands the PubMed lookback window through these steps:
+
+- `30`
+- `90`
+- `180`
+- `365`
+
+That is how ARG is kept from disappearing when the last 7 days are too sparse.
 
 #### `topics.<topic_id>`
 
@@ -67,7 +85,22 @@ Right now the site is focused on:
 
 - `mutation_rate`
 - `arg`
+- `recombination`
 - `pangenome_sv`
+
+`arg` is displayed on the site as:
+
+- `Ancestral Recombination Graph`
+
+`recombination` is kept separate from `arg`.
+
+It is meant for recombination biology in real organisms and mechanisms, for example:
+
+- meiotic recombination
+- crossover / noncrossover
+- recombination hotspots
+- recombination maps
+- gene conversion when it appears in clear recombination context
 
 `pangenome_sv` combines:
 

@@ -30,7 +30,7 @@ def _retry_delay(attempt: int, error: Exception) -> float:
 def _is_retryable(error: Exception) -> bool:
     if isinstance(error, HTTPError):
         return error.code == 429 or 500 <= error.code < 600
-    return isinstance(error, URLError)
+    return isinstance(error, (URLError, OSError))
 
 
 def fetch_bytes(url: str, timeout: int = 30, max_retries: int = 3) -> bytes:
@@ -40,7 +40,7 @@ def fetch_bytes(url: str, timeout: int = 30, max_retries: int = 3) -> bytes:
         try:
             with urlopen(request, timeout=timeout) as response:
                 return response.read()
-        except (HTTPError, URLError) as error:
+        except (HTTPError, URLError, OSError) as error:
             last_error = error
             if attempt >= max_retries or not _is_retryable(error):
                 raise

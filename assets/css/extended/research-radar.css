@@ -39,6 +39,7 @@
   background: color-mix(in srgb, var(--entry) 84%, var(--rr-accent, white) 16%);
   color: var(--primary);
   cursor: pointer;
+  line-height: 1.18;
   transition:
     background-color 140ms ease,
     border-color 140ms ease,
@@ -94,8 +95,8 @@
 .rr-tag--topic {
   color: color-mix(in srgb, var(--rr-accent) 70%, black 30%);
   font: inherit;
-  padding: 0.18rem 0.54rem;
-  font-size: 0.69rem;
+  padding: 0.16rem 0.48rem;
+  font-size: 0.64rem;
   font-weight: 700;
   letter-spacing: 0.015em;
 }
@@ -144,4 +145,11 @@
 
 .is-hidden {
   display: none !important;
+}
+
+@media (max-width: 680px) {
+  .rr-filter-button {
+    font-size: 0.72rem;
+    white-space: normal;
+  }
 }

@@ -19,6 +19,42 @@ TOPICS = {
         "require_any_phrases": [],
         "exclude_phrases": [],
     },
+    "recombination": {
+        "priority": 25,
+        "include_phrases": [
+            "meiotic recombination",
+            "recombination map",
+            "recombination hotspot",
+            "recombination landscape",
+            "crossover hotspot",
+            "crossover formation",
+            "crossover frequency",
+            "noncrossover",
+            "gene conversion",
+            "double-strand break formation",
+        ],
+        "include_aliases": [],
+        "require_any_phrases": [
+            "meiotic",
+            "meiosis",
+            "hotspot",
+            "recombination map",
+            "recombination landscape",
+            "chromosome",
+            "double-strand break",
+        ],
+        "exclude_phrases": [
+            "ancestral recombination graph",
+            "sequentially markov coalescent",
+            "argweaver",
+            "tree sequence",
+            "crossover trial",
+            "genetic algorithm",
+            "route optimization",
+            "recombinase-independent",
+            "homologous recombination deficiency",
+        ],
+    },
     "pangenome": {
         "priority": 30,
         "include_phrases": ["pangenome", "variation graph", "graph genome"],
@@ -89,6 +125,62 @@ class ClassifyTests(unittest.TestCase):
         classify_paper(paper, TOPICS)
         self.assertEqual(paper.topics[:2], ["pangenome", "arg"])
         self.assertEqual(paper.primary_topic, "pangenome")
+
+    def test_recombination_is_separate_from_arg(self) -> None:
+        paper = make_paper(
+            "High-resolution recombination map reveals crossover hotspots",
+            "We infer a fine-scale recombination map and quantify crossover variation across chromosomes.",
+        )
+
+        classify_paper(paper, TOPICS)
+        self.assertEqual(paper.primary_topic, "recombination")
+        self.assertNotIn("arg", paper.topics)
+
+    def test_arg_terms_block_recombination_bucket(self) -> None:
+        paper = make_paper(
+            "Ancestral recombination graph inference from tree sequences",
+            "A scalable sequentially Markov coalescent approximation.",
+        )
+
+        classify_paper(paper, TOPICS)
+        self.assertEqual(paper.primary_topic, "arg")
+        self.assertNotIn("recombination", paper.topics)
+
+    def test_crossover_trial_is_not_classified_as_recombination(self) -> None:
+        paper = make_paper(
+            "A randomized crossover trial",
+            "A crossover trial in adult volunteers evaluates nutritional outcomes.",
+        )
+
+        classify_paper(paper, TOPICS)
+        self.assertEqual(paper.primary_topic, "other")
+
+    def test_genetic_algorithm_crossover_is_not_classified_as_recombination(self) -> None:
+        paper = make_paper(
+            "Crossovers in genetic algorithms for route optimization",
+            "We compare crossover operators in a genetic algorithm for urban routing.",
+        )
+
+        classify_paper(paper, TOPICS)
+        self.assertEqual(paper.primary_topic, "other")
+
+    def test_gene_conversion_without_recombination_context_is_not_classified(self) -> None:
+        paper = make_paper(
+            "Gene conversion patterns in a clonal vertebrate",
+            "We study sequence homogenization in clonal lineages without discussing reproductive exchange or chromosomal reshuffling.",
+        )
+
+        classify_paper(paper, TOPICS)
+        self.assertEqual(paper.primary_topic, "other")
+
+    def test_homologous_recombination_deficiency_is_not_classified(self) -> None:
+        paper = make_paper(
+            "Breast cancer patients stratified by homologous recombination deficiency status",
+            "Clinical outcomes are compared across tumor subgroups.",
+        )
+
+        classify_paper(paper, TOPICS)
+        self.assertEqual(paper.primary_topic, "other")
 
     def test_other_is_used_when_no_rules_match(self) -> None:
         paper = make_paper("Completely unrelated title", "No relevant abstract terms.")

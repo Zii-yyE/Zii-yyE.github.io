@@ -6,7 +6,14 @@ paper_watch:
   topic_ids:
     - mutation_rate
     - arg
+    - recombination
     - pangenome_sv
+  minimum_per_topic: 5
+  top_up_windows_days:
+    - 30
+    - 90
+    - 180
+    - 365
 
 exports:
   recent_limit: 18
@@ -14,25 +21,68 @@ exports:
 sources:
   biorxiv:
     enabled: true
+    topic_topup_enabled: false
     max_results: 300
-    local_filters:
-      - mutation rate
-      - mutation rates
-      - germline mutation rate
-      - de novo mutation rate
-      - mutation accumulation
-      - ancestral recombination graph
-      - ancestral recombination graphs
-      - sequentially markov coalescent
-      - local genealogies
-      - pangenome
-      - pan-genome
-      - graph genome
-      - variation graph
-      - structural variation
-      - structural variations
-      - structural variant
-      - structural variants
+    max_pages_per_category: 10
+    request_interval_seconds: 0.35
+    categories:
+      - bioinformatics
+      - evolutionary_biology
+      - genomics
+      - genetics
+    topic_filters:
+      mutation_rate:
+        - mutation rate
+        - mutation rates
+        - germline mutation rate
+        - de novo mutation rate
+        - mutation accumulation
+      arg:
+        - ancestral recombination graph
+        - ancestral recombination graphs
+        - sequentially markov coalescent
+        - local genealogy
+        - local genealogies
+        - tree sequence
+        - tree sequences
+        - argweaver
+        - tsinfer
+      recombination:
+        - meiotic recombination
+        - recombination map
+        - recombination maps
+        - recombination hotspot
+        - recombination hotspots
+        - recombination landscape
+        - recombination landscapes
+        - linkage map
+        - linkage maps
+        - crossover hotspot
+        - crossover hotspots
+        - crossover formation
+        - crossover frequency
+        - crossover frequencies
+        - noncrossover
+        - noncrossovers
+        - non-crossover
+        - non-crossovers
+        - noncrossover gene conversion
+        - gene conversion
+        - synaptonemal complex
+        - chiasma
+        - chiasmata
+        - double-strand break formation
+        - double strand break formation
+      pangenome_sv:
+        - pangenome
+        - pan-genome
+        - graph genome
+        - genome graph
+        - variation graph
+        - structural variation
+        - structural variations
+        - structural variant
+        - structural variants
   arxiv:
     enabled: false
     max_results_per_query: 20
@@ -43,11 +93,12 @@ sources:
       - all:"pangenome"
   pubmed:
     enabled: true
-    retmax: 60
-    queries:
-      - "\"ancestral recombination graph\"[Title/Abstract] OR \"sequentially markov coalescent\"[Title/Abstract] OR \"local genealogies\"[Title/Abstract]"
-      - "(\"mutation rate\"[Title/Abstract] OR \"germline mutation rate\"[Title/Abstract] OR \"de novo mutation rate\"[Title/Abstract] OR \"mutation accumulation\"[Title/Abstract]) AND (genome[Title/Abstract] OR genomic[Title/Abstract] OR evolution[Title/Abstract] OR evolutionary[Title/Abstract] OR pedigree[Title/Abstract] OR population[Title/Abstract])"
-      - "\"pangenome\"[Title/Abstract] OR \"pan-genome\"[Title/Abstract] OR \"variation graph\"[Title/Abstract] OR \"structural variation\"[Title/Abstract] OR \"structural variant\"[Title/Abstract] OR \"structural variants\"[Title/Abstract]"
+    retmax_per_topic: 80
+    topic_queries:
+      arg: "\"ancestral recombination graph\"[Title/Abstract] OR \"ancestral recombination graphs\"[Title/Abstract] OR \"sequentially markov coalescent\"[Title/Abstract] OR \"local genealogy\"[Title/Abstract] OR \"local genealogies\"[Title/Abstract] OR \"tree sequence\"[Title/Abstract] OR \"tree sequences\"[Title/Abstract] OR argweaver[Title/Abstract] OR tsinfer[Title/Abstract]"
+      recombination: "(\"meiotic recombination\"[Title/Abstract] OR \"recombination map\"[Title/Abstract] OR \"recombination maps\"[Title/Abstract] OR \"recombination hotspot\"[Title/Abstract] OR \"recombination hotspots\"[Title/Abstract] OR \"recombination landscape\"[Title/Abstract] OR \"recombination landscapes\"[Title/Abstract] OR \"linkage map\"[Title/Abstract] OR \"linkage maps\"[Title/Abstract] OR \"synaptonemal complex\"[Title/Abstract] OR chiasma[Title/Abstract] OR chiasmata[Title/Abstract] OR \"double-strand break formation\"[Title/Abstract] OR \"double strand break formation\"[Title/Abstract] OR (((crossover[Title/Abstract] OR crossovers[Title/Abstract] OR \"crossing over\"[Title/Abstract] OR noncrossover[Title/Abstract] OR noncrossovers[Title/Abstract] OR \"non-crossover\"[Title/Abstract] OR \"non-crossovers\"[Title/Abstract]) AND (meiotic[Title/Abstract] OR meiosis[Title/Abstract] OR chromosome[Title/Abstract] OR chromosomes[Title/Abstract] OR hotspot[Title/Abstract] OR hotspots[Title/Abstract] OR gamete[Title/Abstract] OR gametes[Title/Abstract] OR \"synaptonemal complex\"[Title/Abstract] OR \"double-strand break\"[Title/Abstract] OR \"double strand break\"[Title/Abstract] OR PRDM9[Title/Abstract])) OR (\"gene conversion\"[Title/Abstract] AND (meiotic[Title/Abstract] OR meiosis[Title/Abstract] OR recombination[Title/Abstract] OR chromosome[Title/Abstract] OR chromosomes[Title/Abstract]))) NOT (\"ancestral recombination graph\"[Title/Abstract] OR \"ancestral recombination graphs\"[Title/Abstract] OR \"sequentially markov coalescent\"[Title/Abstract] OR argweaver[Title/Abstract] OR tsinfer[Title/Abstract] OR \"tree sequence\"[Title/Abstract] OR \"tree sequences\"[Title/Abstract] OR \"charge recombination\"[Title/Abstract] OR \"carrier recombination\"[Title/Abstract] OR photocatalytic[Title/Abstract] OR heterojunction[Title/Abstract] OR telecom[Title/Abstract] OR \"crossover trial\"[Title/Abstract] OR \"crossover study\"[Title/Abstract] OR \"cross-over trial\"[Title/Abstract] OR CrossFit[Title/Abstract] OR \"genetic algorithm\"[Title/Abstract] OR \"genetic algorithms\"[Title/Abstract] OR \"route optimization\"[Title/Abstract] OR \"research hotspots\"[Title/Abstract] OR \"recombinase-independent\"[Title/Abstract] OR \"homologous recombination deficiency\"[Title/Abstract])"
+      mutation_rate: "(\"mutation rate\"[Title/Abstract] OR \"mutation rates\"[Title/Abstract] OR \"germline mutation rate\"[Title/Abstract] OR \"de novo mutation rate\"[Title/Abstract] OR \"mutation accumulation\"[Title/Abstract]) AND (genome[Title/Abstract] OR genomic[Title/Abstract] OR evolution[Title/Abstract] OR evolutionary[Title/Abstract] OR pedigree[Title/Abstract] OR population[Title/Abstract])"
+      pangenome_sv: "\"pangenome\"[Title/Abstract] OR \"pan-genome\"[Title/Abstract] OR \"variation graph\"[Title/Abstract] OR \"graph genome\"[Title/Abstract] OR \"genome graph\"[Title/Abstract] OR \"structural variation\"[Title/Abstract] OR \"structural variant\"[Title/Abstract] OR \"structural variants\"[Title/Abstract]"
 
 topics:
   mutation_rate:
@@ -76,7 +127,7 @@ topics:
       - mutation accumulation
     exclude_phrases: []
   arg:
-    label: ARG
+    label: Ancestral Recombination Graph
     priority: 20
     include_phrases:
       - ancestral recombination graph
@@ -84,11 +135,95 @@ topics:
       - sequentially markov coalescent
       - local genealogies
       - local genealogy
+      - tree sequence
+      - tree sequences
       - recombination graph
     include_aliases:
       - argweaver
+      - tsinfer
     require_any_phrases: []
     exclude_phrases: []
+  recombination:
+    label: Recombination
+    priority: 25
+    include_phrases:
+      - meiotic recombination
+      - recombination map
+      - recombination maps
+      - recombination hotspot
+      - recombination hotspots
+      - recombination landscape
+      - recombination landscapes
+      - linkage map
+      - linkage maps
+      - crossover hotspot
+      - crossover hotspots
+      - crossover formation
+      - crossover frequency
+      - crossover frequencies
+      - noncrossover
+      - noncrossovers
+      - non-crossover
+      - non-crossovers
+      - noncrossover gene conversion
+      - gene conversion
+      - synaptonemal complex
+      - chiasma
+      - chiasmata
+      - double-strand break formation
+      - double strand break formation
+    include_aliases: []
+    require_any_phrases:
+      - meiotic
+      - meiosis
+      - hotspot
+      - hotspots
+      - recombination map
+      - recombination maps
+      - recombination landscape
+      - recombination landscapes
+      - linkage map
+      - linkage maps
+      - chromosome
+      - chromosomes
+      - synaptonemal
+      - chiasma
+      - chiasmata
+      - gamete
+      - gametes
+      - germline
+      - crossover hotspot
+      - crossover hotspots
+      - crossover formation
+      - crossover frequency
+      - crossover frequencies
+      - double-strand break
+      - double strand break
+      - prdm9
+    exclude_phrases:
+      - ancestral recombination graph
+      - ancestral recombination graphs
+      - sequentially markov coalescent
+      - tree sequence
+      - tree sequences
+      - argweaver
+      - tsinfer
+      - charge recombination
+      - carrier recombination
+      - heterojunction
+      - photocatalytic
+      - charge transfer
+      - crossover trial
+      - crossover study
+      - crossover studies
+      - cross-over trial
+      - crossfit
+      - genetic algorithm
+      - genetic algorithms
+      - route optimization
+      - research hotspots
+      - recombinase-independent
+      - homologous recombination deficiency
   pangenome_sv:
     label: Pangenome / Structural Variation
     priority: 30
