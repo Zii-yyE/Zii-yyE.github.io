@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-03-21T15:58:33Z",
+  "generated_at": "2026-03-23T03:42:15Z",
   "latest": [
+    {
+      "abstract": "Efferocytosis can promote tumor immune evasion. This study identified three molecular subtypes and constructed a six-gene prognostic model for colon cancer based on efferocytosis-related genes and data from The Cancer Genome Atlas (TCGA). Patients in the high-risk group defined by this model showed higher levels of immunosuppressive cell infiltration and increased mutation rates, exhibiting poorer responses to immunotherapy. The model gene LHX3 was highly expressed in colon cancer, promoting malignant cellular phenotypes and influencing efferocytosis. Overall, the efferocytosis-based risk model constructed in this study may provide insights for prognostic evaluation and therapeutic strategies in colon cancer.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Xiayan Sun",
+        "Fei Chen"
+      ],
+      "authors_display": "Xiayan Sun, Fei Chen",
+      "first_seen_at": "2026-03-23T03:42:15Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1080/10255842.2026.2645174",
+        "pmcid": null,
+        "pmid": "41863771"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rates"
+        ]
+      },
+      "paper_key": "doi:10.1080/10255842.2026.2645174",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-03-21",
+      "short_abstract": "Efferocytosis can promote tumor immune evasion. This study identified three molecular subtypes and constructed a six-gene prognostic model for colon cancer based on efferocytosis-related genes and data from The Cancer Genome Atlas (TCGA). Patients in the high-risk group defined by this model showed higher levels of immunosuppressive...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Subtype identification and risk model establishment to predict prognosis and drug therapy response in colon cancer based on efferocytosis-related genes.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41863771/",
+      "venue": "Comput Methods Biomech Biomed Engin",
+      "venue_display": "Comput Methods Biomech Biomed Engin"
+    },
     {
       "abstract": "",
       "accent_color": "#2f8f6b",
@@ -521,49 +559,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41711008/",
       "venue": "Analyst",
       "venue_display": "Analyst"
-    },
-    {
-      "abstract": "The relatively slow mutation rates of bacterial pathogens impose severe limitations on phylodynamic analysis of bacterial outbreaks. However, whole-genome sequencing may enable accurate inference of bacterial transmission dynamics in health-care settings. We simulated the epidemic dynamics of a Staphylococcus aureus lineage using a stochastic model with a hospital and community compartment connected by patient admission and discharge. We generated synthetic genomic sequences and performed Bayesian phylodynamic inference on a proportion of samples from each simulated outbreak. When samples are obtained from both compartments, hospital transmission rate ([Formula: see text]) and community transmission rate ([Formula: see text]) are accurately estimated, if [Formula: see text] is on the same scale as the discharge rate. If [Formula: see text] is substantially lower than the discharge rate, a robust quantification of within-hospital transmission dynamics is challenging. Excluding samples from the community resulted in a notable underestimation of [Formula: see text] when [Formula: see text]. When transmission was 'community-driven', but sampling was restricted to hospital cases only, estimates are closer to the true [Formula: see text], if hospital sampling proportion is known. Otherwise, [Formula: see text] estimates reflected the transmission dynamics within the community. When using genomic data to estimate bacterial transmission rates in a health-care setting, it is essential to take into account the surrounding community. Many infections related to nosocomial outbreaks will not be observed within the hospital due to fast discharge rates. In the absence of usable genomic data from the community, alternative estimates of community transmission rates from publicly available data should be incorporated. Transmission rate estimates from nosocomial genomes alone need to be interpreted with care.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Sanni Översti",
-        "Mathilde Boumasmoud",
-        "Huldyrch F Günthard",
-        "Hugo Sax",
-        "Annelies S Zinkernagel",
-        "Roger D Kouyos",
-        "Denise Kühnert"
-      ],
-      "authors_display": "Sanni Översti, Mathilde Boumasmoud, Huldyrch F Günthard, et al.",
-      "first_seen_at": "2026-03-21T06:51:23Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1371/journal.pcbi.1013982",
-        "pmcid": null,
-        "pmid": "41838776"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rates"
-        ]
-      },
-      "paper_key": "doi:10.1371/journal.pcbi.1013982",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-03-16",
-      "short_abstract": "The relatively slow mutation rates of bacterial pathogens impose severe limitations on phylodynamic analysis of bacterial outbreaks. However, whole-genome sequencing may enable accurate inference of bacterial transmission dynamics in health-care settings. We simulated the epidemic dynamics of a Staphylococcus aureus lineage using a...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Fast hospital discharge rates blur within-hospital 'transmission footprint' in bacterial genomes, as showcased with Staphylococcus aureus.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41838776/",
-      "venue": "PLoS Comput Biol",
-      "venue_display": "PLoS Comput Biol"
     },
     {
       "abstract": "The impact of specific chromatin modifications on meiotic crossover frequency has typically been inferred from correlative studies, leaving the question of causality unresolved. To directly test this, we used a catalytically inactive CRISPR-associated protein 9 (dCas9)-based system to recruit the histone demethylase JMJ14 to defined genomic loci. Recruitment of JMJ14 led to a reduction in local histone H3 lysine 4 trimethylation (H3K4me3) levels and a decrease in crossover frequency within the targeted interval. This was accompanied by reduced expression of a long noncoding RNA (lncRNA) at the hotspot and altered crossover topology. Suppressed recombination was also observed at neighboring, untargeted hotspots. In contrast, targeting the transcriptional activator VP64 to the same region increased lncRNA expression, elevated crossover frequency, and raised H3K4me3 levels. Together, these findings establish a causal link between H3K4me3, transcription, and local crossover activity, demonstrating that H3K4me3 levels are closely associated with both transcriptional output and recombination frequency at specific genomic loci.",
