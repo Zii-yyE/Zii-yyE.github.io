@@ -1,6 +1,53 @@
 {
-  "generated_at": "2026-03-23T03:42:15Z",
+  "generated_at": "2026-03-24T03:33:07Z",
   "latest": [
+    {
+      "abstract": "Genetic testing using targeted panels or comprehensive genome sequencing is the current standard for diagnosing Duchenne muscular dystrophy (DMD), identifying pathogenic variants in up to 98% of cases. We report a 5-year-old male presenting with delayed motor milestones, frequent falls, and difficulty climbing stairs due to generalized muscle weakness. Laboratory studies revealed markedly elevated CK (13,041 U/L) and chronic transaminase elevation. Clinical examination demonstrated Gower's sign, calf pseudohypertrophy, neuromuscular scoliosis, and cognitive impairment. Initial neuromuscular gene panel testing identified several variants of uncertain significance, and muscle biopsy showed markedly reduced dystrophin labeling. Follow-up short-read DMD sequencing with deletion/duplication analysis at Age 11 remained negative. Given persistently negative findings, we utilized optical genome mapping (Bionano Genomics) and long-read sequencing (Oxford Nanopore Technologies) to identify potential structural variants. Both methods independently detected a novel inversion identified to span 31 kb and encompassing exons 68-73 of the DMD gene (ChrX: 31,171,362-31,202,982), classified as pathogenic. This case highlights a clinically definitive diagnosis of DMD missed by standard genetic testing. Our findings demonstrate that Optical Genome Mapping and Long-Read Sequencing provide complementary, high-resolution tools for identifying previously unidentified structural variants and should be considered in unresolved cases prior to invasive procedures such as muscle biopsy.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Ryan Gallagher",
+        "Alexya Aguilera",
+        "Sara Acosta Villarreal",
+        "Alice Zalan",
+        "Jared Tomei",
+        "Dima Alghazzy",
+        "Samantha Scott",
+        "Nykula Slack",
+        "Andrea Matter",
+        "Ulrich Broeckel",
+        "Philip Giampietro"
+      ],
+      "authors_display": "Ryan Gallagher, Alexya Aguilera, Sara Acosta Villarreal, et al.",
+      "first_seen_at": "2026-03-24T03:33:07Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1002/ajmg.a.70133",
+        "pmcid": null,
+        "pmid": "41869909"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1002/ajmg.a.70133",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-03-23",
+      "short_abstract": "Genetic testing using targeted panels or comprehensive genome sequencing is the current standard for diagnosing Duchenne muscular dystrophy (DMD), identifying pathogenic variants in up to 98% of cases. We report a 5-year-old male presenting with delayed motor milestones, frequent falls, and difficulty climbing stairs due to generalized...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Optical Genome Mapping and Long-Read Sequencing Identifies a Novel Dystrophin Gene Inversion in a Patient With Duchenne Muscular Dystrophy.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41869909/",
+      "venue": "Am J Med Genet A",
+      "venue_display": "Am J Med Genet A"
+    },
     {
       "abstract": "Efferocytosis can promote tumor immune evasion. This study identified three molecular subtypes and constructed a six-gene prognostic model for colon cancer based on efferocytosis-related genes and data from The Cancer Genome Atlas (TCGA). Patients in the high-risk group defined by this model showed higher levels of immunosuppressive cell infiltration and increased mutation rates, exhibiting poorer responses to immunotherapy. The model gene LHX3 was highly expressed in colon cancer, promoting malignant cellular phenotypes and influencing efferocytosis. Overall, the efferocytosis-based risk model constructed in this study may provide insights for prognostic evaluation and therapeutic strategies in colon cancer.",
       "accent_color": "#f25f4c",
@@ -324,54 +371,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41863158/",
       "venue": "Curr Med Chem",
       "venue_display": "Curr Med Chem"
-    },
-    {
-      "abstract": "Transcriptome deep sequencing (RNA-seq) data analysis is often affected by reference bias introduced by the use of a single linear reference (SLR) genome. Graph-based pangenomes can mitigate this bias by integrating the SLR genome with complex genetic variations within a species; however, their application remains limited owing to a lack of dedicated analytical tools. Here, we present PanGraphRNA, an integrated bioinformatics platform for RNA-seq data analysis using a graph pangenome as reference. Built on the Galaxy web-based framework, PanGraphRNA provides functional modules for constructing, evaluating, and applying graph pangenomes across different population scales, thus enabling accessibility, traceability, and reproducibility throughout the analysis. Applied to both real and simulated RNA-seq data sets from Arabidopsis (Arabidopsis thaliana), PanGraphRNA outperformed the SLR approach, achieving higher read alignment accuracy and more precise gene expression quantification. PanGraphRNA enabled the identification of drought stress-induced genes and flowering time-related quantitative trait loci that were previously missed with the conventional SLR approach. Furthermore, we successfully applied PanGraphRNA to process RNA-seq data sets from rice (Oryza sativa) and maize (Zea mays). By providing standardized, containerized workflows, PanGraphRNA will facilitate transcriptomic research in key plant species, including Arabidopsis, rice, and maize.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Yifan Bu",
-        "Zhixu Qiu",
-        "Wen Sun",
-        "Yishui Han",
-        "Yifan Liu",
-        "Jing Yang",
-        "Minggui Song",
-        "Zenglin Li",
-        "Songyu Liu",
-        "Yuzhou Zhang",
-        "Chuang Ma"
-      ],
-      "authors_display": "Yifan Bu, Zhixu Qiu, Wen Sun, et al.",
-      "first_seen_at": "2026-03-21T05:30:33Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1111/jipb.70231",
-        "pmcid": null,
-        "pmid": "41858069"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome",
-          "genome graph"
-        ]
-      },
-      "paper_key": "doi:10.1111/jipb.70231",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-19",
-      "short_abstract": "Transcriptome deep sequencing (RNA-seq) data analysis is often affected by reference bias introduced by the use of a single linear reference (SLR) genome. Graph-based pangenomes can mitigate this bias by integrating the SLR genome with complex genetic variations within a species; however, their application remains limited owing to a...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "PanGraphRNA: An efficient and flexible bioinformatics platform for graph pangenome-based RNA-seq data analysis.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41858069/",
-      "venue": "J Integr Plant Biol",
-      "venue_display": "J Integr Plant Biol"
     },
     {
       "abstract": "Meiotic crossover formation is critical for generating viable gametes and enhancing genetic diversity. The helicase Mer3 (HFM1 in humans) is a highly conserved factor essential for promoting crossovers and ensuring their proper distribution. Here, we identify replication protein A (RPA) as a direct interactor of budding yeast Mer3. We demonstrate that this interaction is conserved between human HFM1 and RPA. Cross-linking mass spectrometry and structural modelling with AlphaFold2 reveal a conserved and specific Mer3-RPA interface. Single-molecule magnetic tweezers assays demonstrate that direct RPA interaction is required for Mer3 helicase processivity under conditions of low DNA tension. Consistently, a mer3 mutant deficient in RPA binding exhibits reduced crossover frequencies and accumulates unresolved recombination intermediates during budding yeast meiosis. Via genome-wide localisation experiments, we link this effect to weakened recruitment of the mer3 mutant to double-strand break sites. Our findings provide mechanistic insights into coordination of meiotic recombination by the Mer3 helicase through interactions with the canonical DNA repair machinery, highlighting a conserved mechanism underlying crossover control during sexual reproduction.",
