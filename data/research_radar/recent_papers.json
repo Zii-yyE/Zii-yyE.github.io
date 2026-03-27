@@ -1,6 +1,180 @@
 {
-  "generated_at": "2026-03-26T03:46:22Z",
+  "generated_at": "2026-03-27T03:48:09Z",
   "latest": [
+    {
+      "abstract": "Nature presents a staggering diversity of life history strategies, ranging from rapid to slow onset of sexual maturity, short or long life, low or high number of offspring, and much more. Each species-specific life history trait reflects on the one hand specific adaptations to unique environments, e.g., nutrient availability, predation, parasite load, seasonality; and on the other hand, depends on past demographic constraints, such as population bottlenecks, migrations, etc. Studying life history diversity in nature and in the laboratory ultimately aims to identify the ecological, demographic, and intrinsic causes contributing to species-specific growth rate distributions, lifetime reproductive outcomes, as well as lifespans. However, for most species, we cannot rewind the evolutionary and demographic past to identify the causal chain of events leading to the present life history traits. We can infer past events only by sampling extant populations. In silico evolution has the advantage of providing complete time resolution for the events driving life history evolution and enables to directly test the impact of ecological and demographic variables on the evolution of life history traits. We developed AEGIS (Aging of Evolving Genomes In Silico), a software for individual-based modeling of life history trait evolution at the genotype and phenotype level. AEGIS models life history traits evolution in response to a set of factors, including resource availability, extrinsic mortality induced by predators or parasites, different levels of germline mutation rates, population size, sexual vs. asexual reproduction, and more. AEGIS serves as a powerful tool to model life history evolution and allows for parameter inference against ground truths. AEGIS can help generate estimates for the evolution of different life history traits, such as age-dependent mortality and reproduction, in response to different selective pressures and intrinsic genetic constraints.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Martin Bagic",
+        "Arian Šajina",
+        "William John Bradshaw",
+        "Dario Riccardo Valenzano"
+      ],
+      "authors_display": "Martin Bagic, Arian Šajina, William John Bradshaw, et al.",
+      "first_seen_at": "2026-03-27T03:48:09Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1371/journal.pcbi.1014109",
+        "pmcid": null,
+        "pmid": "41886482"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rates"
+        ]
+      },
+      "paper_key": "doi:10.1371/journal.pcbi.1014109",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-03-26",
+      "short_abstract": "Nature presents a staggering diversity of life history strategies, ranging from rapid to slow onset of sexual maturity, short or long life, low or high number of offspring, and much more. Each species-specific life history trait reflects on the one hand specific adaptations to unique environments, e.g., nutrient availability, predation,...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "AEGIS: Individual-based modeling of life history evolution.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41886482/",
+      "venue": "PLoS Comput Biol",
+      "venue_display": "PLoS Comput Biol"
+    },
+    {
+      "abstract": "Spontaneous mutation underlies all genetic variation, and thus influences the evolutionary dynamics of complex traits. Although much work has estimated mutation rates for fitness or at molecular scales, we have comparatively little information about mutational influences on other complex phenotypes. We conducted four mutation accumulation experiments with independent clones of Daphnia pulex, and then measured the effect of spontaneous mutation on size at birth, a complex trait whose connection to fitness depends on ecologically-mediated tradeoffs. Therefore it is unclear whether mutations, which are usually neutral or deleterious, should decrease or increase size at birth. In two experiments, individual instances of increased size at birth were common, whereas in the other two experiments, instances of decreased size at birth were common. Together, our data show that genetic background is an important determinant of the consequences of mutation for complex traits, and that mutation rates and direction can vary within species.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Matthew R Bruner",
+        "Trenton C Agrelius",
+        "Krista B Harmon",
+        "Jeffry L Dudycha"
+      ],
+      "authors_display": "Matthew R Bruner, Trenton C Agrelius, Krista B Harmon, et al.",
+      "first_seen_at": "2026-03-27T03:48:09Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/jeb/voag020",
+        "pmcid": null,
+        "pmid": "41885827"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation accumulation",
+          "mutation rates"
+        ]
+      },
+      "paper_key": "doi:10.1093/jeb/voag020",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-03-26",
+      "short_abstract": "Spontaneous mutation underlies all genetic variation, and thus influences the evolutionary dynamics of complex traits. Although much work has estimated mutation rates for fitness or at molecular scales, we have comparatively little information about mutational influences on other complex phenotypes. We conducted four mutation...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Genetic variation of the effects of spontaneous mutation on size at birth.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41885827/",
+      "venue": "J Evol Biol",
+      "venue_display": "J Evol Biol"
+    },
+    {
+      "abstract": "The rate, molecular spectrum, and fitness effects of mutations vary at all levels of the biological hierarchy, from within individual genomes to among taxonomic domains. Understanding the evolutionary factors underpinning that variation is of fundamental importance to biology. Accurate quantification of the properties of mutations requires that other evolutionary forces, especially natural selection, be minimized as much as possible. To investigate the evolution of the mutational process in C. elegans, we propagated a set of 100 \"first order\" mutation accumulation (O1MA) lines under minimal selection for ∼150 generations, divided each O1MA line into two \"second order\" MA (O2MA) lines and propagated them for another ∼150 generations, at which time the genome of each O2MA line was sequenced, and a subset of 50 O1MA families was assayed for competitive fitness. Over the course of the experiment, the mean nucleotide substitution mutation rate did not change, but the variance increased. In contrast, the indel mutation rate increased significantly. The two types of mutations fulfill the predictions of different theoretical models for the evolution of mutation rate. These results reinforce previous findings that the rate of indels is more sensitive to endogenous stress than the rate of nucleotide substitutions. Several evolutionary quandaries could be resolved if deleterious mutations interact synergistically (negative epistasis). Evidence for synergistic epistasis is famously inconclusive, although there is reason to think it may be more detectable under competitive conditions. However, a model of constant mutational effects on competitive fitness explains the results significantly better than a model including epistasis.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Sayran Saber",
+        "Md Monjurul Islam Rifat",
+        "Fahimeh Rahimi",
+        "Michael Snyder",
+        "Amber Singh",
+        "Benjamin Eickwort",
+        "Yell Newhall",
+        "Moein Rajaei",
+        "Ayush Shekhar Saxena",
+        "Robyn E Tanny",
+        "Vaishali Katju",
+        "Erik C Andersen",
+        "Juannan Zhou",
+        "Charles F Baer"
+      ],
+      "authors_display": "Sayran Saber, Md Monjurul Islam Rifat, Fahimeh Rahimi, et al.",
+      "first_seen_at": "2026-03-27T03:48:09Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/genetics/iyag085",
+        "pmcid": null,
+        "pmid": "41885616"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation accumulation",
+          "mutation rate"
+        ]
+      },
+      "paper_key": "doi:10.1093/genetics/iyag085",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-03-26",
+      "short_abstract": "The rate, molecular spectrum, and fitness effects of mutations vary at all levels of the biological hierarchy, from within individual genomes to among taxonomic domains. Understanding the evolutionary factors underpinning that variation is of fundamental importance to biology. Accurate quantification of the properties of mutations...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Evolution of the rate, molecular spectrum, and fitness effects of mutation under minimal selection in Caenorhabditis elegans.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41885616/",
+      "venue": "Genetics",
+      "venue_display": "Genetics"
+    },
+    {
+      "abstract": "The genus Abies Mill. (Pinaceae) comprises a group of conifers distributed across boreal and temperate regions, including eight species with disjunct distributions across Mexico's highest mountain chains. Abies religiosa (Kunth) Schltdl. & Cham. is a dominant species of the Trans-Mexican Volcanic Belt in central Mexico, forming forests crucial for water retention, carbon sequestration, and soil stabilization. Despite its ecological importance, peri-urban forests dominated by this species around Mexico City are exposed to high levels of tropospheric ozone, which cause premature senescence and forest decline. Here, we report a saturated linkage map for A. religiosa generated by genotyping 182 megagametophytes from two trees for 9,702 single nucleotide polymorphisms. The linkage map is composed of 12 linkage groups (LGs) containing between 518 and 1,207 markers and spanning 1,567.88 cM (114-208 cM per LG). Annotation of reads containing SNPs allowed us to locate 5,881 coding genes on the map, of which 1,952 had known functions in conifers. Differential expression analyses of these genes in symptomatic and asymptomatic trees growing in a peri-urban forest heavily affected by ozone pollution revealed eight genes that were differentially expressed when ozone levels increased. Co-expression analyses further showed that neighboring genes tended to co-express more often in symptomatic than in asymptomatic trees, especially in clusters within LGs 5, 8, and 10. Gene pairs within co-expression clusters coded for similar proteins, suggesting functional co-localization. Our integrated approach reveals previously uncharacterized metabolic and defense pathways associated with ozone tolerance in conifers and lays the groundwork for developing molecular-based management programs accounting for ozone resistance in peri-urban forests.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Xochitl Granados-Aguilar",
+        "Verónica Reyes-Galindo",
+        "Gustavo I Giles-Pérez",
+        "Jaime Gasca-Pineda",
+        "Alicia Mastretta-Yanes",
+        "Juan Pablo Jaramillo-Correa"
+      ],
+      "authors_display": "Xochitl Granados-Aguilar, Verónica Reyes-Galindo, Gustavo I Giles-Pérez, et al.",
+      "first_seen_at": "2026-03-27T03:48:09Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/g3journal/jkag069",
+        "pmcid": null,
+        "pmid": "41885183"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "linkage map"
+        ]
+      },
+      "paper_key": "doi:10.1093/g3journal/jkag069",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-03-25",
+      "short_abstract": "The genus Abies Mill. (Pinaceae) comprises a group of conifers distributed across boreal and temperate regions, including eight species with disjunct distributions across Mexico's highest mountain chains. Abies religiosa (Kunth) Schltdl. & Cham. is a dominant species of the Trans-Mexican Volcanic Belt in central Mexico, forming forests...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Integrative linkage mapping and transcriptomic profiling uncover ozone-response modules in a peri-urban forest tree.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41885183/",
+      "venue": "G3 (Bethesda)",
+      "venue_display": "G3 (Bethesda)"
+    },
     {
       "abstract": "Double-strand breaks (DSBs) are the most deleterious lesions experienced by our genome. Yet, DSBs are intentionally induced during gamete formation to promote the exchange of genetic material between homologous chromosomes. While the conserved topoisomerase-like enzyme Spo11 catalyzes DSBs, additional regulatory proteins-referred to as 'Spo11 accessory factors'-regulate the number, timing, and placement of DSBs during meiotic prophase, ensuring that SPO-11 does not wreak havoc on the genome. Despite the importance of the accessory factors, they are poorly conserved at the sequence level, suggesting that these factors may adopt unique functions in different species. In this work, we present a detailed analysis of the genetic and physical interactions between the DSB factors in the nematode Caenorhabditis elegans, providing new insights into conserved and novel functions of these proteins. This work shows that HIM-5 is the determinant of X-chromosome-specific crossovers and that its retention in the nucleus is dependent on DSB-1, the sole accessory factor that interacts with SPO-11. We further provide evidence that HIM-5 mediates interactions with the different accessory factors subgroups, providing insights into how components on the DNA loops may interact with the chromosome axis.",
       "accent_color": "#8b5e34",
@@ -23,7 +197,7 @@
         "arxiv_id": null,
         "biorxiv_doi": null,
         "doi": "10.7554/elife.96458",
-        "pmcid": null,
+        "pmcid": "PMC3700128",
         "pmid": "41879680"
       },
       "matched_keywords": {
@@ -74,7 +248,7 @@
         "arxiv_id": null,
         "biorxiv_doi": null,
         "doi": "10.7554/elife.108862",
-        "pmcid": null,
+        "pmcid": "PMC12327807",
         "pmid": "41879805"
       },
       "matched_keywords": {
@@ -264,48 +438,6 @@
       "venue_display": "J Cell Biol"
     },
     {
-      "abstract": "Phenotypic plasticity plays a key role in adaptation to fluctuating environments. However, its evolutionary significance remains debated, with conflicting views on whether it is actively maintained by natural selection or a neutral consequence of molecular constraints. In this study, we examine the evolutionary role of gene expression plasticity in yeast populations exposed to both common, ancestrally experienced stressors (NaCl and heat at 37 °C) and a novel stressor (the antifungal drug clotrimazole). Using mutation accumulation lines to separate the effects of natural selection from genetic drift, we compare gene expression responses (referred to as plastic change) between 22 natural strains, 15 mutation accumulation lines, and their progenitor under non-stressed and stressed conditions. Our results show that, in the antifungal environment, gene expression plasticity is selectively maintained, as indicated by its reduction in magnititude, reversal in directionality, and loss of stress-responsive pathways in mutation accumulation lines. In contrast, plasticity under the common stress conditions appears largely neutral, with random variation across mutation accumulation lines. This study provides direct evidence of the adaptive role of gene expression plasticity in response to novel stressors and offers insights into the molecular mechanisms driving these adaptive responses.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Yang Qian",
-        "Zhixuan Yao",
-        "Yu Yao",
-        "Ti Qin",
-        "Piaopiao Chen",
-        "Haoxuan Liu"
-      ],
-      "authors_display": "Yang Qian, Zhixuan Yao, Yu Yao, et al.",
-      "first_seen_at": "2026-03-26T03:46:22Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1038/s41467-026-71153-0",
-        "pmcid": null,
-        "pmid": "41876564"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation accumulation"
-        ]
-      },
-      "paper_key": "doi:10.1038/s41467-026-71153-0",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-03-25",
-      "short_abstract": "Phenotypic plasticity plays a key role in adaptation to fluctuating environments. However, its evolutionary significance remains debated, with conflicting views on whether it is actively maintained by natural selection or a neutral consequence of molecular constraints. In this study, we examine the evolutionary role of gene expression...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Contrasting selective signatures of gene expression plasticity in response to antifungal clotrimazole and common environmental stresses in yeast.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41876564/",
-      "venue": "Nat Commun",
-      "venue_display": "Nat Commun"
-    },
-    {
       "abstract": "Repeat proteins, known for their functional versatility and modularity, are focal points of de novo protein design. This study explores and discovers proteins with repeated sequences using evolutionary approaches. Leveraging AlphaFold 2, our initial sequence design integrates amyloid β42 with a random hexapeptide linker through polymerization, achieving high foldability in more than 12% of cases. We further evolve these structures into a mosaic of folds using segmental mutations and genetic algorithms. The majority of these de novo structures demonstrate good in silico stability through molecular dynamics simulation. Additionally, we investigate the compatibility of medial strands to assess potential variations in structural integrity upon mutation, revealing a trade-off among foldability, structural variation, and sequence similarity. This evolutionary approach not only underscores the evolvability and versatility of repeat proteins but also highlights the potential for developing peptide-based pharmaceuticals and functional materials.",
       "accent_color": "#2f8f6b",
       "authors": [
@@ -346,6 +478,54 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41879619/",
       "venue": "Nano Lett",
       "venue_display": "Nano Lett"
+    },
+    {
+      "abstract": "Oral tongue squamous cell carcinoma (OTSCC) has traditionally affected older males with tobacco and alcohol exposure. Multiple population-based studies demonstrate a rising trend in OTSCC among younger individuals. Several studies indicate that young adults may experience higher rates of local recurrence and disease relapse. We sought to determine whether variations in somatic structural variants (SVs) and copy number variants (CNVs) could explain differences in clinical outcomes between young and old OTSCC patients. Retrospective cohort study. Tertiary academic medical center. Optical genomic mapping (OGM) was performed on DNA isolated from fresh-frozen tumors and whole blood from 8 patients younger than 40 and 13 patients older than 40 to identify tumor-specific SVs. Wilcoxon rank sum tests and contingency table analyses determined statistical significance of differences between old and young tumors. Mean ages of young and old patients were 35.6 ± 4.6 and 71.5 ± 9.2 years, respectively. Young patients were more likely to present with T3/T4 primary tumors (OR = 3.75) undergo chemoradiation (OR = 8.2), and experience recurrence (OR = 7.2). They were less likely to be female (OR: 0.23) and less likely to have tobacco (OR: 0.55) or alcohol use (OR: 0.3). Genomic analysis showed a trend to higher genomic instability and increased aneuploidy in OTSCC from young patients and higher frequencies of PTPR family gene deletions (OR: 2.7), particularly PTPRD (OR: 6.0). Tumors with these gene alterations exhibited significantly more SVs and CNVs (p < 0.05). We found that PTPR family gene deletions, previously implicated in head and neck cancers, may contribute to genomic instability in young OTSCC.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Pallavi Kulkarni",
+        "Kimberly Chan",
+        "Christopher Tseng",
+        "Emily N Milarachi",
+        "David Goldrich",
+        "Brandon LaBarge",
+        "Vonn Walter",
+        "Neerav Goyal",
+        "Joseph M Curry",
+        "Alban Linnenbach",
+        "James R Broach",
+        "David Goldenberg"
+      ],
+      "authors_display": "Pallavi Kulkarni, Kimberly Chan, Christopher Tseng, et al.",
+      "first_seen_at": "2026-03-27T03:48:09Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.oraloncology.2026.107944",
+        "pmcid": null,
+        "pmid": "41880910"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.oraloncology.2026.107944",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-03-24",
+      "short_abstract": "Oral tongue squamous cell carcinoma (OTSCC) has traditionally affected older males with tobacco and alcohol exposure. Multiple population-based studies demonstrate a rising trend in OTSCC among younger individuals. Several studies indicate that young adults may experience higher rates of local recurrence and disease relapse. We sought...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "PTPR family deletions are associated with greater genomic structural instability in young adult tongue cancer.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41880910/",
+      "venue": "Oral Oncol",
+      "venue_display": "Oral Oncol"
     },
     {
       "abstract": "Clostridioides difficile (C. difficile) is a gastrointestinal pathogen that causes healthcare-associated infections with numerous mechanisms to acquire and confer antimicrobial resistance (AMR) and rapidly adapt to novel environments. These environments extend beyond healthcare, and encompass non-healthcare related settings, where antimicrobials engender distinct selection pressures. Employing a dataset of 3,870 whole-genome sequences of C. difficile from healthcare and non-healthcare environments, this study investigates the selection pressures associated with each setting and its impact on the prevalence of AMR genes of C.difficile. To achieve this, we used pangenome-wide association studies (pan-GWAS) and Generalized Linear Mixed Model to identify significant associations between AMR genes and the specific setting from which the isolates were collected. Our findings evidenced significant differences in the AMR gene repertoire between healthcare and non-healthcare associated C. difficile with antibiotics such as macrolides and fluoroquinolones being more linked with healthcare. Antibiotics commonly used in agriculture such as aminoglycosides or tetracyclines also presented associations with non-healthcare environments. Our work offers a comprehensive exploration of C. difficile AMR gene repertoire across healthcare and non-healthcare related settings shedding light on the selection pressures present in each environment, enhancing our understanding of C. difficile resistome and its influence on the bacterium's opportunistic colonization nature.",
@@ -389,47 +569,6 @@
       "venue_display": "Can J Microbiol"
     },
     {
-      "abstract": "The increasing prevalence of antibiotic-resistant infections necessitates the development of novel antimicrobial medications. Actinomycetes are recognized for producing a diverse array of naturally occurring biologically active compounds. Natural environments represent vast, largely untapped reservoirs of microbial diversity, harboring countless unexamined and unidentified microorganisms. During the antimicrobial screening in this study, we isolated an actinomycete strain named DGM-81 from sewage samples of a landfill. The morphological, biochemical, 16S rRNA gene sequence, and phylogenetic analysis show that DGM-81 resembles the actinomycete Gordonia paraffinivorans NBRC108238. Whole genome analysis revealed the presence of 4043 CDS (coding sequences) and a GC content of 69.16%. Pan genomic analysis signifies that this strain has an open pangenome, reflecting high genetic diversity. This suggests strong adaptive potential and frequent gene acquisition within the species. The antiSMASH tool was utilised to depict the biosynthetic clusters for secondary metabolic products, indicating that many clusters possess the signatures to produce bioactive compounds that remain unexplored. The ethyl acetate extract from the DGM-81 culture supernatant underwent purification via Flash chromatography and HPLC, resulting in a purified peak that exhibited antimicrobial activity against Methicillin-Resistant S. aureus. The purified fraction's NMR analysis divulged Daidzein, a compound hitherto unknown in this species. Furthermore, checkerboard assay demonstrated synergistic interactions between the purified compound and selected conventional antibiotics against MRSA. To the best of our knowledge, this is the first report on the antimicrobial activity of Gordonia paraffinivorans. Our findings demonstrate that metabolites derived from this bacterium exhibit significant inhibitory effects against a range of gram-positive pathogens including MRSA, suggesting its potential as a novel source of antimicrobial compounds, highlighting a wide range of possible industrial uses.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Mumtaz",
-        "Simran Kaur",
-        "Simran Gagneja",
-        "Vinod D Chaudhari",
-        "Ravi P N Mishra"
-      ],
-      "authors_display": "Mumtaz, Simran Kaur, Simran Gagneja, et al.",
-      "first_seen_at": "2026-03-26T03:46:22Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.biopha.2025.117981",
-        "pmcid": "9239090",
-        "pmid": "41876906"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.biopha.2025.117981",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-24",
-      "short_abstract": "The increasing prevalence of antibiotic-resistant infections necessitates the development of novel antimicrobial medications. Actinomycetes are recognized for producing a diverse array of naturally occurring biologically active compounds. Natural environments represent vast, largely untapped reservoirs of microbial diversity, harboring...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Isolation, Screening, and Characterization of Gordonia paraffinivorans DGM-81 Exhibiting Antimicrobial Activity Against Methicillin-Resistant Staphylococcus aureus (MRSA).",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41876906/",
-      "venue": "Curr Microbiol",
-      "venue_display": "Curr Microbiol"
-    },
-    {
       "abstract": "Emerging evidence confirms the expression of functional growth hormone (GH) receptors in the male and female reproductive systems, and suggests that the GH signaling might influence gonadal function by acting at different levels of the hypothalamic-pituitary-gonadal (HPG) axis in animals and mammals. Despite this, the role of GH in the modulation of the gonadal cycle in seasonal breeders has been less explored. This study focused on a free-living passerine, Amandava amandava (Red Munia), a distinct seasonal breeder. It aimed at elucidating the plasticity in pituitary expression of the GH, and alteration in the plasma hormone profile across life-history stages parallel to the testicular cycle (histomorphometry and plasma levels of testosterone). The pituitary expression and plasma GH levels remained elevated during the breeding cycle, where the energy-demanding process of testicular recrudescence occurs. The study correlated the plasma GH level with various parameters of the testis and suggests that physiological GH, in association with pituitary gonadotropins, may facilitate the growth and functionality of the testis. The extrapituitary localization of GH in the hypothalamus, optic chiasma, and cerebral cortex during the breeding cycle suggests its paracrine role in the modulation of the gonadotropin-releasing hormone secretion. GH may help meet energy requirements and achieve reproductive status during the transition from the non-breeding to breeding life-history stage, interacting with hormones from other endocrine axes related to reproduction.",
       "accent_color": "#8b5e34",
       "authors": [
@@ -465,85 +604,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41877400/",
       "venue": "J Exp Zool A Ecol Integr Physiol",
       "venue_display": "J Exp Zool A Ecol Integr Physiol"
-    },
-    {
-      "abstract": "Mutation rates often rise under environmental stress, a process known as stress-induced mutagenesis. Among abiotic factors, heat stress is a potent driver that elevates mutation rates and enhances genetic variation, yet the underlying mechanisms in eukaryotes remain unclear. Here, we investigated how heat stress influences DNA repair and mutagenesis both locally and globally in Arabidopsis thaliana using CRISPR-Cas9 induced DNA breaks, whole genome sequencing, and single cell transcriptomic analysis. Heat stress greatly enhanced CRISPR editing efficiency across different chromatin contexts, reaching up to 29.9-fold increase in heterochromatic regions. Moreover, heat stress consistently shifted repair outcomes toward one base pair insertions, independent of chromatin state. We identified a heat inducible, error prone DNA polymerase, DNA Polymerase λ (DNA Polλ), as the key mediator of these repair profile changes. Genome-wide analyses of somatic mutations further revealed that the heat-induced increase in mutagenesis also depends on DNA Polλ. Single cell transcriptomic profiling showed that DNA Polλ expression is tightly regulated and enriched in the central zone of the shoot apical meristem. Such tissue-specific patterns suggest that DNA Polλ serves dual functions: maintaining genome integrity in essential stem cell populations while also enabling stress-induced mutagenesis that can be transmitted to progeny.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Clair M Wootan",
-        "John Lutterman",
-        "Nathan Springer",
-        "Xiaosa Xu",
-        "Feng Zhang"
-      ],
-      "authors_display": "Clair M Wootan, John Lutterman, Nathan Springer, et al.",
-      "first_seen_at": "2026-03-25T03:35:59Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/plcell/koag090",
-        "pmcid": null,
-        "pmid": "41875383"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rates"
-        ]
-      },
-      "paper_key": "doi:10.1093/plcell/koag090",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-03-24",
-      "short_abstract": "Mutation rates often rise under environmental stress, a process known as stress-induced mutagenesis. Among abiotic factors, heat stress is a potent driver that elevates mutation rates and enhances genetic variation, yet the underlying mechanisms in eukaryotes remain unclear. Here, we investigated how heat stress influences DNA repair...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "DNA repair under heat: DNA Polymerase λ modulates heat stress-induced mutagenesis in plants.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41875383/",
-      "venue": "Plant Cell",
-      "venue_display": "Plant Cell"
-    },
-    {
-      "abstract": "In many taxa, levels of genetic diversity vary along their genomes. The framework of background selection models this variation in terms of linkage to constrained sites, and recent applications have been able to explain a large portion of the variation in human genomes. However, these studies have also yielded conflicting results, stemming from two key limitations. First, existing models are inaccurate in a critical region of parameter space (Nes ∼ -1), where the local reduction in diversity is sharpest. Second, they assume a constant population size over time. Here, we develop predictions for diversity under background selection based on the Hill-Robertson system of two-locus statistics, which allows for population size changes. We treat the joint effect of multiple selected loci independently, but we show that interference among them is well captured through local rescaling of mutation, recombination and selection in an iterative procedure that converges quickly. We further accommodate existing background selection theory to non-equilibrium demography, bridging the gap between weak and strong selection. Simulations show that our predictions are accurate across the entire range of selection coefficients. We characterize the temporal dynamics of linked selection under population size changes and demonstrate that patterns of diversity can be misinterpreted by other models. Specifically, biases due to the incorrect assumption of equilibrium carry over to downstream inferences of the distribution of fitness effects and deleterious mutation rate. Jointly modeling demography and linked selection therefore improves our understanding of the genomic landscape of diversity, which will help refine inferences of linked selection in humans and other species.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Gustavo V Barroso",
-        "Aaron P Ragsdale"
-      ],
-      "authors_display": "Gustavo V Barroso, Aaron P Ragsdale",
-      "first_seen_at": "2026-03-25T03:35:59Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/genetics/iyag081",
-        "pmcid": null,
-        "pmid": "41875378"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rate"
-        ]
-      },
-      "paper_key": "doi:10.1093/genetics/iyag081",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-03-24",
-      "short_abstract": "In many taxa, levels of genetic diversity vary along their genomes. The framework of background selection models this variation in terms of linkage to constrained sites, and recent applications have been able to explain a large portion of the variation in human genomes. However, these studies have also yielded conflicting results,...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "A model for background selection in non-equilibrium populations.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41875378/",
-      "venue": "Genetics",
-      "venue_display": "Genetics"
     },
     {
       "abstract": "Failures in chromosome segregation during meiosis result in aneuploid gametes and are the leading cause of miscarriage. The position and number of crossovers, genetic exchanges between homologous chromosomes, are essential to their accurate disjunction in meiosis. Previous research analyzing nondisjunction of acro- and telocentric chromosomes in human and Drosophila has identified altered positioning and number of crossovers that differs between meiosis I and meiosis II nondisjunction. Limited data from positioning in chromosomes that segregated normally in metacentric trisomies has suggested discrepancies between the behavior of these chromosomes and the acro/telocentrics in nondisjunction, which warrants further investigation. Here, we employ whole-genome sequencing to study spontaneous meiotic nondisjunctionof the metacentric chromosome 2 in Drosophila melanogaster. Several patterns of recombination may differentially impact telo- versusmetacentric chromosomes: lack of a crossover, distal crossovers, and proximal crossovers. We find that unlike meiotic nondisjunction of the Drosophila X chromosome, nondisjunction of chromosome 2 is not associated with dramatic changes in crossover landscape, but is associated with reduced recombination. Differences in the proportions of NDJ events with altered recombination patterns between chromosomes X and 2 suggest that abnormal crossover positions disparately affect chromosomes with different shapes. Taken together, these findings highlight that the underlying triggers of meiotic nondisjunction are chromosome-specific.",
@@ -582,55 +642,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41875372/",
       "venue": "Genetics",
       "venue_display": "Genetics"
-    },
-    {
-      "abstract": "Meiotic crossover formation is critical for generating viable gametes and enhancing genetic diversity. The helicase Mer3 (HFM1 in humans) is a highly conserved factor essential for promoting crossovers and ensuring their proper distribution. Here, we identify replication protein A (RPA) as a direct interactor of budding yeast Mer3. We demonstrate that this interaction is conserved between human HFM1 and RPA. Cross-linking mass spectrometry and structural modelling with AlphaFold2 reveal a conserved and specific Mer3-RPA interface. Single-molecule magnetic tweezers assays demonstrate that direct RPA interaction is required for Mer3 helicase processivity under conditions of low DNA tension. Consistently, a mer3 mutant deficient in RPA binding exhibits reduced crossover frequencies and accumulates unresolved recombination intermediates during budding yeast meiosis. Via genome-wide localisation experiments, we link this effect to weakened recruitment of the mer3 mutant to double-strand break sites. Our findings provide mechanistic insights into coordination of meiotic recombination by the Mer3 helicase through interactions with the canonical DNA repair machinery, highlighting a conserved mechanism underlying crossover control during sexual reproduction.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Veronika Altmannova",
-        "Lucija Orlić",
-        "Carolina Carrasco",
-        "Céline Adam",
-        "Clara Aicart-Ramos",
-        "Dario Guerrini",
-        "Petra Janning",
-        "Valérie Borde",
-        "Joao Matos",
-        "Fernando Moreno-Herrero",
-        "John R Weir"
-      ],
-      "authors_display": "Veronika Altmannova, Lucija Orlić, Carolina Carrasco, et al.",
-      "first_seen_at": "2026-03-21T15:36:16Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1103/physrevlett.89.248102",
-        "pmcid": "PMC3710824",
-        "pmid": "41851108"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "crossover formation",
-          "crossover frequencies",
-          "meiotic recombination"
-        ]
-      },
-      "paper_key": "doi:10.1103/physrevlett.89.248102",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-03-18",
-      "short_abstract": "Meiotic crossover formation is critical for generating viable gametes and enhancing genetic diversity. The helicase Mer3 (HFM1 in humans) is a highly conserved factor essential for promoting crossovers and ensuring their proper distribution. Here, we identify replication protein A (RPA) as a direct interactor of budding yeast Mer3. We...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "RPA directly stimulates Mer3 helicase processivity to ensure normal crossover formation in meiosis.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41851108/",
-      "venue": "Nat Commun",
-      "venue_display": "Nat Commun"
     },
     {
       "abstract": "Statistical methods to identify Neanderthal ancestry in modern human genomes rest on varying assumptions and inputs. Nonetheless, most studies of introgression use only a single method to define Neanderthal ancestry. Due to a lack of \"ground truth,\" we have a limited understanding of the accuracy, comparative strengths and weaknesses, and the sensitivity of downstream conclusions for these methods. Here, we performed large-scale comparisons of 14 genome-wide introgression maps computed by 11 representative Neanderthal introgression detection algorithms: admixfrog, ArchaicSeeker2, ArchIE, ARGWeaver-D, CRF, DICAL-ADMIX, hmmix, IBDmix, SARGE, Sprime, and S*. These algorithms span statistical approaches based on summary statistics, probabilistic modeling, and machine learning, and vary in their use of archaic, modern, and simulated genomes as input. Our results highlight a core set of regions predicted by nearly all methods, as well as substantial heterogeneity in commonly used Neanderthal introgression maps, especially at the individual genome level. Furthermore, we find that downstream analyses may result in different conclusions depending on the map used. Thus, we recommend careful consideration of map(s) chosen for downstream analysis and support the use of multiple maps to ensure robustness of conclusions. We make integrated prediction sets available, enabling further understanding of Neanderthal introgression's legacy on modern humans.",
