@@ -1,6 +1,225 @@
 {
-  "generated_at": "2026-03-27T03:48:09Z",
+  "generated_at": "2026-03-28T03:34:22Z",
   "latest": [
+    {
+      "abstract": "Several proteins collaborate to promote the crossover recombination events critical for accurate chromosome segregation during meiosis. How these \"ZMM\" factors (Zip2, Zip3, Zip4, Spo16, Mer3 and MutSγ) collaboratively function remains incompletely understood. We previously reported that Zip3's abundance and activity rely on the synaptonemal complex (SC) component Zip1, and specifically on Zip1's N-terminal residues associated with crossovers and coupling SC assembly to the crossover pathway. Here, we demonstrate that Zip3 co-immunoprecipitates Zip1 from meiotic cells independent of recombination initiation and other ZMMs, and that Zip3's interaction with Zip1 relies on Zip1's N terminal residues. Co-expression and pull-down experiments in bacterial cells demonstrate that Zip1 and Zip3 interact directly. Experiments to identify Zip3 regions required for the Zip1 interaction unexpectedly revealed an incorrectly annotated translational start; we also determined that Zip3's N-terminal structured region is necessary and sufficient for the interaction, and a predicted coil downstream of Zip3's RING domain is essential for specific activities attributed to Zip1's N-terminal tip such as proximity labeling of Zip3 by Zip2 and the coupling of crossover recombination to SC assembly. Finally, we discovered that interaction with Zip1 protects Zip3 not only from proteasome-mediated degradation but also from post-translational modification when another ZMM is absent. We propose that direct interaction with Zip1's N terminus orients Zip3 within a nascent ZMM ensemble in a manner that facilitates crossover formation and the coupling of crossover intermediates to SC assembly and furthermore ensures Zip3 remains both abundant and unmodified until all requisite ZMMs have joined the group.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Sabrina Sharmin",
+        "Karen Voelkel-Meiman",
+        "Alex J Poppel",
+        "Amy J MacQueen"
+      ],
+      "authors_display": "Sabrina Sharmin, Karen Voelkel-Meiman, Alex J Poppel, et al.",
+      "first_seen_at": "2026-03-28T03:34:22Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/genetics/iyag075",
+        "pmcid": null,
+        "pmid": "41894234"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "synaptonemal complex",
+          "crossover formation"
+        ]
+      },
+      "paper_key": "doi:10.1093/genetics/iyag075",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-03-27",
+      "short_abstract": "Several proteins collaborate to promote the crossover recombination events critical for accurate chromosome segregation during meiosis. How these \"ZMM\" factors (Zip2, Zip3, Zip4, Spo16, Mer3 and MutSγ) collaboratively function remains incompletely understood. We previously reported that Zip3's abundance and activity rely on the...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Crossover formation and coordinated assembly of synaptonemal complex relies on a direct interaction between Zip1 and Zip3.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41894234/",
+      "venue": "Genetics",
+      "venue_display": "Genetics"
+    },
+    {
+      "abstract": "This study aimed to investigate the global genetic diversity, evolutionary relationships, and antimicrobial resistance (AMR) profiles of Klebsiella pneumoniae by performing a comprehensive pan-genome and phylogenetic analysis across worldwide isolates. A total of 72,057 K. pneumoniae genomes were retrieved from the NCBI database, from which 91 high-quality representative genomes each from a unique country were selected based on completeness, metadata availability, and sequence quality. Genomic assemblies were assessed using QUAST, annotated with PROKKA, and analyzed for pan-genomic composition and phylogenetic relatedness using standard bioinformatics pipelines. The pan-genome revealed a large accessory component, reflecting extensive genomic plasticity and adaptability. QUAST analysis indicated significant variability in genome size and contig number, while PROKKA annotation identified diverse coding sequences, tRNA, rRNA, and AMR genes. Phylogenetic clustering demonstrated both geographically localized and globally disseminated lineages, suggesting regional adaptation and intercontinental transmission. This study provides a global perspective on the genomic diversity and evolutionary patterns of K. pneumoniae. The widespread presence of AMR determinants underscores the urgent need for continuous genomic surveillance and integration of metagenomic approaches to improve monitoring, infection control, and therapeutic strategies against multidrug-resistant strains.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Hatoon A Niyazi",
+        "Hanouf A Niyazi",
+        "Hind AbdulMajed",
+        "Noha Juma",
+        "Noof Helmi",
+        "Mona Alqarni",
+        "Bandar Hasan Saleh",
+        "Manal Zubair",
+        "Abdelbagi Alfadil",
+        "Wafaa Alhazmi",
+        "Ohood S Alharbi",
+        "Waiel S Halabi",
+        "Rawan Altalhi",
+        "Ehssan Moglad",
+        "Mohanned Talal Alharbi",
+        "Malaz Gazzaz",
+        "Turki M Alharthi",
+        "Hisham N Altayb",
+        "Karem Ibrahem"
+      ],
+      "authors_display": "Hatoon A Niyazi, Hanouf A Niyazi, Hind AbdulMajed, et al.",
+      "first_seen_at": "2026-03-28T03:34:22Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1080/17460913.2026.2617118",
+        "pmcid": null,
+        "pmid": "41889316"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pan genome"
+        ]
+      },
+      "paper_key": "doi:10.1080/17460913.2026.2617118",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-03-27",
+      "short_abstract": "This study aimed to investigate the global genetic diversity, evolutionary relationships, and antimicrobial resistance (AMR) profiles of Klebsiella pneumoniae by performing a comprehensive pan-genome and phylogenetic analysis across worldwide isolates. A total of 72,057 K. pneumoniae genomes were retrieved from the NCBI database, from...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Pan-genome analysis and phylogenetic characterization of Klebsiella pneumoniae from global isolates.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41889316/",
+      "venue": "Future Microbiol",
+      "venue_display": "Future Microbiol"
+    },
+    {
+      "abstract": "Axenfeld-Rieger Syndrome (ARS) is an autosomal dominant condition with both ocular and non-ocular manifestations. ARS is primarily caused by coding variants at the PITX2 or FOXC1 loci, yet many cases still remain undiagnosed. Here we used whole-genome sequencing to identify two families with non-coding structural variants associated with a typical presentation of PITX2-associated ARS: one family with a 450 kb deletion removing a series of conserved enhancer elements distal to PITX2, and the second family with a 12.54 Mb inversion displacing the PITX2 gene from these same enhancer elements. Neither variant disrupted the PITX2 gene itself, and therefore both were expected to reduce PITX2 expression by disrupting its proximity or access to enhancer elements. PITX2 enhancer-disrupting inversions are an emerging genetic mechanism for the development of ARS, which should be carefully considered in the context of ARS and other conditions without a conclusive genetic diagnosis.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Lucas A Mitchell",
+        "Joshua Schmidt",
+        "Emmanuelle Souzeau",
+        "Lachlan S W Knight",
+        "Giorgina Maxwell",
+        "Andrew Dubowsky",
+        "Ridia Lim",
+        "Edward Formaini",
+        "Matthew Welland",
+        "Cas Simons",
+        "Daniel G MacArthur",
+        "Janey L Wiggs",
+        "Jamie E Craig",
+        "Owen M Siggs"
+      ],
+      "authors_display": "Lucas A Mitchell, Joshua Schmidt, Emmanuelle Souzeau, et al.",
+      "first_seen_at": "2026-03-28T03:34:22Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.3390/ijms25052669",
+        "pmcid": "10931988",
+        "pmid": "41888561"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.3390/ijms25052669",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-03-26",
+      "short_abstract": "Axenfeld-Rieger Syndrome (ARS) is an autosomal dominant condition with both ocular and non-ocular manifestations. ARS is primarily caused by coding variants at the PITX2 or FOXC1 loci, yet many cases still remain undiagnosed. Here we used whole-genome sequencing to identify two families with non-coding structural variants associated...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Non-coding structural variants disrupting conserved PITX2 enhancer loci in Axenfeld-Rieger syndrome.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41888561/",
+      "venue": "Eur J Hum Genet",
+      "venue_display": "Eur J Hum Genet"
+    },
+    {
+      "abstract": "Structural variants (SVs), including duplications, deletions, inversions, translocations, and insertions, play major roles in human phenotypic diversity but remain difficult to detect because of variable size and structural complexity. Optical genome mapping (OGM) uses ultra-high molecular weight DNA (>150 kb) fluorescently labeled at a specific six-nucleotide sequence, enabling comprehensive SV detection by analyzing labeling patterns along long DNA molecules. This study aimed to fully characterize SVs using OGM. OGM was applied to 30 cases with exome sequencing-based copy number (CN) variants (16 CN losses, 7 CN gains, and 7 combined CN losses and gains). Additionally, targeted Oxford Nanopore long-read sequencing with adaptive sampling was used to determine breakpoints of SVs. This approach revealed undetected SVs in 14 cases (46.7%), and disclosed gene disruptions or CN alterations explaining clinical features in seven cases (23.3%). Even complex SVs involving numerous chromosomal segments and breakpoints were resolved efficiently, highlighting the power of combining OGM and long-read sequencing. Integrating OGM with long-read sequencing improves diagnostic resolution beyond sequencing alone and provides a robust framework for interpreting complex SVs. These findings highlight the potential clinical utility of combining OGM and long-read sequencing as a comprehensive diagnostic strategy for improved precision medicine in rare genetic diseases.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Li Fu",
+        "Chong Ae Kim",
+        "Masatoshi Tokita",
+        "Yohane Miyata",
+        "Nobuhiko Okamoto",
+        "Yoshio Makita",
+        "Hitoshi Osaka",
+        "Ayataka Fujimoto",
+        "Atsuro Daida",
+        "Jun Nirei",
+        "Noriko Udagawa",
+        "Seiichi Hayakawa",
+        "Kimiko Deguchi",
+        "Mitsumasa Fukuda",
+        "Hiroshi Matsumoto",
+        "Manami Akasaka",
+        "Junichiro Okada",
+        "Yohei Misumi",
+        "Jun Kido",
+        "Toshifumi Suzuki",
+        "Hiromi Aoi",
+        "Rie Seyama",
+        "Haruka Hamanoue",
+        "Satomi Mitsuhashi",
+        "Sachiko Ohori",
+        "Ken Saida",
+        "Yuta Inoue",
+        "Kohei Hamanaka",
+        "Naomi Tsuchida",
+        "Yuri Uchiyama",
+        "Eriko Koshimizu",
+        "Satoko Miyatake",
+        "Takeshi Mizuguchi",
+        "Atsuo Itakura",
+        "Naoki Harada",
+        "Atsushi Fujita",
+        "Naomichi Matsumoto"
+      ],
+      "authors_display": "Li Fu, Chong Ae Kim, Masatoshi Tokita, et al.",
+      "first_seen_at": "2026-03-28T03:34:22Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41525-026-00561-4",
+        "pmcid": null,
+        "pmid": "41888121"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41525-026-00561-4",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-03-26",
+      "short_abstract": "Structural variants (SVs), including duplications, deletions, inversions, translocations, and insertions, play major roles in human phenotypic diversity but remain difficult to detect because of variable size and structural complexity. Optical genome mapping (OGM) uses ultra-high molecular weight DNA (>150 kb) fluorescently labeled at a...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Completely resolved structural variants by optical genome mapping with adaptive sampling from CNV discovery.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41888121/",
+      "venue": "NPJ Genom Med",
+      "venue_display": "NPJ Genom Med"
+    },
     {
       "abstract": "Nature presents a staggering diversity of life history strategies, ranging from rapid to slow onset of sexual maturity, short or long life, low or high number of offspring, and much more. Each species-specific life history trait reflects on the one hand specific adaptations to unique environments, e.g., nutrient availability, predation, parasite load, seasonality; and on the other hand, depends on past demographic constraints, such as population bottlenecks, migrations, etc. Studying life history diversity in nature and in the laboratory ultimately aims to identify the ecological, demographic, and intrinsic causes contributing to species-specific growth rate distributions, lifetime reproductive outcomes, as well as lifespans. However, for most species, we cannot rewind the evolutionary and demographic past to identify the causal chain of events leading to the present life history traits. We can infer past events only by sampling extant populations. In silico evolution has the advantage of providing complete time resolution for the events driving life history evolution and enables to directly test the impact of ecological and demographic variables on the evolution of life history traits. We developed AEGIS (Aging of Evolving Genomes In Silico), a software for individual-based modeling of life history trait evolution at the genotype and phenotype level. AEGIS models life history traits evolution in response to a set of factors, including resource availability, extrinsic mortality induced by predators or parasites, different levels of germline mutation rates, population size, sexual vs. asexual reproduction, and more. AEGIS serves as a powerful tool to model life history evolution and allows for parameter inference against ground truths. AEGIS can help generate estimates for the evolution of different life history traits, such as age-dependent mortality and reproduction, in response to different selective pressures and intrinsic genetic constraints.",
       "accent_color": "#f25f4c",
@@ -16,7 +235,7 @@
         "arxiv_id": null,
         "biorxiv_doi": null,
         "doi": "10.1371/journal.pcbi.1014109",
-        "pmcid": null,
+        "pmcid": "PMC2323215",
         "pmid": "41886482"
       },
       "matched_keywords": {
@@ -132,6 +351,55 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41885616/",
       "venue": "Genetics",
       "venue_display": "Genetics"
+    },
+    {
+      "abstract": "This study introduces NodeGWAS, a graph pangenome-based framework that performs association analysis using graph nodes. Compared with conventional GWAS approaches, NodeGWAS strikes a balance between sensitivity and interpretability, and its applications in Arabidopsis thaliana and sugarcane demonstrate its effectiveness in dissecting complex traits.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Yixing Zhang",
+        "Yuheng Wang",
+        "Tingting Wu",
+        "Yan Lin",
+        "Yue Tan",
+        "Yiying Qi",
+        "Yuhao Wang",
+        "Baiyu Wang",
+        "Zhengguang Wang",
+        "Qing Zhang",
+        "Jisen Zhang",
+        "Yumin Huang",
+        "Haibao Tang"
+      ],
+      "authors_display": "Yixing Zhang, Yuheng Wang, Tingting Wu, et al.",
+      "first_seen_at": "2026-03-28T03:34:22Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.xplc.2026.101835",
+        "pmcid": null,
+        "pmid": "41889172"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.xplc.2026.101835",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-03-25",
+      "short_abstract": "This study introduces NodeGWAS, a graph pangenome-based framework that performs association analysis using graph nodes. Compared with conventional GWAS approaches, NodeGWAS strikes a balance between sensitivity and interpretability, and its applications in Arabidopsis thaliana and sugarcane demonstrate its effectiveness in dissecting...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "NodeGWAS: Leveraging Graph Pangenomes for Sensitive and Accurate Association Analysis in Diverse Diploid and Polyploid Species.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41889172/",
+      "venue": "Plant Commun",
+      "venue_display": "Plant Commun"
     },
     {
       "abstract": "The genus Abies Mill. (Pinaceae) comprises a group of conifers distributed across boreal and temperate regions, including eight species with disjunct distributions across Mexico's highest mountain chains. Abies religiosa (Kunth) Schltdl. & Cham. is a dominant species of the Trans-Mexican Volcanic Belt in central Mexico, forming forests crucial for water retention, carbon sequestration, and soil stabilization. Despite its ecological importance, peri-urban forests dominated by this species around Mexico City are exposed to high levels of tropospheric ozone, which cause premature senescence and forest decline. Here, we report a saturated linkage map for A. religiosa generated by genotyping 182 megagametophytes from two trees for 9,702 single nucleotide polymorphisms. The linkage map is composed of 12 linkage groups (LGs) containing between 518 and 1,207 markers and spanning 1,567.88 cM (114-208 cM per LG). Annotation of reads containing SNPs allowed us to locate 5,881 coding genes on the map, of which 1,952 had known functions in conifers. Differential expression analyses of these genes in symptomatic and asymptomatic trees growing in a peri-urban forest heavily affected by ozone pollution revealed eight genes that were differentially expressed when ozone levels increased. Co-expression analyses further showed that neighboring genes tended to co-express more often in symptomatic than in asymptomatic trees, especially in clusters within LGs 5, 8, and 10. Gene pairs within co-expression clusters coded for similar proteins, suggesting functional co-localization. Our integrated approach reveals previously uncharacterized metabolic and defense pathways associated with ozone tolerance in conifers and lays the groundwork for developing molecular-based management programs accounting for ozone resistance in peri-urban forests.",
@@ -362,44 +630,6 @@
       "venue_display": "Genetics"
     },
     {
-      "abstract": "Acanthamoeba castellanii is a free-living amoeba that is emerging as a model organism for the study of eukaryotic microbiology. This species is one of the most widely studied members of the Amoebozoa and is both an important grazer in soil communities and an opportunistic human pathogen; A. castellanii is thus of evolutionary, ecological, and biomedical significance. Despite its potential as a lab workhorse, the genome biology of A. castellanii is complex and poorly understood. Polyploidy is a common feature of many amoebozoan genomes, and members of the genus Acanthamoeba are no exception; they appear to be not only polyploid, where genome copy number is inflated beyond the conventional haploid and diploid states, but also aneuploid, i.e., with inter-chromosomal copy number variation. To better understand aneuploidy in A. castellanii and how it may vary over time and between closely related strains, we analyzed nanopore and Illumina sequence datasets from several wild-type and mutant A. castellanii lines, with a focus on quantifying single nucleotide polymorphism (SNP) and structural variant allele frequencies across chromosome-scale scaffolds. Sequence depth of coverage was also considered. Our findings suggest that intragenomic chromosome copy number is highly variable in Acanthamoeba, consistent with a considerable degree of aneuploidy, but is predominantly stable in laboratory culture and on the evolutionary scale of the species or genus.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Morgan J Colp",
-        "John M Archibald"
-      ],
-      "authors_display": "Morgan J Colp, John M Archibald",
-      "first_seen_at": "2026-03-26T03:46:22Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/gbe/evag051",
-        "pmcid": null,
-        "pmid": "41876380"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variant"
-        ]
-      },
-      "paper_key": "doi:10.1093/gbe/evag051",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-25",
-      "short_abstract": "Acanthamoeba castellanii is a free-living amoeba that is emerging as a model organism for the study of eukaryotic microbiology. This species is one of the most widely studied members of the Amoebozoa and is both an important grazer in soil communities and an opportunistic human pathogen; A. castellanii is thus of evolutionary,...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Genome sequence data reveal complex and variable ploidy in the amoebozoan Acanthamoeba castellanii.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41876380/",
-      "venue": "Genome Biol Evol",
-      "venue_display": "Genome Biol Evol"
-    },
-    {
       "abstract": "A defining feature of meiosis is the synaptonemal complex (SC), a zipper-like protein structure that forms between homologous chromosomes to regulate their recombination and segregation. Historically viewed as an enigmatic electron-dense scaffold, the SC is now recognized as a dynamic signaling platform that coordinates key meiotic processes. Here, we review recent advances in understanding SC structure and function. We describe diverse complementary approaches that have expanded the catalog of SC components and their network of interactions within this architecture. We highlight striking conservation in structural organization and ancient molecular modules that couple SC structure to crossover regulation and further discuss how the SC implements feedback mechanisms controlling meiotic DNA break formation and repair capacity to ensure faithful chromosome segregation across generations.",
       "accent_color": "#8b5e34",
       "authors": [
@@ -438,137 +668,6 @@
       "venue_display": "J Cell Biol"
     },
     {
-      "abstract": "Repeat proteins, known for their functional versatility and modularity, are focal points of de novo protein design. This study explores and discovers proteins with repeated sequences using evolutionary approaches. Leveraging AlphaFold 2, our initial sequence design integrates amyloid β42 with a random hexapeptide linker through polymerization, achieving high foldability in more than 12% of cases. We further evolve these structures into a mosaic of folds using segmental mutations and genetic algorithms. The majority of these de novo structures demonstrate good in silico stability through molecular dynamics simulation. Additionally, we investigate the compatibility of medial strands to assess potential variations in structural integrity upon mutation, revealing a trade-off among foldability, structural variation, and sequence similarity. This evolutionary approach not only underscores the evolvability and versatility of repeat proteins but also highlights the potential for developing peptide-based pharmaceuticals and functional materials.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Tianyi Jin",
-        "Jacob I Sass",
-        "Wenhao Gao",
-        "Aiden A Hurst",
-        "Connor W Coley",
-        "Alfredo Alexander-Katz"
-      ],
-      "authors_display": "Tianyi Jin, Jacob I Sass, Wenhao Gao, et al.",
-      "first_seen_at": "2026-03-26T03:46:22Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1021/acs.nanolett.6c00527",
-        "pmcid": null,
-        "pmid": "41879619"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variation"
-        ]
-      },
-      "paper_key": "doi:10.1021/acs.nanolett.6c00527",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-25",
-      "short_abstract": "Repeat proteins, known for their functional versatility and modularity, are focal points of de novo protein design. This study explores and discovers proteins with repeated sequences using evolutionary approaches. Leveraging AlphaFold 2, our initial sequence design integrates amyloid β42 with a random hexapeptide linker through...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Polymerized Short Sequences as a Template for Protein Folding and Evolution.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41879619/",
-      "venue": "Nano Lett",
-      "venue_display": "Nano Lett"
-    },
-    {
-      "abstract": "Oral tongue squamous cell carcinoma (OTSCC) has traditionally affected older males with tobacco and alcohol exposure. Multiple population-based studies demonstrate a rising trend in OTSCC among younger individuals. Several studies indicate that young adults may experience higher rates of local recurrence and disease relapse. We sought to determine whether variations in somatic structural variants (SVs) and copy number variants (CNVs) could explain differences in clinical outcomes between young and old OTSCC patients. Retrospective cohort study. Tertiary academic medical center. Optical genomic mapping (OGM) was performed on DNA isolated from fresh-frozen tumors and whole blood from 8 patients younger than 40 and 13 patients older than 40 to identify tumor-specific SVs. Wilcoxon rank sum tests and contingency table analyses determined statistical significance of differences between old and young tumors. Mean ages of young and old patients were 35.6 ± 4.6 and 71.5 ± 9.2 years, respectively. Young patients were more likely to present with T3/T4 primary tumors (OR = 3.75) undergo chemoradiation (OR = 8.2), and experience recurrence (OR = 7.2). They were less likely to be female (OR: 0.23) and less likely to have tobacco (OR: 0.55) or alcohol use (OR: 0.3). Genomic analysis showed a trend to higher genomic instability and increased aneuploidy in OTSCC from young patients and higher frequencies of PTPR family gene deletions (OR: 2.7), particularly PTPRD (OR: 6.0). Tumors with these gene alterations exhibited significantly more SVs and CNVs (p < 0.05). We found that PTPR family gene deletions, previously implicated in head and neck cancers, may contribute to genomic instability in young OTSCC.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Pallavi Kulkarni",
-        "Kimberly Chan",
-        "Christopher Tseng",
-        "Emily N Milarachi",
-        "David Goldrich",
-        "Brandon LaBarge",
-        "Vonn Walter",
-        "Neerav Goyal",
-        "Joseph M Curry",
-        "Alban Linnenbach",
-        "James R Broach",
-        "David Goldenberg"
-      ],
-      "authors_display": "Pallavi Kulkarni, Kimberly Chan, Christopher Tseng, et al.",
-      "first_seen_at": "2026-03-27T03:48:09Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.oraloncology.2026.107944",
-        "pmcid": null,
-        "pmid": "41880910"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.oraloncology.2026.107944",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-24",
-      "short_abstract": "Oral tongue squamous cell carcinoma (OTSCC) has traditionally affected older males with tobacco and alcohol exposure. Multiple population-based studies demonstrate a rising trend in OTSCC among younger individuals. Several studies indicate that young adults may experience higher rates of local recurrence and disease relapse. We sought...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "PTPR family deletions are associated with greater genomic structural instability in young adult tongue cancer.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41880910/",
-      "venue": "Oral Oncol",
-      "venue_display": "Oral Oncol"
-    },
-    {
-      "abstract": "Clostridioides difficile (C. difficile) is a gastrointestinal pathogen that causes healthcare-associated infections with numerous mechanisms to acquire and confer antimicrobial resistance (AMR) and rapidly adapt to novel environments. These environments extend beyond healthcare, and encompass non-healthcare related settings, where antimicrobials engender distinct selection pressures. Employing a dataset of 3,870 whole-genome sequences of C. difficile from healthcare and non-healthcare environments, this study investigates the selection pressures associated with each setting and its impact on the prevalence of AMR genes of C.difficile. To achieve this, we used pangenome-wide association studies (pan-GWAS) and Generalized Linear Mixed Model to identify significant associations between AMR genes and the specific setting from which the isolates were collected. Our findings evidenced significant differences in the AMR gene repertoire between healthcare and non-healthcare associated C. difficile with antibiotics such as macrolides and fluoroquinolones being more linked with healthcare. Antibiotics commonly used in agriculture such as aminoglycosides or tetracyclines also presented associations with non-healthcare environments. Our work offers a comprehensive exploration of C. difficile AMR gene repertoire across healthcare and non-healthcare related settings shedding light on the selection pressures present in each environment, enhancing our understanding of C. difficile resistome and its influence on the bacterium's opportunistic colonization nature.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Manuel Jara",
-        "Alba Frias-De-Diego",
-        "Robert A Petit Iii",
-        "Loc Nguyen",
-        "Cristina Lanzas"
-      ],
-      "authors_display": "Manuel Jara, Alba Frias-De-Diego, Robert A Petit Iii, et al.",
-      "first_seen_at": "2026-03-26T03:46:22Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1139/cjm-2025-0288",
-        "pmcid": null,
-        "pmid": "41875899"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1139/cjm-2025-0288",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-24",
-      "short_abstract": "Clostridioides difficile (C. difficile) is a gastrointestinal pathogen that causes healthcare-associated infections with numerous mechanisms to acquire and confer antimicrobial resistance (AMR) and rapidly adapt to novel environments. These environments extend beyond healthcare, and encompass non-healthcare related settings, where...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Pangenome-GWAS analysis of Clostridioides difficile resistant traits from healthcare and non-healthcare associated settings.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41875899/",
-      "venue": "Can J Microbiol",
-      "venue_display": "Can J Microbiol"
-    },
-    {
       "abstract": "Emerging evidence confirms the expression of functional growth hormone (GH) receptors in the male and female reproductive systems, and suggests that the GH signaling might influence gonadal function by acting at different levels of the hypothalamic-pituitary-gonadal (HPG) axis in animals and mammals. Despite this, the role of GH in the modulation of the gonadal cycle in seasonal breeders has been less explored. This study focused on a free-living passerine, Amandava amandava (Red Munia), a distinct seasonal breeder. It aimed at elucidating the plasticity in pituitary expression of the GH, and alteration in the plasma hormone profile across life-history stages parallel to the testicular cycle (histomorphometry and plasma levels of testosterone). The pituitary expression and plasma GH levels remained elevated during the breeding cycle, where the energy-demanding process of testicular recrudescence occurs. The study correlated the plasma GH level with various parameters of the testis and suggests that physiological GH, in association with pituitary gonadotropins, may facilitate the growth and functionality of the testis. The extrapituitary localization of GH in the hypothalamus, optic chiasma, and cerebral cortex during the breeding cycle suggests its paracrine role in the modulation of the gonadotropin-releasing hormone secretion. GH may help meet energy requirements and achieve reproductive status during the transition from the non-breeding to breeding life-history stage, interacting with hormones from other endocrine axes related to reproduction.",
       "accent_color": "#8b5e34",
       "authors": [
@@ -604,44 +703,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41877400/",
       "venue": "J Exp Zool A Ecol Integr Physiol",
       "venue_display": "J Exp Zool A Ecol Integr Physiol"
-    },
-    {
-      "abstract": "Failures in chromosome segregation during meiosis result in aneuploid gametes and are the leading cause of miscarriage. The position and number of crossovers, genetic exchanges between homologous chromosomes, are essential to their accurate disjunction in meiosis. Previous research analyzing nondisjunction of acro- and telocentric chromosomes in human and Drosophila has identified altered positioning and number of crossovers that differs between meiosis I and meiosis II nondisjunction. Limited data from positioning in chromosomes that segregated normally in metacentric trisomies has suggested discrepancies between the behavior of these chromosomes and the acro/telocentrics in nondisjunction, which warrants further investigation. Here, we employ whole-genome sequencing to study spontaneous meiotic nondisjunctionof the metacentric chromosome 2 in Drosophila melanogaster. Several patterns of recombination may differentially impact telo- versusmetacentric chromosomes: lack of a crossover, distal crossovers, and proximal crossovers. We find that unlike meiotic nondisjunction of the Drosophila X chromosome, nondisjunction of chromosome 2 is not associated with dramatic changes in crossover landscape, but is associated with reduced recombination. Differences in the proportions of NDJ events with altered recombination patterns between chromosomes X and 2 suggest that abnormal crossover positions disparately affect chromosomes with different shapes. Taken together, these findings highlight that the underlying triggers of meiotic nondisjunction are chromosome-specific.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Carolyn A Turcotte",
-        "Jeff Sekelsky"
-      ],
-      "authors_display": "Carolyn A Turcotte, Jeff Sekelsky",
-      "first_seen_at": "2026-03-25T03:35:59Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/genetics/iyag076",
-        "pmcid": null,
-        "pmid": "41875372"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "recombination landscape"
-        ]
-      },
-      "paper_key": "doi:10.1093/genetics/iyag076",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-03-24",
-      "short_abstract": "Failures in chromosome segregation during meiosis result in aneuploid gametes and are the leading cause of miscarriage. The position and number of crossovers, genetic exchanges between homologous chromosomes, are essential to their accurate disjunction in meiosis. Previous research analyzing nondisjunction of acro- and telocentric...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Chromosome-specific differences in the recombination landscape of spontaneous meiotic nondisjunction.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41875372/",
-      "venue": "Genetics",
-      "venue_display": "Genetics"
     },
     {
       "abstract": "Statistical methods to identify Neanderthal ancestry in modern human genomes rest on varying assumptions and inputs. Nonetheless, most studies of introgression use only a single method to define Neanderthal ancestry. Due to a lack of \"ground truth,\" we have a limited understanding of the accuracy, comparative strengths and weaknesses, and the sensitivity of downstream conclusions for these methods. Here, we performed large-scale comparisons of 14 genome-wide introgression maps computed by 11 representative Neanderthal introgression detection algorithms: admixfrog, ArchaicSeeker2, ArchIE, ARGWeaver-D, CRF, DICAL-ADMIX, hmmix, IBDmix, SARGE, Sprime, and S*. These algorithms span statistical approaches based on summary statistics, probabilistic modeling, and machine learning, and vary in their use of archaic, modern, and simulated genomes as input. Our results highlight a core set of regions predicted by nearly all methods, as well as substantial heterogeneity in commonly used Neanderthal introgression maps, especially at the individual genome level. Furthermore, we find that downstream analyses may result in different conclusions depending on the map used. Thus, we recommend careful consideration of map(s) chosen for downstream analysis and support the use of multiple maps to ensure robustness of conclusions. We make integrated prediction sets available, enabling further understanding of Neanderthal introgression's legacy on modern humans.",
