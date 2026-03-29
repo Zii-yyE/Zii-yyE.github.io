@@ -1,6 +1,142 @@
 {
-  "generated_at": "2026-03-28T03:34:22Z",
+  "generated_at": "2026-03-29T03:53:22Z",
   "latest": [
+    {
+      "abstract": "",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Laura Batlle-Masó",
+        "Kornelia Neveling",
+        "Johana Gil-Serrano",
+        "Eveline Kamping",
+        "Amber den Ouden",
+        "Raoul Timmermans",
+        "Aina Bruch-Tàrrega",
+        "Aina Aguiló-Cucurull",
+        "Janire Perurena-Prieto",
+        "Paula Fernández-Álvarez",
+        "Marloes Steehouwer",
+        "Alexander Hoischen",
+        "Mar Guilarte",
+        "Roger Colobran"
+      ],
+      "authors_display": "Laura Batlle-Masó, Kornelia Neveling, Johana Gil-Serrano, et al.",
+      "first_seen_at": "2026-03-29T03:53:22Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1007/s10875-026-02015-z",
+        "pmcid": null,
+        "pmid": "41896320"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1007/s10875-026-02015-z",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-03-28",
+      "short_abstract": "",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Optical Genome Mapping for the Identification of Complex Structural Variants in Hereditary Angioedema.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41896320/",
+      "venue": "J Clin Immunol",
+      "venue_display": "J Clin Immunol"
+    },
+    {
+      "abstract": "Not all genes are essential for plant survival. With the rise of pan-genomics, it is evident that certain genes can be lost without negatively affecting fitness. Naturally occurring loss-of-function (LoF) mutations provide a valuable perspective on gene dispensability, offering insights into deleterious and adaptive gene loss. In this study, we identified 91,751 naturally occurring LoF variants from publicly available Arabidopsis genome data. Our findings demonstrate that LoF-intolerant genes are enriched in essential biological functions and associated with specific histone marks linked to active transcription. In contrast, LoF-tolerant genes exhibit relaxed selective pressure and are enriched in functions related to pollen rejection and defense responses, and can be used as a proxy for dispensable genes in the pan-genome. Using a random forest model trained on histone marks, we achieved moderate success in predicting gene LoF tolerance, with an area under the curve (AUC) of 0.718 in Arabidopsis and 0.767 in rice, and even across species. We also pioneered genome-wide LoF burden tests in Arabidopsis, collapsing independent LoF alleles into a single state to reduce allelic heterogeneity. By integrating LoF burden tests with transcriptomic data, we identified thousands of LoF-expression associations. Notably, this analysis accurately recapitulated the flowering time networks and identified FRIGIDA as a key regulator of flowering time genes. Furthermore, we found that collapsing alleles based on functional outcomes enhances association sensitivity. These results provide insight into gene dispensability and a framework for leveraging LoF mutations to study gene functions with improved association studies.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Kehan Zhao",
+        "Mariele Lensink",
+        "J Grey Monroe"
+      ],
+      "authors_display": "Kehan Zhao, Mariele Lensink, J Grey Monroe",
+      "first_seen_at": "2026-03-29T03:53:22Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/plcell/koag087",
+        "pmcid": null,
+        "pmid": "41902375"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pan genome"
+        ]
+      },
+      "paper_key": "doi:10.1093/plcell/koag087",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-03-27",
+      "short_abstract": "Not all genes are essential for plant survival. With the rise of pan-genomics, it is evident that certain genes can be lost without negatively affecting fitness. Naturally occurring loss-of-function (LoF) mutations provide a valuable perspective on gene dispensability, offering insights into deleterious and adaptive gene loss. In this...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Functional insights into dispensable genes using genome-wide loss-of-function burden tests in Arabidopsis.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41902375/",
+      "venue": "Plant Cell",
+      "venue_display": "Plant Cell"
+    },
+    {
+      "abstract": "Oculopharyngodistal myopathy (OPDM) is a hereditary muscle disease caused by CGG/CCG repeat expansions in six genes. Although the clinical features are often similar, such as ptosis, dysphagia, and distal muscle weakness, the age at onset vary widely, and the mechanisms underlying this variation remain unclear. In particular, the contributions of repeat size, flanking sequence variation, and DNA methylation to phenotype have not been systematically explored using single-molecule resolution. We applied CRISPR/Cas9-targeted nanopore sequencing (nCATS) to genomic DNA from 91 individuals carrying expanded CGG repeats in three OPDM-related genes (LRP12, GIPC1, and NOTCH2NLC). This approach enabled the simultaneous analysis of CGG repeat length, flanking sequence architecture, single nucleotide variant haplotypes, structural variation, and CpG methylation profiles. Genotype–phenotype correlations were evaluated by integrating molecular and clinical data. Expanded LRP12 and GIPC1 alleles in the patients showed respective single nucleotide variant patterns around repeat regions, suggesting founder haplotypes. Repeat regions essentially comprised pure CGG expansions, but exhibited size variability, even within patients. Additionally, LRP12-expanded repeats lacked flanking nucleotide sequences present in non-expanded repeats, whereas GIPC1 expanded repeats contained specific discontinued CGG patterns in their 5'-regions. Structural variations were also identified in some patients. A significant inverse correlation was observed between repeat length and age at onset in patients with GIPC1 or NOTCH2NLC expansions, while this was disturbed by higher methylation of upstream regions in patients with LRP12 expansions, leading to delayed onset. This study highlights gene-specific differences in CGG repeat architecture and epigenetic regulation in OPDM. Founder haplotypes, expanded allele-specific flanking sequences, and the combined effects of repeat size and methylation contribute to patient regional frequency, repeat stability, and clinical variability, respectively, offering insight into disease pathomechanism and potential therapeutic targets. The online version contains supplementary material available at 10.1186/s13073-026-01617-x.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Nobuyuki Eura",
+        "Satoru Noguchi",
+        "Megumu Ogawa",
+        "Kyuto Sonehara",
+        "Ai Yamanaka",
+        "Takashi Kurashige",
+        "Shinichiro Hayashi",
+        "Yukinori Okada",
+        "Kazuma Sugie",
+        "Ichizo Nishino"
+      ],
+      "authors_display": "Nobuyuki Eura, Satoru Noguchi, Megumu Ogawa, et al.",
+      "first_seen_at": "2026-03-29T03:53:22Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41525-022-00331-y",
+        "pmcid": "PMC13023157",
+        "pmid": "41888971"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variations",
+          "structural variation"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41525-022-00331-y",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-03-27",
+      "short_abstract": "Oculopharyngodistal myopathy (OPDM) is a hereditary muscle disease caused by CGG/CCG repeat expansions in six genes. Although the clinical features are often similar, such as ptosis, dysphagia, and distal muscle weakness, the age at onset vary widely, and the mechanisms underlying this variation remain unclear. In particular, the...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Pathogenic CGG expansions in oculopharyngodistal myopathy exhibit distinct characteristics of each causative gene on the flanking sequences as well as methylation status.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41888971/",
+      "venue": "Genome Med",
+      "venue_display": "Genome Med"
+    },
     {
       "abstract": "Several proteins collaborate to promote the crossover recombination events critical for accurate chromosome segregation during meiosis. How these \"ZMM\" factors (Zip2, Zip3, Zip4, Spo16, Mer3 and MutSγ) collaboratively function remains incompletely understood. We previously reported that Zip3's abundance and activity rely on the synaptonemal complex (SC) component Zip1, and specifically on Zip1's N-terminal residues associated with crossovers and coupling SC assembly to the crossover pathway. Here, we demonstrate that Zip3 co-immunoprecipitates Zip1 from meiotic cells independent of recombination initiation and other ZMMs, and that Zip3's interaction with Zip1 relies on Zip1's N terminal residues. Co-expression and pull-down experiments in bacterial cells demonstrate that Zip1 and Zip3 interact directly. Experiments to identify Zip3 regions required for the Zip1 interaction unexpectedly revealed an incorrectly annotated translational start; we also determined that Zip3's N-terminal structured region is necessary and sufficient for the interaction, and a predicted coil downstream of Zip3's RING domain is essential for specific activities attributed to Zip1's N-terminal tip such as proximity labeling of Zip3 by Zip2 and the coupling of crossover recombination to SC assembly. Finally, we discovered that interaction with Zip1 protects Zip3 not only from proteasome-mediated degradation but also from post-translational modification when another ZMM is absent. We propose that direct interaction with Zip1's N terminus orients Zip3 within a nascent ZMM ensemble in a manner that facilitates crossover formation and the coupling of crossover intermediates to SC assembly and furthermore ensures Zip3 remains both abundant and unmodified until all requisite ZMMs have joined the group.",
       "accent_color": "#8b5e34",
@@ -148,79 +284,6 @@
       "venue_display": "Eur J Hum Genet"
     },
     {
-      "abstract": "Structural variants (SVs), including duplications, deletions, inversions, translocations, and insertions, play major roles in human phenotypic diversity but remain difficult to detect because of variable size and structural complexity. Optical genome mapping (OGM) uses ultra-high molecular weight DNA (>150 kb) fluorescently labeled at a specific six-nucleotide sequence, enabling comprehensive SV detection by analyzing labeling patterns along long DNA molecules. This study aimed to fully characterize SVs using OGM. OGM was applied to 30 cases with exome sequencing-based copy number (CN) variants (16 CN losses, 7 CN gains, and 7 combined CN losses and gains). Additionally, targeted Oxford Nanopore long-read sequencing with adaptive sampling was used to determine breakpoints of SVs. This approach revealed undetected SVs in 14 cases (46.7%), and disclosed gene disruptions or CN alterations explaining clinical features in seven cases (23.3%). Even complex SVs involving numerous chromosomal segments and breakpoints were resolved efficiently, highlighting the power of combining OGM and long-read sequencing. Integrating OGM with long-read sequencing improves diagnostic resolution beyond sequencing alone and provides a robust framework for interpreting complex SVs. These findings highlight the potential clinical utility of combining OGM and long-read sequencing as a comprehensive diagnostic strategy for improved precision medicine in rare genetic diseases.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Li Fu",
-        "Chong Ae Kim",
-        "Masatoshi Tokita",
-        "Yohane Miyata",
-        "Nobuhiko Okamoto",
-        "Yoshio Makita",
-        "Hitoshi Osaka",
-        "Ayataka Fujimoto",
-        "Atsuro Daida",
-        "Jun Nirei",
-        "Noriko Udagawa",
-        "Seiichi Hayakawa",
-        "Kimiko Deguchi",
-        "Mitsumasa Fukuda",
-        "Hiroshi Matsumoto",
-        "Manami Akasaka",
-        "Junichiro Okada",
-        "Yohei Misumi",
-        "Jun Kido",
-        "Toshifumi Suzuki",
-        "Hiromi Aoi",
-        "Rie Seyama",
-        "Haruka Hamanoue",
-        "Satomi Mitsuhashi",
-        "Sachiko Ohori",
-        "Ken Saida",
-        "Yuta Inoue",
-        "Kohei Hamanaka",
-        "Naomi Tsuchida",
-        "Yuri Uchiyama",
-        "Eriko Koshimizu",
-        "Satoko Miyatake",
-        "Takeshi Mizuguchi",
-        "Atsuo Itakura",
-        "Naoki Harada",
-        "Atsushi Fujita",
-        "Naomichi Matsumoto"
-      ],
-      "authors_display": "Li Fu, Chong Ae Kim, Masatoshi Tokita, et al.",
-      "first_seen_at": "2026-03-28T03:34:22Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1038/s41525-026-00561-4",
-        "pmcid": null,
-        "pmid": "41888121"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1038/s41525-026-00561-4",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-26",
-      "short_abstract": "Structural variants (SVs), including duplications, deletions, inversions, translocations, and insertions, play major roles in human phenotypic diversity but remain difficult to detect because of variable size and structural complexity. Optical genome mapping (OGM) uses ultra-high molecular weight DNA (>150 kb) fluorescently labeled at a...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Completely resolved structural variants by optical genome mapping with adaptive sampling from CNV discovery.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41888121/",
-      "venue": "NPJ Genom Med",
-      "venue_display": "NPJ Genom Med"
-    },
-    {
       "abstract": "Nature presents a staggering diversity of life history strategies, ranging from rapid to slow onset of sexual maturity, short or long life, low or high number of offspring, and much more. Each species-specific life history trait reflects on the one hand specific adaptations to unique environments, e.g., nutrient availability, predation, parasite load, seasonality; and on the other hand, depends on past demographic constraints, such as population bottlenecks, migrations, etc. Studying life history diversity in nature and in the laboratory ultimately aims to identify the ecological, demographic, and intrinsic causes contributing to species-specific growth rate distributions, lifetime reproductive outcomes, as well as lifespans. However, for most species, we cannot rewind the evolutionary and demographic past to identify the causal chain of events leading to the present life history traits. We can infer past events only by sampling extant populations. In silico evolution has the advantage of providing complete time resolution for the events driving life history evolution and enables to directly test the impact of ecological and demographic variables on the evolution of life history traits. We developed AEGIS (Aging of Evolving Genomes In Silico), a software for individual-based modeling of life history trait evolution at the genotype and phenotype level. AEGIS models life history traits evolution in response to a set of factors, including resource availability, extrinsic mortality induced by predators or parasites, different levels of germline mutation rates, population size, sexual vs. asexual reproduction, and more. AEGIS serves as a powerful tool to model life history evolution and allows for parameter inference against ground truths. AEGIS can help generate estimates for the evolution of different life history traits, such as age-dependent mortality and reproduction, in response to different selective pressures and intrinsic genetic constraints.",
       "accent_color": "#f25f4c",
       "authors": [
@@ -351,55 +414,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41885616/",
       "venue": "Genetics",
       "venue_display": "Genetics"
-    },
-    {
-      "abstract": "This study introduces NodeGWAS, a graph pangenome-based framework that performs association analysis using graph nodes. Compared with conventional GWAS approaches, NodeGWAS strikes a balance between sensitivity and interpretability, and its applications in Arabidopsis thaliana and sugarcane demonstrate its effectiveness in dissecting complex traits.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Yixing Zhang",
-        "Yuheng Wang",
-        "Tingting Wu",
-        "Yan Lin",
-        "Yue Tan",
-        "Yiying Qi",
-        "Yuhao Wang",
-        "Baiyu Wang",
-        "Zhengguang Wang",
-        "Qing Zhang",
-        "Jisen Zhang",
-        "Yumin Huang",
-        "Haibao Tang"
-      ],
-      "authors_display": "Yixing Zhang, Yuheng Wang, Tingting Wu, et al.",
-      "first_seen_at": "2026-03-28T03:34:22Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.xplc.2026.101835",
-        "pmcid": null,
-        "pmid": "41889172"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.xplc.2026.101835",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-25",
-      "short_abstract": "This study introduces NodeGWAS, a graph pangenome-based framework that performs association analysis using graph nodes. Compared with conventional GWAS approaches, NodeGWAS strikes a balance between sensitivity and interpretability, and its applications in Arabidopsis thaliana and sugarcane demonstrate its effectiveness in dissecting...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "NodeGWAS: Leveraging Graph Pangenomes for Sensitive and Accurate Association Analysis in Diverse Diploid and Polyploid Species.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41889172/",
-      "venue": "Plant Commun",
-      "venue_display": "Plant Commun"
     },
     {
       "abstract": "The genus Abies Mill. (Pinaceae) comprises a group of conifers distributed across boreal and temperate regions, including eight species with disjunct distributions across Mexico's highest mountain chains. Abies religiosa (Kunth) Schltdl. & Cham. is a dominant species of the Trans-Mexican Volcanic Belt in central Mexico, forming forests crucial for water retention, carbon sequestration, and soil stabilization. Despite its ecological importance, peri-urban forests dominated by this species around Mexico City are exposed to high levels of tropospheric ozone, which cause premature senescence and forest decline. Here, we report a saturated linkage map for A. religiosa generated by genotyping 182 megagametophytes from two trees for 9,702 single nucleotide polymorphisms. The linkage map is composed of 12 linkage groups (LGs) containing between 518 and 1,207 markers and spanning 1,567.88 cM (114-208 cM per LG). Annotation of reads containing SNPs allowed us to locate 5,881 coding genes on the map, of which 1,952 had known functions in conifers. Differential expression analyses of these genes in symptomatic and asymptomatic trees growing in a peri-urban forest heavily affected by ozone pollution revealed eight genes that were differentially expressed when ozone levels increased. Co-expression analyses further showed that neighboring genes tended to co-express more often in symptomatic than in asymptomatic trees, especially in clusters within LGs 5, 8, and 10. Gene pairs within co-expression clusters coded for similar proteins, suggesting functional co-localization. Our integrated approach reveals previously uncharacterized metabolic and defense pathways associated with ozone tolerance in conifers and lays the groundwork for developing molecular-based management programs accounting for ozone resistance in peri-urban forests.",
@@ -540,54 +554,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41879805/",
       "venue": "Elife",
       "venue_display": "Elife"
-    },
-    {
-      "abstract": "Human induced pluripotent stem cells (hiPSCs) may acquire genomic alterations during reprogramming and culture, which poses significant risks for clinical applications. Current detection methods, such as karyotyping analysis, often fail to identify critical submicroscopic variations. This highlights an urgent need for comprehensive genomic surveillance strategies. Three human iPSC lines were continually cultured in vitro for 50 passages, with genome alterations evaluated every 10 passages. The evaluation methods included karyotyping to detect chromosomal abnormalities, optical genome mapping (OGM) to identify copy number variations (CNVs) and structural variants (SVs), whole-exome sequencing (WES) to detect coding mutations, and RNA sequencing (RNA-seq) to detect the changes of gene expression. We detected accumulating chromosomal abnormalities (e.g., trisomy 12), SVs, CNVs, and sequence mutations in three hiPSC lines during extended culture. OGM effectively identified SVs and CNVs below karyotyping resolution, particularly recurrent genome abnormalities such as gains on chr17q, chr12p and chr20q. WES revealed coding mutations, including germline short variants and newly acquired somatic mutations, some of which were associated with tumors or diseases, such as CDH1, BCOR. Transcriptional changes correlated with genomic alterations, including dysregulation of oncogenes such as BCL2L1, KRAS and MDM2. Results demonstrate that each method had unique detection capabilities and limitations, and only integrative approaches can comprehensively identify genomic abnormalities. This study established a comprehensive strategy for evaluating the genomic alterations of hiPSCs by integrating karyotyping, OGM, WES, and RNA-seq. This comprehensive strategy can be applied to scenarios such as hiPSC clone screening, establishment of cell bank passages, and quality control of hiPSC-derived products. It provides a reliable genetic stability evaluation protocol to support the safe clinical application of hiPSC-related products.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Kehua Zhang",
-        "Tao Na",
-        "Chuncui Jia",
-        "Xianghe Yuan",
-        "Meichen Guo",
-        "Xu Yang",
-        "Min Li",
-        "Wenwen Jia",
-        "Zhihui Bai",
-        "Jizhen Lu",
-        "Zhongmin Liu",
-        "Shufang Meng"
-      ],
-      "authors_display": "Kehua Zhang, Tao Na, Chuncui Jia, et al.",
-      "first_seen_at": "2026-03-26T03:46:22Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/s13287-026-04975-w",
-        "pmcid": null,
-        "pmid": "41877289"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1186/s13287-026-04975-w",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-25",
-      "short_abstract": "Human induced pluripotent stem cells (hiPSCs) may acquire genomic alterations during reprogramming and culture, which poses significant risks for clinical applications. Current detection methods, such as karyotyping analysis, often fail to identify critical submicroscopic variations. This highlights an urgent need for comprehensive...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Comprehensive assessment of the genomic stability of human induced pluripotent stem cells for clinical applications.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41877289/",
-      "venue": "Stem Cell Res Ther",
-      "venue_display": "Stem Cell Res Ther"
     },
     {
       "abstract": "Short tandem repeats (STRs) are hotspots of genomic instability that mutate at rates orders of magnitude greater than non-repetitive loci due to frequent replication slippage. Expansions at some STR loci cause Mendelian diseases, while variation at other noncoding loci may affect complex traits, possibly by altering transcription factor occupancy of nearby binding sites. Accordingly, some STRs are inferred to be under purifying selection, regardless of their instability. One or more \"interruptions\", or bases that disrupt the locus's canonical repeat, significantly decrease an STR's mutability. For example, the onset of Huntington's Disease, a neurodegenerative disorder associated with somatic expansions of a trinucleotide coding STR, is delayed in individuals whose inherited alleles contain interruptions. Thus, interruptions that decrease mutation rate at some coding loci may broadly protect against deleterious phenotypes associated with locus instability. However, interruptions may themselves be deleterious at constrained loci, particularly at noncoding loci in gene regulatory elements, possibly disrupting the formation of secondary structures key to their function. We therefore hypothesized that the frequency of interruptions could depend on a locus's functional importance-at constrained loci, the fitness effects of expansions but also interruptions could be more deleterious than at neutral loci. To test this hypothesis, we examined the distribution of interruptions at ∼650,000 autosomal STRs. In the ∼2,500 3- or 6bp-motif coding STRs, we find that synonymous interruption density increases with purifying selection on the gene, while the opposite is true for missense-causing interruptions. In contrast, noncoding STRs in gene regulatory elements harbor fewer interruptions than elements that are unassociated with gene regulation and thus more likely to be evolving neutrally. Our findings indicate that the abundance of interruptions may be partially explained at coding STRs by the benefit of lower instability, whereas maintaining a core stretch of uninterrupted repeat may be key to the function of regulatory noncoding STRs, outweighing the benefits of stability.",
