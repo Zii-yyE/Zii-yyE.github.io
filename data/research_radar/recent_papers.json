@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-03-29T03:53:22Z",
+  "generated_at": "2026-03-30T03:57:21Z",
   "latest": [
+    {
+      "abstract": "Structural variants (SVs) are increasingly recognized as important contributors to oncogenesis through their effects on 3D genome folding. Recent advances in whole-genome sequencing have enabled large-scale profiling of SVs across diverse tumors, yet experimental characterization of their individual impact on genome folding remains infeasible. Here, we leveraged a convolutional neural network, Akita, to predict disruptions in genome folding caused by somatic SVs identified in 61 tumor types from the Children's Brain Tumor Network dataset. Our analysis reveals significant variability in SV-induced disruptions across tumor types, with the most disruptive SVs coming from lymphomas and sarcomas, metastatic tumors, and germline cell tumors. Dimensionality reduction of disruption scores identified five recurrently disrupted regions enriched for high-impact SVs across multiple tumors. Some of these regions are highly disrupted despite not being highly mutated, and harbor tumor-associated genes and transcriptional regulators. To further interpret the functional relevance of high-scoring SVs, we integrated epigenetic data and developed a modified Activity-by-Contact scoring approach to prioritize SVs with disrupted genome contacts at active enhancers. This method highlighted highly disruptive SVs near key oncogenes, as well as novel candidate loci potentially implicated in tumorigenesis. These findings highlight the utility of machine learning for identifying novel SVs, loci, and genetic mechanisms contributing to pediatric cancers. This framework provides a foundation for future studies linking SV-driven regulatory changes to cancer pathogenesis.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Ketrin Gjoni",
+        "Shu Zhang",
+        "Rachel E Yan",
+        "Bo Zhang",
+        "Daniel Miller",
+        "Jeffrey P Greenfield",
+        "Adam Resnick",
+        "Nadia Dahmane",
+        "Katherine S Pollard"
+      ],
+      "authors_display": "Ketrin Gjoni, Shu Zhang, Rachel E Yan, et al.",
+      "first_seen_at": "2026-03-30T03:57:21Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41598-026-44925-3",
+        "pmcid": null,
+        "pmid": "41904260"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41598-026-44925-3",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-03-28",
+      "short_abstract": "Structural variants (SVs) are increasingly recognized as important contributors to oncogenesis through their effects on 3D genome folding. Recent advances in whole-genome sequencing have enabled large-scale profiling of SVs across diverse tumors, yet experimental characterization of their individual impact on genome folding remains...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Machine learning-predicted chromatin organization landscape across pediatric tumors.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41904260/",
+      "venue": "Sci Rep",
+      "venue_display": "Sci Rep"
+    },
     {
       "abstract": "",
       "accent_color": "#2f8f6b",
@@ -50,6 +95,48 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41896320/",
       "venue": "J Clin Immunol",
       "venue_display": "J Clin Immunol"
+    },
+    {
+      "abstract": "Ancestral recombination graphs (ARGs) are an attractive means for quantitative genetic analysis of complex traits because they encode the realized genetic relatedness between a sample of individuals in the presence of genetic drift, recombination, and mutation. Data structures for efficiently storing ARGs can also be used to rapidly process millions of genomes and are thus promising for fitting linear mixed models to large phenotype and genome datasets. Here, we study the problems of variance component estimation and prediction of genetic values with ARGs, by describing a generative model of complex traits with additive effects on an ARG and then developing algorithms that use the ARG to solve these problems efficiently on biobank-scale datasets. We observe nearly linear scaling of runtime with sample size, which is achieved by using the succinct tree sequence representation of the ARG for implicit matrix-vector products, along with modern randomized linear algebra algorithms. We estimate variance components using restricted maximum likelihood, which we find performs substantially better than the Haseman--Elston method. In simulation tests, both variance component estimation and prediction of genetic values (using the best linear unbiased predictor) perform nearly as well with inferred ARGs as with true ARGs. We also discuss interpretations of the variance component estimates as mutational variance and additive genetic variance. We provide an implementation of the algorithms as a Python package tslmm, which leverages the tree sequence library tskit.",
+      "accent_color": "#2d6cdf",
+      "authors": [
+        "Hanbin Lee",
+        "Nathaniel S Pope",
+        "Jerome Kelleher",
+        "Gregor Gorjanc",
+        "Peter L Ralph"
+      ],
+      "authors_display": "Hanbin Lee, Nathaniel S Pope, Jerome Kelleher, et al.",
+      "first_seen_at": "2026-03-30T03:57:21Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/genetics/iyag074",
+        "pmcid": null,
+        "pmid": "41904656"
+      },
+      "matched_keywords": {
+        "arg": [
+          "ancestral recombination graphs",
+          "tree sequence"
+        ]
+      },
+      "paper_key": "doi:10.1093/genetics/iyag074",
+      "primary_topic": "arg",
+      "primary_topic_label": "Ancestral Recombination Graph",
+      "published_date": "2026-03-27",
+      "short_abstract": "Ancestral recombination graphs (ARGs) are an attractive means for quantitative genetic analysis of complex traits because they encode the realized genetic relatedness between a sample of individuals in the presence of genetic drift, recombination, and mutation. Data structures for efficiently storing ARGs can also be used to rapidly...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Genetic prediction with ARG-powered linear algebra.",
+      "topics": [
+        "arg"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41904656/",
+      "venue": "Genetics",
+      "venue_display": "Genetics"
     },
     {
       "abstract": "Not all genes are essential for plant survival. With the rise of pan-genomics, it is evident that certain genes can be lost without negatively affecting fitness. Naturally occurring loss-of-function (LoF) mutations provide a valuable perspective on gene dispensability, offering insights into deleterious and adaptive gene loss. In this study, we identified 91,751 naturally occurring LoF variants from publicly available Arabidopsis genome data. Our findings demonstrate that LoF-intolerant genes are enriched in essential biological functions and associated with specific histone marks linked to active transcription. In contrast, LoF-tolerant genes exhibit relaxed selective pressure and are enriched in functions related to pollen rejection and defense responses, and can be used as a proxy for dispensable genes in the pan-genome. Using a random forest model trained on histone marks, we achieved moderate success in predicting gene LoF tolerance, with an area under the curve (AUC) of 0.718 in Arabidopsis and 0.767 in rice, and even across species. We also pioneered genome-wide LoF burden tests in Arabidopsis, collapsing independent LoF alleles into a single state to reduce allelic heterogeneity. By integrating LoF burden tests with transcriptomic data, we identified thousands of LoF-expression associations. Notably, this analysis accurately recapitulated the flowering time networks and identified FRIGIDA as a key regulator of flowering time genes. Furthermore, we found that collapsing alleles based on functional outcomes enhances association sensitivity. These results provide insight into gene dispensability and a framework for leveraging LoF mutations to study gene functions with improved association studies.",
@@ -232,56 +319,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41889316/",
       "venue": "Future Microbiol",
       "venue_display": "Future Microbiol"
-    },
-    {
-      "abstract": "Axenfeld-Rieger Syndrome (ARS) is an autosomal dominant condition with both ocular and non-ocular manifestations. ARS is primarily caused by coding variants at the PITX2 or FOXC1 loci, yet many cases still remain undiagnosed. Here we used whole-genome sequencing to identify two families with non-coding structural variants associated with a typical presentation of PITX2-associated ARS: one family with a 450 kb deletion removing a series of conserved enhancer elements distal to PITX2, and the second family with a 12.54 Mb inversion displacing the PITX2 gene from these same enhancer elements. Neither variant disrupted the PITX2 gene itself, and therefore both were expected to reduce PITX2 expression by disrupting its proximity or access to enhancer elements. PITX2 enhancer-disrupting inversions are an emerging genetic mechanism for the development of ARS, which should be carefully considered in the context of ARS and other conditions without a conclusive genetic diagnosis.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Lucas A Mitchell",
-        "Joshua Schmidt",
-        "Emmanuelle Souzeau",
-        "Lachlan S W Knight",
-        "Giorgina Maxwell",
-        "Andrew Dubowsky",
-        "Ridia Lim",
-        "Edward Formaini",
-        "Matthew Welland",
-        "Cas Simons",
-        "Daniel G MacArthur",
-        "Janey L Wiggs",
-        "Jamie E Craig",
-        "Owen M Siggs"
-      ],
-      "authors_display": "Lucas A Mitchell, Joshua Schmidt, Emmanuelle Souzeau, et al.",
-      "first_seen_at": "2026-03-28T03:34:22Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.3390/ijms25052669",
-        "pmcid": "10931988",
-        "pmid": "41888561"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.3390/ijms25052669",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-26",
-      "short_abstract": "Axenfeld-Rieger Syndrome (ARS) is an autosomal dominant condition with both ocular and non-ocular manifestations. ARS is primarily caused by coding variants at the PITX2 or FOXC1 loci, yet many cases still remain undiagnosed. Here we used whole-genome sequencing to identify two families with non-coding structural variants associated...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Non-coding structural variants disrupting conserved PITX2 enhancer loci in Axenfeld-Rieger syndrome.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41888561/",
-      "venue": "Eur J Hum Genet",
-      "venue_display": "Eur J Hum Genet"
     },
     {
       "abstract": "Nature presents a staggering diversity of life history strategies, ranging from rapid to slow onset of sexual maturity, short or long life, low or high number of offspring, and much more. Each species-specific life history trait reflects on the one hand specific adaptations to unique environments, e.g., nutrient availability, predation, parasite load, seasonality; and on the other hand, depends on past demographic constraints, such as population bottlenecks, migrations, etc. Studying life history diversity in nature and in the laboratory ultimately aims to identify the ecological, demographic, and intrinsic causes contributing to species-specific growth rate distributions, lifetime reproductive outcomes, as well as lifespans. However, for most species, we cannot rewind the evolutionary and demographic past to identify the causal chain of events leading to the present life history traits. We can infer past events only by sampling extant populations. In silico evolution has the advantage of providing complete time resolution for the events driving life history evolution and enables to directly test the impact of ecological and demographic variables on the evolution of life history traits. We developed AEGIS (Aging of Evolving Genomes In Silico), a software for individual-based modeling of life history trait evolution at the genotype and phenotype level. AEGIS models life history traits evolution in response to a set of factors, including resource availability, extrinsic mortality induced by predators or parasites, different levels of germline mutation rates, population size, sexual vs. asexual reproduction, and more. AEGIS serves as a powerful tool to model life history evolution and allows for parameter inference against ground truths. AEGIS can help generate estimates for the evolution of different life history traits, such as age-dependent mortality and reproduction, in response to different selective pressures and intrinsic genetic constraints.",
@@ -833,49 +870,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41648447/",
       "venue": "bioRxiv",
       "venue_display": "bioRxiv"
-    },
-    {
-      "abstract": "Little has been known until now about the population genomic processes underpinning pest insect species' rapid and ongoing adaptation to chemical insecticides. This paper elucidates these processes for six mutations encoding resistances to four insecticide classes in Chinese Spodoptera exigua: F116V in CYP9A186 against avermectins, T929I and L1014F in VGSC against pyrethroids, V1848I in VGSC against indoxacarb and I4790M and I4790K in RyR against diamides. Whole genome sequencing of 139 individuals from 20 populations across China revealed little genetic differentiation among the populations and soft selective sweeps for all six mutations. Ancestral Recombination Graphs (ARGs) showed at least five of them each had a single origin, with CYP9A186-F116V, VGSC-L1014F and RyR-I4790M and likely also RyR-I4790K arising before use of the corresponding insecticides. VGSC-T929I and VGSC-V1848I arose subsequently in VGSC-L1014F backgrounds. Bioassays of near-isogenic lines showed the double mutant VGSCs enhanced pyrethroid resistance and created pyrethroid/indoxacarb cross-resistance, respectively. While the ARGs predicted the younger RyR-I4790K mutation had overtaken RyR-I4790M in frequency by the time diamides were introduced, the latter has since surged again, to a frequency of ca. 95 %. Thus, S. exigua has evolved resistances to several major insecticides through soft selective sweeps of pre-existing mutations in a panmictic population, supplemented by new mutations that enhance or broaden resistance. The findings demonstrate the power of modern population genomics, including ARG, to reconstruct resistance evolution and, in so doing, improving preparedness for, and pro-active management of, resistance.",
-      "accent_color": "#2d6cdf",
-      "authors": [
-        "Fang Guan",
-        "Bingbing Fang",
-        "Wenjuan Mei",
-        "Suiyu Zeng",
-        "Yihua Yang",
-        "John G Oakeshott",
-        "Yidong Wu"
-      ],
-      "authors_display": "Fang Guan, Bingbing Fang, Wenjuan Mei, et al.",
-      "first_seen_at": "2026-03-21T06:56:57Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.pestbp.2025.106929",
-        "pmcid": null,
-        "pmid": "41628998"
-      },
-      "matched_keywords": {
-        "arg": [
-          "ancestral recombination graphs"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.pestbp.2025.106929",
-      "primary_topic": "arg",
-      "primary_topic_label": "Ancestral Recombination Graph",
-      "published_date": "2025-12-26",
-      "short_abstract": "Little has been known until now about the population genomic processes underpinning pest insect species' rapid and ongoing adaptation to chemical insecticides. This paper elucidates these processes for six mutations encoding resistances to four insecticide classes in Chinese Spodoptera exigua: F116V in CYP9A186 against avermectins,...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Ongoing insecticide resistance evolution in beet armyworm via changes in the utilization of pre-existing and new mutations.",
-      "topics": [
-        "arg"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41628998/",
-      "venue": "Pestic Biochem Physiol",
-      "venue_display": "Pestic Biochem Physiol"
     }
   ]
 }

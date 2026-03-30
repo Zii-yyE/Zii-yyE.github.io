@@ -8,7 +8,7 @@
     },
     {
       "accent_color": "#2d6cdf",
-      "count": 9,
+      "count": 10,
       "id": "arg",
       "label": "Ancestral Recombination Graph"
     },
@@ -20,12 +20,12 @@
     },
     {
       "accent_color": "#2f8f6b",
-      "count": 81,
+      "count": 84,
       "id": "pangenome_sv",
       "label": "Pangenome / Structural Variation"
     }
   ],
-  "generated_at": "2026-03-29T03:53:22Z",
-  "generated_at_china": "2026-03-29 11:53 UTC+8",
+  "generated_at": "2026-03-30T03:57:21Z",
+  "generated_at_china": "2026-03-30 11:57 UTC+8",
   "source_errors": {}
 }
