@@ -7,15 +7,15 @@
   doi="10.64898/2026.03.04.709515" 
 >}}
 
+## Publications
 {{< paper 
-  title="Stronger population suppression by gene drive targeting *doublesex* from dominant female-sterile resistance alleles" 
+  title="Experimental and modeling demonstration of stronger population suppression by gene drive targeting doublesex from dominant female-sterile resistance alleles" 
   authors="Weizhe Chen, **Ziye Wang**, Jackson Champer" 
-  journal="bioRxiv, 2025" 
+  journal="Nature Communications, 2026" 
   pdf="Chen2025-doublesex.pdf" 
-  doi="10.1101/2025.04.16.649134" 
+  doi="10.1038/s41467-026-71397-w"
 >}}
 
-## Publications
 {{< paper 
   title="An implementation of the Brownian motion model for Bayesian phylogenetic inference using continuous traits with missing states" 
   authors="**Ziye Wang**, Chi Zhang" 

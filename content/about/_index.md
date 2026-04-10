@@ -36,5 +36,15 @@ layout: "single"
 
 ## Research Interests
 
-My main focus is on **evolutionary genomics**.
+I am interested in computational method development in evolutionary genomics, particularly in the context of structural variations and pangenome graphs. 
 
+### Mechanisms generating structural variations
+
+
+### Population-genetic inference with pangenome graphs
+
+
+### Mutation and recombination in structurally complex genomes
+
+
+### Biological phenomena where structural variation is behind the curtain
