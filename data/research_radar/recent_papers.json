@@ -1,167 +1,553 @@
 {
-  "generated_at": "2026-03-21T15:58:33Z",
+  "generated_at": "2026-04-11T03:35:18Z",
   "latest": [
+    {
+      "abstract": "International guidelines suggest prophylactic anticoagulation for patients with cancer at high risk of venous thromboembolism (VTE). Here, we evaluated whether tumor whole-genome sequencing data may improve the selection of high-risk patients. In a pan-cancer cohort of 3087 patients, associations of candidate clinical predictors, the germline extended 297-single nucleotide polymorphism polygenic risk score, tumor mutational characteristics, and somatic tumor mutations with VTE were estimated by calculating hazard ratios (HRs). During 12-month follow-up, 237 (7.7%) developed VTE. The germline extended 297-single nucleotide polymorphism score was associated with VTE (HR per point increase, 2.11 [95% CI, 1.45-3.06]), as well as the total number of somatic structural variants (HR per 1000 increase, 1.21 [95% CI, 1.07-1.37]) and 129 somatic mutations (unadjusted P<0.05), including POLR2E (HR, 3.34 [95% CI, 1.68-6.97]), PALM (HR, 3.73 [95% CI, 1.74-7.99]), TBX22 (HR, 2.47 [95% CI, 1.40-4.35]), and ELANE (HR, 3.22 [95% CI, 1.51-6.87]). To further explore the potential of tumor whole-genome sequencing, prediction models were constructed including selected clinical predictors only (model 1), clinical predictors and germline variants (model 2), and the combination of clinical predictors, germline variants, and 14 top discriminating somatic mutations (model 3). The optimism corrected concordance index was 0.66 (95% CI, 0.62-0.69) for model 1, 0.67 (95% CI, 0.62-0.72) for model 2, and 0.77 (95% CI, 0.72-0.81) for model 3. This was significantly higher than that of the currently endorsed clinical Khorana VTE risk score (concordance index, 0.55 [95% CI, 0.51-0.59]; P<0.005). These data indicate that tumor whole-genome sequencing may improve VTE prediction by clinical risk scores. Validation studies to confirm these findings are needed.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Frits I Mulder",
+        "Noori A M Guman",
+        "Job van Riet",
+        "Roos J van Geffen",
+        "Thijs F van Haaps",
+        "Vahram Hovsepjan",
+        "Hanneke W M van Laarhoven",
+        "Geert A Cirkel",
+        "Filip Y F L de Vos",
+        "Hans M Westgeest",
+        "Laurens V Beerepoot",
+        "Judith de Vos-Geelen",
+        "Mariette Labots",
+        "Paul Hamberg",
+        "Annelie J E Vulink",
+        "Maartje Los",
+        "Aeilko H Zwinderman",
+        "Debbie G J Robbrecht",
+        "Maja J A de Jonge",
+        "Harry R Büller",
+        "Pieter W Kamphuisen",
+        "Bart Ferwerda",
+        "Neeltje Steeghs",
+        "Nick van Es"
+      ],
+      "authors_display": "Frits I Mulder, Noori A M Guman, Job van Riet, et al.",
+      "first_seen_at": "2026-04-11T03:35:18Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1161/circgen.124.005182",
+        "pmcid": null,
+        "pmid": "41958384"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1161/circgen.124.005182",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-10",
+      "short_abstract": "International guidelines suggest prophylactic anticoagulation for patients with cancer at high risk of venous thromboembolism (VTE). Here, we evaluated whether tumor whole-genome sequencing data may improve the selection of high-risk patients. In a pan-cancer cohort of 3087 patients, associations of candidate clinical predictors, the...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Tumor Whole-Genome Sequencing for Prediction of Venous Thromboembolism in Patients With Metastasized Solid Cancer.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41958384/",
+      "venue": "Circ Genom Precis Med",
+      "venue_display": "Circ Genom Precis Med"
+    },
     {
       "abstract": "",
       "accent_color": "#2f8f6b",
       "authors": [
-        "Sherwyn Braganza",
-        "Tanvi Govil",
-        "Dipayan Samanta",
-        "Randy Hoover",
-        "David Salem",
-        "Rajesh Sani"
+        "Hector J Acho-Vasquez",
+        "Sarah Henaut-Jacobs",
+        "Thiago M Venancio"
       ],
-      "authors_display": "Sherwyn Braganza, Tanvi Govil, Dipayan Samanta, et al.",
-      "first_seen_at": "2026-03-21T15:36:16Z",
+      "authors_display": "Hector J Acho-Vasquez, Sarah Henaut-Jacobs, Thiago M Venancio",
+      "first_seen_at": "2026-04-11T03:35:18Z",
       "identifiers": {
         "arxiv_id": null,
         "biorxiv_doi": null,
-        "doi": "10.1101/gr.260828.120",
-        "pmcid": "7605250",
-        "pmid": "41862763"
+        "doi": "10.1016/j.scitotenv.2024.170903",
+        "pmcid": "10320055",
+        "pmid": "41961409"
       },
       "matched_keywords": {
         "pangenome_sv": [
           "pangenome"
         ]
       },
-      "paper_key": "doi:10.1101/gr.260828.120",
+      "paper_key": "doi:10.1016/j.scitotenv.2024.170903",
       "primary_topic": "pangenome_sv",
       "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-21",
+      "published_date": "2026-04-10",
       "short_abstract": "",
       "source_primary": "pubmed",
       "sources": [
         "pubmed"
       ],
-      "title": "An optimized and integrated robust tool for pangenome generation.",
+      "title": "Integrative phylogenomic and pangenome landscape of Bacillus: insights from 10,000 genomes into taxonomy, functional potential, and biotechnological applications.",
       "topics": [
         "pangenome_sv"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41862763/",
-      "venue": "Funct Integr Genomics",
-      "venue_display": "Funct Integr Genomics"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41961409/",
+      "venue": "World J Microbiol Biotechnol",
+      "venue_display": "World J Microbiol Biotechnol"
     },
     {
-      "abstract": "Limited pangenome and ambiguous genomic architecture constrain comprehensive genetic variation discovery and cotton improvement. Here we assembled a telomere-to-telomere (T2T) genome for elite cultivar NDM13 and near-T2T genomes for 27 additional representatives of Gossypium hirsutum over the recent century, with transcriptomic profiling of 15 distinct tissues from each. We uncovered 51,551 one-to-one conserved orthologs across all genomes and landscapes of telomere, centromere, 45S rDNA, segmental duplication and copy number variant. We revealed hotspots of structural variation (SV) and impacts of SV, segmental duplication and copy number variant on gene expression or content alteration, as well as adversity resistances. We identified thousands of divergent SVs and genes implicated in modern breeding evolution. Combining T2T-reference-based pangenome construction and 761,536 SVs identified across 1,671 worldwide accessions with phenotypic data from 22 environments, we captured a number of hidden SVs that potentially influence critical breeding traits. These will boost genetic study and biotechnological improvement of the crop.",
+      "abstract": "Alagille syndrome (ALGS) is a rare multisystem disorder most commonly resulting from pathogenic variants in JAG1 and, less frequently, NOTCH2. We evaluated long-term native liver survival (NLS) and overall survival (OS) in a Korean ALGS cohort and compared the genetic characteristics of this cohort with those of the Global ALagille Alliance (GALA) study cohort. We retrospectively reviewed 60 patients with clinically diagnosed ALGS at Seoul National University Hospital. Forty-three patients with genetically confirmed disease were analyzed. Eight patients (18.6%) underwent liver transplantation (median age: 3.9 years), revealing a lower rate than that in the comparator cohort. The estimated NLS percentages at 5, 10, and 18 years were 86.9%, 86.9%, and 76.6%, respectively, exceeding those in previous reports. The corresponding OS rates were 90.2%, 86.9%, and 86.9%, respectively. The following types of JAG1 variants were identified in 41 patients (95.3%): frameshift (34.1%), nonsense (26.8%), missense (24.4%), and splice-site (9.8%) variants and in-frame deletions (4.9%). Compared with the reference group, our cohort exhibited a greater frequency of non-protein-truncating variants (missense variants and in-frame deletions; p = 0.023) and no structural variants (p = 0.043). Two patients (4.7%) carried NOTCH2 nonsense variants. Mortality was significantly higher among patients with frameshift variants compared with patients with non-frameshift variants (4 of 5 deaths; p = 0.035). Compared with the GALA cohort, Korean patients with ALGS exhibited more favorable long-term NLS and a higher proportion of non-protein-truncating JAG1 variants, alongside the absence of structural variants. These findings suggest potential genetic influences and highlight the need for multicenter validation. • The Global ALagille Alliance (GALA) study reports native liver survival (NLS) rates of 66.8%, 54.4%, and 40.3% at 5, 10, and 18 years, respectively, in patients with Alagille syndrome. • NLS rates are higher among Asians, with unclear genotype-phenotype correlations. • Compared to the GALA study cohort, the Korean cohort demonstrates superior NLS rates of 86.9%, 86.9%, and 76.6% at 5, 10, and 18 years and a higher frequency of non-truncating JAG1 variants, along with the absence of structural variants. • Protein-truncating variants are associated with higher initial gamma-glutamyl transferase levels, while frameshift variants are associated with reduced overall survival.",
       "accent_color": "#2f8f6b",
       "authors": [
-        "Yan Zhang",
-        "Zhengwen Sun",
-        "Shilin Tian",
-        "Liqiang Wu",
-        "Qishen Gu",
-        "Huifeng Ke",
-        "Guiyin Zhang",
-        "Bin Chen",
-        "Zhicheng Wang",
-        "Jin Zhang",
-        "Xinyu Zhang",
-        "Ziming Li",
-        "Jun Yang",
-        "Xiangkong Li",
-        "Yafei Jiang",
-        "Kaijian Zhang",
-        "Jinhua Wu",
-        "Guoning Wang",
-        "Dongmei Zhang",
-        "Xingyi Wang",
-        "Chengsheng Meng",
-        "Yanbin Li",
-        "Zixu Zhang",
-        "Weiyi Chen",
-        "Mengjia Jiao",
-        "Hao Jia",
-        "Jing Li",
-        "Haonan Zuo",
-        "Yan Wang",
-        "Man Gu",
-        "Meixia Xie",
-        "Lizhu Wu",
-        "Zhikun Li",
-        "Yuanyuan Yan",
-        "Yanru Cui",
-        "Jie Liu",
-        "Xingfen Wang",
-        "Zhiying Ma"
+        "Shinjie Choi",
+        "Dong-Uk Kim",
+        "Yeji Kim",
+        "Lia Kim",
+        "Jung Ok Shim",
+        "Jin Soo Moon",
+        "Jong Woo Hahn",
+        "Hye Ran Yang",
+        "Ju Young Chang",
+        "Jae Sung Ko"
       ],
-      "authors_display": "Yan Zhang, Zhengwen Sun, Shilin Tian, et al.",
-      "first_seen_at": "2026-03-21T15:36:16Z",
+      "authors_display": "Shinjie Choi, Dong-Uk Kim, Yeji Kim, et al.",
+      "first_seen_at": "2026-04-11T03:35:18Z",
       "identifiers": {
         "arxiv_id": null,
         "biorxiv_doi": null,
-        "doi": "10.1111/jipb.13427",
-        "pmcid": "2928508",
-        "pmid": "41862752"
+        "doi": "10.1007/s12029-020-00391-2",
+        "pmcid": "9730729",
+        "pmid": "41961327"
       },
       "matched_keywords": {
         "pangenome_sv": [
-          "structural variants",
-          "pangenome",
-          "structural variation"
+          "structural variants"
         ]
       },
-      "paper_key": "doi:10.1111/jipb.13427",
+      "paper_key": "doi:10.1007/s12029-020-00391-2",
       "primary_topic": "pangenome_sv",
       "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-20",
-      "short_abstract": "Limited pangenome and ambiguous genomic architecture constrain comprehensive genetic variation discovery and cotton improvement. Here we assembled a telomere-to-telomere (T2T) genome for elite cultivar NDM13 and near-T2T genomes for 27 additional representatives of Gossypium hirsutum over the recent century, with transcriptomic...",
+      "published_date": "2026-04-10",
+      "short_abstract": "Alagille syndrome (ALGS) is a rare multisystem disorder most commonly resulting from pathogenic variants in JAG1 and, less frequently, NOTCH2. We evaluated long-term native liver survival (NLS) and overall survival (OS) in a Korean ALGS cohort and compared the genetic characteristics of this cohort with those of the Global ALagille...",
       "source_primary": "pubmed",
       "sources": [
         "pubmed"
       ],
-      "title": "A pangenome reference and population studies link structural variants with breeding traits in Gossypium hirsutum.",
+      "title": "Native liver survival and genetic associations in Korean patients with Alagille syndrome.",
       "topics": [
         "pangenome_sv"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41862752/",
-      "venue": "Nat Genet",
-      "venue_display": "Nat Genet"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41961327/",
+      "venue": "Eur J Pediatr",
+      "venue_display": "Eur J Pediatr"
     },
     {
-      "abstract": "The Gram-positive bacterium Streptococcus pneumoniae is a major human pathogen that exhibits more than 100 different capsular serotypes and considerable genomic variability. S. pneumoniae is also an important model organism for basic and biomedical research, with a number of strains with different characteristics being used. To address this, we have created the manually curated pan-genome database PneumoWiki (https://pneumowiki.med.uni-greifswald.de) that integrates genomic data of 43 S. pneumoniae strains with various aspects of functional annotation. All data relating to a specific gene and gene product are compiled on a Gene page. In addition to the gene and protein sequences and annotation from NCBI RefSeq, this includes, for example, data on gene expression, protein function, and localization. The information is supplemented with links to the data sources as well as to other databases and relevant literature. The basic concept of PneumoWiki is the interlinked presentation of pan-genome-based and strain-specific information. Therefore, register tabs with strain names at the top of the Gene pages allow switching between orthologous genes and the corresponding pan-genome page. The pan-genome gene pages contain a summary with functional information and the occurrence of the gene, an ortholog table for the 43 S. pneumoniae strains, a multiple-strain genome viewer as well as a protein sequence alignment. PneumoWiki was developed as a user-friendly tool and is available free of charge. The data collected in PneumoWiki are accessible via various download options. Overall, PneumoWiki is a resource for the research community that supports the analysis and interpretation of experimental data and, in particular, enables the integration of the knowledge available for different S. pneumoniae strains. Databases that integrate and curate the large amounts of genomic data and functional information available for well-studied organisms play an increasingly important role in many areas of life sciences, including infection research. Streptococcus pneumoniae is a major human pathogen associated with high morbidity and mortality rates. The species exhibits high variability in its genome sequence, and a number of strains with different characteristics are used in pneumococcal research. We created the wiki-type database PneumoWiki to provide researchers with curated, up-to-date information on a range of pneumococcal genomes, focusing on the individual genes and encoded proteins and their functional annotation. The key feature of PneumoWiki is the pan-genome approach, which allows combining information of individual strains, thereby supporting the analysis of experimental data and comparisons between studies using different strains. In this way, the database becomes a valuable research tool that can contribute to a better understanding of pneumococcal physiology.",
+      "abstract": "The muscle capsule of Trichinella is a critical structure that impedes immune attacks and drug penetration, yet the molecular mechanisms underlying its formation remain poorly understood. Using a high-quality super-pangenome comprising 12 Trichinella species, we compared extensive genomic variations between encapsulating and non-encapsulating lineages. Pangenomic analysis revealed an open-genome architecture dominated by dispensable genes, with nonencapsulated lineages exhibiting a high load of structural variation (SV). These findings suggest that the capsule represents an evolutionary innovation that arose in the common ancestor of Trichinella as an adaptation to mammalian hosts, dating back approximately 18 million years. Branch-specific selection analysis further revealed distinct host adaptation strategies between the two lineages. By integrating cross-species and cross-developmental transcriptomic atlases, we constructed a secreted protein-host interaction network and identified encapsulation-associated parasite-secreted proteins. Additionally, we identified dpy-31 as a promising drug target. Collectively, our work establishes a comprehensive genomic and functional framework that deepens the understanding of host-parasite interactions and opens avenues for therapeutic intervention.",
       "accent_color": "#2f8f6b",
       "authors": [
-        "Henry Mehlan",
-        "Stephanie Hirschmann",
-        "Larissa M Busch",
-        "André Hennig",
-        "Kay Nieselt",
-        "Uwe Völker",
-        "Sven Hammerschmidt",
-        "Ulrike Mäder"
+        "Qingbo Lv",
+        "Yi Liu",
+        "Ning Xu",
+        "Xiao Zhang",
+        "Yaming Yang",
+        "Chengyao Li",
+        "Hanhai Mao",
+        "Mingyuan Liu",
+        "Xiaolei Liu"
       ],
-      "authors_display": "Henry Mehlan, Stephanie Hirschmann, Larissa M Busch, et al.",
-      "first_seen_at": "2026-03-21T05:30:33Z",
+      "authors_display": "Qingbo Lv, Yi Liu, Ning Xu, et al.",
+      "first_seen_at": "2026-04-11T03:35:18Z",
       "identifiers": {
         "arxiv_id": null,
         "biorxiv_doi": null,
-        "doi": "10.1128/spectrum.02957-25",
+        "doi": "10.1002/advs.202523161",
         "pmcid": null,
-        "pmid": "41860230"
+        "pmid": "41961514"
       },
       "matched_keywords": {
         "pangenome_sv": [
-          "pan genome"
+          "pangenome",
+          "structural variation",
+          "pangenomic"
         ]
       },
-      "paper_key": "doi:10.1128/spectrum.02957-25",
+      "paper_key": "doi:10.1002/advs.202523161",
       "primary_topic": "pangenome_sv",
       "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-20",
-      "short_abstract": "The Gram-positive bacterium Streptococcus pneumoniae is a major human pathogen that exhibits more than 100 different capsular serotypes and considerable genomic variability. S. pneumoniae is also an important model organism for basic and biomedical research, with a number of strains with different characteristics being used. To address...",
+      "published_date": "2026-04-10",
+      "short_abstract": "The muscle capsule of Trichinella is a critical structure that impedes immune attacks and drug penetration, yet the molecular mechanisms underlying its formation remain poorly understood. Using a high-quality super-pangenome comprising 12 Trichinella species, we compared extensive genomic variations between encapsulating and...",
       "source_primary": "pubmed",
       "sources": [
         "pubmed"
       ],
-      "title": "PneumoWiki: a pan-genome-based database for the pathogen Streptococcus pneumoniae.",
+      "title": "The Trichinella Super-Pangenome Reveals the Evolution of Encapsulation and Predicted Host-Parasite Protein Interactions.",
       "topics": [
         "pangenome_sv"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41860230/",
-      "venue": "Microbiol Spectr",
-      "venue_display": "Microbiol Spectr"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41961514/",
+      "venue": "Adv Sci (Weinh)",
+      "venue_display": "Adv Sci (Weinh)"
+    },
+    {
+      "abstract": "Prolonged exposure to ultraviolet (UV) light leads to DNA damage, causing mutation accumulation and cancer, particularly in the skin. Recent studies revealed that patients with aneuploid subtypes of pediatric B-cell precursor acute lymphoblastic leukemia (BCP-ALL) commonly present with single base substitution signature 7a (SBS7a), a hallmark of UVbased DNA damage, but its origin is unclear. We screened a cohort of 191 whole genome sequenced BCP-ALL cases and confirmed the presence of SBS7a in high hyperdiploid, iAMP21 and low hypodiploid subtypes. Screening of an in-house pediatric pan-cancer cohort (n=1033) detected SBS7a, apart from BCP-ALL, only in tumors with proven cutaneous localization. Subsequent characterization of 43 BCP-ALL samples from 27 SBS7a-positive patients revealed no causative DNA repair defects. Furthermore, the mutational characteristics in SBS7a-positive BCP-ALL were very similar to those encountered in SBS7apositive adult skin cancers (n=273) and pediatric cutaneous anaplastic large cell lymphomas (n=7), suggesting a shared UV-induced etiology. Subtle differences in aneuploid patterns were observed between SBS7a-positive and SBS7a-negative high hyperdiploid and iAMP21 cases. In several cases, we detected SBS7a-positive subclones at primary diagnosis, or relapses with apparently newly acquired SBS7a-associated mutations, together suggesting prolonged UV damage during expansion. Single-cell whole genome sequencing in two other cases confirmed some level of SBS7a-induced clonal diversity, but no indications for ongoing SBS7a-associated mutagenesis during bone marrow progression. Our data suggest that SBS7a-associated mutations occur in a subset of aneuploid BCP-ALL subtypes due to UVinduced damage during early expansion in extramedullary sites before bone marrow expansion.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Lianne C Suurenbroek",
+        "Cédric G Van der Ham",
+        "Judith M Boer",
+        "Lucca L M Derks",
+        "Rico Hagelaar",
+        "Markus J Van Roosmalen",
+        "Puk Klamer",
+        "Edwin Sonneveld",
+        "Monique L Den Boer",
+        "Ruben Van Boxtel",
+        "Frank N Van Leeuwen",
+        "Jan L C Loeffen",
+        "Roland P Kuiper"
+      ],
+      "authors_display": "Lianne C Suurenbroek, Cédric G Van der Ham, Judith M Boer, et al.",
+      "first_seen_at": "2026-04-11T03:35:18Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.3324/haematol.2025.300118",
+        "pmcid": null,
+        "pmid": "41952634"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation accumulation"
+        ]
+      },
+      "paper_key": "doi:10.3324/haematol.2025.300118",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-09",
+      "short_abstract": "Prolonged exposure to ultraviolet (UV) light leads to DNA damage, causing mutation accumulation and cancer, particularly in the skin. Recent studies revealed that patients with aneuploid subtypes of pediatric B-cell precursor acute lymphoblastic leukemia (BCP-ALL) commonly present with single base substitution signature 7a (SBS7a), a...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "UV-induced mutations accumulate during early clonal expansion in aneuploid subtypes of pediatric B-cell precursor acute lymphoblastic leukemia.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41952634/",
+      "venue": "Haematologica",
+      "venue_display": "Haematologica"
+    },
+    {
+      "abstract": "Canker disease caused by Pseudomonas syringae pv. actinidiae (Psa) poses a major threat to cultivated kiwifruit, and utilization of wild relatives are key to improve resistance. However, comprehensive comparative genomic analyses between cultivated kiwifruit and their wild relatives with enhanced resistance to Psa remain limited. Here we generate chromosome-scale genome assemblies for eleven wild Actinidia eriantha accessions and one interspecific hybrid between Actinidia eriantha and cultivated Actinidia chinensis var. chinensis. Integrating these with twelve previously released genomes including three Actinidia eriantha and nine Actinidia chinensis var. chinensis, we construct a reference-unbiased graph-based pangenome. These datasets reveal extensive genomic variation, including 31,790,044 SNPs, 13,512,079 InDels and 623,478 structural variations, and provide a landscape of structural variations within and between the two species. Leveraging these datasets, we identify a wild allele showing allele-specific expression, AeNLR25-1, which enhances Psa resistance in cultivated kiwifruit. Genetic and molecular analyses demonstrate that a transposable element-induced structural variation in the AeNLR25-1 promoter introduces a species-specific WRKY binding site, conferring enhanced defense against Psa. Pangenome across cultivated species and wild relatives provides a theoretical framework for accelerating kiwifruit genetic improvement through pangenome-enabled identification of favorable wild alleles.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Ying Wu",
+        "Yingzhen Wang",
+        "Yunzhi Lin",
+        "Meng Zhao",
+        "Yuyu Huo",
+        "Tao Zhang",
+        "Hongtao Wang",
+        "Yanyan Zhu",
+        "Lihuan Wang",
+        "Pengpeng Zheng",
+        "Junyang Yue",
+        "Songhu Wang",
+        "Yongsheng Liu"
+      ],
+      "authors_display": "Ying Wu, Yingzhen Wang, Yunzhi Lin, et al.",
+      "first_seen_at": "2026-04-11T03:35:18Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s13059-026-04068-0",
+        "pmcid": null,
+        "pmid": "41957668"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation",
+          "structural variations",
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1186/s13059-026-04068-0",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-09",
+      "short_abstract": "Canker disease caused by Pseudomonas syringae pv. actinidiae (Psa) poses a major threat to cultivated kiwifruit, and utilization of wild relatives are key to improve resistance. However, comprehensive comparative genomic analyses between cultivated kiwifruit and their wild relatives with enhanced resistance to Psa remain limited. Here...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Allelic structural variation at the NLR25-1 locus enhances defense against Pseudomonas syringae in kiwifruit.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41957668/",
+      "venue": "Genome Biol",
+      "venue_display": "Genome Biol"
+    },
+    {
+      "abstract": "The Mre11 nuclease is part of the conserved MRX complex involved in DNA double-strand break (DSB) repair. During meiosis in budding yeast, MRX is also required for Spo11-mediated programmed DSB formation to initiate homologous recombination. Recruitment of Mre11 to meiotic DSB sites depends on Rec114-Mei4 and Mer2, proposed to organize the DSB machinery via biomolecular condensation. Here, we show that Mre11 and MRX complexes form DNA-dependent, hexanediol-sensitive condensates in vitro. In vivo, Mre11 assembles into DNA damage-dependent foci during mitosis and DSB-independent foci during meiosis. Both in vitro condensates and in vivo foci require Mre11 C-terminal intrinsically-disordered region (IDR). While dispensable for vegetative DNA repair, Mre11 IDR is essential during meiosis, where it mediates interaction with Mer2 via a short α-helix and contains a SUMO-interacting motif that enhances Mre11 recruitment and DSB formation. Together, these findings provide insights into the biophysical properties of Mre11 and its role in initiating meiotic recombination.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Priyanka Priyadarshini",
+        "Mahesh Survi",
+        "Wael El Yazidi Mouloud",
+        "Regina Bohn",
+        "Steven Ballet",
+        "Neil Hunter",
+        "Alexander N Volkov",
+        "Corentin Claeys Bouuaert"
+      ],
+      "authors_display": "Priyanka Priyadarshini, Mahesh Survi, Wael El Yazidi Mouloud, et al.",
+      "first_seen_at": "2026-04-11T03:35:18Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41467-026-71310-5",
+        "pmcid": null,
+        "pmid": "41946721"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "meiotic recombination"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41467-026-71310-5",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-07",
+      "short_abstract": "The Mre11 nuclease is part of the conserved MRX complex involved in DNA double-strand break (DSB) repair. During meiosis in budding yeast, MRX is also required for Spo11-mediated programmed DSB formation to initiate homologous recombination. Recruitment of Mre11 to meiotic DSB sites depends on Rec114-Mei4 and Mer2, proposed to organize...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Recruitment of Mre11 to recombination sites during meiosis.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41946721/",
+      "venue": "Nat Commun",
+      "venue_display": "Nat Commun"
+    },
+    {
+      "abstract": "POU2F3 is a newly identified immunohistochemical marker specific for the chemosensory tuft cells-related subtype of small cell lung carcinoma (SCLC-P). The characteristics of SCLC-P remain incompletely defined, and POU2F3 expression patterns across different organs and tissue types are poorly documented. We assessed POU2F3 expression in 253 SCLC, with comprehensive clinicopathologic and genomic characterization of POU2F3-positive tumors. POU2F3 expression profiles were investigated in other major lung cancer types (n = 2497) and other tumors across different organs and tissue types (n = 196). POU2F3 was expressed in 10.28% (26/253) of all SCLC and was strongly associated with low expression of standard neuroendocrine markers (synaptophysin, chromogranin A, CD56, INSM1). In NE-low/negative SCLC and NE-high SCLC, the POU2F3 positive rates were 83.33% (20/24) and 2.62% (6/229), respectively. Additionally, POU2F3 was detected in SCC (2.35%) and LCNEC (25%), but was negative in lung adenocarcinoma, NUT carcinoma, LCC, PC, SMARCA4-UT, AC, and ACC. Notably, the highly heterogeneity of POU2F3 expression were observed in 7.3% (3/41) surgical SCLC specimens. In extrapulmonary tumors, POU2F3 was positive in 37.5% (6/16) of extra-SCNECs, 16.67% (5/30) of thymic tumors, 1 of 2 extra-LCNECs, and 1 of 1 NPC. SCLC-P tends to be more prevalent in surgical specimens (P=0.009) and earlier TNM stage (P=0.045). Next-generation sequencing revealed that SCLC-P (n=6) exhibited enrichment in MYC gene amplification and lower mutation rate of RB1, but similar rates of TP53 and PTEN alterations as POU2F3-negative SCLC (n = 13). This study establishes POU2F3 as a critical diagnostic biomarker for neuroendocrine-low/negative SCLC, demonstrating high specificity in distinguishing SCLC-P from other thoracic malignancies and small blue round cell tumors. We delineate the distinct clinicopathological-genomic profile of POU2F3-driven SCLC (SCLC-P), providing a foundation for its diagnostic application. Further validation in expanded cohorts is warranted to confirm its clinical utility.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Xiaoyan Chen",
+        "Fangfang Zou",
+        "Haimin Xu",
+        "Zhihan Zhang",
+        "Jing Wang",
+        "Yue Li",
+        "Jingdan Jia",
+        "Shanshan Sun",
+        "Chaofu Wang",
+        "Jing Zhang"
+      ],
+      "authors_display": "Xiaoyan Chen, Fangfang Zou, Haimin Xu, et al.",
+      "first_seen_at": "2026-04-11T03:35:18Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.labinv.2026.106124",
+        "pmcid": null,
+        "pmid": "41956344"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rate"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.labinv.2026.106124",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-07",
+      "short_abstract": "POU2F3 is a newly identified immunohistochemical marker specific for the chemosensory tuft cells-related subtype of small cell lung carcinoma (SCLC-P). The characteristics of SCLC-P remain incompletely defined, and POU2F3 expression patterns across different organs and tissue types are poorly documented. We assessed POU2F3 expression in...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "POU2F3 in SCLC: Diagnostic Utility in Neuroendocrine Low/Negative SCLC and Discrimination From Other Thoracic Malignancies and Other Small Blue Round Cell Tumors.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41956344/",
+      "venue": "Lab Invest",
+      "venue_display": "Lab Invest"
+    },
+    {
+      "abstract": "As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing datasets from 299 donors and single nucleus ATAC-seq datasets from 106 donors. Developmental and disease-associated processes drive far more extensive molecular remodeling than sex-associated or aging-dependent effects. Across nearly all cardiac cell types, developmental and disease-driven changes exhibit strong overlap at both the transcriptomic and epigenomic levels, revealing widespread reactivation of fetal-associated gene programs beyond cardiomyocytes. Both cardiac development and disease show convergent shifts in intercellular communication, including increased TGFβ signaling. Integration of gene expression and chromatin accessibility data reveals putative cell-type-specific transcriptional factors driving fetal reactivation in major cardiac diseases. Spatial transcriptomics data orthogonally identifies localization of this fetal reactivation signature within spatially distinct niches in ischemic and fibrotic zones of acute myocardial infarction. Finally, we construct a cell-type-resolved enhancer-to-gene linkage map that refines the association of dilated and hypertrophic cardiomyopathy genetic risk loci to downstream target genes. This study presents a comprehensive multimodal, cell-type-resolved atlas of the human heart, providing a foundation for understanding human cardiac gene regulation across the human lifespan and in cardiac diseases.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "William Gao",
+        "Peng Hu",
+        "Brittney Wick",
+        "Qi Qiu",
+        "Hongjie Zhang",
+        "Ying Li",
+        "Xiangjin Kang",
+        "Kenneth Bedi",
+        "Maximilian Haeussler",
+        "Kotaro Sasaki",
+        "Kenneth Margulies",
+        "Hao Wu"
+      ],
+      "authors_display": "William Gao, Peng Hu, Brittney Wick, et al.",
+      "first_seen_at": "2026-04-11T03:35:18Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s13059-026-04061-7",
+        "pmcid": null,
+        "pmid": "41937210"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "linkage map"
+        ]
+      },
+      "paper_key": "doi:10.1186/s13059-026-04061-7",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-06",
+      "short_abstract": "As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "An integrative single-nucleus multiomic atlas of the human left ventricle identifies gene regulatory network dynamics across cardiac development, aging, and disease.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41937210/",
+      "venue": "Genome Biol",
+      "venue_display": "Genome Biol"
+    },
+    {
+      "abstract": "Genetic diversity among cattle breeds exists due to their demographic history and different breeding objectives for meat, dairy or dual purpose. Taking this into account, targeted breeding strategies can be further enhanced by employing breed-specific genetic maps. The aim of this study was to derive genetic maps (also known as linkage maps) for a selection of commercial breeds. We analysed genotype data from six cattle breeds with sample size ranging from 4,181 to 76,875. Several different assays were used for genotyping, resulting in a high proportion of systematically missing data. Thus, we streamlined the data preparation and analysed the data with three different approaches. We investigated the frequency of paternal and maternal recombination events and derived genetic-map coordinates of about 50K SNP markers. Estimates of male map length varied from 26.97 to 29.83 M between breeds, whereas length of female maps ranged from 23.32 to 26.08 M. Female recombination activity and female genetic maps were clearly distinct from the outcome in males. In particular, male maps of Brown Swiss, Simmental and Angus clustered separately from other male maps and female maps of dairy breeds were distinct from female maps of dual-purpose breeds. Furthermore, a genomewide association study on mean autosomal crossover count and intra-chromosomal allelic shuffling per parent revealed two chromosomal regions on BTA6 and BTA10 with strong evidence found in Brown Swiss and Swiss Holstein; another suggestive signal was detected on BTA10. These regions were in close proximity to genes with known impact on recombination activity. Breed-specific female maps could be clearly differentiated from male maps. Though female maps clustered together depending on breed purpose, this was not the case for male maps. All results on empirical data were implemented in the updated version of the R Shiny app CLARITY v3.0.0. This resource can contribute to several instances of genomic evaluations - from improving haplotype phasing to implementing novel breeding strategies.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Dörte Wittenburg",
+        "Nina Melzer",
+        "Nayyer Abdollahi Sisi",
+        "Xi Ding",
+        "Franz R Seefried"
+      ],
+      "authors_display": "Dörte Wittenburg, Nina Melzer, Nayyer Abdollahi Sisi, et al.",
+      "first_seen_at": "2026-04-11T03:35:18Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s12711-026-01041-0",
+        "pmcid": null,
+        "pmid": "41942849"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "linkage maps"
+        ]
+      },
+      "paper_key": "doi:10.1186/s12711-026-01041-0",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-06",
+      "short_abstract": "Genetic diversity among cattle breeds exists due to their demographic history and different breeding objectives for meat, dairy or dual purpose. Taking this into account, targeted breeding strategies can be further enhanced by employing breed-specific genetic maps. The aim of this study was to derive genetic maps (also known as linkage...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "A comparative study on recombination activity in cattle.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41942849/",
+      "venue": "Genet Sel Evol",
+      "venue_display": "Genet Sel Evol"
+    },
+    {
+      "abstract": "Mutation is the fundamental source of genetic variation, yet growing evidence shows that mutations are not uniformly distributed across genomes but are shaped by genomic architecture, DNA-repair dynamics, and environmental conditions. Here, we investigate fine-scale determinants of mutation distribution in the non-biting midge Chironomus riparius, an ecologically important freshwater insect widely used in ecotoxicology. We integrated mutation data from five independent studies, including spontaneous mutation-accumulation experiments and multigenerational exposure assays involving cadmium, benzo[a]pyrene, tyre and road wear particles, and varying generational time. In total, we analysed 420 single-nucleotide mutations mapped to the chromosome-scale C. riparius reference genome. Using a Bayesian modelling framework, we tested whether mutation density is (i) uniformly distributed, (ii) non-uniformly distributed, or predicted by (iii) distance to telomeres and centromeres, (iv) proximity to genes, or (v) distance to repetitive elements. Models were compared using a cross-validation method. We also quantified the proportion of mutations in exons and evaluated the synonymous vs. non-synonymous spectrum using BayesFactor in R. The best-supported model incorporated non-linear effects of genomic position and distance to genes, identifying proximity to coding regions as the dominant predictor of mutation rate. Mutation density increased with distance from genes, indicating strong protection of genic regions. A model including repetitive elements showed nearly equivalent support, suggesting that functional and structural features jointly shape mutational landscapes. Only 9.8% of mutations occurred in exons despite exons representing 22.85% of callable sites, demonstrating marked depletion of exonic mutations. Among exonic mutations, 70.7% were non-synonymous-statistically indistinguishable from the neutral expectation (75%). These findings show that mutation processes in C. riparius are strongly structured by genome architecture, with implications for evolutionary genomics, ecotoxicology, and population-genetic inference.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "María Esther Nieto-Blázquez",
+        "Markus Pfenninger"
+      ],
+      "authors_display": "María Esther Nieto-Blázquez, Markus Pfenninger",
+      "first_seen_at": "2026-04-11T03:35:18Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/g3journal/jkag092",
+        "pmcid": null,
+        "pmid": "41947018"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation accumulation",
+          "mutation rate"
+        ]
+      },
+      "paper_key": "doi:10.1093/g3journal/jkag092",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-06",
+      "short_abstract": "Mutation is the fundamental source of genetic variation, yet growing evidence shows that mutations are not uniformly distributed across genomes but are shaped by genomic architecture, DNA-repair dynamics, and environmental conditions. Here, we investigate fine-scale determinants of mutation distribution in the non-biting midge...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Genes shielded, repeats exposed: mutation bias in the midge Chironomus riparius.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41947018/",
+      "venue": "G3 (Bethesda)",
+      "venue_display": "G3 (Bethesda)"
+    },
+    {
+      "abstract": "Estimating mutation rates between evolutionarily related sequences is a central problem in molecular evolution. Due to the rapid expansion of datasets, modern methods avoid costly alignment and instead focus on comparing sketches of sets of constituent k -mers. While these methods perform well on many sequences, they are not robust to highly repetitive sequences such as centromeres. In this paper, we present three new estimators that are robust to the presence of repeats. The estimators are applicable in different settings, based on whether they need count information from zero, one, or both of the sequences. We evaluate our estimators empirically using highly repetitive alpha satellite sequences. Our estimators each perform best in their class and our strongest estimator outperforms all other tested estimators. Our software is open-source and freely available on https://github.com/medvedevgroup/Accurate_repeat-aware_kmer_based_estimator .",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Haonan Wu",
+        "Paul Medvedev"
+      ],
+      "authors_display": "Haonan Wu, Paul Medvedev",
+      "first_seen_at": "2026-04-11T03:35:18Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.64898/2026.04.01.715966",
+        "pmcid": "PMC13060295",
+        "pmid": "41959131"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rates"
+        ]
+      },
+      "paper_key": "doi:10.64898/2026.04.01.715966",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-05",
+      "short_abstract": "Estimating mutation rates between evolutionarily related sequences is a central problem in molecular evolution. Due to the rapid expansion of datasets, modern methods avoid costly alignment and instead focus on comparing sketches of sets of constituent k -mers. While these methods perform well on many sequences, they are not robust to...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "The gift of novelty: repeat-robust k -mer-based estimators of mutation rates.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41959131/",
+      "venue": "bioRxiv",
+      "venue_display": "bioRxiv"
     },
     {
       "abstract": "Genome gigantism has long been linked to recurrent bursts of transposable element (TE) activity, yet how such bursts reshape gene architecture over evolutionary time remains poorly understood. By comparing two independently assembled genomes of the Iberian ribbed newt Pleurodeles waltl (20.3 Gb)-generated in Europe and Japan-with the compact genome of Xenopus tropicalis (1.5 Gb), we uncover evidence for both past and ongoing TE bursts during newt genome expansion. Analyses of multicopy genes reveal a spectrum of evolutionary outcomes driven by successive waves of intronic TE invasion. While some genes remain functional despite massive gene body inflation through efficient splicing-mediated removal of TE insertions, others undergo transcriptional silencing, followed by mutation accumulation, pseudogenization, and progressive disorganization of exon-intron architecture. Direct comparison between the two P Pleurodeles waltl assemblies demonstrates that TE insertions continue to occur, indicating that genome expansion is an active, ongoing process. We further identify Bou1, a testis-specific, TE-derived locus whose expression coincides with germline-associated TE activity. Together, these results depict genome gigantism as a punctuated yet persistent process and suggest that introns act as protective buffers against TE invasion, delaying gene decay until selective constraints are relaxed.",
@@ -200,140 +586,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41858266/",
       "venue": "Genes Cells",
       "venue_display": "Genes Cells"
-    },
-    {
-      "abstract": "Vibrio vulnificus is one of the most lethal marine pathogens, causing wound infections, septicemia, and necrotizing soft tissue infection with case fatality rates exceeding 20-50%. In Northern Europe, incidence is rising alongside warming coastal waters. The genomic relatedness between environmental and clinical isolates and the long-term persistence of virulent clades in temperate waters remains poorly defined. An analysis of 117 V. vulnificus genomes, including 60 newly sequenced (36 environmental isolates and 24 clinical isolates from Denmark 1994-2023), 27 publicly available Nordic clinical genomes, and 30 comparative reference public genomes were analyzed. Comparative genomics, virulence gene profiling, pangenome analysis, and core-genome SNP phylogeny were used to define clade structure, persistence, and genetic determinants of pathogenicity. Four major clades were identified; three (C2-C4) persisted for up to three decades and contained both clinical and environmental isolates. Clonal pairs (≤40 SNPs) linked environmental and clinical sources across up to eight years and multiple countries. The virulence gene repertoire including the major virulence factors MARTX toxin genes (rtxA/B/C/D), chiRP (chitin-regulated pilus), flp2/tad2 pili (fimbrial low-molecular-weight protein/tight adherence pili), ilpA (immunogenic lipoprotein A), ompU (outer membrane porin), and vvhA (V. vulnificus hemolysin).) were present in both environmental and clinical isolates. All isolates carried the tetracycline resistance gene tet(34). We report that environmental aquatic reservoirs harbor fully virulent V. vulnificus lineages, making human infections exposure-driven rather than the result of emerging novel lineages.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Yaovi Mahuton Gildas Hounmanou",
-        "Jules Beau-Gard Hougbenou",
-        "Jørgen Engberg",
-        "Hanne Marie Holt",
-        "Marianne Voldstedlund",
-        "Jens Andre Hammerl",
-        "Anders Dalsgaard"
-      ],
-      "authors_display": "Yaovi Mahuton Gildas Hounmanou, Jules Beau-Gard Hougbenou, Jørgen Engberg, et al.",
-      "first_seen_at": "2026-03-21T05:30:33Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/femsle/fnag028",
-        "pmcid": null,
-        "pmid": "41860419"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1093/femsle/fnag028",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-20",
-      "short_abstract": "Vibrio vulnificus is one of the most lethal marine pathogens, causing wound infections, septicemia, and necrotizing soft tissue infection with case fatality rates exceeding 20-50%. In Northern Europe, incidence is rising alongside warming coastal waters. The genomic relatedness between environmental and clinical isolates and the...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Rising Vibrio vulnificus Infections in Northern Europe Linked to Environmental Reservoirs Sustaining Clinical Pathogenicity.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41860419/",
-      "venue": "FEMS Microbiol Lett",
-      "venue_display": "FEMS Microbiol Lett"
-    },
-    {
-      "abstract": "Respiratory Tract Infection (RTI) is a leading cause of mortality worldwide and represents one of the major complications in patients with respiratory syndrome. A total of 3,836 RTI patients in Foshan City between 2022 and 2024 were enrolled. Specimens, including alveolar lavage fluid, sputum, pleural effusion, and throat swab, were collected. Pathogen identification was performed using the t-NGS technology. Raw sequencing data were processed via Fastp software, and human host sequences were removed by alignment to the hg19 reference genome using BWA-mem. Microbial sequences were aligned against the NCBI RefSeq/nt and FDA ARGOS databases for pathogen identification. Pathogens, contaminants, and commensal bacteria were distinguished according to the Pathogen Pathogenicity Classification Table. Chi-square test was applied to compare pathogen distributions across genders, age groups, and sample types, and to assess the trend of mixed and single infection. Additionally, 23S rRNA mutations were analyzed, and the response of the known pathogenic bacteria to the antibiotics was determined. A total of 129 potential pathogens were identified, predominantly including bacteria (57.28%) and RNA viruses (24.65%). The most frequently detected pathogenic bacteria were Haemophilus influenzae (11.56%), Mycoplasma pneumoniae (9.57%), and Streptococcus pneumoniae (6.31%), while the predominant viruses included Rhinovirus (6.6%), human respiratory syncytial virus (4.07%), and Influenza A virus (3.57%). Pathogen profiles varied across age groups, such as Mycoplasma pneumoniae and Haemophilus influenzae were more common in children (1- to 12-year-olds), while Candida albicans and Epstein-Barr virus were more frequently detected in the elderly (≥ 60 years old). Furthermore, Moraxella catarrhalis and Rhinovirus were more frequently detected in throat swabs, whilst Epstein-Barr virus, Candida albicans, and Pseudomonas aeruginosa were more commonly detected in alveolar lavage fluid samples. Mixed infections were relatively frequent, with a higher incidence observed in spring and winter. The macrolide resistance mutation rate in 23S rRNA reached 96.79%, predominantly involving the A2063G mutation, with higher rates observed in children and the elderly. Additionally, known pathogenic bacteria also exhibited varying levels of resistance to different antibiotics. While numerous studies have demonstrated the utility of t-NGS in identifying RTI pathogens, our study provided detailed epidemiological data from a retrospective cohort in Foshan city. The application of t-NGS effectively revealed the pathogenic characteristics of RTI patients with respiratory syndrome. Overall, these data provided valuable insights into the clinical diagnosis and management of RTI.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Yonghua Chen",
-        "Yunqi Deng",
-        "Xiaoling Xian",
-        "Junli Deng",
-        "Xiaolei Guo",
-        "Dongmei Yang",
-        "Yunxiang Zeng"
-      ],
-      "authors_display": "Yonghua Chen, Yunqi Deng, Xiaoling Xian, et al.",
-      "first_seen_at": "2026-03-21T15:36:16Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.2174/0109298673430617260122101826",
-        "pmcid": null,
-        "pmid": "41863158"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rate"
-        ]
-      },
-      "paper_key": "doi:10.2174/0109298673430617260122101826",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-03-19",
-      "short_abstract": "Respiratory Tract Infection (RTI) is a leading cause of mortality worldwide and represents one of the major complications in patients with respiratory syndrome. A total of 3,836 RTI patients in Foshan City between 2022 and 2024 were enrolled. Specimens, including alveolar lavage fluid, sputum, pleural effusion, and throat swab, were...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Characterization of Pathogens in Respiratory Tract Infection Using Targeted Next-Generation Sequencing: A Population-Based Study in Foshan City from 2022 to 2024.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41863158/",
-      "venue": "Curr Med Chem",
-      "venue_display": "Curr Med Chem"
-    },
-    {
-      "abstract": "Transcriptome deep sequencing (RNA-seq) data analysis is often affected by reference bias introduced by the use of a single linear reference (SLR) genome. Graph-based pangenomes can mitigate this bias by integrating the SLR genome with complex genetic variations within a species; however, their application remains limited owing to a lack of dedicated analytical tools. Here, we present PanGraphRNA, an integrated bioinformatics platform for RNA-seq data analysis using a graph pangenome as reference. Built on the Galaxy web-based framework, PanGraphRNA provides functional modules for constructing, evaluating, and applying graph pangenomes across different population scales, thus enabling accessibility, traceability, and reproducibility throughout the analysis. Applied to both real and simulated RNA-seq data sets from Arabidopsis (Arabidopsis thaliana), PanGraphRNA outperformed the SLR approach, achieving higher read alignment accuracy and more precise gene expression quantification. PanGraphRNA enabled the identification of drought stress-induced genes and flowering time-related quantitative trait loci that were previously missed with the conventional SLR approach. Furthermore, we successfully applied PanGraphRNA to process RNA-seq data sets from rice (Oryza sativa) and maize (Zea mays). By providing standardized, containerized workflows, PanGraphRNA will facilitate transcriptomic research in key plant species, including Arabidopsis, rice, and maize.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Yifan Bu",
-        "Zhixu Qiu",
-        "Wen Sun",
-        "Yishui Han",
-        "Yifan Liu",
-        "Jing Yang",
-        "Minggui Song",
-        "Zenglin Li",
-        "Songyu Liu",
-        "Yuzhou Zhang",
-        "Chuang Ma"
-      ],
-      "authors_display": "Yifan Bu, Zhixu Qiu, Wen Sun, et al.",
-      "first_seen_at": "2026-03-21T05:30:33Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1111/jipb.70231",
-        "pmcid": null,
-        "pmid": "41858069"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome",
-          "genome graph"
-        ]
-      },
-      "paper_key": "doi:10.1111/jipb.70231",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-03-19",
-      "short_abstract": "Transcriptome deep sequencing (RNA-seq) data analysis is often affected by reference bias introduced by the use of a single linear reference (SLR) genome. Graph-based pangenomes can mitigate this bias by integrating the SLR genome with complex genetic variations within a species; however, their application remains limited owing to a...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "PanGraphRNA: An efficient and flexible bioinformatics platform for graph pangenome-based RNA-seq data analysis.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41858069/",
-      "venue": "J Integr Plant Biol",
-      "venue_display": "J Integr Plant Biol"
     },
     {
       "abstract": "Meiotic crossover formation is critical for generating viable gametes and enhancing genetic diversity. The helicase Mer3 (HFM1 in humans) is a highly conserved factor essential for promoting crossovers and ensuring their proper distribution. Here, we identify replication protein A (RPA) as a direct interactor of budding yeast Mer3. We demonstrate that this interaction is conserved between human HFM1 and RPA. Cross-linking mass spectrometry and structural modelling with AlphaFold2 reveal a conserved and specific Mer3-RPA interface. Single-molecule magnetic tweezers assays demonstrate that direct RPA interaction is required for Mer3 helicase processivity under conditions of low DNA tension. Consistently, a mer3 mutant deficient in RPA binding exhibits reduced crossover frequencies and accumulates unresolved recombination intermediates during budding yeast meiosis. Via genome-wide localisation experiments, we link this effect to weakened recruitment of the mer3 mutant to double-strand break sites. Our findings provide mechanistic insights into coordination of meiotic recombination by the Mer3 helicase through interactions with the canonical DNA repair machinery, highlighting a conserved mechanism underlying crossover control during sexual reproduction.",
@@ -385,58 +637,6 @@
       "venue_display": "Nat Commun"
     },
     {
-      "abstract": "While organellar genomes are typically a single circular molecule, some have undergone extreme evolutionary changes, such as fragmentation. Among plastid genomes, extensive fragmentation is rare but has been observed in the green alga Boodlea composita (Cladophorales), wherein single-stranded chromosomes adopt an unusual hairpin structure, stabilized by inverted repeats. This plastome is also highly reduced in coding content, containing only 21 protein-coding genes that are highly divergent in sequence, yet the plastome comprises a numerous and heterogeneous chromosome population. The lack of plastomes among close relatives has stymied our understanding of the evolutionary origins of Boodlea's unique plastome characteristics. Here, we report plastomes from three additional Cladophorales families. We show that elevated mutation rates and a massive reduction in coding content preceded fragmentation and that fragmentation resulted in a highly heterogeneous population with hundreds of minicircular chromosomes and a concomitant increase in GC content. Long inverted repeats are absent in minicircular chromosomes, suggesting the repetitive sequences that facilitate the formation of hairpin structures are unique to the Boodlea clade. Codon reassignments also occurred concurrently among fragmented and non-fragmented Cladophorales plastomes. Our findings document a clear stepwise progression of plastid topologies and sequence characteristics in Cladophorales. This assists in our understanding of the evolution of fragmented organellar genomes in general, as well as the limits to coding capacity reduction and sequence divergence able to be withstood by a functioning plastid.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Saelin Bjornson",
-        "Trevor T Bringloe",
-        "Kavitha Uthanumallian",
-        "Ricardo De Paoli-Iseppi",
-        "Michael B Clark",
-        "Chiela M C Cremen",
-        "Riyad Hossen",
-        "Owen McGinley",
-        "Tara Jalali",
-        "John West",
-        "Frederik Leliaert",
-        "Richard Wetherbee",
-        "Olivier De Clerck",
-        "Sebastian Duchene",
-        "Jacob L Steenwyk",
-        "Heroen Verbruggen"
-      ],
-      "authors_display": "Saelin Bjornson, Trevor T Bringloe, Kavitha Uthanumallian, et al.",
-      "first_seen_at": "2026-03-21T06:51:23Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.cub.2026.02.038",
-        "pmcid": null,
-        "pmid": "41856103"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rates"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.cub.2026.02.038",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-03-18",
-      "short_abstract": "While organellar genomes are typically a single circular molecule, some have undergone extreme evolutionary changes, such as fragmentation. Among plastid genomes, extensive fragmentation is rare but has been observed in the green alga Boodlea composita (Cladophorales), wherein single-stranded chromosomes adopt an unusual hairpin...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Stepwise evolutionary transitions in Cladophorales plastid genomes reveal origins of hairpin chromosomes.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41856103/",
-      "venue": "Curr Biol",
-      "venue_display": "Curr Biol"
-    },
-    {
       "abstract": "Programmed DNA double-strand breaks (DSBs) catalyzed by the conserved topoisomerase-like complex SPO11-TOP6BL, together with its accessory proteins, initiate meiotic recombination, a process central to meiosis. In mammals, DSBs are distributed nonrandomly at preferential genomic sites (called hotspots) defined largely by the meiosis-specific protein PRDM9. Precise temporal and spatial control of DSB formation is essential for generating genetic diversity while maintaining genomic stability during meiosis. Disruption of this process leads to aberrant recombination, chromosome mis-segregation, and reproductive defects. In this review, we summarize recent genetic, biochemical, and structural advances clarifying the molecular architecture and regulation of meiotic DSB formation in mammals.",
       "accent_color": "#8b5e34",
       "authors": [
@@ -476,139 +676,6 @@
       "venue_display": "Trends Biochem Sci"
     },
     {
-      "abstract": "Characterizing the dynamics and functional shifts during protein evolution is essential, both for understanding protein evolution and for rationalizing efficient strategies for e.g. enzymes with desired and effective functions. Most proteins organize in families, sets of divergent sequences which share a common ancestor and have a similar structural fold. Here, we study aryl sulfatases, a subfamily of the large and evolutionary old alkaline phosphatase superfamily. We demonstrate how ultrahigh-throughput droplet microfluidics can be used for studying aryl sulfatases and their computationally reconstructed putative common ancestors. We compare the evolvability and robustness of three ancestors and three extant aryl sulfatases which all exhibit catalytic promiscuity towards a range of substrate classes. Using varying mutations rates, eleven libraries were constructed and expressed in single-cell microdroplets. In general, higher mutation rates resulted in wider distribution of active variants but fewer improved variants overall. However, the impact of mutation rate differed between enzymes, with some benefiting from higher and others from lower mutation rate, underscoring the need to test diverse mutagenesis regimes.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Bernard D G Eenink",
-        "Josephin M Holstein",
-        "Magdalena Heberlein",
-        "Carina Dilkaute",
-        "Joachim Jose",
-        "Florian Hollfelder",
-        "Bert van Loo",
-        "Erich Bornberg-Bauer",
-        "Tomasz S Kaminski",
-        "Andreas Lange"
-      ],
-      "authors_display": "Bernard D G Eenink, Josephin M Holstein, Magdalena Heberlein, et al.",
-      "first_seen_at": "2026-03-21T05:30:33Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/nar/gkaa600",
-        "pmcid": "PMC7498354",
-        "pmid": "41711008"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rates",
-          "mutation rate"
-        ]
-      },
-      "paper_key": "doi:10.1093/nar/gkaa600",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-03-17",
-      "short_abstract": "Characterizing the dynamics and functional shifts during protein evolution is essential, both for understanding protein evolution and for rationalizing efficient strategies for e.g. enzymes with desired and effective functions. Most proteins organize in families, sets of divergent sequences which share a common ancestor and have a...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Studying the evolutionary potential of ancestral aryl sulfatases in the alkaline phosphatase family with droplet microfluidics.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41711008/",
-      "venue": "Analyst",
-      "venue_display": "Analyst"
-    },
-    {
-      "abstract": "The relatively slow mutation rates of bacterial pathogens impose severe limitations on phylodynamic analysis of bacterial outbreaks. However, whole-genome sequencing may enable accurate inference of bacterial transmission dynamics in health-care settings. We simulated the epidemic dynamics of a Staphylococcus aureus lineage using a stochastic model with a hospital and community compartment connected by patient admission and discharge. We generated synthetic genomic sequences and performed Bayesian phylodynamic inference on a proportion of samples from each simulated outbreak. When samples are obtained from both compartments, hospital transmission rate ([Formula: see text]) and community transmission rate ([Formula: see text]) are accurately estimated, if [Formula: see text] is on the same scale as the discharge rate. If [Formula: see text] is substantially lower than the discharge rate, a robust quantification of within-hospital transmission dynamics is challenging. Excluding samples from the community resulted in a notable underestimation of [Formula: see text] when [Formula: see text]. When transmission was 'community-driven', but sampling was restricted to hospital cases only, estimates are closer to the true [Formula: see text], if hospital sampling proportion is known. Otherwise, [Formula: see text] estimates reflected the transmission dynamics within the community. When using genomic data to estimate bacterial transmission rates in a health-care setting, it is essential to take into account the surrounding community. Many infections related to nosocomial outbreaks will not be observed within the hospital due to fast discharge rates. In the absence of usable genomic data from the community, alternative estimates of community transmission rates from publicly available data should be incorporated. Transmission rate estimates from nosocomial genomes alone need to be interpreted with care.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Sanni Översti",
-        "Mathilde Boumasmoud",
-        "Huldyrch F Günthard",
-        "Hugo Sax",
-        "Annelies S Zinkernagel",
-        "Roger D Kouyos",
-        "Denise Kühnert"
-      ],
-      "authors_display": "Sanni Översti, Mathilde Boumasmoud, Huldyrch F Günthard, et al.",
-      "first_seen_at": "2026-03-21T06:51:23Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1371/journal.pcbi.1013982",
-        "pmcid": null,
-        "pmid": "41838776"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rates"
-        ]
-      },
-      "paper_key": "doi:10.1371/journal.pcbi.1013982",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-03-16",
-      "short_abstract": "The relatively slow mutation rates of bacterial pathogens impose severe limitations on phylodynamic analysis of bacterial outbreaks. However, whole-genome sequencing may enable accurate inference of bacterial transmission dynamics in health-care settings. We simulated the epidemic dynamics of a Staphylococcus aureus lineage using a...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Fast hospital discharge rates blur within-hospital 'transmission footprint' in bacterial genomes, as showcased with Staphylococcus aureus.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41838776/",
-      "venue": "PLoS Comput Biol",
-      "venue_display": "PLoS Comput Biol"
-    },
-    {
-      "abstract": "The impact of specific chromatin modifications on meiotic crossover frequency has typically been inferred from correlative studies, leaving the question of causality unresolved. To directly test this, we used a catalytically inactive CRISPR-associated protein 9 (dCas9)-based system to recruit the histone demethylase JMJ14 to defined genomic loci. Recruitment of JMJ14 led to a reduction in local histone H3 lysine 4 trimethylation (H3K4me3) levels and a decrease in crossover frequency within the targeted interval. This was accompanied by reduced expression of a long noncoding RNA (lncRNA) at the hotspot and altered crossover topology. Suppressed recombination was also observed at neighboring, untargeted hotspots. In contrast, targeting the transcriptional activator VP64 to the same region increased lncRNA expression, elevated crossover frequency, and raised H3K4me3 levels. Together, these findings establish a causal link between H3K4me3, transcription, and local crossover activity, demonstrating that H3K4me3 levels are closely associated with both transcriptional output and recombination frequency at specific genomic loci.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Maja Szymanska-Lejman",
-        "Wojciech Dziegielewski",
-        "Anna Wilhelm",
-        "Karolina Hus",
-        "Piotr A Ziolkowski"
-      ],
-      "authors_display": "Maja Szymanska-Lejman, Wojciech Dziegielewski, Anna Wilhelm, et al.",
-      "first_seen_at": "2026-03-21T15:36:16Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.5281/zenodo.17917760",
-        "pmcid": "PMC5810570",
-        "pmid": "41824569"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "meiotic recombination",
-          "crossover hotspots",
-          "crossover frequency"
-        ]
-      },
-      "paper_key": "doi:10.5281/zenodo.17917760",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-03-13",
-      "short_abstract": "The impact of specific chromatin modifications on meiotic crossover frequency has typically been inferred from correlative studies, leaving the question of causality unresolved. To directly test this, we used a catalytically inactive CRISPR-associated protein 9 (dCas9)-based system to recruit the histone demethylase JMJ14 to defined...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Modifying meiotic recombination by targeting chromatin regulators to crossover hotspots in Arabidopsis.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41824569/",
-      "venue": "Sci Adv",
-      "venue_display": "Sci Adv"
-    },
-    {
       "abstract": "Statistical methods to identify Neanderthal ancestry in modern human genomes rest on varying assumptions and inputs. Nonetheless, most studies of introgression use only a single method to define Neanderthal ancestry. Due to a lack of \"ground truth,\" we have a limited understanding of the accuracy, comparative strengths and weaknesses, and the sensitivity of downstream conclusions for these methods. Here, we performed large-scale comparisons of 14 genome-wide introgression maps computed by 11 representative Neanderthal introgression detection algorithms: admixfrog, ArchaicSeeker2, ArchIE, ARGWeaver-D, CRF, DICAL-ADMIX, hmmix, IBDmix, SARGE, Sprime, and S*. These algorithms span statistical approaches based on summary statistics, probabilistic modeling, and machine learning, and vary in their use of archaic, modern, and simulated genomes as input. Our results highlight a core set of regions predicted by nearly all methods, as well as substantial heterogeneity in commonly used Neanderthal introgression maps, especially at the individual genome level. Furthermore, we find that downstream analyses may result in different conclusions depending on the map used. Thus, we recommend careful consideration of map(s) chosen for downstream analysis and support the use of multiple maps to ensure robustness of conclusions. We make integrated prediction sets available, enabling further understanding of Neanderthal introgression's legacy on modern humans.",
       "accent_color": "#2d6cdf",
       "authors": [
@@ -646,98 +713,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41821294/",
       "venue": "Mol Biol Evol",
       "venue_display": "Mol Biol Evol"
-    },
-    {
-      "abstract": "Hybrid sterility is a critical postzygotic barrier that limits gene flow during speciation, yet the genetic architecture underlying evolution of such barriers in the early stages of speciation remains poorly characterized. In house mice, F1 male sterility observed in crosses between Mus musculus musculus and M. m. domesticus has been attributed to incompatibilities between heterozygous autosomal Prdm9, which controls primarily the position of recombination hotspots, and copy number variation in X-linked Mir465 miRNA genes. This molecular mechanism, identified in laboratory crosses, provided the first genetic evidence of a Dobzhansky-Muller incompatibility causing F1 hybrid sterility in vertebrates and has been considered a general model across strains and laboratories. Here, we use mice from natural populations and find that F1 hybrid sterility is polymorphic and asymmetric, with fertility phenotypes modulated by the direction of the cross. Although sterile males carried incompatible Prdm9 alleles, quantitative trait loci (QTL) mapping in backcross progeny revealed no significant associations with chromosome 17, where Prdm9 resides. Instead, sterility consistently mapped to X-linked loci, and the genomic position of sterility-associated QTL shifted between reciprocal backcrosses. These findings uncover a previously unrecognized mode of hybrid sterility in which X-linked incompatibilities act independently of Prdm9, a mechanism we term Prdm9-independent X-linked sterility (PIXLS). Our results extend the established Prdm9/Mir465 model by demonstrating that hybrid sterility in house mice can arise through alternative genetic routes, highlighting the evolutionary diversity of reproductive barriers in their natural hybrid zone.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Pavla Klusáčková",
-        "Agata Woźniewska",
-        "Petra Dufková",
-        "Beth L Dumont",
-        "Jan M Wójcik",
-        "Jaroslav Piálek"
-      ],
-      "authors_display": "Pavla Klusáčková, Agata Woźniewska, Petra Dufková, et al.",
-      "first_seen_at": "2026-03-21T15:36:16Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1038/ng.847",
-        "pmcid": "3125408",
-        "pmid": "41820541"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "recombination hotspots"
-        ]
-      },
-      "paper_key": "doi:10.1038/ng.847",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-03-12",
-      "short_abstract": "Hybrid sterility is a critical postzygotic barrier that limits gene flow during speciation, yet the genetic architecture underlying evolution of such barriers in the early stages of speciation remains poorly characterized. In house mice, F1 male sterility observed in crosses between Mus musculus musculus and M. m. domesticus has been...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Beyond the Prdm9 model: independent evolution of hybrid male sterility in house mice.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41820541/",
-      "venue": "Heredity (Edinb)",
-      "venue_display": "Heredity (Edinb)"
-    },
-    {
-      "abstract": "Complex chromosomal rearrangements (CCRs) are structural variants involving multiple breakpoints. Among these, intrachromosomal balanced CCRs containing inversions pose significant diagnostic and interpretative challenges, as conventional cytogenetic methods including G-banded karyotype, FISH, and chromosomal microarray lack the resolution needed to determine their structural complexity. Paracentric inversions are traditionally associated with a negligible risk of a viable unbalanced offspring. Here, we describe a familial intrachromosomal rearrangement comprising a complex paracentric inversion of chromosome 6q, transmitted across multiple generations, that resulted in five affected children with recombinant chromosomes harboring reciprocal interstitial gains and losses on 6q. High-resolution optical genome mapping revealed a ~75 Mb parental balanced CCR, formed by multiple sequential paracentric inversions that contain a single ~13 Mb correctly oriented segment. Bias meiotic recombination between homologous chromosomes 6 within this segment is responsible for recurrent unbalanced products resembling recombinant chromosomes typically associated with pericentric inversions. These findings challenge the prevailing assumption that paracentric inversions rarely result in viable recombinant chromosomes and demonstrate how complex chromosomal architecture can directly influence meiotic behavior and reproductive outcomes. Our study underscores the importance of high-resolution genomic technologies for accurate diagnosis, interpretation of a molecular mechanism, and reproductive risk assessment in carriers of CCR.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Melanie Babcock",
-        "Marwa Daghsni",
-        "Jessica Sebastian",
-        "Emily Lancaster",
-        "Lina Ghaloul-Gonzalez",
-        "Damara Ortiz",
-        "Evan Powell",
-        "Daniel B Bellissimo",
-        "Trilochan Sahoo",
-        "Svetlana A Yatsenko"
-      ],
-      "authors_display": "Melanie Babcock, Marwa Daghsni, Jessica Sebastian, et al.",
-      "first_seen_at": "2026-03-14T09:38:53Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1002/ajmg.a.70108",
-        "pmcid": null,
-        "pmid": "41795620"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ],
-        "recombination": [
-          "meiotic recombination"
-        ]
-      },
-      "paper_key": "doi:10.1002/ajmg.a.70108",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-03-08",
-      "short_abstract": "Complex chromosomal rearrangements (CCRs) are structural variants involving multiple breakpoints. Among these, intrachromosomal balanced CCRs containing inversions pose significant diagnostic and interpretative challenges, as conventional cytogenetic methods including G-banded karyotype, FISH, and chromosomal microarray lack the...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Unusual Recombinant Chromosome 6 Derived From a Parental Rearrangement With Complex Paracentric Inversions.",
-      "topics": [
-        "recombination",
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41795620/",
-      "venue": "Am J Med Genet A",
-      "venue_display": "Am J Med Genet A"
     },
     {
       "abstract": "Neanderthal and Denisovan genomes have reshaped our understanding of archaic introgression. Yet, the limited number of archaic genomes sequenced and the reliance on unadmixed outgroups have left much of this history unresolved. We introduce TRACE, a method to identify archaic ancestry using features of ancestral recombination graphs inferred from contemporary genomes alone. Simulations show that TRACE reliably detects archaic introgression without requiring archaic genomes or unadmixed outgroups. Applied to 1000 Genomes data, TRACE recovers known Neanderthal and Denisovan introgression and reveals signals of ghost admixture from previously uncharacterized hominins in both Africans and non-Africans. Strikingly, ghost ancestry persists in Neanderthal and Denisovan ancestry deserts, challenging their interpretation as Homo sapiens -specific regions. In Oceanians, TRACE finds deep lineages enriched in Denisovan--and not Neanderthal--regions, supporting a model of super-archaic gene flow. TRACE provides a scalable framework for mapping the legacy of archaic introgression in the absence of archaic genome sequences.",
