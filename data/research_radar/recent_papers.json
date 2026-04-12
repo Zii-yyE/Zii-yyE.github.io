@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-04-11T03:35:18Z",
+  "generated_at": "2026-04-12T04:09:35Z",
   "latest": [
+    {
+      "abstract": "Ki67 is one of the most widely used markers of cell proliferation. However, current measurements using immunohistochemistry (IHC) are limited by interobserver variability and lack of standardized cutoffs. To address this, we investigated the association of Ki67 gene (MKI67) expression with biological features and treatment response in estrogen receptor-positive (ER+) breast cancer (BC), the most common subtype. We analyzed 5036 patients with ER+/HER2- BC across 11 independent cohorts with tumor transcriptomes and clinical data. Patients with MKI67 expression in the top 20% were defined as the high-expression group on the basis of prior IHC-based thresholds. MKI67 expression correlated with Nottingham histologic grade and proliferation score, and consistently enriched all the hallmark cell proliferation-related gene sets across TCGA, METABRIC, and SCAN-B cohorts. High MKI67 expression trended toward worse survival but achieved statistical significance only in the METABRIC cohort. MKI67 high ER+/HER2- BC was associated with increased mutation rates, fraction altered, homologous recombination deficiency and intratumoral genomic heterogeneity. MKI67 expression was associated with infiltration of Th1 and Th2 cells as well as M1 and M2 macrophages across three cohorts. Conversely, MKI67 low ER+/HER2- BC was enriched for Hypoxia, Coagulation, Epithelial-to-Mesenchymal Transition, NOTCH, Hedgehog, TGF-beta, and KRAS-signaling gene sets. MKI67 high ER+/HER2- BC was associated with a higher pathological complete response (pCR) rate in four of the eight neoadjuvant chemotherapy cohorts. High MKI67 expression identifies highly proliferative tumors that are associated with genomic instability and immune activity and is associated with higher pCR rates following neoadjuvant chemotherapy in ER+/HER2- BC.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Kohei Chida",
+        "Rongrong Wu",
+        "Kei Kawashima",
+        "Abigail Grapes",
+        "Li Yan",
+        "Itaru Endo",
+        "Takashi Ishikawa",
+        "Kenichi Hakamada",
+        "Kazuaki Takabe"
+      ],
+      "authors_display": "Kohei Chida, Rongrong Wu, Kei Kawashima, et al.",
+      "first_seen_at": "2026-04-12T04:09:35Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1007/s10549-011-1837-z",
+        "pmcid": "8597938",
+        "pmid": "41963560"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rates"
+        ]
+      },
+      "paper_key": "doi:10.1007/s10549-011-1837-z",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-10",
+      "short_abstract": "Ki67 is one of the most widely used markers of cell proliferation. However, current measurements using immunohistochemistry (IHC) are limited by interobserver variability and lack of standardized cutoffs. To address this, we investigated the association of Ki67 gene (MKI67) expression with biological features and treatment response in...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Ki67 Gene Expression is Associated with Immune Cell Infiltration and Neoadjuvant Chemotherapy Response in ER+/HER2- Breast Cancer.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41963560/",
+      "venue": "Ann Surg Oncol",
+      "venue_display": "Ann Surg Oncol"
+    },
     {
       "abstract": "International guidelines suggest prophylactic anticoagulation for patients with cancer at high risk of venous thromboembolism (VTE). Here, we evaluated whether tumor whole-genome sequencing data may improve the selection of high-risk patients. In a pan-cancer cohort of 3087 patients, associations of candidate clinical predictors, the germline extended 297-single nucleotide polymorphism polygenic risk score, tumor mutational characteristics, and somatic tumor mutations with VTE were estimated by calculating hazard ratios (HRs). During 12-month follow-up, 237 (7.7%) developed VTE. The germline extended 297-single nucleotide polymorphism score was associated with VTE (HR per point increase, 2.11 [95% CI, 1.45-3.06]), as well as the total number of somatic structural variants (HR per 1000 increase, 1.21 [95% CI, 1.07-1.37]) and 129 somatic mutations (unadjusted P<0.05), including POLR2E (HR, 3.34 [95% CI, 1.68-6.97]), PALM (HR, 3.73 [95% CI, 1.74-7.99]), TBX22 (HR, 2.47 [95% CI, 1.40-4.35]), and ELANE (HR, 3.22 [95% CI, 1.51-6.87]). To further explore the potential of tumor whole-genome sequencing, prediction models were constructed including selected clinical predictors only (model 1), clinical predictors and germline variants (model 2), and the combination of clinical predictors, germline variants, and 14 top discriminating somatic mutations (model 3). The optimism corrected concordance index was 0.66 (95% CI, 0.62-0.69) for model 1, 0.67 (95% CI, 0.62-0.72) for model 2, and 0.77 (95% CI, 0.72-0.81) for model 3. This was significantly higher than that of the currently endorsed clinical Khorana VTE risk score (concordance index, 0.55 [95% CI, 0.51-0.59]; P<0.005). These data indicate that tumor whole-genome sequencing may improve VTE prediction by clinical risk scores. Validation studies to confirm these findings are needed.",
       "accent_color": "#2f8f6b",
@@ -294,6 +339,49 @@
       "venue_display": "Genome Biol"
     },
     {
+      "abstract": "Evolutionary engineering is a key strategy for obtaining industrial strains with high stress tolerance and productivity, as well as improving enzyme performance. However, low natural mutation rates, small in vitro mutation libraries, and lengthy phenotypic screening cycles constrain the further development of this approach. In vivo continuous evolution technologies address these challenges by implementing mutagenesis within living microbial cells, elevating mutation rates and enabling the rapid evolution of strains or genes. This review systematically examines three in vivo continuous evolution platforms based on error-prone DNA replication, DNA base modification, and DNA recombination. For each mutational mechanism, the underlying design principles, representative applications, and strategies for optimizing mutational spectra and selection regimes are discussed. By comparing their molecular mechanisms, advantages, and limitations, recent advances in the field are summarized and future directions for evolutionary engineering are outlined. Collectively, this review provides a coherent framework for understanding in vivo microbial continuous evolution technologies and offers guidance for strain development and enzyme engineering.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Yuan Liu",
+        "Cong Gao",
+        "Xiaomin Li",
+        "Guipeng Hu",
+        "Wei Song",
+        "Wanqing Wei",
+        "Jing Wu"
+      ],
+      "authors_display": "Yuan Liu, Cong Gao, Xiaomin Li, et al.",
+      "first_seen_at": "2026-04-12T04:09:35Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.biotechadv.2026.108895",
+        "pmcid": null,
+        "pmid": "41962641"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rates"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.biotechadv.2026.108895",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-08",
+      "short_abstract": "Evolutionary engineering is a key strategy for obtaining industrial strains with high stress tolerance and productivity, as well as improving enzyme performance. However, low natural mutation rates, small in vitro mutation libraries, and lengthy phenotypic screening cycles constrain the further development of this approach. In vivo...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Advances in in vivo continuous evolution technologies for strain development and enzyme engineering.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41962641/",
+      "venue": "Biotechnol Adv",
+      "venue_display": "Biotechnol Adv"
+    },
+    {
       "abstract": "The Mre11 nuclease is part of the conserved MRX complex involved in DNA double-strand break (DSB) repair. During meiosis in budding yeast, MRX is also required for Spo11-mediated programmed DSB formation to initiate homologous recombination. Recruitment of Mre11 to meiotic DSB sites depends on Rec114-Mei4 and Mer2, proposed to organize the DSB machinery via biomolecular condensation. Here, we show that Mre11 and MRX complexes form DNA-dependent, hexanediol-sensitive condensates in vitro. In vivo, Mre11 assembles into DNA damage-dependent foci during mitosis and DSB-independent foci during meiosis. Both in vitro condensates and in vivo foci require Mre11 C-terminal intrinsically-disordered region (IDR). While dispensable for vegetative DNA repair, Mre11 IDR is essential during meiosis, where it mediates interaction with Mer2 via a short α-helix and contains a SUMO-interacting motif that enhances Mre11 recruitment and DSB formation. Together, these findings provide insights into the biophysical properties of Mre11 and its role in initiating meiotic recombination.",
       "accent_color": "#8b5e34",
       "authors": [
@@ -406,7 +494,7 @@
         "arxiv_id": null,
         "biorxiv_doi": null,
         "doi": "10.1186/s13059-026-04061-7",
-        "pmcid": null,
+        "pmcid": "PMC11631752",
         "pmid": "41937210"
       },
       "matched_keywords": {
@@ -447,7 +535,7 @@
         "arxiv_id": null,
         "biorxiv_doi": null,
         "doi": "10.1186/s12711-026-01041-0",
-        "pmcid": null,
+        "pmcid": "PMC7553937",
         "pmid": "41942849"
       },
       "matched_keywords": {
@@ -510,82 +598,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41947018/",
       "venue": "G3 (Bethesda)",
       "venue_display": "G3 (Bethesda)"
-    },
-    {
-      "abstract": "Estimating mutation rates between evolutionarily related sequences is a central problem in molecular evolution. Due to the rapid expansion of datasets, modern methods avoid costly alignment and instead focus on comparing sketches of sets of constituent k -mers. While these methods perform well on many sequences, they are not robust to highly repetitive sequences such as centromeres. In this paper, we present three new estimators that are robust to the presence of repeats. The estimators are applicable in different settings, based on whether they need count information from zero, one, or both of the sequences. We evaluate our estimators empirically using highly repetitive alpha satellite sequences. Our estimators each perform best in their class and our strongest estimator outperforms all other tested estimators. Our software is open-source and freely available on https://github.com/medvedevgroup/Accurate_repeat-aware_kmer_based_estimator .",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Haonan Wu",
-        "Paul Medvedev"
-      ],
-      "authors_display": "Haonan Wu, Paul Medvedev",
-      "first_seen_at": "2026-04-11T03:35:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.64898/2026.04.01.715966",
-        "pmcid": "PMC13060295",
-        "pmid": "41959131"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rates"
-        ]
-      },
-      "paper_key": "doi:10.64898/2026.04.01.715966",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-05",
-      "short_abstract": "Estimating mutation rates between evolutionarily related sequences is a central problem in molecular evolution. Due to the rapid expansion of datasets, modern methods avoid costly alignment and instead focus on comparing sketches of sets of constituent k -mers. While these methods perform well on many sequences, they are not robust to...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "The gift of novelty: repeat-robust k -mer-based estimators of mutation rates.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41959131/",
-      "venue": "bioRxiv",
-      "venue_display": "bioRxiv"
-    },
-    {
-      "abstract": "Genome gigantism has long been linked to recurrent bursts of transposable element (TE) activity, yet how such bursts reshape gene architecture over evolutionary time remains poorly understood. By comparing two independently assembled genomes of the Iberian ribbed newt Pleurodeles waltl (20.3 Gb)-generated in Europe and Japan-with the compact genome of Xenopus tropicalis (1.5 Gb), we uncover evidence for both past and ongoing TE bursts during newt genome expansion. Analyses of multicopy genes reveal a spectrum of evolutionary outcomes driven by successive waves of intronic TE invasion. While some genes remain functional despite massive gene body inflation through efficient splicing-mediated removal of TE insertions, others undergo transcriptional silencing, followed by mutation accumulation, pseudogenization, and progressive disorganization of exon-intron architecture. Direct comparison between the two P Pleurodeles waltl assemblies demonstrates that TE insertions continue to occur, indicating that genome expansion is an active, ongoing process. We further identify Bou1, a testis-specific, TE-derived locus whose expression coincides with germline-associated TE activity. Together, these results depict genome gigantism as a punctuated yet persistent process and suggest that introns act as protective buffers against TE invasion, delaying gene decay until selective constraints are relaxed.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Kazuto Bou",
-        "Kiyokazu Agata"
-      ],
-      "authors_display": "Kazuto Bou, Kiyokazu Agata",
-      "first_seen_at": "2026-03-21T05:30:33Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1111/gtc.70102",
-        "pmcid": null,
-        "pmid": "41858266"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation accumulation"
-        ]
-      },
-      "paper_key": "doi:10.1111/gtc.70102",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-03-20",
-      "short_abstract": "Genome gigantism has long been linked to recurrent bursts of transposable element (TE) activity, yet how such bursts reshape gene architecture over evolutionary time remains poorly understood. By comparing two independently assembled genomes of the Iberian ribbed newt Pleurodeles waltl (20.3 Gb)-generated in Europe and Japan-with the...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Introns as Protective Buffers Against Transposable Elements Invasion During Genome Gigantism in a Newt.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41858266/",
-      "venue": "Genes Cells",
-      "venue_display": "Genes Cells"
     },
     {
       "abstract": "Meiotic crossover formation is critical for generating viable gametes and enhancing genetic diversity. The helicase Mer3 (HFM1 in humans) is a highly conserved factor essential for promoting crossovers and ensuring their proper distribution. Here, we identify replication protein A (RPA) as a direct interactor of budding yeast Mer3. We demonstrate that this interaction is conserved between human HFM1 and RPA. Cross-linking mass spectrometry and structural modelling with AlphaFold2 reveal a conserved and specific Mer3-RPA interface. Single-molecule magnetic tweezers assays demonstrate that direct RPA interaction is required for Mer3 helicase processivity under conditions of low DNA tension. Consistently, a mer3 mutant deficient in RPA binding exhibits reduced crossover frequencies and accumulates unresolved recombination intermediates during budding yeast meiosis. Via genome-wide localisation experiments, we link this effect to weakened recruitment of the mer3 mutant to double-strand break sites. Our findings provide mechanistic insights into coordination of meiotic recombination by the Mer3 helicase through interactions with the canonical DNA repair machinery, highlighting a conserved mechanism underlying crossover control during sexual reproduction.",
