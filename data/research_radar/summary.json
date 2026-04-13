@@ -20,12 +20,14 @@
     },
     {
       "accent_color": "#2f8f6b",
-      "count": 79,
+      "count": 81,
       "id": "pangenome_sv",
       "label": "Pangenome / Structural Variation"
     }
   ],
-  "generated_at": "2026-04-12T04:09:35Z",
-  "generated_at_china": "2026-04-12 12:09 UTC+8",
-  "source_errors": {}
+  "generated_at": "2026-04-13T04:18:37Z",
+  "generated_at_china": "2026-04-13 12:18 UTC+8",
+  "source_errors": {
+    "biorxiv": "TimeoutError: The read operation timed out"
+  }
 }

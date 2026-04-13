@@ -1,6 +1,53 @@
 {
-  "generated_at": "2026-04-12T04:09:35Z",
+  "generated_at": "2026-04-13T04:18:37Z",
   "latest": [
+    {
+      "abstract": "The murine C1498 cell line is one of the most widely used syngeneic models to investigate acute myeloid leukemia (AML) pathogenesis, tumor-host interactions and therapeutic responses. However, in the absence of a comprehensive molecular characterization it remains impossible to reliably associate genetic lesions with disease phenotype, drug sensitivity or resistance. Here, we provide an integrated genomic and functional analysis combining whole genome and whole transcriptome sequencing (WGS and WTS), multicolor fluorescent in situ hybridization (M-FISH) and drug sensitivity assays. WGS identified 2,007 coding variants absent from population databases, including functionally relevant alterations in AML-related genes. These comprised deleterious or likely pathogenic variants in Nf1, Gnas and Trp53 (murine ortholog of the human TP53 gene), a splice-site mutation in Crebbp and truncating variants in Bcor and Tet2. Structural variant analysis revealed 1,767 events, including deletions of Trp53, Nf1, Brca1, Csnk1a1, Ctnna1, Luc7l2 and cohesin genes, and Myc tandem duplication. Copy number variant profiling detected ten tumor-specific alterations, including amplifications of Stk32b and Bub1, the latter linked to aggressive cancer phenotypes. Variants integration uncovered biallelic disruption of Trp53, double-hit events affecting additional tumor suppressors (mutation and deletion: Nf1, Recql4) and oncogenes (mutation and amplification: Idh1, Gnas, Pik3cd, Vav1). Functionally, C1498 demonstrated in vitro a dose- and time-dependent response to venetoclax/azacitidine consistent with resistance, in line with the presence of altered Trp53 and recent prognostic AML signatures. This comprehensive molecular framework establishes C1498 as a genetically defined AML model and provides a valuable resource to inform biomarker-driven preclinical studies and translational research aimed at overcoming venetoclax/azacitidine resistance. The online version contains supplementary material available at 10.1186/s40364-026-00915-1.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Martina Ghetti",
+        "Ilaria De Santis",
+        "Doron Tolomeo",
+        "Francesca Ruggieri",
+        "Chiara Bracci",
+        "Maria Teresa Bochicchio",
+        "Matteo Paganelli",
+        "Anna Ferrari",
+        "Sabina Sangaletti",
+        "Clelia Tiziana Storlazzi",
+        "Giorgia Simonetti"
+      ],
+      "authors_display": "Martina Ghetti, Ilaria De Santis, Doron Tolomeo, et al.",
+      "first_seen_at": "2026-04-13T04:18:37Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s40364-026-00915-1",
+        "pmcid": "PMC6587540",
+        "pmid": "41964082"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variant"
+        ]
+      },
+      "paper_key": "doi:10.1186/s40364-026-00915-1",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-10",
+      "short_abstract": "The murine C1498 cell line is one of the most widely used syngeneic models to investigate acute myeloid leukemia (AML) pathogenesis, tumor-host interactions and therapeutic responses. However, in the absence of a comprehensive molecular characterization it remains impossible to reliably associate genetic lesions with disease phenotype,...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "The molecular landscape of the C1498 murine acute myeloid leukemia cell line.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41964082/",
+      "venue": "Biomark Res",
+      "venue_display": "Biomark Res"
+    },
     {
       "abstract": "Ki67 is one of the most widely used markers of cell proliferation. However, current measurements using immunohistochemistry (IHC) are limited by interobserver variability and lack of standardized cutoffs. To address this, we investigated the association of Ki67 gene (MKI67) expression with biological features and treatment response in estrogen receptor-positive (ER+) breast cancer (BC), the most common subtype. We analyzed 5036 patients with ER+/HER2- BC across 11 independent cohorts with tumor transcriptomes and clinical data. Patients with MKI67 expression in the top 20% were defined as the high-expression group on the basis of prior IHC-based thresholds. MKI67 expression correlated with Nottingham histologic grade and proliferation score, and consistently enriched all the hallmark cell proliferation-related gene sets across TCGA, METABRIC, and SCAN-B cohorts. High MKI67 expression trended toward worse survival but achieved statistical significance only in the METABRIC cohort. MKI67 high ER+/HER2- BC was associated with increased mutation rates, fraction altered, homologous recombination deficiency and intratumoral genomic heterogeneity. MKI67 expression was associated with infiltration of Th1 and Th2 cells as well as M1 and M2 macrophages across three cohorts. Conversely, MKI67 low ER+/HER2- BC was enriched for Hypoxia, Coagulation, Epithelial-to-Mesenchymal Transition, NOTCH, Hedgehog, TGF-beta, and KRAS-signaling gene sets. MKI67 high ER+/HER2- BC was associated with a higher pathological complete response (pCR) rate in four of the eight neoadjuvant chemotherapy cohorts. High MKI67 expression identifies highly proliferative tumors that are associated with genomic instability and immune activity and is associated with higher pCR rates following neoadjuvant chemotherapy in ER+/HER2- BC.",
       "accent_color": "#f25f4c",
@@ -107,7 +154,7 @@
       "venue_display": "Circ Genom Precis Med"
     },
     {
-      "abstract": "",
+      "abstract": "The genus Bacillus comprises Gram-positive, endospore-forming rods with a ubiquitous distribution across terrestrial, aquatic, and aerial environments, as well as associations with plants, animals, and food. To explore its diversity, we conducted an integrated phylogenomic and pangenome analysis using 10,839 publicly available RefSeq genomes (67 type strain genomes). Taxonomic delimitation combining genomic-distance metrics (Mash/ANI), network analyses, and a label-propagation algorithm assigned 10,276 genomes to operational communities, revealing novel complexes within B. cereussensu lato and other clades. A robust phylogeny reconstructed from 103 representative genomes corroborated the ANI-based groupings. Forty-eight communities (≥ 10 genomes) were further analyzed for pangenome openness, showing a strong negative correlation between the saturation coefficient (α) and genomic fluidity (φ) (ρ = −0.636), indicating that open pangenomes exhibit high gene-content variability. Functional profiling revealed 135 antifungal genes and 15 secondary metabolite clusters, highlighting B. velezensis, B. amyloliquefaciens, and B. subtilis as rich reservoirs of hydrolytic enzymes, NRPS/PKS systems, and nutrient-competition traits. Additionally, 135 resistance determinants and 115 virulence factors were identified, mainly within B. cereus sensu lato. Biofertilization genes related to phosphorus, nitrogen, siderophore, potassium, and sulfur metabolism were broadly conserved, underscoring the genus biotechnological potential. The online version contains supplementary material available at 10.1007/s11274-026-04933-x.",
       "accent_color": "#2f8f6b",
       "authors": [
         "Hector J Acho-Vasquez",
@@ -132,7 +179,7 @@
       "primary_topic": "pangenome_sv",
       "primary_topic_label": "Pangenome / Structural Variation",
       "published_date": "2026-04-10",
-      "short_abstract": "",
+      "short_abstract": "The genus Bacillus comprises Gram-positive, endospore-forming rods with a ubiquitous distribution across terrestrial, aquatic, and aerial environments, as well as associations with plants, animals, and food. To explore its diversity, we conducted an integrated phylogenomic and pangenome analysis using 10,839 publicly available RefSeq...",
       "source_primary": "pubmed",
       "sources": [
         "pubmed"
@@ -286,57 +333,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41952634/",
       "venue": "Haematologica",
       "venue_display": "Haematologica"
-    },
-    {
-      "abstract": "Canker disease caused by Pseudomonas syringae pv. actinidiae (Psa) poses a major threat to cultivated kiwifruit, and utilization of wild relatives are key to improve resistance. However, comprehensive comparative genomic analyses between cultivated kiwifruit and their wild relatives with enhanced resistance to Psa remain limited. Here we generate chromosome-scale genome assemblies for eleven wild Actinidia eriantha accessions and one interspecific hybrid between Actinidia eriantha and cultivated Actinidia chinensis var. chinensis. Integrating these with twelve previously released genomes including three Actinidia eriantha and nine Actinidia chinensis var. chinensis, we construct a reference-unbiased graph-based pangenome. These datasets reveal extensive genomic variation, including 31,790,044 SNPs, 13,512,079 InDels and 623,478 structural variations, and provide a landscape of structural variations within and between the two species. Leveraging these datasets, we identify a wild allele showing allele-specific expression, AeNLR25-1, which enhances Psa resistance in cultivated kiwifruit. Genetic and molecular analyses demonstrate that a transposable element-induced structural variation in the AeNLR25-1 promoter introduces a species-specific WRKY binding site, conferring enhanced defense against Psa. Pangenome across cultivated species and wild relatives provides a theoretical framework for accelerating kiwifruit genetic improvement through pangenome-enabled identification of favorable wild alleles.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Ying Wu",
-        "Yingzhen Wang",
-        "Yunzhi Lin",
-        "Meng Zhao",
-        "Yuyu Huo",
-        "Tao Zhang",
-        "Hongtao Wang",
-        "Yanyan Zhu",
-        "Lihuan Wang",
-        "Pengpeng Zheng",
-        "Junyang Yue",
-        "Songhu Wang",
-        "Yongsheng Liu"
-      ],
-      "authors_display": "Ying Wu, Yingzhen Wang, Yunzhi Lin, et al.",
-      "first_seen_at": "2026-04-11T03:35:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/s13059-026-04068-0",
-        "pmcid": null,
-        "pmid": "41957668"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variation",
-          "structural variations",
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1186/s13059-026-04068-0",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-09",
-      "short_abstract": "Canker disease caused by Pseudomonas syringae pv. actinidiae (Psa) poses a major threat to cultivated kiwifruit, and utilization of wild relatives are key to improve resistance. However, comprehensive comparative genomic analyses between cultivated kiwifruit and their wild relatives with enhanced resistance to Psa remain limited. Here...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Allelic structural variation at the NLR25-1 locus enhances defense against Pseudomonas syringae in kiwifruit.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41957668/",
-      "venue": "Genome Biol",
-      "venue_display": "Genome Biol"
     },
     {
       "abstract": "Evolutionary engineering is a key strategy for obtaining industrial strains with high stress tolerance and productivity, as well as improving enzyme performance. However, low natural mutation rates, small in vitro mutation libraries, and lengthy phenotypic screening cycles constrain the further development of this approach. In vivo continuous evolution technologies address these challenges by implementing mutagenesis within living microbial cells, elevating mutation rates and enabling the rapid evolution of strains or genes. This review systematically examines three in vivo continuous evolution platforms based on error-prone DNA replication, DNA base modification, and DNA recombination. For each mutational mechanism, the underlying design principles, representative applications, and strategies for optimizing mutational spectra and selection regimes are discussed. By comparing their molecular mechanisms, advantages, and limitations, recent advances in the field are summarized and future directions for evolutionary engineering are outlined. Collectively, this review provides a coherent framework for understanding in vivo microbial continuous evolution technologies and offers guidance for strain development and enzyme engineering.",
