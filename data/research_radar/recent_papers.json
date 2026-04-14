@@ -1,6 +1,286 @@
 {
-  "generated_at": "2026-04-13T04:18:37Z",
+  "generated_at": "2026-04-14T04:08:13Z",
   "latest": [
+    {
+      "abstract": "Rearrangements involving MYC, BCL2, and BCL6 are central to the genetic classification and risk stratification of diffuse large B cell lymphoma (DLBCL). In routine practice, these alterations are primarily assessed by fluorescence in situ hybridization (FISH), which provides limited diagnostic information and lacks information on partner genes, breakpoint architecture, or clonal complexity. We investigated whether targeted next-generation sequencing (NGS) refines the interpretation of gene rearrangements in aggressive B cell lymphomas and alters their diagnostic classification. Tumor samples from 48 patients were analyzed using FISH, immunohistochemistry, and a custom hybrid-capture NGS panel enabling simultaneous detection of structural variants, copy number alterations, and somatic mutations. Targeted NGS identified 59 fusion events in 37 patients, including 26 MYC rearrangements (MYC-Rs). A substantial proportion (58%) involved non-immunoglobulin partners, many of them previously unreported. NGS resolved inconclusive or discordant FISH results, uncovered cryptic rearrangements, and revealed genomic complexity. In several cases, these findings refined genetic classification, including the identification of additional double- and triple-hit lymphomas. These results demonstrate that a FISH-based assessment of MYC-, BCL2-, and BCL6-Rs is insufficient to capture the biological and diagnostic complexity of DLBCL. Targeted NGS provides structural and functional context that improves interpretation of rearrangements and supports a more refined genetic classification in routine practice.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Mariana Bastos Oreiro",
+        "Sara Fernández de Córdoba Oñate",
+        "Ismael de la Iglesia San Sebastián",
+        "Francisco Díaz-Crespo",
+        "María Chicano Lavilla",
+        "Juan Carlos Triviño",
+        "Raquel Fernández González",
+        "Miguel López-Esteban",
+        "Marina Gómez-Llobel",
+        "Paula Fernández Caldas",
+        "Pablo Silva",
+        "Javier Menárguez",
+        "Ramón García Sanz",
+        "Ismael Buño",
+        "Carolina Martínez Laperche"
+      ],
+      "authors_display": "Mariana Bastos Oreiro, Sara Fernández de Córdoba Oñate, Ismael de la Iglesia San Sebastián, et al.",
+      "first_seen_at": "2026-04-14T04:08:13Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1371/journal.pone.0263980",
+        "pmcid": "8846522",
+        "pmid": "41973147"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1371/journal.pone.0263980",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-13",
+      "short_abstract": "Rearrangements involving MYC, BCL2, and BCL6 are central to the genetic classification and risk stratification of diffuse large B cell lymphoma (DLBCL). In routine practice, these alterations are primarily assessed by fluorescence in situ hybridization (FISH), which provides limited diagnostic information and lacks information on...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Beyond Binary FISH Results: Targeted NGS Provides Deeper Characterization of MYC and Broader Genomic Alterations in DLBCL.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41973147/",
+      "venue": "Mol Diagn Ther",
+      "venue_display": "Mol Diagn Ther"
+    },
+    {
+      "abstract": "Streptococcus suis serotype 9 is an emerging zoonotic pathogen threatening pig production and public health. Here, we combined comparative genomics of 16 strains, including clinical isolate SS2401, to elucidate the role of prophages in shaping genomic plasticity and virulence evolution. The pan-genome was open (α = 0.375), highlighting extensive genetic diversity. Prophages were prevalent (56.25% of strains), significantly correlated with larger genomes, and exhibited two integration modes: direct insertion as genomic islands and integration at recombination hotspots associated with large-scale inversions. Phylogenetic analysis of the terminase large subunit (TerL) and whole-genome sequences revealed multiple independent acquisitions, with three prophages in SS2401 originating from distinct lineages (\"one strain, multiple sources\"). Recombination analysis detected 1,432 events across the core genome, indicating frequent horizontal gene exchange. The virulence gene sly (suilysin) was carried as a gene cassette within prophage Phi2401a. Notably, we identified integrase-deficient but otherwise intact prophages that may function as \"gene prisons,\" stably fixing virulence traits. These findings demonstrate that prophages act as dual drivers of genomic architecture and as dynamic reservoirs for virulence genes, providing a framework for understanding bacterial adaptation and informing surveillance strategies in the swine industry.IMPORTANCEStreptococcus suis serotype 9 poses a significant threat to pig farming and public health worldwide. This study reveals that prophages are not passive passengers but active architects of genomic plasticity and virulence evolution in this pathogen. We demonstrate that prophages contribute to genome expansion, facilitate large-scale chromosomal rearrangements, and carry key virulence genes such as sly. The discovery of a \"one strain, multiple sources\" acquisition pattern and the \"gene prison\" model explains how virulence traits can be stably maintained and disseminated. These findings redefine prophages as dual drivers of bacterial evolution, providing new insights for surveillance and intervention strategies in the swine industry.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Zhenglong Wen",
+        "Yaqi Guo",
+        "Yan Liang",
+        "Yanfang Li",
+        "Kexun Lian",
+        "Rui Tang",
+        "Shoupan Li",
+        "Pei Zheng",
+        "Yonggang Qu"
+      ],
+      "authors_display": "Zhenglong Wen, Yaqi Guo, Yan Liang, et al.",
+      "first_seen_at": "2026-04-14T04:08:13Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1128/spectrum.00061-26",
+        "pmcid": null,
+        "pmid": "41972771"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pan genome"
+        ],
+        "recombination": [
+          "recombination hotspots"
+        ]
+      },
+      "paper_key": "doi:10.1128/spectrum.00061-26",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-13",
+      "short_abstract": "Streptococcus suis serotype 9 is an emerging zoonotic pathogen threatening pig production and public health. Here, we combined comparative genomics of 16 strains, including clinical isolate SS2401, to elucidate the role of prophages in shaping genomic plasticity and virulence evolution. The pan-genome was open (α = 0.375), highlighting...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Prophage-mediated lysogenic conversion drives virulence evolution and genomic plasticity in Streptococcus suis serotype 9.",
+      "topics": [
+        "recombination",
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41972771/",
+      "venue": "Microbiol Spectr",
+      "venue_display": "Microbiol Spectr"
+    },
+    {
+      "abstract": "Effective visualization is essential for interpreting genomics data, yet researchers often face challenges in finding relevant, reusable examples. Existing tools offer limited support for searching the vast landscape of genomics visualizations, making the process of authoring new visualizations time-consuming and inefficient. To address this gap, we introduce Geranium, a data visualization retrieval system for searching and authoring genomics visualizations. Geranium supports multimodal retrieval, enabling users to query with images, text, or grammar based specifications. Retrieved examples serve as scaffolds for authoring, providing templates that researchers can adapt with their own data, thereby streamlining the mechanics of visualization construction. Geranium integrates three embedding methods to combine specialized and general knowledge: grammar-based embeddings tailored to genomics visualizations, multimodalem beddings from a biomedical vision-language foundation model, and text embeddings from a fine-tuned large language model. For each visualization, we construct a multimodal representation that includes a Gosling specification, a pixel-based rendering, and natural language descriptions. We evaluate embedding strategies to maximize top-k retrieval accuracy and conduct user studies with domain collaborators to gather feedback on usability. Our collection comprises 3,200 visualizations across 50 categories, ranging from single-view to coordinated multi-view designs and supporting applications from single-cell epigenomics to structural variation analysis.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Huyen N Nguyen",
+        "Sehi L'Yi",
+        "Thomas C Smits",
+        "Shanghua Gao",
+        "Marinka Zitnik",
+        "Nils Gehlenborg"
+      ],
+      "authors_display": "Huyen N Nguyen, Sehi L'Yi, Thomas C Smits, et al.",
+      "first_seen_at": "2026-04-14T04:08:13Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1109/tvcg.2026.3683429",
+        "pmcid": null,
+        "pmid": "41973568"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation"
+        ]
+      },
+      "paper_key": "doi:10.1109/tvcg.2026.3683429",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-13",
+      "short_abstract": "Effective visualization is essential for interpreting genomics data, yet researchers often face challenges in finding relevant, reusable examples. Existing tools offer limited support for searching the vast landscape of genomics visualizations, making the process of authoring new visualizations time-consuming and inefficient. To address...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Geranium: Multimodal Retrieval of Genomics Data Visualizations.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41973568/",
+      "venue": "IEEE Trans Vis Comput Graph",
+      "venue_display": "IEEE Trans Vis Comput Graph"
+    },
+    {
+      "abstract": "The YABBY family of transcription factors plays an important role in plant growth, development, and stress tolerance. To further explore how CsYABBY family members participate in the drought response mechanism in tea plants (Camellia sinensis [L.] O. Kuntze), we performed a family analysis based on the published pan-genomes of 22 tea varieties and identified a total of 27 CsYABBYs, including 4 near-core genes. Collinearity analysis and Ka/Ks results showed that four near-core genes, CsYABBY7, CsYABBY9, CsYABBY10, and CsYABBY11, were relatively conserved and under purifying selection during tea domestication. In addition, expression patterns showed their differential responses to drought stress. Functional experiments further confirmed that overexpression of CsYABBY7/10/11 could reduce the accumulation of reactive oxygen species and increase the activities of osmoregulatory substances and antioxidant enzymes, thereby enhancing drought resistance. Inhibition of these genes has the opposite effect. CsYABBY9 exhibits dosage-sensitive regulation, in which both overexpression and knockdown compromise drought tolerance.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Shengjing Wen",
+        "Chengzhe Zhou",
+        "Caiyun Tian",
+        "Yuting Li",
+        "Shuaibo Shao",
+        "Cheng Zhang",
+        "Anru Zheng",
+        "Changlian Wu",
+        "Siwei Deng",
+        "Zhong Wang",
+        "Yuqiong Guo"
+      ],
+      "authors_display": "Shengjing Wen, Chengzhe Zhou, Caiyun Tian, et al.",
+      "first_seen_at": "2026-04-14T04:08:13Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1021/acs.jafc.5c16053",
+        "pmcid": null,
+        "pmid": "41968921"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pan genome"
+        ]
+      },
+      "paper_key": "doi:10.1021/acs.jafc.5c16053",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-13",
+      "short_abstract": "The YABBY family of transcription factors plays an important role in plant growth, development, and stress tolerance. To further explore how CsYABBY family members participate in the drought response mechanism in tea plants (Camellia sinensis [L.] O. Kuntze), we performed a family analysis based on the published pan-genomes of 22 tea...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Pan-genome Identification of CsYABBYs and Validation of Drought Stress Responses in Tea Plants.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41968921/",
+      "venue": "J Agric Food Chem",
+      "venue_display": "J Agric Food Chem"
+    },
+    {
+      "abstract": "Rhododendron, a globally important group of alpine flowering plants, provides an exceptional system for investigating ecological adaptation and stress resistance owing to its high-altitude specialization. Using 18 Rhododendron species, a graph-based pangenome was constructed that captures 72,089 nonredundant structural variants. The findings support the integration of subgenus Azaleastrum into subgenus Tsutsusi, with their comparatively smaller genome sizes likely resulting from the contraction of multiple gene families during lineage differentiation. Gene families specific to high-altitude Rhododendron species were significantly enriched in pathways associated with stress resistance. High-altitude-specific long terminal repeat retrotransposons operate through similar regulatory mechanisms, predominantly influencing stress-responsive genes and promoting adaptive evolution. Through an integrated analysis of population genetics (389 re-sequenced samples with a mean coverage of 50.2×), transcriptomics, and real-time quantitative polymerase chain reaction, conserved genes and gene families linked to alpine adaptation in Rhododendron were identified. These include genes implicated in cold-stress responses and ultraviolet (UV) tolerance, such as CML18, CPK1, DREB1E, LPAT2, GPC1, and UVR8. Structural variant profiles within several of these genes offer insights into divergent adaptive mechanisms between high- and low-altitude Rhododendron species. The rapid induction of cold-sensing genes and CBF/DREB1-centered cold-stress signaling pathways indicates an evolutionary adaptation of alpine Rhododendron species to low-temperature habitats. Furthermore, transgenic analyses indicate that cold-resistance genes, such as GPC1 derived from high-altitude Rhododendron, markedly improve cold tolerance in Arabidopsis thaliana and tobacco. Collectively, this study advances insights into high-altitude adaptation in ornamental plants and underscores the value of super-pangenome resources for evolutionary and functional genomics research.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Haoyang Zhou",
+        "Zhongping Xu",
+        "Fanhuang Zeng",
+        "Haiyu Sang",
+        "Zhenhua Liu",
+        "Miao Sun",
+        "Qiang Fu",
+        "Kaige Zhao",
+        "Daming Tan",
+        "Manzhu Bao",
+        "Shuangxia Jin",
+        "Xiuqun Liu"
+      ],
+      "authors_display": "Haoyang Zhou, Zhongping Xu, Fanhuang Zeng, et al.",
+      "first_seen_at": "2026-04-14T04:08:13Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1111/jipb.70252",
+        "pmcid": null,
+        "pmid": "41968463"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenome",
+          "structural variants",
+          "structural variant"
+        ]
+      },
+      "paper_key": "doi:10.1111/jipb.70252",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-12",
+      "short_abstract": "Rhododendron, a globally important group of alpine flowering plants, provides an exceptional system for investigating ecological adaptation and stress resistance owing to its high-altitude specialization. Using 18 Rhododendron species, a graph-based pangenome was constructed that captures 72,089 nonredundant structural variants. The...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Pangenome analysis reveals the genetic mechanism underlying high-altitude adaptation in Qinghai-Xizang (Tibet) Plateau Rhododendron.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41968463/",
+      "venue": "J Integr Plant Biol",
+      "venue_display": "J Integr Plant Biol"
+    },
+    {
+      "abstract": "Probabilistic models such as the sequentially Markovian coalescent have long provided a powerful framework for population genetic inference, enabling reconstruction of demographic history and ancestral relationships from genomic data. However, these methods are inherently specialized, relying on predefined assumptions and/or limited scalability. Recent advances in simulation and deep learning provide an alternative approach: learning directly to generalize from synthetic genetic data to infer hidden evolutionary processes. Here we reframe the inference of coalescence times as a problem of translation between two biological languages: the sparse, observable patterns of mutation along the genome and the unobservable ancestral recombination graph that gave rise to them. Inspired by large language models, we develop cxt, a decoder-only transformer that autoregressively predicts coalescent events conditioned on local mutational context. We show that cxt performs competitively with state-of-the-art Markov Chain Monte Carlo-based likelihood models across a broad range of demographic scenarios, matching their accuracy in-distribution and approaching it in out-of-distribution, with the potential for improvement via fine-tuning. Trained on simulations spanning the stdpopsim catalog [J. R. Adrion et al., eLife 9, e54967 (2020); M. E. Lauterbur et al., eLife 12, e84874 (2023); G. Gower et al., Accessible, realistic genome simulation with selection using stdpopsim. bioRxiv [Preprint] (2025). https://doi.org/10.1101/2025.03.23.644823.], the model generalizes robustly and enables efficient inference at scale, producing over a million coalescence predictions in minutes. cxt also produces well-calibrated approximate posteriors, enabling principled uncertainty quantification. We apply cxt to population genomic data from both humans and mosquitoes, highlighting the model's ability to deal with the complexities of empirical data.",
+      "accent_color": "#2d6cdf",
+      "authors": [
+        "Kevin Korfmann",
+        "Nathaniel S Pope",
+        "Melinda Meleghy",
+        "Aurélien Tellier",
+        "Andrew D Kern"
+      ],
+      "authors_display": "Kevin Korfmann, Nathaniel S Pope, Melinda Meleghy, et al.",
+      "first_seen_at": "2026-04-14T04:08:13Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1073/pnas.2518956123",
+        "pmcid": null,
+        "pmid": "41961853"
+      },
+      "matched_keywords": {
+        "arg": [
+          "ancestral recombination graph"
+        ]
+      },
+      "paper_key": "doi:10.1073/pnas.2518956123",
+      "primary_topic": "arg",
+      "primary_topic_label": "Ancestral Recombination Graph",
+      "published_date": "2026-04-10",
+      "short_abstract": "Probabilistic models such as the sequentially Markovian coalescent have long provided a powerful framework for population genetic inference, enabling reconstruction of demographic history and ancestral relationships from genomic data. However, these methods are inherently specialized, relying on predefined assumptions and/or limited...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Coalescence and translation: A language model for population genetics.",
+      "topics": [
+        "arg"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41961853/",
+      "venue": "Proc Natl Acad Sci U S A",
+      "venue_display": "Proc Natl Acad Sci U S A"
+    },
     {
       "abstract": "The murine C1498 cell line is one of the most widely used syngeneic models to investigate acute myeloid leukemia (AML) pathogenesis, tumor-host interactions and therapeutic responses. However, in the absence of a comprehensive molecular characterization it remains impossible to reliably associate genetic lesions with disease phenotype, drug sensitivity or resistance. Here, we provide an integrated genomic and functional analysis combining whole genome and whole transcriptome sequencing (WGS and WTS), multicolor fluorescent in situ hybridization (M-FISH) and drug sensitivity assays. WGS identified 2,007 coding variants absent from population databases, including functionally relevant alterations in AML-related genes. These comprised deleterious or likely pathogenic variants in Nf1, Gnas and Trp53 (murine ortholog of the human TP53 gene), a splice-site mutation in Crebbp and truncating variants in Bcor and Tet2. Structural variant analysis revealed 1,767 events, including deletions of Trp53, Nf1, Brca1, Csnk1a1, Ctnna1, Luc7l2 and cohesin genes, and Myc tandem duplication. Copy number variant profiling detected ten tumor-specific alterations, including amplifications of Stk32b and Bub1, the latter linked to aggressive cancer phenotypes. Variants integration uncovered biallelic disruption of Trp53, double-hit events affecting additional tumor suppressors (mutation and deletion: Nf1, Recql4) and oncogenes (mutation and amplification: Idh1, Gnas, Pik3cd, Vav1). Functionally, C1498 demonstrated in vitro a dose- and time-dependent response to venetoclax/azacitidine consistent with resistance, in line with the presence of altered Trp53 and recent prognostic AML signatures. This comprehensive molecular framework establishes C1498 as a genetically defined AML model and provides a valuable resource to inform biomarker-driven preclinical studies and translational research aimed at overcoming venetoclax/azacitidine resistance. The online version contains supplementary material available at 10.1186/s40364-026-00915-1.",
       "accent_color": "#2f8f6b",
@@ -92,198 +372,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41963560/",
       "venue": "Ann Surg Oncol",
       "venue_display": "Ann Surg Oncol"
-    },
-    {
-      "abstract": "International guidelines suggest prophylactic anticoagulation for patients with cancer at high risk of venous thromboembolism (VTE). Here, we evaluated whether tumor whole-genome sequencing data may improve the selection of high-risk patients. In a pan-cancer cohort of 3087 patients, associations of candidate clinical predictors, the germline extended 297-single nucleotide polymorphism polygenic risk score, tumor mutational characteristics, and somatic tumor mutations with VTE were estimated by calculating hazard ratios (HRs). During 12-month follow-up, 237 (7.7%) developed VTE. The germline extended 297-single nucleotide polymorphism score was associated with VTE (HR per point increase, 2.11 [95% CI, 1.45-3.06]), as well as the total number of somatic structural variants (HR per 1000 increase, 1.21 [95% CI, 1.07-1.37]) and 129 somatic mutations (unadjusted P<0.05), including POLR2E (HR, 3.34 [95% CI, 1.68-6.97]), PALM (HR, 3.73 [95% CI, 1.74-7.99]), TBX22 (HR, 2.47 [95% CI, 1.40-4.35]), and ELANE (HR, 3.22 [95% CI, 1.51-6.87]). To further explore the potential of tumor whole-genome sequencing, prediction models were constructed including selected clinical predictors only (model 1), clinical predictors and germline variants (model 2), and the combination of clinical predictors, germline variants, and 14 top discriminating somatic mutations (model 3). The optimism corrected concordance index was 0.66 (95% CI, 0.62-0.69) for model 1, 0.67 (95% CI, 0.62-0.72) for model 2, and 0.77 (95% CI, 0.72-0.81) for model 3. This was significantly higher than that of the currently endorsed clinical Khorana VTE risk score (concordance index, 0.55 [95% CI, 0.51-0.59]; P<0.005). These data indicate that tumor whole-genome sequencing may improve VTE prediction by clinical risk scores. Validation studies to confirm these findings are needed.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Frits I Mulder",
-        "Noori A M Guman",
-        "Job van Riet",
-        "Roos J van Geffen",
-        "Thijs F van Haaps",
-        "Vahram Hovsepjan",
-        "Hanneke W M van Laarhoven",
-        "Geert A Cirkel",
-        "Filip Y F L de Vos",
-        "Hans M Westgeest",
-        "Laurens V Beerepoot",
-        "Judith de Vos-Geelen",
-        "Mariette Labots",
-        "Paul Hamberg",
-        "Annelie J E Vulink",
-        "Maartje Los",
-        "Aeilko H Zwinderman",
-        "Debbie G J Robbrecht",
-        "Maja J A de Jonge",
-        "Harry R Büller",
-        "Pieter W Kamphuisen",
-        "Bart Ferwerda",
-        "Neeltje Steeghs",
-        "Nick van Es"
-      ],
-      "authors_display": "Frits I Mulder, Noori A M Guman, Job van Riet, et al.",
-      "first_seen_at": "2026-04-11T03:35:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1161/circgen.124.005182",
-        "pmcid": null,
-        "pmid": "41958384"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1161/circgen.124.005182",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-10",
-      "short_abstract": "International guidelines suggest prophylactic anticoagulation for patients with cancer at high risk of venous thromboembolism (VTE). Here, we evaluated whether tumor whole-genome sequencing data may improve the selection of high-risk patients. In a pan-cancer cohort of 3087 patients, associations of candidate clinical predictors, the...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Tumor Whole-Genome Sequencing for Prediction of Venous Thromboembolism in Patients With Metastasized Solid Cancer.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41958384/",
-      "venue": "Circ Genom Precis Med",
-      "venue_display": "Circ Genom Precis Med"
-    },
-    {
-      "abstract": "The genus Bacillus comprises Gram-positive, endospore-forming rods with a ubiquitous distribution across terrestrial, aquatic, and aerial environments, as well as associations with plants, animals, and food. To explore its diversity, we conducted an integrated phylogenomic and pangenome analysis using 10,839 publicly available RefSeq genomes (67 type strain genomes). Taxonomic delimitation combining genomic-distance metrics (Mash/ANI), network analyses, and a label-propagation algorithm assigned 10,276 genomes to operational communities, revealing novel complexes within B. cereussensu lato and other clades. A robust phylogeny reconstructed from 103 representative genomes corroborated the ANI-based groupings. Forty-eight communities (≥ 10 genomes) were further analyzed for pangenome openness, showing a strong negative correlation between the saturation coefficient (α) and genomic fluidity (φ) (ρ = −0.636), indicating that open pangenomes exhibit high gene-content variability. Functional profiling revealed 135 antifungal genes and 15 secondary metabolite clusters, highlighting B. velezensis, B. amyloliquefaciens, and B. subtilis as rich reservoirs of hydrolytic enzymes, NRPS/PKS systems, and nutrient-competition traits. Additionally, 135 resistance determinants and 115 virulence factors were identified, mainly within B. cereus sensu lato. Biofertilization genes related to phosphorus, nitrogen, siderophore, potassium, and sulfur metabolism were broadly conserved, underscoring the genus biotechnological potential. The online version contains supplementary material available at 10.1007/s11274-026-04933-x.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Hector J Acho-Vasquez",
-        "Sarah Henaut-Jacobs",
-        "Thiago M Venancio"
-      ],
-      "authors_display": "Hector J Acho-Vasquez, Sarah Henaut-Jacobs, Thiago M Venancio",
-      "first_seen_at": "2026-04-11T03:35:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.scitotenv.2024.170903",
-        "pmcid": "10320055",
-        "pmid": "41961409"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.scitotenv.2024.170903",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-10",
-      "short_abstract": "The genus Bacillus comprises Gram-positive, endospore-forming rods with a ubiquitous distribution across terrestrial, aquatic, and aerial environments, as well as associations with plants, animals, and food. To explore its diversity, we conducted an integrated phylogenomic and pangenome analysis using 10,839 publicly available RefSeq...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Integrative phylogenomic and pangenome landscape of Bacillus: insights from 10,000 genomes into taxonomy, functional potential, and biotechnological applications.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41961409/",
-      "venue": "World J Microbiol Biotechnol",
-      "venue_display": "World J Microbiol Biotechnol"
-    },
-    {
-      "abstract": "Alagille syndrome (ALGS) is a rare multisystem disorder most commonly resulting from pathogenic variants in JAG1 and, less frequently, NOTCH2. We evaluated long-term native liver survival (NLS) and overall survival (OS) in a Korean ALGS cohort and compared the genetic characteristics of this cohort with those of the Global ALagille Alliance (GALA) study cohort. We retrospectively reviewed 60 patients with clinically diagnosed ALGS at Seoul National University Hospital. Forty-three patients with genetically confirmed disease were analyzed. Eight patients (18.6%) underwent liver transplantation (median age: 3.9 years), revealing a lower rate than that in the comparator cohort. The estimated NLS percentages at 5, 10, and 18 years were 86.9%, 86.9%, and 76.6%, respectively, exceeding those in previous reports. The corresponding OS rates were 90.2%, 86.9%, and 86.9%, respectively. The following types of JAG1 variants were identified in 41 patients (95.3%): frameshift (34.1%), nonsense (26.8%), missense (24.4%), and splice-site (9.8%) variants and in-frame deletions (4.9%). Compared with the reference group, our cohort exhibited a greater frequency of non-protein-truncating variants (missense variants and in-frame deletions; p = 0.023) and no structural variants (p = 0.043). Two patients (4.7%) carried NOTCH2 nonsense variants. Mortality was significantly higher among patients with frameshift variants compared with patients with non-frameshift variants (4 of 5 deaths; p = 0.035). Compared with the GALA cohort, Korean patients with ALGS exhibited more favorable long-term NLS and a higher proportion of non-protein-truncating JAG1 variants, alongside the absence of structural variants. These findings suggest potential genetic influences and highlight the need for multicenter validation. • The Global ALagille Alliance (GALA) study reports native liver survival (NLS) rates of 66.8%, 54.4%, and 40.3% at 5, 10, and 18 years, respectively, in patients with Alagille syndrome. • NLS rates are higher among Asians, with unclear genotype-phenotype correlations. • Compared to the GALA study cohort, the Korean cohort demonstrates superior NLS rates of 86.9%, 86.9%, and 76.6% at 5, 10, and 18 years and a higher frequency of non-truncating JAG1 variants, along with the absence of structural variants. • Protein-truncating variants are associated with higher initial gamma-glutamyl transferase levels, while frameshift variants are associated with reduced overall survival.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Shinjie Choi",
-        "Dong-Uk Kim",
-        "Yeji Kim",
-        "Lia Kim",
-        "Jung Ok Shim",
-        "Jin Soo Moon",
-        "Jong Woo Hahn",
-        "Hye Ran Yang",
-        "Ju Young Chang",
-        "Jae Sung Ko"
-      ],
-      "authors_display": "Shinjie Choi, Dong-Uk Kim, Yeji Kim, et al.",
-      "first_seen_at": "2026-04-11T03:35:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1007/s12029-020-00391-2",
-        "pmcid": "9730729",
-        "pmid": "41961327"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1007/s12029-020-00391-2",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-10",
-      "short_abstract": "Alagille syndrome (ALGS) is a rare multisystem disorder most commonly resulting from pathogenic variants in JAG1 and, less frequently, NOTCH2. We evaluated long-term native liver survival (NLS) and overall survival (OS) in a Korean ALGS cohort and compared the genetic characteristics of this cohort with those of the Global ALagille...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Native liver survival and genetic associations in Korean patients with Alagille syndrome.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41961327/",
-      "venue": "Eur J Pediatr",
-      "venue_display": "Eur J Pediatr"
-    },
-    {
-      "abstract": "The muscle capsule of Trichinella is a critical structure that impedes immune attacks and drug penetration, yet the molecular mechanisms underlying its formation remain poorly understood. Using a high-quality super-pangenome comprising 12 Trichinella species, we compared extensive genomic variations between encapsulating and non-encapsulating lineages. Pangenomic analysis revealed an open-genome architecture dominated by dispensable genes, with nonencapsulated lineages exhibiting a high load of structural variation (SV). These findings suggest that the capsule represents an evolutionary innovation that arose in the common ancestor of Trichinella as an adaptation to mammalian hosts, dating back approximately 18 million years. Branch-specific selection analysis further revealed distinct host adaptation strategies between the two lineages. By integrating cross-species and cross-developmental transcriptomic atlases, we constructed a secreted protein-host interaction network and identified encapsulation-associated parasite-secreted proteins. Additionally, we identified dpy-31 as a promising drug target. Collectively, our work establishes a comprehensive genomic and functional framework that deepens the understanding of host-parasite interactions and opens avenues for therapeutic intervention.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Qingbo Lv",
-        "Yi Liu",
-        "Ning Xu",
-        "Xiao Zhang",
-        "Yaming Yang",
-        "Chengyao Li",
-        "Hanhai Mao",
-        "Mingyuan Liu",
-        "Xiaolei Liu"
-      ],
-      "authors_display": "Qingbo Lv, Yi Liu, Ning Xu, et al.",
-      "first_seen_at": "2026-04-11T03:35:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1002/advs.202523161",
-        "pmcid": null,
-        "pmid": "41961514"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome",
-          "structural variation",
-          "pangenomic"
-        ]
-      },
-      "paper_key": "doi:10.1002/advs.202523161",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-10",
-      "short_abstract": "The muscle capsule of Trichinella is a critical structure that impedes immune attacks and drug penetration, yet the molecular mechanisms underlying its formation remain poorly understood. Using a high-quality super-pangenome comprising 12 Trichinella species, we compared extensive genomic variations between encapsulating and...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "The Trichinella Super-Pangenome Reveals the Evolution of Encapsulation and Predicted Host-Parasite Protein Interactions.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41961514/",
-      "venue": "Adv Sci (Weinh)",
-      "venue_display": "Adv Sci (Weinh)"
     },
     {
       "abstract": "Prolonged exposure to ultraviolet (UV) light leads to DNA damage, causing mutation accumulation and cancer, particularly in the skin. Recent studies revealed that patients with aneuploid subtypes of pediatric B-cell precursor acute lymphoblastic leukemia (BCP-ALL) commonly present with single base substitution signature 7a (SBS7a), a hallmark of UVbased DNA damage, but its origin is unclear. We screened a cohort of 191 whole genome sequenced BCP-ALL cases and confirmed the presence of SBS7a in high hyperdiploid, iAMP21 and low hypodiploid subtypes. Screening of an in-house pediatric pan-cancer cohort (n=1033) detected SBS7a, apart from BCP-ALL, only in tumors with proven cutaneous localization. Subsequent characterization of 43 BCP-ALL samples from 27 SBS7a-positive patients revealed no causative DNA repair defects. Furthermore, the mutational characteristics in SBS7a-positive BCP-ALL were very similar to those encountered in SBS7apositive adult skin cancers (n=273) and pediatric cutaneous anaplastic large cell lymphomas (n=7), suggesting a shared UV-induced etiology. Subtle differences in aneuploid patterns were observed between SBS7a-positive and SBS7a-negative high hyperdiploid and iAMP21 cases. In several cases, we detected SBS7a-positive subclones at primary diagnosis, or relapses with apparently newly acquired SBS7a-associated mutations, together suggesting prolonged UV damage during expansion. Single-cell whole genome sequencing in two other cases confirmed some level of SBS7a-induced clonal diversity, but no indications for ongoing SBS7a-associated mutagenesis during bone marrow progression. Our data suggest that SBS7a-associated mutations occur in a subset of aneuploid BCP-ALL subtypes due to UVinduced damage during early expansion in extramedullary sites before bone marrow expansion.",
@@ -645,45 +733,6 @@
       "venue_display": "Nat Commun"
     },
     {
-      "abstract": "Programmed DNA double-strand breaks (DSBs) catalyzed by the conserved topoisomerase-like complex SPO11-TOP6BL, together with its accessory proteins, initiate meiotic recombination, a process central to meiosis. In mammals, DSBs are distributed nonrandomly at preferential genomic sites (called hotspots) defined largely by the meiosis-specific protein PRDM9. Precise temporal and spatial control of DSB formation is essential for generating genetic diversity while maintaining genomic stability during meiosis. Disruption of this process leads to aberrant recombination, chromosome mis-segregation, and reproductive defects. In this review, we summarize recent genetic, biochemical, and structural advances clarifying the molecular architecture and regulation of meiotic DSB formation in mammals.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Xinzhe Tang",
-        "Ming-Han Tong"
-      ],
-      "authors_display": "Xinzhe Tang, Ming-Han Tong",
-      "first_seen_at": "2026-03-21T15:36:16Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.tibs.2026.01.006",
-        "pmcid": null,
-        "pmid": "41850994"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "double strand break formation",
-          "meiotic recombination"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.tibs.2026.01.006",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-03-17",
-      "short_abstract": "Programmed DNA double-strand breaks (DSBs) catalyzed by the conserved topoisomerase-like complex SPO11-TOP6BL, together with its accessory proteins, initiate meiotic recombination, a process central to meiosis. In mammals, DSBs are distributed nonrandomly at preferential genomic sites (called hotspots) defined largely by the...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Mechanism and regulation of meiotic double-strand break formation in mammals.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41850994/",
-      "venue": "Trends Biochem Sci",
-      "venue_display": "Trends Biochem Sci"
-    },
-    {
       "abstract": "Statistical methods to identify Neanderthal ancestry in modern human genomes rest on varying assumptions and inputs. Nonetheless, most studies of introgression use only a single method to define Neanderthal ancestry. Due to a lack of \"ground truth,\" we have a limited understanding of the accuracy, comparative strengths and weaknesses, and the sensitivity of downstream conclusions for these methods. Here, we performed large-scale comparisons of 14 genome-wide introgression maps computed by 11 representative Neanderthal introgression detection algorithms: admixfrog, ArchaicSeeker2, ArchIE, ARGWeaver-D, CRF, DICAL-ADMIX, hmmix, IBDmix, SARGE, Sprime, and S*. These algorithms span statistical approaches based on summary statistics, probabilistic modeling, and machine learning, and vary in their use of archaic, modern, and simulated genomes as input. Our results highlight a core set of regions predicted by nearly all methods, as well as substantial heterogeneity in commonly used Neanderthal introgression maps, especially at the individual genome level. Furthermore, we find that downstream analyses may result in different conclusions depending on the map used. Thus, we recommend careful consideration of map(s) chosen for downstream analysis and support the use of multiple maps to ensure robustness of conclusions. We make integrated prediction sets available, enabling further understanding of Neanderthal introgression's legacy on modern humans.",
       "accent_color": "#2d6cdf",
       "authors": [
@@ -846,49 +895,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41648447/",
       "venue": "bioRxiv",
       "venue_display": "bioRxiv"
-    },
-    {
-      "abstract": "Little has been known until now about the population genomic processes underpinning pest insect species' rapid and ongoing adaptation to chemical insecticides. This paper elucidates these processes for six mutations encoding resistances to four insecticide classes in Chinese Spodoptera exigua: F116V in CYP9A186 against avermectins, T929I and L1014F in VGSC against pyrethroids, V1848I in VGSC against indoxacarb and I4790M and I4790K in RyR against diamides. Whole genome sequencing of 139 individuals from 20 populations across China revealed little genetic differentiation among the populations and soft selective sweeps for all six mutations. Ancestral Recombination Graphs (ARGs) showed at least five of them each had a single origin, with CYP9A186-F116V, VGSC-L1014F and RyR-I4790M and likely also RyR-I4790K arising before use of the corresponding insecticides. VGSC-T929I and VGSC-V1848I arose subsequently in VGSC-L1014F backgrounds. Bioassays of near-isogenic lines showed the double mutant VGSCs enhanced pyrethroid resistance and created pyrethroid/indoxacarb cross-resistance, respectively. While the ARGs predicted the younger RyR-I4790K mutation had overtaken RyR-I4790M in frequency by the time diamides were introduced, the latter has since surged again, to a frequency of ca. 95 %. Thus, S. exigua has evolved resistances to several major insecticides through soft selective sweeps of pre-existing mutations in a panmictic population, supplemented by new mutations that enhance or broaden resistance. The findings demonstrate the power of modern population genomics, including ARG, to reconstruct resistance evolution and, in so doing, improving preparedness for, and pro-active management of, resistance.",
-      "accent_color": "#2d6cdf",
-      "authors": [
-        "Fang Guan",
-        "Bingbing Fang",
-        "Wenjuan Mei",
-        "Suiyu Zeng",
-        "Yihua Yang",
-        "John G Oakeshott",
-        "Yidong Wu"
-      ],
-      "authors_display": "Fang Guan, Bingbing Fang, Wenjuan Mei, et al.",
-      "first_seen_at": "2026-03-21T06:56:57Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.pestbp.2025.106929",
-        "pmcid": null,
-        "pmid": "41628998"
-      },
-      "matched_keywords": {
-        "arg": [
-          "ancestral recombination graphs"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.pestbp.2025.106929",
-      "primary_topic": "arg",
-      "primary_topic_label": "Ancestral Recombination Graph",
-      "published_date": "2025-12-26",
-      "short_abstract": "Little has been known until now about the population genomic processes underpinning pest insect species' rapid and ongoing adaptation to chemical insecticides. This paper elucidates these processes for six mutations encoding resistances to four insecticide classes in Chinese Spodoptera exigua: F116V in CYP9A186 against avermectins,...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Ongoing insecticide resistance evolution in beet armyworm via changes in the utilization of pre-existing and new mutations.",
-      "topics": [
-        "arg"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41628998/",
-      "venue": "Pestic Biochem Physiol",
-      "venue_display": "Pestic Biochem Physiol"
     }
   ]
 }

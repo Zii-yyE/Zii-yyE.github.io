@@ -8,26 +8,24 @@
     },
     {
       "accent_color": "#2d6cdf",
-      "count": 9,
+      "count": 10,
       "id": "arg",
       "label": "Ancestral Recombination Graph"
     },
     {
       "accent_color": "#8b5e34",
-      "count": 9,
+      "count": 10,
       "id": "recombination",
       "label": "Recombination"
     },
     {
       "accent_color": "#2f8f6b",
-      "count": 81,
+      "count": 85,
       "id": "pangenome_sv",
       "label": "Pangenome / Structural Variation"
     }
   ],
-  "generated_at": "2026-04-13T04:18:37Z",
-  "generated_at_china": "2026-04-13 12:18 UTC+8",
-  "source_errors": {
-    "biorxiv": "TimeoutError: The read operation timed out"
-  }
+  "generated_at": "2026-04-14T04:08:13Z",
+  "generated_at_china": "2026-04-14 12:08 UTC+8",
+  "source_errors": {}
 }
