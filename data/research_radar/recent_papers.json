@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-04-14T04:08:13Z",
+  "generated_at": "2026-04-15T03:58:33Z",
   "latest": [
+    {
+      "abstract": "Many tropical bird species have restricted elevational distributions, potentially limited by how environmental conditions affect physiological processes. While some studies have examined adult physiology across elevations, relatively little attention has been given to the structure and function of eggshells despite their critical role in regulating gas exchange during the vulnerable embryonic stage. At high elevations, dry air is expected to increase water loss from the egg, and natural selection may favor lower gas conductance to reduce desiccation risk. Structural variation in eggshells, such as increased shell thickness or reduced pore size and density, could serve as a mechanism to regulate gas diffusion. To test for adaptive variation in eggshell traits along elevational gradients, we measured water vapor conductance and used scanning electron microscopy (SEM) to examine eggshell structure in 197 bird species from the Andes. We found that water vapor conductance declined at high elevations across avian communities. However, structural changes in eggshells varied among bird families and did not vary in a predictable way with elevation, suggesting no relationship or divergent adaptive responses to shared selective pressures, particularly in shell thickness, pore density, and pore size. We propose that examining functional and structural eggshell traits can offer insight into species' elevational limits and inform predictions about their responses to climate change.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "David Ocampo",
+        "Carlos D Cadena",
+        "Esteban Correa-Agudelo",
+        "Marcela Hernández Hoyos",
+        "Gustavo A Londoño"
+      ],
+      "authors_display": "David Ocampo, Carlos D Cadena, Esteban Correa-Agudelo, et al.",
+      "first_seen_at": "2026-04-15T03:58:33Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.7554/elife.85564",
+        "pmcid": null,
+        "pmid": "41979126"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation"
+        ]
+      },
+      "paper_key": "doi:10.7554/elife.85564",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-14",
+      "short_abstract": "Many tropical bird species have restricted elevational distributions, potentially limited by how environmental conditions affect physiological processes. While some studies have examined adult physiology across elevations, relatively little attention has been given to the structure and function of eggshells despite their critical role...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Adaptive variation in avian eggshell gas conductance and structure across elevational gradients?",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41979126/",
+      "venue": "Elife",
+      "venue_display": "Elife"
+    },
+    {
+      "abstract": "The swelling of crop storage organs is an important agronomic trait with high economic value. However, the signals influencing storage organ swelling are not fully understood. Here, we assembled a high-quality genome of the rhizome-type Asian lotus (Nelumbo nucifera Gaertn.), comprising 759 Mb with 99.98% of sequences anchored to 8 chromosomes. Comparative genome analyses revealed conserved synteny with the China Antique Asian lotus and identified 64,886 structural variants. We observed physiological changes during development of the lotus rhizome from the major stolon to the swelling phase. The swelling transition stage was identified as a critical period for initiation of rhizome swelling. Global DNA methylation increased during the rhizome swelling process, mainly due to increased CHH methylation; this correlated with decreased expression of DNA demethylase genes. Large-scale time-series analysis of transcriptome dynamics revealed that differentially methylated genes and differentially expressed genes associated with plant hormone signal transduction and the metabolic processes of sucrose and starch are closely related to rhizome swelling. We analyzed expression patterns and co-expressed modules specific to the stolon to swelling stages and found the auxin pathway to be particularly active during the transition stage. Auxin response factor (ARF) transcription factors were identified as core regulators of the network during the transition stage. Furthermore, the experiments showed that auxin elicits interactions between NnARF2 and Sucrose Transporter1/2 (NnSUT1/2), Starch Synthase1 (NnSS1), and NnARF12 interacts with Starch Branching Enzyme II (NnSBEII) to directly activate source-sink synergy-mediated starch accumulation and increase yield. In conclusion, our findings provide insight into the effects of DNA methylation and auxin on swelling and source-sink sucrose transport regulation.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Peng Wu",
+        "Wenjing Ling",
+        "Chenyan Qu",
+        "Yuan Sun",
+        "Ailian Liu",
+        "Zhuo Liu",
+        "Tianyu Wang",
+        "Yuerui Fang",
+        "Zou Jinping",
+        "Shuping Zhao",
+        "Kai Feng",
+        "Xiaoming Song",
+        "Liangjun Li"
+      ],
+      "authors_display": "Peng Wu, Wenjing Ling, Chenyan Qu, et al.",
+      "first_seen_at": "2026-04-15T03:58:33Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/plphys/kiag208",
+        "pmcid": null,
+        "pmid": "41974124"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1093/plphys/kiag208",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-13",
+      "short_abstract": "The swelling of crop storage organs is an important agronomic trait with high economic value. However, the signals influencing storage organ swelling are not fully understood. Here, we assembled a high-quality genome of the rhizome-type Asian lotus (Nelumbo nucifera Gaertn.), comprising 759 Mb with 99.98% of sequences anchored to 8...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Multi-omics analysis reveals regulation of rhizome swelling in Nelumbo nucifera.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41974124/",
+      "venue": "Plant Physiol",
+      "venue_display": "Plant Physiol"
+    },
     {
       "abstract": "Rearrangements involving MYC, BCL2, and BCL6 are central to the genetic classification and risk stratification of diffuse large B cell lymphoma (DLBCL). In routine practice, these alterations are primarily assessed by fluorescence in situ hybridization (FISH), which provides limited diagnostic information and lacks information on partner genes, breakpoint architecture, or clonal complexity. We investigated whether targeted next-generation sequencing (NGS) refines the interpretation of gene rearrangements in aggressive B cell lymphomas and alters their diagnostic classification. Tumor samples from 48 patients were analyzed using FISH, immunohistochemistry, and a custom hybrid-capture NGS panel enabling simultaneous detection of structural variants, copy number alterations, and somatic mutations. Targeted NGS identified 59 fusion events in 37 patients, including 26 MYC rearrangements (MYC-Rs). A substantial proportion (58%) involved non-immunoglobulin partners, many of them previously unreported. NGS resolved inconclusive or discordant FISH results, uncovered cryptic rearrangements, and revealed genomic complexity. In several cases, these findings refined genetic classification, including the identification of additional double- and triple-hit lymphomas. These results demonstrate that a FISH-based assessment of MYC-, BCL2-, and BCL6-Rs is insufficient to capture the biological and diagnostic complexity of DLBCL. Targeted NGS provides structural and functional context that improves interpretation of rearrangements and supports a more refined genetic classification in routine practice.",
       "accent_color": "#2f8f6b",
@@ -191,56 +281,6 @@
       "venue_display": "J Agric Food Chem"
     },
     {
-      "abstract": "Rhododendron, a globally important group of alpine flowering plants, provides an exceptional system for investigating ecological adaptation and stress resistance owing to its high-altitude specialization. Using 18 Rhododendron species, a graph-based pangenome was constructed that captures 72,089 nonredundant structural variants. The findings support the integration of subgenus Azaleastrum into subgenus Tsutsusi, with their comparatively smaller genome sizes likely resulting from the contraction of multiple gene families during lineage differentiation. Gene families specific to high-altitude Rhododendron species were significantly enriched in pathways associated with stress resistance. High-altitude-specific long terminal repeat retrotransposons operate through similar regulatory mechanisms, predominantly influencing stress-responsive genes and promoting adaptive evolution. Through an integrated analysis of population genetics (389 re-sequenced samples with a mean coverage of 50.2×), transcriptomics, and real-time quantitative polymerase chain reaction, conserved genes and gene families linked to alpine adaptation in Rhododendron were identified. These include genes implicated in cold-stress responses and ultraviolet (UV) tolerance, such as CML18, CPK1, DREB1E, LPAT2, GPC1, and UVR8. Structural variant profiles within several of these genes offer insights into divergent adaptive mechanisms between high- and low-altitude Rhododendron species. The rapid induction of cold-sensing genes and CBF/DREB1-centered cold-stress signaling pathways indicates an evolutionary adaptation of alpine Rhododendron species to low-temperature habitats. Furthermore, transgenic analyses indicate that cold-resistance genes, such as GPC1 derived from high-altitude Rhododendron, markedly improve cold tolerance in Arabidopsis thaliana and tobacco. Collectively, this study advances insights into high-altitude adaptation in ornamental plants and underscores the value of super-pangenome resources for evolutionary and functional genomics research.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Haoyang Zhou",
-        "Zhongping Xu",
-        "Fanhuang Zeng",
-        "Haiyu Sang",
-        "Zhenhua Liu",
-        "Miao Sun",
-        "Qiang Fu",
-        "Kaige Zhao",
-        "Daming Tan",
-        "Manzhu Bao",
-        "Shuangxia Jin",
-        "Xiuqun Liu"
-      ],
-      "authors_display": "Haoyang Zhou, Zhongping Xu, Fanhuang Zeng, et al.",
-      "first_seen_at": "2026-04-14T04:08:13Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1111/jipb.70252",
-        "pmcid": null,
-        "pmid": "41968463"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome",
-          "structural variants",
-          "structural variant"
-        ]
-      },
-      "paper_key": "doi:10.1111/jipb.70252",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-12",
-      "short_abstract": "Rhododendron, a globally important group of alpine flowering plants, provides an exceptional system for investigating ecological adaptation and stress resistance owing to its high-altitude specialization. Using 18 Rhododendron species, a graph-based pangenome was constructed that captures 72,089 nonredundant structural variants. The...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Pangenome analysis reveals the genetic mechanism underlying high-altitude adaptation in Qinghai-Xizang (Tibet) Plateau Rhododendron.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41968463/",
-      "venue": "J Integr Plant Biol",
-      "venue_display": "J Integr Plant Biol"
-    },
-    {
       "abstract": "Probabilistic models such as the sequentially Markovian coalescent have long provided a powerful framework for population genetic inference, enabling reconstruction of demographic history and ancestral relationships from genomic data. However, these methods are inherently specialized, relying on predefined assumptions and/or limited scalability. Recent advances in simulation and deep learning provide an alternative approach: learning directly to generalize from synthetic genetic data to infer hidden evolutionary processes. Here we reframe the inference of coalescence times as a problem of translation between two biological languages: the sparse, observable patterns of mutation along the genome and the unobservable ancestral recombination graph that gave rise to them. Inspired by large language models, we develop cxt, a decoder-only transformer that autoregressively predicts coalescent events conditioned on local mutational context. We show that cxt performs competitively with state-of-the-art Markov Chain Monte Carlo-based likelihood models across a broad range of demographic scenarios, matching their accuracy in-distribution and approaching it in out-of-distribution, with the potential for improvement via fine-tuning. Trained on simulations spanning the stdpopsim catalog [J. R. Adrion et al., eLife 9, e54967 (2020); M. E. Lauterbur et al., eLife 12, e84874 (2023); G. Gower et al., Accessible, realistic genome simulation with selection using stdpopsim. bioRxiv [Preprint] (2025). https://doi.org/10.1101/2025.03.23.644823.], the model generalizes robustly and enables efficient inference at scale, producing over a million coalescence predictions in minutes. cxt also produces well-calibrated approximate posteriors, enabling principled uncertainty quantification. We apply cxt to population genomic data from both humans and mosquitoes, highlighting the model's ability to deal with the complexities of empirical data.",
       "accent_color": "#2d6cdf",
       "authors": [
@@ -280,53 +320,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41961853/",
       "venue": "Proc Natl Acad Sci U S A",
       "venue_display": "Proc Natl Acad Sci U S A"
-    },
-    {
-      "abstract": "The murine C1498 cell line is one of the most widely used syngeneic models to investigate acute myeloid leukemia (AML) pathogenesis, tumor-host interactions and therapeutic responses. However, in the absence of a comprehensive molecular characterization it remains impossible to reliably associate genetic lesions with disease phenotype, drug sensitivity or resistance. Here, we provide an integrated genomic and functional analysis combining whole genome and whole transcriptome sequencing (WGS and WTS), multicolor fluorescent in situ hybridization (M-FISH) and drug sensitivity assays. WGS identified 2,007 coding variants absent from population databases, including functionally relevant alterations in AML-related genes. These comprised deleterious or likely pathogenic variants in Nf1, Gnas and Trp53 (murine ortholog of the human TP53 gene), a splice-site mutation in Crebbp and truncating variants in Bcor and Tet2. Structural variant analysis revealed 1,767 events, including deletions of Trp53, Nf1, Brca1, Csnk1a1, Ctnna1, Luc7l2 and cohesin genes, and Myc tandem duplication. Copy number variant profiling detected ten tumor-specific alterations, including amplifications of Stk32b and Bub1, the latter linked to aggressive cancer phenotypes. Variants integration uncovered biallelic disruption of Trp53, double-hit events affecting additional tumor suppressors (mutation and deletion: Nf1, Recql4) and oncogenes (mutation and amplification: Idh1, Gnas, Pik3cd, Vav1). Functionally, C1498 demonstrated in vitro a dose- and time-dependent response to venetoclax/azacitidine consistent with resistance, in line with the presence of altered Trp53 and recent prognostic AML signatures. This comprehensive molecular framework establishes C1498 as a genetically defined AML model and provides a valuable resource to inform biomarker-driven preclinical studies and translational research aimed at overcoming venetoclax/azacitidine resistance. The online version contains supplementary material available at 10.1186/s40364-026-00915-1.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Martina Ghetti",
-        "Ilaria De Santis",
-        "Doron Tolomeo",
-        "Francesca Ruggieri",
-        "Chiara Bracci",
-        "Maria Teresa Bochicchio",
-        "Matteo Paganelli",
-        "Anna Ferrari",
-        "Sabina Sangaletti",
-        "Clelia Tiziana Storlazzi",
-        "Giorgia Simonetti"
-      ],
-      "authors_display": "Martina Ghetti, Ilaria De Santis, Doron Tolomeo, et al.",
-      "first_seen_at": "2026-04-13T04:18:37Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/s40364-026-00915-1",
-        "pmcid": "PMC6587540",
-        "pmid": "41964082"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variant"
-        ]
-      },
-      "paper_key": "doi:10.1186/s40364-026-00915-1",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-10",
-      "short_abstract": "The murine C1498 cell line is one of the most widely used syngeneic models to investigate acute myeloid leukemia (AML) pathogenesis, tumor-host interactions and therapeutic responses. However, in the absence of a comprehensive molecular characterization it remains impossible to reliably associate genetic lesions with disease phenotype,...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "The molecular landscape of the C1498 murine acute myeloid leukemia cell line.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41964082/",
-      "venue": "Biomark Res",
-      "venue_display": "Biomark Res"
     },
     {
       "abstract": "Ki67 is one of the most widely used markers of cell proliferation. However, current measurements using immunohistochemistry (IHC) are limited by interobserver variability and lack of standardized cutoffs. To address this, we investigated the association of Ki67 gene (MKI67) expression with biological features and treatment response in estrogen receptor-positive (ER+) breast cancer (BC), the most common subtype. We analyzed 5036 patients with ER+/HER2- BC across 11 independent cohorts with tumor transcriptomes and clinical data. Patients with MKI67 expression in the top 20% were defined as the high-expression group on the basis of prior IHC-based thresholds. MKI67 expression correlated with Nottingham histologic grade and proliferation score, and consistently enriched all the hallmark cell proliferation-related gene sets across TCGA, METABRIC, and SCAN-B cohorts. High MKI67 expression trended toward worse survival but achieved statistical significance only in the METABRIC cohort. MKI67 high ER+/HER2- BC was associated with increased mutation rates, fraction altered, homologous recombination deficiency and intratumoral genomic heterogeneity. MKI67 expression was associated with infiltration of Th1 and Th2 cells as well as M1 and M2 macrophages across three cohorts. Conversely, MKI67 low ER+/HER2- BC was enriched for Hypoxia, Coagulation, Epithelial-to-Mesenchymal Transition, NOTCH, Hedgehog, TGF-beta, and KRAS-signaling gene sets. MKI67 high ER+/HER2- BC was associated with a higher pathological complete response (pCR) rate in four of the eight neoadjuvant chemotherapy cohorts. High MKI67 expression identifies highly proliferative tumors that are associated with genomic instability and immune activity and is associated with higher pCR rates following neoadjuvant chemotherapy in ER+/HER2- BC.",

@@ -20,12 +20,12 @@
     },
     {
       "accent_color": "#2f8f6b",
-      "count": 85,
+      "count": 87,
       "id": "pangenome_sv",
       "label": "Pangenome / Structural Variation"
     }
   ],
-  "generated_at": "2026-04-14T04:08:13Z",
-  "generated_at_china": "2026-04-14 12:08 UTC+8",
+  "generated_at": "2026-04-15T03:58:33Z",
+  "generated_at_china": "2026-04-15 11:58 UTC+8",
   "source_errors": {}
 }
