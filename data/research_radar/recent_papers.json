@@ -1,6 +1,285 @@
 {
-  "generated_at": "2026-04-15T03:58:33Z",
+  "generated_at": "2026-04-16T04:13:09Z",
   "latest": [
+    {
+      "abstract": "This study reveals the diversity of GC content characteristics among major angiosperm groups, with Poaceae species exhibiting significantly higher GC content and more pronounced heterogeneity. These features are likely associated with GC-biased gene conversion. Genome nucleotide composition critically shapes plant genetic diversity, yet its variation across angiosperms remains poorly understood. Here, we conducted a multilevel GC analysis across 495 angiosperm genomes (spanning 109 families, 44 orders; 284 species with annotated coding genes). Using SeqKit, we quantified GC content at whole-genome, chromosomal, gene, and codon scales, while estimating recombination rates with mlRho v2.9. We found that angiosperm GC content approximates a normal distribution (mean 36.64%) but varies markedly among lineages: monocots (41.97%) > eudicots (35.43%), with Poaceae highest (44.64%). Coding-region GC (mean 46.38%) exceeded genomic levels, showing maximal variation at the third codon position (GC3; mean 46.22%; up to 63.63% in Poaceae). Gene-level GC distributions shifted from unimodal to distinctly bimodal patterns-evident in Poaceae-reflecting divergence between high- and low-GC genes. Notably, GC content correlated positively with both chromosome length and recombination rate. These patterns are consistent with GC-biased gene conversion (gBGC) as a key driver of GC diversity in angiosperms, operating neutrally and locally across genomic scales, independent of phylogeny.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Qing Xian",
+        "Liu Yang",
+        "Yuan Wang",
+        "Wei Zhang"
+      ],
+      "authors_display": "Qing Xian, Liu Yang, Yuan Wang, et al.",
+      "first_seen_at": "2026-04-16T04:13:09Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.3390/ijms24097716",
+        "pmcid": "10178233",
+        "pmid": "41984235"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "gene conversion"
+        ]
+      },
+      "paper_key": "doi:10.3390/ijms24097716",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-15",
+      "short_abstract": "This study reveals the diversity of GC content characteristics among major angiosperm groups, with Poaceae species exhibiting significantly higher GC content and more pronounced heterogeneity. These features are likely associated with GC-biased gene conversion. Genome nucleotide composition critically shapes plant genetic diversity, yet...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "GC content variation in angiosperm genomes reveals GC-biased gene conversion.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41984235/",
+      "venue": "Planta",
+      "venue_display": "Planta"
+    },
+    {
+      "abstract": "We performed comparative genomics on 66 Xanthomonas campestris pv. campestris (Xcc) strains to investigate the interplay between pathogenicity and xanthan production. Our analysis revealed an open pan-genome and a striking evolutionary dichotomy: the xanthan biosynthesis (gum) cluster is highly conserved to maintain polymer integrity, while the O-antigen (wxc) cluster is hypervariable, likely driven by immune evasion. Functional validation showed that variants of Rmd exhibit a 22-fold activity span with minimal impact on xanthan gum yield. Conversely, wxc diversity significantly influences xanthan yield via metabolic feedback without affecting viscosity. Furthermore, we demonstrated that host restriction-modification systems drive exogenous DNA instability by targeting specific methylation motifs. Site-directed mutagenesis of these motifs successfully restored plasmid stability. These findings provide a population-scale framework for Xcc evolution and offer validated strategies for overcoming barriers to genetic engineering.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Mei Wang",
+        "Yuping Lin",
+        "Liang Yin",
+        "Shuyao Yang",
+        "Bin Liu",
+        "Nannan Zhang",
+        "Peisi Chen",
+        "Zhishuai Li",
+        "Yan Zhu",
+        "Lifu Song",
+        "Jibin Sun",
+        "Jinshan Li",
+        "Yanhe Ma"
+      ],
+      "authors_display": "Mei Wang, Yuping Lin, Liang Yin, et al.",
+      "first_seen_at": "2026-04-16T04:13:09Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1021/acs.jafc.6c00796",
+        "pmcid": null,
+        "pmid": "41984436"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pan genome"
+        ]
+      },
+      "paper_key": "doi:10.1021/acs.jafc.6c00796",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-15",
+      "short_abstract": "We performed comparative genomics on 66 Xanthomonas campestris pv. campestris (Xcc) strains to investigate the interplay between pathogenicity and xanthan production. Our analysis revealed an open pan-genome and a striking evolutionary dichotomy: the xanthan biosynthesis (gum) cluster is highly conserved to maintain polymer integrity,...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Comprehensive Genomics and Functional Validation Reveal Evolutionary Insights into Xanthan Gum Biosynthesis and Pathogenesis of Xanthomonas campestris pv. campestris.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41984436/",
+      "venue": "J Agric Food Chem",
+      "venue_display": "J Agric Food Chem"
+    },
+    {
+      "abstract": "In clonally propagated crops, extensive divergence between haplotypes complicates transcriptional regulation. However, the contribution of the three dimensional (3D) genome organization to these allelic differences and agronomic traits remains unclear. Here, we generated haplotype-resolved 3D genome landscapes for grapevine cultivars with contrasting berry colors and seed traits, integrating them with genomic, epigenomic, and transcriptomic profiles. We found profound 3D architectural divergence between haplotypes, spanning from large-scale A/B compartments down to a level of topologically associated domain (TAD) boundary variation (18.53%∼23.01%) that approached inter-cultivar differences (18.74~21.62%) (p > 0.05). A key mechanism driving these effects involves large-scale, haplotype-specific transitions between distinct TAD states (Active, Inactive, Heterochromatic), which asymmetrically regulate transcription and alter local DNA methylation patterns. Importantly, these structural rearrangements, including TAD boundary shifts, are strongly associated with underlying structural variants (SVs). Critically, this regulatory cascade impacts key agronomic loci, genes controlling berry color (e.g. VvMYBA) and seedlessness determination (e.g. VvSUS2) were positioned at cultivar-specific TAD boundaries, exhibiting presence/absence variations and differential expression patterns. Our findings support a mechanistic model wherein phased 3D chromatin architecture and heterozygous SVs are strongly associated with the regulation of key agronomic traits, paving the way for accelerating the genetic improvement of clonal crops.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Yanling Peng",
+        "Lianzhu Zhou",
+        "Xinyue Fang",
+        "Ruoyan Zhao",
+        "Qi Xu",
+        "Mengrui Du",
+        "Ting Hou",
+        "Guizhou Huang",
+        "Yingchun Zhang",
+        "Sheng Yan",
+        "Ruo Yang",
+        "Zhongxin Jin",
+        "Yang Dong",
+        "Yanshuai Xu",
+        "Hua Xiao",
+        "Xiaodong Xu",
+        "Yi Liao",
+        "Xiping Wang",
+        "Yongfeng Zhou"
+      ],
+      "authors_display": "Yanling Peng, Lianzhu Zhou, Xinyue Fang, et al.",
+      "first_seen_at": "2026-04-16T04:13:09Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1002/advs.202521838",
+        "pmcid": null,
+        "pmid": "41984514"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1002/advs.202521838",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-15",
+      "short_abstract": "In clonally propagated crops, extensive divergence between haplotypes complicates transcriptional regulation. However, the contribution of the three dimensional (3D) genome organization to these allelic differences and agronomic traits remains unclear. Here, we generated haplotype-resolved 3D genome landscapes for grapevine cultivars...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Haplotype-Resolved 3D Genomic Landscapes and Their Impacts on Agronomic Traits in Grapevine.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41984514/",
+      "venue": "Adv Sci (Weinh)",
+      "venue_display": "Adv Sci (Weinh)"
+    },
+    {
+      "abstract": "Mutations in DNA damage repair (DDR) genes lead to genomic instability, driving a range of degenerative syndromes. In addition to promoting mutation accumulation, unrepaired DNA damage can leak into the cytosol and activate innate immune-sensing pathways, particularly the cGAS-STING axis. However, the extent to which cGAS causally contributes to organismal pathology in DDR syndromes in vivo remains unresolved. Here, we genetically model ataxia telangiectasia (A-T) and Bloom syndrome in the short-lived turquoise killifish (Nothobranchius furzeri) and demonstrate that genetic disruption of cgas in the A-T model partially ameliorates germline failure, hepatic senescence, and cerebellar neuroinflammation. Unexpectedly, cgas loss also reversed cellular hallmarks of genome instability, including reduced micronuclei, improved telomere integrity, and restored H3K9me3-marked heterochromatin landscape, consistent with STING-independent nuclear functions of cGAS that influence DNA repair and chromatin. Together, these data identify cGAS as a context-dependent amplifier of DDR pathology acting through canonical inflammatory signaling and noncanonical nuclear mechanisms that shape genome stability. Accordingly, our findings support pharmacological cGAS inhibition as a potential strategy for DDR syndromes in settings of chronic DNA damage while highlighting that cgas loss in an otherwise naive background exacerbates pathology and genomic instability, underscoring its essential role in normal physiology.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Marva Bergman",
+        "Uri Goshtchevsky",
+        "Tehila Atlan",
+        "Gwendoline Astre",
+        "Ryan Halabi",
+        "Hosniyah El Ayoubi",
+        "Eitan Moses",
+        "Aaron J J Lemus",
+        "Bérénice A Benayoun",
+        "Yehuda Tzfati",
+        "Ido Ben-Ami",
+        "Itamar Harel"
+      ],
+      "authors_display": "Marva Bergman, Uri Goshtchevsky, Tehila Atlan, et al.",
+      "first_seen_at": "2026-04-16T04:13:09Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1101/gad.352760.125",
+        "pmcid": null,
+        "pmid": "41980769"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation accumulation"
+        ]
+      },
+      "paper_key": "doi:10.1101/gad.352760.125",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-14",
+      "short_abstract": "Mutations in DNA damage repair (DDR) genes lead to genomic instability, driving a range of degenerative syndromes. In addition to promoting mutation accumulation, unrepaired DNA damage can leak into the cytosol and activate innate immune-sensing pathways, particularly the cGAS-STING axis. However, the extent to which cGAS causally...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "A dual role for cGAS in shaping cellular and organismal responses to genomic instability.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41980769/",
+      "venue": "Genes Dev",
+      "venue_display": "Genes Dev"
+    },
+    {
+      "abstract": "",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Asma Khalil",
+        "Muhammad Sadaqat",
+        "Kinza Fatima",
+        "Kahkashan Perveen",
+        "Jayanthi Barasarathi",
+        "Muhammad Tahir Ul Qamar",
+        "Shoaib Munir"
+      ],
+      "authors_display": "Asma Khalil, Muhammad Sadaqat, Kinza Fatima, et al.",
+      "first_seen_at": "2026-04-16T04:13:09Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41598-026-48265-0",
+        "pmcid": null,
+        "pmid": "41981036"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41598-026-48265-0",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-14",
+      "short_abstract": "",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Pangenome-wide identification of chloroplast RNA splicing and ribosome maturation (CRM) genes in eight Pyrus genomes indicated their involvement in multiple stresses.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41981036/",
+      "venue": "Sci Rep",
+      "venue_display": "Sci Rep"
+    },
+    {
+      "abstract": "Proteome and transcriptome data combined can help assess the relevance of non-coding germline variants. Here, we combine germline Structural Variants (SVs) with mass spectrometry-based proteomics on tumors from 1637 cancer patients spanning various tumor tissues of origin to determine the extent SV breakpoint patterns involve differential protein expression of nearby genes. Rare and singleton SVs disrupting protein expression of known cancer susceptibility genes collectively involve 6% of patients. About 24% of the hundreds of genes with SV-associated non-coding cis-regulatory alterations at the mRNA level are similarly associated at the protein level. Both rare and common SVs may associate with differential protein expression within a specific tumor type or across multiple tissue types, including SVs differentially represented by patient ancestry. SVs involving altered methylation of CpG Islands or enhancers are also implicated in differential protein expression. Our results emphasize the contribution of germline SVs to cancer heterogeneity at the proteome level.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Fengju Chen",
+        "Yiqun Zhang",
+        "Luis F Paulin",
+        "Darshan S Chandrashekar",
+        "Sooryanarayana Varambally",
+        "Fritz J Sedlazeck",
+        "Chad J Creighton"
+      ],
+      "authors_display": "Fengju Chen, Yiqun Zhang, Luis F Paulin, et al.",
+      "first_seen_at": "2026-04-16T04:13:09Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41467-026-71967-y",
+        "pmcid": null,
+        "pmid": "41980961"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation",
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41467-026-71967-y",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-14",
+      "short_abstract": "Proteome and transcriptome data combined can help assess the relevance of non-coding germline variants. Here, we combine germline Structural Variants (SVs) with mass spectrometry-based proteomics on tumors from 1637 cancer patients spanning various tumor tissues of origin to determine the extent SV breakpoint patterns involve...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Global impact of germline structural variation on the cancer proteome.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41980961/",
+      "venue": "Nat Commun",
+      "venue_display": "Nat Commun"
+    },
     {
       "abstract": "Many tropical bird species have restricted elevational distributions, potentially limited by how environmental conditions affect physiological processes. While some studies have examined adult physiology across elevations, relatively little attention has been given to the structure and function of eggshells despite their critical role in regulating gas exchange during the vulnerable embryonic stage. At high elevations, dry air is expected to increase water loss from the egg, and natural selection may favor lower gas conductance to reduce desiccation risk. Structural variation in eggshells, such as increased shell thickness or reduced pore size and density, could serve as a mechanism to regulate gas diffusion. To test for adaptive variation in eggshell traits along elevational gradients, we measured water vapor conductance and used scanning electron microscopy (SEM) to examine eggshell structure in 197 bird species from the Andes. We found that water vapor conductance declined at high elevations across avian communities. However, structural changes in eggshells varied among bird families and did not vary in a predictable way with elevation, suggesting no relationship or divergent adaptive responses to shared selective pressures, particularly in shell thickness, pore density, and pore size. We propose that examining functional and structural eggshell traits can offer insight into species' elevational limits and inform predictions about their responses to climate change.",
       "accent_color": "#2f8f6b",
@@ -41,106 +320,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41979126/",
       "venue": "Elife",
       "venue_display": "Elife"
-    },
-    {
-      "abstract": "The swelling of crop storage organs is an important agronomic trait with high economic value. However, the signals influencing storage organ swelling are not fully understood. Here, we assembled a high-quality genome of the rhizome-type Asian lotus (Nelumbo nucifera Gaertn.), comprising 759 Mb with 99.98% of sequences anchored to 8 chromosomes. Comparative genome analyses revealed conserved synteny with the China Antique Asian lotus and identified 64,886 structural variants. We observed physiological changes during development of the lotus rhizome from the major stolon to the swelling phase. The swelling transition stage was identified as a critical period for initiation of rhizome swelling. Global DNA methylation increased during the rhizome swelling process, mainly due to increased CHH methylation; this correlated with decreased expression of DNA demethylase genes. Large-scale time-series analysis of transcriptome dynamics revealed that differentially methylated genes and differentially expressed genes associated with plant hormone signal transduction and the metabolic processes of sucrose and starch are closely related to rhizome swelling. We analyzed expression patterns and co-expressed modules specific to the stolon to swelling stages and found the auxin pathway to be particularly active during the transition stage. Auxin response factor (ARF) transcription factors were identified as core regulators of the network during the transition stage. Furthermore, the experiments showed that auxin elicits interactions between NnARF2 and Sucrose Transporter1/2 (NnSUT1/2), Starch Synthase1 (NnSS1), and NnARF12 interacts with Starch Branching Enzyme II (NnSBEII) to directly activate source-sink synergy-mediated starch accumulation and increase yield. In conclusion, our findings provide insight into the effects of DNA methylation and auxin on swelling and source-sink sucrose transport regulation.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Peng Wu",
-        "Wenjing Ling",
-        "Chenyan Qu",
-        "Yuan Sun",
-        "Ailian Liu",
-        "Zhuo Liu",
-        "Tianyu Wang",
-        "Yuerui Fang",
-        "Zou Jinping",
-        "Shuping Zhao",
-        "Kai Feng",
-        "Xiaoming Song",
-        "Liangjun Li"
-      ],
-      "authors_display": "Peng Wu, Wenjing Ling, Chenyan Qu, et al.",
-      "first_seen_at": "2026-04-15T03:58:33Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/plphys/kiag208",
-        "pmcid": null,
-        "pmid": "41974124"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1093/plphys/kiag208",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-13",
-      "short_abstract": "The swelling of crop storage organs is an important agronomic trait with high economic value. However, the signals influencing storage organ swelling are not fully understood. Here, we assembled a high-quality genome of the rhizome-type Asian lotus (Nelumbo nucifera Gaertn.), comprising 759 Mb with 99.98% of sequences anchored to 8...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Multi-omics analysis reveals regulation of rhizome swelling in Nelumbo nucifera.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41974124/",
-      "venue": "Plant Physiol",
-      "venue_display": "Plant Physiol"
-    },
-    {
-      "abstract": "Rearrangements involving MYC, BCL2, and BCL6 are central to the genetic classification and risk stratification of diffuse large B cell lymphoma (DLBCL). In routine practice, these alterations are primarily assessed by fluorescence in situ hybridization (FISH), which provides limited diagnostic information and lacks information on partner genes, breakpoint architecture, or clonal complexity. We investigated whether targeted next-generation sequencing (NGS) refines the interpretation of gene rearrangements in aggressive B cell lymphomas and alters their diagnostic classification. Tumor samples from 48 patients were analyzed using FISH, immunohistochemistry, and a custom hybrid-capture NGS panel enabling simultaneous detection of structural variants, copy number alterations, and somatic mutations. Targeted NGS identified 59 fusion events in 37 patients, including 26 MYC rearrangements (MYC-Rs). A substantial proportion (58%) involved non-immunoglobulin partners, many of them previously unreported. NGS resolved inconclusive or discordant FISH results, uncovered cryptic rearrangements, and revealed genomic complexity. In several cases, these findings refined genetic classification, including the identification of additional double- and triple-hit lymphomas. These results demonstrate that a FISH-based assessment of MYC-, BCL2-, and BCL6-Rs is insufficient to capture the biological and diagnostic complexity of DLBCL. Targeted NGS provides structural and functional context that improves interpretation of rearrangements and supports a more refined genetic classification in routine practice.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Mariana Bastos Oreiro",
-        "Sara Fernández de Córdoba Oñate",
-        "Ismael de la Iglesia San Sebastián",
-        "Francisco Díaz-Crespo",
-        "María Chicano Lavilla",
-        "Juan Carlos Triviño",
-        "Raquel Fernández González",
-        "Miguel López-Esteban",
-        "Marina Gómez-Llobel",
-        "Paula Fernández Caldas",
-        "Pablo Silva",
-        "Javier Menárguez",
-        "Ramón García Sanz",
-        "Ismael Buño",
-        "Carolina Martínez Laperche"
-      ],
-      "authors_display": "Mariana Bastos Oreiro, Sara Fernández de Córdoba Oñate, Ismael de la Iglesia San Sebastián, et al.",
-      "first_seen_at": "2026-04-14T04:08:13Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1371/journal.pone.0263980",
-        "pmcid": "8846522",
-        "pmid": "41973147"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1371/journal.pone.0263980",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-13",
-      "short_abstract": "Rearrangements involving MYC, BCL2, and BCL6 are central to the genetic classification and risk stratification of diffuse large B cell lymphoma (DLBCL). In routine practice, these alterations are primarily assessed by fluorescence in situ hybridization (FISH), which provides limited diagnostic information and lacks information on...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Beyond Binary FISH Results: Targeted NGS Provides Deeper Characterization of MYC and Broader Genomic Alterations in DLBCL.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41973147/",
-      "venue": "Mol Diagn Ther",
-      "venue_display": "Mol Diagn Ther"
     },
     {
       "abstract": "Streptococcus suis serotype 9 is an emerging zoonotic pathogen threatening pig production and public health. Here, we combined comparative genomics of 16 strains, including clinical isolate SS2401, to elucidate the role of prophages in shaping genomic plasticity and virulence evolution. The pan-genome was open (α = 0.375), highlighting extensive genetic diversity. Prophages were prevalent (56.25% of strains), significantly correlated with larger genomes, and exhibited two integration modes: direct insertion as genomic islands and integration at recombination hotspots associated with large-scale inversions. Phylogenetic analysis of the terminase large subunit (TerL) and whole-genome sequences revealed multiple independent acquisitions, with three prophages in SS2401 originating from distinct lineages (\"one strain, multiple sources\"). Recombination analysis detected 1,432 events across the core genome, indicating frequent horizontal gene exchange. The virulence gene sly (suilysin) was carried as a gene cassette within prophage Phi2401a. Notably, we identified integrase-deficient but otherwise intact prophages that may function as \"gene prisons,\" stably fixing virulence traits. These findings demonstrate that prophages act as dual drivers of genomic architecture and as dynamic reservoirs for virulence genes, providing a framework for understanding bacterial adaptation and informing surveillance strategies in the swine industry.IMPORTANCEStreptococcus suis serotype 9 poses a significant threat to pig farming and public health worldwide. This study reveals that prophages are not passive passengers but active architects of genomic plasticity and virulence evolution in this pathogen. We demonstrate that prophages contribute to genome expansion, facilitate large-scale chromosomal rearrangements, and carry key virulence genes such as sly. The discovery of a \"one strain, multiple sources\" acquisition pattern and the \"gene prison\" model explains how virulence traits can be stably maintained and disseminated. These findings redefine prophages as dual drivers of bacterial evolution, providing new insights for surveillance and intervention strategies in the swine industry.",
@@ -190,95 +369,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41972771/",
       "venue": "Microbiol Spectr",
       "venue_display": "Microbiol Spectr"
-    },
-    {
-      "abstract": "Effective visualization is essential for interpreting genomics data, yet researchers often face challenges in finding relevant, reusable examples. Existing tools offer limited support for searching the vast landscape of genomics visualizations, making the process of authoring new visualizations time-consuming and inefficient. To address this gap, we introduce Geranium, a data visualization retrieval system for searching and authoring genomics visualizations. Geranium supports multimodal retrieval, enabling users to query with images, text, or grammar based specifications. Retrieved examples serve as scaffolds for authoring, providing templates that researchers can adapt with their own data, thereby streamlining the mechanics of visualization construction. Geranium integrates three embedding methods to combine specialized and general knowledge: grammar-based embeddings tailored to genomics visualizations, multimodalem beddings from a biomedical vision-language foundation model, and text embeddings from a fine-tuned large language model. For each visualization, we construct a multimodal representation that includes a Gosling specification, a pixel-based rendering, and natural language descriptions. We evaluate embedding strategies to maximize top-k retrieval accuracy and conduct user studies with domain collaborators to gather feedback on usability. Our collection comprises 3,200 visualizations across 50 categories, ranging from single-view to coordinated multi-view designs and supporting applications from single-cell epigenomics to structural variation analysis.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Huyen N Nguyen",
-        "Sehi L'Yi",
-        "Thomas C Smits",
-        "Shanghua Gao",
-        "Marinka Zitnik",
-        "Nils Gehlenborg"
-      ],
-      "authors_display": "Huyen N Nguyen, Sehi L'Yi, Thomas C Smits, et al.",
-      "first_seen_at": "2026-04-14T04:08:13Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1109/tvcg.2026.3683429",
-        "pmcid": null,
-        "pmid": "41973568"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variation"
-        ]
-      },
-      "paper_key": "doi:10.1109/tvcg.2026.3683429",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-13",
-      "short_abstract": "Effective visualization is essential for interpreting genomics data, yet researchers often face challenges in finding relevant, reusable examples. Existing tools offer limited support for searching the vast landscape of genomics visualizations, making the process of authoring new visualizations time-consuming and inefficient. To address...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Geranium: Multimodal Retrieval of Genomics Data Visualizations.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41973568/",
-      "venue": "IEEE Trans Vis Comput Graph",
-      "venue_display": "IEEE Trans Vis Comput Graph"
-    },
-    {
-      "abstract": "The YABBY family of transcription factors plays an important role in plant growth, development, and stress tolerance. To further explore how CsYABBY family members participate in the drought response mechanism in tea plants (Camellia sinensis [L.] O. Kuntze), we performed a family analysis based on the published pan-genomes of 22 tea varieties and identified a total of 27 CsYABBYs, including 4 near-core genes. Collinearity analysis and Ka/Ks results showed that four near-core genes, CsYABBY7, CsYABBY9, CsYABBY10, and CsYABBY11, were relatively conserved and under purifying selection during tea domestication. In addition, expression patterns showed their differential responses to drought stress. Functional experiments further confirmed that overexpression of CsYABBY7/10/11 could reduce the accumulation of reactive oxygen species and increase the activities of osmoregulatory substances and antioxidant enzymes, thereby enhancing drought resistance. Inhibition of these genes has the opposite effect. CsYABBY9 exhibits dosage-sensitive regulation, in which both overexpression and knockdown compromise drought tolerance.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Shengjing Wen",
-        "Chengzhe Zhou",
-        "Caiyun Tian",
-        "Yuting Li",
-        "Shuaibo Shao",
-        "Cheng Zhang",
-        "Anru Zheng",
-        "Changlian Wu",
-        "Siwei Deng",
-        "Zhong Wang",
-        "Yuqiong Guo"
-      ],
-      "authors_display": "Shengjing Wen, Chengzhe Zhou, Caiyun Tian, et al.",
-      "first_seen_at": "2026-04-14T04:08:13Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1021/acs.jafc.5c16053",
-        "pmcid": null,
-        "pmid": "41968921"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pan genome"
-        ]
-      },
-      "paper_key": "doi:10.1021/acs.jafc.5c16053",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-13",
-      "short_abstract": "The YABBY family of transcription factors plays an important role in plant growth, development, and stress tolerance. To further explore how CsYABBY family members participate in the drought response mechanism in tea plants (Camellia sinensis [L.] O. Kuntze), we performed a family analysis based on the published pan-genomes of 22 tea...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Pan-genome Identification of CsYABBYs and Validation of Drought Stress Responses in Tea Plants.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41968921/",
-      "venue": "J Agric Food Chem",
-      "venue_display": "J Agric Food Chem"
     },
     {
       "abstract": "Probabilistic models such as the sequentially Markovian coalescent have long provided a powerful framework for population genetic inference, enabling reconstruction of demographic history and ancestral relationships from genomic data. However, these methods are inherently specialized, relying on predefined assumptions and/or limited scalability. Recent advances in simulation and deep learning provide an alternative approach: learning directly to generalize from synthetic genetic data to infer hidden evolutionary processes. Here we reframe the inference of coalescence times as a problem of translation between two biological languages: the sparse, observable patterns of mutation along the genome and the unobservable ancestral recombination graph that gave rise to them. Inspired by large language models, we develop cxt, a decoder-only transformer that autoregressively predicts coalescent events conditioned on local mutational context. We show that cxt performs competitively with state-of-the-art Markov Chain Monte Carlo-based likelihood models across a broad range of demographic scenarios, matching their accuracy in-distribution and approaching it in out-of-distribution, with the potential for improvement via fine-tuning. Trained on simulations spanning the stdpopsim catalog [J. R. Adrion et al., eLife 9, e54967 (2020); M. E. Lauterbur et al., eLife 12, e84874 (2023); G. Gower et al., Accessible, realistic genome simulation with selection using stdpopsim. bioRxiv [Preprint] (2025). https://doi.org/10.1101/2025.03.23.644823.], the model generalizes robustly and enables efficient inference at scale, producing over a million coalescence predictions in minutes. cxt also produces well-calibrated approximate posteriors, enabling principled uncertainty quantification. We apply cxt to population genomic data from both humans and mosquitoes, highlighting the model's ability to deal with the complexities of empirical data.",
@@ -636,94 +726,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41942849/",
       "venue": "Genet Sel Evol",
       "venue_display": "Genet Sel Evol"
-    },
-    {
-      "abstract": "Mutation is the fundamental source of genetic variation, yet growing evidence shows that mutations are not uniformly distributed across genomes but are shaped by genomic architecture, DNA-repair dynamics, and environmental conditions. Here, we investigate fine-scale determinants of mutation distribution in the non-biting midge Chironomus riparius, an ecologically important freshwater insect widely used in ecotoxicology. We integrated mutation data from five independent studies, including spontaneous mutation-accumulation experiments and multigenerational exposure assays involving cadmium, benzo[a]pyrene, tyre and road wear particles, and varying generational time. In total, we analysed 420 single-nucleotide mutations mapped to the chromosome-scale C. riparius reference genome. Using a Bayesian modelling framework, we tested whether mutation density is (i) uniformly distributed, (ii) non-uniformly distributed, or predicted by (iii) distance to telomeres and centromeres, (iv) proximity to genes, or (v) distance to repetitive elements. Models were compared using a cross-validation method. We also quantified the proportion of mutations in exons and evaluated the synonymous vs. non-synonymous spectrum using BayesFactor in R. The best-supported model incorporated non-linear effects of genomic position and distance to genes, identifying proximity to coding regions as the dominant predictor of mutation rate. Mutation density increased with distance from genes, indicating strong protection of genic regions. A model including repetitive elements showed nearly equivalent support, suggesting that functional and structural features jointly shape mutational landscapes. Only 9.8% of mutations occurred in exons despite exons representing 22.85% of callable sites, demonstrating marked depletion of exonic mutations. Among exonic mutations, 70.7% were non-synonymous-statistically indistinguishable from the neutral expectation (75%). These findings show that mutation processes in C. riparius are strongly structured by genome architecture, with implications for evolutionary genomics, ecotoxicology, and population-genetic inference.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "María Esther Nieto-Blázquez",
-        "Markus Pfenninger"
-      ],
-      "authors_display": "María Esther Nieto-Blázquez, Markus Pfenninger",
-      "first_seen_at": "2026-04-11T03:35:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/g3journal/jkag092",
-        "pmcid": null,
-        "pmid": "41947018"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation accumulation",
-          "mutation rate"
-        ]
-      },
-      "paper_key": "doi:10.1093/g3journal/jkag092",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-06",
-      "short_abstract": "Mutation is the fundamental source of genetic variation, yet growing evidence shows that mutations are not uniformly distributed across genomes but are shaped by genomic architecture, DNA-repair dynamics, and environmental conditions. Here, we investigate fine-scale determinants of mutation distribution in the non-biting midge...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Genes shielded, repeats exposed: mutation bias in the midge Chironomus riparius.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41947018/",
-      "venue": "G3 (Bethesda)",
-      "venue_display": "G3 (Bethesda)"
-    },
-    {
-      "abstract": "Meiotic crossover formation is critical for generating viable gametes and enhancing genetic diversity. The helicase Mer3 (HFM1 in humans) is a highly conserved factor essential for promoting crossovers and ensuring their proper distribution. Here, we identify replication protein A (RPA) as a direct interactor of budding yeast Mer3. We demonstrate that this interaction is conserved between human HFM1 and RPA. Cross-linking mass spectrometry and structural modelling with AlphaFold2 reveal a conserved and specific Mer3-RPA interface. Single-molecule magnetic tweezers assays demonstrate that direct RPA interaction is required for Mer3 helicase processivity under conditions of low DNA tension. Consistently, a mer3 mutant deficient in RPA binding exhibits reduced crossover frequencies and accumulates unresolved recombination intermediates during budding yeast meiosis. Via genome-wide localisation experiments, we link this effect to weakened recruitment of the mer3 mutant to double-strand break sites. Our findings provide mechanistic insights into coordination of meiotic recombination by the Mer3 helicase through interactions with the canonical DNA repair machinery, highlighting a conserved mechanism underlying crossover control during sexual reproduction.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Veronika Altmannova",
-        "Lucija Orlić",
-        "Carolina Carrasco",
-        "Céline Adam",
-        "Clara Aicart-Ramos",
-        "Dario Guerrini",
-        "Petra Janning",
-        "Valérie Borde",
-        "Joao Matos",
-        "Fernando Moreno-Herrero",
-        "John R Weir"
-      ],
-      "authors_display": "Veronika Altmannova, Lucija Orlić, Carolina Carrasco, et al.",
-      "first_seen_at": "2026-03-21T15:36:16Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1103/physrevlett.89.248102",
-        "pmcid": "PMC3710824",
-        "pmid": "41851108"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "crossover formation",
-          "crossover frequencies",
-          "meiotic recombination"
-        ]
-      },
-      "paper_key": "doi:10.1103/physrevlett.89.248102",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-03-18",
-      "short_abstract": "Meiotic crossover formation is critical for generating viable gametes and enhancing genetic diversity. The helicase Mer3 (HFM1 in humans) is a highly conserved factor essential for promoting crossovers and ensuring their proper distribution. Here, we identify replication protein A (RPA) as a direct interactor of budding yeast Mer3. We...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "RPA directly stimulates Mer3 helicase processivity to ensure normal crossover formation in meiosis.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41851108/",
-      "venue": "Nat Commun",
-      "venue_display": "Nat Commun"
     },
     {
       "abstract": "Statistical methods to identify Neanderthal ancestry in modern human genomes rest on varying assumptions and inputs. Nonetheless, most studies of introgression use only a single method to define Neanderthal ancestry. Due to a lack of \"ground truth,\" we have a limited understanding of the accuracy, comparative strengths and weaknesses, and the sensitivity of downstream conclusions for these methods. Here, we performed large-scale comparisons of 14 genome-wide introgression maps computed by 11 representative Neanderthal introgression detection algorithms: admixfrog, ArchaicSeeker2, ArchIE, ARGWeaver-D, CRF, DICAL-ADMIX, hmmix, IBDmix, SARGE, Sprime, and S*. These algorithms span statistical approaches based on summary statistics, probabilistic modeling, and machine learning, and vary in their use of archaic, modern, and simulated genomes as input. Our results highlight a core set of regions predicted by nearly all methods, as well as substantial heterogeneity in commonly used Neanderthal introgression maps, especially at the individual genome level. Furthermore, we find that downstream analyses may result in different conclusions depending on the map used. Thus, we recommend careful consideration of map(s) chosen for downstream analysis and support the use of multiple maps to ensure robustness of conclusions. We make integrated prediction sets available, enabling further understanding of Neanderthal introgression's legacy on modern humans.",
