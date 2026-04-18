@@ -1,6 +1,371 @@
 {
-  "generated_at": "2026-04-17T04:10:42Z",
+  "generated_at": "2026-04-18T03:46:36Z",
   "latest": [
+    {
+      "abstract": "Pol32 is a subunit shared by DNA polymerases δ and ζ, yet its role in maintaining genome integrity remains incompletely defined. Here, we employed whole-genome sequencing of mutation-accumulation lines to systematically characterize the genome-wide effects of a POL32 deletion in diploid Saccharomyces cerevisiae. Loss of Pol32 led to substantially (>5-fold) elevated rates of loss of heterozygosity (LOH), chromosome rearrangements, and aneuploidy, but resulted in substantially less genome instability than observed in strains with low levels of DNA polymerase δ. In particular, there was only a small (<2-fold) effect of the pol32 mutation on mutation rates. Notably, a prominent hotspot for chromosome rearrangements located near the end of chromosome VII was observed in pol32 strains. Although deletion of REV3 (encoding the catalytic subunit of Pol ζ) had no significant effect on genome integrity in a wild-type background, pol32 rev3 double mutants had reduced rates of most types of chromosome alterations compared to the pol32 single mutant, implicating Pol ζ in driving the genome instability induced by the Pol32 deficiency. Together, these findings provide new insights into how a shared structural subunit of several DNA polymerases contributes to the regulation of genome stability.IMPORTANCEPol32 is a subunit of DNA polymerases δ (an essential replicative enzyme) and ζ (an error-prone DNA polymerase required for DNA repair). We show that yeast strains that lack this protein have elevated rates of mitotic recombination, large deletions/duplications, translocations, and other types of genomic alterations. The high level of genomic alterations in pol32 mutants is substantially suppressed in strains that lack DNA polymerase ζ, suggesting that this error-prone polymerase may stimulate DNA breaks in conditions of DNA replication stress. Our studies are likely to have wide relevance since sequence variants of POLD3 (the human homolog of Pol32) are associated with certain types of human tumors.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Lei Qi",
+        "Ke-Jing Li",
+        "Xing-Xing Tang",
+        "Li-Yan Tian",
+        "Ye-Ke Wang",
+        "Min He",
+        "Ke Zhang",
+        "Thomas D Petes",
+        "Dao-Qiong Zheng"
+      ],
+      "authors_display": "Lei Qi, Ke-Jing Li, Xing-Xing Tang, et al.",
+      "first_seen_at": "2026-04-18T03:46:36Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1128/mbio.00531-26",
+        "pmcid": null,
+        "pmid": "41995324"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation accumulation",
+          "mutation rates"
+        ]
+      },
+      "paper_key": "doi:10.1128/mbio.00531-26",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-17",
+      "short_abstract": "Pol32 is a subunit shared by DNA polymerases δ and ζ, yet its role in maintaining genome integrity remains incompletely defined. Here, we employed whole-genome sequencing of mutation-accumulation lines to systematically characterize the genome-wide effects of a POL32 deletion in diploid Saccharomyces cerevisiae. Loss of Pol32 led to...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Loss of Pol32, a subunit of DNA polymerases δ and ζ, leads to different patterns of genome stability than direct impairment of these individual polymerases.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41995324/",
+      "venue": "mBio",
+      "venue_display": "mBio"
+    },
+    {
+      "abstract": "Hereditary breast cancers (hBCs) exhibit genomic heterogeneity, but their underlying genomic instability and clinical implications remain unclear. We conducted whole-genome sequencing on 129 BRCA1/2-negative hBCs, with subsets analyzed by methylome and transcriptome sequencing, and integrated COSMIC mutational, copy number (CN), and structural variation signatures. We identified four subtypes: homologous recombination-deficient (HRD), mutation-dominant (MUT), CN-dominant, and genome stable. HRD tumors exhibited genomic instability, including promoter hypermethylation and loss of heterozygosity at BRCA1/2. Some HRD-low hBC genomes showed elevated mutations and CN changes, indicating HRD-independent mechanisms. MUT tumors showed high tumor mutation burdens with APOBEC-associated kataegis and cytolytic/immune-activation programs with M1 macrophage including upregulation of GZMA, GZMB, and large-scale transition. CN tumors were enriched for small-scale loss of heterozygosity maintaining euploidy with recurrent focal losses implicating classic tumor suppressors. Transcriptomics indicated immune and stromal infiltration in MUT and CN subtypes, respectively, suggesting subtype-specific therapeutic vulnerabilities. Functional analysis in cell lines suggests poly (ADP-ribose) polymerase inhibitors and cytotoxic chemotherapy sensitivity in HRD and CN tumors, whereas immune features in MUT tumors support vulnerability to immunotherapy. These findings suggest that distinct hBC subtypes delineated by genomic instability can advance insights into molecular heterogeneity beyond expression-based classifications and support an integrative genomic instability index (HRD score, ploidy, size-stratified CN burden, and signature exposures) for patient stratification and personalized therapeutic strategies.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Sunmin Kim",
+        "Seeyoun Lee",
+        "Hyeji Kim",
+        "Su Jung Kang",
+        "Heejung Chae",
+        "Bong-Jo Kim",
+        "Jinhwa Kong",
+        "Min-Chae Kang",
+        "Tae-Min Kim",
+        "Sun-Young Kong"
+      ],
+      "authors_display": "Sunmin Kim, Seeyoun Lee, Hyeji Kim, et al.",
+      "first_seen_at": "2026-04-18T03:46:36Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.3390/cancers15184522",
+        "pmcid": "10527351",
+        "pmid": "41991965"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation"
+        ]
+      },
+      "paper_key": "doi:10.3390/cancers15184522",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-16",
+      "short_abstract": "Hereditary breast cancers (hBCs) exhibit genomic heterogeneity, but their underlying genomic instability and clinical implications remain unclear. We conducted whole-genome sequencing on 129 BRCA1/2-negative hBCs, with subsets analyzed by methylome and transcriptome sequencing, and integrated COSMIC mutational, copy number (CN), and...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Delineation of the heterogeneity underlying genomic instability in hereditary breast cancers reveals four disease subtypes.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41991965/",
+      "venue": "Exp Mol Med",
+      "venue_display": "Exp Mol Med"
+    },
+    {
+      "abstract": "Paramecia belong to the ciliate phylum of unicellular eukaryotes characterized by nuclear dimorphism. A diploid germline micronucleus (MIC) transmits genetic information across sexual generations. A polyploid transcriptionally active somatic macronucleus (MAC) develops at each sexual generation from a copy of the MIC through programmed DNA elimination (PDE) of > 30% of germline DNA. PDE requires the domesticated PiggyMac (Pgm) transposase. Assembly of Paramecium germline genomes has presented an enormous challenge owing to the difficulty of MIC isolation. We report chromosome-scale short-read MIC assemblies for 7 species from the P. aurelia species complex. We discovered a novel clade of Helitrons, with 9-10-kb transposase ORFs under purifying selection, that have remained active in all P. aurelia lineages. A long-read assembly for P. tetraurelia together with a genetic linkage map provided a nearly telomere-to-telomere assembly. The ~ 100-Mb genome consists of tiny (300 kb-1.2 Mb) and numerous (~ 160) germline chromosomes with the highest recombination rate ever reported for a eukaryote (420 cM/Mb). The ends of the chromosomes consist of Helitrons inserted in telomeric C4A2 repeats, forming a distinct genomic compartment that is eliminated very early during MAC development in a Pgm-independent manner.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Olivier Arnaiz",
+        "Frédéric Guérin",
+        "Arnaud Couloux",
+        "Caridad Miró-Pina",
+        "Guillaume Pellerin",
+        "Irina Nekrasova",
+        "Joëlle Amselem",
+        "Jean-Marc Aury",
+        "Simran Bhullar",
+        "Andrea Frapporti",
+        "Emmanuelle Lerat",
+        "Isabelle Luyten",
+        "Sophie Malinsky",
+        "Nathalie Mathy",
+        "Alexey Potekhin",
+        "Vinciane Régnier",
+        "Natalia Sawka-Gądek",
+        "Amandine Touzeau",
+        "Augustin de Vanssay",
+        "Coralie Zangarelli",
+        "Hadi Quesneville",
+        "Mireille Bétermier",
+        "Karine Labadie",
+        "Laurent Duret",
+        "Eric Meyer",
+        "Sandra Duharcourt",
+        "Linda Sperling"
+      ],
+      "authors_display": "Olivier Arnaiz, Frédéric Guérin, Arnaud Couloux, et al.",
+      "first_seen_at": "2026-04-18T03:46:36Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.21105/joss.01686",
+        "pmcid": "7145670",
+        "pmid": "41992225"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "linkage map"
+        ]
+      },
+      "paper_key": "doi:10.21105/joss.01686",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-16",
+      "short_abstract": "Paramecia belong to the ciliate phylum of unicellular eukaryotes characterized by nuclear dimorphism. A diploid germline micronucleus (MIC) transmits genetic information across sexual generations. A polyploid transcriptionally active somatic macronucleus (MAC) develops at each sexual generation from a copy of the MIC through programmed...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "The tiny germline chromosomes of Paramecium aurelia have an exceptionally high recombination rate and are capped by a new class of Helitrons.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41992225/",
+      "venue": "BMC Biol",
+      "venue_display": "BMC Biol"
+    },
+    {
+      "abstract": "Physiologic mechanisms underlying metabolic and renal diseases interact and are highly comorbid, yet their genetic associations and underlying mechanisms have not been systematically elucidated. Using genome-wide association study (GWAS) summary statistics from UK Biobank, FinnGen, and CKDGen, we integrated and analyzed gout, serum urate, chronic kidney disease, kidney stones, and metabolic syndrome. Using genomic structural equation modeling (GSEM), we created the first genetic linkage map for 'gout-urate-kidney-metabolism' (GUKM) to explore shared genetic architecture. Post-GWAS analyses for GUKM-GSEM GWAS, including functional annotation, enrichment, fine-mapping, causal inference, and gsMap, identified key genetic loci, pathways, tissues/cell types, and potential drug targets. We identified 164 lead SNPs, including rs1260326 (chr2) and rs73607783 (chr8), with GSEA showing significant enrichment of GUKM-GSEM GWAS in cholesterol metabolism and lipid pathways (adjP < 0.05). Tissue and cell enrichment highlighted the liver, renal cortex, pancreas, proximal tubular epithelial cells, and hepatocytes (P < 0.05). Mendelian randomization indicated a potential causal role of GCKR (FDR < 0.05), which gsMap showed to be highly expressed in hepatocytes and liver tissue. The present study revealed the common genetic basis of metabolic and renal diseases and emphasized that lipid metabolism may be a key intermediary pathway connecting the 'metabolic-renal axis'. The liver, renal cortex, and pancreas were the primary enriched tissues, and GCKR was identified as a core gene and potential drug target. Overall, this study provides an important reference for the genetic mechanisms, key mechanisms, and intervention targets of related diseases.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Kaixi Ding",
+        "Li Xiang",
+        "Wei Jiang",
+        "Ming Lei",
+        "Yongxiang Gao"
+      ],
+      "authors_display": "Kaixi Ding, Li Xiang, Wei Jiang, et al.",
+      "first_seen_at": "2026-04-18T03:46:36Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1530/jme-25-0171",
+        "pmcid": null,
+        "pmid": "41926080"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "linkage map"
+        ]
+      },
+      "paper_key": "doi:10.1530/jme-25-0171",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-16",
+      "short_abstract": "Physiologic mechanisms underlying metabolic and renal diseases interact and are highly comorbid, yet their genetic associations and underlying mechanisms have not been systematically elucidated. Using genome-wide association study (GWAS) summary statistics from UK Biobank, FinnGen, and CKDGen, we integrated and analyzed gout, serum...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Metabolic-renal disease genetic architecture revealed by genomic structural equation modeling.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41926080/",
+      "venue": "J Mol Endocrinol",
+      "venue_display": "J Mol Endocrinol"
+    },
+    {
+      "abstract": "Optical genome mapping (OGM) is a novel technology that enables high-resolution detection of structural variants. This study aimed to evaluate the diagnostic contribution of OGM in early-onset developmental epileptic encephalopathies (DEEs) with unresolved genetic causes. A total of 38 children with early-onset DEEs (aged 0-18 years) who remained undiagnosed despite conventional karyotyping, chromosomal microarray analysis (CMA) and whole-exome sequencing (WES) were included. All patients underwent detailed phenotypic reassessment and WES reanalysis. One patient received a definitive molecular diagnosis following WES reanalysis. Four patients subsequently withdrew consent, and one patient was excluded due to inadequate DNA quality for OGM. OGM was therefore performed in the remaining 32 patients. Potential OGM findings were validated using appropriate laboratory techniques. Among the 32 patients who underwent OGM, three candidate structural variants were identified. Two variants (2/32, 6.3%), ogm[GRCh38] ins(X;?)(q27.3;?) and ogm[GRCh38] 6p24.1 (13083829_13279761)x1, were confirmed using orthogonal validation methods, resulting in the molecular diagnoses of Fragile X syndrome and PHACTR1-related DEE, respectively. OGM contributed to the identification of clinically relevant structural variants in genetically undiagnosed early-onset DEEs. These findings support the complementary role of OGM in the genetic evaluation of complex neurodevelopmental disorders.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Sanem Yilmaz",
+        "Enise Avci Durmusalioglu",
+        "Dilara Ece Toprak Dogan",
+        "Seda Kanmaz",
+        "Tahir Atik",
+        "Mehmet Burak Mutlu",
+        "Uluç Yiş",
+        "Unsal Yilmaz",
+        "Aycan Unalp",
+        "Sarenur Gökben",
+        "Hasan Baş",
+        "Arman Rostamlou",
+        "Nur Selvi Gunel",
+        "Cumhur Gunduz",
+        "Hasan Tekgul",
+        "Esra Isik"
+      ],
+      "authors_display": "Sanem Yilmaz, Enise Avci Durmusalioglu, Dilara Ece Toprak Dogan, et al.",
+      "first_seen_at": "2026-04-18T03:46:36Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1136/jmg-2026-111485",
+        "pmcid": null,
+        "pmid": "41991279"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1136/jmg-2026-111485",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-16",
+      "short_abstract": "Optical genome mapping (OGM) is a novel technology that enables high-resolution detection of structural variants. This study aimed to evaluate the diagnostic contribution of OGM in early-onset developmental epileptic encephalopathies (DEEs) with unresolved genetic causes. A total of 38 children with early-onset DEEs (aged 0-18 years)...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Optical genome mapping identifies previously undetected causal variants in early-onset developmental epileptic encephalopathies.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41991279/",
+      "venue": "J Med Genet",
+      "venue_display": "J Med Genet"
+    },
+    {
+      "abstract": "Agricultural research has long faced challenges with data sharing, often relying on informal networks and requiring significant effort to clean and harmonize data. This hampers collaboration and limits data reuse. While FAIR (Findable, Accessible, Interoperable, and Reusable) principles are widely adopted in biomedical research, their uptake in agricultural genomics has lagged. The AgBioData Standards for Genetic Variation Working Group aims to close this gap by promoting FAIR data practices. We surveyed current standards for managing agricultural genetic variation and recommend adopting reference SNP identifiers (rsIDs) as a key step. We present examples from crop research communities with varying data maturity, including those without reference assemblies. Milestones include introducing nearly 220 million rsIDs to Gramene and pangenome databases, projecting rsIDs from reference to pangenome varieties in sorghum and maize, and developing an agricultural FAIR guide for rsID adoption. Better coordination among data producers, repositories, and breeding platforms is essential to improve interoperability, consistency, and accelerate genetic variant discovery for crop trait improvement.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Marcela K Tello-Ruiz",
+        "Timothee Cezard",
+        "Carson Andorf",
+        "Sonia Balyan",
+        "Nahla V Bassil",
+        "Sebastian Beier",
+        "Jill M Bushakra",
+        "Tao-Ho Chang",
+        "Kapeel Chogule",
+        "Irene Cobo-Simón",
+        "Sarah Dyer",
+        "Christine G Elsik",
+        "Nicholas Gladman",
+        "Melanie Harrison",
+        "Jodi Humann",
+        "Catherine Kim",
+        "Vivek Kumar",
+        "Raja S Nandety",
+        "Rex Nelson",
+        "Andrew Olson",
+        "Taner Z Sen",
+        "Moira J Sheehan",
+        "Sharon Wei",
+        "Doreen Ware"
+      ],
+      "authors_display": "Marcela K Tello-Ruiz, Timothee Cezard, Carson Andorf, et al.",
+      "first_seen_at": "2026-04-18T03:46:36Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41597-026-07208-0",
+        "pmcid": null,
+        "pmid": "41991945"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41597-026-07208-0",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-16",
+      "short_abstract": "Agricultural research has long faced challenges with data sharing, often relying on informal networks and requiring significant effort to clean and harmonize data. This hampers collaboration and limits data reuse. While FAIR (Findable, Accessible, Interoperable, and Reusable) principles are widely adopted in biomedical research, their...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Adoption of Standard Reference SNP Identifiers in Agricultural Genomics for Interoperability and Data Reuse.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41991945/",
+      "venue": "Sci Data",
+      "venue_display": "Sci Data"
+    },
+    {
+      "abstract": "Roses are economically important ornamental plants, with widespread applications in the cut flowers, garden and cosmetics industries. The genomic evolution and diversity of the subgenus Rosa remain understudied, limiting exploitation of its diversity in breeding. Here we assembled genomes of 23 accessions, comprising 51 haplotypes that capture the subgenus's high genetic diversity. Extensive introgression across accessions from different sections highlights crossbreeding potential. Pangenome analysis revealed 1,801,537 structural variations, providing insights into the genetic basis and key regulators controlling key traits such as continuous flowering, petal number and discoloration. A key finding was the identification of a CCD4 homolog as the main regulator of petal discoloration. Additional subgenomic analysis of the allopolyploid Rosa gallica and the triploid Rosa hybrida 'La France', two important breeding materials of modern roses, revealed their hybrid origins. Overall, this study advances understanding of rose genomics and provides valuable resources for future breeding and trait improvement.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Xiaoni Zhang",
+        "Lan Lan",
+        "Yingxue Yang",
+        "Huilin Guan",
+        "Dan Peng",
+        "Heling Jiang",
+        "Quanshu Wu",
+        "Rui Huang",
+        "Xuezhu Liao",
+        "Shengnan Lin",
+        "Desheng Gong",
+        "Bingyao Huang",
+        "Clement Bellot",
+        "Judit Szécsi",
+        "Manzhu Bao",
+        "Mohammed Bendahmane",
+        "Xiaopeng Fu",
+        "Zhiqiang Wu",
+        "Weihua Pan"
+      ],
+      "authors_display": "Xiaoni Zhang, Lan Lan, Yingxue Yang, et al.",
+      "first_seen_at": "2026-04-18T03:46:36Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.ymben.2005.08.005",
+        "pmcid": "5320579",
+        "pmid": "41992043"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenomic",
+          "structural variations",
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.ymben.2005.08.005",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-16",
+      "short_abstract": "Roses are economically important ornamental plants, with widespread applications in the cut flowers, garden and cosmetics industries. The genomic evolution and diversity of the subgenus Rosa remain understudied, limiting exploitation of its diversity in breeding. Here we assembled genomes of 23 accessions, comprising 51 haplotypes that...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Pangenomic analyses of rose uncover widespread structure variation and empower genomics-directed breeding.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41992043/",
+      "venue": "Nat Genet",
+      "venue_display": "Nat Genet"
+    },
     {
       "abstract": "The transcription factor (TF) regulatory network in Pseudomonas aeruginosa is complex and involves multiple regulators that respond to various environmental signals and physiological cues by regulating gene expression. However, the biological functions of at least half of its 373 putative TFs remain uncharacterised. Herein, chromatin immunoprecipitation sequencing (ChIP-seq) was used to investigate the binding sites of 172 TFs in the P. aeruginosa PAO1 strain. The results revealed 81,009 significant binding peaks in the genome, more than half of which were located in the promoter regions. To further decode the diverse regulatory relationships among TFs, a hierarchical network was assembled into three levels: top, middle, and bottom. Thirteen ternary regulatory motifs revealed flexible relationships among TFs in small hubs, and a comprehensive co-association atlas was established, showing the enrichment of seven core associated clusters. Twenty-four TFs were identified as the master regulators of virulence-related pathways. The pan-genome analysis revealed the conservation and evolution of TFs in P. aeruginosa complex and other species. A web-based database combining existing and new data from ChIP-seq and the high-throughput systematic evolution of ligands by exponential enrichment was established for searching TF-binding sites. This study provides important insights into the pathogenic mechanisms of P. aeruginosa and related bacteria and is expected to contribute to the development of effective therapies for infectious diseases caused by this pathogen.",
       "accent_color": "#2f8f6b",
@@ -26,7 +391,7 @@
         "arxiv_id": null,
         "biorxiv_doi": null,
         "doi": "10.7554/elife.103346",
-        "pmcid": null,
+        "pmcid": "PMC3098059",
         "pmid": "41989285"
       },
       "matched_keywords": {
@@ -50,195 +415,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41989285/",
       "venue": "Elife",
       "venue_display": "Elife"
-    },
-    {
-      "abstract": "In human genetics, penetrance describes the probability that a genotype manifests as a phenotype within a defined clinical window, yet its biological determinants remain poorly understood. Advances in sequencing technologies, statistical frameworks, and biobank-scale resources now enable systematic discovery of penetrance-modifying coding, regulatory, and structural variants spanning the allele frequency-effect size spectrum. Using metabolic dysfunction-associated steatotic liver disease, chronic kidney disease, and Alzheimer's disease as exemplars, we illustrate how rare, high-impact mutations, ancestry-enriched intermediate-frequency alleles, and common polygenic variation act through distinct molecular and cellular mechanisms to shape disease liability. We highlight gaps in integrating different variant types, modeling context-dependent effects, and building frameworks to translate genetic findings into individualized risk assessment. A unified understanding of penetrance promises to improve genotype-to-phenotype inference, refine patient risk stratification, and accelerate genetically informed therapeutic strategies.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Yunjun Kang",
-        "Theodore G Drivas"
-      ],
-      "authors_display": "Yunjun Kang, Theodore G Drivas",
-      "first_seen_at": "2026-04-17T04:10:42Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1146/annurev-biodatasci-103123-094547",
-        "pmcid": null,
-        "pmid": "41990334"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1146/annurev-biodatasci-103123-094547",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-16",
-      "short_abstract": "In human genetics, penetrance describes the probability that a genotype manifests as a phenotype within a defined clinical window, yet its biological determinants remain poorly understood. Advances in sequencing technologies, statistical frameworks, and biobank-scale resources now enable systematic discovery of penetrance-modifying...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Genetic Modulators of Disease Penetrance.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41990334/",
-      "venue": "Annu Rev Biomed Data Sci",
-      "venue_display": "Annu Rev Biomed Data Sci"
-    },
-    {
-      "abstract": "The Enterobacter genus contains 23 species that include common nosocomial pathogens capable of causing a wide variety of infections. We obtained all available Enterobacter genomes and retained 4,805 high-quality genomes after quality control. Genome sequencing analysis of Enterobacter species revealed the presence of type VI secretion systems (T6SS) in these bacteria, but systematic analysis and comparison of these systems among different species are limited. We found that these bacteria code for three distinct types of T6SS, each with a unique set of diverse predicted effectors. Whereas at least 14 effectors are found in each strain, the number of immunity proteins is considerably fewer. By demonstrating a correlation between the abundance of known T6SS-associated proteins and the presence of T6SS, we proposed a comparative genomics model to evaluate the correlation between unknown T6SS-associated ortholog proteins and T6SSs. Among the homologous groups most strongly associated with T6SS, we potentially identified several effectors. It is conceivable that our methodology could be scaled to survey additional bacterial genera for novel T6SS effectors, thereby providing fresh perspectives and directions for subsequent biological experiments.IMPORTANCEEnterobacter species are important human pathogens that can cause severe conditions like pneumonia, urinary tract infections, and bacteremia. As Gram-negative bacteria, they frequently carry diverse T6SS loci, which are often associated with bacterial virulence and are also one of the important causes of bacterial infection. T6SS effectors play a critical role in interbacterial competition and virulence during infection. VgrG proteins are essential T6SS components that form the spike structure and mediate effector delivery, making them critical for bacterial competition and virulence. However, systematic studies on their distribution and function remain limited. Here, we analyzed all available high-quality Enterobacter genomes and revealed that T6SS diversity is shaped by both species' evolution and horizontal gene transfer (HGT). We proved that it is feasible to measure the biological relevance of unknown functional proteins to the T6SS through statistical analyses. This high-throughput approach provides a new perspective for future research on T6SS functionality, especially in Enterobacter.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Zhihan Peng",
-        "Ning Zhu",
-        "Wenjing Yi",
-        "Lili Jiang",
-        "Tingting Dong",
-        "Ruihong Wu",
-        "Shanshan Jia",
-        "Xiaohan Guo",
-        "Zhaoqing Luo",
-        "Qingtian Guan"
-      ],
-      "authors_display": "Zhihan Peng, Ning Zhu, Wenjing Yi, et al.",
-      "first_seen_at": "2026-04-17T04:10:42Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1128/msystems.01781-25",
-        "pmcid": null,
-        "pmid": "41989184"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pan genome"
-        ]
-      },
-      "paper_key": "doi:10.1128/msystems.01781-25",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-16",
-      "short_abstract": "The Enterobacter genus contains 23 species that include common nosocomial pathogens capable of causing a wide variety of infections. We obtained all available Enterobacter genomes and retained 4,805 high-quality genomes after quality control. Genome sequencing analysis of Enterobacter species revealed the presence of type VI secretion...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Pan-genome insights into type VI secretion systems and their functional repertoires in Enterobacter.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41989184/",
-      "venue": "mSystems",
-      "venue_display": "mSystems"
-    },
-    {
-      "abstract": "Salmonella is a major zoonotic bacterial pathogen with significant impacts on public health, food safety, and veterinary medicine. The genus Salmonella includes exactly two recognized species, S. enterica and S. bongori. Most routine molecular surveillance assays target conserved genus-level genes, such as invA, which do not distinguish Salmonella enterica and Salmonella bongori, potentially obscuring species-specific ecology and source attribution. Here, we present the first introduction of Multiple accessory-genes sequence typing (MAST), a pan-genome-guided framework for binary (two species) bacterial PCR target screening, primer design, and experimental validation, demonstrated here in Salmonella. Applying MAST to 2 236 high-quality Salmonella genomes, we identified sopD2 as a species-discriminative locus. sopD2-targeted primers with the highest MAST Diff score (=0.999) demonstrated high analytical specificity for Salmonella, with no cross-amplification observed against Escherichia coli, Streptococcus suis, or Pasteurella multocida, and enabled clear PCR differentiation of S. enterica from S. bongori across laboratory isolates. Taken together, our results position MAST as a broadly applicable and practical pipeline for species‑level PCR marker discovery across diverse bacterial taxa and validate sopD2 as a robust target for discriminating Salmonella species, enhancing the accuracy of molecular surveillance and the clarity of source attribution.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Yangla Bianba",
-        "Zhuoma Gesang",
-        "Bin Ma",
-        "Haoyu Fan",
-        "Yurui Wang",
-        "Mingyang Wang",
-        "Yanxi Wan",
-        "Runbo Luo",
-        "Hui Jin",
-        "Sizhu Suolang"
-      ],
-      "authors_display": "Yangla Bianba, Zhuoma Gesang, Bin Ma, et al.",
-      "first_seen_at": "2026-04-17T04:10:42Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/femsle/fnag043",
-        "pmcid": null,
-        "pmid": "41990118"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pan genome"
-        ]
-      },
-      "paper_key": "doi:10.1093/femsle/fnag043",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-16",
-      "short_abstract": "Salmonella is a major zoonotic bacterial pathogen with significant impacts on public health, food safety, and veterinary medicine. The genus Salmonella includes exactly two recognized species, S. enterica and S. bongori. Most routine molecular surveillance assays target conserved genus-level genes, such as invA, which do not distinguish...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Multiple Accessory-Genes Sequence Typing (MAST): Pan-Genome-Guided PCR Target Discovery Enables Species-Level Discrimination in Salmonella Surveillance.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41990118/",
-      "venue": "FEMS Microbiol Lett",
-      "venue_display": "FEMS Microbiol Lett"
-    },
-    {
-      "abstract": "Targeted therapy prolongs the lives of men with metastatic castration-resistant prostate cancer (mCRPC) but mCRPC is ultimately lethal. DNA copy gains that amplify the Androgen Receptor (AR) gene locus are a key driver of resistance to targeted therapy in mCRPC. Our group has recently shown that extra-chromosomal DNA (ecDNA) frequently drives this amplification. We hypothesized that ecDNA and other complex structural variants (cSVs) also affect other established drivers of therapy resistance in mCRPC and continue to evolve over time. To test this hypothesis, we reconstructed cSV profiles in 193 mCRPC tumors using whole genome and transcriptome sequencing, with matched Hi-C data for 77 tumors. We identify ecDNA in more than half of mCRPC biopsies and show it frequently amplifies driver genes such as AR and MYC and their non-coding enhancers. The presence of ecDNA is significantly associated with whole genome doubling, chromothripsis, and inactivating TP53 alterations. Deep sequencing analysis of 53 rapid autopsy samples shows cSVs amplifying AR can arise independently within distinct tumors in a single patient. Phylogenetic analysis of tumor evolution implicates this cSV as an early event during metastatic spread. Additionally, a paired analysis of mCRPC samples as patients developed resistance to AR pathway inhibitor (ARPI) therapy demonstrates cSVs evolve in response to ARPI and can be detected in both tumor tissue and circulating tumor DNA. We conclude that cSVs, particularly ecDNA, are a pervasive contributor to intra-patient heterogeneity in late-stage mCRPC and a key driver of targeted therapy resistance.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Thaidy Moreno-Rodriguez",
-        "Meng Zhang",
-        "Arian Lundberg",
-        "Raunak Shrestha",
-        "Martin Sjöström",
-        "Anupama Pasam",
-        "Joanna Chan",
-        "Lisa Devereux",
-        "Adam Foye",
-        "Xiaolin Zhu",
-        "Alana S Weinstein",
-        "Anna S Trigos",
-        "Alexander W Wyatt",
-        "Joshi J Alumkal",
-        "Eric J Small",
-        "Rahul Aggarwal",
-        "Scott M Dehm",
-        "Matthew L Bootsma",
-        "Shuang G Zhao",
-        "Mathieu Lupien",
-        "Felix Y Feng",
-        "Shahneen Sandhu",
-        "David A Quigley"
-      ],
-      "authors_display": "Thaidy Moreno-Rodriguez, Meng Zhang, Arian Lundberg, et al.",
-      "first_seen_at": "2026-04-17T04:10:42Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/s13059-026-04074-2",
-        "pmcid": null,
-        "pmid": "41987223"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1186/s13059-026-04074-2",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-15",
-      "short_abstract": "Targeted therapy prolongs the lives of men with metastatic castration-resistant prostate cancer (mCRPC) but mCRPC is ultimately lethal. DNA copy gains that amplify the Androgen Receptor (AR) gene locus are a key driver of resistance to targeted therapy in mCRPC. Our group has recently shown that extra-chromosomal DNA (ecDNA) frequently...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Convergent evolution of complex structural variants drives therapy resistance in metastatic prostate cancer.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41987223/",
-      "venue": "Genome Biol",
-      "venue_display": "Genome Biol"
     },
     {
       "abstract": "This study reveals the diversity of GC content characteristics among major angiosperm groups, with Poaceae species exhibiting significantly higher GC content and more pronounced heterogeneity. These features are likely associated with GC-biased gene conversion. Genome nucleotide composition critically shapes plant genetic diversity, yet its variation across angiosperms remains poorly understood. Here, we conducted a multilevel GC analysis across 495 angiosperm genomes (spanning 109 families, 44 orders; 284 species with annotated coding genes). Using SeqKit, we quantified GC content at whole-genome, chromosomal, gene, and codon scales, while estimating recombination rates with mlRho v2.9. We found that angiosperm GC content approximates a normal distribution (mean 36.64%) but varies markedly among lineages: monocots (41.97%) > eudicots (35.43%), with Poaceae highest (44.64%). Coding-region GC (mean 46.38%) exceeded genomic levels, showing maximal variation at the third codon position (GC3; mean 46.22%; up to 63.63% in Poaceae). Gene-level GC distributions shifted from unimodal to distinctly bimodal patterns-evident in Poaceae-reflecting divergence between high- and low-GC genes. Notably, GC content correlated positively with both chromosome length and recombination rate. These patterns are consistent with GC-biased gene conversion (gBGC) as a key driver of GC diversity in angiosperms, operating neutrally and locally across genomic scales, independent of phylogeny.",
@@ -598,141 +774,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41946721/",
       "venue": "Nat Commun",
       "venue_display": "Nat Commun"
-    },
-    {
-      "abstract": "POU2F3 is a newly identified immunohistochemical marker specific for the chemosensory tuft cells-related subtype of small cell lung carcinoma (SCLC-P). The characteristics of SCLC-P remain incompletely defined, and POU2F3 expression patterns across different organs and tissue types are poorly documented. We assessed POU2F3 expression in 253 SCLC, with comprehensive clinicopathologic and genomic characterization of POU2F3-positive tumors. POU2F3 expression profiles were investigated in other major lung cancer types (n = 2497) and other tumors across different organs and tissue types (n = 196). POU2F3 was expressed in 10.28% (26/253) of all SCLC and was strongly associated with low expression of standard neuroendocrine markers (synaptophysin, chromogranin A, CD56, INSM1). In NE-low/negative SCLC and NE-high SCLC, the POU2F3 positive rates were 83.33% (20/24) and 2.62% (6/229), respectively. Additionally, POU2F3 was detected in SCC (2.35%) and LCNEC (25%), but was negative in lung adenocarcinoma, NUT carcinoma, LCC, PC, SMARCA4-UT, AC, and ACC. Notably, the highly heterogeneity of POU2F3 expression were observed in 7.3% (3/41) surgical SCLC specimens. In extrapulmonary tumors, POU2F3 was positive in 37.5% (6/16) of extra-SCNECs, 16.67% (5/30) of thymic tumors, 1 of 2 extra-LCNECs, and 1 of 1 NPC. SCLC-P tends to be more prevalent in surgical specimens (P=0.009) and earlier TNM stage (P=0.045). Next-generation sequencing revealed that SCLC-P (n=6) exhibited enrichment in MYC gene amplification and lower mutation rate of RB1, but similar rates of TP53 and PTEN alterations as POU2F3-negative SCLC (n = 13). This study establishes POU2F3 as a critical diagnostic biomarker for neuroendocrine-low/negative SCLC, demonstrating high specificity in distinguishing SCLC-P from other thoracic malignancies and small blue round cell tumors. We delineate the distinct clinicopathological-genomic profile of POU2F3-driven SCLC (SCLC-P), providing a foundation for its diagnostic application. Further validation in expanded cohorts is warranted to confirm its clinical utility.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Xiaoyan Chen",
-        "Fangfang Zou",
-        "Haimin Xu",
-        "Zhihan Zhang",
-        "Jing Wang",
-        "Yue Li",
-        "Jingdan Jia",
-        "Shanshan Sun",
-        "Chaofu Wang",
-        "Jing Zhang"
-      ],
-      "authors_display": "Xiaoyan Chen, Fangfang Zou, Haimin Xu, et al.",
-      "first_seen_at": "2026-04-11T03:35:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.labinv.2026.106124",
-        "pmcid": null,
-        "pmid": "41956344"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rate"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.labinv.2026.106124",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-07",
-      "short_abstract": "POU2F3 is a newly identified immunohistochemical marker specific for the chemosensory tuft cells-related subtype of small cell lung carcinoma (SCLC-P). The characteristics of SCLC-P remain incompletely defined, and POU2F3 expression patterns across different organs and tissue types are poorly documented. We assessed POU2F3 expression in...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "POU2F3 in SCLC: Diagnostic Utility in Neuroendocrine Low/Negative SCLC and Discrimination From Other Thoracic Malignancies and Other Small Blue Round Cell Tumors.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41956344/",
-      "venue": "Lab Invest",
-      "venue_display": "Lab Invest"
-    },
-    {
-      "abstract": "As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing datasets from 299 donors and single nucleus ATAC-seq datasets from 106 donors. Developmental and disease-associated processes drive far more extensive molecular remodeling than sex-associated or aging-dependent effects. Across nearly all cardiac cell types, developmental and disease-driven changes exhibit strong overlap at both the transcriptomic and epigenomic levels, revealing widespread reactivation of fetal-associated gene programs beyond cardiomyocytes. Both cardiac development and disease show convergent shifts in intercellular communication, including increased TGFβ signaling. Integration of gene expression and chromatin accessibility data reveals putative cell-type-specific transcriptional factors driving fetal reactivation in major cardiac diseases. Spatial transcriptomics data orthogonally identifies localization of this fetal reactivation signature within spatially distinct niches in ischemic and fibrotic zones of acute myocardial infarction. Finally, we construct a cell-type-resolved enhancer-to-gene linkage map that refines the association of dilated and hypertrophic cardiomyopathy genetic risk loci to downstream target genes. This study presents a comprehensive multimodal, cell-type-resolved atlas of the human heart, providing a foundation for understanding human cardiac gene regulation across the human lifespan and in cardiac diseases.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "William Gao",
-        "Peng Hu",
-        "Brittney Wick",
-        "Qi Qiu",
-        "Hongjie Zhang",
-        "Ying Li",
-        "Xiangjin Kang",
-        "Kenneth Bedi",
-        "Maximilian Haeussler",
-        "Kotaro Sasaki",
-        "Kenneth Margulies",
-        "Hao Wu"
-      ],
-      "authors_display": "William Gao, Peng Hu, Brittney Wick, et al.",
-      "first_seen_at": "2026-04-11T03:35:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/s13059-026-04061-7",
-        "pmcid": "PMC11631752",
-        "pmid": "41937210"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "linkage map"
-        ]
-      },
-      "paper_key": "doi:10.1186/s13059-026-04061-7",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-04-06",
-      "short_abstract": "As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "An integrative single-nucleus multiomic atlas of the human left ventricle identifies gene regulatory network dynamics across cardiac development, aging, and disease.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41937210/",
-      "venue": "Genome Biol",
-      "venue_display": "Genome Biol"
-    },
-    {
-      "abstract": "Genetic diversity among cattle breeds exists due to their demographic history and different breeding objectives for meat, dairy or dual purpose. Taking this into account, targeted breeding strategies can be further enhanced by employing breed-specific genetic maps. The aim of this study was to derive genetic maps (also known as linkage maps) for a selection of commercial breeds. We analysed genotype data from six cattle breeds with sample size ranging from 4,181 to 76,875. Several different assays were used for genotyping, resulting in a high proportion of systematically missing data. Thus, we streamlined the data preparation and analysed the data with three different approaches. We investigated the frequency of paternal and maternal recombination events and derived genetic-map coordinates of about 50K SNP markers. Estimates of male map length varied from 26.97 to 29.83 M between breeds, whereas length of female maps ranged from 23.32 to 26.08 M. Female recombination activity and female genetic maps were clearly distinct from the outcome in males. In particular, male maps of Brown Swiss, Simmental and Angus clustered separately from other male maps and female maps of dairy breeds were distinct from female maps of dual-purpose breeds. Furthermore, a genomewide association study on mean autosomal crossover count and intra-chromosomal allelic shuffling per parent revealed two chromosomal regions on BTA6 and BTA10 with strong evidence found in Brown Swiss and Swiss Holstein; another suggestive signal was detected on BTA10. These regions were in close proximity to genes with known impact on recombination activity. Breed-specific female maps could be clearly differentiated from male maps. Though female maps clustered together depending on breed purpose, this was not the case for male maps. All results on empirical data were implemented in the updated version of the R Shiny app CLARITY v3.0.0. This resource can contribute to several instances of genomic evaluations - from improving haplotype phasing to implementing novel breeding strategies.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Dörte Wittenburg",
-        "Nina Melzer",
-        "Nayyer Abdollahi Sisi",
-        "Xi Ding",
-        "Franz R Seefried"
-      ],
-      "authors_display": "Dörte Wittenburg, Nina Melzer, Nayyer Abdollahi Sisi, et al.",
-      "first_seen_at": "2026-04-11T03:35:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/s12711-026-01041-0",
-        "pmcid": "PMC7553937",
-        "pmid": "41942849"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "linkage maps"
-        ]
-      },
-      "paper_key": "doi:10.1186/s12711-026-01041-0",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-04-06",
-      "short_abstract": "Genetic diversity among cattle breeds exists due to their demographic history and different breeding objectives for meat, dairy or dual purpose. Taking this into account, targeted breeding strategies can be further enhanced by employing breed-specific genetic maps. The aim of this study was to derive genetic maps (also known as linkage...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "A comparative study on recombination activity in cattle.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41942849/",
-      "venue": "Genet Sel Evol",
-      "venue_display": "Genet Sel Evol"
     },
     {
       "abstract": "Statistical methods to identify Neanderthal ancestry in modern human genomes rest on varying assumptions and inputs. Nonetheless, most studies of introgression use only a single method to define Neanderthal ancestry. Due to a lack of \"ground truth,\" we have a limited understanding of the accuracy, comparative strengths and weaknesses, and the sensitivity of downstream conclusions for these methods. Here, we performed large-scale comparisons of 14 genome-wide introgression maps computed by 11 representative Neanderthal introgression detection algorithms: admixfrog, ArchaicSeeker2, ArchIE, ARGWeaver-D, CRF, DICAL-ADMIX, hmmix, IBDmix, SARGE, Sprime, and S*. These algorithms span statistical approaches based on summary statistics, probabilistic modeling, and machine learning, and vary in their use of archaic, modern, and simulated genomes as input. Our results highlight a core set of regions predicted by nearly all methods, as well as substantial heterogeneity in commonly used Neanderthal introgression maps, especially at the individual genome level. Furthermore, we find that downstream analyses may result in different conclusions depending on the map used. Thus, we recommend careful consideration of map(s) chosen for downstream analysis and support the use of multiple maps to ensure robustness of conclusions. We make integrated prediction sets available, enabling further understanding of Neanderthal introgression's legacy on modern humans.",
