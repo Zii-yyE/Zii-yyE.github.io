@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T03:46:36Z",
+  "generated_at": "2026-04-19T04:13:19Z",
   "latest": [
     {
       "abstract": "Pol32 is a subunit shared by DNA polymerases δ and ζ, yet its role in maintaining genome integrity remains incompletely defined. Here, we employed whole-genome sequencing of mutation-accumulation lines to systematically characterize the genome-wide effects of a POL32 deletion in diploid Saccharomyces cerevisiae. Loss of Pol32 led to substantially (>5-fold) elevated rates of loss of heterozygosity (LOH), chromosome rearrangements, and aneuploidy, but resulted in substantially less genome instability than observed in strains with low levels of DNA polymerase δ. In particular, there was only a small (<2-fold) effect of the pol32 mutation on mutation rates. Notably, a prominent hotspot for chromosome rearrangements located near the end of chromosome VII was observed in pol32 strains. Although deletion of REV3 (encoding the catalytic subunit of Pol ζ) had no significant effect on genome integrity in a wild-type background, pol32 rev3 double mutants had reduced rates of most types of chromosome alterations compared to the pol32 single mutant, implicating Pol ζ in driving the genome instability induced by the Pol32 deficiency. Together, these findings provide new insights into how a shared structural subunit of several DNA polymerases contributes to the regulation of genome stability.IMPORTANCEPol32 is a subunit of DNA polymerases δ (an essential replicative enzyme) and ζ (an error-prone DNA polymerase required for DNA repair). We show that yeast strains that lack this protein have elevated rates of mitotic recombination, large deletions/duplications, translocations, and other types of genomic alterations. The high level of genomic alterations in pol32 mutants is substantially suppressed in strains that lack DNA polymerase ζ, suggesting that this error-prone polymerase may stimulate DNA breaks in conditions of DNA replication stress. Our studies are likely to have wide relevance since sequence variants of POLD3 (the human homolog of Pol32) are associated with certain types of human tumors.",
@@ -46,6 +46,45 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41995324/",
       "venue": "mBio",
       "venue_display": "mBio"
+    },
+    {
+      "abstract": "Clonal competition eliminates most early neoplastic lesions, yet a subset persists and ultimately progresses. In Nature, Skrupskelyte et al. demonstrate that nascent tumors survive by actively reshaping a precancerous niche through epithelial-stromal feedback. This ecological gatekeeping mechanism reframes tumor initiation from a process of mutation accumulation to microenvironmental selection and co-evolution.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Fei Gao",
+        "Jiang Chang",
+        "Chen Wu"
+      ],
+      "authors_display": "Fei Gao, Jiang Chang, Chen Wu",
+      "first_seen_at": "2026-04-19T04:13:19Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.ccell.2026.03.014",
+        "pmcid": null,
+        "pmid": "41997139"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation accumulation"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.ccell.2026.03.014",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-16",
+      "short_abstract": "Clonal competition eliminates most early neoplastic lesions, yet a subset persists and ultimately progresses. In Nature, Skrupskelyte et al. demonstrate that nascent tumors survive by actively reshaping a precancerous niche through epithelial-stromal feedback. This ecological gatekeeping mechanism reframes tumor initiation from a...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Precancerous niches as gatekeepers of tumor initiation.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41997139/",
+      "venue": "Cancer Cell",
+      "venue_display": "Cancer Cell"
     },
     {
       "abstract": "Hereditary breast cancers (hBCs) exhibit genomic heterogeneity, but their underlying genomic instability and clinical implications remain unclear. We conducted whole-genome sequencing on 129 BRCA1/2-negative hBCs, with subsets analyzed by methylome and transcriptome sequencing, and integrated COSMIC mutational, copy number (CN), and structural variation signatures. We identified four subtypes: homologous recombination-deficient (HRD), mutation-dominant (MUT), CN-dominant, and genome stable. HRD tumors exhibited genomic instability, including promoter hypermethylation and loss of heterozygosity at BRCA1/2. Some HRD-low hBC genomes showed elevated mutations and CN changes, indicating HRD-independent mechanisms. MUT tumors showed high tumor mutation burdens with APOBEC-associated kataegis and cytolytic/immune-activation programs with M1 macrophage including upregulation of GZMA, GZMB, and large-scale transition. CN tumors were enriched for small-scale loss of heterozygosity maintaining euploidy with recurrent focal losses implicating classic tumor suppressors. Transcriptomics indicated immune and stromal infiltration in MUT and CN subtypes, respectively, suggesting subtype-specific therapeutic vulnerabilities. Functional analysis in cell lines suggests poly (ADP-ribose) polymerase inhibitors and cytotoxic chemotherapy sensitivity in HRD and CN tumors, whereas immune features in MUT tumors support vulnerability to immunotherapy. These findings suggest that distinct hBC subtypes delineated by genomic instability can advance insights into molecular heterogeneity beyond expression-based classifications and support an integrative genomic instability index (HRD score, ploidy, size-stratified CN burden, and signature exposures) for patient stratification and personalized therapeutic strategies.",
@@ -687,49 +726,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41952634/",
       "venue": "Haematologica",
       "venue_display": "Haematologica"
-    },
-    {
-      "abstract": "Evolutionary engineering is a key strategy for obtaining industrial strains with high stress tolerance and productivity, as well as improving enzyme performance. However, low natural mutation rates, small in vitro mutation libraries, and lengthy phenotypic screening cycles constrain the further development of this approach. In vivo continuous evolution technologies address these challenges by implementing mutagenesis within living microbial cells, elevating mutation rates and enabling the rapid evolution of strains or genes. This review systematically examines three in vivo continuous evolution platforms based on error-prone DNA replication, DNA base modification, and DNA recombination. For each mutational mechanism, the underlying design principles, representative applications, and strategies for optimizing mutational spectra and selection regimes are discussed. By comparing their molecular mechanisms, advantages, and limitations, recent advances in the field are summarized and future directions for evolutionary engineering are outlined. Collectively, this review provides a coherent framework for understanding in vivo microbial continuous evolution technologies and offers guidance for strain development and enzyme engineering.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Yuan Liu",
-        "Cong Gao",
-        "Xiaomin Li",
-        "Guipeng Hu",
-        "Wei Song",
-        "Wanqing Wei",
-        "Jing Wu"
-      ],
-      "authors_display": "Yuan Liu, Cong Gao, Xiaomin Li, et al.",
-      "first_seen_at": "2026-04-12T04:09:35Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.biotechadv.2026.108895",
-        "pmcid": null,
-        "pmid": "41962641"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rates"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.biotechadv.2026.108895",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-08",
-      "short_abstract": "Evolutionary engineering is a key strategy for obtaining industrial strains with high stress tolerance and productivity, as well as improving enzyme performance. However, low natural mutation rates, small in vitro mutation libraries, and lengthy phenotypic screening cycles constrain the further development of this approach. In vivo...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Advances in in vivo continuous evolution technologies for strain development and enzyme engineering.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41962641/",
-      "venue": "Biotechnol Adv",
-      "venue_display": "Biotechnol Adv"
     },
     {
       "abstract": "The Mre11 nuclease is part of the conserved MRX complex involved in DNA double-strand break (DSB) repair. During meiosis in budding yeast, MRX is also required for Spo11-mediated programmed DSB formation to initiate homologous recombination. Recruitment of Mre11 to meiotic DSB sites depends on Rec114-Mei4 and Mer2, proposed to organize the DSB machinery via biomolecular condensation. Here, we show that Mre11 and MRX complexes form DNA-dependent, hexanediol-sensitive condensates in vitro. In vivo, Mre11 assembles into DNA damage-dependent foci during mitosis and DSB-independent foci during meiosis. Both in vitro condensates and in vivo foci require Mre11 C-terminal intrinsically-disordered region (IDR). While dispensable for vegetative DNA repair, Mre11 IDR is essential during meiosis, where it mediates interaction with Mer2 via a short α-helix and contains a SUMO-interacting motif that enhances Mre11 recruitment and DSB formation. Together, these findings provide insights into the biophysical properties of Mre11 and its role in initiating meiotic recombination.",
