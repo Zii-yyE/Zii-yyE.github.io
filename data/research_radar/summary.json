@@ -2,7 +2,7 @@
   "focus_topics": [
     {
       "accent_color": "#f25f4c",
-      "count": 40,
+      "count": 42,
       "id": "mutation_rate",
       "label": "Mutation Rate"
     },
@@ -20,14 +20,12 @@
     },
     {
       "accent_color": "#2f8f6b",
-      "count": 108,
+      "count": 112,
       "id": "pangenome_sv",
       "label": "Pangenome / Structural Variation"
     }
   ],
-  "generated_at": "2026-04-19T04:13:19Z",
-  "generated_at_china": "2026-04-19 12:13 UTC+8",
-  "source_errors": {
-    "biorxiv": "TimeoutError: The read operation timed out"
-  }
+  "generated_at": "2026-04-20T04:18:20Z",
+  "generated_at_china": "2026-04-20 12:18 UTC+8",
+  "source_errors": {}
 }

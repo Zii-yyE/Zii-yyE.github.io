@@ -1,6 +1,143 @@
 {
-  "generated_at": "2026-04-19T04:13:19Z",
+  "generated_at": "2026-04-20T04:18:20Z",
   "latest": [
+    {
+      "abstract": "",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Xubing Liu",
+        "Zhao Chen",
+        "Qian Jiang",
+        "Haoyu Shen",
+        "Hongyu Liu",
+        "Zhenguo Wang",
+        "Zhe Li",
+        "Jihong Wu",
+        "Hong Jiang",
+        "Xin Li"
+      ],
+      "authors_display": "Xubing Liu, Zhao Chen, Qian Jiang, et al.",
+      "first_seen_at": "2026-04-20T04:18:20Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s13073-026-01653-7",
+        "pmcid": null,
+        "pmid": "42001173"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1186/s13073-026-01653-7",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-18",
+      "short_abstract": "",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Tissue-specific gene dosage disruption is a key feature and pathogenic mechanism of structural variants in the human genome.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42001173/",
+      "venue": "Genome Med",
+      "venue_display": "Genome Med"
+    },
+    {
+      "abstract": "",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Ming Wu",
+        "Fushuang Duan",
+        "Shuang Chen",
+        "Yuhang Nie",
+        "Zhanpeng Wang",
+        "Ying Yang",
+        "Xuepeng Cai",
+        "Jie Li",
+        "Zhongmei Ma",
+        "Qingling Meng",
+        "Jun Qiao"
+      ],
+      "authors_display": "Ming Wu, Fushuang Duan, Shuang Chen, et al.",
+      "first_seen_at": "2026-04-20T04:18:20Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1007/s12602-023-10088-0",
+        "pmcid": "3339379",
+        "pmid": "41999472"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pan genome"
+        ]
+      },
+      "paper_key": "doi:10.1007/s12602-023-10088-0",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-18",
+      "short_abstract": "",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Pan-genome guided identification and functional characterisation of three putative bacteriocin variants from Brevibacillus laterosporus.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41999472/",
+      "venue": "World J Microbiol Biotechnol",
+      "venue_display": "World J Microbiol Biotechnol"
+    },
+    {
+      "abstract": "Body size traits serve as crucial phenotypic indicators of body conformation and growth, showing a close correlation with production performance. To elucidate the genetic basis of these traits and identify potential molecular markers in Saanen dairy goats, we analyzed low-coverage whole-genome sequencing (lcWGS) data from 635 individuals. Following genotype imputation based on an in-house goat reference panel, we obtained 14 million single-nucleotide polymorphisms (SNPs) and 45 thousand structural variants (SVs). Genetic parameters were estimated using SNP data. Subsequently, single-trait (ST) and multi-trait genome-wide association studies (MT-GWAS) were conducted using both SNP and SV datasets. Results indicated that body height, body length, and rump height possess moderate heritability, with positive genetic and phenotypic correlations observed among these traits. ST-GWAS identified 56 significant SNPs and 3 significant SVs, mapping to 30 candidate genes, including TNFSF11, HDAC4, and MURC. Furthermore, MT-GWAS detected 2 significant SNPs and 2 significant SVs missed by ST-GWAS, identifying 4 additional candidate genes (S100A11, LOC108635595, GALNTL6, and FSIP2). Notably, overlapping association signals for body length and rump height were observed near NRXN3 on chromosome 10, with colocalization analysis supporting the existence of a shared causal variant in this region. KEGG enrichment analysis indicated that candidate genes were primarily enriched in fatty acid biosynthesis and related metabolic pathways. In conclusion, this study shows that integrating structural variants into MT-GWAS can reveal association signals beyond those captured by SNPs, providing a theoretical basis for marker-assisted selection and precision breeding for body conformation.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Yan-Shuai Feng",
+        "Jia-Xin Li",
+        "Jiong-Yao Zhao",
+        "Jia-le Cao",
+        "Xing-Quan Wang",
+        "Xiaoting Yao",
+        "Ji-Aqi Fu",
+        "Xi-Hong Wang"
+      ],
+      "authors_display": "Yan-Shuai Feng, Jia-Xin Li, Jiong-Yao Zhao, et al.",
+      "first_seen_at": "2026-04-20T04:18:20Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.16288/j.yczz.25-293",
+        "pmcid": null,
+        "pmid": "41992886"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.16288/j.yczz.25-293",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-17",
+      "short_abstract": "Body size traits serve as crucial phenotypic indicators of body conformation and growth, showing a close correlation with production performance. To elucidate the genetic basis of these traits and identify potential molecular markers in Saanen dairy goats, we analyzed low-coverage whole-genome sequencing (lcWGS) data from 635...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Genome-wide association study of body size traits in dairy goats integrating structural variants.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41992886/",
+      "venue": "Yi Chuan",
+      "venue_display": "Yi Chuan"
+    },
     {
       "abstract": "Pol32 is a subunit shared by DNA polymerases δ and ζ, yet its role in maintaining genome integrity remains incompletely defined. Here, we employed whole-genome sequencing of mutation-accumulation lines to systematically characterize the genome-wide effects of a POL32 deletion in diploid Saccharomyces cerevisiae. Loss of Pol32 led to substantially (>5-fold) elevated rates of loss of heterozygosity (LOH), chromosome rearrangements, and aneuploidy, but resulted in substantially less genome instability than observed in strains with low levels of DNA polymerase δ. In particular, there was only a small (<2-fold) effect of the pol32 mutation on mutation rates. Notably, a prominent hotspot for chromosome rearrangements located near the end of chromosome VII was observed in pol32 strains. Although deletion of REV3 (encoding the catalytic subunit of Pol ζ) had no significant effect on genome integrity in a wild-type background, pol32 rev3 double mutants had reduced rates of most types of chromosome alterations compared to the pol32 single mutant, implicating Pol ζ in driving the genome instability induced by the Pol32 deficiency. Together, these findings provide new insights into how a shared structural subunit of several DNA polymerases contributes to the regulation of genome stability.IMPORTANCEPol32 is a subunit of DNA polymerases δ (an essential replicative enzyme) and ζ (an error-prone DNA polymerase required for DNA repair). We show that yeast strains that lack this protein have elevated rates of mitotic recombination, large deletions/duplications, translocations, and other types of genomic alterations. The high level of genomic alterations in pol32 mutants is substantially suppressed in strains that lack DNA polymerase ζ, suggesting that this error-prone polymerase may stimulate DNA breaks in conditions of DNA replication stress. Our studies are likely to have wide relevance since sequence variants of POLD3 (the human homolog of Pol32) are associated with certain types of human tumors.",
       "accent_color": "#f25f4c",
@@ -46,6 +183,83 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41995324/",
       "venue": "mBio",
       "venue_display": "mBio"
+    },
+    {
+      "abstract": "Mutation accumulation (MA) experiments are crucial for understanding evolution. In microbial populations, these experiments typically involve periods of population growth, where a single individual forms a visible colony, followed by severe bottlenecks. Studies on the effects of positive and negative selection in MA experiments have shown that, even with as few as ten generations of growth between bottlenecks, beneficial mutations will be substantially over-represented (Wahl and Agashe, 2022); this effect is known as \"selection bias\". In previous work, we developed a discrete-time model and demonstrated that when stochastic offspring distributions are considered, selection bias is even stronger than previously predicted (Ezadian and Wahl, 2025). Since bacterial division is unlikely to remain synchronized over 15 or more generations, this study extends the discrete-time model to a continuous-time framework. Since lineages that start reproducing early accrue a compounded advantage, a continuous-time model offers an even more accurate correction for selection in MA experiments. In addition, we develop techniques for estimating the selection bias when only colonies above a fixed threshold size (e.g. visible colonies) are selected at the bottleneck, an experimental protocol that further exacerbates selection bias. We develop and describe computationally efficient techniques for correcting experimental MA data whether all colonies or only visible colonies are considered.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Mojgan Ezadian",
+        "Lindi M Wahl"
+      ],
+      "authors_display": "Mojgan Ezadian, Lindi M Wahl",
+      "first_seen_at": "2026-04-20T04:18:20Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.tpb.2026.03.001",
+        "pmcid": null,
+        "pmid": "42000052"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation accumulation"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.tpb.2026.03.001",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-16",
+      "short_abstract": "Mutation accumulation (MA) experiments are crucial for understanding evolution. In microbial populations, these experiments typically involve periods of population growth, where a single individual forms a visible colony, followed by severe bottlenecks. Studies on the effects of positive and negative selection in MA experiments have...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "A continuous-time model to correct for selection in mutation accumulation experiments.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42000052/",
+      "venue": "Theor Popul Biol",
+      "venue_display": "Theor Popul Biol"
+    },
+    {
+      "abstract": "Viral RNA-dependent RNA polymerases (RdRps) must balance replication speed with fidelity, preserving genome integrity while permitting enough variability for viral adaptation. The SARS-CoV-2 RdRp complex (NSP12/7/8), achieves this through the interplay of its intrinsic replication fidelity and a potential proofreading exonuclease complex (NSP10/14). Here, we comprehensively quantify the intrinsic fidelity of the SARS-CoV-2 RdRp through direct pre-steady-state kinetic analyses of nucleotide incorporation across all possible templating bases paired with incoming nucleotides. We discovered substantial variation in discrimination against mismatches ranging from one error in 103 to 108 (median of 105). Crucially, our data reveal a slow pyrophosphate release step that significantly enhances fidelity by effectively introducing a kinetic checkpoint after nucleotide incorporation. The error rates we measured for the RdRp align closely with observed in vivo mutation rates, suggesting that the exonuclease complex may play a less critical role than previously assumed in correcting mistakes during polymerization. These insights advance our understanding of SARS-CoV-2 replication fidelity, and the role of various subcomplexes in genome maintenance and adaptation.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Tyler L Dangerfield",
+        "Ingrid Marko",
+        "Kenneth A Johnson"
+      ],
+      "authors_display": "Tyler L Dangerfield, Ingrid Marko, Kenneth A Johnson",
+      "first_seen_at": "2026-04-20T04:18:20Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.jbc.2026.111457",
+        "pmcid": null,
+        "pmid": "41999896"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rates"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.jbc.2026.111457",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-16",
+      "short_abstract": "Viral RNA-dependent RNA polymerases (RdRps) must balance replication speed with fidelity, preserving genome integrity while permitting enough variability for viral adaptation. The SARS-CoV-2 RdRp complex (NSP12/7/8), achieves this through the interplay of its intrinsic replication fidelity and a potential proofreading exonuclease...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Slow PPi release enhances fidelity of the SARS-CoV-2 RNA dependent RNA polymerase.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41999896/",
+      "venue": "J Biol Chem",
+      "venue_display": "J Biol Chem"
     },
     {
       "abstract": "Clonal competition eliminates most early neoplastic lesions, yet a subset persists and ultimately progresses. In Nature, Skrupskelyte et al. demonstrate that nascent tumors survive by actively reshaping a precancerous niche through epithelial-stromal feedback. This ecological gatekeeping mechanism reframes tumor initiation from a process of mutation accumulation to microenvironmental selection and co-evolution.",
@@ -289,173 +503,6 @@
       "venue_display": "J Med Genet"
     },
     {
-      "abstract": "Agricultural research has long faced challenges with data sharing, often relying on informal networks and requiring significant effort to clean and harmonize data. This hampers collaboration and limits data reuse. While FAIR (Findable, Accessible, Interoperable, and Reusable) principles are widely adopted in biomedical research, their uptake in agricultural genomics has lagged. The AgBioData Standards for Genetic Variation Working Group aims to close this gap by promoting FAIR data practices. We surveyed current standards for managing agricultural genetic variation and recommend adopting reference SNP identifiers (rsIDs) as a key step. We present examples from crop research communities with varying data maturity, including those without reference assemblies. Milestones include introducing nearly 220 million rsIDs to Gramene and pangenome databases, projecting rsIDs from reference to pangenome varieties in sorghum and maize, and developing an agricultural FAIR guide for rsID adoption. Better coordination among data producers, repositories, and breeding platforms is essential to improve interoperability, consistency, and accelerate genetic variant discovery for crop trait improvement.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Marcela K Tello-Ruiz",
-        "Timothee Cezard",
-        "Carson Andorf",
-        "Sonia Balyan",
-        "Nahla V Bassil",
-        "Sebastian Beier",
-        "Jill M Bushakra",
-        "Tao-Ho Chang",
-        "Kapeel Chogule",
-        "Irene Cobo-Simón",
-        "Sarah Dyer",
-        "Christine G Elsik",
-        "Nicholas Gladman",
-        "Melanie Harrison",
-        "Jodi Humann",
-        "Catherine Kim",
-        "Vivek Kumar",
-        "Raja S Nandety",
-        "Rex Nelson",
-        "Andrew Olson",
-        "Taner Z Sen",
-        "Moira J Sheehan",
-        "Sharon Wei",
-        "Doreen Ware"
-      ],
-      "authors_display": "Marcela K Tello-Ruiz, Timothee Cezard, Carson Andorf, et al.",
-      "first_seen_at": "2026-04-18T03:46:36Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1038/s41597-026-07208-0",
-        "pmcid": null,
-        "pmid": "41991945"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1038/s41597-026-07208-0",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-16",
-      "short_abstract": "Agricultural research has long faced challenges with data sharing, often relying on informal networks and requiring significant effort to clean and harmonize data. This hampers collaboration and limits data reuse. While FAIR (Findable, Accessible, Interoperable, and Reusable) principles are widely adopted in biomedical research, their...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Adoption of Standard Reference SNP Identifiers in Agricultural Genomics for Interoperability and Data Reuse.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41991945/",
-      "venue": "Sci Data",
-      "venue_display": "Sci Data"
-    },
-    {
-      "abstract": "Roses are economically important ornamental plants, with widespread applications in the cut flowers, garden and cosmetics industries. The genomic evolution and diversity of the subgenus Rosa remain understudied, limiting exploitation of its diversity in breeding. Here we assembled genomes of 23 accessions, comprising 51 haplotypes that capture the subgenus's high genetic diversity. Extensive introgression across accessions from different sections highlights crossbreeding potential. Pangenome analysis revealed 1,801,537 structural variations, providing insights into the genetic basis and key regulators controlling key traits such as continuous flowering, petal number and discoloration. A key finding was the identification of a CCD4 homolog as the main regulator of petal discoloration. Additional subgenomic analysis of the allopolyploid Rosa gallica and the triploid Rosa hybrida 'La France', two important breeding materials of modern roses, revealed their hybrid origins. Overall, this study advances understanding of rose genomics and provides valuable resources for future breeding and trait improvement.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Xiaoni Zhang",
-        "Lan Lan",
-        "Yingxue Yang",
-        "Huilin Guan",
-        "Dan Peng",
-        "Heling Jiang",
-        "Quanshu Wu",
-        "Rui Huang",
-        "Xuezhu Liao",
-        "Shengnan Lin",
-        "Desheng Gong",
-        "Bingyao Huang",
-        "Clement Bellot",
-        "Judit Szécsi",
-        "Manzhu Bao",
-        "Mohammed Bendahmane",
-        "Xiaopeng Fu",
-        "Zhiqiang Wu",
-        "Weihua Pan"
-      ],
-      "authors_display": "Xiaoni Zhang, Lan Lan, Yingxue Yang, et al.",
-      "first_seen_at": "2026-04-18T03:46:36Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.ymben.2005.08.005",
-        "pmcid": "5320579",
-        "pmid": "41992043"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenomic",
-          "structural variations",
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.ymben.2005.08.005",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-16",
-      "short_abstract": "Roses are economically important ornamental plants, with widespread applications in the cut flowers, garden and cosmetics industries. The genomic evolution and diversity of the subgenus Rosa remain understudied, limiting exploitation of its diversity in breeding. Here we assembled genomes of 23 accessions, comprising 51 haplotypes that...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Pangenomic analyses of rose uncover widespread structure variation and empower genomics-directed breeding.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41992043/",
-      "venue": "Nat Genet",
-      "venue_display": "Nat Genet"
-    },
-    {
-      "abstract": "The transcription factor (TF) regulatory network in Pseudomonas aeruginosa is complex and involves multiple regulators that respond to various environmental signals and physiological cues by regulating gene expression. However, the biological functions of at least half of its 373 putative TFs remain uncharacterised. Herein, chromatin immunoprecipitation sequencing (ChIP-seq) was used to investigate the binding sites of 172 TFs in the P. aeruginosa PAO1 strain. The results revealed 81,009 significant binding peaks in the genome, more than half of which were located in the promoter regions. To further decode the diverse regulatory relationships among TFs, a hierarchical network was assembled into three levels: top, middle, and bottom. Thirteen ternary regulatory motifs revealed flexible relationships among TFs in small hubs, and a comprehensive co-association atlas was established, showing the enrichment of seven core associated clusters. Twenty-four TFs were identified as the master regulators of virulence-related pathways. The pan-genome analysis revealed the conservation and evolution of TFs in P. aeruginosa complex and other species. A web-based database combining existing and new data from ChIP-seq and the high-throughput systematic evolution of ligands by exponential enrichment was established for searching TF-binding sites. This study provides important insights into the pathogenic mechanisms of P. aeruginosa and related bacteria and is expected to contribute to the development of effective therapies for infectious diseases caused by this pathogen.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Jiadai Huang",
-        "Yue Sun",
-        "Fang Chen",
-        "Shumin Li",
-        "Xiangkai You",
-        "Liangliang Han",
-        "Jingwei Li",
-        "Zhe He",
-        "Canfeng Hua",
-        "Chunyan Yao",
-        "Tianmin Li",
-        "Beifang Lu",
-        "Yung-Fu Chang",
-        "Xin Deng"
-      ],
-      "authors_display": "Jiadai Huang, Yue Sun, Fang Chen, et al.",
-      "first_seen_at": "2026-04-17T04:10:42Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.7554/elife.103346",
-        "pmcid": "PMC3098059",
-        "pmid": "41989285"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pan genome"
-        ]
-      },
-      "paper_key": "doi:10.7554/elife.103346",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-16",
-      "short_abstract": "The transcription factor (TF) regulatory network in Pseudomonas aeruginosa is complex and involves multiple regulators that respond to various environmental signals and physiological cues by regulating gene expression. However, the biological functions of at least half of its 373 putative TFs remain uncharacterised. Herein, chromatin...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Global transcription factors analyses reveal hierarchy and synergism of regulatory networks and master virulence regulators in Pseudomonas aeruginosa.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41989285/",
-      "venue": "Elife",
-      "venue_display": "Elife"
-    },
-    {
       "abstract": "This study reveals the diversity of GC content characteristics among major angiosperm groups, with Poaceae species exhibiting significantly higher GC content and more pronounced heterogeneity. These features are likely associated with GC-biased gene conversion. Genome nucleotide composition critically shapes plant genetic diversity, yet its variation across angiosperms remains poorly understood. Here, we conducted a multilevel GC analysis across 495 angiosperm genomes (spanning 109 families, 44 orders; 284 species with annotated coding genes). Using SeqKit, we quantified GC content at whole-genome, chromosomal, gene, and codon scales, while estimating recombination rates with mlRho v2.9. We found that angiosperm GC content approximates a normal distribution (mean 36.64%) but varies markedly among lineages: monocots (41.97%) > eudicots (35.43%), with Poaceae highest (44.64%). Coding-region GC (mean 46.38%) exceeded genomic levels, showing maximal variation at the third codon position (GC3; mean 46.22%; up to 63.63% in Poaceae). Gene-level GC distributions shifted from unimodal to distinctly bimodal patterns-evident in Poaceae-reflecting divergence between high- and low-GC genes. Notably, GC content correlated positively with both chromosome length and recombination rate. These patterns are consistent with GC-biased gene conversion (gBGC) as a key driver of GC diversity in angiosperms, operating neutrally and locally across genomic scales, independent of phylogeny.",
       "accent_color": "#8b5e34",
       "authors": [
@@ -632,100 +679,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41961853/",
       "venue": "Proc Natl Acad Sci U S A",
       "venue_display": "Proc Natl Acad Sci U S A"
-    },
-    {
-      "abstract": "Ki67 is one of the most widely used markers of cell proliferation. However, current measurements using immunohistochemistry (IHC) are limited by interobserver variability and lack of standardized cutoffs. To address this, we investigated the association of Ki67 gene (MKI67) expression with biological features and treatment response in estrogen receptor-positive (ER+) breast cancer (BC), the most common subtype. We analyzed 5036 patients with ER+/HER2- BC across 11 independent cohorts with tumor transcriptomes and clinical data. Patients with MKI67 expression in the top 20% were defined as the high-expression group on the basis of prior IHC-based thresholds. MKI67 expression correlated with Nottingham histologic grade and proliferation score, and consistently enriched all the hallmark cell proliferation-related gene sets across TCGA, METABRIC, and SCAN-B cohorts. High MKI67 expression trended toward worse survival but achieved statistical significance only in the METABRIC cohort. MKI67 high ER+/HER2- BC was associated with increased mutation rates, fraction altered, homologous recombination deficiency and intratumoral genomic heterogeneity. MKI67 expression was associated with infiltration of Th1 and Th2 cells as well as M1 and M2 macrophages across three cohorts. Conversely, MKI67 low ER+/HER2- BC was enriched for Hypoxia, Coagulation, Epithelial-to-Mesenchymal Transition, NOTCH, Hedgehog, TGF-beta, and KRAS-signaling gene sets. MKI67 high ER+/HER2- BC was associated with a higher pathological complete response (pCR) rate in four of the eight neoadjuvant chemotherapy cohorts. High MKI67 expression identifies highly proliferative tumors that are associated with genomic instability and immune activity and is associated with higher pCR rates following neoadjuvant chemotherapy in ER+/HER2- BC.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Kohei Chida",
-        "Rongrong Wu",
-        "Kei Kawashima",
-        "Abigail Grapes",
-        "Li Yan",
-        "Itaru Endo",
-        "Takashi Ishikawa",
-        "Kenichi Hakamada",
-        "Kazuaki Takabe"
-      ],
-      "authors_display": "Kohei Chida, Rongrong Wu, Kei Kawashima, et al.",
-      "first_seen_at": "2026-04-12T04:09:35Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1007/s10549-011-1837-z",
-        "pmcid": "8597938",
-        "pmid": "41963560"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rates"
-        ]
-      },
-      "paper_key": "doi:10.1007/s10549-011-1837-z",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-10",
-      "short_abstract": "Ki67 is one of the most widely used markers of cell proliferation. However, current measurements using immunohistochemistry (IHC) are limited by interobserver variability and lack of standardized cutoffs. To address this, we investigated the association of Ki67 gene (MKI67) expression with biological features and treatment response in...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Ki67 Gene Expression is Associated with Immune Cell Infiltration and Neoadjuvant Chemotherapy Response in ER+/HER2- Breast Cancer.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41963560/",
-      "venue": "Ann Surg Oncol",
-      "venue_display": "Ann Surg Oncol"
-    },
-    {
-      "abstract": "Prolonged exposure to ultraviolet (UV) light leads to DNA damage, causing mutation accumulation and cancer, particularly in the skin. Recent studies revealed that patients with aneuploid subtypes of pediatric B-cell precursor acute lymphoblastic leukemia (BCP-ALL) commonly present with single base substitution signature 7a (SBS7a), a hallmark of UVbased DNA damage, but its origin is unclear. We screened a cohort of 191 whole genome sequenced BCP-ALL cases and confirmed the presence of SBS7a in high hyperdiploid, iAMP21 and low hypodiploid subtypes. Screening of an in-house pediatric pan-cancer cohort (n=1033) detected SBS7a, apart from BCP-ALL, only in tumors with proven cutaneous localization. Subsequent characterization of 43 BCP-ALL samples from 27 SBS7a-positive patients revealed no causative DNA repair defects. Furthermore, the mutational characteristics in SBS7a-positive BCP-ALL were very similar to those encountered in SBS7apositive adult skin cancers (n=273) and pediatric cutaneous anaplastic large cell lymphomas (n=7), suggesting a shared UV-induced etiology. Subtle differences in aneuploid patterns were observed between SBS7a-positive and SBS7a-negative high hyperdiploid and iAMP21 cases. In several cases, we detected SBS7a-positive subclones at primary diagnosis, or relapses with apparently newly acquired SBS7a-associated mutations, together suggesting prolonged UV damage during expansion. Single-cell whole genome sequencing in two other cases confirmed some level of SBS7a-induced clonal diversity, but no indications for ongoing SBS7a-associated mutagenesis during bone marrow progression. Our data suggest that SBS7a-associated mutations occur in a subset of aneuploid BCP-ALL subtypes due to UVinduced damage during early expansion in extramedullary sites before bone marrow expansion.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Lianne C Suurenbroek",
-        "Cédric G Van der Ham",
-        "Judith M Boer",
-        "Lucca L M Derks",
-        "Rico Hagelaar",
-        "Markus J Van Roosmalen",
-        "Puk Klamer",
-        "Edwin Sonneveld",
-        "Monique L Den Boer",
-        "Ruben Van Boxtel",
-        "Frank N Van Leeuwen",
-        "Jan L C Loeffen",
-        "Roland P Kuiper"
-      ],
-      "authors_display": "Lianne C Suurenbroek, Cédric G Van der Ham, Judith M Boer, et al.",
-      "first_seen_at": "2026-04-11T03:35:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.3324/haematol.2025.300118",
-        "pmcid": null,
-        "pmid": "41952634"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation accumulation"
-        ]
-      },
-      "paper_key": "doi:10.3324/haematol.2025.300118",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-09",
-      "short_abstract": "Prolonged exposure to ultraviolet (UV) light leads to DNA damage, causing mutation accumulation and cancer, particularly in the skin. Recent studies revealed that patients with aneuploid subtypes of pediatric B-cell precursor acute lymphoblastic leukemia (BCP-ALL) commonly present with single base substitution signature 7a (SBS7a), a...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "UV-induced mutations accumulate during early clonal expansion in aneuploid subtypes of pediatric B-cell precursor acute lymphoblastic leukemia.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41952634/",
-      "venue": "Haematologica",
-      "venue_display": "Haematologica"
     },
     {
       "abstract": "The Mre11 nuclease is part of the conserved MRX complex involved in DNA double-strand break (DSB) repair. During meiosis in budding yeast, MRX is also required for Spo11-mediated programmed DSB formation to initiate homologous recombination. Recruitment of Mre11 to meiotic DSB sites depends on Rec114-Mei4 and Mer2, proposed to organize the DSB machinery via biomolecular condensation. Here, we show that Mre11 and MRX complexes form DNA-dependent, hexanediol-sensitive condensates in vitro. In vivo, Mre11 assembles into DNA damage-dependent foci during mitosis and DSB-independent foci during meiosis. Both in vitro condensates and in vivo foci require Mre11 C-terminal intrinsically-disordered region (IDR). While dispensable for vegetative DNA repair, Mre11 IDR is essential during meiosis, where it mediates interaction with Mer2 via a short α-helix and contains a SUMO-interacting motif that enhances Mre11 recruitment and DSB formation. Together, these findings provide insights into the biophysical properties of Mre11 and its role in initiating meiotic recombination.",
