@@ -1,6 +1,178 @@
 {
-  "generated_at": "2026-04-20T04:18:20Z",
+  "generated_at": "2026-04-21T04:10:43Z",
   "latest": [
+    {
+      "abstract": "Certain bacteria are known for their remarkable genetic and phenotypic diversity, as well as rapid morphological diversification during evolution experiments. An example is Bacillus subtilis, which can switch motility, biofilm, or antagonistic interaction patterns. Here, we investigated how different forms of disruption at the spsM locus, including SPβ integration, insertional mutagenesis (spsM::kan), and markerless spsM deletion, influence colony morphology, motility, and the emergence of spontaneous variants in B. subtilis natural isolates. We reassessed a previously reported biofilm defect of an spsM::kan mutant and found that the phenotype stemmed from an undetected secondary mutation rather than from loss of spsM. We observed that spsM::kan mutants frequently developed spontaneous mutations in key regulators of swarming motility and biofilm development. Consistently, we show that spsM::kan significantly elevates mutation rates, explaining why unnoticed mutations can arise rapidly during strain construction and phenotyping. In contrast, a markerless ΔspsM strain did not show a detectable increase in mutation rate relative to wild type, indicating that the elevated mutation rate is not attributable to loss of SpsM function. The SPβ lysogen produced far fewer visible variant morphotypes, indicating that reversible prophage integration does not lead to the same degree of diversification observed in the spsM::kan background. Our findings show that different modes of disrupting the spsM locus can alter the likelihood of selecting recurrent regulatory mutations, highlighting how local genomic context shapes phenotypic diversification. This work highlights the interplay between prophage integration, local genome architecture, and the selective pressures that influence diversification of bacterial multicellular behaviors.IMPORTANCEProphages, defined as viruses integrated into bacterial genomes, can reshape bacterial physiology and evolution. Previous studies suggested that disruption of an integration site (spsM) by the SPβ prophage impairs biofilm formation in Bacillus subtilis. Here, we show that insertion of a kanamycin resistance cassette at the native spsM locus (spsM::kan) promotes the rapid emergence of spontaneous mutations in key regulatory genes. In contrast, a markerless ΔspsM strain does not show a detectable increase in mutation rate, indicating that elevated mutation supply is not a general consequence of spsM loss. Our results indicate that different modes of spsM disruption have distinct consequences for phenotypic diversification. These findings help clarify earlier observations and show that phenotypic diversification depends strongly on the mode of spsM disruption and the genetic background. This has broader implications for how we understand the genetic basis of microbial adaptation, the genetic manipulation, and the evolutionary roles of prophages.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Maja Popović",
+        "Tomaž Accetto",
+        "Yasmine Dergham",
+        "Romain Briandet",
+        "Iztok Dogša",
+        "Anna Dragoš"
+      ],
+      "authors_display": "Maja Popović, Tomaž Accetto, Yasmine Dergham, et al.",
+      "first_seen_at": "2026-04-21T04:10:43Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1128/spectrum.02504-25",
+        "pmcid": null,
+        "pmid": "42007703"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rates",
+          "mutation rate"
+        ]
+      },
+      "paper_key": "doi:10.1128/spectrum.02504-25",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-20",
+      "short_abstract": "Certain bacteria are known for their remarkable genetic and phenotypic diversity, as well as rapid morphological diversification during evolution experiments. An example is Bacillus subtilis, which can switch motility, biofilm, or antagonistic interaction patterns. Here, we investigated how different forms of disruption at the spsM...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Disruption of bacteriophage integration site promotes rapid diversification of multicellular traits in Bacillus subtilis.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42007703/",
+      "venue": "Microbiol Spectr",
+      "venue_display": "Microbiol Spectr"
+    },
+    {
+      "abstract": "Arthropods, the most diverse phylum on Earth, are hosts to a plethora of bacterial parasites that secrete various effectors of unknown function during infection. The most prevalent of these is the intracellular bacterium Wolbachia pipientis. The microbe infects between 40% and 60% of insect species, where it induces a variety of fitness effects ranging from nutritional supplementation to reproductive manipulations and, in some hosts, limiting virus replication. Understanding the molecular basis of Wolbachia infection and Wolbachia-induced phenotypes is critical to the use of Wolbachia in vector control. Wolbachia ankyrin repeat proteins (WARPs) represent a highly dynamic and diverse part of the Wolbachia pangenome and remain thus far largely uncharacterized. Here, we perform molecular and genetic screens to identify interactions between Wolbachia wMel WARPs and their target host proteins in Drosophila melanogaster. Our results identify strong interactions of two Wolbachia proteins, WARP434 and WARP754, with multiple host targets. Heterologous expression of these two WARPs is extremely toxic in Drosophila tissues, and the toxicity is dependent on the ankyrin repeat domain of each WARP. We use coimmunoprecipitation (coIP) and mass spectrometry to identify native targets of the WARPs, and importantly, knockdown of host targets alleviates toxicity, confirming WARP/target interactions. Antibodies targeting both WARPs show expression by Wolbachia during infection of Drosophila cells, and expression of WARP754 in adult flies increases Wolbachia titer. Understanding how Wolbachia manipulates its host biology and which host pathways it targets during infection will help us define how the most prevalent intracellular bacterial parasite on Earth interacts with its insect hosts at the molecular level. Our screen is an important step toward that goal.IMPORTANCEMolecular interactions drive co-evolutionary arms races between hosts and pathogens. These interactions shape the structure and function of both host and parasite proteins, enabling immunity or virulence during infection. Understanding the molecular details that unfold during these events illustrates not only how hosts and parasites co-evolve at the molecular level but also may help characterize the function of poorly understood proteins. The most prevalent intracellular infection on earth is Wolbachia pipientis, with between 40% and 60% of insects harboring the bacterial symbiont. Understanding how Wolbachia infects host cells and the molecular tools it uses to alter cell biology is critical to the use of the microbe in vector control. Here, we identify Wolbachia proteins used by the symbiont to interface with specific host proteins. Understanding the molecular mechanisms underlying this host-microbe interaction will shed light on how an important symbiont, used in the control of vector populations and disease transmission, uses Wolbachia ankyrin repeat proteins (WARPs) to interact with host targets and how targeting this host protein contributes to infection.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "William Hamilton",
+        "Erin Hardy",
+        "Sergio López-Madrigal",
+        "Melissa Phelps",
+        "MaryAnn Martin",
+        "Irene Newton"
+      ],
+      "authors_display": "William Hamilton, Erin Hardy, Sergio López-Madrigal, et al.",
+      "first_seen_at": "2026-04-21T04:10:43Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1128/mbio.00172-26",
+        "pmcid": null,
+        "pmid": "42003611"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1128/mbio.00172-26",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-20",
+      "short_abstract": "Arthropods, the most diverse phylum on Earth, are hosts to a plethora of bacterial parasites that secrete various effectors of unknown function during infection. The most prevalent of these is the intracellular bacterium Wolbachia pipientis. The microbe infects between 40% and 60% of insect species, where it induces a variety of fitness...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Wolbachia uses ankyrin repeats to target specific fly proteins.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42003611/",
+      "venue": "mBio",
+      "venue_display": "mBio"
+    },
+    {
+      "abstract": "Despite growing insights into the composition of marine invertebrate microbiomes, our understanding of their ecological and evolutionary patterns remains poor, owing to limited sampling depth and low-resolution datasets. Previous studies have provided conflicting results that both confirm and deny the existence of phylosymbiosis between marine invertebrates and marine bacteria. Here, we investigated potential animal-microbe symbioses in Pseudoalteromonas, a bacterial genus consistently identified as a core microbiome taxon in diverse invertebrates. Using a pangenomic analysis of 236 free-living and invertebrate-associated bacterial strains (including two new nematode-associated isolates generated in this study), we confirm that Pseudoalteromonas is a symbiont with substantial evidence of phylosymbiosis across at least three marine invertebrate phyla (e.g., Nematoda, Mollusca, and Cnidaria). Patterns of symbiosis were consistent irrespective of geography (including in Antarctica), with FISH images from nematodes indicating that bacterial symbionts form biofilms in the mouth and esophagus and are sometimes present in female nematode ovaries exhibiting stunted development. The evolutionary history of Pseudoalteromonas is marked by substantial host-switching and lifestyle transitions, and host-associated genomes suggest that these bacteria are facultative symbionts involved in nutritional symbioses. In marine environments, we hypothesize that horizontally acquired symbionts may have co-evolved with invertebrates, using host mucus as a physical niche and food source, while providing their animal hosts with Vitamin B, amino acids, and bioavailable carbon compounds in return.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Alejandro De Santiago",
+        "Shelby Barnes",
+        "Tiago José Pereira",
+        "Mirayana Marcellino-Barros",
+        "Lekeah Durden",
+        "Min Khant Han",
+        "J Cameron Thrash",
+        "Holly M Bik"
+      ],
+      "authors_display": "Alejandro De Santiago, Shelby Barnes, Tiago José Pereira, et al.",
+      "first_seen_at": "2026-04-21T04:10:43Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/ismejo/wrag091",
+        "pmcid": null,
+        "pmid": "42007585"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenomic"
+        ]
+      },
+      "paper_key": "doi:10.1093/ismejo/wrag091",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-20",
+      "short_abstract": "Despite growing insights into the composition of marine invertebrate microbiomes, our understanding of their ecological and evolutionary patterns remains poor, owing to limited sampling depth and low-resolution datasets. Previous studies have provided conflicting results that both confirm and deny the existence of phylosymbiosis between...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Pseudoalteromonas is a symbiont of marine invertebrates that exhibits broad patterns of phylosymbiosis.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42007585/",
+      "venue": "ISME J",
+      "venue_display": "ISME J"
+    },
+    {
+      "abstract": "The global emergence of multidrug-resistant (MDR) Salmonella enterica poses a significant public health threat, particularly in developing countries where antibiotic consumption remains high. However, genomic data on circulating Salmonella strains in Eastern China remain limited. To characterize the genomic profiles of antimicrobial resistance (AMR) and molecular epidemiology of Salmonella isolates from diarrheal patients in Jinan, China (2017-2020). A total of 185 Salmonella strains isolated from secondary/tertiary hospital outpatients were subjected to whole genome sequencing (WGS) on the Illumina platform. Bioinformatic analyses included antimicrobial resistance gene (ARG) screening (ResFinder and CARD), multilocus sequence typing (MLST), in silico serotyping (SISTR), and pan-genome analysis. All isolates exhibited multidrug resistance, with highest rates to fluoroquinolones (100%), aminoglycosides (99.46%), and nitroimidazoles (99.46%). ARG profiling revealed aac(6')-Iaa as the predominant gene (98.9%). MLST identified 33 sequence types (STs), dominated by ST34 (28.65%) and ST11 (24.86%). In silico serotyping further confirmed the predominance of the monophasic Salmonella Typhimurium (I 1,4, [5],12:i:-; ST34) and Salmonella Enteritidis (ST11). Pan-genome analysis defined a core genome of 3376 genes (23.35%) and an accessory genome of 9201 cloud genes (63.64%). This first WGS-based surveillance in Jinan highlights the predominance of MDR ST34/ST11 Salmonella with an extremely high prevalence (100%) of fluoroquinolone resistance. The integration of genomic and historical phenotypic data underscores the urgent need to revise empirical therapy for diarrheal diseases and implement genomic surveillance in public health practice.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Chuanmin Ma",
+        "Na Li",
+        "Lei Wang",
+        "Kunyan Li",
+        "Ming Liu",
+        "Jun Zhou",
+        "Hui Liu"
+      ],
+      "authors_display": "Chuanmin Ma, Na Li, Lei Wang, et al.",
+      "first_seen_at": "2026-04-21T04:10:43Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.3389/fmicb.2022.859854",
+        "pmcid": "PMC9008345",
+        "pmid": "42004897"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pan genome"
+        ]
+      },
+      "paper_key": "doi:10.3389/fmicb.2022.859854",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-18",
+      "short_abstract": "The global emergence of multidrug-resistant (MDR) Salmonella enterica poses a significant public health threat, particularly in developing countries where antibiotic consumption remains high. However, genomic data on circulating Salmonella strains in Eastern China remain limited. To characterize the genomic profiles of antimicrobial...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Whole Genome Sequencing Reveals High Prevalence of Antimicrobial Resistance Genes in Salmonella Isolates From Diarrheal Patients in Jinan, China.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42004897/",
+      "venue": "Can J Infect Dis Med Microbiol",
+      "venue_display": "Can J Infect Dis Med Microbiol"
+    },
     {
       "abstract": "",
       "accent_color": "#2f8f6b",
@@ -93,50 +265,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41999472/",
       "venue": "World J Microbiol Biotechnol",
       "venue_display": "World J Microbiol Biotechnol"
-    },
-    {
-      "abstract": "Body size traits serve as crucial phenotypic indicators of body conformation and growth, showing a close correlation with production performance. To elucidate the genetic basis of these traits and identify potential molecular markers in Saanen dairy goats, we analyzed low-coverage whole-genome sequencing (lcWGS) data from 635 individuals. Following genotype imputation based on an in-house goat reference panel, we obtained 14 million single-nucleotide polymorphisms (SNPs) and 45 thousand structural variants (SVs). Genetic parameters were estimated using SNP data. Subsequently, single-trait (ST) and multi-trait genome-wide association studies (MT-GWAS) were conducted using both SNP and SV datasets. Results indicated that body height, body length, and rump height possess moderate heritability, with positive genetic and phenotypic correlations observed among these traits. ST-GWAS identified 56 significant SNPs and 3 significant SVs, mapping to 30 candidate genes, including TNFSF11, HDAC4, and MURC. Furthermore, MT-GWAS detected 2 significant SNPs and 2 significant SVs missed by ST-GWAS, identifying 4 additional candidate genes (S100A11, LOC108635595, GALNTL6, and FSIP2). Notably, overlapping association signals for body length and rump height were observed near NRXN3 on chromosome 10, with colocalization analysis supporting the existence of a shared causal variant in this region. KEGG enrichment analysis indicated that candidate genes were primarily enriched in fatty acid biosynthesis and related metabolic pathways. In conclusion, this study shows that integrating structural variants into MT-GWAS can reveal association signals beyond those captured by SNPs, providing a theoretical basis for marker-assisted selection and precision breeding for body conformation.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Yan-Shuai Feng",
-        "Jia-Xin Li",
-        "Jiong-Yao Zhao",
-        "Jia-le Cao",
-        "Xing-Quan Wang",
-        "Xiaoting Yao",
-        "Ji-Aqi Fu",
-        "Xi-Hong Wang"
-      ],
-      "authors_display": "Yan-Shuai Feng, Jia-Xin Li, Jiong-Yao Zhao, et al.",
-      "first_seen_at": "2026-04-20T04:18:20Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.16288/j.yczz.25-293",
-        "pmcid": null,
-        "pmid": "41992886"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.16288/j.yczz.25-293",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-17",
-      "short_abstract": "Body size traits serve as crucial phenotypic indicators of body conformation and growth, showing a close correlation with production performance. To elucidate the genetic basis of these traits and identify potential molecular markers in Saanen dairy goats, we analyzed low-coverage whole-genome sequencing (lcWGS) data from 635...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Genome-wide association study of body size traits in dairy goats integrating structural variants.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41992886/",
-      "venue": "Yi Chuan",
-      "venue_display": "Yi Chuan"
     },
     {
       "abstract": "Pol32 is a subunit shared by DNA polymerases δ and ζ, yet its role in maintaining genome integrity remains incompletely defined. Here, we employed whole-genome sequencing of mutation-accumulation lines to systematically characterize the genome-wide effects of a POL32 deletion in diploid Saccharomyces cerevisiae. Loss of Pol32 led to substantially (>5-fold) elevated rates of loss of heterozygosity (LOH), chromosome rearrangements, and aneuploidy, but resulted in substantially less genome instability than observed in strains with low levels of DNA polymerase δ. In particular, there was only a small (<2-fold) effect of the pol32 mutation on mutation rates. Notably, a prominent hotspot for chromosome rearrangements located near the end of chromosome VII was observed in pol32 strains. Although deletion of REV3 (encoding the catalytic subunit of Pol ζ) had no significant effect on genome integrity in a wild-type background, pol32 rev3 double mutants had reduced rates of most types of chromosome alterations compared to the pol32 single mutant, implicating Pol ζ in driving the genome instability induced by the Pol32 deficiency. Together, these findings provide new insights into how a shared structural subunit of several DNA polymerases contributes to the regulation of genome stability.IMPORTANCEPol32 is a subunit of DNA polymerases δ (an essential replicative enzyme) and ζ (an error-prone DNA polymerase required for DNA repair). We show that yeast strains that lack this protein have elevated rates of mitotic recombination, large deletions/duplications, translocations, and other types of genomic alterations. The high level of genomic alterations in pol32 mutants is substantially suppressed in strains that lack DNA polymerase ζ, suggesting that this error-prone polymerase may stimulate DNA breaks in conditions of DNA replication stress. Our studies are likely to have wide relevance since sequence variants of POLD3 (the human homolog of Pol32) are associated with certain types of human tumors.",
@@ -301,52 +429,6 @@
       "venue_display": "Cancer Cell"
     },
     {
-      "abstract": "Hereditary breast cancers (hBCs) exhibit genomic heterogeneity, but their underlying genomic instability and clinical implications remain unclear. We conducted whole-genome sequencing on 129 BRCA1/2-negative hBCs, with subsets analyzed by methylome and transcriptome sequencing, and integrated COSMIC mutational, copy number (CN), and structural variation signatures. We identified four subtypes: homologous recombination-deficient (HRD), mutation-dominant (MUT), CN-dominant, and genome stable. HRD tumors exhibited genomic instability, including promoter hypermethylation and loss of heterozygosity at BRCA1/2. Some HRD-low hBC genomes showed elevated mutations and CN changes, indicating HRD-independent mechanisms. MUT tumors showed high tumor mutation burdens with APOBEC-associated kataegis and cytolytic/immune-activation programs with M1 macrophage including upregulation of GZMA, GZMB, and large-scale transition. CN tumors were enriched for small-scale loss of heterozygosity maintaining euploidy with recurrent focal losses implicating classic tumor suppressors. Transcriptomics indicated immune and stromal infiltration in MUT and CN subtypes, respectively, suggesting subtype-specific therapeutic vulnerabilities. Functional analysis in cell lines suggests poly (ADP-ribose) polymerase inhibitors and cytotoxic chemotherapy sensitivity in HRD and CN tumors, whereas immune features in MUT tumors support vulnerability to immunotherapy. These findings suggest that distinct hBC subtypes delineated by genomic instability can advance insights into molecular heterogeneity beyond expression-based classifications and support an integrative genomic instability index (HRD score, ploidy, size-stratified CN burden, and signature exposures) for patient stratification and personalized therapeutic strategies.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Sunmin Kim",
-        "Seeyoun Lee",
-        "Hyeji Kim",
-        "Su Jung Kang",
-        "Heejung Chae",
-        "Bong-Jo Kim",
-        "Jinhwa Kong",
-        "Min-Chae Kang",
-        "Tae-Min Kim",
-        "Sun-Young Kong"
-      ],
-      "authors_display": "Sunmin Kim, Seeyoun Lee, Hyeji Kim, et al.",
-      "first_seen_at": "2026-04-18T03:46:36Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.3390/cancers15184522",
-        "pmcid": "10527351",
-        "pmid": "41991965"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variation"
-        ]
-      },
-      "paper_key": "doi:10.3390/cancers15184522",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-16",
-      "short_abstract": "Hereditary breast cancers (hBCs) exhibit genomic heterogeneity, but their underlying genomic instability and clinical implications remain unclear. We conducted whole-genome sequencing on 129 BRCA1/2-negative hBCs, with subsets analyzed by methylome and transcriptome sequencing, and integrated COSMIC mutational, copy number (CN), and...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Delineation of the heterogeneity underlying genomic instability in hereditary breast cancers reveals four disease subtypes.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41991965/",
-      "venue": "Exp Mol Med",
-      "venue_display": "Exp Mol Med"
-    },
-    {
       "abstract": "Paramecia belong to the ciliate phylum of unicellular eukaryotes characterized by nuclear dimorphism. A diploid germline micronucleus (MIC) transmits genetic information across sexual generations. A polyploid transcriptionally active somatic macronucleus (MAC) develops at each sexual generation from a copy of the MIC through programmed DNA elimination (PDE) of > 30% of germline DNA. PDE requires the domesticated PiggyMac (Pgm) transposase. Assembly of Paramecium germline genomes has presented an enormous challenge owing to the difficulty of MIC isolation. We report chromosome-scale short-read MIC assemblies for 7 species from the P. aurelia species complex. We discovered a novel clade of Helitrons, with 9-10-kb transposase ORFs under purifying selection, that have remained active in all P. aurelia lineages. A long-read assembly for P. tetraurelia together with a genetic linkage map provided a nearly telomere-to-telomere assembly. The ~ 100-Mb genome consists of tiny (300 kb-1.2 Mb) and numerous (~ 160) germline chromosomes with the highest recombination rate ever reported for a eukaryote (420 cM/Mb). The ends of the chromosomes consist of Helitrons inserted in telomeric C4A2 repeats, forming a distinct genomic compartment that is eliminated very early during MAC development in a Pgm-independent manner.",
       "accent_color": "#8b5e34",
       "authors": [
@@ -451,58 +533,6 @@
       "venue_display": "J Mol Endocrinol"
     },
     {
-      "abstract": "Optical genome mapping (OGM) is a novel technology that enables high-resolution detection of structural variants. This study aimed to evaluate the diagnostic contribution of OGM in early-onset developmental epileptic encephalopathies (DEEs) with unresolved genetic causes. A total of 38 children with early-onset DEEs (aged 0-18 years) who remained undiagnosed despite conventional karyotyping, chromosomal microarray analysis (CMA) and whole-exome sequencing (WES) were included. All patients underwent detailed phenotypic reassessment and WES reanalysis. One patient received a definitive molecular diagnosis following WES reanalysis. Four patients subsequently withdrew consent, and one patient was excluded due to inadequate DNA quality for OGM. OGM was therefore performed in the remaining 32 patients. Potential OGM findings were validated using appropriate laboratory techniques. Among the 32 patients who underwent OGM, three candidate structural variants were identified. Two variants (2/32, 6.3%), ogm[GRCh38] ins(X;?)(q27.3;?) and ogm[GRCh38] 6p24.1 (13083829_13279761)x1, were confirmed using orthogonal validation methods, resulting in the molecular diagnoses of Fragile X syndrome and PHACTR1-related DEE, respectively. OGM contributed to the identification of clinically relevant structural variants in genetically undiagnosed early-onset DEEs. These findings support the complementary role of OGM in the genetic evaluation of complex neurodevelopmental disorders.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Sanem Yilmaz",
-        "Enise Avci Durmusalioglu",
-        "Dilara Ece Toprak Dogan",
-        "Seda Kanmaz",
-        "Tahir Atik",
-        "Mehmet Burak Mutlu",
-        "Uluç Yiş",
-        "Unsal Yilmaz",
-        "Aycan Unalp",
-        "Sarenur Gökben",
-        "Hasan Baş",
-        "Arman Rostamlou",
-        "Nur Selvi Gunel",
-        "Cumhur Gunduz",
-        "Hasan Tekgul",
-        "Esra Isik"
-      ],
-      "authors_display": "Sanem Yilmaz, Enise Avci Durmusalioglu, Dilara Ece Toprak Dogan, et al.",
-      "first_seen_at": "2026-04-18T03:46:36Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1136/jmg-2026-111485",
-        "pmcid": null,
-        "pmid": "41991279"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1136/jmg-2026-111485",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-16",
-      "short_abstract": "Optical genome mapping (OGM) is a novel technology that enables high-resolution detection of structural variants. This study aimed to evaluate the diagnostic contribution of OGM in early-onset developmental epileptic encephalopathies (DEEs) with unresolved genetic causes. A total of 38 children with early-onset DEEs (aged 0-18 years)...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Optical genome mapping identifies previously undetected causal variants in early-onset developmental epileptic encephalopathies.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41991279/",
-      "venue": "J Med Genet",
-      "venue_display": "J Med Genet"
-    },
-    {
       "abstract": "This study reveals the diversity of GC content characteristics among major angiosperm groups, with Poaceae species exhibiting significantly higher GC content and more pronounced heterogeneity. These features are likely associated with GC-biased gene conversion. Genome nucleotide composition critically shapes plant genetic diversity, yet its variation across angiosperms remains poorly understood. Here, we conducted a multilevel GC analysis across 495 angiosperm genomes (spanning 109 families, 44 orders; 284 species with annotated coding genes). Using SeqKit, we quantified GC content at whole-genome, chromosomal, gene, and codon scales, while estimating recombination rates with mlRho v2.9. We found that angiosperm GC content approximates a normal distribution (mean 36.64%) but varies markedly among lineages: monocots (41.97%) > eudicots (35.43%), with Poaceae highest (44.64%). Coding-region GC (mean 46.38%) exceeded genomic levels, showing maximal variation at the third codon position (GC3; mean 46.22%; up to 63.63% in Poaceae). Gene-level GC distributions shifted from unimodal to distinctly bimodal patterns-evident in Poaceae-reflecting divergence between high- and low-GC genes. Notably, GC content correlated positively with both chromosome length and recombination rate. These patterns are consistent with GC-biased gene conversion (gBGC) as a key driver of GC diversity in angiosperms, operating neutrally and locally across genomic scales, independent of phylogeny.",
       "accent_color": "#8b5e34",
       "authors": [
@@ -541,54 +571,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41984235/",
       "venue": "Planta",
       "venue_display": "Planta"
-    },
-    {
-      "abstract": "Mutations in DNA damage repair (DDR) genes lead to genomic instability, driving a range of degenerative syndromes. In addition to promoting mutation accumulation, unrepaired DNA damage can leak into the cytosol and activate innate immune-sensing pathways, particularly the cGAS-STING axis. However, the extent to which cGAS causally contributes to organismal pathology in DDR syndromes in vivo remains unresolved. Here, we genetically model ataxia telangiectasia (A-T) and Bloom syndrome in the short-lived turquoise killifish (Nothobranchius furzeri) and demonstrate that genetic disruption of cgas in the A-T model partially ameliorates germline failure, hepatic senescence, and cerebellar neuroinflammation. Unexpectedly, cgas loss also reversed cellular hallmarks of genome instability, including reduced micronuclei, improved telomere integrity, and restored H3K9me3-marked heterochromatin landscape, consistent with STING-independent nuclear functions of cGAS that influence DNA repair and chromatin. Together, these data identify cGAS as a context-dependent amplifier of DDR pathology acting through canonical inflammatory signaling and noncanonical nuclear mechanisms that shape genome stability. Accordingly, our findings support pharmacological cGAS inhibition as a potential strategy for DDR syndromes in settings of chronic DNA damage while highlighting that cgas loss in an otherwise naive background exacerbates pathology and genomic instability, underscoring its essential role in normal physiology.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Marva Bergman",
-        "Uri Goshtchevsky",
-        "Tehila Atlan",
-        "Gwendoline Astre",
-        "Ryan Halabi",
-        "Hosniyah El Ayoubi",
-        "Eitan Moses",
-        "Aaron J J Lemus",
-        "Bérénice A Benayoun",
-        "Yehuda Tzfati",
-        "Ido Ben-Ami",
-        "Itamar Harel"
-      ],
-      "authors_display": "Marva Bergman, Uri Goshtchevsky, Tehila Atlan, et al.",
-      "first_seen_at": "2026-04-16T04:13:09Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1101/gad.352760.125",
-        "pmcid": null,
-        "pmid": "41980769"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation accumulation"
-        ]
-      },
-      "paper_key": "doi:10.1101/gad.352760.125",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-14",
-      "short_abstract": "Mutations in DNA damage repair (DDR) genes lead to genomic instability, driving a range of degenerative syndromes. In addition to promoting mutation accumulation, unrepaired DNA damage can leak into the cytosol and activate innate immune-sensing pathways, particularly the cGAS-STING axis. However, the extent to which cGAS causally...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "A dual role for cGAS in shaping cellular and organismal responses to genomic instability.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41980769/",
-      "venue": "Genes Dev",
-      "venue_display": "Genes Dev"
     },
     {
       "abstract": "Streptococcus suis serotype 9 is an emerging zoonotic pathogen threatening pig production and public health. Here, we combined comparative genomics of 16 strains, including clinical isolate SS2401, to elucidate the role of prophages in shaping genomic plasticity and virulence evolution. The pan-genome was open (α = 0.375), highlighting extensive genetic diversity. Prophages were prevalent (56.25% of strains), significantly correlated with larger genomes, and exhibited two integration modes: direct insertion as genomic islands and integration at recombination hotspots associated with large-scale inversions. Phylogenetic analysis of the terminase large subunit (TerL) and whole-genome sequences revealed multiple independent acquisitions, with three prophages in SS2401 originating from distinct lineages (\"one strain, multiple sources\"). Recombination analysis detected 1,432 events across the core genome, indicating frequent horizontal gene exchange. The virulence gene sly (suilysin) was carried as a gene cassette within prophage Phi2401a. Notably, we identified integrase-deficient but otherwise intact prophages that may function as \"gene prisons,\" stably fixing virulence traits. These findings demonstrate that prophages act as dual drivers of genomic architecture and as dynamic reservoirs for virulence genes, providing a framework for understanding bacterial adaptation and informing surveillance strategies in the swine industry.IMPORTANCEStreptococcus suis serotype 9 poses a significant threat to pig farming and public health worldwide. This study reveals that prophages are not passive passengers but active architects of genomic plasticity and virulence evolution in this pathogen. We demonstrate that prophages contribute to genome expansion, facilitate large-scale chromosomal rearrangements, and carry key virulence genes such as sly. The discovery of a \"one strain, multiple sources\" acquisition pattern and the \"gene prison\" model explains how virulence traits can be stably maintained and disseminated. These findings redefine prophages as dual drivers of bacterial evolution, providing new insights for surveillance and intervention strategies in the swine industry.",

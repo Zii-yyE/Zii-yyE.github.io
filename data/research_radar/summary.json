@@ -2,7 +2,7 @@
   "focus_topics": [
     {
       "accent_color": "#f25f4c",
-      "count": 42,
+      "count": 43,
       "id": "mutation_rate",
       "label": "Mutation Rate"
     },
@@ -20,12 +20,14 @@
     },
     {
       "accent_color": "#2f8f6b",
-      "count": 112,
+      "count": 117,
       "id": "pangenome_sv",
       "label": "Pangenome / Structural Variation"
     }
   ],
-  "generated_at": "2026-04-20T04:18:20Z",
-  "generated_at_china": "2026-04-20 12:18 UTC+8",
-  "source_errors": {}
+  "generated_at": "2026-04-21T04:10:43Z",
+  "generated_at_china": "2026-04-21 12:10 UTC+8",
+  "source_errors": {
+    "biorxiv": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  }
 }
