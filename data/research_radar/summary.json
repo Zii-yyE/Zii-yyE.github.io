@@ -20,14 +20,12 @@
     },
     {
       "accent_color": "#2f8f6b",
-      "count": 117,
+      "count": 124,
       "id": "pangenome_sv",
       "label": "Pangenome / Structural Variation"
     }
   ],
-  "generated_at": "2026-04-21T04:10:43Z",
-  "generated_at_china": "2026-04-21 12:10 UTC+8",
-  "source_errors": {
-    "biorxiv": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-  }
+  "generated_at": "2026-04-22T03:58:18Z",
+  "generated_at_china": "2026-04-22 11:58 UTC+8",
+  "source_errors": {}
 }

@@ -1,6 +1,242 @@
 {
-  "generated_at": "2026-04-21T04:10:43Z",
+  "generated_at": "2026-04-22T03:58:18Z",
   "latest": [
+    {
+      "abstract": "The evolution of genetic sex determination (GSD) from environmental sex determination (ESD) remains a fundamental issue in evolutionary biology. However, the mechanisms driving the transition, particularly in its earliest stages, are largely unknown. Here, we report a genetic variant in the ESD species, Daphnia pulex, in which structural variations on chromosome I have suppressed recombination. This suppression appears to have facilitated the accumulation of divergent features of two chromosome I haplotypes, resulting in differentiation of the linked sex-determining gene Dfh. This process has led to the emergence of a mixed-mating system, in which sex determination is jointly regulated by genetic and environmental factors, with ongoing divergence in chromosomal structure continuing to develop between the two haplotypes at the population level. These findings suggest that processes analogous to early sex-chromosome evolution are occurring in this ESD species, offering insights into the molecular mechanisms underlying the emergence of GSD.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Wen Wei",
+        "Man Lin",
+        "Trent Bishop",
+        "Ryan Shahriari",
+        "Yue Hao",
+        "Logan Graham",
+        "Bret L Coggins",
+        "Hannah Jee",
+        "Emma Fonseca",
+        "Swatantra Neupane",
+        "Li Wang",
+        "Sen Xu",
+        "Erin Kim",
+        "Michael Lynch",
+        "Zhiqiang Ye"
+      ],
+      "authors_display": "Wen Wei, Man Lin, Trent Bishop, et al.",
+      "first_seen_at": "2026-04-22T03:58:18Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1073/pnas.2533705123",
+        "pmcid": null,
+        "pmid": "42012949"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variations"
+        ]
+      },
+      "paper_key": "doi:10.1073/pnas.2533705123",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-21",
+      "short_abstract": "The evolution of genetic sex determination (GSD) from environmental sex determination (ESD) remains a fundamental issue in evolutionary biology. However, the mechanisms driving the transition, particularly in its earliest stages, are largely unknown. Here, we report a genetic variant in the ESD species, Daphnia pulex, in which...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Emergence of genetic sex determination in an environmentally sex-determined animal.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42012949/",
+      "venue": "Proc Natl Acad Sci U S A",
+      "venue_display": "Proc Natl Acad Sci U S A"
+    },
+    {
+      "abstract": "Grass powdery mildews (Blumeria spp.) include economically important fungal crop pathogens with complex and highly repetitive genomes. To investigate the diversity and genome evolution in Blumeria graminis, we combined population genetic and pangenomic analyses using a worldwide sample of 399 wheat powdery mildew isolates. Additionally, we produced high-quality genome assemblies for seven isolates from wheat and one from rye powdery mildew. Using these, we compiled the first grass powdery mildew pangenome comprising 11 Blumeria graminis isolates. We found multiple chromosomal rearrangements between the isolates that grow on wheat, rye and/or triticale hosts. Interestingly, chr-11 showed some characteristics, comparable to accessory chromosomes such as presence/absence of large chromosomal segments and higher sequence diversity. Additionally, we identified nearly 67,000 cases of copy number variations (CNVs), which were highly enriched within effector gene families. Furthermore, we found evidence for recent and high transposable element (TE) activity, such as high numbers of TE insertion polymorphisms. Analyses of TE families showed enrichment 1 kb to 2 kb up- and downstream of effector genes, and we also found high levels of TE insertion polymorphisms between populations. Our results demonstrate that chromosomal variations, gene family expansions and contractions, and TE activity are important sources of genome diversification and diversity in grass powdery mildews. Our findings indicate that a combination of pangenomic and population genetics analyses is needed to understand drivers of evolution in plant pathogenic fungi in a comprehensive way.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Alexandros G Sotiropoulos",
+        "Marion C Müller",
+        "Lukas Kunz",
+        "Johannes P Graf",
+        "Levente Kiss",
+        "Ralph Hückelhoven",
+        "Edith Schlagenhauf",
+        "Beat Keller",
+        "Thomas Wicker"
+      ],
+      "authors_display": "Alexandros G Sotiropoulos, Marion C Müller, Lukas Kunz, et al.",
+      "first_seen_at": "2026-04-22T03:58:18Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1371/journal.ppat.1013196",
+        "pmcid": null,
+        "pmid": "42008569"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenomic",
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1371/journal.ppat.1013196",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-20",
+      "short_abstract": "Grass powdery mildews (Blumeria spp.) include economically important fungal crop pathogens with complex and highly repetitive genomes. To investigate the diversity and genome evolution in Blumeria graminis, we combined population genetic and pangenomic analyses using a worldwide sample of 399 wheat powdery mildew isolates. Additionally,...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Combining pangenomics and population genetics finds chromosomal re-arrangements, diversified chromosome segments, copy number variations and transposon polymorphisms in wheat and rye powdery mildew.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42008569/",
+      "venue": "PLoS Pathog",
+      "venue_display": "PLoS Pathog"
+    },
+    {
+      "abstract": "Streptococcus periodonticum is a facultative anaerobic, Gram-positive coccus originally isolated from human periodontitis lesions and implicated in colorectal cancer pathogenesis. This study aimed to comprehensively characterize the genome of strain CRC221, isolated from human colorectal tumor tissue, to support future research on its potential role in tumorigenesis. Genomic DNA from strain CRC221 was sequenced using Illumina NovaSeq 6000 and PacBio platforms. The final assembly yielded a complete circular chromosome of 1,851,769 bp with 38.81% GC content. Structural annotation predicted 1,837 genes, comprising 1,707 protein-coding sequences (CDSs), 12 rRNAs, 59 tRNAs, 3 non-coding RNAs, and 56 pseudogenes. Functional annotation associated most CDSs with core bacterial survival pathways, particularly carbohydrate and amino acid metabolism. Notably, 94 genes were annotated as virulence factors, 68 as antibiotic resistance genes, and 319 as pathogen-host interaction factors. Comparative genomics revealed an ANI of 97.51% and a dDDH value of 71.8% against the reference S. periodonticum genome (GCA_003963555.1). Pan-genome analysis indicated an open genome architecture containing 199 conserved core genes. These genomic data provide a foundation for investigating the biological characteristics of intratumoral S. periodonticum and its potential relevance to colorectal cancer.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Jia-Su Li",
+        "Shu-Dan Chen",
+        "Jia-Quan Wu",
+        "Min-Xin Gao",
+        "Zhao-Shen Li",
+        "Yi-Qi Du",
+        "Wei-Liang Hou"
+      ],
+      "authors_display": "Jia-Su Li, Shu-Dan Chen, Jia-Quan Wu, et al.",
+      "first_seen_at": "2026-04-22T03:58:18Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s12863-026-01425-7",
+        "pmcid": null,
+        "pmid": "42010463"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pan genome"
+        ]
+      },
+      "paper_key": "doi:10.1186/s12863-026-01425-7",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-20",
+      "short_abstract": "Streptococcus periodonticum is a facultative anaerobic, Gram-positive coccus originally isolated from human periodontitis lesions and implicated in colorectal cancer pathogenesis. This study aimed to comprehensively characterize the genome of strain CRC221, isolated from human colorectal tumor tissue, to support future research on its...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Complete genome sequence of Streptococcus periodonticum strain CRC221 isolated from human colorectal tumor tissue.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42010463/",
+      "venue": "BMC Genom Data",
+      "venue_display": "BMC Genom Data"
+    },
+    {
+      "abstract": "Auxin response factors (ARFs) play a pivotal role in regulating plant growth and development; yet, their evolutionary dynamics and functional divergence remain poorly understood in barley (Hordeum vulgare L.) In this study, we conducted a comprehensive genome-wide analysis of the ARF gene family across a 76-accession barley pan-genome. By integrating gene presence/absence variation (PAV) and copy number variation (CNV), phylogeny, expression profiling, transposable element (TE)-mediated regulation, and selection signatures, we characterized 1,911 ARF-coding genes and their structural, transcriptional, and functional variation at the population level. Phylogenetic analysis revealed lineage-specific expansion and dynamic duplications, particularly within the HvARF13 clade. Co-expression networks and tissue-resolved transcriptomes showed that many HvARFs are preferentially expressed in inflorescence and meristematic tissues. Selective sweep and haplotype analyses identified HvARF3 as a candidate gene under selection during European barley breeding. A favorable haplotype of HvARF3, enriched in European cultivars, was significantly associated with increased grain size and weight, demonstrating the utility of pan-genome-enabled frameworks for accelerating gene-trait association and candidate gene discovery. This study highlights the power of multi-omics integration in decoding gene family complexity and provides valuable insights for functional genomics and trait improvement in cereal crops.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Kenan Tan",
+        "Zhenru Guo",
+        "Thorsten Schnurbusch"
+      ],
+      "authors_display": "Kenan Tan, Zhenru Guo, Thorsten Schnurbusch",
+      "first_seen_at": "2026-04-22T03:58:18Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s12284-022-00587-z",
+        "pmcid": "9314575",
+        "pmid": "42008180"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pan genome"
+        ]
+      },
+      "paper_key": "doi:10.1186/s12284-022-00587-z",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-20",
+      "short_abstract": "Auxin response factors (ARFs) play a pivotal role in regulating plant growth and development; yet, their evolutionary dynamics and functional divergence remain poorly understood in barley (Hordeum vulgare L.) In this study, we conducted a comprehensive genome-wide analysis of the ARF gene family across a 76-accession barley pan-genome....",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Pan-genome analysis reveals hidden diversity and selection signatures of auxin response factors (ARFs) associated with breeding in barley.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42008180/",
+      "venue": "Theor Appl Genet",
+      "venue_display": "Theor Appl Genet"
+    },
+    {
+      "abstract": "Subspecies represent evolutionarily distinct lineages that preserve patterns of adaptive diversity and ecological specialization within species. Genomic tools can assist with subspecies delineation, and provide support for classifications based solely on morphological, geographic, or ecological traits. The American mink (Neogale vison), as semi-aquatic mustelid carnivore with a broad ecological range across North America, includes several putative subspecies of conservation concern. To investigate their evolutionary history and adaptive signatures, chromosome-scale genome assemblies were generated for six individuals representing three subspecies: N. vison evergladensis, N. vison vulgivaga, and N. vison lutensis. Genomes were assembled using Illumina short reads, scaffolded with Oxford Nanopore long reads, and aligned to the phased N. vison reference genome. The reference-free pangenome revealed an open architecture and presence/absence analysis was consistent with distinct adaptive profiles. Neogale vison evergladensis showed enrichment in traits related to reproduction and sensory function, N.v. vulgivaga in cytoskeletal remodeling and oxidative stress, and N. v. lutensis in neuronal development and synaptic plasticity. Mitochondrial analyses resolved N.v. lutensis as a distinct lineage, while nuclear data lacked fine-scale resolution. Our findings support N.v. evergladensis as a distinct subspecies, supported by both the mitogenome phylogeny and functional differentiation. Neogale vison evergladensis also exhibited multiple indicators of small population size, including high inbreeding estimates, and evidence of sustained population decline. As the first pangenome for Mustelidae, this study demonstrates the power of natural history specimens to detect signatures of adaptation and inform the management of threatened populations.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Aishatu Affini",
+        "Hailey Baranowski",
+        "Scott Forbes",
+        "Elena N Foust",
+        "Kristyn Hatley",
+        "Ethan L Ni",
+        "Airianna McGuire",
+        "Kyle Paist",
+        "Mary Rutter",
+        "Robin N Smith",
+        "Nataly Vargas",
+        "Harshita Akella",
+        "Kate R Castellano",
+        "Nicole Pauloski",
+        "Noah M Reid",
+        "Kerry A Cobb",
+        "Rachel J O'Neill",
+        "Teisha King",
+        "Elizabeth L Jockusch",
+        "Jill L Wegrzyn",
+        "Paul Hapeman"
+      ],
+      "authors_display": "Aishatu Affini, Hailey Baranowski, Scott Forbes, et al.",
+      "first_seen_at": "2026-04-22T03:58:18Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1101/gr.213405.116",
+        "pmcid": "5411773",
+        "pmid": "42009927"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1101/gr.213405.116",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-20",
+      "short_abstract": "Subspecies represent evolutionarily distinct lineages that preserve patterns of adaptive diversity and ecological specialization within species. Genomic tools can assist with subspecies delineation, and provide support for classifications based solely on morphological, geographic, or ecological traits. The American mink (Neogale vison),...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Mink by mink: stitching together signatures of subspecies adaptation through a pangenome of threatened mustelids.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42009927/",
+      "venue": "Heredity (Edinb)",
+      "venue_display": "Heredity (Edinb)"
+    },
     {
       "abstract": "Certain bacteria are known for their remarkable genetic and phenotypic diversity, as well as rapid morphological diversification during evolution experiments. An example is Bacillus subtilis, which can switch motility, biofilm, or antagonistic interaction patterns. Here, we investigated how different forms of disruption at the spsM locus, including SPβ integration, insertional mutagenesis (spsM::kan), and markerless spsM deletion, influence colony morphology, motility, and the emergence of spontaneous variants in B. subtilis natural isolates. We reassessed a previously reported biofilm defect of an spsM::kan mutant and found that the phenotype stemmed from an undetected secondary mutation rather than from loss of spsM. We observed that spsM::kan mutants frequently developed spontaneous mutations in key regulators of swarming motility and biofilm development. Consistently, we show that spsM::kan significantly elevates mutation rates, explaining why unnoticed mutations can arise rapidly during strain construction and phenotyping. In contrast, a markerless ΔspsM strain did not show a detectable increase in mutation rate relative to wild type, indicating that the elevated mutation rate is not attributable to loss of SpsM function. The SPβ lysogen produced far fewer visible variant morphotypes, indicating that reversible prophage integration does not lead to the same degree of diversification observed in the spsM::kan background. Our findings show that different modes of disrupting the spsM locus can alter the likelihood of selecting recurrent regulatory mutations, highlighting how local genomic context shapes phenotypic diversification. This work highlights the interplay between prophage integration, local genome architecture, and the selective pressures that influence diversification of bacterial multicellular behaviors.IMPORTANCEProphages, defined as viruses integrated into bacterial genomes, can reshape bacterial physiology and evolution. Previous studies suggested that disruption of an integration site (spsM) by the SPβ prophage impairs biofilm formation in Bacillus subtilis. Here, we show that insertion of a kanamycin resistance cassette at the native spsM locus (spsM::kan) promotes the rapid emergence of spontaneous mutations in key regulatory genes. In contrast, a markerless ΔspsM strain does not show a detectable increase in mutation rate, indicating that elevated mutation supply is not a general consequence of spsM loss. Our results indicate that different modes of spsM disruption have distinct consequences for phenotypic diversification. These findings help clarify earlier observations and show that phenotypic diversification depends strongly on the mode of spsM disruption and the genetic background. This has broader implications for how we understand the genetic basis of microbial adaptation, the genetic manipulation, and the evolutionary roles of prophages.",
       "accent_color": "#f25f4c",
@@ -43,228 +279,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42007703/",
       "venue": "Microbiol Spectr",
       "venue_display": "Microbiol Spectr"
-    },
-    {
-      "abstract": "Arthropods, the most diverse phylum on Earth, are hosts to a plethora of bacterial parasites that secrete various effectors of unknown function during infection. The most prevalent of these is the intracellular bacterium Wolbachia pipientis. The microbe infects between 40% and 60% of insect species, where it induces a variety of fitness effects ranging from nutritional supplementation to reproductive manipulations and, in some hosts, limiting virus replication. Understanding the molecular basis of Wolbachia infection and Wolbachia-induced phenotypes is critical to the use of Wolbachia in vector control. Wolbachia ankyrin repeat proteins (WARPs) represent a highly dynamic and diverse part of the Wolbachia pangenome and remain thus far largely uncharacterized. Here, we perform molecular and genetic screens to identify interactions between Wolbachia wMel WARPs and their target host proteins in Drosophila melanogaster. Our results identify strong interactions of two Wolbachia proteins, WARP434 and WARP754, with multiple host targets. Heterologous expression of these two WARPs is extremely toxic in Drosophila tissues, and the toxicity is dependent on the ankyrin repeat domain of each WARP. We use coimmunoprecipitation (coIP) and mass spectrometry to identify native targets of the WARPs, and importantly, knockdown of host targets alleviates toxicity, confirming WARP/target interactions. Antibodies targeting both WARPs show expression by Wolbachia during infection of Drosophila cells, and expression of WARP754 in adult flies increases Wolbachia titer. Understanding how Wolbachia manipulates its host biology and which host pathways it targets during infection will help us define how the most prevalent intracellular bacterial parasite on Earth interacts with its insect hosts at the molecular level. Our screen is an important step toward that goal.IMPORTANCEMolecular interactions drive co-evolutionary arms races between hosts and pathogens. These interactions shape the structure and function of both host and parasite proteins, enabling immunity or virulence during infection. Understanding the molecular details that unfold during these events illustrates not only how hosts and parasites co-evolve at the molecular level but also may help characterize the function of poorly understood proteins. The most prevalent intracellular infection on earth is Wolbachia pipientis, with between 40% and 60% of insects harboring the bacterial symbiont. Understanding how Wolbachia infects host cells and the molecular tools it uses to alter cell biology is critical to the use of the microbe in vector control. Here, we identify Wolbachia proteins used by the symbiont to interface with specific host proteins. Understanding the molecular mechanisms underlying this host-microbe interaction will shed light on how an important symbiont, used in the control of vector populations and disease transmission, uses Wolbachia ankyrin repeat proteins (WARPs) to interact with host targets and how targeting this host protein contributes to infection.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "William Hamilton",
-        "Erin Hardy",
-        "Sergio López-Madrigal",
-        "Melissa Phelps",
-        "MaryAnn Martin",
-        "Irene Newton"
-      ],
-      "authors_display": "William Hamilton, Erin Hardy, Sergio López-Madrigal, et al.",
-      "first_seen_at": "2026-04-21T04:10:43Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1128/mbio.00172-26",
-        "pmcid": null,
-        "pmid": "42003611"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1128/mbio.00172-26",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-20",
-      "short_abstract": "Arthropods, the most diverse phylum on Earth, are hosts to a plethora of bacterial parasites that secrete various effectors of unknown function during infection. The most prevalent of these is the intracellular bacterium Wolbachia pipientis. The microbe infects between 40% and 60% of insect species, where it induces a variety of fitness...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Wolbachia uses ankyrin repeats to target specific fly proteins.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42003611/",
-      "venue": "mBio",
-      "venue_display": "mBio"
-    },
-    {
-      "abstract": "Despite growing insights into the composition of marine invertebrate microbiomes, our understanding of their ecological and evolutionary patterns remains poor, owing to limited sampling depth and low-resolution datasets. Previous studies have provided conflicting results that both confirm and deny the existence of phylosymbiosis between marine invertebrates and marine bacteria. Here, we investigated potential animal-microbe symbioses in Pseudoalteromonas, a bacterial genus consistently identified as a core microbiome taxon in diverse invertebrates. Using a pangenomic analysis of 236 free-living and invertebrate-associated bacterial strains (including two new nematode-associated isolates generated in this study), we confirm that Pseudoalteromonas is a symbiont with substantial evidence of phylosymbiosis across at least three marine invertebrate phyla (e.g., Nematoda, Mollusca, and Cnidaria). Patterns of symbiosis were consistent irrespective of geography (including in Antarctica), with FISH images from nematodes indicating that bacterial symbionts form biofilms in the mouth and esophagus and are sometimes present in female nematode ovaries exhibiting stunted development. The evolutionary history of Pseudoalteromonas is marked by substantial host-switching and lifestyle transitions, and host-associated genomes suggest that these bacteria are facultative symbionts involved in nutritional symbioses. In marine environments, we hypothesize that horizontally acquired symbionts may have co-evolved with invertebrates, using host mucus as a physical niche and food source, while providing their animal hosts with Vitamin B, amino acids, and bioavailable carbon compounds in return.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Alejandro De Santiago",
-        "Shelby Barnes",
-        "Tiago José Pereira",
-        "Mirayana Marcellino-Barros",
-        "Lekeah Durden",
-        "Min Khant Han",
-        "J Cameron Thrash",
-        "Holly M Bik"
-      ],
-      "authors_display": "Alejandro De Santiago, Shelby Barnes, Tiago José Pereira, et al.",
-      "first_seen_at": "2026-04-21T04:10:43Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/ismejo/wrag091",
-        "pmcid": null,
-        "pmid": "42007585"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenomic"
-        ]
-      },
-      "paper_key": "doi:10.1093/ismejo/wrag091",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-20",
-      "short_abstract": "Despite growing insights into the composition of marine invertebrate microbiomes, our understanding of their ecological and evolutionary patterns remains poor, owing to limited sampling depth and low-resolution datasets. Previous studies have provided conflicting results that both confirm and deny the existence of phylosymbiosis between...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Pseudoalteromonas is a symbiont of marine invertebrates that exhibits broad patterns of phylosymbiosis.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42007585/",
-      "venue": "ISME J",
-      "venue_display": "ISME J"
-    },
-    {
-      "abstract": "The global emergence of multidrug-resistant (MDR) Salmonella enterica poses a significant public health threat, particularly in developing countries where antibiotic consumption remains high. However, genomic data on circulating Salmonella strains in Eastern China remain limited. To characterize the genomic profiles of antimicrobial resistance (AMR) and molecular epidemiology of Salmonella isolates from diarrheal patients in Jinan, China (2017-2020). A total of 185 Salmonella strains isolated from secondary/tertiary hospital outpatients were subjected to whole genome sequencing (WGS) on the Illumina platform. Bioinformatic analyses included antimicrobial resistance gene (ARG) screening (ResFinder and CARD), multilocus sequence typing (MLST), in silico serotyping (SISTR), and pan-genome analysis. All isolates exhibited multidrug resistance, with highest rates to fluoroquinolones (100%), aminoglycosides (99.46%), and nitroimidazoles (99.46%). ARG profiling revealed aac(6')-Iaa as the predominant gene (98.9%). MLST identified 33 sequence types (STs), dominated by ST34 (28.65%) and ST11 (24.86%). In silico serotyping further confirmed the predominance of the monophasic Salmonella Typhimurium (I 1,4, [5],12:i:-; ST34) and Salmonella Enteritidis (ST11). Pan-genome analysis defined a core genome of 3376 genes (23.35%) and an accessory genome of 9201 cloud genes (63.64%). This first WGS-based surveillance in Jinan highlights the predominance of MDR ST34/ST11 Salmonella with an extremely high prevalence (100%) of fluoroquinolone resistance. The integration of genomic and historical phenotypic data underscores the urgent need to revise empirical therapy for diarrheal diseases and implement genomic surveillance in public health practice.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Chuanmin Ma",
-        "Na Li",
-        "Lei Wang",
-        "Kunyan Li",
-        "Ming Liu",
-        "Jun Zhou",
-        "Hui Liu"
-      ],
-      "authors_display": "Chuanmin Ma, Na Li, Lei Wang, et al.",
-      "first_seen_at": "2026-04-21T04:10:43Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.3389/fmicb.2022.859854",
-        "pmcid": "PMC9008345",
-        "pmid": "42004897"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pan genome"
-        ]
-      },
-      "paper_key": "doi:10.3389/fmicb.2022.859854",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-18",
-      "short_abstract": "The global emergence of multidrug-resistant (MDR) Salmonella enterica poses a significant public health threat, particularly in developing countries where antibiotic consumption remains high. However, genomic data on circulating Salmonella strains in Eastern China remain limited. To characterize the genomic profiles of antimicrobial...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Whole Genome Sequencing Reveals High Prevalence of Antimicrobial Resistance Genes in Salmonella Isolates From Diarrheal Patients in Jinan, China.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42004897/",
-      "venue": "Can J Infect Dis Med Microbiol",
-      "venue_display": "Can J Infect Dis Med Microbiol"
-    },
-    {
-      "abstract": "",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Xubing Liu",
-        "Zhao Chen",
-        "Qian Jiang",
-        "Haoyu Shen",
-        "Hongyu Liu",
-        "Zhenguo Wang",
-        "Zhe Li",
-        "Jihong Wu",
-        "Hong Jiang",
-        "Xin Li"
-      ],
-      "authors_display": "Xubing Liu, Zhao Chen, Qian Jiang, et al.",
-      "first_seen_at": "2026-04-20T04:18:20Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/s13073-026-01653-7",
-        "pmcid": null,
-        "pmid": "42001173"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1186/s13073-026-01653-7",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-18",
-      "short_abstract": "",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Tissue-specific gene dosage disruption is a key feature and pathogenic mechanism of structural variants in the human genome.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42001173/",
-      "venue": "Genome Med",
-      "venue_display": "Genome Med"
-    },
-    {
-      "abstract": "",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Ming Wu",
-        "Fushuang Duan",
-        "Shuang Chen",
-        "Yuhang Nie",
-        "Zhanpeng Wang",
-        "Ying Yang",
-        "Xuepeng Cai",
-        "Jie Li",
-        "Zhongmei Ma",
-        "Qingling Meng",
-        "Jun Qiao"
-      ],
-      "authors_display": "Ming Wu, Fushuang Duan, Shuang Chen, et al.",
-      "first_seen_at": "2026-04-20T04:18:20Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1007/s12602-023-10088-0",
-        "pmcid": "3339379",
-        "pmid": "41999472"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pan genome"
-        ]
-      },
-      "paper_key": "doi:10.1007/s12602-023-10088-0",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-18",
-      "short_abstract": "",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Pan-genome guided identification and functional characterisation of three putative bacteriocin variants from Brevibacillus laterosporus.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41999472/",
-      "venue": "World J Microbiol Biotechnol",
-      "venue_display": "World J Microbiol Biotechnol"
     },
     {
       "abstract": "Pol32 is a subunit shared by DNA polymerases δ and ζ, yet its role in maintaining genome integrity remains incompletely defined. Here, we employed whole-genome sequencing of mutation-accumulation lines to systematically characterize the genome-wide effects of a POL32 deletion in diploid Saccharomyces cerevisiae. Loss of Pol32 led to substantially (>5-fold) elevated rates of loss of heterozygosity (LOH), chromosome rearrangements, and aneuploidy, but resulted in substantially less genome instability than observed in strains with low levels of DNA polymerase δ. In particular, there was only a small (<2-fold) effect of the pol32 mutation on mutation rates. Notably, a prominent hotspot for chromosome rearrangements located near the end of chromosome VII was observed in pol32 strains. Although deletion of REV3 (encoding the catalytic subunit of Pol ζ) had no significant effect on genome integrity in a wild-type background, pol32 rev3 double mutants had reduced rates of most types of chromosome alterations compared to the pol32 single mutant, implicating Pol ζ in driving the genome instability induced by the Pol32 deficiency. Together, these findings provide new insights into how a shared structural subunit of several DNA polymerases contributes to the regulation of genome stability.IMPORTANCEPol32 is a subunit of DNA polymerases δ (an essential replicative enzyme) and ζ (an error-prone DNA polymerase required for DNA repair). We show that yeast strains that lack this protein have elevated rates of mitotic recombination, large deletions/duplications, translocations, and other types of genomic alterations. The high level of genomic alterations in pol32 mutants is substantially suppressed in strains that lack DNA polymerase ζ, suggesting that this error-prone polymerase may stimulate DNA breaks in conditions of DNA replication stress. Our studies are likely to have wide relevance since sequence variants of POLD3 (the human homolog of Pol32) are associated with certain types of human tumors.",
