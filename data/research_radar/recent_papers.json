@@ -1,6 +1,214 @@
 {
-  "generated_at": "2026-04-22T03:58:18Z",
+  "generated_at": "2026-04-23T04:11:56Z",
   "latest": [
+    {
+      "abstract": "Population-scale long-read DNA sequencing (PLRS) is rapidly reshaping our understanding of genomic variation in humans and non-model species. In this Darwin Review, we first recount the expansion of the PLRS concept and its twin paradigm, the pangenome, over the past 20 years, emphasizing recent results from non-human vertebrates. Using recent PLRS studies in birds as test cases, we probe three aspects of PLRS studies-diploid genome assembly, characterization and annotation of the repeatome, and detection of gene copy number variants-that are being re-shaped by new data types and computational tools. We argue that, in the absence of data from family trios, partially phased haplotypes provide a natural substrate for pangenome analysis, especially when quantifying structural variants directly from pangenome graphs. We identify gaps and discrepancies in the annotation of the repeatome of long-read assemblies, especially for satellite and low-complexity DNA, that are being ameliorated by new computational tools. Finally, we discuss and evaluate the surprising extent of gene copy number variation exposed in recent PLRS studies. The current methodological heterogeneity of pangenome studies may soon coalesce around a few core protocols to the extent allowed by rapidly changing sequencing technologies, allowing greater consistency among studies.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Scott V Edwards",
+        "Heng Li"
+      ],
+      "authors_display": "Scott V Edwards, Heng Li",
+      "first_seen_at": "2026-04-23T04:11:56Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1098/rspb.2025.2899",
+        "pmcid": null,
+        "pmid": "42014088"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants",
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1098/rspb.2025.2899",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-22",
+      "short_abstract": "Population-scale long-read DNA sequencing (PLRS) is rapidly reshaping our understanding of genomic variation in humans and non-model species. In this Darwin Review, we first recount the expansion of the PLRS concept and its twin paradigm, the pangenome, over the past 20 years, emphasizing recent results from non-human vertebrates. Using...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Population-scale long-read DNA sequencing: peering under the hood of the new evolutionary genomics.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42014088/",
+      "venue": "Proc Biol Sci",
+      "venue_display": "Proc Biol Sci"
+    },
+    {
+      "abstract": "Understanding how genome structure and gene content evolve within and among plant species requires analytical frameworks that capture the full spectrum of allelic and structural variation. Plant pangenomes have progressed from gene-focused and linear representations to chromosome-scale, haplotype-resolved graphs that preserve allelic and structural diversity across populations. Attention is increasingly focused on the evolutionary processes that generate and maintain pangenome architecture, alongside the adoption of graph-based coordinate systems that reduce reference bias and enable multi-omics integration. Here, we review plant pangenome paradigms, from early homology-based gene sets to haplotype-resolved graph models, and summarize tradeoffs in construction, mapping, and variant analysis. We synthesize patterns of core and variable gene compartments across studies and examine how transposable elements, gene duplication, and selection shape their contrasting evolutionary dynamics. Using panNLRomes and crop domestication as case studies, we illustrate how graph-based frameworks clarify evolutionary and functional signals obscured by single references, including birth-death dynamics at resistance loci and structural variants associated with domestication. Finally, we discuss emerging applications in pantranscriptomics and panepigenomics and outline key methodological and infrastructural challenges.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Noé Cochetel",
+        "Dario Cantu"
+      ],
+      "authors_display": "Noé Cochetel, Dario Cantu",
+      "first_seen_at": "2026-04-23T04:11:56Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/molbev/msag087",
+        "pmcid": null,
+        "pmid": "42015654"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation",
+          "structural variants",
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1093/molbev/msag087",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-22",
+      "short_abstract": "Understanding how genome structure and gene content evolve within and among plant species requires analytical frameworks that capture the full spectrum of allelic and structural variation. Plant pangenomes have progressed from gene-focused and linear representations to chromosome-scale, haplotype-resolved graphs that preserve allelic...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "From structural pangenomes to functional panomics in plants.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42015654/",
+      "venue": "Mol Biol Evol",
+      "venue_display": "Mol Biol Evol"
+    },
+    {
+      "abstract": "Many plants, unlike most animals, can reproduce as clones [D. Kester, HortScience 18, 831-837 (1983), 10.21273/hortsci.18.6.831]. Cloning plants is vital to agriculture and biotechnology [H. Barton, T. Denham, Quatern. Int. 489, 17-25 (2018), O. L. Gamborg, In Vitro Cell. Dev. Biol. Plant 38, 84-92 (2002), K.-H. Neumann, A. Kumar, J. Imani, Plant Cell and Tissue Culture-A Tool in Biotechnology: Basics and Application (ed. 2, 2020)], but the extent to which somatic mutation arises during asexual propagation remains an outstanding question. Leveraging a natural experiment of walnut clones spanning five decades and multiple cloning methods, we found a complex history of somatic mutation revealing developmental cell dynamics. A haplotype-phased reference genome exposed extreme genomic instability, a distinct mutation spectrum, and a >3,500% increase in mutation rate within clonal somatic embryos. Pairing these mutations with the haplotype-phased assembly revealed the canonical flowering plant meristematic layers from bulk tissue sequencing and uncovered frequent fixation events throughout development. These findings raise concerns about genomic integrity in tissue culture, test assumptions about mutagenesis in clonal propagation, and establish a benchmark for emerging paradigms in somatic mutation research.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Matthew W Davis",
+        "Charles A Leslie",
+        "Chaehee Lee",
+        "Evan Long",
+        "Li Meinhold",
+        "Megan Lorenc",
+        "Franklin Lewis",
+        "Patrick J Brown",
+        "Grey Monroe"
+      ],
+      "authors_display": "Matthew W Davis, Charles A Leslie, Chaehee Lee, et al.",
+      "first_seen_at": "2026-04-23T04:11:56Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1073/pnas.2530182123",
+        "pmcid": null,
+        "pmid": "42018421"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rate"
+        ]
+      },
+      "paper_key": "doi:10.1073/pnas.2530182123",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-22",
+      "short_abstract": "Many plants, unlike most animals, can reproduce as clones [D. Kester, HortScience 18, 831-837 (1983), 10.21273/hortsci.18.6.831]. Cloning plants is vital to agriculture and biotechnology [H. Barton, T. Denham, Quatern. Int. 489, 17-25 (2018), O. L. Gamborg, In Vitro Cell. Dev. Biol. Plant 38, 84-92 (2002), K.-H. Neumann, A. Kumar, J....",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Genome degradation in plant tissue culture.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42018421/",
+      "venue": "Proc Natl Acad Sci U S A",
+      "venue_display": "Proc Natl Acad Sci U S A"
+    },
+    {
+      "abstract": "We describe here an enantioselective synthesis of (-)-catunaregin (1), a bioactive agent from Mangrove plants. Our synthesis features an Evans' asymmetric syn-aldol reaction, cross-metathesis to an enone, substrate controlled 1,4-addition, a one-pot cyclization to construct the O-bridged tetrahydrofuropyran core, and deprotection to furnish (-)-catunaregin (1). Our synthetic investigations into the synthesis of (-)-epicatunaregin (2) from a common intermediate resulted in an interesting structural variant, which was fully characterized by X-ray diffraction analysis. The present synthesis provides convenient access to enantiomeric catunaregin natural products and their structural variants.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Arun K Ghosh",
+        "Christopher Vultorius"
+      ],
+      "authors_display": "Arun K Ghosh, Christopher Vultorius",
+      "first_seen_at": "2026-04-23T04:11:56Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1021/acs.joc.6c00439",
+        "pmcid": null,
+        "pmid": "42018675"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants",
+          "structural variant"
+        ]
+      },
+      "paper_key": "doi:10.1021/acs.joc.6c00439",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-22",
+      "short_abstract": "We describe here an enantioselective synthesis of (-)-catunaregin (1), a bioactive agent from Mangrove plants. Our synthesis features an Evans' asymmetric syn-aldol reaction, cross-metathesis to an enone, substrate controlled 1,4-addition, a one-pot cyclization to construct the O-bridged tetrahydrofuropyran core, and deprotection to...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Asymmetric Synthesis of (-)-Catunaregin, an Angiogenesis Inhibitor from Mangroves.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42018675/",
+      "venue": "J Org Chem",
+      "venue_display": "J Org Chem"
+    },
+    {
+      "abstract": "",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Qinglin Ke",
+        "Han Lin",
+        "Yitong Zha",
+        "Haitao Zhang",
+        "Hao Ling",
+        "Yi Fu",
+        "Yihan Li",
+        "Licao Cui",
+        "Yiwei Liu"
+      ],
+      "authors_display": "Qinglin Ke, Han Lin, Yitong Zha, et al.",
+      "first_seen_at": "2026-04-23T04:11:56Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s12864-026-12845-1",
+        "pmcid": null,
+        "pmid": "42014983"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1186/s12864-026-12845-1",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-21",
+      "short_abstract": "",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Population and pangenome analyses uncover the evolutionary dynamics of the peroxidase gene family in barley.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42014983/",
+      "venue": "BMC Genomics",
+      "venue_display": "BMC Genomics"
+    },
     {
       "abstract": "The evolution of genetic sex determination (GSD) from environmental sex determination (ESD) remains a fundamental issue in evolutionary biology. However, the mechanisms driving the transition, particularly in its earliest stages, are largely unknown. Here, we report a genetic variant in the ESD species, Daphnia pulex, in which structural variations on chromosome I have suppressed recombination. This suppression appears to have facilitated the accumulation of divergent features of two chromosome I haplotypes, resulting in differentiation of the linked sex-determining gene Dfh. This process has led to the emergence of a mixed-mating system, in which sex determination is jointly regulated by genetic and environmental factors, with ongoing divergence in chromosomal structure continuing to develop between the two haplotypes at the population level. These findings suggest that processes analogous to early sex-chromosome evolution are occurring in this ESD species, offering insights into the molecular mechanisms underlying the emergence of GSD.",
       "accent_color": "#2f8f6b",
@@ -53,191 +261,6 @@
       "venue_display": "Proc Natl Acad Sci U S A"
     },
     {
-      "abstract": "Grass powdery mildews (Blumeria spp.) include economically important fungal crop pathogens with complex and highly repetitive genomes. To investigate the diversity and genome evolution in Blumeria graminis, we combined population genetic and pangenomic analyses using a worldwide sample of 399 wheat powdery mildew isolates. Additionally, we produced high-quality genome assemblies for seven isolates from wheat and one from rye powdery mildew. Using these, we compiled the first grass powdery mildew pangenome comprising 11 Blumeria graminis isolates. We found multiple chromosomal rearrangements between the isolates that grow on wheat, rye and/or triticale hosts. Interestingly, chr-11 showed some characteristics, comparable to accessory chromosomes such as presence/absence of large chromosomal segments and higher sequence diversity. Additionally, we identified nearly 67,000 cases of copy number variations (CNVs), which were highly enriched within effector gene families. Furthermore, we found evidence for recent and high transposable element (TE) activity, such as high numbers of TE insertion polymorphisms. Analyses of TE families showed enrichment 1 kb to 2 kb up- and downstream of effector genes, and we also found high levels of TE insertion polymorphisms between populations. Our results demonstrate that chromosomal variations, gene family expansions and contractions, and TE activity are important sources of genome diversification and diversity in grass powdery mildews. Our findings indicate that a combination of pangenomic and population genetics analyses is needed to understand drivers of evolution in plant pathogenic fungi in a comprehensive way.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Alexandros G Sotiropoulos",
-        "Marion C Müller",
-        "Lukas Kunz",
-        "Johannes P Graf",
-        "Levente Kiss",
-        "Ralph Hückelhoven",
-        "Edith Schlagenhauf",
-        "Beat Keller",
-        "Thomas Wicker"
-      ],
-      "authors_display": "Alexandros G Sotiropoulos, Marion C Müller, Lukas Kunz, et al.",
-      "first_seen_at": "2026-04-22T03:58:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1371/journal.ppat.1013196",
-        "pmcid": null,
-        "pmid": "42008569"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenomic",
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1371/journal.ppat.1013196",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-20",
-      "short_abstract": "Grass powdery mildews (Blumeria spp.) include economically important fungal crop pathogens with complex and highly repetitive genomes. To investigate the diversity and genome evolution in Blumeria graminis, we combined population genetic and pangenomic analyses using a worldwide sample of 399 wheat powdery mildew isolates. Additionally,...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Combining pangenomics and population genetics finds chromosomal re-arrangements, diversified chromosome segments, copy number variations and transposon polymorphisms in wheat and rye powdery mildew.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42008569/",
-      "venue": "PLoS Pathog",
-      "venue_display": "PLoS Pathog"
-    },
-    {
-      "abstract": "Streptococcus periodonticum is a facultative anaerobic, Gram-positive coccus originally isolated from human periodontitis lesions and implicated in colorectal cancer pathogenesis. This study aimed to comprehensively characterize the genome of strain CRC221, isolated from human colorectal tumor tissue, to support future research on its potential role in tumorigenesis. Genomic DNA from strain CRC221 was sequenced using Illumina NovaSeq 6000 and PacBio platforms. The final assembly yielded a complete circular chromosome of 1,851,769 bp with 38.81% GC content. Structural annotation predicted 1,837 genes, comprising 1,707 protein-coding sequences (CDSs), 12 rRNAs, 59 tRNAs, 3 non-coding RNAs, and 56 pseudogenes. Functional annotation associated most CDSs with core bacterial survival pathways, particularly carbohydrate and amino acid metabolism. Notably, 94 genes were annotated as virulence factors, 68 as antibiotic resistance genes, and 319 as pathogen-host interaction factors. Comparative genomics revealed an ANI of 97.51% and a dDDH value of 71.8% against the reference S. periodonticum genome (GCA_003963555.1). Pan-genome analysis indicated an open genome architecture containing 199 conserved core genes. These genomic data provide a foundation for investigating the biological characteristics of intratumoral S. periodonticum and its potential relevance to colorectal cancer.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Jia-Su Li",
-        "Shu-Dan Chen",
-        "Jia-Quan Wu",
-        "Min-Xin Gao",
-        "Zhao-Shen Li",
-        "Yi-Qi Du",
-        "Wei-Liang Hou"
-      ],
-      "authors_display": "Jia-Su Li, Shu-Dan Chen, Jia-Quan Wu, et al.",
-      "first_seen_at": "2026-04-22T03:58:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/s12863-026-01425-7",
-        "pmcid": null,
-        "pmid": "42010463"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pan genome"
-        ]
-      },
-      "paper_key": "doi:10.1186/s12863-026-01425-7",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-20",
-      "short_abstract": "Streptococcus periodonticum is a facultative anaerobic, Gram-positive coccus originally isolated from human periodontitis lesions and implicated in colorectal cancer pathogenesis. This study aimed to comprehensively characterize the genome of strain CRC221, isolated from human colorectal tumor tissue, to support future research on its...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Complete genome sequence of Streptococcus periodonticum strain CRC221 isolated from human colorectal tumor tissue.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42010463/",
-      "venue": "BMC Genom Data",
-      "venue_display": "BMC Genom Data"
-    },
-    {
-      "abstract": "Auxin response factors (ARFs) play a pivotal role in regulating plant growth and development; yet, their evolutionary dynamics and functional divergence remain poorly understood in barley (Hordeum vulgare L.) In this study, we conducted a comprehensive genome-wide analysis of the ARF gene family across a 76-accession barley pan-genome. By integrating gene presence/absence variation (PAV) and copy number variation (CNV), phylogeny, expression profiling, transposable element (TE)-mediated regulation, and selection signatures, we characterized 1,911 ARF-coding genes and their structural, transcriptional, and functional variation at the population level. Phylogenetic analysis revealed lineage-specific expansion and dynamic duplications, particularly within the HvARF13 clade. Co-expression networks and tissue-resolved transcriptomes showed that many HvARFs are preferentially expressed in inflorescence and meristematic tissues. Selective sweep and haplotype analyses identified HvARF3 as a candidate gene under selection during European barley breeding. A favorable haplotype of HvARF3, enriched in European cultivars, was significantly associated with increased grain size and weight, demonstrating the utility of pan-genome-enabled frameworks for accelerating gene-trait association and candidate gene discovery. This study highlights the power of multi-omics integration in decoding gene family complexity and provides valuable insights for functional genomics and trait improvement in cereal crops.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Kenan Tan",
-        "Zhenru Guo",
-        "Thorsten Schnurbusch"
-      ],
-      "authors_display": "Kenan Tan, Zhenru Guo, Thorsten Schnurbusch",
-      "first_seen_at": "2026-04-22T03:58:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/s12284-022-00587-z",
-        "pmcid": "9314575",
-        "pmid": "42008180"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pan genome"
-        ]
-      },
-      "paper_key": "doi:10.1186/s12284-022-00587-z",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-20",
-      "short_abstract": "Auxin response factors (ARFs) play a pivotal role in regulating plant growth and development; yet, their evolutionary dynamics and functional divergence remain poorly understood in barley (Hordeum vulgare L.) In this study, we conducted a comprehensive genome-wide analysis of the ARF gene family across a 76-accession barley pan-genome....",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Pan-genome analysis reveals hidden diversity and selection signatures of auxin response factors (ARFs) associated with breeding in barley.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42008180/",
-      "venue": "Theor Appl Genet",
-      "venue_display": "Theor Appl Genet"
-    },
-    {
-      "abstract": "Subspecies represent evolutionarily distinct lineages that preserve patterns of adaptive diversity and ecological specialization within species. Genomic tools can assist with subspecies delineation, and provide support for classifications based solely on morphological, geographic, or ecological traits. The American mink (Neogale vison), as semi-aquatic mustelid carnivore with a broad ecological range across North America, includes several putative subspecies of conservation concern. To investigate their evolutionary history and adaptive signatures, chromosome-scale genome assemblies were generated for six individuals representing three subspecies: N. vison evergladensis, N. vison vulgivaga, and N. vison lutensis. Genomes were assembled using Illumina short reads, scaffolded with Oxford Nanopore long reads, and aligned to the phased N. vison reference genome. The reference-free pangenome revealed an open architecture and presence/absence analysis was consistent with distinct adaptive profiles. Neogale vison evergladensis showed enrichment in traits related to reproduction and sensory function, N.v. vulgivaga in cytoskeletal remodeling and oxidative stress, and N. v. lutensis in neuronal development and synaptic plasticity. Mitochondrial analyses resolved N.v. lutensis as a distinct lineage, while nuclear data lacked fine-scale resolution. Our findings support N.v. evergladensis as a distinct subspecies, supported by both the mitogenome phylogeny and functional differentiation. Neogale vison evergladensis also exhibited multiple indicators of small population size, including high inbreeding estimates, and evidence of sustained population decline. As the first pangenome for Mustelidae, this study demonstrates the power of natural history specimens to detect signatures of adaptation and inform the management of threatened populations.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Aishatu Affini",
-        "Hailey Baranowski",
-        "Scott Forbes",
-        "Elena N Foust",
-        "Kristyn Hatley",
-        "Ethan L Ni",
-        "Airianna McGuire",
-        "Kyle Paist",
-        "Mary Rutter",
-        "Robin N Smith",
-        "Nataly Vargas",
-        "Harshita Akella",
-        "Kate R Castellano",
-        "Nicole Pauloski",
-        "Noah M Reid",
-        "Kerry A Cobb",
-        "Rachel J O'Neill",
-        "Teisha King",
-        "Elizabeth L Jockusch",
-        "Jill L Wegrzyn",
-        "Paul Hapeman"
-      ],
-      "authors_display": "Aishatu Affini, Hailey Baranowski, Scott Forbes, et al.",
-      "first_seen_at": "2026-04-22T03:58:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1101/gr.213405.116",
-        "pmcid": "5411773",
-        "pmid": "42009927"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1101/gr.213405.116",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-20",
-      "short_abstract": "Subspecies represent evolutionarily distinct lineages that preserve patterns of adaptive diversity and ecological specialization within species. Genomic tools can assist with subspecies delineation, and provide support for classifications based solely on morphological, geographic, or ecological traits. The American mink (Neogale vison),...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Mink by mink: stitching together signatures of subspecies adaptation through a pangenome of threatened mustelids.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42009927/",
-      "venue": "Heredity (Edinb)",
-      "venue_display": "Heredity (Edinb)"
-    },
-    {
       "abstract": "Certain bacteria are known for their remarkable genetic and phenotypic diversity, as well as rapid morphological diversification during evolution experiments. An example is Bacillus subtilis, which can switch motility, biofilm, or antagonistic interaction patterns. Here, we investigated how different forms of disruption at the spsM locus, including SPβ integration, insertional mutagenesis (spsM::kan), and markerless spsM deletion, influence colony morphology, motility, and the emergence of spontaneous variants in B. subtilis natural isolates. We reassessed a previously reported biofilm defect of an spsM::kan mutant and found that the phenotype stemmed from an undetected secondary mutation rather than from loss of spsM. We observed that spsM::kan mutants frequently developed spontaneous mutations in key regulators of swarming motility and biofilm development. Consistently, we show that spsM::kan significantly elevates mutation rates, explaining why unnoticed mutations can arise rapidly during strain construction and phenotyping. In contrast, a markerless ΔspsM strain did not show a detectable increase in mutation rate relative to wild type, indicating that the elevated mutation rate is not attributable to loss of SpsM function. The SPβ lysogen produced far fewer visible variant morphotypes, indicating that reversible prophage integration does not lead to the same degree of diversification observed in the spsM::kan background. Our findings show that different modes of disrupting the spsM locus can alter the likelihood of selecting recurrent regulatory mutations, highlighting how local genomic context shapes phenotypic diversification. This work highlights the interplay between prophage integration, local genome architecture, and the selective pressures that influence diversification of bacterial multicellular behaviors.IMPORTANCEProphages, defined as viruses integrated into bacterial genomes, can reshape bacterial physiology and evolution. Previous studies suggested that disruption of an integration site (spsM) by the SPβ prophage impairs biofilm formation in Bacillus subtilis. Here, we show that insertion of a kanamycin resistance cassette at the native spsM locus (spsM::kan) promotes the rapid emergence of spontaneous mutations in key regulatory genes. In contrast, a markerless ΔspsM strain does not show a detectable increase in mutation rate, indicating that elevated mutation supply is not a general consequence of spsM loss. Our results indicate that different modes of spsM disruption have distinct consequences for phenotypic diversification. These findings help clarify earlier observations and show that phenotypic diversification depends strongly on the mode of spsM disruption and the genetic background. This has broader implications for how we understand the genetic basis of microbial adaptation, the genetic manipulation, and the evolutionary roles of prophages.",
       "accent_color": "#f25f4c",
       "authors": [
@@ -279,6 +302,86 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42007703/",
       "venue": "Microbiol Spectr",
       "venue_display": "Microbiol Spectr"
+    },
+    {
+      "abstract": "Hepatocellular carcinoma (HCC) is a top cause of cancer-related death globally, with late diagnosis due to nonspecific early symptoms. Current single-factor prognostic models cannot reflect tumor heterogeneity, so a comprehensive tool for risk stratification and personalized treatment is needed. This study employed WGCNA on publicly available datasets (TCGA and GSE54236) to identify core genes associated with chromosomal instability (CIN) in HCC. We initially screened 73 candidate genes, which were then refined to a final set of 20 core genes through an optimization process involving 101 machine learning algorithms. Specifically, the StepCox[both] combined with CoxBoost model was selected as the optimal model, with a concordance index (c-index) of 0.709. We subsequently developed a multidimensional risk-scoring model by integrating the expression levels of these core genes with patient clinicopathological parameters and immune cell infiltration data. The model's performance was evaluated through survival analysis and chemotherapeutic drug sensitivity prediction. Additionally, functional assays were conducted to validate the roles of key genes in promoting the proliferation and invasion of HCC cells. The model effectively stratified patients into high- and low-risk groups. High-risk patients exhibited poorer survival, increased immune cell (particularly T cell) infiltration, higher sensitivity to chemotherapeutics like 5-fluorouracil and paclitaxel, and a higher TP53 mutation rate. Low-risk patients were characterized by frequent CTNNB1-ARID2 comutations and a more active antitumor immune microenvironment. Additionally, SSRP1 and SETDB1 were verified to promote the proliferation and invasion of HCC cells. This integrated model, combining genomic and immunological features, is a reliable prognostic tool for HCC patient stratification and personalized chemotherapy, promising for clinical translation and precision medicine in HCC.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Zehao Li",
+        "Boqiang Zhong",
+        "Qian Zhang",
+        "Lin Sun",
+        "Xiaoxiao Li",
+        "Xiao Hu"
+      ],
+      "authors_display": "Zehao Li, Boqiang Zhong, Qian Zhang, et al.",
+      "first_seen_at": "2026-04-23T04:11:56Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.3389/fimmu.2024.1487610",
+        "pmcid": "PMC11649667",
+        "pmid": "42016321"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rate"
+        ]
+      },
+      "paper_key": "doi:10.3389/fimmu.2024.1487610",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-19",
+      "short_abstract": "Hepatocellular carcinoma (HCC) is a top cause of cancer-related death globally, with late diagnosis due to nonspecific early symptoms. Current single-factor prognostic models cannot reflect tumor heterogeneity, so a comprehensive tool for risk stratification and personalized treatment is needed. This study employed WGCNA on publicly...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Multiomics Analysis Identifies Chromosomal Instability-Associated Immune-Related Signatures in Hepatocellular Carcinoma by Integrating Weighted Gene Coexpression Network Analysis (WGCNA) and Machine Learning.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42016321/",
+      "venue": "Hum Mutat",
+      "venue_display": "Hum Mutat"
+    },
+    {
+      "abstract": "Understanding how virus sequences are shaped by selection can inform vaccine design and transmission inference. Modeling within-host evolution to interrogate these questions requires a detailed mechanistic framework that accurately captures sequence diversification. The CD8 + cytotoxic T-lymphocyte (CTL) response plays an important role in immune-mediated selection and can leave strong signatures in virus sequences; however, existing sequence-based within-host virus modeling frameworks do not explicitly include a human leukocyte antigen (HLA)-aware CTL response. We extended our previously published within-host sequence evolution simulator, wavess, to include an explicit CTL response, and share a method for identifying HLA-specific CTL epitopes given a founder virus sequence. We also updated the model to permit a variable recombination rate, which allows for modeling non-adjacent genes, segmented genomes, and recombination hotspots. These extensions to wavess allow for more accurate simulation of viruses and virus genes, particularly in regions of the genome where the immune response is dominated by CTLs (rather than antibodies). It also provides the foundation for investigations of how these newly-added biological mechanisms influence within-host evolution. The core of wavess is written in Python 3, with helper functions written in R. It is available at https://github.com/MolEvolEpid/wavess.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Zena Lapp",
+        "Thomas Leitner"
+      ],
+      "authors_display": "Zena Lapp, Thomas Leitner",
+      "first_seen_at": "2026-04-23T04:11:56Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.64898/2026.02.19.706869",
+        "pmcid": "PMC12934743",
+        "pmid": "41756898"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "recombination hotspots"
+        ]
+      },
+      "paper_key": "doi:10.64898/2026.02.19.706869",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-18",
+      "short_abstract": "Understanding how virus sequences are shaped by selection can inform vaccine design and transmission inference. Modeling within-host evolution to interrogate these questions requires a detailed mechanistic framework that accurately captures sequence diversification. The CD8 + cytotoxic T-lymphocyte (CTL) response plays an important role...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "wavess 1.2: Presenting an HLA-aware within-host virus sequence simulation framework.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41756898/",
+      "venue": "bioRxiv",
+      "venue_display": "bioRxiv"
     },
     {
       "abstract": "Pol32 is a subunit shared by DNA polymerases δ and ζ, yet its role in maintaining genome integrity remains incompletely defined. Here, we employed whole-genome sequencing of mutation-accumulation lines to systematically characterize the genome-wide effects of a POL32 deletion in diploid Saccharomyces cerevisiae. Loss of Pol32 led to substantially (>5-fold) elevated rates of loss of heterozygosity (LOH), chromosome rearrangements, and aneuploidy, but resulted in substantially less genome instability than observed in strains with low levels of DNA polymerase δ. In particular, there was only a small (<2-fold) effect of the pol32 mutation on mutation rates. Notably, a prominent hotspot for chromosome rearrangements located near the end of chromosome VII was observed in pol32 strains. Although deletion of REV3 (encoding the catalytic subunit of Pol ζ) had no significant effect on genome integrity in a wild-type background, pol32 rev3 double mutants had reduced rates of most types of chromosome alterations compared to the pol32 single mutant, implicating Pol ζ in driving the genome instability induced by the Pol32 deficiency. Together, these findings provide new insights into how a shared structural subunit of several DNA polymerases contributes to the regulation of genome stability.IMPORTANCEPol32 is a subunit of DNA polymerases δ (an essential replicative enzyme) and ζ (an error-prone DNA polymerase required for DNA repair). We show that yeast strains that lack this protein have elevated rates of mitotic recombination, large deletions/duplications, translocations, and other types of genomic alterations. The high level of genomic alterations in pol32 mutants is substantially suppressed in strains that lack DNA polymerase ζ, suggesting that this error-prone polymerase may stimulate DNA breaks in conditions of DNA replication stress. Our studies are likely to have wide relevance since sequence variants of POLD3 (the human homolog of Pol32) are associated with certain types of human tumors.",
@@ -363,84 +466,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42000052/",
       "venue": "Theor Popul Biol",
       "venue_display": "Theor Popul Biol"
-    },
-    {
-      "abstract": "Viral RNA-dependent RNA polymerases (RdRps) must balance replication speed with fidelity, preserving genome integrity while permitting enough variability for viral adaptation. The SARS-CoV-2 RdRp complex (NSP12/7/8), achieves this through the interplay of its intrinsic replication fidelity and a potential proofreading exonuclease complex (NSP10/14). Here, we comprehensively quantify the intrinsic fidelity of the SARS-CoV-2 RdRp through direct pre-steady-state kinetic analyses of nucleotide incorporation across all possible templating bases paired with incoming nucleotides. We discovered substantial variation in discrimination against mismatches ranging from one error in 103 to 108 (median of 105). Crucially, our data reveal a slow pyrophosphate release step that significantly enhances fidelity by effectively introducing a kinetic checkpoint after nucleotide incorporation. The error rates we measured for the RdRp align closely with observed in vivo mutation rates, suggesting that the exonuclease complex may play a less critical role than previously assumed in correcting mistakes during polymerization. These insights advance our understanding of SARS-CoV-2 replication fidelity, and the role of various subcomplexes in genome maintenance and adaptation.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Tyler L Dangerfield",
-        "Ingrid Marko",
-        "Kenneth A Johnson"
-      ],
-      "authors_display": "Tyler L Dangerfield, Ingrid Marko, Kenneth A Johnson",
-      "first_seen_at": "2026-04-20T04:18:20Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.jbc.2026.111457",
-        "pmcid": null,
-        "pmid": "41999896"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rates"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.jbc.2026.111457",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-16",
-      "short_abstract": "Viral RNA-dependent RNA polymerases (RdRps) must balance replication speed with fidelity, preserving genome integrity while permitting enough variability for viral adaptation. The SARS-CoV-2 RdRp complex (NSP12/7/8), achieves this through the interplay of its intrinsic replication fidelity and a potential proofreading exonuclease...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Slow PPi release enhances fidelity of the SARS-CoV-2 RNA dependent RNA polymerase.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41999896/",
-      "venue": "J Biol Chem",
-      "venue_display": "J Biol Chem"
-    },
-    {
-      "abstract": "Clonal competition eliminates most early neoplastic lesions, yet a subset persists and ultimately progresses. In Nature, Skrupskelyte et al. demonstrate that nascent tumors survive by actively reshaping a precancerous niche through epithelial-stromal feedback. This ecological gatekeeping mechanism reframes tumor initiation from a process of mutation accumulation to microenvironmental selection and co-evolution.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Fei Gao",
-        "Jiang Chang",
-        "Chen Wu"
-      ],
-      "authors_display": "Fei Gao, Jiang Chang, Chen Wu",
-      "first_seen_at": "2026-04-19T04:13:19Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.ccell.2026.03.014",
-        "pmcid": null,
-        "pmid": "41997139"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation accumulation"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.ccell.2026.03.014",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-16",
-      "short_abstract": "Clonal competition eliminates most early neoplastic lesions, yet a subset persists and ultimately progresses. In Nature, Skrupskelyte et al. demonstrate that nascent tumors survive by actively reshaping a precancerous niche through epithelial-stromal feedback. This ecological gatekeeping mechanism reframes tumor initiation from a...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Precancerous niches as gatekeepers of tumor initiation.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41997139/",
-      "venue": "Cancer Cell",
-      "venue_display": "Cancer Cell"
     },
     {
       "abstract": "Paramecia belong to the ciliate phylum of unicellular eukaryotes characterized by nuclear dimorphism. A diploid germline micronucleus (MIC) transmits genetic information across sexual generations. A polyploid transcriptionally active somatic macronucleus (MAC) develops at each sexual generation from a copy of the MIC through programmed DNA elimination (PDE) of > 30% of germline DNA. PDE requires the domesticated PiggyMac (Pgm) transposase. Assembly of Paramecium germline genomes has presented an enormous challenge owing to the difficulty of MIC isolation. We report chromosome-scale short-read MIC assemblies for 7 species from the P. aurelia species complex. We discovered a novel clade of Helitrons, with 9-10-kb transposase ORFs under purifying selection, that have remained active in all P. aurelia lineages. A long-read assembly for P. tetraurelia together with a genetic linkage map provided a nearly telomere-to-telomere assembly. The ~ 100-Mb genome consists of tiny (300 kb-1.2 Mb) and numerous (~ 160) germline chromosomes with the highest recombination rate ever reported for a eukaryote (420 cM/Mb). The ends of the chromosomes consist of Helitrons inserted in telomeric C4A2 repeats, forming a distinct genomic compartment that is eliminated very early during MAC development in a Pgm-independent manner.",
@@ -675,50 +700,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41961853/",
       "venue": "Proc Natl Acad Sci U S A",
       "venue_display": "Proc Natl Acad Sci U S A"
-    },
-    {
-      "abstract": "The Mre11 nuclease is part of the conserved MRX complex involved in DNA double-strand break (DSB) repair. During meiosis in budding yeast, MRX is also required for Spo11-mediated programmed DSB formation to initiate homologous recombination. Recruitment of Mre11 to meiotic DSB sites depends on Rec114-Mei4 and Mer2, proposed to organize the DSB machinery via biomolecular condensation. Here, we show that Mre11 and MRX complexes form DNA-dependent, hexanediol-sensitive condensates in vitro. In vivo, Mre11 assembles into DNA damage-dependent foci during mitosis and DSB-independent foci during meiosis. Both in vitro condensates and in vivo foci require Mre11 C-terminal intrinsically-disordered region (IDR). While dispensable for vegetative DNA repair, Mre11 IDR is essential during meiosis, where it mediates interaction with Mer2 via a short α-helix and contains a SUMO-interacting motif that enhances Mre11 recruitment and DSB formation. Together, these findings provide insights into the biophysical properties of Mre11 and its role in initiating meiotic recombination.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Priyanka Priyadarshini",
-        "Mahesh Survi",
-        "Wael El Yazidi Mouloud",
-        "Regina Bohn",
-        "Steven Ballet",
-        "Neil Hunter",
-        "Alexander N Volkov",
-        "Corentin Claeys Bouuaert"
-      ],
-      "authors_display": "Priyanka Priyadarshini, Mahesh Survi, Wael El Yazidi Mouloud, et al.",
-      "first_seen_at": "2026-04-11T03:35:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1038/s41467-026-71310-5",
-        "pmcid": null,
-        "pmid": "41946721"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "meiotic recombination"
-        ]
-      },
-      "paper_key": "doi:10.1038/s41467-026-71310-5",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-04-07",
-      "short_abstract": "The Mre11 nuclease is part of the conserved MRX complex involved in DNA double-strand break (DSB) repair. During meiosis in budding yeast, MRX is also required for Spo11-mediated programmed DSB formation to initiate homologous recombination. Recruitment of Mre11 to meiotic DSB sites depends on Rec114-Mei4 and Mer2, proposed to organize...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Recruitment of Mre11 to recombination sites during meiosis.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41946721/",
-      "venue": "Nat Commun",
-      "venue_display": "Nat Commun"
     },
     {
       "abstract": "Statistical methods to identify Neanderthal ancestry in modern human genomes rest on varying assumptions and inputs. Nonetheless, most studies of introgression use only a single method to define Neanderthal ancestry. Due to a lack of \"ground truth,\" we have a limited understanding of the accuracy, comparative strengths and weaknesses, and the sensitivity of downstream conclusions for these methods. Here, we performed large-scale comparisons of 14 genome-wide introgression maps computed by 11 representative Neanderthal introgression detection algorithms: admixfrog, ArchaicSeeker2, ArchIE, ARGWeaver-D, CRF, DICAL-ADMIX, hmmix, IBDmix, SARGE, Sprime, and S*. These algorithms span statistical approaches based on summary statistics, probabilistic modeling, and machine learning, and vary in their use of archaic, modern, and simulated genomes as input. Our results highlight a core set of regions predicted by nearly all methods, as well as substantial heterogeneity in commonly used Neanderthal introgression maps, especially at the individual genome level. Furthermore, we find that downstream analyses may result in different conclusions depending on the map used. Thus, we recommend careful consideration of map(s) chosen for downstream analysis and support the use of multiple maps to ensure robustness of conclusions. We make integrated prediction sets available, enabling further understanding of Neanderthal introgression's legacy on modern humans.",
