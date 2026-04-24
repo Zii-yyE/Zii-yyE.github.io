@@ -1,6 +1,144 @@
 {
-  "generated_at": "2026-04-23T04:11:56Z",
+  "generated_at": "2026-04-24T04:16:19Z",
   "latest": [
+    {
+      "abstract": "Triple-negative breast cancer (TNBC) lacks actionable molecular targets, so treatment primarily relies on cytotoxic chemotherapy and radiotherapy, yet relapse, resistance, and metastasis still drives poor long-term survival. Dopamine signaling has recently been linked to tumor aggressiveness, and dopamine-receptor antagonists have shown preclinical benefit in other cancers. We therefore evaluated quetiapine (QTP), an FDA-approved DRD2/DRD3 antagonist, as a therapeutic adjunct in TNBC. SUM159-PT, BT-549, and MDA-MB-231 cells were treated with QTP alone or combined with radiation or standard agents (doxorubicin, paclitaxel, 5-fluorouracil). Clonogenic and mammosphere assays measured proliferative and self-renewal potential. Annexin V/propidium-iodide flow cytometry quantified apoptosis, and γ-H2AX immunofluorescence tracked DNA double-strand breaks and repair kinetics. Transwell assays assessed migration of untreated bulk cells and radiation-surviving subclones. QTP significantly reduced clonogenicity and self-renewal in all TNBC models tested, both alone and in combination with radiation or chemotherapy. In apoptosis assays, QTP treatment induced a marked increase in early and late apoptotic cell populations. QTP also promoted DNA double-strand break formation and delayed repair, as indicated by persistent γ-H2AX foci at 24 h after treatment. Additionally, QTP impaired the migratory capacity of both untreated and radiation-surviving cells. Combination treatments with QTP and doxorubicin produced synergistic effects, resulting in complete loss of colony-forming ability and mammosphere formation. The data presented support the repurposing of quetiapine as an adjuvant therapeutic agent alongside radiotherapy and/or chemotherapy in TNBC. By targeting apoptosis, DNA repair, and cancer cell migration, QTP offers a novel, multi-faceted approach to improve outcomes in this high-risk breast cancer subtype.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Ling He",
+        "Purva Joshi",
+        "Angeliki Ioannidis",
+        "Anoushka Kathiravan",
+        "Mohammad Saki",
+        "Frank Pajonk"
+      ],
+      "authors_display": "Ling He, Purva Joshi, Angeliki Ioannidis, et al.",
+      "first_seen_at": "2026-04-24T04:16:19Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1667/rade-25-00222.1",
+        "pmcid": null,
+        "pmid": "42019962"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "double strand break formation"
+        ]
+      },
+      "paper_key": "doi:10.1667/rade-25-00222.1",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-23",
+      "short_abstract": "Triple-negative breast cancer (TNBC) lacks actionable molecular targets, so treatment primarily relies on cytotoxic chemotherapy and radiotherapy, yet relapse, resistance, and metastasis still drives poor long-term survival. Dopamine signaling has recently been linked to tumor aggressiveness, and dopamine-receptor antagonists have shown...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Repurposing Quetiapine as an Adjuvant Therapeutic Agent for Triple-Negative Breast Cancer.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42019962/",
+      "venue": "Radiat Res",
+      "venue_display": "Radiat Res"
+    },
+    {
+      "abstract": "Somatic structural variations (SVs) are critical in cancer genomes, yet their detection from long-read sequencing remains challenging due to alignment errors in repetitive regions. We develop SVScope, leveraging full-length reads and local graph-genome optimization with a random forest strategy to improve somatic SV calling. We also provide ScopeVIZ, a companion pipeline for visualizing read clustering at breakpoints. Across seven benchmark cell lines sequenced with ONT and PacBio platforms, as well as simulated datasets, SVScope consistently outperforms state-of-the-art methods, achieving up to 23.64% improvement in F1-score. Using SVScope, we validate 32 somatic SVs, expanding the ground-truth dataset by 47.06%.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Kailing Tu",
+        "Qilin Zhang",
+        "Yang Li",
+        "Yucong Li",
+        "Lanfang Yuan",
+        "Jing Wang",
+        "Jie Tang",
+        "Lin Xia",
+        "Wei Huang",
+        "Dan Xie"
+      ],
+      "authors_display": "Kailing Tu, Qilin Zhang, Yang Li, et al.",
+      "first_seen_at": "2026-04-24T04:16:19Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s13059-026-04076-0",
+        "pmcid": null,
+        "pmid": "42021344"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variations",
+          "graph genome"
+        ]
+      },
+      "paper_key": "doi:10.1186/s13059-026-04076-0",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-23",
+      "short_abstract": "Somatic structural variations (SVs) are critical in cancer genomes, yet their detection from long-read sequencing remains challenging due to alignment errors in repetitive regions. We develop SVScope, leveraging full-length reads and local graph-genome optimization with a random forest strategy to improve somatic SV calling. We also...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "SVScope improves somatic structural variations detection via graph-genome optimization.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42021344/",
+      "venue": "Genome Biol",
+      "venue_display": "Genome Biol"
+    },
+    {
+      "abstract": "Bacterial pathogens adapt rapidly to clinical and within-host selective pressures1. Insertion sequences (IS) are transposable elements that can contribute to pathogenic adaptation2, but their activity and consequences in contemporary clinical populations are not well characterized. Here, combining large-scale genomic surveys with long-read sequencing of clinical isolates and longitudinal gut metagenomes, we quantify pathogen IS dynamics from global patterns to within-host evolution. Across 19,485 publicly available high-contiguity ESKAPEE pathogen genomes, Enterococcus faecium genomes are the most IS dense, dominated by replicative ISL3 family elements, which have proliferated in clinical lineages over the past 30 years. We find extensive chromosomal structural variation, largely involving ISL3, within a new single-hospital collection of bloodstream isolates. Long-read metagenomic sequencing of 28 longitudinal stool samples from 12 haematopoietic cell transplantation (HCT) recipients demonstrates within-host IS dynamics and their regulatory consequences. In one patient, an ISL3 insertion upstream of a folate transporter formed a strong promoter, increasing transcription and improving relative fitness under folate limitation. Enhanced folate scavenging may enable E. faecium to thrive in the setting of microbiome collapse, which is common in HCT and other critically ill patients3. Together, these results show that a recent ISL3 expansion is driving rapid evolution in healthcare-associated E. faecium, with consequences for its metabolic fitness that may help explain its increasing clinical burden. Several other pathogens also show elevated IS loads in our survey, which suggests that IS expansion-mediated evolution might be more broadly relevant.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Matthew P Grieshop",
+        "Aaron A Behr",
+        "Sierra Bowden",
+        "Jordan D Lin",
+        "Marco Molari",
+        "Gabriella Zm Reynolds",
+        "Erin F Brooks",
+        "Boryana Doyle",
+        "Ashley A Moore",
+        "Guillermo Rodriguez-Nava",
+        "Jorge L Salinas",
+        "Niaz Banaei",
+        "Ami S Bhatt"
+      ],
+      "authors_display": "Matthew P Grieshop, Aaron A Behr, Sierra Bowden, et al.",
+      "first_seen_at": "2026-04-24T04:16:19Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s12859-024-05817-3",
+        "pmcid": "4302049",
+        "pmid": "42020750"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation"
+        ]
+      },
+      "paper_key": "doi:10.1186/s12859-024-05817-3",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-22",
+      "short_abstract": "Bacterial pathogens adapt rapidly to clinical and within-host selective pressures1. Insertion sequences (IS) are transposable elements that can contribute to pathogenic adaptation2, but their activity and consequences in contemporary clinical populations are not well characterized. Here, combining large-scale genomic surveys with...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Transposable elements are driving rapid adaptation of Enterococcus faecium.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42020750/",
+      "venue": "Nature",
+      "venue_display": "Nature"
+    },
     {
       "abstract": "Population-scale long-read DNA sequencing (PLRS) is rapidly reshaping our understanding of genomic variation in humans and non-model species. In this Darwin Review, we first recount the expansion of the PLRS concept and its twin paradigm, the pangenome, over the past 20 years, emphasizing recent results from non-human vertebrates. Using recent PLRS studies in birds as test cases, we probe three aspects of PLRS studies-diploid genome assembly, characterization and annotation of the repeatome, and detection of gene copy number variants-that are being re-shaped by new data types and computational tools. We argue that, in the absence of data from family trios, partially phased haplotypes provide a natural substrate for pangenome analysis, especially when quantifying structural variants directly from pangenome graphs. We identify gaps and discrepancies in the annotation of the repeatome of long-read assemblies, especially for satellite and low-complexity DNA, that are being ameliorated by new computational tools. Finally, we discuss and evaluate the surprising extent of gene copy number variation exposed in recent PLRS studies. The current methodological heterogeneity of pangenome studies may soon coalesce around a few core protocols to the extent allowed by rapidly changing sequencing technologies, allowing greater consistency among studies.",
       "accent_color": "#2f8f6b",
@@ -163,102 +301,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42018675/",
       "venue": "J Org Chem",
       "venue_display": "J Org Chem"
-    },
-    {
-      "abstract": "",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Qinglin Ke",
-        "Han Lin",
-        "Yitong Zha",
-        "Haitao Zhang",
-        "Hao Ling",
-        "Yi Fu",
-        "Yihan Li",
-        "Licao Cui",
-        "Yiwei Liu"
-      ],
-      "authors_display": "Qinglin Ke, Han Lin, Yitong Zha, et al.",
-      "first_seen_at": "2026-04-23T04:11:56Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/s12864-026-12845-1",
-        "pmcid": null,
-        "pmid": "42014983"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1186/s12864-026-12845-1",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-21",
-      "short_abstract": "",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Population and pangenome analyses uncover the evolutionary dynamics of the peroxidase gene family in barley.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42014983/",
-      "venue": "BMC Genomics",
-      "venue_display": "BMC Genomics"
-    },
-    {
-      "abstract": "The evolution of genetic sex determination (GSD) from environmental sex determination (ESD) remains a fundamental issue in evolutionary biology. However, the mechanisms driving the transition, particularly in its earliest stages, are largely unknown. Here, we report a genetic variant in the ESD species, Daphnia pulex, in which structural variations on chromosome I have suppressed recombination. This suppression appears to have facilitated the accumulation of divergent features of two chromosome I haplotypes, resulting in differentiation of the linked sex-determining gene Dfh. This process has led to the emergence of a mixed-mating system, in which sex determination is jointly regulated by genetic and environmental factors, with ongoing divergence in chromosomal structure continuing to develop between the two haplotypes at the population level. These findings suggest that processes analogous to early sex-chromosome evolution are occurring in this ESD species, offering insights into the molecular mechanisms underlying the emergence of GSD.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Wen Wei",
-        "Man Lin",
-        "Trent Bishop",
-        "Ryan Shahriari",
-        "Yue Hao",
-        "Logan Graham",
-        "Bret L Coggins",
-        "Hannah Jee",
-        "Emma Fonseca",
-        "Swatantra Neupane",
-        "Li Wang",
-        "Sen Xu",
-        "Erin Kim",
-        "Michael Lynch",
-        "Zhiqiang Ye"
-      ],
-      "authors_display": "Wen Wei, Man Lin, Trent Bishop, et al.",
-      "first_seen_at": "2026-04-22T03:58:18Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1073/pnas.2533705123",
-        "pmcid": null,
-        "pmid": "42012949"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variations"
-        ]
-      },
-      "paper_key": "doi:10.1073/pnas.2533705123",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-21",
-      "short_abstract": "The evolution of genetic sex determination (GSD) from environmental sex determination (ESD) remains a fundamental issue in evolutionary biology. However, the mechanisms driving the transition, particularly in its earliest stages, are largely unknown. Here, we report a genetic variant in the ESD species, Daphnia pulex, in which...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Emergence of genetic sex determination in an environmentally sex-determined animal.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42012949/",
-      "venue": "Proc Natl Acad Sci U S A",
-      "venue_display": "Proc Natl Acad Sci U S A"
     },
     {
       "abstract": "Certain bacteria are known for their remarkable genetic and phenotypic diversity, as well as rapid morphological diversification during evolution experiments. An example is Bacillus subtilis, which can switch motility, biofilm, or antagonistic interaction patterns. Here, we investigated how different forms of disruption at the spsM locus, including SPβ integration, insertional mutagenesis (spsM::kan), and markerless spsM deletion, influence colony morphology, motility, and the emergence of spontaneous variants in B. subtilis natural isolates. We reassessed a previously reported biofilm defect of an spsM::kan mutant and found that the phenotype stemmed from an undetected secondary mutation rather than from loss of spsM. We observed that spsM::kan mutants frequently developed spontaneous mutations in key regulators of swarming motility and biofilm development. Consistently, we show that spsM::kan significantly elevates mutation rates, explaining why unnoticed mutations can arise rapidly during strain construction and phenotyping. In contrast, a markerless ΔspsM strain did not show a detectable increase in mutation rate relative to wild type, indicating that the elevated mutation rate is not attributable to loss of SpsM function. The SPβ lysogen produced far fewer visible variant morphotypes, indicating that reversible prophage integration does not lead to the same degree of diversification observed in the spsM::kan background. Our findings show that different modes of disrupting the spsM locus can alter the likelihood of selecting recurrent regulatory mutations, highlighting how local genomic context shapes phenotypic diversification. This work highlights the interplay between prophage integration, local genome architecture, and the selective pressures that influence diversification of bacterial multicellular behaviors.IMPORTANCEProphages, defined as viruses integrated into bacterial genomes, can reshape bacterial physiology and evolution. Previous studies suggested that disruption of an integration site (spsM) by the SPβ prophage impairs biofilm formation in Bacillus subtilis. Here, we show that insertion of a kanamycin resistance cassette at the native spsM locus (spsM::kan) promotes the rapid emergence of spontaneous mutations in key regulatory genes. In contrast, a markerless ΔspsM strain does not show a detectable increase in mutation rate, indicating that elevated mutation supply is not a general consequence of spsM loss. Our results indicate that different modes of spsM disruption have distinct consequences for phenotypic diversification. These findings help clarify earlier observations and show that phenotypic diversification depends strongly on the mode of spsM disruption and the genetic background. This has broader implications for how we understand the genetic basis of microbial adaptation, the genetic manipulation, and the evolutionary roles of prophages.",
@@ -610,55 +652,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41984235/",
       "venue": "Planta",
       "venue_display": "Planta"
-    },
-    {
-      "abstract": "Streptococcus suis serotype 9 is an emerging zoonotic pathogen threatening pig production and public health. Here, we combined comparative genomics of 16 strains, including clinical isolate SS2401, to elucidate the role of prophages in shaping genomic plasticity and virulence evolution. The pan-genome was open (α = 0.375), highlighting extensive genetic diversity. Prophages were prevalent (56.25% of strains), significantly correlated with larger genomes, and exhibited two integration modes: direct insertion as genomic islands and integration at recombination hotspots associated with large-scale inversions. Phylogenetic analysis of the terminase large subunit (TerL) and whole-genome sequences revealed multiple independent acquisitions, with three prophages in SS2401 originating from distinct lineages (\"one strain, multiple sources\"). Recombination analysis detected 1,432 events across the core genome, indicating frequent horizontal gene exchange. The virulence gene sly (suilysin) was carried as a gene cassette within prophage Phi2401a. Notably, we identified integrase-deficient but otherwise intact prophages that may function as \"gene prisons,\" stably fixing virulence traits. These findings demonstrate that prophages act as dual drivers of genomic architecture and as dynamic reservoirs for virulence genes, providing a framework for understanding bacterial adaptation and informing surveillance strategies in the swine industry.IMPORTANCEStreptococcus suis serotype 9 poses a significant threat to pig farming and public health worldwide. This study reveals that prophages are not passive passengers but active architects of genomic plasticity and virulence evolution in this pathogen. We demonstrate that prophages contribute to genome expansion, facilitate large-scale chromosomal rearrangements, and carry key virulence genes such as sly. The discovery of a \"one strain, multiple sources\" acquisition pattern and the \"gene prison\" model explains how virulence traits can be stably maintained and disseminated. These findings redefine prophages as dual drivers of bacterial evolution, providing new insights for surveillance and intervention strategies in the swine industry.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Zhenglong Wen",
-        "Yaqi Guo",
-        "Yan Liang",
-        "Yanfang Li",
-        "Kexun Lian",
-        "Rui Tang",
-        "Shoupan Li",
-        "Pei Zheng",
-        "Yonggang Qu"
-      ],
-      "authors_display": "Zhenglong Wen, Yaqi Guo, Yan Liang, et al.",
-      "first_seen_at": "2026-04-14T04:08:13Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1128/spectrum.00061-26",
-        "pmcid": null,
-        "pmid": "41972771"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pan genome"
-        ],
-        "recombination": [
-          "recombination hotspots"
-        ]
-      },
-      "paper_key": "doi:10.1128/spectrum.00061-26",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-04-13",
-      "short_abstract": "Streptococcus suis serotype 9 is an emerging zoonotic pathogen threatening pig production and public health. Here, we combined comparative genomics of 16 strains, including clinical isolate SS2401, to elucidate the role of prophages in shaping genomic plasticity and virulence evolution. The pan-genome was open (α = 0.375), highlighting...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Prophage-mediated lysogenic conversion drives virulence evolution and genomic plasticity in Streptococcus suis serotype 9.",
-      "topics": [
-        "recombination",
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41972771/",
-      "venue": "Microbiol Spectr",
-      "venue_display": "Microbiol Spectr"
     },
     {
       "abstract": "Probabilistic models such as the sequentially Markovian coalescent have long provided a powerful framework for population genetic inference, enabling reconstruction of demographic history and ancestral relationships from genomic data. However, these methods are inherently specialized, relying on predefined assumptions and/or limited scalability. Recent advances in simulation and deep learning provide an alternative approach: learning directly to generalize from synthetic genetic data to infer hidden evolutionary processes. Here we reframe the inference of coalescence times as a problem of translation between two biological languages: the sparse, observable patterns of mutation along the genome and the unobservable ancestral recombination graph that gave rise to them. Inspired by large language models, we develop cxt, a decoder-only transformer that autoregressively predicts coalescent events conditioned on local mutational context. We show that cxt performs competitively with state-of-the-art Markov Chain Monte Carlo-based likelihood models across a broad range of demographic scenarios, matching their accuracy in-distribution and approaching it in out-of-distribution, with the potential for improvement via fine-tuning. Trained on simulations spanning the stdpopsim catalog [J. R. Adrion et al., eLife 9, e54967 (2020); M. E. Lauterbur et al., eLife 12, e84874 (2023); G. Gower et al., Accessible, realistic genome simulation with selection using stdpopsim. bioRxiv [Preprint] (2025). https://doi.org/10.1101/2025.03.23.644823.], the model generalizes robustly and enables efficient inference at scale, producing over a million coalescence predictions in minutes. cxt also produces well-calibrated approximate posteriors, enabling principled uncertainty quantification. We apply cxt to population genomic data from both humans and mosquitoes, highlighting the model's ability to deal with the complexities of empirical data.",
