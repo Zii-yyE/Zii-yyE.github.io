@@ -1,6 +1,176 @@
 {
-  "generated_at": "2026-04-24T04:16:19Z",
+  "generated_at": "2026-04-25T03:50:42Z",
   "latest": [
+    {
+      "abstract": "Efficient and consistent string processing is critical in the exponentially growing genomic data era. Locally Consistent Parsing (LCP) addresses this need by partitioning an input genome string into short, exactly matching substrings (\"cores\"), ensuring consistency across partitions. Compared to the popular sketching techniques, LCP produces fewer cores, enabling a more compact representation and faster analyses. Here, we present the first iterative implementation of LCP with LCPTOOLS and introduce LCPAN, an efficient variation graph constructor, which we show generates variation graphs >12× faster than vg, while using >13× less memory.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Akmuhammet Ashyralyyev",
+        "Zülal Bingöl",
+        "Begüm Filiz Öz",
+        "Kaiyuan Zhu",
+        "Salem Malikic",
+        "Uzi Vishkin",
+        "S Cenk Sahinalp",
+        "Can Alkan"
+      ],
+      "authors_display": "Akmuhammet Ashyralyyev, Zülal Bingöl, Begüm Filiz Öz, et al.",
+      "first_seen_at": "2026-04-25T03:50:42Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s13059-026-04088-w",
+        "pmcid": null,
+        "pmid": "42026667"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "variation graph"
+        ]
+      },
+      "paper_key": "doi:10.1186/s13059-026-04088-w",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-24",
+      "short_abstract": "Efficient and consistent string processing is critical in the exponentially growing genomic data era. Locally Consistent Parsing (LCP) addresses this need by partitioning an input genome string into short, exactly matching substrings (\"cores\"), ensuring consistency across partitions. Compared to the popular sketching techniques, LCP...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "LCPAN: efficient variation graph construction using locally consistent parsing.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42026667/",
+      "venue": "Genome Biol",
+      "venue_display": "Genome Biol"
+    },
+    {
+      "abstract": "Diarrhea caused by enterotoxigenic Escherichia coli (ETEC) is a common threat to humans and animals. Clinical ETEC strains display host tropism, usually driven by adherence and toxin-host interactions in the gut. Other virulence factors, metal acquisition mechanisms, and immune evasion strategies may also influence host specificity. Using publicly available genomes, we performed a pangenomic and functional comparison of 77 human- and swine-derived ETEC strains. Sequence types ST10 and ST4 found in both hosts, suggesting potential cross-host transmission. Phylogenetic analyses showed clustering mainly by ST, regardless of host or geography. Additionally, most functional domains were shared between hosts; however, human-derived strains carried exclusive domains related to adhesion, transposition, and toxins, whereas swine-derived strains harbored domains linked to stress response and metal binding. Notably, the PF09075 domain from the STb enterotoxin occurred only in swine-derived strains, despite previous reports in humans. Comparative analyses of STa (PF02048) and STb revealed no structural or functional homology but confirmed the swine-specific association of STb and greater sequence STa variability in human-derived strains. These findings indicate that sequence and functional differences in these enterotoxins contribute to ETEC host tropism, while ST patterns reveal possible epidemiological links between human and swine infections.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Gabriela Merker Breyer",
+        "Juliana Silva Bernardes",
+        "Márcio Dorn",
+        "Franciele Maboni Siqueira"
+      ],
+      "authors_display": "Gabriela Merker Breyer, Juliana Silva Bernardes, Márcio Dorn, et al.",
+      "first_seen_at": "2026-04-25T03:50:42Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1128/aem.00952-09",
+        "pmcid": "2753094",
+        "pmid": "42029767"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenomic"
+        ]
+      },
+      "paper_key": "doi:10.1128/aem.00952-09",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-24",
+      "short_abstract": "Diarrhea caused by enterotoxigenic Escherichia coli (ETEC) is a common threat to humans and animals. Clinical ETEC strains display host tropism, usually driven by adherence and toxin-host interactions in the gut. Other virulence factors, metal acquisition mechanisms, and immune evasion strategies may also influence host specificity....",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Pangenomic and functional domain comparison of enterotoxigenic Escherichia coli isolated from humans and swine: insights into host specificity.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42029767/",
+      "venue": "Mol Genet Genomics",
+      "venue_display": "Mol Genet Genomics"
+    },
+    {
+      "abstract": "We offer our perspective on the rich literature on the estimation of measures of inbreeding, relatedness, and population structure, beginning with Sewall Wright's F-statistics and moving onto the descriptive statistics of Masatoshi Nei and Clark Cockerham before discussing recent papers. The current availability of genome-level single nucleotide variant data is allowing for sophisticated treatments of inferred identity by descent segments and inferred ancestral recombination graphs. Underlying such disparate methods is an emphasis of characterizing the descent status of alleles within and between individuals and populations, and we have found allele-sharing statistics a convenient framework for examining the differences and similarities among different estimators. We have been able to resolve some long-standing reported differences among estimators, especially those involving the work of Nei. In the course of our algebraic and empirical treatment of descent measure estimation, we have been able to formulate a set of five recommendations. Following the early work of Sewall Wright, we recommend (1) State that descent measures for pairs of alleles are relative to values in a reference set of allele pairs. With this view, we recommend (2) Use estimators that preserve descent measure rankings over different reference sets. Allele-sharing estimators satisfy this recommendation. Reducing genotypic data to allelic data has the benefit of reducing dimensionality, but we recommend (3) If genotypic data are available, avoid having to assume Hardy-Weinberg equilibrium by not reducing them to allelic data. Partly as a consequence of working with genotypic data, we recommend (4) Recognize that allele frequencies do not need to be estimated. Not estimating allele frequencies prevents the confounding of descent estimates for target pairs of alleles by the status of all pairs in a reference set. On the basis of both theoretical and empirical results, finally, we recommend (5) Consider both inbreeding and kinship when estimating either one. It is difficult to envisage a natural population that does not have at least some level of both relatedness and inbreeding.",
+      "accent_color": "#2d6cdf",
+      "authors": [
+        "Bruce S Weir",
+        "Jérôme Goudet"
+      ],
+      "authors_display": "Bruce S Weir, Jérôme Goudet",
+      "first_seen_at": "2026-04-25T03:50:42Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/genetics/iyag088",
+        "pmcid": null,
+        "pmid": "42028812"
+      },
+      "matched_keywords": {
+        "arg": [
+          "ancestral recombination graphs"
+        ]
+      },
+      "paper_key": "doi:10.1093/genetics/iyag088",
+      "primary_topic": "arg",
+      "primary_topic_label": "Ancestral Recombination Graph",
+      "published_date": "2026-04-24",
+      "short_abstract": "We offer our perspective on the rich literature on the estimation of measures of inbreeding, relatedness, and population structure, beginning with Sewall Wright's F-statistics and moving onto the descriptive statistics of Masatoshi Nei and Clark Cockerham before discussing recent papers. The current availability of genome-level single...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Allelic association analyses: estimation recommendations.",
+      "topics": [
+        "arg"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42028812/",
+      "venue": "Genetics",
+      "venue_display": "Genetics"
+    },
+    {
+      "abstract": "Gardenia jasminoides, an evergreen shrub in the Rubiaceae family, is widely cultivated across southern China, particularly in regions south of the Yangtze River. With a long history of use in traditional Chinese medicine, its fruits and flowers are valued for their rich diversity of bioactive compounds. In this study, Oxford Nanopore (ONT) sequencing produced 37-34 Gb of long-read data (60-66× coverage) per accession. Complementary PacBio HiFi sequencing generated 28-32 Gb (50-58× coverage), while Hi-C sequencing provided 61-67 Gb (108-119× coverage) to support chromosome-scale assembly. To ensure accuracy, contigs were polished through multiple iterations using Medaka (ONT-based) and Racon (HiFi-based). The final assemblies resolved all 11 chromosomes at telomere-to-telomere continuity, with no gaps. Functional annotation assigned roles to more than 94% of predicted genes (34,397-34,440) through homology and domain-based searches. This high-quality genome resource enables the study of structural variation underlying agronomic traits and supports advances in molecular breeding, bioactive compound biosynthesis, and comparative genomics in Gardenia.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Zhijun Zeng",
+        "Wenjie Lu",
+        "Chaohuang Liu",
+        "Xiang Zhang",
+        "Ziheng Yao",
+        "Ying Wang",
+        "Shurong Xia",
+        "Xiaojun Yan",
+        "Xinjun Liao",
+        "Lan Cao",
+        "Yanhua Ji",
+        "Hongning Liu"
+      ],
+      "authors_display": "Zhijun Zeng, Wenjie Lu, Chaohuang Liu, et al.",
+      "first_seen_at": "2026-04-25T03:50:42Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41597-026-07169-4",
+        "pmcid": null,
+        "pmid": "42026098"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41597-026-07169-4",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-23",
+      "short_abstract": "Gardenia jasminoides, an evergreen shrub in the Rubiaceae family, is widely cultivated across southern China, particularly in regions south of the Yangtze River. With a long history of use in traditional Chinese medicine, its fruits and flowers are valued for their rich diversity of bioactive compounds. In this study, Oxford Nanopore...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Three Near telomere-to-telomere Genomes for Gardenia jasminoides.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42026098/",
+      "venue": "Sci Data",
+      "venue_display": "Sci Data"
+    },
     {
       "abstract": "Triple-negative breast cancer (TNBC) lacks actionable molecular targets, so treatment primarily relies on cytotoxic chemotherapy and radiotherapy, yet relapse, resistance, and metastasis still drives poor long-term survival. Dopamine signaling has recently been linked to tumor aggressiveness, and dopamine-receptor antagonists have shown preclinical benefit in other cancers. We therefore evaluated quetiapine (QTP), an FDA-approved DRD2/DRD3 antagonist, as a therapeutic adjunct in TNBC. SUM159-PT, BT-549, and MDA-MB-231 cells were treated with QTP alone or combined with radiation or standard agents (doxorubicin, paclitaxel, 5-fluorouracil). Clonogenic and mammosphere assays measured proliferative and self-renewal potential. Annexin V/propidium-iodide flow cytometry quantified apoptosis, and γ-H2AX immunofluorescence tracked DNA double-strand breaks and repair kinetics. Transwell assays assessed migration of untreated bulk cells and radiation-surviving subclones. QTP significantly reduced clonogenicity and self-renewal in all TNBC models tested, both alone and in combination with radiation or chemotherapy. In apoptosis assays, QTP treatment induced a marked increase in early and late apoptotic cell populations. QTP also promoted DNA double-strand break formation and delayed repair, as indicated by persistent γ-H2AX foci at 24 h after treatment. Additionally, QTP impaired the migratory capacity of both untreated and radiation-surviving cells. Combination treatments with QTP and doxorubicin produced synergistic effects, resulting in complete loss of colony-forming ability and mammosphere formation. The data presented support the repurposing of quetiapine as an adjuvant therapeutic agent alongside radiotherapy and/or chemotherapy in TNBC. By targeting apoptosis, DNA repair, and cancer cell migration, QTP offers a novel, multi-faceted approach to improve outcomes in this high-risk breast cancer subtype.",
       "accent_color": "#8b5e34",
@@ -91,132 +261,43 @@
       "venue_display": "Genome Biol"
     },
     {
-      "abstract": "Bacterial pathogens adapt rapidly to clinical and within-host selective pressures1. Insertion sequences (IS) are transposable elements that can contribute to pathogenic adaptation2, but their activity and consequences in contemporary clinical populations are not well characterized. Here, combining large-scale genomic surveys with long-read sequencing of clinical isolates and longitudinal gut metagenomes, we quantify pathogen IS dynamics from global patterns to within-host evolution. Across 19,485 publicly available high-contiguity ESKAPEE pathogen genomes, Enterococcus faecium genomes are the most IS dense, dominated by replicative ISL3 family elements, which have proliferated in clinical lineages over the past 30 years. We find extensive chromosomal structural variation, largely involving ISL3, within a new single-hospital collection of bloodstream isolates. Long-read metagenomic sequencing of 28 longitudinal stool samples from 12 haematopoietic cell transplantation (HCT) recipients demonstrates within-host IS dynamics and their regulatory consequences. In one patient, an ISL3 insertion upstream of a folate transporter formed a strong promoter, increasing transcription and improving relative fitness under folate limitation. Enhanced folate scavenging may enable E. faecium to thrive in the setting of microbiome collapse, which is common in HCT and other critically ill patients3. Together, these results show that a recent ISL3 expansion is driving rapid evolution in healthcare-associated E. faecium, with consequences for its metabolic fitness that may help explain its increasing clinical burden. Several other pathogens also show elevated IS loads in our survey, which suggests that IS expansion-mediated evolution might be more broadly relevant.",
+      "abstract": "Tandem arrays, genomic loci comprising adjacent paralogs that share high sequence identity, concentrate in plant genome regions shaped by strong adaptive pressure, from nucleotide-binding leucine-rich repeat (NLR) resistance clusters to specialized metabolism loci. Yet these biologically informative neighborhoods are precarious bioinformatically. Short-read assemblies often result in assembly collapse, compressing multi-member tandem arrays into a single consensus sequence. Annotation pipelines compound this error through annotation fusion, which merges distinct array members into elongated gene models, and annotation omission, which drops true array members even when assemblies preserve local structure. The result is systemic distortion: collapsed references misrepresent tandem array copy number, confounded expression quantification across array members, and obscured tandem-array copy number variation (CNV) in population-genomic analyses. Graph pangenomes built from long-read, haplotype-resolved assemblies offer a direct remedy. By representing alternative locus structures as paths in a pangenome graph, these references restore tandem arrays as discoverable, measurable objects. Individual array members retain distinct coordinates, enabling array-member-resolved expression analysis and accurate genotyping of tandem-array CNV. This shift turns tandem-array-rich loci from systemic blind spots into accessible windows on adaptive genome evolution.",
       "accent_color": "#2f8f6b",
       "authors": [
-        "Matthew P Grieshop",
-        "Aaron A Behr",
-        "Sierra Bowden",
-        "Jordan D Lin",
-        "Marco Molari",
-        "Gabriella Zm Reynolds",
-        "Erin F Brooks",
-        "Boryana Doyle",
-        "Ashley A Moore",
-        "Guillermo Rodriguez-Nava",
-        "Jorge L Salinas",
-        "Niaz Banaei",
-        "Ami S Bhatt"
+        "Sung Don Lim",
+        "John C Cushman",
+        "Won Cheol Yim"
       ],
-      "authors_display": "Matthew P Grieshop, Aaron A Behr, Sierra Bowden, et al.",
-      "first_seen_at": "2026-04-24T04:16:19Z",
+      "authors_display": "Sung Don Lim, John C Cushman, Won Cheol Yim",
+      "first_seen_at": "2026-04-25T03:50:42Z",
       "identifiers": {
         "arxiv_id": null,
         "biorxiv_doi": null,
-        "doi": "10.1186/s12859-024-05817-3",
-        "pmcid": "4302049",
-        "pmid": "42020750"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variation"
-        ]
-      },
-      "paper_key": "doi:10.1186/s12859-024-05817-3",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-22",
-      "short_abstract": "Bacterial pathogens adapt rapidly to clinical and within-host selective pressures1. Insertion sequences (IS) are transposable elements that can contribute to pathogenic adaptation2, but their activity and consequences in contemporary clinical populations are not well characterized. Here, combining large-scale genomic surveys with...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Transposable elements are driving rapid adaptation of Enterococcus faecium.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42020750/",
-      "venue": "Nature",
-      "venue_display": "Nature"
-    },
-    {
-      "abstract": "Population-scale long-read DNA sequencing (PLRS) is rapidly reshaping our understanding of genomic variation in humans and non-model species. In this Darwin Review, we first recount the expansion of the PLRS concept and its twin paradigm, the pangenome, over the past 20 years, emphasizing recent results from non-human vertebrates. Using recent PLRS studies in birds as test cases, we probe three aspects of PLRS studies-diploid genome assembly, characterization and annotation of the repeatome, and detection of gene copy number variants-that are being re-shaped by new data types and computational tools. We argue that, in the absence of data from family trios, partially phased haplotypes provide a natural substrate for pangenome analysis, especially when quantifying structural variants directly from pangenome graphs. We identify gaps and discrepancies in the annotation of the repeatome of long-read assemblies, especially for satellite and low-complexity DNA, that are being ameliorated by new computational tools. Finally, we discuss and evaluate the surprising extent of gene copy number variation exposed in recent PLRS studies. The current methodological heterogeneity of pangenome studies may soon coalesce around a few core protocols to the extent allowed by rapidly changing sequencing technologies, allowing greater consistency among studies.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Scott V Edwards",
-        "Heng Li"
-      ],
-      "authors_display": "Scott V Edwards, Heng Li",
-      "first_seen_at": "2026-04-23T04:11:56Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1098/rspb.2025.2899",
+        "doi": "10.1016/j.pbi.2026.102894",
         "pmcid": null,
-        "pmid": "42014088"
+        "pmid": "42025151"
       },
       "matched_keywords": {
         "pangenome_sv": [
-          "structural variants",
           "pangenome"
         ]
       },
-      "paper_key": "doi:10.1098/rspb.2025.2899",
+      "paper_key": "doi:10.1016/j.pbi.2026.102894",
       "primary_topic": "pangenome_sv",
       "primary_topic_label": "Pangenome / Structural Variation",
       "published_date": "2026-04-22",
-      "short_abstract": "Population-scale long-read DNA sequencing (PLRS) is rapidly reshaping our understanding of genomic variation in humans and non-model species. In this Darwin Review, we first recount the expansion of the PLRS concept and its twin paradigm, the pangenome, over the past 20 years, emphasizing recent results from non-human vertebrates. Using...",
+      "short_abstract": "Tandem arrays, genomic loci comprising adjacent paralogs that share high sequence identity, concentrate in plant genome regions shaped by strong adaptive pressure, from nucleotide-binding leucine-rich repeat (NLR) resistance clusters to specialized metabolism loci. Yet these biologically informative neighborhoods are precarious...",
       "source_primary": "pubmed",
       "sources": [
         "pubmed"
       ],
-      "title": "Population-scale long-read DNA sequencing: peering under the hood of the new evolutionary genomics.",
+      "title": "Revisiting tandem duplication in plant genomes: Technical challenges and pangenome solutions.",
       "topics": [
         "pangenome_sv"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42014088/",
-      "venue": "Proc Biol Sci",
-      "venue_display": "Proc Biol Sci"
-    },
-    {
-      "abstract": "Understanding how genome structure and gene content evolve within and among plant species requires analytical frameworks that capture the full spectrum of allelic and structural variation. Plant pangenomes have progressed from gene-focused and linear representations to chromosome-scale, haplotype-resolved graphs that preserve allelic and structural diversity across populations. Attention is increasingly focused on the evolutionary processes that generate and maintain pangenome architecture, alongside the adoption of graph-based coordinate systems that reduce reference bias and enable multi-omics integration. Here, we review plant pangenome paradigms, from early homology-based gene sets to haplotype-resolved graph models, and summarize tradeoffs in construction, mapping, and variant analysis. We synthesize patterns of core and variable gene compartments across studies and examine how transposable elements, gene duplication, and selection shape their contrasting evolutionary dynamics. Using panNLRomes and crop domestication as case studies, we illustrate how graph-based frameworks clarify evolutionary and functional signals obscured by single references, including birth-death dynamics at resistance loci and structural variants associated with domestication. Finally, we discuss emerging applications in pantranscriptomics and panepigenomics and outline key methodological and infrastructural challenges.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Noé Cochetel",
-        "Dario Cantu"
-      ],
-      "authors_display": "Noé Cochetel, Dario Cantu",
-      "first_seen_at": "2026-04-23T04:11:56Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/molbev/msag087",
-        "pmcid": null,
-        "pmid": "42015654"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variation",
-          "structural variants",
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1093/molbev/msag087",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-22",
-      "short_abstract": "Understanding how genome structure and gene content evolve within and among plant species requires analytical frameworks that capture the full spectrum of allelic and structural variation. Plant pangenomes have progressed from gene-focused and linear representations to chromosome-scale, haplotype-resolved graphs that preserve allelic...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "From structural pangenomes to functional panomics in plants.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42015654/",
-      "venue": "Mol Biol Evol",
-      "venue_display": "Mol Biol Evol"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42025151/",
+      "venue": "Curr Opin Plant Biol",
+      "venue_display": "Curr Opin Plant Biol"
     },
     {
       "abstract": "Many plants, unlike most animals, can reproduce as clones [D. Kester, HortScience 18, 831-837 (1983), 10.21273/hortsci.18.6.831]. Cloning plants is vital to agriculture and biotechnology [H. Barton, T. Denham, Quatern. Int. 489, 17-25 (2018), O. L. Gamborg, In Vitro Cell. Dev. Biol. Plant 38, 84-92 (2002), K.-H. Neumann, A. Kumar, J. Imani, Plant Cell and Tissue Culture-A Tool in Biotechnology: Basics and Application (ed. 2, 2020)], but the extent to which somatic mutation arises during asexual propagation remains an outstanding question. Leveraging a natural experiment of walnut clones spanning five decades and multiple cloning methods, we found a complex history of somatic mutation revealing developmental cell dynamics. A haplotype-phased reference genome exposed extreme genomic instability, a distinct mutation spectrum, and a >3,500% increase in mutation rate within clonal somatic embryos. Pairing these mutations with the haplotype-phased assembly revealed the canonical flowering plant meristematic layers from bulk tissue sequencing and uncovered frequent fixation events throughout development. These findings raise concerns about genomic integrity in tissue culture, test assumptions about mutagenesis in clonal propagation, and establish a benchmark for emerging paradigms in somatic mutation research.",
@@ -262,45 +343,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42018421/",
       "venue": "Proc Natl Acad Sci U S A",
       "venue_display": "Proc Natl Acad Sci U S A"
-    },
-    {
-      "abstract": "We describe here an enantioselective synthesis of (-)-catunaregin (1), a bioactive agent from Mangrove plants. Our synthesis features an Evans' asymmetric syn-aldol reaction, cross-metathesis to an enone, substrate controlled 1,4-addition, a one-pot cyclization to construct the O-bridged tetrahydrofuropyran core, and deprotection to furnish (-)-catunaregin (1). Our synthetic investigations into the synthesis of (-)-epicatunaregin (2) from a common intermediate resulted in an interesting structural variant, which was fully characterized by X-ray diffraction analysis. The present synthesis provides convenient access to enantiomeric catunaregin natural products and their structural variants.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Arun K Ghosh",
-        "Christopher Vultorius"
-      ],
-      "authors_display": "Arun K Ghosh, Christopher Vultorius",
-      "first_seen_at": "2026-04-23T04:11:56Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1021/acs.joc.6c00439",
-        "pmcid": null,
-        "pmid": "42018675"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants",
-          "structural variant"
-        ]
-      },
-      "paper_key": "doi:10.1021/acs.joc.6c00439",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-22",
-      "short_abstract": "We describe here an enantioselective synthesis of (-)-catunaregin (1), a bioactive agent from Mangrove plants. Our synthesis features an Evans' asymmetric syn-aldol reaction, cross-metathesis to an enone, substrate controlled 1,4-addition, a one-pot cyclization to construct the O-bridged tetrahydrofuropyran core, and deprotection to...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Asymmetric Synthesis of (-)-Catunaregin, an Angiogenesis Inhibitor from Mangroves.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42018675/",
-      "venue": "J Org Chem",
-      "venue_display": "J Org Chem"
     },
     {
       "abstract": "Certain bacteria are known for their remarkable genetic and phenotypic diversity, as well as rapid morphological diversification during evolution experiments. An example is Bacillus subtilis, which can switch motility, biofilm, or antagonistic interaction patterns. Here, we investigated how different forms of disruption at the spsM locus, including SPβ integration, insertional mutagenesis (spsM::kan), and markerless spsM deletion, influence colony morphology, motility, and the emergence of spontaneous variants in B. subtilis natural isolates. We reassessed a previously reported biofilm defect of an spsM::kan mutant and found that the phenotype stemmed from an undetected secondary mutation rather than from loss of spsM. We observed that spsM::kan mutants frequently developed spontaneous mutations in key regulators of swarming motility and biofilm development. Consistently, we show that spsM::kan significantly elevates mutation rates, explaining why unnoticed mutations can arise rapidly during strain construction and phenotyping. In contrast, a markerless ΔspsM strain did not show a detectable increase in mutation rate relative to wild type, indicating that the elevated mutation rate is not attributable to loss of SpsM function. The SPβ lysogen produced far fewer visible variant morphotypes, indicating that reversible prophage integration does not lead to the same degree of diversification observed in the spsM::kan background. Our findings show that different modes of disrupting the spsM locus can alter the likelihood of selecting recurrent regulatory mutations, highlighting how local genomic context shapes phenotypic diversification. This work highlights the interplay between prophage integration, local genome architecture, and the selective pressures that influence diversification of bacterial multicellular behaviors.IMPORTANCEProphages, defined as viruses integrated into bacterial genomes, can reshape bacterial physiology and evolution. Previous studies suggested that disruption of an integration site (spsM) by the SPβ prophage impairs biofilm formation in Bacillus subtilis. Here, we show that insertion of a kanamycin resistance cassette at the native spsM locus (spsM::kan) promotes the rapid emergence of spontaneous mutations in key regulatory genes. In contrast, a markerless ΔspsM strain does not show a detectable increase in mutation rate, indicating that elevated mutation supply is not a general consequence of spsM loss. Our results indicate that different modes of spsM disruption have distinct consequences for phenotypic diversification. These findings help clarify earlier observations and show that phenotypic diversification depends strongly on the mode of spsM disruption and the genetic background. This has broader implications for how we understand the genetic basis of microbial adaptation, the genetic manipulation, and the evolutionary roles of prophages.",
@@ -812,51 +854,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41736997/",
       "venue": "Bioinform Adv",
       "venue_display": "Bioinform Adv"
-    },
-    {
-      "abstract": "Ultra-rare variants dominate whole-genome sequencing datasets, yet their interpretation is limited by allele frequency, which provides little information at very low counts and is highly sensitive to uneven ancestry representation. Allele age offers an ancestry-agnostic alternative but existing methods do not scale to biobank-sized cohorts. Here we present a scalable variational algorithm for dating Ancestral Recombination Graphs (ARGs), implemented in tsdate, together with new distributed methods enabling practical biobank-scale ARG inference using tsinfer. Applied to 47,535 genomes from the Genomics England 100,000 Genomes Project, we infer contiguous ARGs spanning 206 Mb and estimate ages for 23.2 million variants, including 11.8 million singletons. ARG-based allele ages remain accurate under extreme sampling imbalance and, in real data, reveal signatures of purifying selection and clinically relevant heterogeneity among variants with identical observed frequencies. Estimates for recent mutations are precise only at large sample sizes, highlighting the information accessible in the haplotype structure of large datasets. Biobank-scale ARGs therefore enable robust, ancestry-agnostic age estimation for ultra-rare variation with broad utility for statistical and clinical genomics.",
-      "accent_color": "#2d6cdf",
-      "authors": [
-        "Nathaniel S Pope",
-        "Sam Tallman",
-        "Ben Jeffery",
-        "Duncan Robertson",
-        "Yan Wong",
-        "Savita Karthikeyan",
-        "Peter L Ralph",
-        "Jerome Kelleher"
-      ],
-      "authors_display": "Nathaniel S Pope, Sam Tallman, Ben Jeffery, et al.",
-      "first_seen_at": "2026-03-21T06:56:57Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.6084/m9.figshare.4530893",
-        "pmcid": "PMC2610434",
-        "pmid": "41648447"
-      },
-      "matched_keywords": {
-        "arg": [
-          "ancestral recombination graphs",
-          "tsinfer"
-        ]
-      },
-      "paper_key": "doi:10.6084/m9.figshare.4530893",
-      "primary_topic": "arg",
-      "primary_topic_label": "Ancestral Recombination Graph",
-      "published_date": "2026-01-12",
-      "short_abstract": "Ultra-rare variants dominate whole-genome sequencing datasets, yet their interpretation is limited by allele frequency, which provides little information at very low counts and is highly sensitive to uneven ancestry representation. Allele age offers an ancestry-agnostic alternative but existing methods do not scale to biobank-sized...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Tracing the evolutionary histories of ultra-rare variants using variational dating of large ancestral recombination graphs.",
-      "topics": [
-        "arg"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41648447/",
-      "venue": "bioRxiv",
-      "venue_display": "bioRxiv"
     }
   ]
 }
