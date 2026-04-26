@@ -1,6 +1,114 @@
 {
-  "generated_at": "2026-04-25T03:50:42Z",
+  "generated_at": "2026-04-26T04:21:29Z",
   "latest": [
+    {
+      "abstract": "Peanut (Arachis hypogaea L.) is a globally significant leguminous oil crop. Here we present telomere-to-telomere genome assemblies for two diploid and four tetraploid peanut varieties, resulting in high-quality reference genomes, showing that the complex activities of transposable elements, chromosomal rearrangements and centromere expansions within subgenomes collectively contribute to the asymmetrical evolution of the tetraploid genome, and unique structural variants in the four tetraploid peanut varieties provide clear evidence of domestication. Population analyses of 521 peanut accessions revealed asymmetric selection events between subgenomes during breeding, and genome-wide association studies identified candidate genes linked to oil content, seed size and weight, kernel dehydration rate, and arachidic acid content. In addition, transcriptomic and metabolomic analyses revealed enhanced activity in lipidomic and anthocyanin biosynthetic pathways during seed development. These comprehensive findings provide insights into genome organization, evolutionary dynamics and phenotypic differentiation across peanut varieties that could inform future peanut breeding and improvement strategies.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Jianxin Bian",
+        "Yilin Zhang",
+        "Shuai Ding",
+        "Haosong Guo",
+        "Kui Li",
+        "Yu Guan",
+        "Guoliang Zhou",
+        "Jihua Li",
+        "Vanika Garg",
+        "Yuanyuan Cui",
+        "Yuan Lv",
+        "Annapurna Chitikineni",
+        "Qingjing Meng",
+        "Tianyu Li",
+        "Liangqiong He",
+        "Chuanzhi Zhao",
+        "Xingjun Wang",
+        "Ronghua Tang",
+        "Liangsheng Zhang",
+        "Xing Wang Deng",
+        "Rajeev K Varshney",
+        "Hang He",
+        "Xiaoqin Liu"
+      ],
+      "authors_display": "Jianxin Bian, Yilin Zhang, Shuai Ding, et al.",
+      "first_seen_at": "2026-04-26T04:21:29Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/1471-2105-9-559",
+        "pmcid": "2631488",
+        "pmid": "42032297"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1186/1471-2105-9-559",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-24",
+      "short_abstract": "Peanut (Arachis hypogaea L.) is a globally significant leguminous oil crop. Here we present telomere-to-telomere genome assemblies for two diploid and four tetraploid peanut varieties, resulting in high-quality reference genomes, showing that the complex activities of transposable elements, chromosomal rearrangements and centromere...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Telomere-to-telomere genome assemblies and population resequencing of diploid and allotetraploid peanut varieties.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42032297/",
+      "venue": "Nat Genet",
+      "venue_display": "Nat Genet"
+    },
+    {
+      "abstract": "Accessible chromatin regions (ACRs) encompass diverse cis-regulatory elements (CREs) crucial for gene regulation, but their variations from parents to hybrids and their contribution to heterosis remain poorly understood. Here, using MNase hypersensitivity sequencing (MH-seq) across the maize B73-Mo17 pan-genome, we analyze chromatin accessibility in inbreds and their hybrids. Approximately 81% of ACRs are syntenic in parents, while ~20% show parent-specific accessibility driven by motif divergence. Chromatin accessibility is more stably inherited than transcriptomic profiles, yet ~3.5% of ACRs exhibit non-additive inheritance in hybrid. Among these, transgressively up-regulated ACRs are evolutionarily constrained, enhanced for chromatin modifications and interactions, and localized within enhancers and CRE-clusters serving as regulatory hubs, regulating complex traits including photoperiod and metabolite levels. Overexpression of a candidate rhamnosyl transferase gene under hybrid chromatin context increases plant height, suggesting a potential contribution to heterosis. Our study provides an insightful perspective on the role of chromatin accessibility in driving heterosis.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Yumin Huang",
+        "Kande Lin",
+        "Wei Huang",
+        "Hainan Zhao",
+        "Fengkun Sun",
+        "Jingyan Liu",
+        "Yilong Gong",
+        "Ruilin Xia",
+        "Xiaoming Zhao",
+        "Jiming Jiang",
+        "Wenli Zhang",
+        "Weiwei Jin",
+        "Zhaobin Dong"
+      ],
+      "authors_display": "Yumin Huang, Kande Lin, Wei Huang, et al.",
+      "first_seen_at": "2026-04-26T04:21:29Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41467-026-72353-4",
+        "pmcid": null,
+        "pmid": "42031749"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pan genome"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41467-026-72353-4",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-24",
+      "short_abstract": "Accessible chromatin regions (ACRs) encompass diverse cis-regulatory elements (CREs) crucial for gene regulation, but their variations from parents to hybrids and their contribution to heterosis remain poorly understood. Here, using MNase hypersensitivity sequencing (MH-seq) across the maize B73-Mo17 pan-genome, we analyze chromatin...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Chromatin accessibility landscape and its association with heterosis in maize hybrids.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42031749/",
+      "venue": "Nat Commun",
+      "venue_display": "Nat Commun"
+    },
     {
       "abstract": "Efficient and consistent string processing is critical in the exponentially growing genomic data era. Locally Consistent Parsing (LCP) addresses this need by partitioning an input genome string into short, exactly matching substrings (\"cores\"), ensuring consistency across partitions. Compared to the popular sketching techniques, LCP produces fewer cores, enabling a more compact representation and faster analyses. Here, we present the first iterative implementation of LCP with LCPTOOLS and introduce LCPAN, an efficient variation graph constructor, which we show generates variation graphs >12× faster than vg, while using >13× less memory.",
       "accent_color": "#2f8f6b",
@@ -212,92 +320,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42019962/",
       "venue": "Radiat Res",
       "venue_display": "Radiat Res"
-    },
-    {
-      "abstract": "Somatic structural variations (SVs) are critical in cancer genomes, yet their detection from long-read sequencing remains challenging due to alignment errors in repetitive regions. We develop SVScope, leveraging full-length reads and local graph-genome optimization with a random forest strategy to improve somatic SV calling. We also provide ScopeVIZ, a companion pipeline for visualizing read clustering at breakpoints. Across seven benchmark cell lines sequenced with ONT and PacBio platforms, as well as simulated datasets, SVScope consistently outperforms state-of-the-art methods, achieving up to 23.64% improvement in F1-score. Using SVScope, we validate 32 somatic SVs, expanding the ground-truth dataset by 47.06%.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Kailing Tu",
-        "Qilin Zhang",
-        "Yang Li",
-        "Yucong Li",
-        "Lanfang Yuan",
-        "Jing Wang",
-        "Jie Tang",
-        "Lin Xia",
-        "Wei Huang",
-        "Dan Xie"
-      ],
-      "authors_display": "Kailing Tu, Qilin Zhang, Yang Li, et al.",
-      "first_seen_at": "2026-04-24T04:16:19Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/s13059-026-04076-0",
-        "pmcid": null,
-        "pmid": "42021344"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variations",
-          "graph genome"
-        ]
-      },
-      "paper_key": "doi:10.1186/s13059-026-04076-0",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-23",
-      "short_abstract": "Somatic structural variations (SVs) are critical in cancer genomes, yet their detection from long-read sequencing remains challenging due to alignment errors in repetitive regions. We develop SVScope, leveraging full-length reads and local graph-genome optimization with a random forest strategy to improve somatic SV calling. We also...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "SVScope improves somatic structural variations detection via graph-genome optimization.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42021344/",
-      "venue": "Genome Biol",
-      "venue_display": "Genome Biol"
-    },
-    {
-      "abstract": "Tandem arrays, genomic loci comprising adjacent paralogs that share high sequence identity, concentrate in plant genome regions shaped by strong adaptive pressure, from nucleotide-binding leucine-rich repeat (NLR) resistance clusters to specialized metabolism loci. Yet these biologically informative neighborhoods are precarious bioinformatically. Short-read assemblies often result in assembly collapse, compressing multi-member tandem arrays into a single consensus sequence. Annotation pipelines compound this error through annotation fusion, which merges distinct array members into elongated gene models, and annotation omission, which drops true array members even when assemblies preserve local structure. The result is systemic distortion: collapsed references misrepresent tandem array copy number, confounded expression quantification across array members, and obscured tandem-array copy number variation (CNV) in population-genomic analyses. Graph pangenomes built from long-read, haplotype-resolved assemblies offer a direct remedy. By representing alternative locus structures as paths in a pangenome graph, these references restore tandem arrays as discoverable, measurable objects. Individual array members retain distinct coordinates, enabling array-member-resolved expression analysis and accurate genotyping of tandem-array CNV. This shift turns tandem-array-rich loci from systemic blind spots into accessible windows on adaptive genome evolution.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Sung Don Lim",
-        "John C Cushman",
-        "Won Cheol Yim"
-      ],
-      "authors_display": "Sung Don Lim, John C Cushman, Won Cheol Yim",
-      "first_seen_at": "2026-04-25T03:50:42Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.pbi.2026.102894",
-        "pmcid": null,
-        "pmid": "42025151"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.pbi.2026.102894",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-22",
-      "short_abstract": "Tandem arrays, genomic loci comprising adjacent paralogs that share high sequence identity, concentrate in plant genome regions shaped by strong adaptive pressure, from nucleotide-binding leucine-rich repeat (NLR) resistance clusters to specialized metabolism loci. Yet these biologically informative neighborhoods are precarious...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Revisiting tandem duplication in plant genomes: Technical challenges and pangenome solutions.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42025151/",
-      "venue": "Curr Opin Plant Biol",
-      "venue_display": "Curr Opin Plant Biol"
     },
     {
       "abstract": "Many plants, unlike most animals, can reproduce as clones [D. Kester, HortScience 18, 831-837 (1983), 10.21273/hortsci.18.6.831]. Cloning plants is vital to agriculture and biotechnology [H. Barton, T. Denham, Quatern. Int. 489, 17-25 (2018), O. L. Gamborg, In Vitro Cell. Dev. Biol. Plant 38, 84-92 (2002), K.-H. Neumann, A. Kumar, J. Imani, Plant Cell and Tissue Culture-A Tool in Biotechnology: Basics and Application (ed. 2, 2020)], but the extent to which somatic mutation arises during asexual propagation remains an outstanding question. Leveraging a natural experiment of walnut clones spanning five decades and multiple cloning methods, we found a complex history of somatic mutation revealing developmental cell dynamics. A haplotype-phased reference genome exposed extreme genomic instability, a distinct mutation spectrum, and a >3,500% increase in mutation rate within clonal somatic embryos. Pairing these mutations with the haplotype-phased assembly revealed the canonical flowering plant meristematic layers from bulk tissue sequencing and uncovered frequent fixation events throughout development. These findings raise concerns about genomic integrity in tissue culture, test assumptions about mutagenesis in clonal propagation, and establish a benchmark for emerging paradigms in somatic mutation research.",
