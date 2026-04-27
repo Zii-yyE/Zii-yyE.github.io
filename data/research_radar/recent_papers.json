@@ -1,6 +1,215 @@
 {
-  "generated_at": "2026-04-26T04:21:29Z",
+  "generated_at": "2026-04-27T04:29:23Z",
   "latest": [
+    {
+      "abstract": "",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Jue Jiang",
+        "Avraam Tapinos",
+        "Ruotian Huang",
+        "M S Riana Bornman",
+        "Phillip D Stricker",
+        "Shingai B A Mutambirwa",
+        "David C Wedge",
+        "Weerachai Jaratlerdsiri",
+        "Vanessa M Hayes"
+      ],
+      "authors_display": "Jue Jiang, Avraam Tapinos, Ruotian Huang, et al.",
+      "first_seen_at": "2026-04-27T04:29:23Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s13073-026-01647-5",
+        "pmcid": null,
+        "pmid": "42035209"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation"
+        ]
+      },
+      "paper_key": "doi:10.1186/s13073-026-01647-5",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-25",
+      "short_abstract": "",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Single base focal hypermutation cooccurs with structural variation as an early event in advanced prostate tumourigenesis with ancestry specific independence: a multi-ancestral observational study.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42035209/",
+      "venue": "Genome Med",
+      "venue_display": "Genome Med"
+    },
+    {
+      "abstract": "Β-amylase (BAM) gene family is an important genetic resource that catalyzes starch metabolism and responds positively in response to abiotic stresses. In current work, 28 TaBAMs were identified through genome wide analysis using AtBAM domain. Phylogenetic analysis grouped these genes into four sub-groups. Gene structure, conserved motif, cis-acting elements, and synteny analysis suggested evolutionary conserveness within TaBAM gene family. Pangenome analysis suggested that TaBAMs are core set of genes and are present as single copy loci. Transcriptome profiling and qRT-PCR identified TaBAM16-1B and TaBAM20-4D as drought responsive candidate genes. Sequence polymorphism analysis revealed non-synonymous (A3040/G3040) SNP site only in the coding region of TaBAM16-1B resulting in Cys to Tyr substitution. KASP technique was deployed to convert the identified SNPs into molecular markers. Using 183 Pakistani wheat genotypes across four environments, marker trait association studies demonstrated significant association with normalized difference vegetative index (NDVI) trait, in three out of four environments. Enzymatic activity analysis confirmed that TaBAM16-1B Allele-A (superior allele) carrying varieties maintained stable β-amylase activity under PEG-induced drought condition, especially in roots at 24-h time interval. TaBAM16-1B EMS mutants provided genetic validation revealing reduced total chlorophyll contents under drought stress. Allelic variations of TaBAM16-1B were also explored in 299 global wheat germplasm collected from 19 countries. TaBAM16-1B Allele-A has been positively selected in drought prone areas underscoring selection pressure exerted by the wheat breeders. Current work identifies TaBAM16-1B as a functional gene and offers a KASP marker for marker-assisted wheat breeding to improve the drought tolerance.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Maira Anam",
+        "Zulqurnain Khan",
+        "Muhammad Ali Sher",
+        "Muhammad Sajjad",
+        "Muhammad Kashif Naeem",
+        "Zijin Zhang",
+        "Sania Javeed",
+        "Fatima Javeria",
+        "Jing Chen",
+        "Shoaib Ur Rehman"
+      ],
+      "authors_display": "Maira Anam, Zulqurnain Khan, Muhammad Ali Sher, et al.",
+      "first_seen_at": "2026-04-27T04:29:23Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1089/dna.2020.5911",
+        "pmcid": "4049835",
+        "pmid": "42033521"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1089/dna.2020.5911",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-25",
+      "short_abstract": "Β-amylase (BAM) gene family is an important genetic resource that catalyzes starch metabolism and responds positively in response to abiotic stresses. In current work, 28 TaBAMs were identified through genome wide analysis using AtBAM domain. Phylogenetic analysis grouped these genes into four sub-groups. Gene structure, conserved...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Pangenome-assisted characterization of TaBAM genes and association of TaBAM16-1B with NDVI in wheat.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42033521/",
+      "venue": "Theor Appl Genet",
+      "venue_display": "Theor Appl Genet"
+    },
+    {
+      "abstract": "Whether increasing tumor mutation burden (TMB) drives selective transcriptional pathway disruption or reflects diffuse genomic accumulation in ovarian serous carcinoma remains unclear. TMB-transcriptome relationships were examined in the CPTAC-GDC cohort (n = 84) using Spearman correlations between continuous TMB and ssGSEA-derived Hallmark pathway scores. Pathway-level somatic mutations were aggregated into TCGA categories. External validation used the Gray Foundation GeoMx spatial transcriptomics cohort (n = 43) and MSK SPECTRUM multi-region genomic cohort (n = 42). No detectable TMB-pathway activity associations were identified after FDR correction (all FDR > 0.30; all |ρ| < 0.25), robust to hypermutator exclusion and TP53-mutant subgroup analysis (n = 66; all FDR > 0.66). Chromatin remodeling was the only pathway with significant TMB-correlated mutation accumulation (ρ = +0.481, FDR < 0.001), persisting after gene-length normalization. TP53 pathway mutation density showed an expected arithmetic decrease in high-TMB tumors (median 0.247 vs. 0.667, p = 0.0002). Spatial profiling confirmed compartment-dependent pathway activity, with chromatin remodeling enriched in epithelial compartments (Δ = +0.375, FDR < 0.001). MSK SPECTRUM confirmed the TP53 density pattern (ρ = -0.991) and universal TP53 mutation (100% vs. 79.8% in discovery). No detectable association between TMB and transcriptional pathway activity was observed in ovarian serous carcinoma under the statistical power of this study. Chromatin remodeling is preferentially mutated with increasing TMB and compartment-enriched in epithelial cells. These findings underscore the importance of spatially resolved, histologically validated analyses for interpreting pathway biology in HGSC.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Elif Kardelen Çağdaş"
+      ],
+      "authors_display": "Elif Kardelen Çağdaş",
+      "first_seen_at": "2026-04-27T04:29:23Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.ygyno.2026.04.010",
+        "pmcid": null,
+        "pmid": "42034009"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation accumulation"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.ygyno.2026.04.010",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-24",
+      "short_abstract": "Whether increasing tumor mutation burden (TMB) drives selective transcriptional pathway disruption or reflects diffuse genomic accumulation in ovarian serous carcinoma remains unclear. TMB-transcriptome relationships were examined in the CPTAC-GDC cohort (n = 84) using Spearman correlations between continuous TMB and ssGSEA-derived...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Pathway-level somatic mutation burden reflects diffuse genomic accumulation rather than selective transcriptional disruption in ovarian serous carcinoma: Evidence from bulk, spatial, and multi-region genomic analyses.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42034009/",
+      "venue": "Gynecol Oncol",
+      "venue_display": "Gynecol Oncol"
+    },
+    {
+      "abstract": "Endogenous retroviruses (ERVs), the genomic remnants of ancient retroviral infections, constitute a significant and dynamic component of livestock and poultry genomes. This review synthesizes current knowledge on the dual roles of ERVs, from drivers of genomic instability and disease to essential agents of evolution and innovation in domesticated species. We detail the classification, structure, and life cycle of ERVs, highlighting the distinct genomic landscapes and host-silencing strategies that differentiate avian and mammalian lineages, with poultry genomes maintaining lower ERV loads through persistent repression compared to livestock. A critical examination reveals the \"dark side\" of ERVs, including their capacity for insertional mutagenesis, contribution to diseases like avian leukosis, and zoonotic risks, exemplified by porcine endogenous retroviruses (PERVs). Conversely, we talk over how ERVs have been harnessed as allies, where their insertions create structural variants that shape economically vital traits-such as metabolism, growth, and unique phenotypes-and where domesticated viral genes support crucial functions like placental development and innate immunity. Finally, we discuss the transformative potential of CRISPR-Cas9 genome editing as a precise tool for silencing hazardous ERVs and exploiting their beneficial aspects. A comprehensive understanding of ERV biology is thus pivotal for advancing genetic improvement, disease resistance, and the sustainability of livestock and poultry production systems.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Ali Shoaib Moawad",
+        "Amaal Omara",
+        "Tuofan Li",
+        "Jianqiang Ye"
+      ],
+      "authors_display": "Ali Shoaib Moawad, Amaal Omara, Tuofan Li, et al.",
+      "first_seen_at": "2026-04-27T04:29:23Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.vetmic.2026.111039",
+        "pmcid": null,
+        "pmid": "42033817"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.vetmic.2026.111039",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-24",
+      "short_abstract": "Endogenous retroviruses (ERVs), the genomic remnants of ancient retroviral infections, constitute a significant and dynamic component of livestock and poultry genomes. This review synthesizes current knowledge on the dual roles of ERVs, from drivers of genomic instability and disease to essential agents of evolution and innovation in...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Endogenous retroviruses in livestock and poultry: From genomic invaders to beneficial allies.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42033817/",
+      "venue": "Vet Microbiol",
+      "venue_display": "Vet Microbiol"
+    },
+    {
+      "abstract": "Familial Hemiplegic migraine (FHM) is a rare migraine subtype characterised by transient unilateral motor weakness. Although familial forms are associated with variants in CACNA1A, ATP1A2, and SCN1A genes, many cases remain genetically unexplained, suggesting contributions from additional rare variations including single-nucleotide variants (SNVs) and copy-number variants (CNVs). Whole-exome sequencing (WES) data from 182 FHM cases and 1035 controls were analysed. Rare SNVs (allele frequency AF <0.01) were prioritised using pathogenicity annotation and ACMG criteria, while high-confidence CNVs were identified using GATK-gCNV. Elastic Net logistic regression (GLMNet), Extreme Gradiant Boosting (XGBoost), and a probabilistic ensemble were used. Model robustness was assessed through feature-label permutation testing following extensive batch effect minimization and population stratification correction. Feature importance was evaluated using permutation importance, regression coefficients, and XGBoost gains. Permutation-based testing demonstrated that all observed performance metrics lay far outside null distributions, with no permuted model achieving equivalent performance (empirical p = 0.005), suggesting successful batch effect and sequencing platform-specific differences minimization. SNV-only models showed limited discrimination (GLMNet AUC 0.626; XGBoost 0.533) and low sensitivity for cases. Incorporation of CNVs markedly improved performance, with GLMNet, XGBoost, and ensemble models achieving highly accurate metrics. Feature importance analyses consistently identified variants distributed across multiple loci, all of which contributed to FHM prediction. SNVs alone provide limited sensitivity for FHM prediction, whereas integration of CNVs yields robust and highly discriminative models. Permutation analyses confirm that performance is not attributable to chance, and feature convergence across linear and nonlinear models highlights overall shared contribution. These findings underscore the importance of structural variation in FHM and demonstrate the value of integrative machine-learning approaches for rare neurological disorders.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Mohammed M Alfayyadh",
+        "Neven Maksemous",
+        "Heidi G Sutherland",
+        "Rodney A Lea",
+        "Lyn R Griffiths"
+      ],
+      "authors_display": "Mohammed M Alfayyadh, Neven Maksemous, Heidi G Sutherland, et al.",
+      "first_seen_at": "2026-04-27T04:29:23Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.compbiomed.2026.111699",
+        "pmcid": null,
+        "pmid": "42033889"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.compbiomed.2026.111699",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-24",
+      "short_abstract": "Familial Hemiplegic migraine (FHM) is a rare migraine subtype characterised by transient unilateral motor weakness. Although familial forms are associated with variants in CACNA1A, ATP1A2, and SCN1A genes, many cases remain genetically unexplained, suggesting contributions from additional rare variations including single-nucleotide...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Machine learning-based prediction of Familial Hemiplegic Migraine risk from genetic variants.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42033889/",
+      "venue": "Comput Biol Med",
+      "venue_display": "Comput Biol Med"
+    },
     {
       "abstract": "Peanut (Arachis hypogaea L.) is a globally significant leguminous oil crop. Here we present telomere-to-telomere genome assemblies for two diploid and four tetraploid peanut varieties, resulting in high-quality reference genomes, showing that the complex activities of transposable elements, chromosomal rearrangements and centromere expansions within subgenomes collectively contribute to the asymmetrical evolution of the tetraploid genome, and unique structural variants in the four tetraploid peanut varieties provide clear evidence of domestication. Population analyses of 521 peanut accessions revealed asymmetric selection events between subgenomes during breeding, and genome-wide association studies identified candidate genes linked to oil content, seed size and weight, kernel dehydration rate, and arachidic acid content. In addition, transcriptomic and metabolomic analyses revealed enhanced activity in lipidomic and anthocyanin biosynthetic pathways during seed development. These comprehensive findings provide insights into genome organization, evolutionary dynamics and phenotypic differentiation across peanut varieties that could inform future peanut breeding and improvement strategies.",
       "accent_color": "#2f8f6b",
@@ -61,139 +270,6 @@
       "venue_display": "Nat Genet"
     },
     {
-      "abstract": "Accessible chromatin regions (ACRs) encompass diverse cis-regulatory elements (CREs) crucial for gene regulation, but their variations from parents to hybrids and their contribution to heterosis remain poorly understood. Here, using MNase hypersensitivity sequencing (MH-seq) across the maize B73-Mo17 pan-genome, we analyze chromatin accessibility in inbreds and their hybrids. Approximately 81% of ACRs are syntenic in parents, while ~20% show parent-specific accessibility driven by motif divergence. Chromatin accessibility is more stably inherited than transcriptomic profiles, yet ~3.5% of ACRs exhibit non-additive inheritance in hybrid. Among these, transgressively up-regulated ACRs are evolutionarily constrained, enhanced for chromatin modifications and interactions, and localized within enhancers and CRE-clusters serving as regulatory hubs, regulating complex traits including photoperiod and metabolite levels. Overexpression of a candidate rhamnosyl transferase gene under hybrid chromatin context increases plant height, suggesting a potential contribution to heterosis. Our study provides an insightful perspective on the role of chromatin accessibility in driving heterosis.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Yumin Huang",
-        "Kande Lin",
-        "Wei Huang",
-        "Hainan Zhao",
-        "Fengkun Sun",
-        "Jingyan Liu",
-        "Yilong Gong",
-        "Ruilin Xia",
-        "Xiaoming Zhao",
-        "Jiming Jiang",
-        "Wenli Zhang",
-        "Weiwei Jin",
-        "Zhaobin Dong"
-      ],
-      "authors_display": "Yumin Huang, Kande Lin, Wei Huang, et al.",
-      "first_seen_at": "2026-04-26T04:21:29Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1038/s41467-026-72353-4",
-        "pmcid": null,
-        "pmid": "42031749"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pan genome"
-        ]
-      },
-      "paper_key": "doi:10.1038/s41467-026-72353-4",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-24",
-      "short_abstract": "Accessible chromatin regions (ACRs) encompass diverse cis-regulatory elements (CREs) crucial for gene regulation, but their variations from parents to hybrids and their contribution to heterosis remain poorly understood. Here, using MNase hypersensitivity sequencing (MH-seq) across the maize B73-Mo17 pan-genome, we analyze chromatin...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Chromatin accessibility landscape and its association with heterosis in maize hybrids.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42031749/",
-      "venue": "Nat Commun",
-      "venue_display": "Nat Commun"
-    },
-    {
-      "abstract": "Efficient and consistent string processing is critical in the exponentially growing genomic data era. Locally Consistent Parsing (LCP) addresses this need by partitioning an input genome string into short, exactly matching substrings (\"cores\"), ensuring consistency across partitions. Compared to the popular sketching techniques, LCP produces fewer cores, enabling a more compact representation and faster analyses. Here, we present the first iterative implementation of LCP with LCPTOOLS and introduce LCPAN, an efficient variation graph constructor, which we show generates variation graphs >12× faster than vg, while using >13× less memory.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Akmuhammet Ashyralyyev",
-        "Zülal Bingöl",
-        "Begüm Filiz Öz",
-        "Kaiyuan Zhu",
-        "Salem Malikic",
-        "Uzi Vishkin",
-        "S Cenk Sahinalp",
-        "Can Alkan"
-      ],
-      "authors_display": "Akmuhammet Ashyralyyev, Zülal Bingöl, Begüm Filiz Öz, et al.",
-      "first_seen_at": "2026-04-25T03:50:42Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/s13059-026-04088-w",
-        "pmcid": null,
-        "pmid": "42026667"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "variation graph"
-        ]
-      },
-      "paper_key": "doi:10.1186/s13059-026-04088-w",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-24",
-      "short_abstract": "Efficient and consistent string processing is critical in the exponentially growing genomic data era. Locally Consistent Parsing (LCP) addresses this need by partitioning an input genome string into short, exactly matching substrings (\"cores\"), ensuring consistency across partitions. Compared to the popular sketching techniques, LCP...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "LCPAN: efficient variation graph construction using locally consistent parsing.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42026667/",
-      "venue": "Genome Biol",
-      "venue_display": "Genome Biol"
-    },
-    {
-      "abstract": "Diarrhea caused by enterotoxigenic Escherichia coli (ETEC) is a common threat to humans and animals. Clinical ETEC strains display host tropism, usually driven by adherence and toxin-host interactions in the gut. Other virulence factors, metal acquisition mechanisms, and immune evasion strategies may also influence host specificity. Using publicly available genomes, we performed a pangenomic and functional comparison of 77 human- and swine-derived ETEC strains. Sequence types ST10 and ST4 found in both hosts, suggesting potential cross-host transmission. Phylogenetic analyses showed clustering mainly by ST, regardless of host or geography. Additionally, most functional domains were shared between hosts; however, human-derived strains carried exclusive domains related to adhesion, transposition, and toxins, whereas swine-derived strains harbored domains linked to stress response and metal binding. Notably, the PF09075 domain from the STb enterotoxin occurred only in swine-derived strains, despite previous reports in humans. Comparative analyses of STa (PF02048) and STb revealed no structural or functional homology but confirmed the swine-specific association of STb and greater sequence STa variability in human-derived strains. These findings indicate that sequence and functional differences in these enterotoxins contribute to ETEC host tropism, while ST patterns reveal possible epidemiological links between human and swine infections.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Gabriela Merker Breyer",
-        "Juliana Silva Bernardes",
-        "Márcio Dorn",
-        "Franciele Maboni Siqueira"
-      ],
-      "authors_display": "Gabriela Merker Breyer, Juliana Silva Bernardes, Márcio Dorn, et al.",
-      "first_seen_at": "2026-04-25T03:50:42Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1128/aem.00952-09",
-        "pmcid": "2753094",
-        "pmid": "42029767"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenomic"
-        ]
-      },
-      "paper_key": "doi:10.1128/aem.00952-09",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-24",
-      "short_abstract": "Diarrhea caused by enterotoxigenic Escherichia coli (ETEC) is a common threat to humans and animals. Clinical ETEC strains display host tropism, usually driven by adherence and toxin-host interactions in the gut. Other virulence factors, metal acquisition mechanisms, and immune evasion strategies may also influence host specificity....",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Pangenomic and functional domain comparison of enterotoxigenic Escherichia coli isolated from humans and swine: insights into host specificity.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42029767/",
-      "venue": "Mol Genet Genomics",
-      "venue_display": "Mol Genet Genomics"
-    },
-    {
       "abstract": "We offer our perspective on the rich literature on the estimation of measures of inbreeding, relatedness, and population structure, beginning with Sewall Wright's F-statistics and moving onto the descriptive statistics of Masatoshi Nei and Clark Cockerham before discussing recent papers. The current availability of genome-level single nucleotide variant data is allowing for sophisticated treatments of inferred identity by descent segments and inferred ancestral recombination graphs. Underlying such disparate methods is an emphasis of characterizing the descent status of alleles within and between individuals and populations, and we have found allele-sharing statistics a convenient framework for examining the differences and similarities among different estimators. We have been able to resolve some long-standing reported differences among estimators, especially those involving the work of Nei. In the course of our algebraic and empirical treatment of descent measure estimation, we have been able to formulate a set of five recommendations. Following the early work of Sewall Wright, we recommend (1) State that descent measures for pairs of alleles are relative to values in a reference set of allele pairs. With this view, we recommend (2) Use estimators that preserve descent measure rankings over different reference sets. Allele-sharing estimators satisfy this recommendation. Reducing genotypic data to allelic data has the benefit of reducing dimensionality, but we recommend (3) If genotypic data are available, avoid having to assume Hardy-Weinberg equilibrium by not reducing them to allelic data. Partly as a consequence of working with genotypic data, we recommend (4) Recognize that allele frequencies do not need to be estimated. Not estimating allele frequencies prevents the confounding of descent estimates for target pairs of alleles by the status of all pairs in a reference set. On the basis of both theoretical and empirical results, finally, we recommend (5) Consider both inbreeding and kinship when estimating either one. It is difficult to envisage a natural population that does not have at least some level of both relatedness and inbreeding.",
       "accent_color": "#2d6cdf",
       "authors": [
@@ -230,54 +306,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42028812/",
       "venue": "Genetics",
       "venue_display": "Genetics"
-    },
-    {
-      "abstract": "Gardenia jasminoides, an evergreen shrub in the Rubiaceae family, is widely cultivated across southern China, particularly in regions south of the Yangtze River. With a long history of use in traditional Chinese medicine, its fruits and flowers are valued for their rich diversity of bioactive compounds. In this study, Oxford Nanopore (ONT) sequencing produced 37-34 Gb of long-read data (60-66× coverage) per accession. Complementary PacBio HiFi sequencing generated 28-32 Gb (50-58× coverage), while Hi-C sequencing provided 61-67 Gb (108-119× coverage) to support chromosome-scale assembly. To ensure accuracy, contigs were polished through multiple iterations using Medaka (ONT-based) and Racon (HiFi-based). The final assemblies resolved all 11 chromosomes at telomere-to-telomere continuity, with no gaps. Functional annotation assigned roles to more than 94% of predicted genes (34,397-34,440) through homology and domain-based searches. This high-quality genome resource enables the study of structural variation underlying agronomic traits and supports advances in molecular breeding, bioactive compound biosynthesis, and comparative genomics in Gardenia.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Zhijun Zeng",
-        "Wenjie Lu",
-        "Chaohuang Liu",
-        "Xiang Zhang",
-        "Ziheng Yao",
-        "Ying Wang",
-        "Shurong Xia",
-        "Xiaojun Yan",
-        "Xinjun Liao",
-        "Lan Cao",
-        "Yanhua Ji",
-        "Hongning Liu"
-      ],
-      "authors_display": "Zhijun Zeng, Wenjie Lu, Chaohuang Liu, et al.",
-      "first_seen_at": "2026-04-25T03:50:42Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1038/s41597-026-07169-4",
-        "pmcid": null,
-        "pmid": "42026098"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variation"
-        ]
-      },
-      "paper_key": "doi:10.1038/s41597-026-07169-4",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-23",
-      "short_abstract": "Gardenia jasminoides, an evergreen shrub in the Rubiaceae family, is widely cultivated across southern China, particularly in regions south of the Yangtze River. With a long history of use in traditional Chinese medicine, its fruits and flowers are valued for their rich diversity of bioactive compounds. In this study, Oxford Nanopore...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Three Near telomere-to-telomere Genomes for Gardenia jasminoides.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42026098/",
-      "venue": "Sci Data",
-      "venue_display": "Sci Data"
     },
     {
       "abstract": "Triple-negative breast cancer (TNBC) lacks actionable molecular targets, so treatment primarily relies on cytotoxic chemotherapy and radiotherapy, yet relapse, resistance, and metastasis still drives poor long-term survival. Dopamine signaling has recently been linked to tumor aggressiveness, and dopamine-receptor antagonists have shown preclinical benefit in other cancers. We therefore evaluated quetiapine (QTP), an FDA-approved DRD2/DRD3 antagonist, as a therapeutic adjunct in TNBC. SUM159-PT, BT-549, and MDA-MB-231 cells were treated with QTP alone or combined with radiation or standard agents (doxorubicin, paclitaxel, 5-fluorouracil). Clonogenic and mammosphere assays measured proliferative and self-renewal potential. Annexin V/propidium-iodide flow cytometry quantified apoptosis, and γ-H2AX immunofluorescence tracked DNA double-strand breaks and repair kinetics. Transwell assays assessed migration of untreated bulk cells and radiation-surviving subclones. QTP significantly reduced clonogenicity and self-renewal in all TNBC models tested, both alone and in combination with radiation or chemotherapy. In apoptosis assays, QTP treatment induced a marked increase in early and late apoptotic cell populations. QTP also promoted DNA double-strand break formation and delayed repair, as indicated by persistent γ-H2AX foci at 24 h after treatment. Additionally, QTP impaired the migratory capacity of both untreated and radiation-surviving cells. Combination treatments with QTP and doxorubicin produced synergistic effects, resulting in complete loss of colony-forming ability and mammosphere formation. The data presented support the repurposing of quetiapine as an adjuvant therapeutic agent alongside radiotherapy and/or chemotherapy in TNBC. By targeting apoptosis, DNA repair, and cancer cell migration, QTP offers a novel, multi-faceted approach to improve outcomes in this high-risk breast cancer subtype.",
@@ -534,44 +562,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41995324/",
       "venue": "mBio",
       "venue_display": "mBio"
-    },
-    {
-      "abstract": "Mutation accumulation (MA) experiments are crucial for understanding evolution. In microbial populations, these experiments typically involve periods of population growth, where a single individual forms a visible colony, followed by severe bottlenecks. Studies on the effects of positive and negative selection in MA experiments have shown that, even with as few as ten generations of growth between bottlenecks, beneficial mutations will be substantially over-represented (Wahl and Agashe, 2022); this effect is known as \"selection bias\". In previous work, we developed a discrete-time model and demonstrated that when stochastic offspring distributions are considered, selection bias is even stronger than previously predicted (Ezadian and Wahl, 2025). Since bacterial division is unlikely to remain synchronized over 15 or more generations, this study extends the discrete-time model to a continuous-time framework. Since lineages that start reproducing early accrue a compounded advantage, a continuous-time model offers an even more accurate correction for selection in MA experiments. In addition, we develop techniques for estimating the selection bias when only colonies above a fixed threshold size (e.g. visible colonies) are selected at the bottleneck, an experimental protocol that further exacerbates selection bias. We develop and describe computationally efficient techniques for correcting experimental MA data whether all colonies or only visible colonies are considered.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Mojgan Ezadian",
-        "Lindi M Wahl"
-      ],
-      "authors_display": "Mojgan Ezadian, Lindi M Wahl",
-      "first_seen_at": "2026-04-20T04:18:20Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.tpb.2026.03.001",
-        "pmcid": null,
-        "pmid": "42000052"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation accumulation"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.tpb.2026.03.001",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-16",
-      "short_abstract": "Mutation accumulation (MA) experiments are crucial for understanding evolution. In microbial populations, these experiments typically involve periods of population growth, where a single individual forms a visible colony, followed by severe bottlenecks. Studies on the effects of positive and negative selection in MA experiments have...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "A continuous-time model to correct for selection in mutation accumulation experiments.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42000052/",
-      "venue": "Theor Popul Biol",
-      "venue_display": "Theor Popul Biol"
     },
     {
       "abstract": "Paramecia belong to the ciliate phylum of unicellular eukaryotes characterized by nuclear dimorphism. A diploid germline micronucleus (MIC) transmits genetic information across sexual generations. A polyploid transcriptionally active somatic macronucleus (MAC) develops at each sexual generation from a copy of the MIC through programmed DNA elimination (PDE) of > 30% of germline DNA. PDE requires the domesticated PiggyMac (Pgm) transposase. Assembly of Paramecium germline genomes has presented an enormous challenge owing to the difficulty of MIC isolation. We report chromosome-scale short-read MIC assemblies for 7 species from the P. aurelia species complex. We discovered a novel clade of Helitrons, with 9-10-kb transposase ORFs under purifying selection, that have remained active in all P. aurelia lineages. A long-read assembly for P. tetraurelia together with a genetic linkage map provided a nearly telomere-to-telomere assembly. The ~ 100-Mb genome consists of tiny (300 kb-1.2 Mb) and numerous (~ 160) germline chromosomes with the highest recombination rate ever reported for a eukaryote (420 cM/Mb). The ends of the chromosomes consist of Helitrons inserted in telomeric C4A2 repeats, forming a distinct genomic compartment that is eliminated very early during MAC development in a Pgm-independent manner.",
