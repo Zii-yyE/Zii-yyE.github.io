@@ -1,6 +1,125 @@
 {
-  "generated_at": "2026-04-27T04:29:23Z",
+  "generated_at": "2026-04-28T04:32:37Z",
   "latest": [
+    {
+      "abstract": "Pairwise sequence comparisons are at the center of molecular evolutionary analyses. However, viral pairwise comparisons are challenging because extreme mutation rates and evolutionary pressure cause genomes to diverge rapidly, limiting detectable sequence similarity to fewer than 3% of virus pairs. To overcome these limitations, we compared viruses based on structural similarity, using predicted protein structures from ColabFold and Foldseek to define protein fold clusters. We represented each virus genome by its protein structural content. Pairwise similarities between viruses were then quantified using the Jaccard index based on the presence or absence of protein fold clusters. Using a recently established viral protein fold database, we compared all pairs of eukaryotic viruses in RefSeq. This approach increased the proportion of comparable viral genome pairs from 2.4% to 16.5%. Using this protein-fold representation of viruses, we were able to accurately predict viral families with an average sensitivity of 85.9%. Investigation of viral families showing limited sensitivity with this approach uncovered a laterally transferred structural cluster (Rep/NS1) broadly shared across diverse viral families and found in the avian lineage of adenoviruses. Sequence homology suggests that this Rep was acquired from Parvoviridae, but the protein is mutant in the ATPase active site, indicating possible exaptation towards a purely DNA binding function. In Gammapapillomaviruses, several E4 clusters were associated with human tropism. In summary, by representing viruses with structural protein clusters, we can classify highly divergent viruses, trace lateral gene transfer, and uncover features associated with viral host range.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Julia C Malnak",
+        "Saira Montermoso",
+        "Frederic D Bushman",
+        "Noam Auslander"
+      ],
+      "authors_display": "Julia C Malnak, Saira Montermoso, Frederic D Bushman, et al.",
+      "first_seen_at": "2026-04-28T04:32:37Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/molbev/msag110",
+        "pmcid": null,
+        "pmid": "42041085"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rates"
+        ]
+      },
+      "paper_key": "doi:10.1093/molbev/msag110",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-27",
+      "short_abstract": "Pairwise sequence comparisons are at the center of molecular evolutionary analyses. However, viral pairwise comparisons are challenging because extreme mutation rates and evolutionary pressure cause genomes to diverge rapidly, limiting detectable sequence similarity to fewer than 3% of virus pairs. To overcome these limitations, we...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Uncovering viral protein acquisition events and human-specific folds with pairwise comparisons of predicted protein structures.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42041085/",
+      "venue": "Mol Biol Evol",
+      "venue_display": "Mol Biol Evol"
+    },
+    {
+      "abstract": "Keratoconus (KC) is a progressive corneal disorder caused by impaired biomechanical integrity, leading to geometric deformation. Although corneal changes are well characterized, iris structural alterations across KC stages remain poorly studied. Accordingly, this study aims to compare quantitative iris characteristics among healthy controls and patients with different stages of KC. This retrospective cross-sectional study included 547 eyes: 497 from 264 keratoconus subjects classified according to the Topographic Keratoconus Classification (TKC) system as subclinical (n = 102), early stage (n = 219, TKC 1-2), and late-stage (n = 176, TKC 3-4), and single eyes from 50 healthy emmetropic controls. Anterior segment imaging was performed using Pentacam Scheimpflug tomography. Iris segmentation was achieved using a semi-automated Python-based pipeline incorporating the Segment Anything Model, followed by extraction of the anterior iris boundary. The iris was subdivided into basal, mid-iris, and pupil-edge regions. Region-specific geometric parameters, including curvature, arc length, and area under the curve (AUC), were computed using spline-based fitting and numerical integration. Group comparisons were conducted using one-way analysis of variance with false discovery rate correction, followed by age-adjusted analysis of covariance. Mean basal and mid-iris curvature showed significant overall differences across TKC stages, with a progressive reduction from healthy controls to late-stage KC (p = 0.01 and p < 0.001, respectively). In contrast, pupil-edge curvature showed an opposite trend, with the highest values in late-stage KC (p = 0.02). Iris arc length did not differ significantly between groups, whereas AUC exhibited a region-specific difference limited to the pupil-edge iris (p = 0.02). These findings remained statistically significant after age adjustment. Increased pupil-edge curvature in KC represents a geometric alteration that may be clinically relevant in eyes undergoing intraocular surgery, particularly in relation to anterior chamber dynamics and potential susceptibility to postoperative pupillary block. Conversely, mid-iris straightening may reflect structural variation within the iris in late-stage disease. Together, these findings suggest that corneal geometric changes in KC may be associated with subtle alterations in anterior chamber mechanical environment, potentially contributing to secondary changes in iris configuration.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Onur Özalp",
+        "Oylum Buse Gür",
+        "Safa Merve İçer",
+        "Hatice Nur Nevruz Yılmaz",
+        "Eray Atalay"
+      ],
+      "authors_display": "Onur Özalp, Oylum Buse Gür, Safa Merve İçer, et al.",
+      "first_seen_at": "2026-04-28T04:32:37Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.jfo.2017.07.003",
+        "pmcid": "10382025",
+        "pmid": "42043741"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.jfo.2017.07.003",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-27",
+      "short_abstract": "Keratoconus (KC) is a progressive corneal disorder caused by impaired biomechanical integrity, leading to geometric deformation. Although corneal changes are well characterized, iris structural alterations across KC stages remain poorly studied. Accordingly, this study aims to compare quantitative iris characteristics among healthy...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Scheimpflug Photography-Based Evaluation of Structural Iris Changes Across Keratoconus Stages in Comparison with Healthy Eyes.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42043741/",
+      "venue": "Ophthalmol Ther",
+      "venue_display": "Ophthalmol Ther"
+    },
+    {
+      "abstract": "Despite extensive evidence linking chronotype to behavioral and physiological outcomes, its structural neuroanatomical correlates, especially in healthy young adults, remain insufficiently characterized, and multimodal structural investigations integrating Voxel-based morphometry (VBM), cortical thickness (CT), and brain-age metrics are still limited. We examined whether chronotype—preference for early or late sleep–wake timing—is associated with structural brain variation in 136 healthy young adults (68 early chronotypes [EC], 68 late chronotypes [LC]) using high-resolution MRI. Early and late chronotypes were defined using the Morningness–Eveningness subscale of the Chronotype Questionnaire (ChQ-ME): early chronotype (EC) scores 11–21 and late chronotype (LC) scores 22–32. The VBM analyses were conducted to assess gray and white matter morphology, complemented by CT analyses and estimation of brain-predicted age difference (Brain-PAD) as an index of biological brain aging. Sensitivity analyses additionally modeled ChQ-ME as a continuous predictor. Primary voxel-wise VBM analyses did not identify between-group differences in gray or white matter morphology that survived family-wise error (FWE) correction (p < 0.05). In pre-specified exploratory analyses (voxel-wise p < 0.001, uncorrected; cluster-level false discovery rate [FDR] correction q < 0.05), late chronotype (LC) participants showed an exploratory left cerebellar/occipital cluster with lower gray matter volume. Region-wise CT differences were nominal (p < 0.05) and did not survive FDR correction across regions. No significant differences in Brain-PAD were observed. In healthy young adults, chronotype-related structural differences were not detectable under conservative voxel-wise FWE correction; however, pre-specified exploratory analyses suggested a regionally specific cerebellar gray matter pattern and nominal CT trends. These findings motivate larger and longitudinal studies with objective sleep–wake timing measures to clarify whether sleep timing is linked to early structural variation and to test its potential modifiability.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Iman Beheshti",
+        "Odelia Elkana"
+      ],
+      "authors_display": "Iman Beheshti, Odelia Elkana",
+      "first_seen_at": "2026-04-28T04:32:37Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.3389/fnins.2022.811771",
+        "pmcid": "PMC9399511",
+        "pmid": "42033536"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation"
+        ]
+      },
+      "paper_key": "doi:10.3389/fnins.2022.811771",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-25",
+      "short_abstract": "Despite extensive evidence linking chronotype to behavioral and physiological outcomes, its structural neuroanatomical correlates, especially in healthy young adults, remain insufficiently characterized, and multimodal structural investigations integrating Voxel-based morphometry (VBM), cortical thickness (CT), and brain-age metrics are...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Neuroanatomical signatures of chronotype in young adults.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42033536/",
+      "venue": "Brain Imaging Behav",
+      "venue_display": "Brain Imaging Behav"
+    },
     {
       "abstract": "",
       "accent_color": "#2f8f6b",
@@ -93,6 +212,98 @@
       "venue_display": "Theor Appl Genet"
     },
     {
+      "abstract": "The emergence and spread of anthelmintic resistance represent a major challenge for treating parasitic nematodes, threatening mass-drug administration control programs in humans and zoonotic hosts. Currently, experimental evidence to understand the influence of management (e.g., treatment dose and frequency) and parasite-associated factors (e.g., genetic variation, population size and mutation rates) is scarce. To rectify this knowledge gap, we performed controlled evolution experiments with the model nematode Caenorhabditis elegans and further evaluated the evolution dynamics with a computational model. Large population size was critical for rapid ivermectin resistance evolution in vitro and in silico. Male nematode production was favored during resistance evolution, suggesting a selective advantage of sexual recombination under drug pressure in vitro. Evolution of ivermectin resistance led to reduced efficacy of the structurally related anthelmintic moxidectin, as anticipated, as well as reduced efficacy of the structurally unrelated anthelmintic emodepside, which has a distinct mode of action. In contrast, albendazole, levamisole, and monepantel efficacy were not influenced by the evolution of ivermectin resistance. We conclude that combining computational modeling with in vitro evolution experiments to test specific aspects of evolution directly represents a promising approach to guide the development of novel treatment strategies to anticipate and mitigate resistance evolution in parasitic nematodes.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Jacqueline Hellinga",
+        "Barbora Trubenova",
+        "Jessica Wagner",
+        "Marc Borchert",
+        "Jürgen Krücken",
+        "Roland R Regoes",
+        "Hinrich Schulenburg",
+        "Georg von Samson-Himmelstjerna"
+      ],
+      "authors_display": "Jacqueline Hellinga, Barbora Trubenova, Jessica Wagner, et al.",
+      "first_seen_at": "2026-04-28T04:32:37Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/s0020-7519(03)00172-3",
+        "pmcid": "PMC3072372",
+        "pmid": "42038536"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rates"
+        ]
+      },
+      "paper_key": "doi:10.1016/s0020-7519(03)00172-3",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-24",
+      "short_abstract": "The emergence and spread of anthelmintic resistance represent a major challenge for treating parasitic nematodes, threatening mass-drug administration control programs in humans and zoonotic hosts. Currently, experimental evidence to understand the influence of management (e.g., treatment dose and frequency) and parasite-associated...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Evolution of Ivermectin Resistance in the Nematode Model Caenorhabditis elegans: Critical Influence of Population Size and Altered Emodepside Efficacy.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42038536/",
+      "venue": "Evol Appl",
+      "venue_display": "Evol Appl"
+    },
+    {
+      "abstract": "Cohesin is a ring-shaped protein complex that mediates sister-chromatid cohesion to ensure accurate chromosome segregation during mitosis and meiosis. In Saccharomyces cerevisiae, cohesin consists of four core subunits-Smc1, Smc3, Scc1/Mcd1, and Scc3. During meiosis, the mitotic α-kleisin Scc1/Mcd1 is replaced by the meiosis-specific α-kleisin Rec8. Rec8-containing cohesin is essential for multiple meiotic processes, including chromosome morphogenesis, homologous recombination, axis and synaptonemal complex formation, sister-chromatid cohesion (SCC), and transcriptional regulation. While stable association of Rec8-cohesin with chromatin is required to maintain SCC from premeiotic S phase through anaphase II, dynamic chromatin association is thought to underlie its roles in recombination, chromosome architecture, and transcription via loop extrusion. Whether distinct stable and dynamic pools of Rec8-cohesin coexist during meiosis and how their functions are partitioned remained unclear. Here, we employed an anchor-away strategy to conditionally deplete only the dynamic pool of Rec8-cohesin from the nucleus while preserving the stable pool. Selective depletion reduced sporulation efficiency and spore viability without compromising SCC. Calibrated ChIP-seq revealed a genome-wide reduction in Rec8-cohesin levels rather than locus-specific loss. Functional analyses demonstrated that the dynamic pool of Rec8-cohesin is required for efficient meiotic recombination, establishment of meiosis-specific chromosome architecture and synaptonemal complex formation, and proper transcriptional regulation of key meiotic regulators. In contrast, the stable pool alone was sufficient to maintain spindle pole body cohesion. Together, our findings demonstrate the existence of two functionally distinct pools of Rec8-cohesin during yeast meiosis.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Sheetal Paliwal",
+        "Partha Dey",
+        "Akriti Kumari",
+        "Kirithika Sadasivam",
+        "Sameer Joshi",
+        "Ritika Raghuvanshi",
+        "Rohit Goyal",
+        "Kaustuv Sanyal",
+        "Nishant K T",
+        "Akira Shinohara",
+        "Gunjan Mehta"
+      ],
+      "authors_display": "Sheetal Paliwal, Partha Dey, Akriti Kumari, et al.",
+      "first_seen_at": "2026-04-28T04:32:37Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.jbc.2026.113064",
+        "pmcid": null,
+        "pmid": "42036042"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "meiotic recombination",
+          "synaptonemal complex"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.jbc.2026.113064",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-24",
+      "short_abstract": "Cohesin is a ring-shaped protein complex that mediates sister-chromatid cohesion to ensure accurate chromosome segregation during mitosis and meiosis. In Saccharomyces cerevisiae, cohesin consists of four core subunits-Smc1, Smc3, Scc1/Mcd1, and Scc3. During meiosis, the mitotic α-kleisin Scc1/Mcd1 is replaced by the meiosis-specific...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "The dynamic pool of Rec8-cohesin is crucial for meiotic recombination and transcription regulation in the yeast S. cerevisiae.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42036042/",
+      "venue": "J Biol Chem",
+      "venue_display": "J Biol Chem"
+    },
+    {
       "abstract": "Whether increasing tumor mutation burden (TMB) drives selective transcriptional pathway disruption or reflects diffuse genomic accumulation in ovarian serous carcinoma remains unclear. TMB-transcriptome relationships were examined in the CPTAC-GDC cohort (n = 84) using Spearman correlations between continuous TMB and ssGSEA-derived Hallmark pathway scores. Pathway-level somatic mutations were aggregated into TCGA categories. External validation used the Gray Foundation GeoMx spatial transcriptomics cohort (n = 43) and MSK SPECTRUM multi-region genomic cohort (n = 42). No detectable TMB-pathway activity associations were identified after FDR correction (all FDR > 0.30; all |ρ| < 0.25), robust to hypermutator exclusion and TP53-mutant subgroup analysis (n = 66; all FDR > 0.66). Chromatin remodeling was the only pathway with significant TMB-correlated mutation accumulation (ρ = +0.481, FDR < 0.001), persisting after gene-length normalization. TP53 pathway mutation density showed an expected arithmetic decrease in high-TMB tumors (median 0.247 vs. 0.667, p = 0.0002). Spatial profiling confirmed compartment-dependent pathway activity, with chromatin remodeling enriched in epithelial compartments (Δ = +0.375, FDR < 0.001). MSK SPECTRUM confirmed the TP53 density pattern (ρ = -0.991) and universal TP53 mutation (100% vs. 79.8% in discovery). No detectable association between TMB and transcriptional pathway activity was observed in ovarian serous carcinoma under the statistical power of this study. Chromatin remodeling is preferentially mutated with increasing TMB and compartment-enriched in epithelial cells. These findings underscore the importance of spatially resolved, histologically validated analyses for interpreting pathway biology in HGSC.",
       "accent_color": "#f25f4c",
       "authors": [
@@ -168,106 +379,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42033817/",
       "venue": "Vet Microbiol",
       "venue_display": "Vet Microbiol"
-    },
-    {
-      "abstract": "Familial Hemiplegic migraine (FHM) is a rare migraine subtype characterised by transient unilateral motor weakness. Although familial forms are associated with variants in CACNA1A, ATP1A2, and SCN1A genes, many cases remain genetically unexplained, suggesting contributions from additional rare variations including single-nucleotide variants (SNVs) and copy-number variants (CNVs). Whole-exome sequencing (WES) data from 182 FHM cases and 1035 controls were analysed. Rare SNVs (allele frequency AF <0.01) were prioritised using pathogenicity annotation and ACMG criteria, while high-confidence CNVs were identified using GATK-gCNV. Elastic Net logistic regression (GLMNet), Extreme Gradiant Boosting (XGBoost), and a probabilistic ensemble were used. Model robustness was assessed through feature-label permutation testing following extensive batch effect minimization and population stratification correction. Feature importance was evaluated using permutation importance, regression coefficients, and XGBoost gains. Permutation-based testing demonstrated that all observed performance metrics lay far outside null distributions, with no permuted model achieving equivalent performance (empirical p = 0.005), suggesting successful batch effect and sequencing platform-specific differences minimization. SNV-only models showed limited discrimination (GLMNet AUC 0.626; XGBoost 0.533) and low sensitivity for cases. Incorporation of CNVs markedly improved performance, with GLMNet, XGBoost, and ensemble models achieving highly accurate metrics. Feature importance analyses consistently identified variants distributed across multiple loci, all of which contributed to FHM prediction. SNVs alone provide limited sensitivity for FHM prediction, whereas integration of CNVs yields robust and highly discriminative models. Permutation analyses confirm that performance is not attributable to chance, and feature convergence across linear and nonlinear models highlights overall shared contribution. These findings underscore the importance of structural variation in FHM and demonstrate the value of integrative machine-learning approaches for rare neurological disorders.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Mohammed M Alfayyadh",
-        "Neven Maksemous",
-        "Heidi G Sutherland",
-        "Rodney A Lea",
-        "Lyn R Griffiths"
-      ],
-      "authors_display": "Mohammed M Alfayyadh, Neven Maksemous, Heidi G Sutherland, et al.",
-      "first_seen_at": "2026-04-27T04:29:23Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.compbiomed.2026.111699",
-        "pmcid": null,
-        "pmid": "42033889"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variation"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.compbiomed.2026.111699",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-24",
-      "short_abstract": "Familial Hemiplegic migraine (FHM) is a rare migraine subtype characterised by transient unilateral motor weakness. Although familial forms are associated with variants in CACNA1A, ATP1A2, and SCN1A genes, many cases remain genetically unexplained, suggesting contributions from additional rare variations including single-nucleotide...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Machine learning-based prediction of Familial Hemiplegic Migraine risk from genetic variants.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42033889/",
-      "venue": "Comput Biol Med",
-      "venue_display": "Comput Biol Med"
-    },
-    {
-      "abstract": "Peanut (Arachis hypogaea L.) is a globally significant leguminous oil crop. Here we present telomere-to-telomere genome assemblies for two diploid and four tetraploid peanut varieties, resulting in high-quality reference genomes, showing that the complex activities of transposable elements, chromosomal rearrangements and centromere expansions within subgenomes collectively contribute to the asymmetrical evolution of the tetraploid genome, and unique structural variants in the four tetraploid peanut varieties provide clear evidence of domestication. Population analyses of 521 peanut accessions revealed asymmetric selection events between subgenomes during breeding, and genome-wide association studies identified candidate genes linked to oil content, seed size and weight, kernel dehydration rate, and arachidic acid content. In addition, transcriptomic and metabolomic analyses revealed enhanced activity in lipidomic and anthocyanin biosynthetic pathways during seed development. These comprehensive findings provide insights into genome organization, evolutionary dynamics and phenotypic differentiation across peanut varieties that could inform future peanut breeding and improvement strategies.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Jianxin Bian",
-        "Yilin Zhang",
-        "Shuai Ding",
-        "Haosong Guo",
-        "Kui Li",
-        "Yu Guan",
-        "Guoliang Zhou",
-        "Jihua Li",
-        "Vanika Garg",
-        "Yuanyuan Cui",
-        "Yuan Lv",
-        "Annapurna Chitikineni",
-        "Qingjing Meng",
-        "Tianyu Li",
-        "Liangqiong He",
-        "Chuanzhi Zhao",
-        "Xingjun Wang",
-        "Ronghua Tang",
-        "Liangsheng Zhang",
-        "Xing Wang Deng",
-        "Rajeev K Varshney",
-        "Hang He",
-        "Xiaoqin Liu"
-      ],
-      "authors_display": "Jianxin Bian, Yilin Zhang, Shuai Ding, et al.",
-      "first_seen_at": "2026-04-26T04:21:29Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/1471-2105-9-559",
-        "pmcid": "2631488",
-        "pmid": "42032297"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1186/1471-2105-9-559",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-24",
-      "short_abstract": "Peanut (Arachis hypogaea L.) is a globally significant leguminous oil crop. Here we present telomere-to-telomere genome assemblies for two diploid and four tetraploid peanut varieties, resulting in high-quality reference genomes, showing that the complex activities of transposable elements, chromosomal rearrangements and centromere...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Telomere-to-telomere genome assemblies and population resequencing of diploid and allotetraploid peanut varieties.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42032297/",
-      "venue": "Nat Genet",
-      "venue_display": "Nat Genet"
     },
     {
       "abstract": "We offer our perspective on the rich literature on the estimation of measures of inbreeding, relatedness, and population structure, beginning with Sewall Wright's F-statistics and moving onto the descriptive statistics of Masatoshi Nei and Clark Cockerham before discussing recent papers. The current availability of genome-level single nucleotide variant data is allowing for sophisticated treatments of inferred identity by descent segments and inferred ancestral recombination graphs. Underlying such disparate methods is an emphasis of characterizing the descent status of alleles within and between individuals and populations, and we have found allele-sharing statistics a convenient framework for examining the differences and similarities among different estimators. We have been able to resolve some long-standing reported differences among estimators, especially those involving the work of Nei. In the course of our algebraic and empirical treatment of descent measure estimation, we have been able to formulate a set of five recommendations. Following the early work of Sewall Wright, we recommend (1) State that descent measures for pairs of alleles are relative to values in a reference set of allele pairs. With this view, we recommend (2) Use estimators that preserve descent measure rankings over different reference sets. Allele-sharing estimators satisfy this recommendation. Reducing genotypic data to allelic data has the benefit of reducing dimensionality, but we recommend (3) If genotypic data are available, avoid having to assume Hardy-Weinberg equilibrium by not reducing them to allelic data. Partly as a consequence of working with genotypic data, we recommend (4) Recognize that allele frequencies do not need to be estimated. Not estimating allele frequencies prevents the confounding of descent estimates for target pairs of alleles by the status of all pairs in a reference set. On the basis of both theoretical and empirical results, finally, we recommend (5) Consider both inbreeding and kinship when estimating either one. It is difficult to envisage a natural population that does not have at least some level of both relatedness and inbreeding.",
@@ -438,48 +549,6 @@
       "venue_display": "Microbiol Spectr"
     },
     {
-      "abstract": "Hepatocellular carcinoma (HCC) is a top cause of cancer-related death globally, with late diagnosis due to nonspecific early symptoms. Current single-factor prognostic models cannot reflect tumor heterogeneity, so a comprehensive tool for risk stratification and personalized treatment is needed. This study employed WGCNA on publicly available datasets (TCGA and GSE54236) to identify core genes associated with chromosomal instability (CIN) in HCC. We initially screened 73 candidate genes, which were then refined to a final set of 20 core genes through an optimization process involving 101 machine learning algorithms. Specifically, the StepCox[both] combined with CoxBoost model was selected as the optimal model, with a concordance index (c-index) of 0.709. We subsequently developed a multidimensional risk-scoring model by integrating the expression levels of these core genes with patient clinicopathological parameters and immune cell infiltration data. The model's performance was evaluated through survival analysis and chemotherapeutic drug sensitivity prediction. Additionally, functional assays were conducted to validate the roles of key genes in promoting the proliferation and invasion of HCC cells. The model effectively stratified patients into high- and low-risk groups. High-risk patients exhibited poorer survival, increased immune cell (particularly T cell) infiltration, higher sensitivity to chemotherapeutics like 5-fluorouracil and paclitaxel, and a higher TP53 mutation rate. Low-risk patients were characterized by frequent CTNNB1-ARID2 comutations and a more active antitumor immune microenvironment. Additionally, SSRP1 and SETDB1 were verified to promote the proliferation and invasion of HCC cells. This integrated model, combining genomic and immunological features, is a reliable prognostic tool for HCC patient stratification and personalized chemotherapy, promising for clinical translation and precision medicine in HCC.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Zehao Li",
-        "Boqiang Zhong",
-        "Qian Zhang",
-        "Lin Sun",
-        "Xiaoxiao Li",
-        "Xiao Hu"
-      ],
-      "authors_display": "Zehao Li, Boqiang Zhong, Qian Zhang, et al.",
-      "first_seen_at": "2026-04-23T04:11:56Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.3389/fimmu.2024.1487610",
-        "pmcid": "PMC11649667",
-        "pmid": "42016321"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rate"
-        ]
-      },
-      "paper_key": "doi:10.3389/fimmu.2024.1487610",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-19",
-      "short_abstract": "Hepatocellular carcinoma (HCC) is a top cause of cancer-related death globally, with late diagnosis due to nonspecific early symptoms. Current single-factor prognostic models cannot reflect tumor heterogeneity, so a comprehensive tool for risk stratification and personalized treatment is needed. This study employed WGCNA on publicly...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Multiomics Analysis Identifies Chromosomal Instability-Associated Immune-Related Signatures in Hepatocellular Carcinoma by Integrating Weighted Gene Coexpression Network Analysis (WGCNA) and Machine Learning.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42016321/",
-      "venue": "Hum Mutat",
-      "venue_display": "Hum Mutat"
-    },
-    {
       "abstract": "Understanding how virus sequences are shaped by selection can inform vaccine design and transmission inference. Modeling within-host evolution to interrogate these questions requires a detailed mechanistic framework that accurately captures sequence diversification. The CD8 + cytotoxic T-lymphocyte (CTL) response plays an important role in immune-mediated selection and can leave strong signatures in virus sequences; however, existing sequence-based within-host virus modeling frameworks do not explicitly include a human leukocyte antigen (HLA)-aware CTL response. We extended our previously published within-host sequence evolution simulator, wavess, to include an explicit CTL response, and share a method for identifying HLA-specific CTL epitopes given a founder virus sequence. We also updated the model to permit a variable recombination rate, which allows for modeling non-adjacent genes, segmented genomes, and recombination hotspots. These extensions to wavess allow for more accurate simulation of viruses and virus genes, particularly in regions of the genome where the immune response is dominated by CTLs (rather than antibodies). It also provides the foundation for investigations of how these newly-added biological mechanisms influence within-host evolution. The core of wavess is written in Python 3, with helper functions written in R. It is available at https://github.com/MolEvolEpid/wavess.",
       "accent_color": "#8b5e34",
       "authors": [
@@ -516,52 +585,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41756898/",
       "venue": "bioRxiv",
       "venue_display": "bioRxiv"
-    },
-    {
-      "abstract": "Pol32 is a subunit shared by DNA polymerases δ and ζ, yet its role in maintaining genome integrity remains incompletely defined. Here, we employed whole-genome sequencing of mutation-accumulation lines to systematically characterize the genome-wide effects of a POL32 deletion in diploid Saccharomyces cerevisiae. Loss of Pol32 led to substantially (>5-fold) elevated rates of loss of heterozygosity (LOH), chromosome rearrangements, and aneuploidy, but resulted in substantially less genome instability than observed in strains with low levels of DNA polymerase δ. In particular, there was only a small (<2-fold) effect of the pol32 mutation on mutation rates. Notably, a prominent hotspot for chromosome rearrangements located near the end of chromosome VII was observed in pol32 strains. Although deletion of REV3 (encoding the catalytic subunit of Pol ζ) had no significant effect on genome integrity in a wild-type background, pol32 rev3 double mutants had reduced rates of most types of chromosome alterations compared to the pol32 single mutant, implicating Pol ζ in driving the genome instability induced by the Pol32 deficiency. Together, these findings provide new insights into how a shared structural subunit of several DNA polymerases contributes to the regulation of genome stability.IMPORTANCEPol32 is a subunit of DNA polymerases δ (an essential replicative enzyme) and ζ (an error-prone DNA polymerase required for DNA repair). We show that yeast strains that lack this protein have elevated rates of mitotic recombination, large deletions/duplications, translocations, and other types of genomic alterations. The high level of genomic alterations in pol32 mutants is substantially suppressed in strains that lack DNA polymerase ζ, suggesting that this error-prone polymerase may stimulate DNA breaks in conditions of DNA replication stress. Our studies are likely to have wide relevance since sequence variants of POLD3 (the human homolog of Pol32) are associated with certain types of human tumors.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Lei Qi",
-        "Ke-Jing Li",
-        "Xing-Xing Tang",
-        "Li-Yan Tian",
-        "Ye-Ke Wang",
-        "Min He",
-        "Ke Zhang",
-        "Thomas D Petes",
-        "Dao-Qiong Zheng"
-      ],
-      "authors_display": "Lei Qi, Ke-Jing Li, Xing-Xing Tang, et al.",
-      "first_seen_at": "2026-04-18T03:46:36Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1128/mbio.00531-26",
-        "pmcid": null,
-        "pmid": "41995324"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation accumulation",
-          "mutation rates"
-        ]
-      },
-      "paper_key": "doi:10.1128/mbio.00531-26",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-17",
-      "short_abstract": "Pol32 is a subunit shared by DNA polymerases δ and ζ, yet its role in maintaining genome integrity remains incompletely defined. Here, we employed whole-genome sequencing of mutation-accumulation lines to systematically characterize the genome-wide effects of a POL32 deletion in diploid Saccharomyces cerevisiae. Loss of Pol32 led to...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Loss of Pol32, a subunit of DNA polymerases δ and ζ, leads to different patterns of genome stability than direct impairment of these individual polymerases.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41995324/",
-      "venue": "mBio",
-      "venue_display": "mBio"
     },
     {
       "abstract": "Paramecia belong to the ciliate phylum of unicellular eukaryotes characterized by nuclear dimorphism. A diploid germline micronucleus (MIC) transmits genetic information across sexual generations. A polyploid transcriptionally active somatic macronucleus (MAC) develops at each sexual generation from a copy of the MIC through programmed DNA elimination (PDE) of > 30% of germline DNA. PDE requires the domesticated PiggyMac (Pgm) transposase. Assembly of Paramecium germline genomes has presented an enormous challenge owing to the difficulty of MIC isolation. We report chromosome-scale short-read MIC assemblies for 7 species from the P. aurelia species complex. We discovered a novel clade of Helitrons, with 9-10-kb transposase ORFs under purifying selection, that have remained active in all P. aurelia lineages. A long-read assembly for P. tetraurelia together with a genetic linkage map provided a nearly telomere-to-telomere assembly. The ~ 100-Mb genome consists of tiny (300 kb-1.2 Mb) and numerous (~ 160) germline chromosomes with the highest recombination rate ever reported for a eukaryote (420 cM/Mb). The ends of the chromosomes consist of Helitrons inserted in telomeric C4A2 repeats, forming a distinct genomic compartment that is eliminated very early during MAC development in a Pgm-independent manner.",
@@ -666,46 +689,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41926080/",
       "venue": "J Mol Endocrinol",
       "venue_display": "J Mol Endocrinol"
-    },
-    {
-      "abstract": "This study reveals the diversity of GC content characteristics among major angiosperm groups, with Poaceae species exhibiting significantly higher GC content and more pronounced heterogeneity. These features are likely associated with GC-biased gene conversion. Genome nucleotide composition critically shapes plant genetic diversity, yet its variation across angiosperms remains poorly understood. Here, we conducted a multilevel GC analysis across 495 angiosperm genomes (spanning 109 families, 44 orders; 284 species with annotated coding genes). Using SeqKit, we quantified GC content at whole-genome, chromosomal, gene, and codon scales, while estimating recombination rates with mlRho v2.9. We found that angiosperm GC content approximates a normal distribution (mean 36.64%) but varies markedly among lineages: monocots (41.97%) > eudicots (35.43%), with Poaceae highest (44.64%). Coding-region GC (mean 46.38%) exceeded genomic levels, showing maximal variation at the third codon position (GC3; mean 46.22%; up to 63.63% in Poaceae). Gene-level GC distributions shifted from unimodal to distinctly bimodal patterns-evident in Poaceae-reflecting divergence between high- and low-GC genes. Notably, GC content correlated positively with both chromosome length and recombination rate. These patterns are consistent with GC-biased gene conversion (gBGC) as a key driver of GC diversity in angiosperms, operating neutrally and locally across genomic scales, independent of phylogeny.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Qing Xian",
-        "Liu Yang",
-        "Yuan Wang",
-        "Wei Zhang"
-      ],
-      "authors_display": "Qing Xian, Liu Yang, Yuan Wang, et al.",
-      "first_seen_at": "2026-04-16T04:13:09Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.3390/ijms24097716",
-        "pmcid": "10178233",
-        "pmid": "41984235"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "gene conversion"
-        ]
-      },
-      "paper_key": "doi:10.3390/ijms24097716",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-04-15",
-      "short_abstract": "This study reveals the diversity of GC content characteristics among major angiosperm groups, with Poaceae species exhibiting significantly higher GC content and more pronounced heterogeneity. These features are likely associated with GC-biased gene conversion. Genome nucleotide composition critically shapes plant genetic diversity, yet...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "GC content variation in angiosperm genomes reveals GC-biased gene conversion.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41984235/",
-      "venue": "Planta",
-      "venue_display": "Planta"
     },
     {
       "abstract": "Probabilistic models such as the sequentially Markovian coalescent have long provided a powerful framework for population genetic inference, enabling reconstruction of demographic history and ancestral relationships from genomic data. However, these methods are inherently specialized, relying on predefined assumptions and/or limited scalability. Recent advances in simulation and deep learning provide an alternative approach: learning directly to generalize from synthetic genetic data to infer hidden evolutionary processes. Here we reframe the inference of coalescence times as a problem of translation between two biological languages: the sparse, observable patterns of mutation along the genome and the unobservable ancestral recombination graph that gave rise to them. Inspired by large language models, we develop cxt, a decoder-only transformer that autoregressively predicts coalescent events conditioned on local mutational context. We show that cxt performs competitively with state-of-the-art Markov Chain Monte Carlo-based likelihood models across a broad range of demographic scenarios, matching their accuracy in-distribution and approaching it in out-of-distribution, with the potential for improvement via fine-tuning. Trained on simulations spanning the stdpopsim catalog [J. R. Adrion et al., eLife 9, e54967 (2020); M. E. Lauterbur et al., eLife 12, e84874 (2023); G. Gower et al., Accessible, realistic genome simulation with selection using stdpopsim. bioRxiv [Preprint] (2025). https://doi.org/10.1101/2025.03.23.644823.], the model generalizes robustly and enables efficient inference at scale, producing over a million coalescence predictions in minutes. cxt also produces well-calibrated approximate posteriors, enabling principled uncertainty quantification. We apply cxt to population genomic data from both humans and mosquitoes, highlighting the model's ability to deal with the complexities of empirical data.",
