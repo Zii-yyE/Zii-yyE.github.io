@@ -1,6 +1,233 @@
 {
-  "generated_at": "2026-04-28T04:32:37Z",
+  "generated_at": "2026-04-29T04:27:57Z",
   "latest": [
+    {
+      "abstract": "Ovotesticular Difference of Sex Development (OT-DSD) may result from chimerism, mosaicism, structural or sequence variants. However, even after investigating all known causes, many individuals still lack an established etiology. This study aimed to perform cytogenomic investigation of individuals with OT-DSD. The sample consisted of 15 individuals with OT-DSD. Methods included G-banding karyotype, Chromosomal Microarray Analysis (CMA), Optical Genome Mapping (OGM), and Whole-Genome Sequencing (WGS). G-banding karyotype revealed chimerism in two individuals, mosaicism in one, and 47,XXY karyotype in another. One individual had a pericentric inversion at the X chromosome, with breakpoints mapped close to SOX3. Ten individuals had a normal karyotype, eight 46,XX, and two 46,XY. CMA, performed in 11, identified a duplication including the SOX3 gene in one 46,XX individual, and two duplications in a 46,XY individual, with breakpoints mapped by WGS, suggesting a complex rearrangement that could affect VAMP7 expression. OGM was performed in two individuals and WGS in nine individuals, which did not reveal additional relevant structural variants (SVs). Cytogenomic methods identified causative alterations in 5/15 (33.3%) individuals, underscoring the need to combine complementary approaches to detect and characterize SVs. In the remaining cases, the etiology was undetermined, emphasizing the need for further molecular investigations.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Júlia Lima-Santos",
+        "Carolina Gama Nascimento-Vidoti",
+        "Gabriela Roldão Correia-Costa",
+        "Nilma Lúcia Viguetti Campos",
+        "Mara Sanches Guaragna",
+        "Flávia Marcorin de Oliveira",
+        "Beatriz Amstalden Barros",
+        "Marcio Lopes Miranda",
+        "Arthur Antolini Tavares",
+        "Gil Guerra-Junior",
+        "Andréa Trevas Maciel-Guerra",
+        "Helena Fabbri-Scallet",
+        "Társis Paiva Vieira"
+      ],
+      "authors_display": "Júlia Lima-Santos, Carolina Gama Nascimento-Vidoti, Gabriela Roldão Correia-Costa, et al.",
+      "first_seen_at": "2026-04-29T04:27:57Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1159/000551594",
+        "pmcid": null,
+        "pmid": "42048305"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1159/000551594",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-28",
+      "short_abstract": "Ovotesticular Difference of Sex Development (OT-DSD) may result from chimerism, mosaicism, structural or sequence variants. However, even after investigating all known causes, many individuals still lack an established etiology. This study aimed to perform cytogenomic investigation of individuals with OT-DSD. The sample consisted of 15...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Cytogenomic Investigation of Individuals with Ovotesticular Difference of Sex Development.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42048305/",
+      "venue": "Sex Dev",
+      "venue_display": "Sex Dev"
+    },
+    {
+      "abstract": "Polystyrene nanoplastics (PS-NPs) are ubiquitous environmental contaminants capable of crossing the placental barrier, yet their impact on mammalian germline development and the reproductive potential of the subsequent generation remains poorly understood. To elucidate the intergenerational effects of prenatal PS-NPs exposure on female offspring fertility and dissect the underlying molecular mechanisms governing oocyte meiotic defects, we established a mouse model of prenatal PS-NPs exposure by administering daily oral gavage of PS-NPs (10 mg/kg/day) and employed an integrative multi-omics strategy combining single-cell transcriptomics (scRNA-seq), chromatin accessibility profiling (scATAC-seq), and functional cellular assays. We demonstrate that prenatal exposure to PS-NPs induced a marked decline in the fertility of female offspring. At the cellular level, PS-NPs delayed meiotic prophase I progression and severely compromised homologous recombination. Mechanistically, PS-NPs disrupted the global chromatin accessibility and epigenetic homeostasis of oocytes. Specifically, we observed aberrant histone modifications, characterized by reduced acetylation and increased ubiquitination/SUMOylation, along with restricted chromatin accessibility at loci critical for meiotic axis assembly and recombination. Furthermore, we identified a distinct subpopulation of arrested zygotene oocytes undergoing apoptosis and autophagy driven by this chromatin dysregulation. Collectively, our findings uncover a novel epigenetic mechanism by which environmental nanoplastics impair meiotic integrity, highlighting chromatin remodeling as a vulnerable target of nanotoxicity, and provide critical insights into the long-term reproductive risks posed by plastic pollution.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Xu Zhou",
+        "Di Zhang",
+        "Liangran Zhang",
+        "Shunxin Wang",
+        "Wei Shen",
+        "Xiang-Hong Ou",
+        "Guang Wang",
+        "Qing-Yuan Sun",
+        "Fali Zhang",
+        "Weidong Li"
+      ],
+      "authors_display": "Xu Zhou, Di Zhang, Liangran Zhang, et al.",
+      "first_seen_at": "2026-04-29T04:27:57Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1111/cpr.13567",
+        "pmcid": "9935506",
+        "pmid": "42047698"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "meiotic recombination"
+        ]
+      },
+      "paper_key": "doi:10.1111/cpr.13567",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-28",
+      "short_abstract": "Polystyrene nanoplastics (PS-NPs) are ubiquitous environmental contaminants capable of crossing the placental barrier, yet their impact on mammalian germline development and the reproductive potential of the subsequent generation remains poorly understood. To elucidate the intergenerational effects of prenatal PS-NPs exposure on female...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Prenatal exposure to polystyrene nanoplastics impairs offspring fertility in mice by disrupting meiotic recombination and chromatin accessibility in oocytes.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42047698/",
+      "venue": "Arch Toxicol",
+      "venue_display": "Arch Toxicol"
+    },
+    {
+      "abstract": "Although recent advances in genomics have enabled the high-resolution study of whole genomes, our understanding of one of the key evolutionary processes, mutation, still remains limited. In primates specifically, studies have largely focused on humans and their closest evolutionary relatives, the great apes, as well as a handful of species of biomedical or conservation interest. Yet, as mutation rates vary across genomic regions, individuals, and species, a greater understanding of the underlying evolutionary dynamics at play will ultimately be illuminated by not only additional sampling across the Order, but also by a greater depth of sampling within-species. To address these needs, we here present the first population-scale genomic resources for the coppery titi monkey (Plecturocebus cupreus)-a platyrrhine of considerable biomedical interest for both social behavior and neurobiology. Deep whole-genome sequencing of 15 parent-offspring trios, together with a computational de novo mutation detection pipeline based on pan-genome graphs, has provided a detailed picture of the sex-averaged mutation rate-0.63 × 10-8 (95% CI: 0.43 × 10-8-0.90 × 10-8) per site per generation-as well as the effects of both sex and parental age on underlying rates, demonstrating a significant paternal age effect. Coppery titi monkey males exhibit long reproductive lifespans, afforded by long-term pair bonding in the species' monogamous mating system, and our results have demonstrated that individuals reproducing later in life exhibit one of the strongest male mutation biases observed in any non-human primate studied to date. Taken together, this study thus provides an important piece of the puzzle for better comprehending the mutational landscape across primates.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Cyril J Versoza",
+        "Karen L Bales",
+        "Jeffrey D Jensen",
+        "Susanne P Pfeifer"
+      ],
+      "authors_display": "Cyril J Versoza, Karen L Bales, Jeffrey D Jensen, et al.",
+      "first_seen_at": "2026-04-29T04:27:57Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/molbev/msag112",
+        "pmcid": null,
+        "pmid": "42047107"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rates",
+          "mutation rate"
+        ],
+        "pangenome_sv": [
+          "pan genome"
+        ]
+      },
+      "paper_key": "doi:10.1093/molbev/msag112",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-28",
+      "short_abstract": "Although recent advances in genomics have enabled the high-resolution study of whole genomes, our understanding of one of the key evolutionary processes, mutation, still remains limited. In primates specifically, studies have largely focused on humans and their closest evolutionary relatives, the great apes, as well as a handful of...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Characterization of de novo germline mutations suggests a strong male mutation bias in coppery titi monkeys (Plecturocebus cupreus).",
+      "topics": [
+        "mutation_rate",
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42047107/",
+      "venue": "Mol Biol Evol",
+      "venue_display": "Mol Biol Evol"
+    },
+    {
+      "abstract": "Hypnotizability is a psychophysiological trait associated with structural variation in brain regions implicated in time perception, such as the cerebellum and the insula. This study investigated time reproduction across different interval durations in individuals with varying levels of hypnotizability. Forty healthy, right-handed participants of both sexes were assessed using the Stanford Hypnotic Susceptibility Scale: Form A and completed a time reproduction task consisting of visually presented intervals of 1, 3, 6, and 8 s (10 trials per duration). Relative proportional error (RE) and absolute proportional error (AE) were analyzed using mixed-effects models estimating the interaction between hypnotizability and interval duration through polynomial contrasts, with random intercepts and duration slopes for participants. Heart rate, sex, trait anxiety, and absorption were included as covariates. RE showed only a significant main effect of interval duration, with shorter intervals overestimated and longer intervals underestimated. AE showed a significant interaction between hypnotizability and the linear component of interval duration, indicating that higher hypnotizability was associated with a steeper decrease in AE as interval duration increased. The relatively lower precision at shorter intervals is consistent with attenuated sensory processing, whereas the relatively higher precision at longer intervals may reflect better functional coupling between executive and salience networks previously observed in highly hypnotizable individuals. The reduced precision at shorter intervals may be more consistent with cerebellar than insular involvement. Differences in time perception may be linked to reported associations between hypnotizability and an altered sense of agency and body ownership.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Žan Zelič",
+        "Valentina Puccini",
+        "Enrica L Santarcangelo"
+      ],
+      "authors_display": "Žan Zelič, Valentina Puccini, Enrica L Santarcangelo",
+      "first_seen_at": "2026-04-29T04:27:57Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.neuropsychologia.2019.03.014",
+        "pmcid": "6306282",
+        "pmid": "42047933"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.neuropsychologia.2019.03.014",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-28",
+      "short_abstract": "Hypnotizability is a psychophysiological trait associated with structural variation in brain regions implicated in time perception, such as the cerebellum and the insula. This study investigated time reproduction across different interval durations in individuals with varying levels of hypnotizability. Forty healthy, right-handed...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Hypnotizability and Time Reproduction.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42047933/",
+      "venue": "Cerebellum",
+      "venue_display": "Cerebellum"
+    },
+    {
+      "abstract": "Developmental epileptic encephalopathy (DEE) comprises neurodevelopmental disorders with early-onset seizures and developmental impairment. Despite >900 implicated genes, many patients remain undiagnosed after short-read sequencing (SRS). We assessed long-read genome sequencing (LR-GS) in 38 previously unsolved infantile-onset DEE probands (10 singletons, 28 trios). Variant detection included single nucleotide variants (SNVs), structural variants, copy number variants and short tandem repeats in established repeat expansion disease genes. LR-GS identified candidate variants in 8 out of 38 probands (21%) missed by SRS: five large deletions, one SNV in a low-mappability region of NSF, one case resolved via haplotype phasing of compound heterozygous SNVs without parental samples and one case where LR-GS detected an allele missed due to coverage gaps. An additional eight probands (21%) harboured variants technically detectable by SRS but were missed due to newly associated genes, synonymous variants lacking splicing evaluation or prior analytic pipelines. LR-GS substantially increases diagnostic yield in unsolved infantile-onset DEE, supporting its incorporation into clinical workflows as a second-tier genetic test for otherwise unsolved neurodevelopmental disorders.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Chanatjit Cheawsamoot",
+        "Rungroj Thangpong",
+        "Wanna Chetruengchai",
+        "Songphon Kanlayaprasit",
+        "Wuttichart Kamolvisit",
+        "Phawin Kor-Anantakul",
+        "Adjima Assawapitaksakul",
+        "Ponghatai Boonsimma",
+        "Sathida Poonmaksatit",
+        "Krisnachai Chomtho",
+        "Tayard Desudchit",
+        "Vorasuk Shotelersuk"
+      ],
+      "authors_display": "Chanatjit Cheawsamoot, Rungroj Thangpong, Wanna Chetruengchai, et al.",
+      "first_seen_at": "2026-04-29T04:27:57Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1136/jmg-2026-111514",
+        "pmcid": null,
+        "pmid": "42045022"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1136/jmg-2026-111514",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-27",
+      "short_abstract": "Developmental epileptic encephalopathy (DEE) comprises neurodevelopmental disorders with early-onset seizures and developmental impairment. Despite >900 implicated genes, many patients remain undiagnosed after short-read sequencing (SRS). We assessed long-read genome sequencing (LR-GS) in 38 previously unsolved infantile-onset DEE...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Long-read genome sequencing increases diagnostic yield in a short-read sequencing unsolved developmental epileptic encephalopathy (DEE) cohort.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42045022/",
+      "venue": "J Med Genet",
+      "venue_display": "J Med Genet"
+    },
     {
       "abstract": "Pairwise sequence comparisons are at the center of molecular evolutionary analyses. However, viral pairwise comparisons are challenging because extreme mutation rates and evolutionary pressure cause genomes to diverge rapidly, limiting detectable sequence similarity to fewer than 3% of virus pairs. To overcome these limitations, we compared viruses based on structural similarity, using predicted protein structures from ColabFold and Foldseek to define protein fold clusters. We represented each virus genome by its protein structural content. Pairwise similarities between viruses were then quantified using the Jaccard index based on the presence or absence of protein fold clusters. Using a recently established viral protein fold database, we compared all pairs of eukaryotic viruses in RefSeq. This approach increased the proportion of comparable viral genome pairs from 2.4% to 16.5%. Using this protein-fold representation of viruses, we were able to accurately predict viral families with an average sensitivity of 85.9%. Investigation of viral families showing limited sensitivity with this approach uncovered a laterally transferred structural cluster (Rep/NS1) broadly shared across diverse viral families and found in the avian lineage of adenoviruses. Sequence homology suggests that this Rep was acquired from Parvoviridae, but the protein is mutant in the ATPase active site, indicating possible exaptation towards a purely DNA binding function. In Gammapapillomaviruses, several E4 clusters were associated with human tropism. In summary, by representing viruses with structural protein clusters, we can classify highly divergent viruses, trace lateral gene transfer, and uncover features associated with viral host range.",
       "accent_color": "#f25f4c",
@@ -119,97 +346,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42033536/",
       "venue": "Brain Imaging Behav",
       "venue_display": "Brain Imaging Behav"
-    },
-    {
-      "abstract": "",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Jue Jiang",
-        "Avraam Tapinos",
-        "Ruotian Huang",
-        "M S Riana Bornman",
-        "Phillip D Stricker",
-        "Shingai B A Mutambirwa",
-        "David C Wedge",
-        "Weerachai Jaratlerdsiri",
-        "Vanessa M Hayes"
-      ],
-      "authors_display": "Jue Jiang, Avraam Tapinos, Ruotian Huang, et al.",
-      "first_seen_at": "2026-04-27T04:29:23Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/s13073-026-01647-5",
-        "pmcid": null,
-        "pmid": "42035209"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variation"
-        ]
-      },
-      "paper_key": "doi:10.1186/s13073-026-01647-5",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-25",
-      "short_abstract": "",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Single base focal hypermutation cooccurs with structural variation as an early event in advanced prostate tumourigenesis with ancestry specific independence: a multi-ancestral observational study.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42035209/",
-      "venue": "Genome Med",
-      "venue_display": "Genome Med"
-    },
-    {
-      "abstract": "Β-amylase (BAM) gene family is an important genetic resource that catalyzes starch metabolism and responds positively in response to abiotic stresses. In current work, 28 TaBAMs were identified through genome wide analysis using AtBAM domain. Phylogenetic analysis grouped these genes into four sub-groups. Gene structure, conserved motif, cis-acting elements, and synteny analysis suggested evolutionary conserveness within TaBAM gene family. Pangenome analysis suggested that TaBAMs are core set of genes and are present as single copy loci. Transcriptome profiling and qRT-PCR identified TaBAM16-1B and TaBAM20-4D as drought responsive candidate genes. Sequence polymorphism analysis revealed non-synonymous (A3040/G3040) SNP site only in the coding region of TaBAM16-1B resulting in Cys to Tyr substitution. KASP technique was deployed to convert the identified SNPs into molecular markers. Using 183 Pakistani wheat genotypes across four environments, marker trait association studies demonstrated significant association with normalized difference vegetative index (NDVI) trait, in three out of four environments. Enzymatic activity analysis confirmed that TaBAM16-1B Allele-A (superior allele) carrying varieties maintained stable β-amylase activity under PEG-induced drought condition, especially in roots at 24-h time interval. TaBAM16-1B EMS mutants provided genetic validation revealing reduced total chlorophyll contents under drought stress. Allelic variations of TaBAM16-1B were also explored in 299 global wheat germplasm collected from 19 countries. TaBAM16-1B Allele-A has been positively selected in drought prone areas underscoring selection pressure exerted by the wheat breeders. Current work identifies TaBAM16-1B as a functional gene and offers a KASP marker for marker-assisted wheat breeding to improve the drought tolerance.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Maira Anam",
-        "Zulqurnain Khan",
-        "Muhammad Ali Sher",
-        "Muhammad Sajjad",
-        "Muhammad Kashif Naeem",
-        "Zijin Zhang",
-        "Sania Javeed",
-        "Fatima Javeria",
-        "Jing Chen",
-        "Shoaib Ur Rehman"
-      ],
-      "authors_display": "Maira Anam, Zulqurnain Khan, Muhammad Ali Sher, et al.",
-      "first_seen_at": "2026-04-27T04:29:23Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1089/dna.2020.5911",
-        "pmcid": "4049835",
-        "pmid": "42033521"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1089/dna.2020.5911",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-25",
-      "short_abstract": "Β-amylase (BAM) gene family is an important genetic resource that catalyzes starch metabolism and responds positively in response to abiotic stresses. In current work, 28 TaBAMs were identified through genome wide analysis using AtBAM domain. Phylogenetic analysis grouped these genes into four sub-groups. Gene structure, conserved...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Pangenome-assisted characterization of TaBAM genes and association of TaBAM16-1B with NDVI in wheat.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42033521/",
-      "venue": "Theor Appl Genet",
-      "venue_display": "Theor Appl Genet"
     },
     {
       "abstract": "The emergence and spread of anthelmintic resistance represent a major challenge for treating parasitic nematodes, threatening mass-drug administration control programs in humans and zoonotic hosts. Currently, experimental evidence to understand the influence of management (e.g., treatment dose and frequency) and parasite-associated factors (e.g., genetic variation, population size and mutation rates) is scarce. To rectify this knowledge gap, we performed controlled evolution experiments with the model nematode Caenorhabditis elegans and further evaluated the evolution dynamics with a computational model. Large population size was critical for rapid ivermectin resistance evolution in vitro and in silico. Male nematode production was favored during resistance evolution, suggesting a selective advantage of sexual recombination under drug pressure in vitro. Evolution of ivermectin resistance led to reduced efficacy of the structurally related anthelmintic moxidectin, as anticipated, as well as reduced efficacy of the structurally unrelated anthelmintic emodepside, which has a distinct mode of action. In contrast, albendazole, levamisole, and monepantel efficacy were not influenced by the evolution of ivermectin resistance. We conclude that combining computational modeling with in vitro evolution experiments to test specific aspects of evolution directly represents a promising approach to guide the development of novel treatment strategies to anticipate and mitigate resistance evolution in parasitic nematodes.",
@@ -341,46 +477,6 @@
       "venue_display": "Gynecol Oncol"
     },
     {
-      "abstract": "Endogenous retroviruses (ERVs), the genomic remnants of ancient retroviral infections, constitute a significant and dynamic component of livestock and poultry genomes. This review synthesizes current knowledge on the dual roles of ERVs, from drivers of genomic instability and disease to essential agents of evolution and innovation in domesticated species. We detail the classification, structure, and life cycle of ERVs, highlighting the distinct genomic landscapes and host-silencing strategies that differentiate avian and mammalian lineages, with poultry genomes maintaining lower ERV loads through persistent repression compared to livestock. A critical examination reveals the \"dark side\" of ERVs, including their capacity for insertional mutagenesis, contribution to diseases like avian leukosis, and zoonotic risks, exemplified by porcine endogenous retroviruses (PERVs). Conversely, we talk over how ERVs have been harnessed as allies, where their insertions create structural variants that shape economically vital traits-such as metabolism, growth, and unique phenotypes-and where domesticated viral genes support crucial functions like placental development and innate immunity. Finally, we discuss the transformative potential of CRISPR-Cas9 genome editing as a precise tool for silencing hazardous ERVs and exploiting their beneficial aspects. A comprehensive understanding of ERV biology is thus pivotal for advancing genetic improvement, disease resistance, and the sustainability of livestock and poultry production systems.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Ali Shoaib Moawad",
-        "Amaal Omara",
-        "Tuofan Li",
-        "Jianqiang Ye"
-      ],
-      "authors_display": "Ali Shoaib Moawad, Amaal Omara, Tuofan Li, et al.",
-      "first_seen_at": "2026-04-27T04:29:23Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.vetmic.2026.111039",
-        "pmcid": null,
-        "pmid": "42033817"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.vetmic.2026.111039",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-24",
-      "short_abstract": "Endogenous retroviruses (ERVs), the genomic remnants of ancient retroviral infections, constitute a significant and dynamic component of livestock and poultry genomes. This review synthesizes current knowledge on the dual roles of ERVs, from drivers of genomic instability and disease to essential agents of evolution and innovation in...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Endogenous retroviruses in livestock and poultry: From genomic invaders to beneficial allies.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42033817/",
-      "venue": "Vet Microbiol",
-      "venue_display": "Vet Microbiol"
-    },
-    {
       "abstract": "We offer our perspective on the rich literature on the estimation of measures of inbreeding, relatedness, and population structure, beginning with Sewall Wright's F-statistics and moving onto the descriptive statistics of Masatoshi Nei and Clark Cockerham before discussing recent papers. The current availability of genome-level single nucleotide variant data is allowing for sophisticated treatments of inferred identity by descent segments and inferred ancestral recombination graphs. Underlying such disparate methods is an emphasis of characterizing the descent status of alleles within and between individuals and populations, and we have found allele-sharing statistics a convenient framework for examining the differences and similarities among different estimators. We have been able to resolve some long-standing reported differences among estimators, especially those involving the work of Nei. In the course of our algebraic and empirical treatment of descent measure estimation, we have been able to formulate a set of five recommendations. Following the early work of Sewall Wright, we recommend (1) State that descent measures for pairs of alleles are relative to values in a reference set of allele pairs. With this view, we recommend (2) Use estimators that preserve descent measure rankings over different reference sets. Allele-sharing estimators satisfy this recommendation. Reducing genotypic data to allelic data has the benefit of reducing dimensionality, but we recommend (3) If genotypic data are available, avoid having to assume Hardy-Weinberg equilibrium by not reducing them to allelic data. Partly as a consequence of working with genotypic data, we recommend (4) Recognize that allele frequencies do not need to be estimated. Not estimating allele frequencies prevents the confounding of descent estimates for target pairs of alleles by the status of all pairs in a reference set. On the basis of both theoretical and empirical results, finally, we recommend (5) Consider both inbreeding and kinship when estimating either one. It is difficult to envisage a natural population that does not have at least some level of both relatedness and inbreeding.",
       "accent_color": "#2d6cdf",
       "authors": [
@@ -506,49 +602,6 @@
       "venue_display": "Proc Natl Acad Sci U S A"
     },
     {
-      "abstract": "Certain bacteria are known for their remarkable genetic and phenotypic diversity, as well as rapid morphological diversification during evolution experiments. An example is Bacillus subtilis, which can switch motility, biofilm, or antagonistic interaction patterns. Here, we investigated how different forms of disruption at the spsM locus, including SPβ integration, insertional mutagenesis (spsM::kan), and markerless spsM deletion, influence colony morphology, motility, and the emergence of spontaneous variants in B. subtilis natural isolates. We reassessed a previously reported biofilm defect of an spsM::kan mutant and found that the phenotype stemmed from an undetected secondary mutation rather than from loss of spsM. We observed that spsM::kan mutants frequently developed spontaneous mutations in key regulators of swarming motility and biofilm development. Consistently, we show that spsM::kan significantly elevates mutation rates, explaining why unnoticed mutations can arise rapidly during strain construction and phenotyping. In contrast, a markerless ΔspsM strain did not show a detectable increase in mutation rate relative to wild type, indicating that the elevated mutation rate is not attributable to loss of SpsM function. The SPβ lysogen produced far fewer visible variant morphotypes, indicating that reversible prophage integration does not lead to the same degree of diversification observed in the spsM::kan background. Our findings show that different modes of disrupting the spsM locus can alter the likelihood of selecting recurrent regulatory mutations, highlighting how local genomic context shapes phenotypic diversification. This work highlights the interplay between prophage integration, local genome architecture, and the selective pressures that influence diversification of bacterial multicellular behaviors.IMPORTANCEProphages, defined as viruses integrated into bacterial genomes, can reshape bacterial physiology and evolution. Previous studies suggested that disruption of an integration site (spsM) by the SPβ prophage impairs biofilm formation in Bacillus subtilis. Here, we show that insertion of a kanamycin resistance cassette at the native spsM locus (spsM::kan) promotes the rapid emergence of spontaneous mutations in key regulatory genes. In contrast, a markerless ΔspsM strain does not show a detectable increase in mutation rate, indicating that elevated mutation supply is not a general consequence of spsM loss. Our results indicate that different modes of spsM disruption have distinct consequences for phenotypic diversification. These findings help clarify earlier observations and show that phenotypic diversification depends strongly on the mode of spsM disruption and the genetic background. This has broader implications for how we understand the genetic basis of microbial adaptation, the genetic manipulation, and the evolutionary roles of prophages.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Maja Popović",
-        "Tomaž Accetto",
-        "Yasmine Dergham",
-        "Romain Briandet",
-        "Iztok Dogša",
-        "Anna Dragoš"
-      ],
-      "authors_display": "Maja Popović, Tomaž Accetto, Yasmine Dergham, et al.",
-      "first_seen_at": "2026-04-21T04:10:43Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1128/spectrum.02504-25",
-        "pmcid": null,
-        "pmid": "42007703"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rates",
-          "mutation rate"
-        ]
-      },
-      "paper_key": "doi:10.1128/spectrum.02504-25",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-20",
-      "short_abstract": "Certain bacteria are known for their remarkable genetic and phenotypic diversity, as well as rapid morphological diversification during evolution experiments. An example is Bacillus subtilis, which can switch motility, biofilm, or antagonistic interaction patterns. Here, we investigated how different forms of disruption at the spsM...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Disruption of bacteriophage integration site promotes rapid diversification of multicellular traits in Bacillus subtilis.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42007703/",
-      "venue": "Microbiol Spectr",
-      "venue_display": "Microbiol Spectr"
-    },
-    {
       "abstract": "Understanding how virus sequences are shaped by selection can inform vaccine design and transmission inference. Modeling within-host evolution to interrogate these questions requires a detailed mechanistic framework that accurately captures sequence diversification. The CD8 + cytotoxic T-lymphocyte (CTL) response plays an important role in immune-mediated selection and can leave strong signatures in virus sequences; however, existing sequence-based within-host virus modeling frameworks do not explicitly include a human leukocyte antigen (HLA)-aware CTL response. We extended our previously published within-host sequence evolution simulator, wavess, to include an explicit CTL response, and share a method for identifying HLA-specific CTL epitopes given a founder virus sequence. We also updated the model to permit a variable recombination rate, which allows for modeling non-adjacent genes, segmented genomes, and recombination hotspots. These extensions to wavess allow for more accurate simulation of viruses and virus genes, particularly in regions of the genome where the immune response is dominated by CTLs (rather than antibodies). It also provides the foundation for investigations of how these newly-added biological mechanisms influence within-host evolution. The core of wavess is written in Python 3, with helper functions written in R. It is available at https://github.com/MolEvolEpid/wavess.",
       "accent_color": "#8b5e34",
       "authors": [
@@ -648,47 +701,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41992225/",
       "venue": "BMC Biol",
       "venue_display": "BMC Biol"
-    },
-    {
-      "abstract": "Physiologic mechanisms underlying metabolic and renal diseases interact and are highly comorbid, yet their genetic associations and underlying mechanisms have not been systematically elucidated. Using genome-wide association study (GWAS) summary statistics from UK Biobank, FinnGen, and CKDGen, we integrated and analyzed gout, serum urate, chronic kidney disease, kidney stones, and metabolic syndrome. Using genomic structural equation modeling (GSEM), we created the first genetic linkage map for 'gout-urate-kidney-metabolism' (GUKM) to explore shared genetic architecture. Post-GWAS analyses for GUKM-GSEM GWAS, including functional annotation, enrichment, fine-mapping, causal inference, and gsMap, identified key genetic loci, pathways, tissues/cell types, and potential drug targets. We identified 164 lead SNPs, including rs1260326 (chr2) and rs73607783 (chr8), with GSEA showing significant enrichment of GUKM-GSEM GWAS in cholesterol metabolism and lipid pathways (adjP < 0.05). Tissue and cell enrichment highlighted the liver, renal cortex, pancreas, proximal tubular epithelial cells, and hepatocytes (P < 0.05). Mendelian randomization indicated a potential causal role of GCKR (FDR < 0.05), which gsMap showed to be highly expressed in hepatocytes and liver tissue. The present study revealed the common genetic basis of metabolic and renal diseases and emphasized that lipid metabolism may be a key intermediary pathway connecting the 'metabolic-renal axis'. The liver, renal cortex, and pancreas were the primary enriched tissues, and GCKR was identified as a core gene and potential drug target. Overall, this study provides an important reference for the genetic mechanisms, key mechanisms, and intervention targets of related diseases.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Kaixi Ding",
-        "Li Xiang",
-        "Wei Jiang",
-        "Ming Lei",
-        "Yongxiang Gao"
-      ],
-      "authors_display": "Kaixi Ding, Li Xiang, Wei Jiang, et al.",
-      "first_seen_at": "2026-04-18T03:46:36Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1530/jme-25-0171",
-        "pmcid": null,
-        "pmid": "41926080"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "linkage map"
-        ]
-      },
-      "paper_key": "doi:10.1530/jme-25-0171",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-04-16",
-      "short_abstract": "Physiologic mechanisms underlying metabolic and renal diseases interact and are highly comorbid, yet their genetic associations and underlying mechanisms have not been systematically elucidated. Using genome-wide association study (GWAS) summary statistics from UK Biobank, FinnGen, and CKDGen, we integrated and analyzed gout, serum...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Metabolic-renal disease genetic architecture revealed by genomic structural equation modeling.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41926080/",
-      "venue": "J Mol Endocrinol",
-      "venue_display": "J Mol Endocrinol"
     },
     {
       "abstract": "Probabilistic models such as the sequentially Markovian coalescent have long provided a powerful framework for population genetic inference, enabling reconstruction of demographic history and ancestral relationships from genomic data. However, these methods are inherently specialized, relying on predefined assumptions and/or limited scalability. Recent advances in simulation and deep learning provide an alternative approach: learning directly to generalize from synthetic genetic data to infer hidden evolutionary processes. Here we reframe the inference of coalescence times as a problem of translation between two biological languages: the sparse, observable patterns of mutation along the genome and the unobservable ancestral recombination graph that gave rise to them. Inspired by large language models, we develop cxt, a decoder-only transformer that autoregressively predicts coalescent events conditioned on local mutational context. We show that cxt performs competitively with state-of-the-art Markov Chain Monte Carlo-based likelihood models across a broad range of demographic scenarios, matching their accuracy in-distribution and approaching it in out-of-distribution, with the potential for improvement via fine-tuning. Trained on simulations spanning the stdpopsim catalog [J. R. Adrion et al., eLife 9, e54967 (2020); M. E. Lauterbur et al., eLife 12, e84874 (2023); G. Gower et al., Accessible, realistic genome simulation with selection using stdpopsim. bioRxiv [Preprint] (2025). https://doi.org/10.1101/2025.03.23.644823.], the model generalizes robustly and enables efficient inference at scale, producing over a million coalescence predictions in minutes. cxt also produces well-calibrated approximate posteriors, enabling principled uncertainty quantification. We apply cxt to population genomic data from both humans and mosquitoes, highlighting the model's ability to deal with the complexities of empirical data.",
