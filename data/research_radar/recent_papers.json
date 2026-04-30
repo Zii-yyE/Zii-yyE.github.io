@@ -1,6 +1,221 @@
 {
-  "generated_at": "2026-04-29T04:27:57Z",
+  "generated_at": "2026-04-30T04:30:39Z",
   "latest": [
+    {
+      "abstract": "Understanding the principles governing mutagenesis is important because mutations are a fundamental driver of evolution and a cause of disease. Although mutation rates and spectra depend on genotype and environment, how these factors interact is unclear. We address this question using mutation accumulation experiments in 11 budding yeast strains across three environments that produce strong genotype-by-environment interactions in fitness. Analysis of over 9000 accumulated mutations reveals that per-generation rates of all mutation types-single-nucleotide variations, small insertions and deletions, segmental duplications and deletions, and chromosome gains and losses-decline with increasing organismal fitness. Notably, relative mutation rates between strains tend to invert when environmental shifts reverse their relative fitness. The mutation spectrum is also partially fitness dependent: Higher-fitness strains show a lower transition-to-transversion ratio and a stronger AT mutational bias. Thus, organismal fitness shapes not only natural selection but also the quantity and composition of mutations available to selection, with broad implications for the molecular clock, adaptive evolution, and genetic load.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Shuting Ding",
+        "Anjali Mahilkar",
+        "Yang Li",
+        "Jianzhi Zhang"
+      ],
+      "authors_display": "Shuting Ding, Anjali Mahilkar, Yang Li, et al.",
+      "first_seen_at": "2026-04-30T04:30:39Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1126/sciadv.adj6957",
+        "pmcid": null,
+        "pmid": "42054461"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rate",
+          "mutation accumulation",
+          "mutation rates"
+        ]
+      },
+      "paper_key": "doi:10.1126/sciadv.adj6957",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-29",
+      "short_abstract": "Understanding the principles governing mutagenesis is important because mutations are a fundamental driver of evolution and a cause of disease. Although mutation rates and spectra depend on genotype and environment, how these factors interact is unclear. We address this question using mutation accumulation experiments in 11 budding...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Spontaneous mutation rate and spectrum are modulated by organismal fitness.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42054461/",
+      "venue": "Sci Adv",
+      "venue_display": "Sci Adv"
+    },
+    {
+      "abstract": "The eukaryotic radiation sensitive 51 (RAD51) gene family comprises seven ancient paralogs that have been remarkably conserved across both plants and animals. Among these paralogs, X-ray repair cross complementing 2 (XRCC2) plays a pivotal role in mammalian embryonic development. However, in Arabidopsis (Arabidopsis thaliana), disruption of its function leads to seemingly normal meiotic processes, and intriguingly, even appears to increase meiotic recombination. Given these disparate observations, the precise role of XRCC2 during meiosis remains largely elusive. Here, we identified the XRCC2 gene in maize (Zea mays), a member of the RAD51-paralog family and the homolog of Arabidopsis XRCC2. Plants with mutated XRCC2 exhibited partial male and female sterility. Cytological investigations of xrcc2 mutants revealed that the meiocytes form univalent chromosomes and chromosome bridges and undergo chromosome fragmentation, while homologous pairing and synapsis occur normally. Notably, the xrcc2 mutant showed a significant reduction in the number of meiotic chiasmata and RAD51 foci. Furthermore, XRCC2 was essential for maintaining genome stability and affected the transcription of RAD51 paralogs. Within yeast and tobacco systems, we detected interactions between XRCC2 and disrupted meiotic cDNA1 (DMC1), Radiation sensitive 51C (RAD51C), and radiation sensitive 51D (RAD51D). Collectively, XRCC2 demonstrates remarkable functional diversity across species and plays an important role in maize crossover formation.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Shuanghui Zhao",
+        "Liqun Chen",
+        "Jinghan Liu",
+        "Ting Zhang"
+      ],
+      "authors_display": "Shuanghui Zhao, Liqun Chen, Jinghan Liu, et al.",
+      "first_seen_at": "2026-04-30T04:30:39Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/plphys/kiag255",
+        "pmcid": null,
+        "pmid": "42052925"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "crossover formation",
+          "meiotic recombination",
+          "chiasmata"
+        ]
+      },
+      "paper_key": "doi:10.1093/plphys/kiag255",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-29",
+      "short_abstract": "The eukaryotic radiation sensitive 51 (RAD51) gene family comprises seven ancient paralogs that have been remarkably conserved across both plants and animals. Among these paralogs, X-ray repair cross complementing 2 (XRCC2) plays a pivotal role in mammalian embryonic development. However, in Arabidopsis (Arabidopsis thaliana),...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Maize XRCC2 participates in somatic DNA repair and meiotic crossover formation.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42052925/",
+      "venue": "Plant Physiol",
+      "venue_display": "Plant Physiol"
+    },
+    {
+      "abstract": "Plant meiosis constitutes a critical vulnerability under unfavorable conditions in plant reproduction. In the 21st century, with the accelerating global climate change, environmental stresses increasingly compromise fertility and genetic stability. This review examines the role of abiotic stress factors - including heat, cold, drought, salinity, heavy metals, and oxidative stress - in disruption of plant meiosis, the achilles' heel of sexual processes. Heat stress appears particularly damaging, by compromising several molecular functions, such as DNA double-strand break formation, chromosome axis formation and spindle assembly. Cold stress affects meiotic recombination patterns as well as induces cytoskeletal disruption leading to unreduced gamete formation. While drought primarily impacts post-meiotic pollen development rather than meiosis itself, heavy metals cause widespread chromosomal abnormalities, generating reactive oxygen species and chromatin architectural alterations. In these stress responses, oxidative damage appears as a convergent pathway, yet paradoxically, controlled ROS production remains essential for normal meiotic progression. Critically, meiotic vulnerability is not merely an evolutionary oversight but potentially an adaptive feature. Stress-induced increasing recombination rate elevates genetic diversity, while weak checkpoints permit aneuploidy and unreduced gamete formation, thus facilitate polyploidization, a primary driver of plant speciation.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Attila Fábián"
+      ],
+      "authors_display": "Attila Fábián",
+      "first_seen_at": "2026-04-30T04:30:39Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/molbev/msac123",
+        "pmcid": "9210943",
+        "pmid": "42053800"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "double strand break formation",
+          "meiotic recombination"
+        ]
+      },
+      "paper_key": "doi:10.1093/molbev/msac123",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-29",
+      "short_abstract": "Plant meiosis constitutes a critical vulnerability under unfavorable conditions in plant reproduction. In the 21st century, with the accelerating global climate change, environmental stresses increasingly compromise fertility and genetic stability. This review examines the role of abiotic stress factors - including heat, cold, drought,...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "The meiotic achilles' heel: vulnerability and resilience under environmental stress.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42053800/",
+      "venue": "Protoplasma",
+      "venue_display": "Protoplasma"
+    },
+    {
+      "abstract": "Fruit maturity date is a key developmental trait in fruit trees, as it determines the timing at which fruits enter the ripening phase, thereby shaping harvest calendar and fruit quality. In peach, ripening time varies over several months, yet the genetic and regulatory basis underlying this extensive phenological diversity has remained largely unresolved. Here, we dissect the long-standing chromosome 4 maturity date locus (qMD4.1) and show that a multi-allelic series of structural variants in the upstream regulatory region of the transcription factor NAC1 explains most of the observed variation in ripening time in cultivated peach. Across multiple independent populations and diverse genetic backgrounds, these variants (collectively termed Md) stratify maturity date from ultra-early to late cultivars with largely additive and dosage-dependent effects. Using recombinant-based genetic dissection, long-read sequencing, transcriptomic analyses and epigenomic data integration, we show that Md alleles are consistently associated with allele-dependent shifts in the temporal dynamics of NAC1 transcript accumulation, and that the affected region overlaps with chromatin features characteristic of regulatory activity. By resolving the genetic architecture of a major phenological locus, our results support a central role for cis-regulatory structural variation in modulating developmental timing in peach and provide biologically interpretable markers for predicting maturity date. More broadly, this work illustrates how non-coding structural variation can contribute to variation in fruit developmental trajectories, with implications for breeding strategies aimed at modulating harvest windows in peach and other stone fruit species.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Alessandro Giulio Tagliabue",
+        "James Friel",
+        "Remo Chiozzotto",
+        "Irina Baccichet",
+        "Cassia Da Silva Linge",
+        "Elisa Calastri",
+        "Gianluca Biffi",
+        "Nathalia Zaracho",
+        "Stefano Gattolin",
+        "Sabrina Micali",
+        "Iban Eduardo",
+        "Daniele Bassi",
+        "Laura Rossini",
+        "Marco Cirilli"
+      ],
+      "authors_display": "Alessandro Giulio Tagliabue, James Friel, Remo Chiozzotto, et al.",
+      "first_seen_at": "2026-04-30T04:30:39Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/jxb/erag210",
+        "pmcid": null,
+        "pmid": "42051122"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation",
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1093/jxb/erag210",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-29",
+      "short_abstract": "Fruit maturity date is a key developmental trait in fruit trees, as it determines the timing at which fruits enter the ripening phase, thereby shaping harvest calendar and fruit quality. In peach, ripening time varies over several months, yet the genetic and regulatory basis underlying this extensive phenological diversity has remained...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Regulatory structural variation upstream of a NAC transcription factor controls fruit maturity timing in peach.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42051122/",
+      "venue": "J Exp Bot",
+      "venue_display": "J Exp Bot"
+    },
+    {
+      "abstract": "Acinetobacter baumannii is one of the most important antibiotic-resistant bacterial pathogens. While human clinical isolates have been extensively studied, genomic information from non-human sources remains limited. Here, gathering a dataset of > 23,000 genomes from many sources, we provide a comprehensive view of non-human A. baumannii. Average Nucleotide Identity (ANI) and Sequence Type (ST) diversity analyses show that non-human isolates are more diverse than the human isolates. Furthermore, the non-human isolates have an open pangenome. Notably, phylogenomic tree and population structure analysis suggest constant transmission between humans and non-human sources, with source-specific lineages. Finally, resistome analysis reveals that bacteria from diverse sources, such as dogs, horses, and wastewater, carry significant numbers of antibiotic resistance genes (ARGs). Together, these results suggest that non-human A. baumannii are vastly diverse and may pose a public health concern, stressing the need for more research on non-human sources of bacterial pathogens through an explicit One Health surveillance approach. On a more general level, this work highlights the relevance of multi-host genomic epidemiology approximations to better understand important human pathogens.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Alejandro Aguilar-Vera",
+        "Rafael López-Sánchez",
+        "Alfredo J Hernández-Alvarez",
+        "David Vargas-Peralta",
+        "Humberto Peralta",
+        "Santiago Castillo-Ramírez"
+      ],
+      "authors_display": "Alejandro Aguilar-Vera, Rafael López-Sánchez, Alfredo J Hernández-Alvarez, et al.",
+      "first_seen_at": "2026-04-30T04:30:39Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41467-026-72585-4",
+        "pmcid": null,
+        "pmid": "42049772"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41467-026-72585-4",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-28",
+      "short_abstract": "Acinetobacter baumannii is one of the most important antibiotic-resistant bacterial pathogens. While human clinical isolates have been extensively studied, genomic information from non-human sources remains limited. Here, gathering a dataset of > 23,000 genomes from many sources, we provide a comprehensive view of non-human A....",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Global multi-host genomic epidemiology of Acinetobacter baumannii reveals transmission at one health interfaces.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42049772/",
+      "venue": "Nat Commun",
+      "venue_display": "Nat Commun"
+    },
     {
       "abstract": "Ovotesticular Difference of Sex Development (OT-DSD) may result from chimerism, mosaicism, structural or sequence variants. However, even after investigating all known causes, many individuals still lack an established etiology. This study aimed to perform cytogenomic investigation of individuals with OT-DSD. The sample consisted of 15 individuals with OT-DSD. Methods included G-banding karyotype, Chromosomal Microarray Analysis (CMA), Optical Genome Mapping (OGM), and Whole-Genome Sequencing (WGS). G-banding karyotype revealed chimerism in two individuals, mosaicism in one, and 47,XXY karyotype in another. One individual had a pericentric inversion at the X chromosome, with breakpoints mapped close to SOX3. Ten individuals had a normal karyotype, eight 46,XX, and two 46,XY. CMA, performed in 11, identified a duplication including the SOX3 gene in one 46,XX individual, and two duplications in a 46,XY individual, with breakpoints mapped by WGS, suggesting a complex rearrangement that could affect VAMP7 expression. OGM was performed in two individuals and WGS in nine individuals, which did not reveal additional relevant structural variants (SVs). Cytogenomic methods identified causative alterations in 5/15 (33.3%) individuals, underscoring the need to combine complementary approaches to detect and characterize SVs. In the remaining cases, the etiology was undetermined, emphasizing the need for further molecular investigations.",
       "accent_color": "#2f8f6b",
@@ -181,52 +396,53 @@
       "venue_display": "Cerebellum"
     },
     {
-      "abstract": "Developmental epileptic encephalopathy (DEE) comprises neurodevelopmental disorders with early-onset seizures and developmental impairment. Despite >900 implicated genes, many patients remain undiagnosed after short-read sequencing (SRS). We assessed long-read genome sequencing (LR-GS) in 38 previously unsolved infantile-onset DEE probands (10 singletons, 28 trios). Variant detection included single nucleotide variants (SNVs), structural variants, copy number variants and short tandem repeats in established repeat expansion disease genes. LR-GS identified candidate variants in 8 out of 38 probands (21%) missed by SRS: five large deletions, one SNV in a low-mappability region of NSF, one case resolved via haplotype phasing of compound heterozygous SNVs without parental samples and one case where LR-GS detected an allele missed due to coverage gaps. An additional eight probands (21%) harboured variants technically detectable by SRS but were missed due to newly associated genes, synonymous variants lacking splicing evaluation or prior analytic pipelines. LR-GS substantially increases diagnostic yield in unsolved infantile-onset DEE, supporting its incorporation into clinical workflows as a second-tier genetic test for otherwise unsolved neurodevelopmental disorders.",
+      "abstract": "Over half of presumed genetic disease cases remain undiagnosed following short-read exome (SR-ES) or genome sequencing (SR-GS). Long-read genome sequencing (LR-GS) shows promise for uncovering etiologies missed by SR genetic testing, particularly structural variants (SVs). However, SV interpretation remains challenging due to limitations in call reliability, population allele frequency estimates, and functional impact prediction. To advance clinical LR-GS implementation, we analyzed the genomes of 19 children with suspected rare genetic conditions and prior negative or inconclusive clinical SR-GS/-ES and their parents using PacBio HiFi LR-GS. One additional family with limited DNA underwent Illumina SR-GS only, and 11 probands received SR-GS to complement small variant detection. LR-GS data were processed using phased-assembly and read-based variant calling pipelines validated on SV positive controls, while SR-GS data were processed with the Illumina DRAGEN pipeline. Variants were prioritized using phenotype-driven approaches. Diagnostic variants (likely pathogenic or pathogenic) were identified in 2/20 (10%) families, while an additional 5/20 (25%) harbored findings of uncertain diagnostic significance, including variants of uncertain significance (VUS) and variants in genes of uncertain significance (GUS). All reported variants were detected independently of LR-GS by research SR-GS or by reanalysis of prior clinical SR data. Several LR-GS SV candidates were excluded after population allele frequency filtering, underscoring its importance in clinical SV interpretation. Overall, the observed 10% increase in diagnostic yield was achievable through SR analysis alone, as LR-GS was not required to identify diagnostic variants in this cohort. Functional studies are needed to clarify the clinical relevance of uncertain findings.",
       "accent_color": "#2f8f6b",
       "authors": [
-        "Chanatjit Cheawsamoot",
-        "Rungroj Thangpong",
-        "Wanna Chetruengchai",
-        "Songphon Kanlayaprasit",
-        "Wuttichart Kamolvisit",
-        "Phawin Kor-Anantakul",
-        "Adjima Assawapitaksakul",
-        "Ponghatai Boonsimma",
-        "Sathida Poonmaksatit",
-        "Krisnachai Chomtho",
-        "Tayard Desudchit",
-        "Vorasuk Shotelersuk"
+        "Elizabeth A Werren",
+        "Purva Vats",
+        "Gabriel E Rech",
+        "Michael Peracchio",
+        "Cameron King",
+        "Elizabeth J Charnysh",
+        "Ryan D Gorham",
+        "Peter A Audano",
+        "Peter N Robinson",
+        "Melissa A Kelly",
+        "Adam P Matson",
+        "Mark D Adams",
+        "Louisa Kalsner"
       ],
-      "authors_display": "Chanatjit Cheawsamoot, Rungroj Thangpong, Wanna Chetruengchai, et al.",
-      "first_seen_at": "2026-04-29T04:27:57Z",
+      "authors_display": "Elizabeth A Werren, Purva Vats, Gabriel E Rech, et al.",
+      "first_seen_at": "2026-04-30T04:30:39Z",
       "identifiers": {
         "arxiv_id": null,
         "biorxiv_doi": null,
-        "doi": "10.1136/jmg-2026-111514",
+        "doi": "10.1016/j.xhgg.2026.100620",
         "pmcid": null,
-        "pmid": "42045022"
+        "pmid": "42050932"
       },
       "matched_keywords": {
         "pangenome_sv": [
           "structural variants"
         ]
       },
-      "paper_key": "doi:10.1136/jmg-2026-111514",
+      "paper_key": "doi:10.1016/j.xhgg.2026.100620",
       "primary_topic": "pangenome_sv",
       "primary_topic_label": "Pangenome / Structural Variation",
       "published_date": "2026-04-27",
-      "short_abstract": "Developmental epileptic encephalopathy (DEE) comprises neurodevelopmental disorders with early-onset seizures and developmental impairment. Despite >900 implicated genes, many patients remain undiagnosed after short-read sequencing (SRS). We assessed long-read genome sequencing (LR-GS) in 38 previously unsolved infantile-onset DEE...",
+      "short_abstract": "Over half of presumed genetic disease cases remain undiagnosed following short-read exome (SR-ES) or genome sequencing (SR-GS). Long-read genome sequencing (LR-GS) shows promise for uncovering etiologies missed by SR genetic testing, particularly structural variants (SVs). However, SV interpretation remains challenging due to...",
       "source_primary": "pubmed",
       "sources": [
         "pubmed"
       ],
-      "title": "Long-read genome sequencing increases diagnostic yield in a short-read sequencing unsolved developmental epileptic encephalopathy (DEE) cohort.",
+      "title": "Diagnostic utility of clinical genome reanalysis in rare pediatric disorders using long-read sequencing.",
       "topics": [
         "pangenome_sv"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42045022/",
-      "venue": "J Med Genet",
-      "venue_display": "J Med Genet"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42050932/",
+      "venue": "HGG Adv",
+      "venue_display": "HGG Adv"
     },
     {
       "abstract": "Pairwise sequence comparisons are at the center of molecular evolutionary analyses. However, viral pairwise comparisons are challenging because extreme mutation rates and evolutionary pressure cause genomes to diverge rapidly, limiting detectable sequence similarity to fewer than 3% of virus pairs. To overcome these limitations, we compared viruses based on structural similarity, using predicted protein structures from ColabFold and Foldseek to define protein fold clusters. We represented each virus genome by its protein structural content. Pairwise similarities between viruses were then quantified using the Jaccard index based on the presence or absence of protein fold clusters. Using a recently established viral protein fold database, we compared all pairs of eukaryotic viruses in RefSeq. This approach increased the proportion of comparable viral genome pairs from 2.4% to 16.5%. Using this protein-fold representation of viruses, we were able to accurately predict viral families with an average sensitivity of 85.9%. Investigation of viral families showing limited sensitivity with this approach uncovered a laterally transferred structural cluster (Rep/NS1) broadly shared across diverse viral families and found in the avian lineage of adenoviruses. Sequence homology suggests that this Rep was acquired from Parvoviridae, but the protein is mutant in the ATPase active site, indicating possible exaptation towards a purely DNA binding function. In Gammapapillomaviruses, several E4 clusters were associated with human tropism. In summary, by representing viruses with structural protein clusters, we can classify highly divergent viruses, trace lateral gene transfer, and uncover features associated with viral host range.",
@@ -267,85 +483,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42041085/",
       "venue": "Mol Biol Evol",
       "venue_display": "Mol Biol Evol"
-    },
-    {
-      "abstract": "Keratoconus (KC) is a progressive corneal disorder caused by impaired biomechanical integrity, leading to geometric deformation. Although corneal changes are well characterized, iris structural alterations across KC stages remain poorly studied. Accordingly, this study aims to compare quantitative iris characteristics among healthy controls and patients with different stages of KC. This retrospective cross-sectional study included 547 eyes: 497 from 264 keratoconus subjects classified according to the Topographic Keratoconus Classification (TKC) system as subclinical (n = 102), early stage (n = 219, TKC 1-2), and late-stage (n = 176, TKC 3-4), and single eyes from 50 healthy emmetropic controls. Anterior segment imaging was performed using Pentacam Scheimpflug tomography. Iris segmentation was achieved using a semi-automated Python-based pipeline incorporating the Segment Anything Model, followed by extraction of the anterior iris boundary. The iris was subdivided into basal, mid-iris, and pupil-edge regions. Region-specific geometric parameters, including curvature, arc length, and area under the curve (AUC), were computed using spline-based fitting and numerical integration. Group comparisons were conducted using one-way analysis of variance with false discovery rate correction, followed by age-adjusted analysis of covariance. Mean basal and mid-iris curvature showed significant overall differences across TKC stages, with a progressive reduction from healthy controls to late-stage KC (p = 0.01 and p < 0.001, respectively). In contrast, pupil-edge curvature showed an opposite trend, with the highest values in late-stage KC (p = 0.02). Iris arc length did not differ significantly between groups, whereas AUC exhibited a region-specific difference limited to the pupil-edge iris (p = 0.02). These findings remained statistically significant after age adjustment. Increased pupil-edge curvature in KC represents a geometric alteration that may be clinically relevant in eyes undergoing intraocular surgery, particularly in relation to anterior chamber dynamics and potential susceptibility to postoperative pupillary block. Conversely, mid-iris straightening may reflect structural variation within the iris in late-stage disease. Together, these findings suggest that corneal geometric changes in KC may be associated with subtle alterations in anterior chamber mechanical environment, potentially contributing to secondary changes in iris configuration.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Onur Özalp",
-        "Oylum Buse Gür",
-        "Safa Merve İçer",
-        "Hatice Nur Nevruz Yılmaz",
-        "Eray Atalay"
-      ],
-      "authors_display": "Onur Özalp, Oylum Buse Gür, Safa Merve İçer, et al.",
-      "first_seen_at": "2026-04-28T04:32:37Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.jfo.2017.07.003",
-        "pmcid": "10382025",
-        "pmid": "42043741"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variation"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.jfo.2017.07.003",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-27",
-      "short_abstract": "Keratoconus (KC) is a progressive corneal disorder caused by impaired biomechanical integrity, leading to geometric deformation. Although corneal changes are well characterized, iris structural alterations across KC stages remain poorly studied. Accordingly, this study aims to compare quantitative iris characteristics among healthy...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Scheimpflug Photography-Based Evaluation of Structural Iris Changes Across Keratoconus Stages in Comparison with Healthy Eyes.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42043741/",
-      "venue": "Ophthalmol Ther",
-      "venue_display": "Ophthalmol Ther"
-    },
-    {
-      "abstract": "Despite extensive evidence linking chronotype to behavioral and physiological outcomes, its structural neuroanatomical correlates, especially in healthy young adults, remain insufficiently characterized, and multimodal structural investigations integrating Voxel-based morphometry (VBM), cortical thickness (CT), and brain-age metrics are still limited. We examined whether chronotype—preference for early or late sleep–wake timing—is associated with structural brain variation in 136 healthy young adults (68 early chronotypes [EC], 68 late chronotypes [LC]) using high-resolution MRI. Early and late chronotypes were defined using the Morningness–Eveningness subscale of the Chronotype Questionnaire (ChQ-ME): early chronotype (EC) scores 11–21 and late chronotype (LC) scores 22–32. The VBM analyses were conducted to assess gray and white matter morphology, complemented by CT analyses and estimation of brain-predicted age difference (Brain-PAD) as an index of biological brain aging. Sensitivity analyses additionally modeled ChQ-ME as a continuous predictor. Primary voxel-wise VBM analyses did not identify between-group differences in gray or white matter morphology that survived family-wise error (FWE) correction (p < 0.05). In pre-specified exploratory analyses (voxel-wise p < 0.001, uncorrected; cluster-level false discovery rate [FDR] correction q < 0.05), late chronotype (LC) participants showed an exploratory left cerebellar/occipital cluster with lower gray matter volume. Region-wise CT differences were nominal (p < 0.05) and did not survive FDR correction across regions. No significant differences in Brain-PAD were observed. In healthy young adults, chronotype-related structural differences were not detectable under conservative voxel-wise FWE correction; however, pre-specified exploratory analyses suggested a regionally specific cerebellar gray matter pattern and nominal CT trends. These findings motivate larger and longitudinal studies with objective sleep–wake timing measures to clarify whether sleep timing is linked to early structural variation and to test its potential modifiability.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Iman Beheshti",
-        "Odelia Elkana"
-      ],
-      "authors_display": "Iman Beheshti, Odelia Elkana",
-      "first_seen_at": "2026-04-28T04:32:37Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.3389/fnins.2022.811771",
-        "pmcid": "PMC9399511",
-        "pmid": "42033536"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variation"
-        ]
-      },
-      "paper_key": "doi:10.3389/fnins.2022.811771",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-25",
-      "short_abstract": "Despite extensive evidence linking chronotype to behavioral and physiological outcomes, its structural neuroanatomical correlates, especially in healthy young adults, remain insufficiently characterized, and multimodal structural investigations integrating Voxel-based morphometry (VBM), cortical thickness (CT), and brain-age metrics are...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Neuroanatomical signatures of chronotype in young adults.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42033536/",
-      "venue": "Brain Imaging Behav",
-      "venue_display": "Brain Imaging Behav"
     },
     {
       "abstract": "The emergence and spread of anthelmintic resistance represent a major challenge for treating parasitic nematodes, threatening mass-drug administration control programs in humans and zoonotic hosts. Currently, experimental evidence to understand the influence of management (e.g., treatment dose and frequency) and parasite-associated factors (e.g., genetic variation, population size and mutation rates) is scarce. To rectify this knowledge gap, we performed controlled evolution experiments with the model nematode Caenorhabditis elegans and further evaluated the evolution dynamics with a computational model. Large population size was critical for rapid ivermectin resistance evolution in vitro and in silico. Male nematode production was favored during resistance evolution, suggesting a selective advantage of sexual recombination under drug pressure in vitro. Evolution of ivermectin resistance led to reduced efficacy of the structurally related anthelmintic moxidectin, as anticipated, as well as reduced efficacy of the structurally unrelated anthelmintic emodepside, which has a distinct mode of action. In contrast, albendazole, levamisole, and monepantel efficacy were not influenced by the evolution of ivermectin resistance. We conclude that combining computational modeling with in vitro evolution experiments to test specific aspects of evolution directly represents a promising approach to guide the development of novel treatment strategies to anticipate and mitigate resistance evolution in parasitic nematodes.",
@@ -555,152 +692,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42019962/",
       "venue": "Radiat Res",
       "venue_display": "Radiat Res"
-    },
-    {
-      "abstract": "Many plants, unlike most animals, can reproduce as clones [D. Kester, HortScience 18, 831-837 (1983), 10.21273/hortsci.18.6.831]. Cloning plants is vital to agriculture and biotechnology [H. Barton, T. Denham, Quatern. Int. 489, 17-25 (2018), O. L. Gamborg, In Vitro Cell. Dev. Biol. Plant 38, 84-92 (2002), K.-H. Neumann, A. Kumar, J. Imani, Plant Cell and Tissue Culture-A Tool in Biotechnology: Basics and Application (ed. 2, 2020)], but the extent to which somatic mutation arises during asexual propagation remains an outstanding question. Leveraging a natural experiment of walnut clones spanning five decades and multiple cloning methods, we found a complex history of somatic mutation revealing developmental cell dynamics. A haplotype-phased reference genome exposed extreme genomic instability, a distinct mutation spectrum, and a >3,500% increase in mutation rate within clonal somatic embryos. Pairing these mutations with the haplotype-phased assembly revealed the canonical flowering plant meristematic layers from bulk tissue sequencing and uncovered frequent fixation events throughout development. These findings raise concerns about genomic integrity in tissue culture, test assumptions about mutagenesis in clonal propagation, and establish a benchmark for emerging paradigms in somatic mutation research.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Matthew W Davis",
-        "Charles A Leslie",
-        "Chaehee Lee",
-        "Evan Long",
-        "Li Meinhold",
-        "Megan Lorenc",
-        "Franklin Lewis",
-        "Patrick J Brown",
-        "Grey Monroe"
-      ],
-      "authors_display": "Matthew W Davis, Charles A Leslie, Chaehee Lee, et al.",
-      "first_seen_at": "2026-04-23T04:11:56Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1073/pnas.2530182123",
-        "pmcid": null,
-        "pmid": "42018421"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rate"
-        ]
-      },
-      "paper_key": "doi:10.1073/pnas.2530182123",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-22",
-      "short_abstract": "Many plants, unlike most animals, can reproduce as clones [D. Kester, HortScience 18, 831-837 (1983), 10.21273/hortsci.18.6.831]. Cloning plants is vital to agriculture and biotechnology [H. Barton, T. Denham, Quatern. Int. 489, 17-25 (2018), O. L. Gamborg, In Vitro Cell. Dev. Biol. Plant 38, 84-92 (2002), K.-H. Neumann, A. Kumar, J....",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Genome degradation in plant tissue culture.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42018421/",
-      "venue": "Proc Natl Acad Sci U S A",
-      "venue_display": "Proc Natl Acad Sci U S A"
-    },
-    {
-      "abstract": "Understanding how virus sequences are shaped by selection can inform vaccine design and transmission inference. Modeling within-host evolution to interrogate these questions requires a detailed mechanistic framework that accurately captures sequence diversification. The CD8 + cytotoxic T-lymphocyte (CTL) response plays an important role in immune-mediated selection and can leave strong signatures in virus sequences; however, existing sequence-based within-host virus modeling frameworks do not explicitly include a human leukocyte antigen (HLA)-aware CTL response. We extended our previously published within-host sequence evolution simulator, wavess, to include an explicit CTL response, and share a method for identifying HLA-specific CTL epitopes given a founder virus sequence. We also updated the model to permit a variable recombination rate, which allows for modeling non-adjacent genes, segmented genomes, and recombination hotspots. These extensions to wavess allow for more accurate simulation of viruses and virus genes, particularly in regions of the genome where the immune response is dominated by CTLs (rather than antibodies). It also provides the foundation for investigations of how these newly-added biological mechanisms influence within-host evolution. The core of wavess is written in Python 3, with helper functions written in R. It is available at https://github.com/MolEvolEpid/wavess.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Zena Lapp",
-        "Thomas Leitner"
-      ],
-      "authors_display": "Zena Lapp, Thomas Leitner",
-      "first_seen_at": "2026-04-23T04:11:56Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.64898/2026.02.19.706869",
-        "pmcid": "PMC12934743",
-        "pmid": "41756898"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "recombination hotspots"
-        ]
-      },
-      "paper_key": "doi:10.64898/2026.02.19.706869",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-04-18",
-      "short_abstract": "Understanding how virus sequences are shaped by selection can inform vaccine design and transmission inference. Modeling within-host evolution to interrogate these questions requires a detailed mechanistic framework that accurately captures sequence diversification. The CD8 + cytotoxic T-lymphocyte (CTL) response plays an important role...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "wavess 1.2: Presenting an HLA-aware within-host virus sequence simulation framework.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41756898/",
-      "venue": "bioRxiv",
-      "venue_display": "bioRxiv"
-    },
-    {
-      "abstract": "Paramecia belong to the ciliate phylum of unicellular eukaryotes characterized by nuclear dimorphism. A diploid germline micronucleus (MIC) transmits genetic information across sexual generations. A polyploid transcriptionally active somatic macronucleus (MAC) develops at each sexual generation from a copy of the MIC through programmed DNA elimination (PDE) of > 30% of germline DNA. PDE requires the domesticated PiggyMac (Pgm) transposase. Assembly of Paramecium germline genomes has presented an enormous challenge owing to the difficulty of MIC isolation. We report chromosome-scale short-read MIC assemblies for 7 species from the P. aurelia species complex. We discovered a novel clade of Helitrons, with 9-10-kb transposase ORFs under purifying selection, that have remained active in all P. aurelia lineages. A long-read assembly for P. tetraurelia together with a genetic linkage map provided a nearly telomere-to-telomere assembly. The ~ 100-Mb genome consists of tiny (300 kb-1.2 Mb) and numerous (~ 160) germline chromosomes with the highest recombination rate ever reported for a eukaryote (420 cM/Mb). The ends of the chromosomes consist of Helitrons inserted in telomeric C4A2 repeats, forming a distinct genomic compartment that is eliminated very early during MAC development in a Pgm-independent manner.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Olivier Arnaiz",
-        "Frédéric Guérin",
-        "Arnaud Couloux",
-        "Caridad Miró-Pina",
-        "Guillaume Pellerin",
-        "Irina Nekrasova",
-        "Joëlle Amselem",
-        "Jean-Marc Aury",
-        "Simran Bhullar",
-        "Andrea Frapporti",
-        "Emmanuelle Lerat",
-        "Isabelle Luyten",
-        "Sophie Malinsky",
-        "Nathalie Mathy",
-        "Alexey Potekhin",
-        "Vinciane Régnier",
-        "Natalia Sawka-Gądek",
-        "Amandine Touzeau",
-        "Augustin de Vanssay",
-        "Coralie Zangarelli",
-        "Hadi Quesneville",
-        "Mireille Bétermier",
-        "Karine Labadie",
-        "Laurent Duret",
-        "Eric Meyer",
-        "Sandra Duharcourt",
-        "Linda Sperling"
-      ],
-      "authors_display": "Olivier Arnaiz, Frédéric Guérin, Arnaud Couloux, et al.",
-      "first_seen_at": "2026-04-18T03:46:36Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.21105/joss.01686",
-        "pmcid": "7145670",
-        "pmid": "41992225"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "linkage map"
-        ]
-      },
-      "paper_key": "doi:10.21105/joss.01686",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-04-16",
-      "short_abstract": "Paramecia belong to the ciliate phylum of unicellular eukaryotes characterized by nuclear dimorphism. A diploid germline micronucleus (MIC) transmits genetic information across sexual generations. A polyploid transcriptionally active somatic macronucleus (MAC) develops at each sexual generation from a copy of the MIC through programmed...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "The tiny germline chromosomes of Paramecium aurelia have an exceptionally high recombination rate and are capped by a new class of Helitrons.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41992225/",
-      "venue": "BMC Biol",
-      "venue_display": "BMC Biol"
     },
     {
       "abstract": "Probabilistic models such as the sequentially Markovian coalescent have long provided a powerful framework for population genetic inference, enabling reconstruction of demographic history and ancestral relationships from genomic data. However, these methods are inherently specialized, relying on predefined assumptions and/or limited scalability. Recent advances in simulation and deep learning provide an alternative approach: learning directly to generalize from synthetic genetic data to infer hidden evolutionary processes. Here we reframe the inference of coalescence times as a problem of translation between two biological languages: the sparse, observable patterns of mutation along the genome and the unobservable ancestral recombination graph that gave rise to them. Inspired by large language models, we develop cxt, a decoder-only transformer that autoregressively predicts coalescent events conditioned on local mutational context. We show that cxt performs competitively with state-of-the-art Markov Chain Monte Carlo-based likelihood models across a broad range of demographic scenarios, matching their accuracy in-distribution and approaching it in out-of-distribution, with the potential for improvement via fine-tuning. Trained on simulations spanning the stdpopsim catalog [J. R. Adrion et al., eLife 9, e54967 (2020); M. E. Lauterbur et al., eLife 12, e84874 (2023); G. Gower et al., Accessible, realistic genome simulation with selection using stdpopsim. bioRxiv [Preprint] (2025). https://doi.org/10.1101/2025.03.23.644823.], the model generalizes robustly and enables efficient inference at scale, producing over a million coalescence predictions in minutes. cxt also produces well-calibrated approximate posteriors, enabling principled uncertainty quantification. We apply cxt to population genomic data from both humans and mosquitoes, highlighting the model's ability to deal with the complexities of empirical data.",
