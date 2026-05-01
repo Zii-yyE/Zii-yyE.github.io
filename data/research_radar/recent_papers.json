@@ -1,47 +1,414 @@
 {
-  "generated_at": "2026-04-30T04:30:39Z",
+  "generated_at": "2026-05-01T04:47:49Z",
   "latest": [
     {
-      "abstract": "Understanding the principles governing mutagenesis is important because mutations are a fundamental driver of evolution and a cause of disease. Although mutation rates and spectra depend on genotype and environment, how these factors interact is unclear. We address this question using mutation accumulation experiments in 11 budding yeast strains across three environments that produce strong genotype-by-environment interactions in fitness. Analysis of over 9000 accumulated mutations reveals that per-generation rates of all mutation types-single-nucleotide variations, small insertions and deletions, segmental duplications and deletions, and chromosome gains and losses-decline with increasing organismal fitness. Notably, relative mutation rates between strains tend to invert when environmental shifts reverse their relative fitness. The mutation spectrum is also partially fitness dependent: Higher-fitness strains show a lower transition-to-transversion ratio and a stronger AT mutational bias. Thus, organismal fitness shapes not only natural selection but also the quantity and composition of mutations available to selection, with broad implications for the molecular clock, adaptive evolution, and genetic load.",
-      "accent_color": "#f25f4c",
+      "abstract": "The human oral microbiome, a complex ecosystem of niche-specific communities influenced by local ecological factors, plays a critical role in health and disease. Capnocytophaga species are prevalent in the human mouth, often abundant in dental plaque and linked to both commensalism and pathogenicity, motivating a detailed study of their ecological and functional diversity. This study employs metapangenomics to reveal Capnocytophaga strain-level distributions and functional adaptations across distinct sites in the human oral cavity. Pangenomic, phylogenetic, and average nucleotide identity analyses enabled classification of unnamed genomes and identified 13 groups, of which 8 include validly named species, and the remainder are named using Human Microbial Taxon (HMT) designations in the Human Oral Microbiome Database (HOMD; https://www.homd.org/). Mapping metagenomic reads to the pangenome revealed a strong preference of most Capnocytophaga genomes for dental plaque (both supra- and subgingival), yet identified strain-level variants of C. sputigena, C. gingivalis, C. granulosa, and C. leadbetteri detected more often on the tongue. Among dental plaque-abundant taxa, functional analyses uncovered two clades: one with cbb3-type cytochrome oxidase that is tied to enhanced denitrification and could help the organism adapt to hypoxic zones, and another with bd-type ubiquinol oxidase, more suited to aerobic metabolism. Carbohydrate and amino acid metabolism pathways also differed between these clades. These findings identify metabolic adaptations that may underlie sub-specialization within the plaque habitat and highlight the strain-level diversity of Capnocytophaga, including low-prevalence strains that are preferentially detected in sites outside the primary plaque habitat of this taxon. Understanding the ecological roles of Capnocytophaga in the oral microbiome is critical for deciphering its contributions to health and disease, including periodontal and systemic infections. This metapangenomics study reveals a pronounced specialization by Capnocytophaga to dental plaque (including supragingival, subgingival, and periodontal pockets) and identifies metabolic adaptations, such as distinct respiratory, carbohydrate, and amino acid pathways, that may drive niche-specific survival. These findings support the site-specialist hypothesis and enhance our understanding of oral microbial community structure, laying a foundation for future research into microbial interactions and targeted therapies for oral health.",
+      "accent_color": "#2f8f6b",
       "authors": [
-        "Shuting Ding",
-        "Anjali Mahilkar",
-        "Yang Li",
-        "Jianzhi Zhang"
+        "Jonathan J Giacomini",
+        "Julian Torres-Morales",
+        "Floyd E Dewhirst",
+        "Gary G Borisy",
+        "Jessica L Mark Welch"
       ],
-      "authors_display": "Shuting Ding, Anjali Mahilkar, Yang Li, et al.",
-      "first_seen_at": "2026-04-30T04:30:39Z",
+      "authors_display": "Jonathan J Giacomini, Julian Torres-Morales, Floyd E Dewhirst, et al.",
+      "first_seen_at": "2026-05-01T04:47:49Z",
       "identifiers": {
         "arxiv_id": null,
         "biorxiv_doi": null,
-        "doi": "10.1126/sciadv.adj6957",
+        "doi": "10.1128/spectrum.03626-25",
         "pmcid": null,
-        "pmid": "42054461"
+        "pmid": "42059625"
       },
       "matched_keywords": {
-        "mutation_rate": [
-          "mutation rate",
-          "mutation accumulation",
-          "mutation rates"
+        "pangenome_sv": [
+          "pangenomic",
+          "pangenome"
         ]
       },
-      "paper_key": "doi:10.1126/sciadv.adj6957",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-29",
-      "short_abstract": "Understanding the principles governing mutagenesis is important because mutations are a fundamental driver of evolution and a cause of disease. Although mutation rates and spectra depend on genotype and environment, how these factors interact is unclear. We address this question using mutation accumulation experiments in 11 budding...",
+      "paper_key": "doi:10.1128/spectrum.03626-25",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-30",
+      "short_abstract": "The human oral microbiome, a complex ecosystem of niche-specific communities influenced by local ecological factors, plays a critical role in health and disease. Capnocytophaga species are prevalent in the human mouth, often abundant in dental plaque and linked to both commensalism and pathogenicity, motivating a detailed study of their...",
       "source_primary": "pubmed",
       "sources": [
         "pubmed"
       ],
-      "title": "Spontaneous mutation rate and spectrum are modulated by organismal fitness.",
+      "title": "Spatial ecology of the Capnocytophaga genus in the human oral cavity.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42059625/",
+      "venue": "Microbiol Spectr",
+      "venue_display": "Microbiol Spectr"
+    },
+    {
+      "abstract": "The uplift of the Central American Isthmus (CAI) represents a natural laboratory for the study of allopatric speciation in marine organisms. Several geminate species pairs of both vertebrates and invertebrates formed following the uplift of the CAI, including damselfishes of the Pomacentridae family. However, to date few studies have explored the genomic differences among trainsisthmian species in the Pacific and Atlantic Oceans. In this study we present genome assemblies for the transisthmian species pair consisting of the Sergeant Major Abudefduf saxatilis (Tropical Atlantic) and the Panamic Sergeant Major Abudefduf troschelii (Tropical Eastern Pacific) derived from PacBio long-read sequencing. The new genomes are near-chromosome level, and among the highest-quality genomes currently available for coral reef fishes. We show that large structural variants distinguish the two species, including a nine-megabase inversion in linkage group (putative chromosome) six. Additionally, we show through an analysis of demographic history that alleles within the two genomes have different coalescence time distributions, which may be due to different effective population sizes, population structures, and/or selection regimes in the two oceans. Finally, we highlight gene families that were significantly expanded or contracted between A. troschelii and A. saxatilis. Some of these are related to the environmental differences between the two oceans, including gamma crystallin M (crygm), which is linked to vision, and vitellogenin (vtg), which is associated with egg provisioning. These genomes set the stage for comparative analyses of genetic structure and selection on the marine organisms that originated with the formation of the CAI.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Claire B Tracy",
+        "Carlos F Arias",
+        "Eirlys Tysall",
+        "Marc P Hoeppner",
+        "Owen W McMillan",
+        "Oscar Puebla",
+        "Moisés A Bernal"
+      ],
+      "authors_display": "Claire B Tracy, Carlos F Arias, Eirlys Tysall, et al.",
+      "first_seen_at": "2026-05-01T04:47:49Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/gbe/evag111",
+        "pmcid": null,
+        "pmid": "42060844"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1093/gbe/evag111",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-30",
+      "short_abstract": "The uplift of the Central American Isthmus (CAI) represents a natural laboratory for the study of allopatric speciation in marine organisms. Several geminate species pairs of both vertebrates and invertebrates formed following the uplift of the CAI, including damselfishes of the Pomacentridae family. However, to date few studies have...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Comparative Genomics of Transisthmian Damselfishes (Abudefduf saxatilis and A. troschelii).",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42060844/",
+      "venue": "Genome Biol Evol",
+      "venue_display": "Genome Biol Evol"
+    },
+    {
+      "abstract": "The synaptonemal complex (SC) is a highly ordered proteinaceous structure that assembles between homologous chromosomes during the prophase I of meiosis. Conserved as a tripartite architecture across species, the SC plays a central role in chromosome synapsis, meiotic recombination, and faithful chromosome segregation. This review marks the 70th anniversary of the discovery of the synaptonemal complex by Montrose Moses in 1956. In mammals, the SC is composed of eight core (canonical) structural proteins: SYCP1, SYCP2, SYCP3, SYCE1, SYCE2, SYCE3, SIX6OS1, and TEX12. The archetypal SC consists of two lateral elements (SYCP2 and SYCP3), a central element (SYCE1/2/3, SIX6OS1, and TEX12), and numerous transverse filaments (SYCP1). A shared structural feature of SC components is the presence of coiled-coil domains. Although the tripartite organization of the SC is evolutionarily conserved, its constituent proteins exhibit little to no sequence homology across species. In addition to these core components, a number of proteins, including HORMAD1, HORMAD2, TRIP13, SKP1, CDCA5 (Sororin), UBE2I (UBC9), SYCP2L, HSPA2, PSMA8, and FKBP6, associate with the SC. Beyond serving as a structural scaffold essential for homolog synapsis, SC proteins interact with key recombination factors such as DMC1, RAD51, and TEX11, thereby regulating recombination progression and crossover formation. Genetic, biochemical, and structural analyses of SC components have provided important mechanistic insights into SC assembly and function, as well as their clinical relevance to non-obstructive azoospermia (NOA) and premature ovarian insufficiency (POI) in humans.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Fang Yang",
+        "P Jeremy Wang"
+      ],
+      "authors_display": "Fang Yang, P Jeremy Wang",
+      "first_seen_at": "2026-05-01T04:47:49Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/biolre/ioag092",
+        "pmcid": null,
+        "pmid": "42059593"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "synaptonemal complex",
+          "meiotic recombination",
+          "crossover formation"
+        ]
+      },
+      "paper_key": "doi:10.1093/biolre/ioag092",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-30",
+      "short_abstract": "The synaptonemal complex (SC) is a highly ordered proteinaceous structure that assembles between homologous chromosomes during the prophase I of meiosis. Conserved as a tripartite architecture across species, the SC plays a central role in chromosome synapsis, meiotic recombination, and faithful chromosome segregation. This review marks...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "The synaptonemal complex: structure, function, and clinical implications†.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42059593/",
+      "venue": "Biol Reprod",
+      "venue_display": "Biol Reprod"
+    },
+    {
+      "abstract": "The wood tiger moth, Arctia plantaginis, is an important model organism for the study of polymorphism in warning colour. One major colour locus has been identified, but studying its association with other traits as well as signatures of selection has been limited by the lack of a contiguous reference genome. A previous assembly consisted of more than 1000 scaffolds. Here, we present the first chromosome level genome assembly based on PacBio-HiFi data and linkage map information. The final assembly spans 589 Mb consisting of 31 telomere-to-telomere chromosomes with a N50 scaffold length of 21.2 MB. The BUSCO analysis (n = 5,760) indicated a high completeness of 98.1% with 97.5% present as single copy and 0.6% as duplicated. 17,456 genes were identified and 42.18% of the genome was classified as repetitive. This new assembly provides an important resource for future research using genomic tools for studying the genetic basis and evolutionary mechanisms underlying colour polymorphisms in this species.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Eva L Koch",
+        "Ian A Warren",
+        "Melanie N Brien",
+        "Johanna Mappes",
+        "Chris D Jiggins"
+      ],
+      "authors_display": "Eva L Koch, Ian A Warren, Melanie N Brien, et al.",
+      "first_seen_at": "2026-05-01T04:47:49Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41597-026-07316-x",
+        "pmcid": null,
+        "pmid": "42062315"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "linkage map"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41597-026-07316-x",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-30",
+      "short_abstract": "The wood tiger moth, Arctia plantaginis, is an important model organism for the study of polymorphism in warning colour. One major colour locus has been identified, but studying its association with other traits as well as signatures of selection has been limited by the lack of a contiguous reference genome. A previous assembly...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Telomere-to-telomere genome assembly of the wood tiger moth Arctia plantaginis.",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42062315/",
+      "venue": "Sci Data",
+      "venue_display": "Sci Data"
+    },
+    {
+      "abstract": "The flag leaf serves as the primary photosynthetic organ in wheat, and its size is significantly correlated with wheat yield. The mapping of QTLs associated with flag leaf size and the development of closely linked molecular markers holds substantial significance for enhancing wheat yield potential. In this study, a genetic linkage map consisting of 11,583 markers was constructed by the Wheat55K SNP Array, and the quantitative trait loci (QTLs) for flag leaf length (FLL), width (FLW), area (FLA), and length/width ratio (FLR) were mapped across six experimental environments. A total of 97, 273, and 32 QTLs were mapped using the ICIM-BIP, ICIM-MET, and ICIM-EPI methods, respectively. Five QTLs, Q.Fll.sau-2D.1, Q.Flw.sau-1B.2, Q.Flw.sau-4B, Q.Fla.sau-4B.3, and Q.Flr.sau-2D.3, explained 15.97%, 15.28%, 10.81%, 11.00%, and 11.09% of the phenotypic variation on average and were considered major and stable QTLs for the FLL, FLW, FLA, and FLR, respectively. Three Kompetitive Allele-Specific PCR (KASP) markers, which are closely linked to these five QTLs, were designed. The genetic effects of these five QTLs were successfully confirmed in different populations. The pyramiding effect analysis revealed that the stable QTLs mapped in this study can significantly alter flag leaf size-related traits as the number of pyramided loci increases. The parental lines were further genotyped using the 120 K SNP Array, followed by density enhancement of the genetic map for the initial mapping intervals. This significantly narrowed down the physical distance of the initial mapping intervals, and candidate genes within the refined physical intervals were screened. These QTL mapping results of flag leaf size-related traits and the closely linked KASP markers revealed in this study provide new resources for future wheat breeding.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Zhi Li",
+        "Qinyi Luo",
+        "Youwei Du",
+        "Yan Tan",
+        "Hao Li",
+        "Yuxin Jiang",
+        "Jietong Zhao",
+        "Liangli Deng",
+        "Wanhua Peng",
+        "Liqi Zhao",
+        "Xinli Li",
+        "Qinghua Li",
+        "Junshi Fang",
+        "Tong Yan",
+        "Tao Yang",
+        "Yuan Tian",
+        "Xin Li",
+        "Jianping Yang",
+        "Tianheng Ren"
+      ],
+      "authors_display": "Zhi Li, Qinyi Luo, Youwei Du, et al.",
+      "first_seen_at": "2026-05-01T04:47:49Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s12870-026-08859-2",
+        "pmcid": null,
+        "pmid": "42056859"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "linkage map"
+        ]
+      },
+      "paper_key": "doi:10.1186/s12870-026-08859-2",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-04-29",
+      "short_abstract": "The flag leaf serves as the primary photosynthetic organ in wheat, and its size is significantly correlated with wheat yield. The mapping of QTLs associated with flag leaf size and the development of closely linked molecular markers holds substantial significance for enhancing wheat yield potential. In this study, a genetic linkage map...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Genetic dissection and validation of major and stable QTLs for the flag leaf size-related traits in common wheat (Triticum aestivum L.).",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42056859/",
+      "venue": "BMC Plant Biol",
+      "venue_display": "BMC Plant Biol"
+    },
+    {
+      "abstract": "TCP transcription factors are key regulators of plant architecture and development, yet their evolution is often inferred from a single reference genome. Using a dataset of 1,015 plant genomes, we observed a pronounced clade-level gradient in TCP copy number, including complete absence in algae and expanded repertoires in angiosperms, with retention after WGD/segmental duplication emerging as a major contributor. We then leveraged a tea pangenome of nine Camellia genomes (three wild species and six cultivated Camellia sinensis varieties) to resolve pangenome-scale TCP dynamics. A total of 292 TCP genes were identified and grouped into three lineages (PCF, CIN and CYC/TB1). Cultivated accessions in this sampled panel harbored fewer annotated TCP genes than the sampled wild relatives, with an average reduction of approximately 27%. Orthogroup analysis revealed a compact core (4 orthogroups; 57 genes, 19.5%) and a large dispensable component (25 orthogroups; 235 genes, 80.5%) that showed extensive copy-number variation and lineage-specific loss/expansion; core enrichment was strongest in CYC/TB1, whereas PCF was biased toward dispensable genes. Tea TCP expansion was mainly attributed to WGD/segmental duplication (60.3%) and dispersed duplication (26.7%). Most homologous pairs evolved under purifying selection, but dispensable pairs exhibited higher Ka/Ks than core pairs, consistent with relaxed constraint. Pan-transcriptome comparisons across eight tissues showed generally higher TCP expression in cultivated materials, particularly in apical bud and stem/fruit-related tissues. Together, these results establish a pangenome-informed TCP resource and suggest that dosage remodeling and structural variation may have contributed to lineage diversification in tea and provide candidates for future studies of domestication-related evolution.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Jicheng Sun",
+        "Quanlong Liu",
+        "Yixin Cao",
+        "Yafei Wang",
+        "Yue Wang",
+        "Guang Chen"
+      ],
+      "authors_display": "Jicheng Sun, Quanlong Liu, Yixin Cao, et al.",
+      "first_seen_at": "2026-05-01T04:47:49Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s12870-026-08854-7",
+        "pmcid": null,
+        "pmid": "42056909"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pan genome",
+          "structural variation",
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1186/s12870-026-08854-7",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-29",
+      "short_abstract": "TCP transcription factors are key regulators of plant architecture and development, yet their evolution is often inferred from a single reference genome. Using a dataset of 1,015 plant genomes, we observed a pronounced clade-level gradient in TCP copy number, including complete absence in algae and expanded repertoires in angiosperms,...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Evolution of the TCP gene family and pan-genome analysis in tea (Camellia sinensis).",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42056909/",
+      "venue": "BMC Plant Biol",
+      "venue_display": "BMC Plant Biol"
+    },
+    {
+      "abstract": "Notch1 exhibits a high mutation rate in head and neck squamous cell carcinoma (HNSCC), but its functional role in nasopharyngeal carcinoma (NPC) invasion and metastasis remains incompletely understood. This study systematically investigates the function and molecular mechanisms of Notch1 as a metastatic suppressor in NPC. Notch1 expression levels were assessed in NPC tissue microarrays using immunohistochemistry, and correlations with tumor differentiation and metastasis were analyzed. TCGA databases were mined to explore mutation rates and sample clustering based on EMT-related gene signatures. Integrated analysis of TCGA and GEO datasets identified Notch1-associated genes, enabling molecular classification of patients. Additionally, scRNA-seq of NPC clinical samples was performed to validate the association between Notch1, stemness, and EMT features in the tumor microenvironment. The biological functions of Notch1 were further examined in vitro using proliferation (CCK-8, colony formation), migration and invasion (Transwell, wound healing) assays, as well as in vivo xenograft and metastatic models. Molecular mechanisms were probed by examining EMT markers, Smad3 phosphorylation and nuclear translocation, and protein-protein interactions via co-immunoprecipitation. Immunohistochemistry revealed significantly reduced Notch1 expression in NPC tissues, closely associated with poor differentiation and lymph node metastasis. TCGA analysis showed a 16.8% Notch1 mutation rate in HNSCC. Consensus clustering based on EMT-related genes identified subgroups with significant differences in Notch1 mutation status. Using 181 Notch1-related genes from integrated datasets, patients were further classified into three molecular subtypes (C1, C2, C3) with distinct prognosis, Notch1 mutation rates, EMT status, immune landscapes, and ferroptosis-related gene expression. Notably, the C2 subgroup exhibited the highest Notch1 mutation rate, enhanced EMT, poorest prognosis, and immune suppression.Consistent with these multidimensional datasets, scRNA‑seq analysis of primary NPC samples showed that Notch1‑high tumor cells preferentially retained a differentiated epithelial, low‑EMT/low‑stemness phenotype, further supporting an EMT‑ and metastasis‑suppressive role of Notch1 in clinical tumors. Functionally, Notch1 was downregulated across multiple NPC cell lines; knockout of Notch1 significantly promoted NPC cell proliferation, migration, invasion, and EMT both in vitro and in nude mouse models. Mechanistically, Notch1 loss increased EMT marker expression, augmented Smad3 phosphorylation and nuclear translocation, all without altering total Smad3 levels. Notch1 intracellular domain was found to interact directly with Smad3, while AKT and Smad3 interaction decreased upon Notch1 depletion, resulting in elevated Smad3 phosphorylation and EMT gene activation. Notch1 suppresses EMT and metastasis in NPC through regulation of the AKT/Smad3 pathway. These findings provide novel insights for molecular classification and targeted treatment strategies in NPC.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Jingjing Zuo",
+        "Shiyong Huang",
+        "Mengyuan Dai",
+        "Fen Li",
+        "Ting Huang",
+        "Lei Wang",
+        "Chenglin Qi",
+        "Zezhang Tao",
+        "Linfeng Ye"
+      ],
+      "authors_display": "Jingjing Zuo, Shiyong Huang, Mengyuan Dai, et al.",
+      "first_seen_at": "2026-05-01T04:47:49Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s12575-026-00341-5",
+        "pmcid": null,
+        "pmid": "42056895"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rates",
+          "mutation rate"
+        ]
+      },
+      "paper_key": "doi:10.1186/s12575-026-00341-5",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-29",
+      "short_abstract": "Notch1 exhibits a high mutation rate in head and neck squamous cell carcinoma (HNSCC), but its functional role in nasopharyngeal carcinoma (NPC) invasion and metastasis remains incompletely understood. This study systematically investigates the function and molecular mechanisms of Notch1 as a metastatic suppressor in NPC. Notch1...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Integrated Genomic and Single-Cell Analysis Identifies Notch1 as a Metastasis Suppressor in Nasopharyngeal Carcinoma Targeted by the AKT/Smad3 Axis.",
       "topics": [
         "mutation_rate"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42054461/",
-      "venue": "Sci Adv",
-      "venue_display": "Sci Adv"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42056895/",
+      "venue": "Biol Proced Online",
+      "venue_display": "Biol Proced Online"
+    },
+    {
+      "abstract": "Viroids are the smallest known nucleic acid-based infectious agents of plants and consist of single-stranded, circular, non-coding RNAs that can cause significant crop diseases. The potato spindle tuber viroid (PSTVd), a model Pospiviroidae member, severely impacts Solanaceous hosts like potato and tomato, causing substantial yield reductions. Its 359-nucleotide, rod-like genome, with five functional domains, mediates nuclear replication, systemic movement via plasmodesmata and phloem, and evasion of host RNA silencing. High mutation rates generate diverse quasi-species, enhancing adaptability. Recent multi-omics studies reveal PSTVd reprogramming of host transcriptomes, epigenomes, and metabolomes, disrupting defence, hormone signalling, and photosynthesis. Within the plant holobiont, PSTVd modulates interactions with viruses, notably via RNA-directed DNA methylation, and may affect rhizosphere microbial communities indirectly via changes in host physiology, an area that remains poorly resolved. This review synthesises advances in PSTVd structure, infection mechanisms, and holobiont interactions, highlighting its role in uncovering RNA-mediated pathogenesis principles. Key knowledge gaps persist regarding host factors facilitating systemic spread and interactions with other organisms, such as microbial communities. Ongoing PSTVd research is essential to address this gap and guide strategies for viroid-resistant crops and sustainable control.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Wajahat Hussain",
+        "Guangyan Li",
+        "Qurat Ul Ain",
+        "Carl Spetz",
+        "Dianqiu Lv",
+        "Yonghong Zhou"
+      ],
+      "authors_display": "Wajahat Hussain, Guangyan Li, Qurat Ul Ain, et al.",
+      "first_seen_at": "2026-05-01T04:47:49Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1111/pce.70556",
+        "pmcid": null,
+        "pmid": "42056727"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rates"
+        ]
+      },
+      "paper_key": "doi:10.1111/pce.70556",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-29",
+      "short_abstract": "Viroids are the smallest known nucleic acid-based infectious agents of plants and consist of single-stranded, circular, non-coding RNAs that can cause significant crop diseases. The potato spindle tuber viroid (PSTVd), a model Pospiviroidae member, severely impacts Solanaceous hosts like potato and tomato, causing substantial yield...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Potato Spindle Tuber Viroid (PSTVd)-Plant Interactions: Molecular Mechanisms, Multi-Omics Reprogramming, and Emerging Ecological Dynamics of the Holobiont.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42056727/",
+      "venue": "Plant Cell Environ",
+      "venue_display": "Plant Cell Environ"
+    },
+    {
+      "abstract": "Amaranthus species (particularly Amaranthus cruentus, Amaranthus hypochondriacus, Amaranthus tricolor and Amaranthus caudatus) are traditional underutilised crops with the potential to contribute to sustainable, healthy food systems. We focus on amaranth as a leafy vegetable aiming to develop improved lines for cultivation by smallholder farmers in Sub-Saharan Africa. We demonstrate differences in leaf yield and metabolites relevant to human nutrition across eight amaranth accessions: four A. cruentus and four A. hypochondriacus. These accessions are founders of an inter-specific multi-parent advanced generation inter-cross population. We generated high-quality genome assemblies and annotations for these founder lines and identified sequence and structural variants (SVs) compared with a reference A. cruentus genome. Pangenome analysis (also including A. cruentus, A. hypochondriacus and A. tricolor reference genomes) identified core, dispensable and private gene families. Fifty per cent of gene families were core, highlighting the value, in terms of gene discovery, of sequencing additional accessions and the inclusion of three Amaranthus species. A graphical pangenome was constructed using SVs and demonstrated variation in copy number of genes with a likely role in disease resistance. This inter-specific pangenome will be highly valuable for future research on amaranth and facilitate usage of SVs in trait mapping and causal gene discovery.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Maud A J de Kinderen",
+        "Xiao Ma",
+        "Fabián E Vaistij",
+        "Jiyang Chang",
+        "Tony Larson",
+        "Yi Li",
+        "Fekadu Dinssa",
+        "Chen-Yu Lin",
+        "Tulsi Suchak",
+        "Samuel J Smit",
+        "Daniel C Jeffares",
+        "Allen Van Deynze",
+        "Willem S Jansen van Rensburg",
+        "Abe S Gerrano",
+        "Michael W Bairu",
+        "Sonja L Venter",
+        "Roland Schafleitner",
+        "Yves Van de Peer",
+        "Katherine Denby"
+      ],
+      "authors_display": "Maud A J de Kinderen, Xiao Ma, Fabián E Vaistij, et al.",
+      "first_seen_at": "2026-05-01T04:47:49Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1111/nph.71183",
+        "pmcid": null,
+        "pmid": "42057336"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenome",
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1111/nph.71183",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-29",
+      "short_abstract": "Amaranthus species (particularly Amaranthus cruentus, Amaranthus hypochondriacus, Amaranthus tricolor and Amaranthus caudatus) are traditional underutilised crops with the potential to contribute to sustainable, healthy food systems. We focus on amaranth as a leafy vegetable aiming to develop improved lines for cultivation by...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "An inter-specific Amaranthus pangenome captures genetic variation potentially underlying key leafy vegetable traits in this underutilised crop.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42057336/",
+      "venue": "New Phytol",
+      "venue_display": "New Phytol"
     },
     {
       "abstract": "The eukaryotic radiation sensitive 51 (RAD51) gene family comprises seven ancient paralogs that have been remarkably conserved across both plants and animals. Among these paralogs, X-ray repair cross complementing 2 (XRCC2) plays a pivotal role in mammalian embryonic development. However, in Arabidopsis (Arabidopsis thaliana), disruption of its function leads to seemingly normal meiotic processes, and intriguingly, even appears to increase meiotic recombination. Given these disparate observations, the precise role of XRCC2 during meiosis remains largely elusive. Here, we identified the XRCC2 gene in maize (Zea mays), a member of the RAD51-paralog family and the homolog of Arabidopsis XRCC2. Plants with mutated XRCC2 exhibited partial male and female sterility. Cytological investigations of xrcc2 mutants revealed that the meiocytes form univalent chromosomes and chromosome bridges and undergo chromosome fragmentation, while homologous pairing and synapsis occur normally. Notably, the xrcc2 mutant showed a significant reduction in the number of meiotic chiasmata and RAD51 foci. Furthermore, XRCC2 was essential for maintaining genome stability and affected the transcription of RAD51 paralogs. Within yeast and tobacco systems, we detected interactions between XRCC2 and disrupted meiotic cDNA1 (DMC1), Radiation sensitive 51C (RAD51C), and radiation sensitive 51D (RAD51D). Collectively, XRCC2 demonstrates remarkable functional diversity across species and plays an important role in maize crossover formation.",
@@ -175,143 +542,6 @@
       "venue_display": "J Exp Bot"
     },
     {
-      "abstract": "Acinetobacter baumannii is one of the most important antibiotic-resistant bacterial pathogens. While human clinical isolates have been extensively studied, genomic information from non-human sources remains limited. Here, gathering a dataset of > 23,000 genomes from many sources, we provide a comprehensive view of non-human A. baumannii. Average Nucleotide Identity (ANI) and Sequence Type (ST) diversity analyses show that non-human isolates are more diverse than the human isolates. Furthermore, the non-human isolates have an open pangenome. Notably, phylogenomic tree and population structure analysis suggest constant transmission between humans and non-human sources, with source-specific lineages. Finally, resistome analysis reveals that bacteria from diverse sources, such as dogs, horses, and wastewater, carry significant numbers of antibiotic resistance genes (ARGs). Together, these results suggest that non-human A. baumannii are vastly diverse and may pose a public health concern, stressing the need for more research on non-human sources of bacterial pathogens through an explicit One Health surveillance approach. On a more general level, this work highlights the relevance of multi-host genomic epidemiology approximations to better understand important human pathogens.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Alejandro Aguilar-Vera",
-        "Rafael López-Sánchez",
-        "Alfredo J Hernández-Alvarez",
-        "David Vargas-Peralta",
-        "Humberto Peralta",
-        "Santiago Castillo-Ramírez"
-      ],
-      "authors_display": "Alejandro Aguilar-Vera, Rafael López-Sánchez, Alfredo J Hernández-Alvarez, et al.",
-      "first_seen_at": "2026-04-30T04:30:39Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1038/s41467-026-72585-4",
-        "pmcid": null,
-        "pmid": "42049772"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1038/s41467-026-72585-4",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-28",
-      "short_abstract": "Acinetobacter baumannii is one of the most important antibiotic-resistant bacterial pathogens. While human clinical isolates have been extensively studied, genomic information from non-human sources remains limited. Here, gathering a dataset of > 23,000 genomes from many sources, we provide a comprehensive view of non-human A....",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Global multi-host genomic epidemiology of Acinetobacter baumannii reveals transmission at one health interfaces.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42049772/",
-      "venue": "Nat Commun",
-      "venue_display": "Nat Commun"
-    },
-    {
-      "abstract": "Ovotesticular Difference of Sex Development (OT-DSD) may result from chimerism, mosaicism, structural or sequence variants. However, even after investigating all known causes, many individuals still lack an established etiology. This study aimed to perform cytogenomic investigation of individuals with OT-DSD. The sample consisted of 15 individuals with OT-DSD. Methods included G-banding karyotype, Chromosomal Microarray Analysis (CMA), Optical Genome Mapping (OGM), and Whole-Genome Sequencing (WGS). G-banding karyotype revealed chimerism in two individuals, mosaicism in one, and 47,XXY karyotype in another. One individual had a pericentric inversion at the X chromosome, with breakpoints mapped close to SOX3. Ten individuals had a normal karyotype, eight 46,XX, and two 46,XY. CMA, performed in 11, identified a duplication including the SOX3 gene in one 46,XX individual, and two duplications in a 46,XY individual, with breakpoints mapped by WGS, suggesting a complex rearrangement that could affect VAMP7 expression. OGM was performed in two individuals and WGS in nine individuals, which did not reveal additional relevant structural variants (SVs). Cytogenomic methods identified causative alterations in 5/15 (33.3%) individuals, underscoring the need to combine complementary approaches to detect and characterize SVs. In the remaining cases, the etiology was undetermined, emphasizing the need for further molecular investigations.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Júlia Lima-Santos",
-        "Carolina Gama Nascimento-Vidoti",
-        "Gabriela Roldão Correia-Costa",
-        "Nilma Lúcia Viguetti Campos",
-        "Mara Sanches Guaragna",
-        "Flávia Marcorin de Oliveira",
-        "Beatriz Amstalden Barros",
-        "Marcio Lopes Miranda",
-        "Arthur Antolini Tavares",
-        "Gil Guerra-Junior",
-        "Andréa Trevas Maciel-Guerra",
-        "Helena Fabbri-Scallet",
-        "Társis Paiva Vieira"
-      ],
-      "authors_display": "Júlia Lima-Santos, Carolina Gama Nascimento-Vidoti, Gabriela Roldão Correia-Costa, et al.",
-      "first_seen_at": "2026-04-29T04:27:57Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1159/000551594",
-        "pmcid": null,
-        "pmid": "42048305"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1159/000551594",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-28",
-      "short_abstract": "Ovotesticular Difference of Sex Development (OT-DSD) may result from chimerism, mosaicism, structural or sequence variants. However, even after investigating all known causes, many individuals still lack an established etiology. This study aimed to perform cytogenomic investigation of individuals with OT-DSD. The sample consisted of 15...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Cytogenomic Investigation of Individuals with Ovotesticular Difference of Sex Development.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42048305/",
-      "venue": "Sex Dev",
-      "venue_display": "Sex Dev"
-    },
-    {
-      "abstract": "Polystyrene nanoplastics (PS-NPs) are ubiquitous environmental contaminants capable of crossing the placental barrier, yet their impact on mammalian germline development and the reproductive potential of the subsequent generation remains poorly understood. To elucidate the intergenerational effects of prenatal PS-NPs exposure on female offspring fertility and dissect the underlying molecular mechanisms governing oocyte meiotic defects, we established a mouse model of prenatal PS-NPs exposure by administering daily oral gavage of PS-NPs (10 mg/kg/day) and employed an integrative multi-omics strategy combining single-cell transcriptomics (scRNA-seq), chromatin accessibility profiling (scATAC-seq), and functional cellular assays. We demonstrate that prenatal exposure to PS-NPs induced a marked decline in the fertility of female offspring. At the cellular level, PS-NPs delayed meiotic prophase I progression and severely compromised homologous recombination. Mechanistically, PS-NPs disrupted the global chromatin accessibility and epigenetic homeostasis of oocytes. Specifically, we observed aberrant histone modifications, characterized by reduced acetylation and increased ubiquitination/SUMOylation, along with restricted chromatin accessibility at loci critical for meiotic axis assembly and recombination. Furthermore, we identified a distinct subpopulation of arrested zygotene oocytes undergoing apoptosis and autophagy driven by this chromatin dysregulation. Collectively, our findings uncover a novel epigenetic mechanism by which environmental nanoplastics impair meiotic integrity, highlighting chromatin remodeling as a vulnerable target of nanotoxicity, and provide critical insights into the long-term reproductive risks posed by plastic pollution.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Xu Zhou",
-        "Di Zhang",
-        "Liangran Zhang",
-        "Shunxin Wang",
-        "Wei Shen",
-        "Xiang-Hong Ou",
-        "Guang Wang",
-        "Qing-Yuan Sun",
-        "Fali Zhang",
-        "Weidong Li"
-      ],
-      "authors_display": "Xu Zhou, Di Zhang, Liangran Zhang, et al.",
-      "first_seen_at": "2026-04-29T04:27:57Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1111/cpr.13567",
-        "pmcid": "9935506",
-        "pmid": "42047698"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "meiotic recombination"
-        ]
-      },
-      "paper_key": "doi:10.1111/cpr.13567",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-04-28",
-      "short_abstract": "Polystyrene nanoplastics (PS-NPs) are ubiquitous environmental contaminants capable of crossing the placental barrier, yet their impact on mammalian germline development and the reproductive potential of the subsequent generation remains poorly understood. To elucidate the intergenerational effects of prenatal PS-NPs exposure on female...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Prenatal exposure to polystyrene nanoplastics impairs offspring fertility in mice by disrupting meiotic recombination and chromatin accessibility in oocytes.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42047698/",
-      "venue": "Arch Toxicol",
-      "venue_display": "Arch Toxicol"
-    },
-    {
       "abstract": "Although recent advances in genomics have enabled the high-resolution study of whole genomes, our understanding of one of the key evolutionary processes, mutation, still remains limited. In primates specifically, studies have largely focused on humans and their closest evolutionary relatives, the great apes, as well as a handful of species of biomedical or conservation interest. Yet, as mutation rates vary across genomic regions, individuals, and species, a greater understanding of the underlying evolutionary dynamics at play will ultimately be illuminated by not only additional sampling across the Order, but also by a greater depth of sampling within-species. To address these needs, we here present the first population-scale genomic resources for the coppery titi monkey (Plecturocebus cupreus)-a platyrrhine of considerable biomedical interest for both social behavior and neurobiology. Deep whole-genome sequencing of 15 parent-offspring trios, together with a computational de novo mutation detection pipeline based on pan-genome graphs, has provided a detailed picture of the sex-averaged mutation rate-0.63 × 10-8 (95% CI: 0.43 × 10-8-0.90 × 10-8) per site per generation-as well as the effects of both sex and parental age on underlying rates, demonstrating a significant paternal age effect. Coppery titi monkey males exhibit long reproductive lifespans, afforded by long-term pair bonding in the species' monogamous mating system, and our results have demonstrated that individuals reproducing later in life exhibit one of the strongest male mutation biases observed in any non-human primate studied to date. Taken together, this study thus provides an important piece of the puzzle for better comprehending the mutational landscape across primates.",
       "accent_color": "#f25f4c",
       "authors": [
@@ -357,261 +587,84 @@
       "venue_display": "Mol Biol Evol"
     },
     {
-      "abstract": "Hypnotizability is a psychophysiological trait associated with structural variation in brain regions implicated in time perception, such as the cerebellum and the insula. This study investigated time reproduction across different interval durations in individuals with varying levels of hypnotizability. Forty healthy, right-handed participants of both sexes were assessed using the Stanford Hypnotic Susceptibility Scale: Form A and completed a time reproduction task consisting of visually presented intervals of 1, 3, 6, and 8 s (10 trials per duration). Relative proportional error (RE) and absolute proportional error (AE) were analyzed using mixed-effects models estimating the interaction between hypnotizability and interval duration through polynomial contrasts, with random intercepts and duration slopes for participants. Heart rate, sex, trait anxiety, and absorption were included as covariates. RE showed only a significant main effect of interval duration, with shorter intervals overestimated and longer intervals underestimated. AE showed a significant interaction between hypnotizability and the linear component of interval duration, indicating that higher hypnotizability was associated with a steeper decrease in AE as interval duration increased. The relatively lower precision at shorter intervals is consistent with attenuated sensory processing, whereas the relatively higher precision at longer intervals may reflect better functional coupling between executive and salience networks previously observed in highly hypnotizable individuals. The reduced precision at shorter intervals may be more consistent with cerebellar than insular involvement. Differences in time perception may be linked to reported associations between hypnotizability and an altered sense of agency and body ownership.",
-      "accent_color": "#2f8f6b",
+      "abstract": "Tandem repeats (TRs) are dynamic genomic elements characterized by exceptionally high mutation rates, reversibility, and the capacity to generate graduated phenotypic effects. These properties enable TRs to modulate gene regulation at multiple levels-from transcription and chromatin organization to splicing and protein function. In the human lineage, TR expansions have been recurrently associated with brain evolution, with human-specific repeats enriched near neurodevelopmental genes and linked to neural-specific regulatory elements. However, this same mutational plasticity that facilitated cognitive innovation also introduced genomic instability, rendering the nervous system particularly vulnerable to repeat-associated dysfunction. The brain's unique cellular and molecular properties create an environment particularly permissive to repeat-mediated pathology. Recent studies have revealed diverse pathogenic mechanisms beyond classical models, highlighting the multifaceted ways in which repeat instability can disrupt neural function. Understanding TRs as integral components of neural regulatory architecture, rather than isolated pathogenic loci, provides a framework for interpreting the genetic basis of neurological and psychiatric disorders.",
+      "accent_color": "#f25f4c",
       "authors": [
-        "Žan Zelič",
-        "Valentina Puccini",
-        "Enrica L Santarcangelo"
+        "Hyeji Lee",
+        "Joon-Yong An"
       ],
-      "authors_display": "Žan Zelič, Valentina Puccini, Enrica L Santarcangelo",
-      "first_seen_at": "2026-04-29T04:27:57Z",
+      "authors_display": "Hyeji Lee, Joon-Yong An",
+      "first_seen_at": "2026-05-01T04:47:49Z",
       "identifiers": {
         "arxiv_id": null,
         "biorxiv_doi": null,
-        "doi": "10.1016/j.neuropsychologia.2019.03.014",
-        "pmcid": "6306282",
-        "pmid": "42047933"
+        "doi": "10.1016/j.mocell.2026.100363",
+        "pmcid": null,
+        "pmid": "42055287"
       },
       "matched_keywords": {
-        "pangenome_sv": [
-          "structural variation"
+        "mutation_rate": [
+          "mutation rates"
         ]
       },
-      "paper_key": "doi:10.1016/j.neuropsychologia.2019.03.014",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-28",
-      "short_abstract": "Hypnotizability is a psychophysiological trait associated with structural variation in brain regions implicated in time perception, such as the cerebellum and the insula. This study investigated time reproduction across different interval durations in individuals with varying levels of hypnotizability. Forty healthy, right-handed...",
+      "paper_key": "doi:10.1016/j.mocell.2026.100363",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-04-27",
+      "short_abstract": "Tandem repeats (TRs) are dynamic genomic elements characterized by exceptionally high mutation rates, reversibility, and the capacity to generate graduated phenotypic effects. These properties enable TRs to modulate gene regulation at multiple levels-from transcription and chromatin organization to splicing and protein function. In the...",
       "source_primary": "pubmed",
       "sources": [
         "pubmed"
       ],
-      "title": "Hypnotizability and Time Reproduction.",
+      "title": "Tandem repeats in human brain evolution and disease susceptibility.",
       "topics": [
-        "pangenome_sv"
+        "mutation_rate"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42047933/",
-      "venue": "Cerebellum",
-      "venue_display": "Cerebellum"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42055287/",
+      "venue": "Mol Cells",
+      "venue_display": "Mol Cells"
     },
     {
-      "abstract": "Over half of presumed genetic disease cases remain undiagnosed following short-read exome (SR-ES) or genome sequencing (SR-GS). Long-read genome sequencing (LR-GS) shows promise for uncovering etiologies missed by SR genetic testing, particularly structural variants (SVs). However, SV interpretation remains challenging due to limitations in call reliability, population allele frequency estimates, and functional impact prediction. To advance clinical LR-GS implementation, we analyzed the genomes of 19 children with suspected rare genetic conditions and prior negative or inconclusive clinical SR-GS/-ES and their parents using PacBio HiFi LR-GS. One additional family with limited DNA underwent Illumina SR-GS only, and 11 probands received SR-GS to complement small variant detection. LR-GS data were processed using phased-assembly and read-based variant calling pipelines validated on SV positive controls, while SR-GS data were processed with the Illumina DRAGEN pipeline. Variants were prioritized using phenotype-driven approaches. Diagnostic variants (likely pathogenic or pathogenic) were identified in 2/20 (10%) families, while an additional 5/20 (25%) harbored findings of uncertain diagnostic significance, including variants of uncertain significance (VUS) and variants in genes of uncertain significance (GUS). All reported variants were detected independently of LR-GS by research SR-GS or by reanalysis of prior clinical SR data. Several LR-GS SV candidates were excluded after population allele frequency filtering, underscoring its importance in clinical SV interpretation. Overall, the observed 10% increase in diagnostic yield was achievable through SR analysis alone, as LR-GS was not required to identify diagnostic variants in this cohort. Functional studies are needed to clarify the clinical relevance of uncertain findings.",
-      "accent_color": "#2f8f6b",
+      "abstract": "Exposure to chemical pollutants can alter the rate and genome-wide distribution of germline mutations. However, studies measuring the effects of chemical exposure on mutation rates and spectra have not considered the ecological and evolutionary backgrounds of the studied genotypes, which could influence the rates and patterns of germline mutations in altered environments, for example, chemical pollution. Utilising a study of natural Daphnia pulex species complex populations, we conducted a comprehensive experiment to test our hypothesis that adaptation to chemical pollution also protects the germline from mutagenesis. (1) We identified Daphnia populations that have adapted to survive in mining-devastated regions by increasing their cadmium tolerance. (2) We completed a mutation-accumulation (MA) experiment with an adapted genotype to measure the germline mutation rate in both control conditions and an environmentally relevant cadmium concentration. (3) We compared these MA experimental results to a previously reported, identically designed MA experiment with a nonadapted genotype. (4) We report that patterns of cadmium-induced mutagenesis in the adapted genotype were reversed compared to our previous observations in the nonadapted genotype. Cadmium exposure altered the single-nucleotide mutation (SNM) rate in the same genomic regions in both adapted and nonadapted genotypes, but the rates were changed in opposite directions. Cadmium also altered specific SNM classes in these genotypes in opposite directions. The reversal of mutational trends in the adapted genotype suggests protection against cadmium genotoxicity. We further demonstrate that adapted populations have elevated gene copy numbers and expression levels of metallothionein, the protein that protects against cadmium toxicity by irreversibly binding.",
+      "accent_color": "#f25f4c",
       "authors": [
-        "Elizabeth A Werren",
-        "Purva Vats",
-        "Gabriel E Rech",
-        "Michael Peracchio",
-        "Cameron King",
-        "Elizabeth J Charnysh",
-        "Ryan D Gorham",
-        "Peter A Audano",
-        "Peter N Robinson",
-        "Melissa A Kelly",
-        "Adam P Matson",
-        "Mark D Adams",
-        "Louisa Kalsner"
+        "Shuting Ding",
+        "Anjali Mahilkar",
+        "Yang Li",
+        "Jianzhi Zhang"
       ],
-      "authors_display": "Elizabeth A Werren, Purva Vats, Gabriel E Rech, et al.",
+      "authors_display": "Shuting Ding, Anjali Mahilkar, Yang Li, et al.",
       "first_seen_at": "2026-04-30T04:30:39Z",
       "identifiers": {
         "arxiv_id": null,
         "biorxiv_doi": null,
-        "doi": "10.1016/j.xhgg.2026.100620",
-        "pmcid": null,
-        "pmid": "42050932"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.xhgg.2026.100620",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-27",
-      "short_abstract": "Over half of presumed genetic disease cases remain undiagnosed following short-read exome (SR-ES) or genome sequencing (SR-GS). Long-read genome sequencing (LR-GS) shows promise for uncovering etiologies missed by SR genetic testing, particularly structural variants (SVs). However, SV interpretation remains challenging due to...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Diagnostic utility of clinical genome reanalysis in rare pediatric disorders using long-read sequencing.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42050932/",
-      "venue": "HGG Adv",
-      "venue_display": "HGG Adv"
-    },
-    {
-      "abstract": "Pairwise sequence comparisons are at the center of molecular evolutionary analyses. However, viral pairwise comparisons are challenging because extreme mutation rates and evolutionary pressure cause genomes to diverge rapidly, limiting detectable sequence similarity to fewer than 3% of virus pairs. To overcome these limitations, we compared viruses based on structural similarity, using predicted protein structures from ColabFold and Foldseek to define protein fold clusters. We represented each virus genome by its protein structural content. Pairwise similarities between viruses were then quantified using the Jaccard index based on the presence or absence of protein fold clusters. Using a recently established viral protein fold database, we compared all pairs of eukaryotic viruses in RefSeq. This approach increased the proportion of comparable viral genome pairs from 2.4% to 16.5%. Using this protein-fold representation of viruses, we were able to accurately predict viral families with an average sensitivity of 85.9%. Investigation of viral families showing limited sensitivity with this approach uncovered a laterally transferred structural cluster (Rep/NS1) broadly shared across diverse viral families and found in the avian lineage of adenoviruses. Sequence homology suggests that this Rep was acquired from Parvoviridae, but the protein is mutant in the ATPase active site, indicating possible exaptation towards a purely DNA binding function. In Gammapapillomaviruses, several E4 clusters were associated with human tropism. In summary, by representing viruses with structural protein clusters, we can classify highly divergent viruses, trace lateral gene transfer, and uncover features associated with viral host range.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Julia C Malnak",
-        "Saira Montermoso",
-        "Frederic D Bushman",
-        "Noam Auslander"
-      ],
-      "authors_display": "Julia C Malnak, Saira Montermoso, Frederic D Bushman, et al.",
-      "first_seen_at": "2026-04-28T04:32:37Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/molbev/msag110",
-        "pmcid": null,
-        "pmid": "42041085"
+        "doi": "10.1126/sciadv.adj6957",
+        "pmcid": "PMC4050626",
+        "pmid": "42054461"
       },
       "matched_keywords": {
         "mutation_rate": [
+          "germline mutation rate",
+          "mutation accumulation",
           "mutation rates"
         ]
       },
-      "paper_key": "doi:10.1093/molbev/msag110",
+      "paper_key": "doi:10.1126/sciadv.adj6957",
       "primary_topic": "mutation_rate",
       "primary_topic_label": "Mutation Rate",
       "published_date": "2026-04-27",
-      "short_abstract": "Pairwise sequence comparisons are at the center of molecular evolutionary analyses. However, viral pairwise comparisons are challenging because extreme mutation rates and evolutionary pressure cause genomes to diverge rapidly, limiting detectable sequence similarity to fewer than 3% of virus pairs. To overcome these limitations, we...",
+      "short_abstract": "Exposure to chemical pollutants can alter the rate and genome-wide distribution of germline mutations. However, studies measuring the effects of chemical exposure on mutation rates and spectra have not considered the ecological and evolutionary backgrounds of the studied genotypes, which could influence the rates and patterns of...",
       "source_primary": "pubmed",
       "sources": [
         "pubmed"
       ],
-      "title": "Uncovering viral protein acquisition events and human-specific folds with pairwise comparisons of predicted protein structures.",
+      "title": "Discovery and Evaluation of Cadmium-Adapted Daphnia pulex Genotypes in a Region of Historical Mining Reveals Adaptation Protects the Germline From Cadmium-Induced Mutations.",
       "topics": [
         "mutation_rate"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42041085/",
-      "venue": "Mol Biol Evol",
-      "venue_display": "Mol Biol Evol"
-    },
-    {
-      "abstract": "The emergence and spread of anthelmintic resistance represent a major challenge for treating parasitic nematodes, threatening mass-drug administration control programs in humans and zoonotic hosts. Currently, experimental evidence to understand the influence of management (e.g., treatment dose and frequency) and parasite-associated factors (e.g., genetic variation, population size and mutation rates) is scarce. To rectify this knowledge gap, we performed controlled evolution experiments with the model nematode Caenorhabditis elegans and further evaluated the evolution dynamics with a computational model. Large population size was critical for rapid ivermectin resistance evolution in vitro and in silico. Male nematode production was favored during resistance evolution, suggesting a selective advantage of sexual recombination under drug pressure in vitro. Evolution of ivermectin resistance led to reduced efficacy of the structurally related anthelmintic moxidectin, as anticipated, as well as reduced efficacy of the structurally unrelated anthelmintic emodepside, which has a distinct mode of action. In contrast, albendazole, levamisole, and monepantel efficacy were not influenced by the evolution of ivermectin resistance. We conclude that combining computational modeling with in vitro evolution experiments to test specific aspects of evolution directly represents a promising approach to guide the development of novel treatment strategies to anticipate and mitigate resistance evolution in parasitic nematodes.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Jacqueline Hellinga",
-        "Barbora Trubenova",
-        "Jessica Wagner",
-        "Marc Borchert",
-        "Jürgen Krücken",
-        "Roland R Regoes",
-        "Hinrich Schulenburg",
-        "Georg von Samson-Himmelstjerna"
-      ],
-      "authors_display": "Jacqueline Hellinga, Barbora Trubenova, Jessica Wagner, et al.",
-      "first_seen_at": "2026-04-28T04:32:37Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/s0020-7519(03)00172-3",
-        "pmcid": "PMC3072372",
-        "pmid": "42038536"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rates"
-        ]
-      },
-      "paper_key": "doi:10.1016/s0020-7519(03)00172-3",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-24",
-      "short_abstract": "The emergence and spread of anthelmintic resistance represent a major challenge for treating parasitic nematodes, threatening mass-drug administration control programs in humans and zoonotic hosts. Currently, experimental evidence to understand the influence of management (e.g., treatment dose and frequency) and parasite-associated...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Evolution of Ivermectin Resistance in the Nematode Model Caenorhabditis elegans: Critical Influence of Population Size and Altered Emodepside Efficacy.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42038536/",
-      "venue": "Evol Appl",
-      "venue_display": "Evol Appl"
-    },
-    {
-      "abstract": "Cohesin is a ring-shaped protein complex that mediates sister-chromatid cohesion to ensure accurate chromosome segregation during mitosis and meiosis. In Saccharomyces cerevisiae, cohesin consists of four core subunits-Smc1, Smc3, Scc1/Mcd1, and Scc3. During meiosis, the mitotic α-kleisin Scc1/Mcd1 is replaced by the meiosis-specific α-kleisin Rec8. Rec8-containing cohesin is essential for multiple meiotic processes, including chromosome morphogenesis, homologous recombination, axis and synaptonemal complex formation, sister-chromatid cohesion (SCC), and transcriptional regulation. While stable association of Rec8-cohesin with chromatin is required to maintain SCC from premeiotic S phase through anaphase II, dynamic chromatin association is thought to underlie its roles in recombination, chromosome architecture, and transcription via loop extrusion. Whether distinct stable and dynamic pools of Rec8-cohesin coexist during meiosis and how their functions are partitioned remained unclear. Here, we employed an anchor-away strategy to conditionally deplete only the dynamic pool of Rec8-cohesin from the nucleus while preserving the stable pool. Selective depletion reduced sporulation efficiency and spore viability without compromising SCC. Calibrated ChIP-seq revealed a genome-wide reduction in Rec8-cohesin levels rather than locus-specific loss. Functional analyses demonstrated that the dynamic pool of Rec8-cohesin is required for efficient meiotic recombination, establishment of meiosis-specific chromosome architecture and synaptonemal complex formation, and proper transcriptional regulation of key meiotic regulators. In contrast, the stable pool alone was sufficient to maintain spindle pole body cohesion. Together, our findings demonstrate the existence of two functionally distinct pools of Rec8-cohesin during yeast meiosis.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Sheetal Paliwal",
-        "Partha Dey",
-        "Akriti Kumari",
-        "Kirithika Sadasivam",
-        "Sameer Joshi",
-        "Ritika Raghuvanshi",
-        "Rohit Goyal",
-        "Kaustuv Sanyal",
-        "Nishant K T",
-        "Akira Shinohara",
-        "Gunjan Mehta"
-      ],
-      "authors_display": "Sheetal Paliwal, Partha Dey, Akriti Kumari, et al.",
-      "first_seen_at": "2026-04-28T04:32:37Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.jbc.2026.113064",
-        "pmcid": null,
-        "pmid": "42036042"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "meiotic recombination",
-          "synaptonemal complex"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.jbc.2026.113064",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-04-24",
-      "short_abstract": "Cohesin is a ring-shaped protein complex that mediates sister-chromatid cohesion to ensure accurate chromosome segregation during mitosis and meiosis. In Saccharomyces cerevisiae, cohesin consists of four core subunits-Smc1, Smc3, Scc1/Mcd1, and Scc3. During meiosis, the mitotic α-kleisin Scc1/Mcd1 is replaced by the meiosis-specific...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "The dynamic pool of Rec8-cohesin is crucial for meiotic recombination and transcription regulation in the yeast S. cerevisiae.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42036042/",
-      "venue": "J Biol Chem",
-      "venue_display": "J Biol Chem"
-    },
-    {
-      "abstract": "Whether increasing tumor mutation burden (TMB) drives selective transcriptional pathway disruption or reflects diffuse genomic accumulation in ovarian serous carcinoma remains unclear. TMB-transcriptome relationships were examined in the CPTAC-GDC cohort (n = 84) using Spearman correlations between continuous TMB and ssGSEA-derived Hallmark pathway scores. Pathway-level somatic mutations were aggregated into TCGA categories. External validation used the Gray Foundation GeoMx spatial transcriptomics cohort (n = 43) and MSK SPECTRUM multi-region genomic cohort (n = 42). No detectable TMB-pathway activity associations were identified after FDR correction (all FDR > 0.30; all |ρ| < 0.25), robust to hypermutator exclusion and TP53-mutant subgroup analysis (n = 66; all FDR > 0.66). Chromatin remodeling was the only pathway with significant TMB-correlated mutation accumulation (ρ = +0.481, FDR < 0.001), persisting after gene-length normalization. TP53 pathway mutation density showed an expected arithmetic decrease in high-TMB tumors (median 0.247 vs. 0.667, p = 0.0002). Spatial profiling confirmed compartment-dependent pathway activity, with chromatin remodeling enriched in epithelial compartments (Δ = +0.375, FDR < 0.001). MSK SPECTRUM confirmed the TP53 density pattern (ρ = -0.991) and universal TP53 mutation (100% vs. 79.8% in discovery). No detectable association between TMB and transcriptional pathway activity was observed in ovarian serous carcinoma under the statistical power of this study. Chromatin remodeling is preferentially mutated with increasing TMB and compartment-enriched in epithelial cells. These findings underscore the importance of spatially resolved, histologically validated analyses for interpreting pathway biology in HGSC.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Elif Kardelen Çağdaş"
-      ],
-      "authors_display": "Elif Kardelen Çağdaş",
-      "first_seen_at": "2026-04-27T04:29:23Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.ygyno.2026.04.010",
-        "pmcid": null,
-        "pmid": "42034009"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation accumulation"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.ygyno.2026.04.010",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-24",
-      "short_abstract": "Whether increasing tumor mutation burden (TMB) drives selective transcriptional pathway disruption or reflects diffuse genomic accumulation in ovarian serous carcinoma remains unclear. TMB-transcriptome relationships were examined in the CPTAC-GDC cohort (n = 84) using Spearman correlations between continuous TMB and ssGSEA-derived...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Pathway-level somatic mutation burden reflects diffuse genomic accumulation rather than selective transcriptional disruption in ovarian serous carcinoma: Evidence from bulk, spatial, and multi-region genomic analyses.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42034009/",
-      "venue": "Gynecol Oncol",
-      "venue_display": "Gynecol Oncol"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42054461/",
+      "venue": "Sci Adv",
+      "venue_display": "Sci Adv"
     },
     {
       "abstract": "We offer our perspective on the rich literature on the estimation of measures of inbreeding, relatedness, and population structure, beginning with Sewall Wright's F-statistics and moving onto the descriptive statistics of Masatoshi Nei and Clark Cockerham before discussing recent papers. The current availability of genome-level single nucleotide variant data is allowing for sophisticated treatments of inferred identity by descent segments and inferred ancestral recombination graphs. Underlying such disparate methods is an emphasis of characterizing the descent status of alleles within and between individuals and populations, and we have found allele-sharing statistics a convenient framework for examining the differences and similarities among different estimators. We have been able to resolve some long-standing reported differences among estimators, especially those involving the work of Nei. In the course of our algebraic and empirical treatment of descent measure estimation, we have been able to formulate a set of five recommendations. Following the early work of Sewall Wright, we recommend (1) State that descent measures for pairs of alleles are relative to values in a reference set of allele pairs. With this view, we recommend (2) Use estimators that preserve descent measure rankings over different reference sets. Allele-sharing estimators satisfy this recommendation. Reducing genotypic data to allelic data has the benefit of reducing dimensionality, but we recommend (3) If genotypic data are available, avoid having to assume Hardy-Weinberg equilibrium by not reducing them to allelic data. Partly as a consequence of working with genotypic data, we recommend (4) Recognize that allele frequencies do not need to be estimated. Not estimating allele frequencies prevents the confounding of descent estimates for target pairs of alleles by the status of all pairs in a reference set. On the basis of both theoretical and empirical results, finally, we recommend (5) Consider both inbreeding and kinship when estimating either one. It is difficult to envisage a natural population that does not have at least some level of both relatedness and inbreeding.",
@@ -650,48 +703,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42028812/",
       "venue": "Genetics",
       "venue_display": "Genetics"
-    },
-    {
-      "abstract": "Triple-negative breast cancer (TNBC) lacks actionable molecular targets, so treatment primarily relies on cytotoxic chemotherapy and radiotherapy, yet relapse, resistance, and metastasis still drives poor long-term survival. Dopamine signaling has recently been linked to tumor aggressiveness, and dopamine-receptor antagonists have shown preclinical benefit in other cancers. We therefore evaluated quetiapine (QTP), an FDA-approved DRD2/DRD3 antagonist, as a therapeutic adjunct in TNBC. SUM159-PT, BT-549, and MDA-MB-231 cells were treated with QTP alone or combined with radiation or standard agents (doxorubicin, paclitaxel, 5-fluorouracil). Clonogenic and mammosphere assays measured proliferative and self-renewal potential. Annexin V/propidium-iodide flow cytometry quantified apoptosis, and γ-H2AX immunofluorescence tracked DNA double-strand breaks and repair kinetics. Transwell assays assessed migration of untreated bulk cells and radiation-surviving subclones. QTP significantly reduced clonogenicity and self-renewal in all TNBC models tested, both alone and in combination with radiation or chemotherapy. In apoptosis assays, QTP treatment induced a marked increase in early and late apoptotic cell populations. QTP also promoted DNA double-strand break formation and delayed repair, as indicated by persistent γ-H2AX foci at 24 h after treatment. Additionally, QTP impaired the migratory capacity of both untreated and radiation-surviving cells. Combination treatments with QTP and doxorubicin produced synergistic effects, resulting in complete loss of colony-forming ability and mammosphere formation. The data presented support the repurposing of quetiapine as an adjuvant therapeutic agent alongside radiotherapy and/or chemotherapy in TNBC. By targeting apoptosis, DNA repair, and cancer cell migration, QTP offers a novel, multi-faceted approach to improve outcomes in this high-risk breast cancer subtype.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Ling He",
-        "Purva Joshi",
-        "Angeliki Ioannidis",
-        "Anoushka Kathiravan",
-        "Mohammad Saki",
-        "Frank Pajonk"
-      ],
-      "authors_display": "Ling He, Purva Joshi, Angeliki Ioannidis, et al.",
-      "first_seen_at": "2026-04-24T04:16:19Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1667/rade-25-00222.1",
-        "pmcid": null,
-        "pmid": "42019962"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "double strand break formation"
-        ]
-      },
-      "paper_key": "doi:10.1667/rade-25-00222.1",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-04-23",
-      "short_abstract": "Triple-negative breast cancer (TNBC) lacks actionable molecular targets, so treatment primarily relies on cytotoxic chemotherapy and radiotherapy, yet relapse, resistance, and metastasis still drives poor long-term survival. Dopamine signaling has recently been linked to tumor aggressiveness, and dopamine-receptor antagonists have shown...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Repurposing Quetiapine as an Adjuvant Therapeutic Agent for Triple-Negative Breast Cancer.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42019962/",
-      "venue": "Radiat Res",
-      "venue_display": "Radiat Res"
     },
     {
       "abstract": "Probabilistic models such as the sequentially Markovian coalescent have long provided a powerful framework for population genetic inference, enabling reconstruction of demographic history and ancestral relationships from genomic data. However, these methods are inherently specialized, relying on predefined assumptions and/or limited scalability. Recent advances in simulation and deep learning provide an alternative approach: learning directly to generalize from synthetic genetic data to infer hidden evolutionary processes. Here we reframe the inference of coalescence times as a problem of translation between two biological languages: the sparse, observable patterns of mutation along the genome and the unobservable ancestral recombination graph that gave rise to them. Inspired by large language models, we develop cxt, a decoder-only transformer that autoregressively predicts coalescent events conditioned on local mutational context. We show that cxt performs competitively with state-of-the-art Markov Chain Monte Carlo-based likelihood models across a broad range of demographic scenarios, matching their accuracy in-distribution and approaching it in out-of-distribution, with the potential for improvement via fine-tuning. Trained on simulations spanning the stdpopsim catalog [J. R. Adrion et al., eLife 9, e54967 (2020); M. E. Lauterbur et al., eLife 12, e84874 (2023); G. Gower et al., Accessible, realistic genome simulation with selection using stdpopsim. bioRxiv [Preprint] (2025). https://doi.org/10.1101/2025.03.23.644823.], the model generalizes robustly and enables efficient inference at scale, producing over a million coalescence predictions in minutes. cxt also produces well-calibrated approximate posteriors, enabling principled uncertainty quantification. We apply cxt to population genomic data from both humans and mosquitoes, highlighting the model's ability to deal with the complexities of empirical data.",
