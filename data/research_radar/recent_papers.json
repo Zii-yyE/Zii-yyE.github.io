@@ -1,6 +1,50 @@
 {
-  "generated_at": "2026-05-01T04:47:49Z",
+  "generated_at": "2026-05-02T04:17:15Z",
   "latest": [
+    {
+      "abstract": "Aneuploidy is intrinsically associated with nascent polyploidy, yet its evolutionary relevance in this specific context remains unknown. We assessed evolvability, defined as \"progeny fitness,\" of transgenerationally selected aneuploid and euploid cohorts in a synthetic allotetraploid wheat under both regular condition and three abiotic stresses. We find that ~30% of the aneuploid cohorts manifested significantly higher evolvability than euploidy even under regular normal condition, and the vast majority of individuals that survived any of the three stresses were aneuploidies with loss/gain of specific chromosomes; the few euploid survivors were all progenies of stress-tolerant parental aneuploidies, which contained the same inherited multiple structural variants. Physiological assay revealed stress-induced shifting of cellular physiological profiles which move toward or transgress those of the more tolerant diploid parent in the stress-tolerant cohorts. Whole-genome resequencing ruled out nucleotide-level mutation as an underpinning. This study demonstrates that aneuploidy may serve as a transit springboard contributing to the establishment of nascent polyploidy by imparting its stress tolerance and higher evolvability properties to euploid progenies.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Han Wang",
+        "Ruisi Wang",
+        "Boshi Chen",
+        "Tariq Aslam",
+        "Taotao Lian",
+        "Chunming Xu",
+        "Bao Liu",
+        "Ruili Lv"
+      ],
+      "authors_display": "Han Wang, Ruisi Wang, Boshi Chen, et al.",
+      "first_seen_at": "2026-05-02T04:17:15Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1126/sciadv.aec8789",
+        "pmcid": null,
+        "pmid": "42066068"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1126/sciadv.aec8789",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-05-01",
+      "short_abstract": "Aneuploidy is intrinsically associated with nascent polyploidy, yet its evolutionary relevance in this specific context remains unknown. We assessed evolvability, defined as \"progeny fitness,\" of transgenerationally selected aneuploid and euploid cohorts in a synthetic allotetraploid wheat under both regular condition and three abiotic...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Aneuploidy confers environmentally robust higher evolvability than euploidy in a synthetic allotetraploid wheat.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42066068/",
+      "venue": "Sci Adv",
+      "venue_display": "Sci Adv"
+    },
     {
       "abstract": "The human oral microbiome, a complex ecosystem of niche-specific communities influenced by local ecological factors, plays a critical role in health and disease. Capnocytophaga species are prevalent in the human mouth, often abundant in dental plaque and linked to both commensalism and pathogenicity, motivating a detailed study of their ecological and functional diversity. This study employs metapangenomics to reveal Capnocytophaga strain-level distributions and functional adaptations across distinct sites in the human oral cavity. Pangenomic, phylogenetic, and average nucleotide identity analyses enabled classification of unnamed genomes and identified 13 groups, of which 8 include validly named species, and the remainder are named using Human Microbial Taxon (HMT) designations in the Human Oral Microbiome Database (HOMD; https://www.homd.org/). Mapping metagenomic reads to the pangenome revealed a strong preference of most Capnocytophaga genomes for dental plaque (both supra- and subgingival), yet identified strain-level variants of C. sputigena, C. gingivalis, C. granulosa, and C. leadbetteri detected more often on the tongue. Among dental plaque-abundant taxa, functional analyses uncovered two clades: one with cbb3-type cytochrome oxidase that is tied to enhanced denitrification and could help the organism adapt to hypoxic zones, and another with bd-type ubiquinol oxidase, more suited to aerobic metabolism. Carbohydrate and amino acid metabolism pathways also differed between these clades. These findings identify metabolic adaptations that may underlie sub-specialization within the plaque habitat and highlight the strain-level diversity of Capnocytophaga, including low-prevalence strains that are preferentially detected in sites outside the primary plaque habitat of this taxon. Understanding the ecological roles of Capnocytophaga in the oral microbiome is critical for deciphering its contributions to health and disease, including periodontal and systemic infections. This metapangenomics study reveals a pronounced specialization by Capnocytophaga to dental plaque (including supragingival, subgingival, and periodontal pockets) and identifies metabolic adaptations, such as distinct respiratory, carbohydrate, and amino acid pathways, that may drive niche-specific survival. These findings support the site-specialist hypothesis and enhance our understanding of oral microbial community structure, laying a foundation for future research into microbial interactions and targeted therapies for oral health.",
       "accent_color": "#2f8f6b",
@@ -168,6 +212,99 @@
       "venue_display": "Sci Data"
     },
     {
+      "abstract": "TANGO2 deficiency disorder (TDD) is a rare autosomal recessive condition characterized by neurodevelopmental delay, epilepsy, and metabolic crises, mainly caused by recurrent deletions in TANGO2. This study reports the identification of TDD in 2 unrelated families using long-read HiFi genome sequencing (GS), which uncovered homozygous deletions missed by conventional next-generation sequencing (NGS). Long-read HiFi GS was performed on blood-derived genomic DNA from affected individuals in both families using the Revio system (Pacific Biosciences). Homozygous deletions spanning exons 3-9 in family 1 and exons 4-6 in family 2 were identified. These recurrent deletions resulted from genomic recombination between an Alu element and distinct retrotransposon subclasses: ERV1 in family 1 and L1MB8 in family 2. The lack of extended homology at breakpoint junctions, deletion sizes, and the dense repetitive genomic architecture support a replication-based rearrangement mechanism, most consistent with fork stalling and template switching or microhomology-mediated break-induced repair (FoSTeS/MMBIR). This study highlights the diagnostic value of long-read HiFi GS for detecting structural variants (SVs) overlooked by standard-of-care NGS and enabling base-pair level breakpoint characterization. It provides the first evidence of retrotransposon-mediated recombination causing recurrent TANGO2 deletions, elucidating the mechanistic underpinnings of genomic instability at this locus. Finally, these results suggest that TDD prevalence may be underestimated because of undetected SVs.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Quentin Sabbagh",
+        "Felipe Villa Tobón",
+        "Zahra Kazemi",
+        "Laura Lentini",
+        "Marie-Emmanuelle Dilenge",
+        "Daniela Buhas",
+        "Tomi Pastinen",
+        "Isabelle Thiffault",
+        "Geneviève Bernard"
+      ],
+      "authors_display": "Quentin Sabbagh, Felipe Villa Tobón, Zahra Kazemi, et al.",
+      "first_seen_at": "2026-05-02T04:17:15Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1101/gr.279414.124",
+        "pmcid": "PMC12047270",
+        "pmid": "42063611"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants"
+        ]
+      },
+      "paper_key": "doi:10.1101/gr.279414.124",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-29",
+      "short_abstract": "TANGO2 deficiency disorder (TDD) is a rare autosomal recessive condition characterized by neurodevelopmental delay, epilepsy, and metabolic crises, mainly caused by recurrent deletions in TANGO2. This study reports the identification of TDD in 2 unrelated families using long-read HiFi genome sequencing (GS), which uncovered homozygous...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Long-Read HiFi Genome Sequencing Resolves Retrotransposon-Mediated Deletions in TANGO2 Deficiency Disorder.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42063611/",
+      "venue": "Neurol Genet",
+      "venue_display": "Neurol Genet"
+    },
+    {
+      "abstract": "Distinguishing somatic structural variants (SVs) from germline SVs in the absence of matched normal samples has significant value in elucidating disease-driving processes in cancer. Here, we present a protocol for classifying germline SVs in tumor-only contexts using a support vector machine (SVM)-based algorithm. We describe steps for preparing input data and identifying SVs from whole-genome sequencing (WGS) of tumor samples using the SV caller SvABA. We then detail classification procedures via our germline and tumor structural variant classifier (GaTSV). For complete details on the use and execution of this protocol, please refer to Chukwu et al.1.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Wolu Chukwu",
+        "Siyun Lee",
+        "Alexander Crane",
+        "Shu Zhang",
+        "Jeremiah Wala",
+        "Oumayma Dakhama",
+        "Gregory Raskind",
+        "Julia Sun",
+        "Rameen Beroukhim",
+        "Frank Dubois",
+        "Simona Dalin"
+      ],
+      "authors_display": "Wolu Chukwu, Siyun Lee, Alexander Crane, et al.",
+      "first_seen_at": "2026-05-02T04:17:15Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.xpro.2026.104528",
+        "pmcid": null,
+        "pmid": "42065967"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variants",
+          "structural variant"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.xpro.2026.104528",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-04-29",
+      "short_abstract": "Distinguishing somatic structural variants (SVs) from germline SVs in the absence of matched normal samples has significant value in elucidating disease-driving processes in cancer. Here, we present a protocol for classifying germline SVs in tumor-only contexts using a support vector machine (SVM)-based algorithm. We describe steps for...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Classifying germline and somatic structural variants in tumor-only contexts using GaTSV.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42065967/",
+      "venue": "STAR Protoc",
+      "venue_display": "STAR Protoc"
+    },
+    {
       "abstract": "The flag leaf serves as the primary photosynthetic organ in wheat, and its size is significantly correlated with wheat yield. The mapping of QTLs associated with flag leaf size and the development of closely linked molecular markers holds substantial significance for enhancing wheat yield potential. In this study, a genetic linkage map consisting of 11,583 markers was constructed by the Wheat55K SNP Array, and the quantitative trait loci (QTLs) for flag leaf length (FLL), width (FLW), area (FLA), and length/width ratio (FLR) were mapped across six experimental environments. A total of 97, 273, and 32 QTLs were mapped using the ICIM-BIP, ICIM-MET, and ICIM-EPI methods, respectively. Five QTLs, Q.Fll.sau-2D.1, Q.Flw.sau-1B.2, Q.Flw.sau-4B, Q.Fla.sau-4B.3, and Q.Flr.sau-2D.3, explained 15.97%, 15.28%, 10.81%, 11.00%, and 11.09% of the phenotypic variation on average and were considered major and stable QTLs for the FLL, FLW, FLA, and FLR, respectively. Three Kompetitive Allele-Specific PCR (KASP) markers, which are closely linked to these five QTLs, were designed. The genetic effects of these five QTLs were successfully confirmed in different populations. The pyramiding effect analysis revealed that the stable QTLs mapped in this study can significantly alter flag leaf size-related traits as the number of pyramided loci increases. The parental lines were further genotyped using the 120 K SNP Array, followed by density enhancement of the genetic map for the initial mapping intervals. This significantly narrowed down the physical distance of the initial mapping intervals, and candidate genes within the refined physical intervals were screened. These QTL mapping results of flag leaf size-related traits and the closely linked KASP markers revealed in this study provide new resources for future wheat breeding.",
       "accent_color": "#8b5e34",
       "authors": [
@@ -219,50 +356,6 @@
         "recombination"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42056859/",
-      "venue": "BMC Plant Biol",
-      "venue_display": "BMC Plant Biol"
-    },
-    {
-      "abstract": "TCP transcription factors are key regulators of plant architecture and development, yet their evolution is often inferred from a single reference genome. Using a dataset of 1,015 plant genomes, we observed a pronounced clade-level gradient in TCP copy number, including complete absence in algae and expanded repertoires in angiosperms, with retention after WGD/segmental duplication emerging as a major contributor. We then leveraged a tea pangenome of nine Camellia genomes (three wild species and six cultivated Camellia sinensis varieties) to resolve pangenome-scale TCP dynamics. A total of 292 TCP genes were identified and grouped into three lineages (PCF, CIN and CYC/TB1). Cultivated accessions in this sampled panel harbored fewer annotated TCP genes than the sampled wild relatives, with an average reduction of approximately 27%. Orthogroup analysis revealed a compact core (4 orthogroups; 57 genes, 19.5%) and a large dispensable component (25 orthogroups; 235 genes, 80.5%) that showed extensive copy-number variation and lineage-specific loss/expansion; core enrichment was strongest in CYC/TB1, whereas PCF was biased toward dispensable genes. Tea TCP expansion was mainly attributed to WGD/segmental duplication (60.3%) and dispersed duplication (26.7%). Most homologous pairs evolved under purifying selection, but dispensable pairs exhibited higher Ka/Ks than core pairs, consistent with relaxed constraint. Pan-transcriptome comparisons across eight tissues showed generally higher TCP expression in cultivated materials, particularly in apical bud and stem/fruit-related tissues. Together, these results establish a pangenome-informed TCP resource and suggest that dosage remodeling and structural variation may have contributed to lineage diversification in tea and provide candidates for future studies of domestication-related evolution.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Jicheng Sun",
-        "Quanlong Liu",
-        "Yixin Cao",
-        "Yafei Wang",
-        "Yue Wang",
-        "Guang Chen"
-      ],
-      "authors_display": "Jicheng Sun, Quanlong Liu, Yixin Cao, et al.",
-      "first_seen_at": "2026-05-01T04:47:49Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1186/s12870-026-08854-7",
-        "pmcid": null,
-        "pmid": "42056909"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pan genome",
-          "structural variation",
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1186/s12870-026-08854-7",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-29",
-      "short_abstract": "TCP transcription factors are key regulators of plant architecture and development, yet their evolution is often inferred from a single reference genome. Using a dataset of 1,015 plant genomes, we observed a pronounced clade-level gradient in TCP copy number, including complete absence in algae and expanded repertoires in angiosperms,...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Evolution of the TCP gene family and pan-genome analysis in tea (Camellia sinensis).",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42056909/",
       "venue": "BMC Plant Biol",
       "venue_display": "BMC Plant Biol"
     },
@@ -355,62 +448,6 @@
       "venue_display": "Plant Cell Environ"
     },
     {
-      "abstract": "Amaranthus species (particularly Amaranthus cruentus, Amaranthus hypochondriacus, Amaranthus tricolor and Amaranthus caudatus) are traditional underutilised crops with the potential to contribute to sustainable, healthy food systems. We focus on amaranth as a leafy vegetable aiming to develop improved lines for cultivation by smallholder farmers in Sub-Saharan Africa. We demonstrate differences in leaf yield and metabolites relevant to human nutrition across eight amaranth accessions: four A. cruentus and four A. hypochondriacus. These accessions are founders of an inter-specific multi-parent advanced generation inter-cross population. We generated high-quality genome assemblies and annotations for these founder lines and identified sequence and structural variants (SVs) compared with a reference A. cruentus genome. Pangenome analysis (also including A. cruentus, A. hypochondriacus and A. tricolor reference genomes) identified core, dispensable and private gene families. Fifty per cent of gene families were core, highlighting the value, in terms of gene discovery, of sequencing additional accessions and the inclusion of three Amaranthus species. A graphical pangenome was constructed using SVs and demonstrated variation in copy number of genes with a likely role in disease resistance. This inter-specific pangenome will be highly valuable for future research on amaranth and facilitate usage of SVs in trait mapping and causal gene discovery.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Maud A J de Kinderen",
-        "Xiao Ma",
-        "Fabián E Vaistij",
-        "Jiyang Chang",
-        "Tony Larson",
-        "Yi Li",
-        "Fekadu Dinssa",
-        "Chen-Yu Lin",
-        "Tulsi Suchak",
-        "Samuel J Smit",
-        "Daniel C Jeffares",
-        "Allen Van Deynze",
-        "Willem S Jansen van Rensburg",
-        "Abe S Gerrano",
-        "Michael W Bairu",
-        "Sonja L Venter",
-        "Roland Schafleitner",
-        "Yves Van de Peer",
-        "Katherine Denby"
-      ],
-      "authors_display": "Maud A J de Kinderen, Xiao Ma, Fabián E Vaistij, et al.",
-      "first_seen_at": "2026-05-01T04:47:49Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1111/nph.71183",
-        "pmcid": null,
-        "pmid": "42057336"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenome",
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1111/nph.71183",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-29",
-      "short_abstract": "Amaranthus species (particularly Amaranthus cruentus, Amaranthus hypochondriacus, Amaranthus tricolor and Amaranthus caudatus) are traditional underutilised crops with the potential to contribute to sustainable, healthy food systems. We focus on amaranth as a leafy vegetable aiming to develop improved lines for cultivation by...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "An inter-specific Amaranthus pangenome captures genetic variation potentially underlying key leafy vegetable traits in this underutilised crop.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42057336/",
-      "venue": "New Phytol",
-      "venue_display": "New Phytol"
-    },
-    {
       "abstract": "The eukaryotic radiation sensitive 51 (RAD51) gene family comprises seven ancient paralogs that have been remarkably conserved across both plants and animals. Among these paralogs, X-ray repair cross complementing 2 (XRCC2) plays a pivotal role in mammalian embryonic development. However, in Arabidopsis (Arabidopsis thaliana), disruption of its function leads to seemingly normal meiotic processes, and intriguingly, even appears to increase meiotic recombination. Given these disparate observations, the precise role of XRCC2 during meiosis remains largely elusive. Here, we identified the XRCC2 gene in maize (Zea mays), a member of the RAD51-paralog family and the homolog of Arabidopsis XRCC2. Plants with mutated XRCC2 exhibited partial male and female sterility. Cytological investigations of xrcc2 mutants revealed that the meiocytes form univalent chromosomes and chromosome bridges and undergo chromosome fragmentation, while homologous pairing and synapsis occur normally. Notably, the xrcc2 mutant showed a significant reduction in the number of meiotic chiasmata and RAD51 foci. Furthermore, XRCC2 was essential for maintaining genome stability and affected the transcription of RAD51 paralogs. Within yeast and tobacco systems, we detected interactions between XRCC2 and disrupted meiotic cDNA1 (DMC1), Radiation sensitive 51C (RAD51C), and radiation sensitive 51D (RAD51D). Collectively, XRCC2 demonstrates remarkable functional diversity across species and plays an important role in maize crossover formation.",
       "accent_color": "#8b5e34",
       "authors": [
@@ -489,57 +526,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42053800/",
       "venue": "Protoplasma",
       "venue_display": "Protoplasma"
-    },
-    {
-      "abstract": "Fruit maturity date is a key developmental trait in fruit trees, as it determines the timing at which fruits enter the ripening phase, thereby shaping harvest calendar and fruit quality. In peach, ripening time varies over several months, yet the genetic and regulatory basis underlying this extensive phenological diversity has remained largely unresolved. Here, we dissect the long-standing chromosome 4 maturity date locus (qMD4.1) and show that a multi-allelic series of structural variants in the upstream regulatory region of the transcription factor NAC1 explains most of the observed variation in ripening time in cultivated peach. Across multiple independent populations and diverse genetic backgrounds, these variants (collectively termed Md) stratify maturity date from ultra-early to late cultivars with largely additive and dosage-dependent effects. Using recombinant-based genetic dissection, long-read sequencing, transcriptomic analyses and epigenomic data integration, we show that Md alleles are consistently associated with allele-dependent shifts in the temporal dynamics of NAC1 transcript accumulation, and that the affected region overlaps with chromatin features characteristic of regulatory activity. By resolving the genetic architecture of a major phenological locus, our results support a central role for cis-regulatory structural variation in modulating developmental timing in peach and provide biologically interpretable markers for predicting maturity date. More broadly, this work illustrates how non-coding structural variation can contribute to variation in fruit developmental trajectories, with implications for breeding strategies aimed at modulating harvest windows in peach and other stone fruit species.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Alessandro Giulio Tagliabue",
-        "James Friel",
-        "Remo Chiozzotto",
-        "Irina Baccichet",
-        "Cassia Da Silva Linge",
-        "Elisa Calastri",
-        "Gianluca Biffi",
-        "Nathalia Zaracho",
-        "Stefano Gattolin",
-        "Sabrina Micali",
-        "Iban Eduardo",
-        "Daniele Bassi",
-        "Laura Rossini",
-        "Marco Cirilli"
-      ],
-      "authors_display": "Alessandro Giulio Tagliabue, James Friel, Remo Chiozzotto, et al.",
-      "first_seen_at": "2026-04-30T04:30:39Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/jxb/erag210",
-        "pmcid": null,
-        "pmid": "42051122"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variation",
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1093/jxb/erag210",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-29",
-      "short_abstract": "Fruit maturity date is a key developmental trait in fruit trees, as it determines the timing at which fruits enter the ripening phase, thereby shaping harvest calendar and fruit quality. In peach, ripening time varies over several months, yet the genetic and regulatory basis underlying this extensive phenological diversity has remained...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Regulatory structural variation upstream of a NAC transcription factor controls fruit maturity timing in peach.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42051122/",
-      "venue": "J Exp Bot",
-      "venue_display": "J Exp Bot"
     },
     {
       "abstract": "Although recent advances in genomics have enabled the high-resolution study of whole genomes, our understanding of one of the key evolutionary processes, mutation, still remains limited. In primates specifically, studies have largely focused on humans and their closest evolutionary relatives, the great apes, as well as a handful of species of biomedical or conservation interest. Yet, as mutation rates vary across genomic regions, individuals, and species, a greater understanding of the underlying evolutionary dynamics at play will ultimately be illuminated by not only additional sampling across the Order, but also by a greater depth of sampling within-species. To address these needs, we here present the first population-scale genomic resources for the coppery titi monkey (Plecturocebus cupreus)-a platyrrhine of considerable biomedical interest for both social behavior and neurobiology. Deep whole-genome sequencing of 15 parent-offspring trios, together with a computational de novo mutation detection pipeline based on pan-genome graphs, has provided a detailed picture of the sex-averaged mutation rate-0.63 × 10-8 (95% CI: 0.43 × 10-8-0.90 × 10-8) per site per generation-as well as the effects of both sex and parental age on underlying rates, demonstrating a significant paternal age effect. Coppery titi monkey males exhibit long reproductive lifespans, afforded by long-term pair bonding in the species' monogamous mating system, and our results have demonstrated that individuals reproducing later in life exhibit one of the strongest male mutation biases observed in any non-human primate studied to date. Taken together, this study thus provides an important piece of the puzzle for better comprehending the mutational landscape across primates.",
