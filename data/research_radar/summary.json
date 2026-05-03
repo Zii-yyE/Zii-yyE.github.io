@@ -2,7 +2,7 @@
   "focus_topics": [
     {
       "accent_color": "#f25f4c",
-      "count": 54,
+      "count": 55,
       "id": "mutation_rate",
       "label": "Mutation Rate"
     },
@@ -14,18 +14,18 @@
     },
     {
       "accent_color": "#8b5e34",
-      "count": 23,
+      "count": 24,
       "id": "recombination",
       "label": "Recombination"
     },
     {
       "accent_color": "#2f8f6b",
-      "count": 178,
+      "count": 181,
       "id": "pangenome_sv",
       "label": "Pangenome / Structural Variation"
     }
   ],
-  "generated_at": "2026-05-02T04:17:15Z",
-  "generated_at_china": "2026-05-02 12:17 UTC+8",
+  "generated_at": "2026-05-03T04:39:06Z",
+  "generated_at_china": "2026-05-03 12:39 UTC+8",
   "source_errors": {}
 }

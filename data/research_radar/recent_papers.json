@@ -1,6 +1,271 @@
 {
-  "generated_at": "2026-05-02T04:17:15Z",
+  "generated_at": "2026-05-03T04:39:06Z",
   "latest": [
+    {
+      "abstract": "Structural variants (SV) are major drivers of evolutionary processes such as adaptation and speciation, yet their complexity and dynamics in wild populations remain largely unexplored. Avian diversity is highest in the Neotropics, primarily due to the suboscine passerine radiation; however, despite this diversity, genomic resources and studies of SVs in suboscines are scarce compared to their sister clade, the oscine passerines (\"songbirds\"). Here, we used long-read and chromatin conformation capture sequencing to assemble a high-quality scaffolded reference genome and construct a population-scale pangenome from 5 individuals of the Pearly-vented Tody-Tyrant (Hemitriccus margaritaceiventer), a suboscine bird with plumage variation across its distribution in South American dry forests. Our pangenome graph reveals extensive structural variation, with the chromosomal distribution of SVs strongly predicted by simple and low-complexity repeats - highlighting how specific repeat architecture may influence genome evolution. We discovered intraspecific copy number variation in multigene families, with the most complex instance including beta-keratin genes. Lastly, we identified a 306 kb inversion spanning several melanin pigmentation-associated genes (e.g. MREG, MLPH, RAB17), making it a potential candidate SV for known intraspecific plumage variation. Our study establishes a population-scale pangenome resource for a suboscine bird, enabling characterization of the genome-wide abundance, diversity, and distribution of SVs within this species.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Kelsie A Lopez",
+        "Clarissa Ferreira de Carvalho",
+        "Hevana Santana de Lima",
+        "Luciano Nicolás Naka",
+        "Fabio Raposo do Amaral",
+        "Gustavo A Bravo",
+        "Scott V Edwards"
+      ],
+      "authors_display": "Kelsie A Lopez, Clarissa Ferreira de Carvalho, Hevana Santana de Lima, et al.",
+      "first_seen_at": "2026-05-03T04:39:06Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1093/genetics/iyag109",
+        "pmcid": null,
+        "pmid": "42068163"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation",
+          "structural variants",
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1093/genetics/iyag109",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-05-02",
+      "short_abstract": "Structural variants (SV) are major drivers of evolutionary processes such as adaptation and speciation, yet their complexity and dynamics in wild populations remain largely unexplored. Avian diversity is highest in the Neotropics, primarily due to the suboscine passerine radiation; however, despite this diversity, genomic resources and...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Pangenomes reveal extensive structural variation in a suboscine passerine bird, the Pearly-vented Tody-Tyrant (Hemitriccus margaritaceiventer).",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42068163/",
+      "venue": "Genetics",
+      "venue_display": "Genetics"
+    },
+    {
+      "abstract": "To investigate the landscape of targetable genomic alterations and programmed cell death ligand 1 (PD-L1) expression in pulmonary ground-glass opacities (GGOs) and their association with age. A total of 2509 patients with GGOs were retrospectively analyzed. Tumor characteristics, PD-L1 expression, and prevalence of targetable alterations were compared across age groups. In GGOs, the mutation rates of EGFR (61.5%) and ERBB2 (12.0%) were relatively high, whereas those of KRAS (8.2%) and ALK rearrangements (2.3%) were relatively low. The patients exhibited a low tumor mutational burden (TMB), and PD-L1 expression was negative in 86.7% of cases. TMB, PD-L1 expression, and the mutation rates of EGFR, KRAS, and MET increased significantly with age, whereas the rates of ERBB2 mutations, ALK rearrangements, and RET rearrangements decreased significantly with age. Age was identified as an independent predictor for the above eight variables. The optimal age cutoff was determined to be 53 years. Compared with the younger age group (< 53 years), the older age group (≥ 53 years) showed a 31.6%, 130.4%, and 800.0% higher likelihood of harboring EGFR, KRAS, and MET mutations, respectively. Conversely, compared with the older age group, the younger age group showed a 289.1%, 94.1%, and 108.7% higher likelihood of harboring ERBB2 mutations, ALK rearrangements, and RET rearrangements, respectively. GGOs exhibit a distinct genomic and PD-L1 profile with significant age-related heterogeneity, providing insights for age-stratified therapeutic strategies.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Wen-Fang Tang",
+        "Si-Qi Huang",
+        "Yi-Duo Lin",
+        "Hong-Ji Li",
+        "Qing-Hua Huang",
+        "Jing Chen",
+        "Zhen-Bin Qiu",
+        "Wei-Zhao Huang",
+        "Ying-Meng Wu",
+        "Hong-Yu Ye",
+        "Wei Xu",
+        "Xue-Ning Yang",
+        "Yi-Long Wu",
+        "Hai-Ming Jiang",
+        "Yi Liang",
+        "Xuan Tang",
+        "Wen-Zhao Zhong"
+      ],
+      "authors_display": "Wen-Fang Tang, Si-Qi Huang, Yi-Duo Lin, et al.",
+      "first_seen_at": "2026-05-03T04:39:06Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1002/cam4.71811",
+        "pmcid": null,
+        "pmid": "42068110"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rates"
+        ]
+      },
+      "paper_key": "doi:10.1002/cam4.71811",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-05-02",
+      "short_abstract": "To investigate the landscape of targetable genomic alterations and programmed cell death ligand 1 (PD-L1) expression in pulmonary ground-glass opacities (GGOs) and their association with age. A total of 2509 patients with GGOs were retrospectively analyzed. Tumor characteristics, PD-L1 expression, and prevalence of targetable...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Age-Associated Targetable Genomic Alterations and PD-L1 Expression in 2509 Patients With Pulmonary Ground-Glass Opacities.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42068110/",
+      "venue": "Cancer Med",
+      "venue_display": "Cancer Med"
+    },
+    {
+      "abstract": "Klebsiella pneumoniae is a major opportunistic pathogen and a recognized contributor to the global burden of antimicrobial resistance (AMR). Although traditionally associated with healthcare settings, it is increasingly detected in environmental compartments influenced by anthropogenic activities. Aquatic ecosystems may act as reservoirs and dissemination hubs for multidrug-resistant (MDR) lineages and resistance genes. However, genomic data on environmental K. pneumoniae in Morocco remain scarce. This pilot study aimed to characterize a targeted subset of MDR K. pneumoniae isolates recovered from Moroccan rivers using whole-genome sequencing (WGS), with a focus on resistance determinants, virulence-associated loci, plasmid content, and phylogenetic relationships. The main findings revealed marked genetic heterogeneity among the environmental K. pneumoniae isolates. Of the 44 isolates recovered from six Moroccan rivers, 11 MDR isolates were selected for WGS and belonged to nine distinct sequence types, including the high-risk clones ST147 and ST307. Resistance to extended-spectrum β-lactams was mainly associated with ESBL genes, particularly blaCTX-M-15, whereas carbapenem resistance was linked to blaOXA-48 and blaNDM-14 in a subset of isolates. The genomes also carried multiple determinants associated with resistance to other major antimicrobial classes. In addition, the isolates showed diverse plasmid backgrounds, heterogeneous virulence-associated loci, and substantial capsular diversity. Phylogenetic and pangenome analyses further indicated high intraspecific variability and extensive genome plasticity across the collection. This pilot study provides the first whole-genome-based characterization of river-derived MDR K. pneumoniae in Morocco. It demonstrates that aquatic ecosystems harbor genetically diverse lineages carrying clinically relevant resistance and virulence determinants. These findings underscore the imperative of integrating environmental surveillance into national AMR monitoring strategies within a One Health framework.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Amine Aiddi",
+        "Ilham Zerdani",
+        "Aboubakr Khazaz",
+        "Hafsa Mguild",
+        "Adil El Hamouchi",
+        "Kaotar Nayme"
+      ],
+      "authors_display": "Amine Aiddi, Ilham Zerdani, Aboubakr Khazaz, et al.",
+      "first_seen_at": "2026-05-03T04:39:06Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s12864-026-12903-8",
+        "pmcid": null,
+        "pmid": "42067775"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1186/s12864-026-12903-8",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-05-01",
+      "short_abstract": "Klebsiella pneumoniae is a major opportunistic pathogen and a recognized contributor to the global burden of antimicrobial resistance (AMR). Although traditionally associated with healthcare settings, it is increasingly detected in environmental compartments influenced by anthropogenic activities. Aquatic ecosystems may act as...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Whole-genome sequencing of MDR K. pneumoniae circulating in Moroccan river ecosystems: a comprehensive genomic analysis of environmental isolates.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42067775/",
+      "venue": "BMC Genomics",
+      "venue_display": "BMC Genomics"
+    },
+    {
+      "abstract": "Directed evolution methods face trade-offs between the control of discrete approaches and the throughput of modern continuous systems. Here, we engineered a method called lytic selection and evolution (LySE) for near-continuous evolution of bacterial gene clusters while maintaining discrete checkpoints. We developed a hypermutagenic T7 DNA polymerase variant fused to a dual adenine-cytosine deaminase to install all possible transition mutations at similar frequencies. By relieving pressure from maintaining genome fidelity, we obtained mutation rates of 3.82 × 10-5 substitutions per base. For biocontainment, the T7 DNA polymerase was encoded on an accessory plasmid, while the target gene cluster was encoded on a T7 DNA polymerase-lacking T7 phagemid. Alternating cycles of lysis and transduction enable selective replication and mutagenesis of target genes, while off-target genomic mutations are discarded. LySE evolved a 25-fold increase in tetA-encoded tigecycline resistance in 5 cycles, and a 50.9% increase in endpoint biomass of a bacterial strain that uses the polyethylene terephthalate monomer, ethylene glycol, as its sole carbon source. Our method balances speed and control for directed bacterial evolution.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Shujian Ong",
+        "Pramila Ghode",
+        "Ashvinath Narenderan",
+        "Shuxuan Lao",
+        "Fabian Willenborg",
+        "Tobias V Eden",
+        "Carl O Marsh",
+        "Wen Shan Yew",
+        "Julius Fredens"
+      ],
+      "authors_display": "Shujian Ong, Pramila Ghode, Ashvinath Narenderan, et al.",
+      "first_seen_at": "2026-05-03T04:39:06Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41586-024-07487-w",
+        "pmcid": "11168924",
+        "pmid": "42067623"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rates"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41586-024-07487-w",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-05-01",
+      "short_abstract": "Directed evolution methods face trade-offs between the control of discrete approaches and the throughput of modern continuous systems. Here, we engineered a method called lytic selection and evolution (LySE) for near-continuous evolution of bacterial gene clusters while maintaining discrete checkpoints. We developed a hypermutagenic T7...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Bridging continuous and discrete evolution through a controllable, hypermutagenic phage-bacteria system.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42067623/",
+      "venue": "Nat Microbiol",
+      "venue_display": "Nat Microbiol"
+    },
+    {
+      "abstract": "Aplastic anemia (AA) results from T-cell-mediated destruction of hematopoietic stem and progenitor cells (HSPCs), driving clonal hematopoiesis via loss of human leukocyte antigen (HLA) risk alleles (HLA loss-of-function mutations or uniparental disomy 6p, UPD6p), paroxysmal nocturnal hemoglobinuria and clonal hematopoiesis of indeterminate potential (CHIP) mutations. Here genomic profiling of 619 patients with AA revealed clonal hematopoiesis in 69% of cases, with ASXL1, BCOR and BCORL1 identified as the most frequent CHIP mutations in pediatric cases. Single-cell multi-omics analysis of 304,902 cells from 48 samples uncovered complex branching clonal architecture, with a median of three HLA loss events per patient, converging to inactivate HLA risk alleles. Single-cell whole-genome sequencing (WGS) resolved up to 15 HLA loss clones per patient and phylogenetic reconstruction indicated that these clones originated years before diagnosis. Long-read WGS precisely mapped UPD6p breakpoints and HLA methylation. HLA loss conferred a protective effect against CHIP, evidenced by their near-absent co-occurrence. Longitudinal single-cell analysis demonstrated that long-lived clones were enriched in the CD34+ HSPC compartment. These findings reveal parallel evolutionary pathways used by hematopoietic cells to evade immune attack.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Masanori Yoshida",
+        "Sushree S Sahoo",
+        "Paula Y Arnold",
+        "Carmelo Gurnari",
+        "Anaïs J C N van Leeuwen",
+        "Limeng Pu",
+        "Markus J van Roosmalen",
+        "Ti-Cheng Chang",
+        "Charnise Goodings",
+        "Rashid Mehmood",
+        "Lucca L M Derks",
+        "Nathan Gray",
+        "Michelle Boals",
+        "Sara Lewis",
+        "Lili Kotmayer",
+        "Cristyn N Branstetter",
+        "Swapna Thota",
+        "Joshua Leow",
+        "Wenchao Zhang",
+        "Yichao Li",
+        "Melanie R Loyd",
+        "Granger Ridout",
+        "Emily V Walker",
+        "Christy W LaFlamme",
+        "Heather C Mefford",
+        "Zachary Brady",
+        "Yash B Shah",
+        "Rheanna G Congdon",
+        "Miriam Erlacher",
+        "Brigitte Strahm",
+        "Ayami Yoshimi",
+        "Shinsuke Hirabayashi",
+        "Helen D Reed",
+        "Akiko Shimamura",
+        "Guolian Kang",
+        "Xiang Chen",
+        "Jinghui Zhang",
+        "Charlotte M Niemeyer",
+        "Joseph H Oved",
+        "Timothy S Olson",
+        "Ruben van Boxtel",
+        "Jaroslaw P Maciejewski",
+        "Daria V Babushok",
+        "Marcin W Wlodarski"
+      ],
+      "authors_display": "Masanori Yoshida, Sushree S Sahoo, Paula Y Arnold, et al.",
+      "first_seen_at": "2026-05-03T04:39:06Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41586-021-04312-6",
+        "pmcid": "6993851",
+        "pmid": "42067644"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41586-021-04312-6",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-05-01",
+      "short_abstract": "Aplastic anemia (AA) results from T-cell-mediated destruction of hematopoietic stem and progenitor cells (HSPCs), driving clonal hematopoiesis via loss of human leukocyte antigen (HLA) risk alleles (HLA loss-of-function mutations or uniparental disomy 6p, UPD6p), paroxysmal nocturnal hemoglobinuria and clonal hematopoiesis of...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "High-resolution single-cell mapping of clonal hematopoiesis and structural variation in aplastic anemia.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42067644/",
+      "venue": "Nat Genet",
+      "venue_display": "Nat Genet"
+    },
     {
       "abstract": "Aneuploidy is intrinsically associated with nascent polyploidy, yet its evolutionary relevance in this specific context remains unknown. We assessed evolvability, defined as \"progeny fitness,\" of transgenerationally selected aneuploid and euploid cohorts in a synthetic allotetraploid wheat under both regular condition and three abiotic stresses. We find that ~30% of the aneuploid cohorts manifested significantly higher evolvability than euploidy even under regular normal condition, and the vast majority of individuals that survived any of the three stresses were aneuploidies with loss/gain of specific chromosomes; the few euploid survivors were all progenies of stress-tolerant parental aneuploidies, which contained the same inherited multiple structural variants. Physiological assay revealed stress-induced shifting of cellular physiological profiles which move toward or transgress those of the more tolerant diploid parent in the stress-tolerant cohorts. Whole-genome resequencing ruled out nucleotide-level mutation as an underpinning. This study demonstrates that aneuploidy may serve as a transit springboard contributing to the establishment of nascent polyploidy by imparting its stress tolerance and higher evolvability properties to euploid progenies.",
       "accent_color": "#2f8f6b",
@@ -88,49 +353,6 @@
       "venue_display": "Microbiol Spectr"
     },
     {
-      "abstract": "The uplift of the Central American Isthmus (CAI) represents a natural laboratory for the study of allopatric speciation in marine organisms. Several geminate species pairs of both vertebrates and invertebrates formed following the uplift of the CAI, including damselfishes of the Pomacentridae family. However, to date few studies have explored the genomic differences among trainsisthmian species in the Pacific and Atlantic Oceans. In this study we present genome assemblies for the transisthmian species pair consisting of the Sergeant Major Abudefduf saxatilis (Tropical Atlantic) and the Panamic Sergeant Major Abudefduf troschelii (Tropical Eastern Pacific) derived from PacBio long-read sequencing. The new genomes are near-chromosome level, and among the highest-quality genomes currently available for coral reef fishes. We show that large structural variants distinguish the two species, including a nine-megabase inversion in linkage group (putative chromosome) six. Additionally, we show through an analysis of demographic history that alleles within the two genomes have different coalescence time distributions, which may be due to different effective population sizes, population structures, and/or selection regimes in the two oceans. Finally, we highlight gene families that were significantly expanded or contracted between A. troschelii and A. saxatilis. Some of these are related to the environmental differences between the two oceans, including gamma crystallin M (crygm), which is linked to vision, and vitellogenin (vtg), which is associated with egg provisioning. These genomes set the stage for comparative analyses of genetic structure and selection on the marine organisms that originated with the formation of the CAI.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Claire B Tracy",
-        "Carlos F Arias",
-        "Eirlys Tysall",
-        "Marc P Hoeppner",
-        "Owen W McMillan",
-        "Oscar Puebla",
-        "Moisés A Bernal"
-      ],
-      "authors_display": "Claire B Tracy, Carlos F Arias, Eirlys Tysall, et al.",
-      "first_seen_at": "2026-05-01T04:47:49Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/gbe/evag111",
-        "pmcid": null,
-        "pmid": "42060844"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1093/gbe/evag111",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-30",
-      "short_abstract": "The uplift of the Central American Isthmus (CAI) represents a natural laboratory for the study of allopatric speciation in marine organisms. Several geminate species pairs of both vertebrates and invertebrates formed following the uplift of the CAI, including damselfishes of the Pomacentridae family. However, to date few studies have...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Comparative Genomics of Transisthmian Damselfishes (Abudefduf saxatilis and A. troschelii).",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42060844/",
-      "venue": "Genome Biol Evol",
-      "venue_display": "Genome Biol Evol"
-    },
-    {
       "abstract": "The synaptonemal complex (SC) is a highly ordered proteinaceous structure that assembles between homologous chromosomes during the prophase I of meiosis. Conserved as a tripartite architecture across species, the SC plays a central role in chromosome synapsis, meiotic recombination, and faithful chromosome segregation. This review marks the 70th anniversary of the discovery of the synaptonemal complex by Montrose Moses in 1956. In mammals, the SC is composed of eight core (canonical) structural proteins: SYCP1, SYCP2, SYCP3, SYCE1, SYCE2, SYCE3, SIX6OS1, and TEX12. The archetypal SC consists of two lateral elements (SYCP2 and SYCP3), a central element (SYCE1/2/3, SIX6OS1, and TEX12), and numerous transverse filaments (SYCP1). A shared structural feature of SC components is the presence of coiled-coil domains. Although the tripartite organization of the SC is evolutionarily conserved, its constituent proteins exhibit little to no sequence homology across species. In addition to these core components, a number of proteins, including HORMAD1, HORMAD2, TRIP13, SKP1, CDCA5 (Sororin), UBE2I (UBC9), SYCP2L, HSPA2, PSMA8, and FKBP6, associate with the SC. Beyond serving as a structural scaffold essential for homolog synapsis, SC proteins interact with key recombination factors such as DMC1, RAD51, and TEX11, thereby regulating recombination progression and crossover formation. Genetic, biochemical, and structural analyses of SC components have provided important mechanistic insights into SC assembly and function, as well as their clinical relevance to non-obstructive azoospermia (NOA) and premature ovarian insufficiency (POI) in humans.",
       "accent_color": "#8b5e34",
       "authors": [
@@ -210,99 +432,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42062315/",
       "venue": "Sci Data",
       "venue_display": "Sci Data"
-    },
-    {
-      "abstract": "TANGO2 deficiency disorder (TDD) is a rare autosomal recessive condition characterized by neurodevelopmental delay, epilepsy, and metabolic crises, mainly caused by recurrent deletions in TANGO2. This study reports the identification of TDD in 2 unrelated families using long-read HiFi genome sequencing (GS), which uncovered homozygous deletions missed by conventional next-generation sequencing (NGS). Long-read HiFi GS was performed on blood-derived genomic DNA from affected individuals in both families using the Revio system (Pacific Biosciences). Homozygous deletions spanning exons 3-9 in family 1 and exons 4-6 in family 2 were identified. These recurrent deletions resulted from genomic recombination between an Alu element and distinct retrotransposon subclasses: ERV1 in family 1 and L1MB8 in family 2. The lack of extended homology at breakpoint junctions, deletion sizes, and the dense repetitive genomic architecture support a replication-based rearrangement mechanism, most consistent with fork stalling and template switching or microhomology-mediated break-induced repair (FoSTeS/MMBIR). This study highlights the diagnostic value of long-read HiFi GS for detecting structural variants (SVs) overlooked by standard-of-care NGS and enabling base-pair level breakpoint characterization. It provides the first evidence of retrotransposon-mediated recombination causing recurrent TANGO2 deletions, elucidating the mechanistic underpinnings of genomic instability at this locus. Finally, these results suggest that TDD prevalence may be underestimated because of undetected SVs.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Quentin Sabbagh",
-        "Felipe Villa Tobón",
-        "Zahra Kazemi",
-        "Laura Lentini",
-        "Marie-Emmanuelle Dilenge",
-        "Daniela Buhas",
-        "Tomi Pastinen",
-        "Isabelle Thiffault",
-        "Geneviève Bernard"
-      ],
-      "authors_display": "Quentin Sabbagh, Felipe Villa Tobón, Zahra Kazemi, et al.",
-      "first_seen_at": "2026-05-02T04:17:15Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1101/gr.279414.124",
-        "pmcid": "PMC12047270",
-        "pmid": "42063611"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1101/gr.279414.124",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-29",
-      "short_abstract": "TANGO2 deficiency disorder (TDD) is a rare autosomal recessive condition characterized by neurodevelopmental delay, epilepsy, and metabolic crises, mainly caused by recurrent deletions in TANGO2. This study reports the identification of TDD in 2 unrelated families using long-read HiFi genome sequencing (GS), which uncovered homozygous...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Long-Read HiFi Genome Sequencing Resolves Retrotransposon-Mediated Deletions in TANGO2 Deficiency Disorder.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42063611/",
-      "venue": "Neurol Genet",
-      "venue_display": "Neurol Genet"
-    },
-    {
-      "abstract": "Distinguishing somatic structural variants (SVs) from germline SVs in the absence of matched normal samples has significant value in elucidating disease-driving processes in cancer. Here, we present a protocol for classifying germline SVs in tumor-only contexts using a support vector machine (SVM)-based algorithm. We describe steps for preparing input data and identifying SVs from whole-genome sequencing (WGS) of tumor samples using the SV caller SvABA. We then detail classification procedures via our germline and tumor structural variant classifier (GaTSV). For complete details on the use and execution of this protocol, please refer to Chukwu et al.1.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Wolu Chukwu",
-        "Siyun Lee",
-        "Alexander Crane",
-        "Shu Zhang",
-        "Jeremiah Wala",
-        "Oumayma Dakhama",
-        "Gregory Raskind",
-        "Julia Sun",
-        "Rameen Beroukhim",
-        "Frank Dubois",
-        "Simona Dalin"
-      ],
-      "authors_display": "Wolu Chukwu, Siyun Lee, Alexander Crane, et al.",
-      "first_seen_at": "2026-05-02T04:17:15Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.xpro.2026.104528",
-        "pmcid": null,
-        "pmid": "42065967"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants",
-          "structural variant"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.xpro.2026.104528",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-29",
-      "short_abstract": "Distinguishing somatic structural variants (SVs) from germline SVs in the absence of matched normal samples has significant value in elucidating disease-driving processes in cancer. Here, we present a protocol for classifying germline SVs in tumor-only contexts using a support vector machine (SVM)-based algorithm. We describe steps for...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Classifying germline and somatic structural variants in tumor-only contexts using GaTSV.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42065967/",
-      "venue": "STAR Protoc",
-      "venue_display": "STAR Protoc"
     },
     {
       "abstract": "The flag leaf serves as the primary photosynthetic organ in wheat, and its size is significantly correlated with wheat yield. The mapping of QTLs associated with flag leaf size and the development of closely linked molecular markers holds substantial significance for enhancing wheat yield potential. In this study, a genetic linkage map consisting of 11,583 markers was constructed by the Wheat55K SNP Array, and the quantitative trait loci (QTLs) for flag leaf length (FLL), width (FLW), area (FLA), and length/width ratio (FLR) were mapped across six experimental environments. A total of 97, 273, and 32 QTLs were mapped using the ICIM-BIP, ICIM-MET, and ICIM-EPI methods, respectively. Five QTLs, Q.Fll.sau-2D.1, Q.Flw.sau-1B.2, Q.Flw.sau-4B, Q.Fla.sau-4B.3, and Q.Flr.sau-2D.3, explained 15.97%, 15.28%, 10.81%, 11.00%, and 11.09% of the phenotypic variation on average and were considered major and stable QTLs for the FLL, FLW, FLA, and FLR, respectively. Three Kompetitive Allele-Specific PCR (KASP) markers, which are closely linked to these five QTLs, were designed. The genetic effects of these five QTLs were successfully confirmed in different populations. The pyramiding effect analysis revealed that the stable QTLs mapped in this study can significantly alter flag leaf size-related traits as the number of pyramided loci increases. The parental lines were further genotyped using the 120 K SNP Array, followed by density enhancement of the genetic map for the initial mapping intervals. This significantly narrowed down the physical distance of the initial mapping intervals, and candidate genes within the refined physical intervals were screened. These QTL mapping results of flag leaf size-related traits and the closely linked KASP markers revealed in this study provide new resources for future wheat breeding.",
@@ -571,86 +700,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42047107/",
       "venue": "Mol Biol Evol",
       "venue_display": "Mol Biol Evol"
-    },
-    {
-      "abstract": "Tandem repeats (TRs) are dynamic genomic elements characterized by exceptionally high mutation rates, reversibility, and the capacity to generate graduated phenotypic effects. These properties enable TRs to modulate gene regulation at multiple levels-from transcription and chromatin organization to splicing and protein function. In the human lineage, TR expansions have been recurrently associated with brain evolution, with human-specific repeats enriched near neurodevelopmental genes and linked to neural-specific regulatory elements. However, this same mutational plasticity that facilitated cognitive innovation also introduced genomic instability, rendering the nervous system particularly vulnerable to repeat-associated dysfunction. The brain's unique cellular and molecular properties create an environment particularly permissive to repeat-mediated pathology. Recent studies have revealed diverse pathogenic mechanisms beyond classical models, highlighting the multifaceted ways in which repeat instability can disrupt neural function. Understanding TRs as integral components of neural regulatory architecture, rather than isolated pathogenic loci, provides a framework for interpreting the genetic basis of neurological and psychiatric disorders.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Hyeji Lee",
-        "Joon-Yong An"
-      ],
-      "authors_display": "Hyeji Lee, Joon-Yong An",
-      "first_seen_at": "2026-05-01T04:47:49Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1016/j.mocell.2026.100363",
-        "pmcid": null,
-        "pmid": "42055287"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rates"
-        ]
-      },
-      "paper_key": "doi:10.1016/j.mocell.2026.100363",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-27",
-      "short_abstract": "Tandem repeats (TRs) are dynamic genomic elements characterized by exceptionally high mutation rates, reversibility, and the capacity to generate graduated phenotypic effects. These properties enable TRs to modulate gene regulation at multiple levels-from transcription and chromatin organization to splicing and protein function. In the...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Tandem repeats in human brain evolution and disease susceptibility.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42055287/",
-      "venue": "Mol Cells",
-      "venue_display": "Mol Cells"
-    },
-    {
-      "abstract": "Exposure to chemical pollutants can alter the rate and genome-wide distribution of germline mutations. However, studies measuring the effects of chemical exposure on mutation rates and spectra have not considered the ecological and evolutionary backgrounds of the studied genotypes, which could influence the rates and patterns of germline mutations in altered environments, for example, chemical pollution. Utilising a study of natural Daphnia pulex species complex populations, we conducted a comprehensive experiment to test our hypothesis that adaptation to chemical pollution also protects the germline from mutagenesis. (1) We identified Daphnia populations that have adapted to survive in mining-devastated regions by increasing their cadmium tolerance. (2) We completed a mutation-accumulation (MA) experiment with an adapted genotype to measure the germline mutation rate in both control conditions and an environmentally relevant cadmium concentration. (3) We compared these MA experimental results to a previously reported, identically designed MA experiment with a nonadapted genotype. (4) We report that patterns of cadmium-induced mutagenesis in the adapted genotype were reversed compared to our previous observations in the nonadapted genotype. Cadmium exposure altered the single-nucleotide mutation (SNM) rate in the same genomic regions in both adapted and nonadapted genotypes, but the rates were changed in opposite directions. Cadmium also altered specific SNM classes in these genotypes in opposite directions. The reversal of mutational trends in the adapted genotype suggests protection against cadmium genotoxicity. We further demonstrate that adapted populations have elevated gene copy numbers and expression levels of metallothionein, the protein that protects against cadmium toxicity by irreversibly binding.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Shuting Ding",
-        "Anjali Mahilkar",
-        "Yang Li",
-        "Jianzhi Zhang"
-      ],
-      "authors_display": "Shuting Ding, Anjali Mahilkar, Yang Li, et al.",
-      "first_seen_at": "2026-04-30T04:30:39Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1126/sciadv.adj6957",
-        "pmcid": "PMC4050626",
-        "pmid": "42054461"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "germline mutation rate",
-          "mutation accumulation",
-          "mutation rates"
-        ]
-      },
-      "paper_key": "doi:10.1126/sciadv.adj6957",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-27",
-      "short_abstract": "Exposure to chemical pollutants can alter the rate and genome-wide distribution of germline mutations. However, studies measuring the effects of chemical exposure on mutation rates and spectra have not considered the ecological and evolutionary backgrounds of the studied genotypes, which could influence the rates and patterns of...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Discovery and Evaluation of Cadmium-Adapted Daphnia pulex Genotypes in a Region of Historical Mining Reveals Adaptation Protects the Germline From Cadmium-Induced Mutations.",
-      "topics": [
-        "mutation_rate"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42054461/",
-      "venue": "Sci Adv",
-      "venue_display": "Sci Adv"
     },
     {
       "abstract": "We offer our perspective on the rich literature on the estimation of measures of inbreeding, relatedness, and population structure, beginning with Sewall Wright's F-statistics and moving onto the descriptive statistics of Masatoshi Nei and Clark Cockerham before discussing recent papers. The current availability of genome-level single nucleotide variant data is allowing for sophisticated treatments of inferred identity by descent segments and inferred ancestral recombination graphs. Underlying such disparate methods is an emphasis of characterizing the descent status of alleles within and between individuals and populations, and we have found allele-sharing statistics a convenient framework for examining the differences and similarities among different estimators. We have been able to resolve some long-standing reported differences among estimators, especially those involving the work of Nei. In the course of our algebraic and empirical treatment of descent measure estimation, we have been able to formulate a set of five recommendations. Following the early work of Sewall Wright, we recommend (1) State that descent measures for pairs of alleles are relative to values in a reference set of allele pairs. With this view, we recommend (2) Use estimators that preserve descent measure rankings over different reference sets. Allele-sharing estimators satisfy this recommendation. Reducing genotypic data to allelic data has the benefit of reducing dimensionality, but we recommend (3) If genotypic data are available, avoid having to assume Hardy-Weinberg equilibrium by not reducing them to allelic data. Partly as a consequence of working with genotypic data, we recommend (4) Recognize that allele frequencies do not need to be estimated. Not estimating allele frequencies prevents the confounding of descent estimates for target pairs of alleles by the status of all pairs in a reference set. On the basis of both theoretical and empirical results, finally, we recommend (5) Consider both inbreeding and kinship when estimating either one. It is difficult to envisage a natural population that does not have at least some level of both relatedness and inbreeding.",
