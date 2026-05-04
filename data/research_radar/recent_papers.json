@@ -1,6 +1,219 @@
 {
-  "generated_at": "2026-05-03T04:39:06Z",
+  "generated_at": "2026-05-04T04:38:42Z",
   "latest": [
+    {
+      "abstract": "Hepatocellular carcinoma (HCC) is a prevalent type of malignant tumor known for its aggressive proliferation and invasive behavior. The exact molecular mechanisms underlying HCC development and progression remain unclear. Nevertheless, cuproptosis has been linked to a range of diseases, including cancers, resulting from imbalances in copper homeostasis. Here, a unique signature of long non-coding RNAs (lncRNAs) was developed, known as cuproptosis-related lncRNA (CRlncRNA). This signature has significant value in clinical practice for predicting prognosis and drug sensitivity in individuals with HCC. The transcriptome data and clinical information were retrieved from the Cancer Genome Atlas (TCGA) database. The independent prognostic signature of five CRlncRNAs was constructed by co-expression analysis, Lasso Cox regression analysis, and univariate and multivariate Cox regression analysis. K-M analysis and ROC curve were used to evaluate the effectiveness of the signature in predicting prognosis and IC50 was used to predict the sensitivity of drugs. Furthermore, the differential expression of five CRlncRNAs was validated in clinical HCC samples, and functional in vitro experiments were performed to investigate the biological role of LINC02505, which is one of the five CRlncRNAs. Based on 374 HCC samples, a prognostic risk signature of five lncRNAs was constructed. High-risk patients showed significantly decreased survival periods, indicating that the CRlncRNA signature has predictive value in HCC. Combined with clinical and pathological information, the signature was shown to be an independent prognostic factor. Besides, the CRlncRNA signature was found to be closely associated with the efficacy of many commonly used chemotherapy drugs and targeted drugs for HCC patients. Additionally, further investigations showed that the mutation rate of HCC was related to the CRlncRNA signature, and gene enrichment analysis focused on immune-related pathways. Finally, among the CRlncRNA signature, LINC02505 was tested as a risk factor in vitro. The CRlncRNA signature has significant clinical implications as it offers new biomarkers for evaluating HCC prognosis and guiding clinical medication.",
+      "accent_color": "#f25f4c",
+      "authors": [
+        "Yan Li",
+        "Shiyu Lv",
+        "Yunqiu Wang"
+      ],
+      "authors_display": "Yan Li, Shiyu Lv, Yunqiu Wang",
+      "first_seen_at": "2026-05-04T04:38:42Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1186/s12885-026-16132-w",
+        "pmcid": null,
+        "pmid": "42071198"
+      },
+      "matched_keywords": {
+        "mutation_rate": [
+          "mutation rate"
+        ]
+      },
+      "paper_key": "doi:10.1186/s12885-026-16132-w",
+      "primary_topic": "mutation_rate",
+      "primary_topic_label": "Mutation Rate",
+      "published_date": "2026-05-04",
+      "short_abstract": "Hepatocellular carcinoma (HCC) is a prevalent type of malignant tumor known for its aggressive proliferation and invasive behavior. The exact molecular mechanisms underlying HCC development and progression remain unclear. Nevertheless, cuproptosis has been linked to a range of diseases, including cancers, resulting from imbalances in...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Predicting prognosis and drug sensitivity in patients with hepatocellular carcinoma using an lncRNA signature associated with cuproptosis.",
+      "topics": [
+        "mutation_rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42071198/",
+      "venue": "BMC Cancer",
+      "venue_display": "BMC Cancer"
+    },
+    {
+      "abstract": "Mesomelic dysplasia Savarirayan-type or ID4-related (MDST) is an ultra-rare skeletal dysplasia caused by chromosome 6p22.3 microdeletions. To date, only four cases have been reported. Here, we report a fifth case, a 9 year-old female with severe mesomelic lower limb shortening and characteristic radiographic findings, highly resembling those identified in previous MDST patients. No deletion was identified by array. However, whole genome sequencing (WGS) revealed a de novo inversion at 6p22.3. As hypothesized for deletions detected in this disorder we predict that the structural variant disrupts several topologically associated domains (TADs) in the region and is likely to place ID4 in closer proximity to more telomerically located limb enhancers, which could result in enhancer adoption and potentially lead to ID4 limb misexpression. Thus, this case broadens the genetic spectrum in MDST and provides further support to the role of ID4 dysregulation as the main underlying molecular mechanism of this ultra-rare skeletal disorder.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Elsa Lucas-Castro",
+        "Rosario Ramos-Mejía",
+        "Víctor Sánchez-Gaya",
+        "Álvaro Rada-Iglesias",
+        "Silvia Caíno",
+        "Virginia Fano",
+        "Karen E Heath"
+      ],
+      "authors_display": "Elsa Lucas-Castro, Rosario Ramos-Mejía, Víctor Sánchez-Gaya, et al.",
+      "first_seen_at": "2026-05-04T04:38:42Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1096/fj.201802465r",
+        "pmcid": "2900302",
+        "pmid": "42069959"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variant"
+        ]
+      },
+      "paper_key": "doi:10.1096/fj.201802465r",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-05-02",
+      "short_abstract": "Mesomelic dysplasia Savarirayan-type or ID4-related (MDST) is an ultra-rare skeletal dysplasia caused by chromosome 6p22.3 microdeletions. To date, only four cases have been reported. Here, we report a fifth case, a 9 year-old female with severe mesomelic lower limb shortening and characteristic radiographic findings, highly resembling...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Genomic inversion at 6p22.3 supports ID4 dysregulation as the pathogenic mechanism of Mesomelic dysplasia Savarirayan-type.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42069959/",
+      "venue": "Eur J Hum Genet",
+      "venue_display": "Eur J Hum Genet"
+    },
+    {
+      "abstract": "Apricot (Prunus armeniaca L.), a globally cultivated temperate fruit crop, represents an economically critical species for fresh consumption and value-added products. Despite its agricultural importance, genomic resources have lagged behind other Prunus species, hampering trait dissection and molecular breeding. Here, we present the first telomere-to-telomere (T2T) gap-free genome assembly for the elite cultivar 'Sungold', achieved through the integration of multi-platform sequencing technologies: Illumina short-read, PacBio HiFi, ONT ultra-long, and Hi-C scaffolding. The final assembly spans 251.36 Mb with benchmark quality metrics: a contig N50 of 32.04 Mb, BUSCO completeness score of 98.8%, LTR Assembly Index (LAI) of 15.99, and a consensus quality value (QV) of 59.75. The T2T assembly achieved the resolution of all eight centromeres, together with fourteen intact telomeres, confirming its high structural integrity. Genomic annotation revealed 43.38% of repetitive sequences and 25,999 predicted protein-coding genes. This gap-free T2T genome resource establishes the highest-resolution reference for investigating apricot genome evolution, structural variation, and trait-associated genetic mechanisms in modern breeding programs.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Zhenyu Huang",
+        "Hangling Bie",
+        "Xinyue Su",
+        "Lehan Xia",
+        "Long Chen",
+        "Yuling Chen",
+        "Ruigang Wu",
+        "Ming Li",
+        "Pingyong Wang",
+        "Ke Cao"
+      ],
+      "authors_display": "Zhenyu Huang, Hangling Bie, Xinyue Su, et al.",
+      "first_seen_at": "2026-05-04T04:38:42Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41597-026-07371-4",
+        "pmcid": null,
+        "pmid": "42069840"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "structural variation"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41597-026-07371-4",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-05-02",
+      "short_abstract": "Apricot (Prunus armeniaca L.), a globally cultivated temperate fruit crop, represents an economically critical species for fresh consumption and value-added products. Despite its agricultural importance, genomic resources have lagged behind other Prunus species, hampering trait dissection and molecular breeding. Here, we present the...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "A telomere-to-telomere gap-free genome assembly of apricot (Prunus armeniaca L.).",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42069840/",
+      "venue": "Sci Data",
+      "venue_display": "Sci Data"
+    },
+    {
+      "abstract": "Labeo catla is a commercially important Indian Major Carp, yet its genetic improvement has been hindered by a lack of high-resolution genomic resources. We report the construction of the first high-density SNP-based genetic linkage map for this species and present the associated genomic datasets deposited in public repositories. Mapping populations derived from five full-sib families (CF1, CF5, CF7, CF8, and CF11) comprising 196 individuals (10 parents and 190 offspring) were genotyped via Genotyping-by-Sequencing (GBS), generating 133.94 GB of raw sequence data. Using 782 informative SNP markers and Kosambi's mapping function, we resolved 25 complete linkage groups (LGs), consistent with the haploid karyotype of L. catla (n = 25). The resulting map spans a total genetic distance of 1279.8 cM, achieving a high-resolution average marker interval of 1.63 cM. Beyond linkage mapping, these markers were utilized to anchor 668 previously unplaced scaffolds, effectively organizing 502.33 Mb (49.29%) of the L. catla draft genome into pseudo-chromosomes. LG2 was identified as the largest pseudo-chromosome (213.83 Mb), while LG4 was the smallest (1.8 Mb). The average chromosome size was approximately 36.39 Mb. Comparative genomic analysis confirmed extensive chromosomal colinearity and conserved synteny between L. catla and Labeo rohita, with significantly higher structural divergence observed against the Danio rerio model. This high-density map and the subsequent chromosome-level scaffold anchoring provide a critical genomic framework for positional cloning, Marker-Assisted Selection (MAS), and the identification of Quantitative Trait Loci (QTLs) for traits such as rapid growth and disease resistance, accelerating the genetic enhancement of this species in Asian aquaculture.",
+      "accent_color": "#8b5e34",
+      "authors": [
+        "Bismay Sahoo",
+        "Priyanka Nandanpawar",
+        "Gargee Das",
+        "Nirjharini Priyadarshini",
+        "Lakshman Sahoo",
+        "Jitendra Kumar Sundaray",
+        "Paramananda Das"
+      ],
+      "authors_display": "Bismay Sahoo, Priyanka Nandanpawar, Gargee Das, et al.",
+      "first_seen_at": "2026-05-04T04:38:42Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1038/s41597-026-07246-8",
+        "pmcid": null,
+        "pmid": "42069696"
+      },
+      "matched_keywords": {
+        "recombination": [
+          "linkage map"
+        ]
+      },
+      "paper_key": "doi:10.1038/s41597-026-07246-8",
+      "primary_topic": "recombination",
+      "primary_topic_label": "Recombination",
+      "published_date": "2026-05-02",
+      "short_abstract": "Labeo catla is a commercially important Indian Major Carp, yet its genetic improvement has been hindered by a lack of high-resolution genomic resources. We report the construction of the first high-density SNP-based genetic linkage map for this species and present the associated genomic datasets deposited in public repositories. Mapping...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "First high-density linkage map based on GBS derived genome wide SNP markers in Labeo catla (Hamilton, 1822).",
+      "topics": [
+        "recombination"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42069696/",
+      "venue": "Sci Data",
+      "venue_display": "Sci Data"
+    },
+    {
+      "abstract": "Lactiplantibacillus plantarum HY7715, isolated from Korean kimchi, has been previously reported to overproduce riboflavin in vitro and in vivo, indicating its functional potential as a probiotic candidate. Given this characteristic, a comprehensive safety and genomic evaluation is required prior to application. In this study, we assessed the safety, genomic stability, and probiotic-related properties of HY7715 through whole-genome sequencing, comparative genomics, and phenotypic analyses. The genome (3,348,486 bp; 44.29% GC content) was assembled into seven contigs and encoded 3,224 protein-coding sequences, of which 2,933 functionally annotated. No virulence factors or acquired antimicrobial resistance genes were detected, and mobile genetic elements did not harbor undesirable determinants. Although phenotypic resistance to kanamycin was observed, the absence of corresponding resistance genes indicates intrinsic resistance. HY7715 also exhibited γ-hemolysis and lacked genes associated with cytotoxic secondary metabolites or biogenic amine production. The rib operon was identified in the genome, and in silico analysis of the FMN riboswitch region revealed a unique nucleotide substitution potentially affecting regulatory conformation, which may contribute to the riboflavin-overproducing phenotype. Comparative pangenome analysis of 60 L. plantarum genomes revealed that HY7715 shares a conserved genomic backbone dominated by core and soft-core genes. Genes associated with stress tolerance, adhesion, carbohydrate utilization, and bacteriocin production were identified, consistent with probiotic-related traits. Collectively, these findings indicate that HY7715 is a genomically stable and safe strain with regulatory features supporting its functional probiotic potential.",
+      "accent_color": "#2f8f6b",
+      "authors": [
+        "Ju-Eun Lee",
+        "Tae-Hyun Lim",
+        "Ji-Hyun Kim",
+        "Yong-Tae Kim",
+        "Jae Jung Shim",
+        "Jae-Hwan Lee"
+      ],
+      "authors_display": "Ju-Eun Lee, Tae-Hyun Lim, Ji-Hyun Kim, et al.",
+      "first_seen_at": "2026-05-04T04:38:42Z",
+      "identifiers": {
+        "arxiv_id": null,
+        "biorxiv_doi": null,
+        "doi": "10.1016/j.cels.2018.04.009",
+        "pmcid": "3434740",
+        "pmid": "42068436"
+      },
+      "matched_keywords": {
+        "pangenome_sv": [
+          "pangenome"
+        ]
+      },
+      "paper_key": "doi:10.1016/j.cels.2018.04.009",
+      "primary_topic": "pangenome_sv",
+      "primary_topic_label": "Pangenome / Structural Variation",
+      "published_date": "2026-05-02",
+      "short_abstract": "Lactiplantibacillus plantarum HY7715, isolated from Korean kimchi, has been previously reported to overproduce riboflavin in vitro and in vivo, indicating its functional potential as a probiotic candidate. Given this characteristic, a comprehensive safety and genomic evaluation is required prior to application. In this study, we...",
+      "source_primary": "pubmed",
+      "sources": [
+        "pubmed"
+      ],
+      "title": "Comprehensive Evaluation of Safety and Probiotic Potential of Lactiplantibacillus plantarum HY7715 Isolated from Korean kimchi.",
+      "topics": [
+        "pangenome_sv"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42068436/",
+      "venue": "Probiotics Antimicrob Proteins",
+      "venue_display": "Probiotics Antimicrob Proteins"
+    },
     {
       "abstract": "Structural variants (SV) are major drivers of evolutionary processes such as adaptation and speciation, yet their complexity and dynamics in wild populations remain largely unexplored. Avian diversity is highest in the Neotropics, primarily due to the suboscine passerine radiation; however, despite this diversity, genomic resources and studies of SVs in suboscines are scarce compared to their sister clade, the oscine passerines (\"songbirds\"). Here, we used long-read and chromatin conformation capture sequencing to assemble a high-quality scaffolded reference genome and construct a population-scale pangenome from 5 individuals of the Pearly-vented Tody-Tyrant (Hemitriccus margaritaceiventer), a suboscine bird with plumage variation across its distribution in South American dry forests. Our pangenome graph reveals extensive structural variation, with the chromosomal distribution of SVs strongly predicted by simple and low-complexity repeats - highlighting how specific repeat architecture may influence genome evolution. We discovered intraspecific copy number variation in multigene families, with the most complex instance including beta-keratin genes. Lastly, we identified a 306 kb inversion spanning several melanin pigmentation-associated genes (e.g. MREG, MLPH, RAB17), making it a potential candidate SV for known intraspecific plumage variation. Our study establishes a population-scale pangenome resource for a suboscine bird, enabling characterization of the genome-wide abundance, diversity, and distribution of SVs within this species.",
       "accent_color": "#2f8f6b",
@@ -74,7 +287,7 @@
         "arxiv_id": null,
         "biorxiv_doi": null,
         "doi": "10.1002/cam4.71811",
-        "pmcid": null,
+        "pmcid": "PMC11031428",
         "pmid": "42068110"
       },
       "matched_keywords": {
@@ -185,172 +398,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42067623/",
       "venue": "Nat Microbiol",
       "venue_display": "Nat Microbiol"
-    },
-    {
-      "abstract": "Aplastic anemia (AA) results from T-cell-mediated destruction of hematopoietic stem and progenitor cells (HSPCs), driving clonal hematopoiesis via loss of human leukocyte antigen (HLA) risk alleles (HLA loss-of-function mutations or uniparental disomy 6p, UPD6p), paroxysmal nocturnal hemoglobinuria and clonal hematopoiesis of indeterminate potential (CHIP) mutations. Here genomic profiling of 619 patients with AA revealed clonal hematopoiesis in 69% of cases, with ASXL1, BCOR and BCORL1 identified as the most frequent CHIP mutations in pediatric cases. Single-cell multi-omics analysis of 304,902 cells from 48 samples uncovered complex branching clonal architecture, with a median of three HLA loss events per patient, converging to inactivate HLA risk alleles. Single-cell whole-genome sequencing (WGS) resolved up to 15 HLA loss clones per patient and phylogenetic reconstruction indicated that these clones originated years before diagnosis. Long-read WGS precisely mapped UPD6p breakpoints and HLA methylation. HLA loss conferred a protective effect against CHIP, evidenced by their near-absent co-occurrence. Longitudinal single-cell analysis demonstrated that long-lived clones were enriched in the CD34+ HSPC compartment. These findings reveal parallel evolutionary pathways used by hematopoietic cells to evade immune attack.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Masanori Yoshida",
-        "Sushree S Sahoo",
-        "Paula Y Arnold",
-        "Carmelo Gurnari",
-        "Anaïs J C N van Leeuwen",
-        "Limeng Pu",
-        "Markus J van Roosmalen",
-        "Ti-Cheng Chang",
-        "Charnise Goodings",
-        "Rashid Mehmood",
-        "Lucca L M Derks",
-        "Nathan Gray",
-        "Michelle Boals",
-        "Sara Lewis",
-        "Lili Kotmayer",
-        "Cristyn N Branstetter",
-        "Swapna Thota",
-        "Joshua Leow",
-        "Wenchao Zhang",
-        "Yichao Li",
-        "Melanie R Loyd",
-        "Granger Ridout",
-        "Emily V Walker",
-        "Christy W LaFlamme",
-        "Heather C Mefford",
-        "Zachary Brady",
-        "Yash B Shah",
-        "Rheanna G Congdon",
-        "Miriam Erlacher",
-        "Brigitte Strahm",
-        "Ayami Yoshimi",
-        "Shinsuke Hirabayashi",
-        "Helen D Reed",
-        "Akiko Shimamura",
-        "Guolian Kang",
-        "Xiang Chen",
-        "Jinghui Zhang",
-        "Charlotte M Niemeyer",
-        "Joseph H Oved",
-        "Timothy S Olson",
-        "Ruben van Boxtel",
-        "Jaroslaw P Maciejewski",
-        "Daria V Babushok",
-        "Marcin W Wlodarski"
-      ],
-      "authors_display": "Masanori Yoshida, Sushree S Sahoo, Paula Y Arnold, et al.",
-      "first_seen_at": "2026-05-03T04:39:06Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1038/s41586-021-04312-6",
-        "pmcid": "6993851",
-        "pmid": "42067644"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variation"
-        ]
-      },
-      "paper_key": "doi:10.1038/s41586-021-04312-6",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-05-01",
-      "short_abstract": "Aplastic anemia (AA) results from T-cell-mediated destruction of hematopoietic stem and progenitor cells (HSPCs), driving clonal hematopoiesis via loss of human leukocyte antigen (HLA) risk alleles (HLA loss-of-function mutations or uniparental disomy 6p, UPD6p), paroxysmal nocturnal hemoglobinuria and clonal hematopoiesis of...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "High-resolution single-cell mapping of clonal hematopoiesis and structural variation in aplastic anemia.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42067644/",
-      "venue": "Nat Genet",
-      "venue_display": "Nat Genet"
-    },
-    {
-      "abstract": "Aneuploidy is intrinsically associated with nascent polyploidy, yet its evolutionary relevance in this specific context remains unknown. We assessed evolvability, defined as \"progeny fitness,\" of transgenerationally selected aneuploid and euploid cohorts in a synthetic allotetraploid wheat under both regular condition and three abiotic stresses. We find that ~30% of the aneuploid cohorts manifested significantly higher evolvability than euploidy even under regular normal condition, and the vast majority of individuals that survived any of the three stresses were aneuploidies with loss/gain of specific chromosomes; the few euploid survivors were all progenies of stress-tolerant parental aneuploidies, which contained the same inherited multiple structural variants. Physiological assay revealed stress-induced shifting of cellular physiological profiles which move toward or transgress those of the more tolerant diploid parent in the stress-tolerant cohorts. Whole-genome resequencing ruled out nucleotide-level mutation as an underpinning. This study demonstrates that aneuploidy may serve as a transit springboard contributing to the establishment of nascent polyploidy by imparting its stress tolerance and higher evolvability properties to euploid progenies.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Han Wang",
-        "Ruisi Wang",
-        "Boshi Chen",
-        "Tariq Aslam",
-        "Taotao Lian",
-        "Chunming Xu",
-        "Bao Liu",
-        "Ruili Lv"
-      ],
-      "authors_display": "Han Wang, Ruisi Wang, Boshi Chen, et al.",
-      "first_seen_at": "2026-05-02T04:17:15Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1126/sciadv.aec8789",
-        "pmcid": null,
-        "pmid": "42066068"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "structural variants"
-        ]
-      },
-      "paper_key": "doi:10.1126/sciadv.aec8789",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-05-01",
-      "short_abstract": "Aneuploidy is intrinsically associated with nascent polyploidy, yet its evolutionary relevance in this specific context remains unknown. We assessed evolvability, defined as \"progeny fitness,\" of transgenerationally selected aneuploid and euploid cohorts in a synthetic allotetraploid wheat under both regular condition and three abiotic...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Aneuploidy confers environmentally robust higher evolvability than euploidy in a synthetic allotetraploid wheat.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42066068/",
-      "venue": "Sci Adv",
-      "venue_display": "Sci Adv"
-    },
-    {
-      "abstract": "The human oral microbiome, a complex ecosystem of niche-specific communities influenced by local ecological factors, plays a critical role in health and disease. Capnocytophaga species are prevalent in the human mouth, often abundant in dental plaque and linked to both commensalism and pathogenicity, motivating a detailed study of their ecological and functional diversity. This study employs metapangenomics to reveal Capnocytophaga strain-level distributions and functional adaptations across distinct sites in the human oral cavity. Pangenomic, phylogenetic, and average nucleotide identity analyses enabled classification of unnamed genomes and identified 13 groups, of which 8 include validly named species, and the remainder are named using Human Microbial Taxon (HMT) designations in the Human Oral Microbiome Database (HOMD; https://www.homd.org/). Mapping metagenomic reads to the pangenome revealed a strong preference of most Capnocytophaga genomes for dental plaque (both supra- and subgingival), yet identified strain-level variants of C. sputigena, C. gingivalis, C. granulosa, and C. leadbetteri detected more often on the tongue. Among dental plaque-abundant taxa, functional analyses uncovered two clades: one with cbb3-type cytochrome oxidase that is tied to enhanced denitrification and could help the organism adapt to hypoxic zones, and another with bd-type ubiquinol oxidase, more suited to aerobic metabolism. Carbohydrate and amino acid metabolism pathways also differed between these clades. These findings identify metabolic adaptations that may underlie sub-specialization within the plaque habitat and highlight the strain-level diversity of Capnocytophaga, including low-prevalence strains that are preferentially detected in sites outside the primary plaque habitat of this taxon. Understanding the ecological roles of Capnocytophaga in the oral microbiome is critical for deciphering its contributions to health and disease, including periodontal and systemic infections. This metapangenomics study reveals a pronounced specialization by Capnocytophaga to dental plaque (including supragingival, subgingival, and periodontal pockets) and identifies metabolic adaptations, such as distinct respiratory, carbohydrate, and amino acid pathways, that may drive niche-specific survival. These findings support the site-specialist hypothesis and enhance our understanding of oral microbial community structure, laying a foundation for future research into microbial interactions and targeted therapies for oral health.",
-      "accent_color": "#2f8f6b",
-      "authors": [
-        "Jonathan J Giacomini",
-        "Julian Torres-Morales",
-        "Floyd E Dewhirst",
-        "Gary G Borisy",
-        "Jessica L Mark Welch"
-      ],
-      "authors_display": "Jonathan J Giacomini, Julian Torres-Morales, Floyd E Dewhirst, et al.",
-      "first_seen_at": "2026-05-01T04:47:49Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1128/spectrum.03626-25",
-        "pmcid": null,
-        "pmid": "42059625"
-      },
-      "matched_keywords": {
-        "pangenome_sv": [
-          "pangenomic",
-          "pangenome"
-        ]
-      },
-      "paper_key": "doi:10.1128/spectrum.03626-25",
-      "primary_topic": "pangenome_sv",
-      "primary_topic_label": "Pangenome / Structural Variation",
-      "published_date": "2026-04-30",
-      "short_abstract": "The human oral microbiome, a complex ecosystem of niche-specific communities influenced by local ecological factors, plays a critical role in health and disease. Capnocytophaga species are prevalent in the human mouth, often abundant in dental plaque and linked to both commensalism and pathogenicity, motivating a detailed study of their...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Spatial ecology of the Capnocytophaga genus in the human oral cavity.",
-      "topics": [
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42059625/",
-      "venue": "Microbiol Spectr",
-      "venue_display": "Microbiol Spectr"
     },
     {
       "abstract": "The synaptonemal complex (SC) is a highly ordered proteinaceous structure that assembles between homologous chromosomes during the prophase I of meiosis. Conserved as a tripartite architecture across species, the SC plays a central role in chromosome synapsis, meiotic recombination, and faithful chromosome segregation. This review marks the 70th anniversary of the discovery of the synaptonemal complex by Montrose Moses in 1956. In mammals, the SC is composed of eight core (canonical) structural proteins: SYCP1, SYCP2, SYCP3, SYCE1, SYCE2, SYCE3, SIX6OS1, and TEX12. The archetypal SC consists of two lateral elements (SYCP2 and SYCP3), a central element (SYCE1/2/3, SIX6OS1, and TEX12), and numerous transverse filaments (SYCP1). A shared structural feature of SC components is the presence of coiled-coil domains. Although the tripartite organization of the SC is evolutionarily conserved, its constituent proteins exhibit little to no sequence homology across species. In addition to these core components, a number of proteins, including HORMAD1, HORMAD2, TRIP13, SKP1, CDCA5 (Sororin), UBE2I (UBC9), SYCP2L, HSPA2, PSMA8, and FKBP6, associate with the SC. Beyond serving as a structural scaffold essential for homolog synapsis, SC proteins interact with key recombination factors such as DMC1, RAD51, and TEX11, thereby regulating recombination progression and crossover formation. Genetic, biochemical, and structural analyses of SC components have provided important mechanistic insights into SC assembly and function, as well as their clinical relevance to non-obstructive azoospermia (NOA) and premature ovarian insufficiency (POI) in humans.",
@@ -617,89 +664,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42052925/",
       "venue": "Plant Physiol",
       "venue_display": "Plant Physiol"
-    },
-    {
-      "abstract": "Plant meiosis constitutes a critical vulnerability under unfavorable conditions in plant reproduction. In the 21st century, with the accelerating global climate change, environmental stresses increasingly compromise fertility and genetic stability. This review examines the role of abiotic stress factors - including heat, cold, drought, salinity, heavy metals, and oxidative stress - in disruption of plant meiosis, the achilles' heel of sexual processes. Heat stress appears particularly damaging, by compromising several molecular functions, such as DNA double-strand break formation, chromosome axis formation and spindle assembly. Cold stress affects meiotic recombination patterns as well as induces cytoskeletal disruption leading to unreduced gamete formation. While drought primarily impacts post-meiotic pollen development rather than meiosis itself, heavy metals cause widespread chromosomal abnormalities, generating reactive oxygen species and chromatin architectural alterations. In these stress responses, oxidative damage appears as a convergent pathway, yet paradoxically, controlled ROS production remains essential for normal meiotic progression. Critically, meiotic vulnerability is not merely an evolutionary oversight but potentially an adaptive feature. Stress-induced increasing recombination rate elevates genetic diversity, while weak checkpoints permit aneuploidy and unreduced gamete formation, thus facilitate polyploidization, a primary driver of plant speciation.",
-      "accent_color": "#8b5e34",
-      "authors": [
-        "Attila Fábián"
-      ],
-      "authors_display": "Attila Fábián",
-      "first_seen_at": "2026-04-30T04:30:39Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/molbev/msac123",
-        "pmcid": "9210943",
-        "pmid": "42053800"
-      },
-      "matched_keywords": {
-        "recombination": [
-          "double strand break formation",
-          "meiotic recombination"
-        ]
-      },
-      "paper_key": "doi:10.1093/molbev/msac123",
-      "primary_topic": "recombination",
-      "primary_topic_label": "Recombination",
-      "published_date": "2026-04-29",
-      "short_abstract": "Plant meiosis constitutes a critical vulnerability under unfavorable conditions in plant reproduction. In the 21st century, with the accelerating global climate change, environmental stresses increasingly compromise fertility and genetic stability. This review examines the role of abiotic stress factors - including heat, cold, drought,...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "The meiotic achilles' heel: vulnerability and resilience under environmental stress.",
-      "topics": [
-        "recombination"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42053800/",
-      "venue": "Protoplasma",
-      "venue_display": "Protoplasma"
-    },
-    {
-      "abstract": "Although recent advances in genomics have enabled the high-resolution study of whole genomes, our understanding of one of the key evolutionary processes, mutation, still remains limited. In primates specifically, studies have largely focused on humans and their closest evolutionary relatives, the great apes, as well as a handful of species of biomedical or conservation interest. Yet, as mutation rates vary across genomic regions, individuals, and species, a greater understanding of the underlying evolutionary dynamics at play will ultimately be illuminated by not only additional sampling across the Order, but also by a greater depth of sampling within-species. To address these needs, we here present the first population-scale genomic resources for the coppery titi monkey (Plecturocebus cupreus)-a platyrrhine of considerable biomedical interest for both social behavior and neurobiology. Deep whole-genome sequencing of 15 parent-offspring trios, together with a computational de novo mutation detection pipeline based on pan-genome graphs, has provided a detailed picture of the sex-averaged mutation rate-0.63 × 10-8 (95% CI: 0.43 × 10-8-0.90 × 10-8) per site per generation-as well as the effects of both sex and parental age on underlying rates, demonstrating a significant paternal age effect. Coppery titi monkey males exhibit long reproductive lifespans, afforded by long-term pair bonding in the species' monogamous mating system, and our results have demonstrated that individuals reproducing later in life exhibit one of the strongest male mutation biases observed in any non-human primate studied to date. Taken together, this study thus provides an important piece of the puzzle for better comprehending the mutational landscape across primates.",
-      "accent_color": "#f25f4c",
-      "authors": [
-        "Cyril J Versoza",
-        "Karen L Bales",
-        "Jeffrey D Jensen",
-        "Susanne P Pfeifer"
-      ],
-      "authors_display": "Cyril J Versoza, Karen L Bales, Jeffrey D Jensen, et al.",
-      "first_seen_at": "2026-04-29T04:27:57Z",
-      "identifiers": {
-        "arxiv_id": null,
-        "biorxiv_doi": null,
-        "doi": "10.1093/molbev/msag112",
-        "pmcid": null,
-        "pmid": "42047107"
-      },
-      "matched_keywords": {
-        "mutation_rate": [
-          "mutation rates",
-          "mutation rate"
-        ],
-        "pangenome_sv": [
-          "pan genome"
-        ]
-      },
-      "paper_key": "doi:10.1093/molbev/msag112",
-      "primary_topic": "mutation_rate",
-      "primary_topic_label": "Mutation Rate",
-      "published_date": "2026-04-28",
-      "short_abstract": "Although recent advances in genomics have enabled the high-resolution study of whole genomes, our understanding of one of the key evolutionary processes, mutation, still remains limited. In primates specifically, studies have largely focused on humans and their closest evolutionary relatives, the great apes, as well as a handful of...",
-      "source_primary": "pubmed",
-      "sources": [
-        "pubmed"
-      ],
-      "title": "Characterization of de novo germline mutations suggests a strong male mutation bias in coppery titi monkeys (Plecturocebus cupreus).",
-      "topics": [
-        "mutation_rate",
-        "pangenome_sv"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42047107/",
-      "venue": "Mol Biol Evol",
-      "venue_display": "Mol Biol Evol"
     },
     {
       "abstract": "We offer our perspective on the rich literature on the estimation of measures of inbreeding, relatedness, and population structure, beginning with Sewall Wright's F-statistics and moving onto the descriptive statistics of Masatoshi Nei and Clark Cockerham before discussing recent papers. The current availability of genome-level single nucleotide variant data is allowing for sophisticated treatments of inferred identity by descent segments and inferred ancestral recombination graphs. Underlying such disparate methods is an emphasis of characterizing the descent status of alleles within and between individuals and populations, and we have found allele-sharing statistics a convenient framework for examining the differences and similarities among different estimators. We have been able to resolve some long-standing reported differences among estimators, especially those involving the work of Nei. In the course of our algebraic and empirical treatment of descent measure estimation, we have been able to formulate a set of five recommendations. Following the early work of Sewall Wright, we recommend (1) State that descent measures for pairs of alleles are relative to values in a reference set of allele pairs. With this view, we recommend (2) Use estimators that preserve descent measure rankings over different reference sets. Allele-sharing estimators satisfy this recommendation. Reducing genotypic data to allelic data has the benefit of reducing dimensionality, but we recommend (3) If genotypic data are available, avoid having to assume Hardy-Weinberg equilibrium by not reducing them to allelic data. Partly as a consequence of working with genotypic data, we recommend (4) Recognize that allele frequencies do not need to be estimated. Not estimating allele frequencies prevents the confounding of descent estimates for target pairs of alleles by the status of all pairs in a reference set. On the basis of both theoretical and empirical results, finally, we recommend (5) Consider both inbreeding and kinship when estimating either one. It is difficult to envisage a natural population that does not have at least some level of both relatedness and inbreeding.",
