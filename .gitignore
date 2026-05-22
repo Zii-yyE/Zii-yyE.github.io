@@ -3,8 +3,4 @@ __pycache__/
 *.pyc
 *.pyo
 .venv/
-research-radar/.pytest_cache/
-research-radar/.mypy_cache/
-research-radar/state/*.sqlite3-shm
-research-radar/state/*.sqlite3-wal
 content/private/

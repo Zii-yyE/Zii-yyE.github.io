@@ -46,10 +46,6 @@ languages:
           name: Publications
           url: /publications/
           weight: 2
-        - identifier: research-radar
-          name: Research Radar
-          url: /research-radar/
-          weight: 3
 
     params:
       profileMode:
