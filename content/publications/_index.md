@@ -9,7 +9,7 @@
 
 ## Publications
 {{< paper 
-  title="Experimental and modeling demonstration of stronger population suppression by gene drive targeting doublesex from dominant female-sterile resistance alleles" 
+  title="Experimental and modeling demonstration of stronger population suppression by gene drive targeting *doublesex* from dominant female-sterile resistance alleles" 
   authors="Weizhe Chen, **Ziye Wang**, Jackson Champer" 
   journal="Nature Communications, 2026" 
   pdf="Chen2025-doublesex.pdf" 
