@@ -14,7 +14,7 @@ layout: "single"
       <span style="font-size: 0.9em; color: var(--secondary); white-space: nowrap; margin-left: 1rem;">Starting 2026</span>
     </div>
     <p style="margin: 0; line-height: 1.6;">
-      <strong>Ph.D. in Computational Biology</strong>, <em>Center for Computational Biology</em><br>
+      <strong>Ph.D. in Computational Biology</strong>, <a href="https://ccb.berkeley.edu/">Center for Computational Biology</a><br>
     </p>
   </div>
 </div>
@@ -28,8 +28,8 @@ layout: "single"
       <span style="font-size: 0.9em; color: var(--secondary); white-space: nowrap; margin-left: 1rem;">2022 – 2026</span>
     </div>
     <p style="margin: 0; line-height: 1.6;">
-      <strong>B.S. in Bioinformatics</strong>, <em>School of Life Sciences</em><br>
-      <strong>B.S. in Mathematics</strong>, <em>School of Mathematical Sciences</em>
+      <strong>B.S. in Bioinformatics</strong>, <a href="https://www.bio.pku.edu.cn/">School of Life Sciences</a><br>
+      <strong>B.S. in Mathematics</strong>, <a href="https://math.pku.edu.cn/">School of Mathematical Sciences</a>
     </p>
   </div>
 </div>
@@ -37,7 +37,7 @@ layout: "single"
 ## Research Interests
 
 I am interested in computational method development in evolutionary genomics, particularly in the context of structural variations and pangenome graphs. 
-
+<!-- 
 ### Mechanisms generating structural variations
 
 
@@ -47,4 +47,4 @@ I am interested in computational method development in evolutionary genomics, pa
 ### Mutation and recombination in structurally complex genomes
 
 
-### Biological phenomena where structural variation is behind the curtain
+### Biological phenomena where structural variation is behind the curtain -->

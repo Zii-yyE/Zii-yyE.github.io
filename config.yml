@@ -25,9 +25,11 @@ params:
     - name: email
       url: "mailto:ziyewang0324@gmail.com"
     - name: googlescholar
-      url: "https://scholar.google.com/citations?user=your-google-scholar-id"
+      url: "https://scholar.google.com/citations?user=kh1J30YAAAAJ"
     - name: bluesky
       url: "https://bsky.app/profile/ziiyye.bsky.social"
+    - name: github
+      url: "https://github.com/Zii-yyE"
   math: true
 
 languages:
@@ -51,10 +53,17 @@ languages:
       profileMode:
         enabled: true
         title: "Ziye Wang"
-        subtitle: "<span style='font-size: 0.9rem; color: grey;'>Evolutionary Genomics, Statistical Genomics</span>"
+        subtitle: >
+          <span style="font-size: 1.2rem; color: var(--primary);">
+            PhD student in Computational Biology, UC Berkeley
+          </span>
+          <br>
+          <span style="font-size: 0.95rem; color: var(--secondary);">
+            Population Genetics · Evolutionary Genomics · Phylogenetics
+          </span>
         imageUrl: "/me.jpeg"      
-        imageWidth: 180             
-        imageHeight: 180             
+        imageWidth: 200             
+        imageHeight: 200             
         imageTitle: "My Avatar"
         buttons:
           - name: About
