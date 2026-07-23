@@ -1,4 +1,4 @@
-baseURL: 'https://Zii-yyE.github.io/'
+baseURL: 'https://zii-yye.github.io/'
 defaultContentLanguage: academic
 disableLanguages:
   - personal
@@ -22,6 +22,7 @@ markup:
         enable: true
 
 params:
+  description: "Ziye Wang is a PhD student in Computational Biology at UC Berkeley working on population genetics, evolutionary genomics, phylogenetics, and pangenome methods."
   defaultTheme: auto 
   socialIcons:
     - name: email
