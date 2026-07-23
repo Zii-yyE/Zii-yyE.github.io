@@ -34,6 +34,17 @@ layout: "single"
   </div>
 </div>
 
+<div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem;">
+  <img src="/fdfz-logo.png" alt="FDFZ Logo" style="width: 85px; height: 85px; object-fit: contain; margin-right: 1.5rem; margin-top: 5px; box-shadow: none; border: none;">
+  
+  <div style="flex: 1; min-width: 0;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px;">
+      <h3 style="margin: 0;">High School Affiliated to Fudan University</h3>
+      <span style="font-size: 0.9em; color: var(--secondary); white-space: nowrap; margin-left: 1rem;">2019 – 2022</span>
+    </div>
+  </div>
+</div>
+
 ## Research Interests
 
 I am interested in computational method development in evolutionary genomics, particularly in the context of structural variations and pangenome graphs. 

@@ -1,5 +1,7 @@
 baseURL: 'https://Zii-yyE.github.io/'
 defaultContentLanguage: academic
+disableLanguages:
+  - personal
 theme: 'papermod'
 
 markup:
